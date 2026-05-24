@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/savlo/site-footer"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Términos de Servicio — Savlo",
+  title: "Terms of Service — Savlo",
   description:
-    "Lea los Términos de Servicio de Savlo, la aplicación móvil de finanzas personales con inteligencia artificial.",
+    "Read the Terms of Service for Savlo, the AI-powered personal finance mobile application.",
   alternates: {
     canonical: "/terms",
   },
@@ -14,34 +14,34 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   const tocItems = [
-    { id: "1-nuestros-servicios", label: "1. NUESTROS SERVICIOS" },
-    { id: "2-derechos-de-propiedad-intelectual", label: "2. DERECHOS DE PROPIEDAD INTELECTUAL" },
-    { id: "3-representaciones-de-los-usuarios", label: "3. REPRESENTACIONES DE LOS USUARIOS" },
-    { id: "4-registro-de-usuario", label: "4. REGISTRO DE USUARIO" },
-    { id: "5-compras-y-pagos", label: "5. COMPRAS Y PAGOS" },
-    { id: "6-suscripciones", label: "6. SUSCRIPCIONES" },
+    { id: "1-our-services", label: "1. OUR SERVICES" },
+    { id: "2-intellectual-property-rights", label: "2. INTELLECTUAL PROPERTY RIGHTS" },
+    { id: "3-user-representations", label: "3. USER REPRESENTATIONS" },
+    { id: "4-user-registration", label: "4. USER REGISTRATION" },
+    { id: "5-purchases-and-payment", label: "5. PURCHASES AND PAYMENT" },
+    { id: "6-subscriptions", label: "6. SUBSCRIPTIONS" },
     { id: "7-software", label: "7. SOFTWARE" },
-    { id: "8-actividades-prohibidas", label: "8. ACTIVIDADES PROHIBIDAS" },
-    { id: "9-contribuciones-generadas-por-el-usuario", label: "9. CONTRIBUCIONES GENERADAS POR EL USUARIO" },
-    { id: "10-licencia-de-contribucion", label: "10. LICENCIA DE CONTRIBUCIÓN" },
-    { id: "11-licencia-de-aplicacion-movil", label: "11. LICENCIA DE APLICACIÓN MÓVIL" },
-    { id: "12-sitios-web-y-contenido-de-terceros", label: "12. SITIOS WEB Y CONTENIDO DE TERCEROS" },
-    { id: "13-gestion-de-servicios", label: "13. GESTIÓN DE SERVICIOS" },
-    { id: "14-politica-de-privacidad", label: "14. POLÍTICA DE PRIVACIDAD" },
-    { id: "15-plazo-y-terminacion", label: "15. PLAZO Y TERMINACIÓN" },
-    { id: "16-modificaciones-e-interrupciones", label: "16. MODIFICACIONES E INTERRUPCIONES" },
-    { id: "17-ley-aplicable", label: "17. LEY APLICABLE" },
-    { id: "18-resolucion-de-disputas", label: "18. RESOLUCIÓN DE DISPUTAS" },
-    { id: "19-correcciones", label: "19. CORRECCIONES" },
-    { id: "20-descargo-de-responsabilidad", label: "20. DESCARGO DE RESPONSABILIDAD" },
-    { id: "21-limitaciones-de-responsabilidad", label: "21. LIMITACIONES DE RESPONSABILIDAD" },
-    { id: "22-indemnizacion", label: "22. INDEMNIZACIÓN" },
-    { id: "23-datos-del-usuario", label: "23. DATOS DEL USUARIO" },
-    { id: "24-comunicaciones-transacciones-y-firmas-electronicas", label: "24. COMUNICACIONES, TRANSACCIONES Y FIRMAS ELECTRÓNICAS" },
-    { id: "25-usuarios-y-residentes-de-california", label: "25. USUARIOS Y RESIDENTES DE CALIFORNIA" },
-    { id: "26-varios", label: "26. VARIOS" },
-    { id: "27-decisiones-financieras-del-usuario", label: "27. DECISIONES FINANCIERAS DEL USUARIO" },
-    { id: "28-contactenos", label: "28. CONTÁCTENOS" },
+    { id: "8-prohibited-activities", label: "8. PROHIBITED ACTIVITIES" },
+    { id: "9-user-generated-contributions", label: "9. USER-GENERATED CONTRIBUTIONS" },
+    { id: "10-contribution-license", label: "10. CONTRIBUTION LICENSE" },
+    { id: "11-mobile-application-license", label: "11. MOBILE APPLICATION LICENSE" },
+    { id: "12-third-party-websites-and-content", label: "12. THIRD-PARTY WEBSITES AND CONTENT" },
+    { id: "13-services-management", label: "13. SERVICES MANAGEMENT" },
+    { id: "14-privacy-policy", label: "14. PRIVACY POLICY" },
+    { id: "15-term-and-termination", label: "15. TERM AND TERMINATION" },
+    { id: "16-modifications-and-interruptions", label: "16. MODIFICATIONS AND INTERRUPTIONS" },
+    { id: "17-governing-law", label: "17. GOVERNING LAW" },
+    { id: "18-dispute-resolution", label: "18. DISPUTE RESOLUTION" },
+    { id: "19-corrections", label: "19. CORRECTIONS" },
+    { id: "20-disclaimer", label: "20. DISCLAIMER" },
+    { id: "21-limitation-of-liability", label: "21. LIMITATION OF LIABILITY" },
+    { id: "22-indemnification", label: "22. INDEMNIFICATION" },
+    { id: "23-user-data", label: "23. USER DATA" },
+    { id: "24-communications-transactions-and-signatures", label: "24. COMMUNICATIONS, TRANSACTIONS, AND ELECTRONIC SIGNATURES" },
+    { id: "25-california-users-and-residents", label: "25. CALIFORNIA USERS AND RESIDENTS" },
+    { id: "26-miscellaneous", label: "26. MISCELLANEOUS" },
+    { id: "27-user-financial-decisions", label: "27. USER FINANCIAL DECISIONS" },
+    { id: "28-contact-us", label: "28. CONTACT US" },
   ]
 
   return (
@@ -54,21 +54,21 @@ export default function TermsPage() {
           <ol className="flex items-center gap-1.5">
             <li>
               <Link href="/" className="transition-colors hover:text-foreground">
-                Inicio
+                Home
               </Link>
             </li>
             <li aria-hidden>·</li>
-            <li className="text-foreground/80">Términos de Servicio</li>
+            <li className="text-foreground/80">Terms of Service</li>
           </ol>
         </nav>
 
         {/* Top Header */}
         <header className="border-b border-border/60 pb-10">
           <h1 className="font-serif text-4xl font-medium leading-[1.1] tracking-tight text-foreground sm:text-5xl uppercase">
-            TÉRMINOS DE SERVICIO
+            TERMS OF SERVICE
           </h1>
           <p className="mt-3 text-sm text-muted-foreground">
-            Última actualización 24 de mayo de 2026
+            Last updated May 24, 2026
           </p>
         </header>
 
@@ -77,39 +77,39 @@ export default function TermsPage() {
           {/* Aceptación */}
           <section className="space-y-5 text-[15px] text-foreground/90">
             <h2 className="font-serif text-2xl font-medium tracking-tight text-foreground uppercase">
-              ACEPTACIÓN DE NUESTROS TÉRMINOS LEGALES
+              ACCEPTANCE OF OUR LEGAL TERMS
             </h2>
             <p>
-              Somos Savlo (&ldquo;<strong>Compañía</strong>&rdquo;, &ldquo;<strong>nosotros</strong>&rdquo;, &ldquo;<strong>nos</strong>&rdquo;, &ldquo;<strong>nuestro</strong>&rdquo;), una empresa registrada en Argentina, en Bahía Blanca, Bahía Blanca, Buenos Aires 8000.
+              We are Savlo (&ldquo;<strong>Company</strong>,&rdquo; &ldquo;<strong>we</strong>,&rdquo; &ldquo;<strong>us</strong>,&rdquo; or &ldquo;<strong>our</strong>&rdquo;), a company registered in Argentina, located in Bahía Blanca, Buenos Aires 8000.
             </p>
             <p>
-              Operamos la aplicación móvil Savlo (la &ldquo;<strong>Aplicación</strong>&rdquo;), así como cualquier otro producto o servicio relacionado que haga referencia o enlace a estos términos legales (los &ldquo;<strong>Términos Legales</strong>&rdquo;) (colectivamente, los &ldquo;<strong>Servicios</strong>&rdquo;).
+              We operate the Savlo mobile application (the &ldquo;<strong>Application</strong>&rdquo;), as well as any other related product or service that references or links to these legal terms (the &ldquo;<strong>Legal Terms</strong>&rdquo;) (collectively, the &ldquo;<strong>Services</strong>&rdquo;).
             </p>
             <p>
-              Savlo es una aplicación de finanzas personales que ayuda a los usuarios a realizar un seguimiento y gestionar sus gastos e ingresos, establecer objetivos de ahorro y obtener información valiosa, basada en inteligencia artificial, sobre sus hábitos de gasto.
+              Savlo is a personal finance application that helps users track and manage their expenses and income, set savings goals, and gain valuable AI-powered insights about their spending habits.
             </p>
             <p>
-              Puedes contactarnos por correo electrónico en{" "}
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
-                soporte@savloapp.com
-              </a>{" "}o por correo a Bahía Blanca, Bahía Blanca, Buenos Aires 8000, Argentina.
+              You can contact us by email at{" "}
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
+                support@savloapp.com
+              </a>{" "}or by mail to Bahía Blanca, Buenos Aires 8000, Argentina.
             </p>
             <p>
-              Estos Términos Legales constituyen un acuerdo legalmente vinculante celebrado entre usted, ya sea a título personal o en nombre de una entidad (&ldquo;<strong>tú</strong>&rdquo;), y Savlo, en relación con su acceso y uso de los Servicios. Al acceder a ellos, usted acepta que ha leído, comprendido y se compromete a cumplir con todos estos Términos Legales. SI NO ESTÁ DE ACUERDO CON TODOS ESTOS TÉRMINOS LEGALES, TIENE PROHIBIDO EXPRESAMENTE UTILIZAR LOS SERVICIOS Y DEBE INTERRUMPIR SU USO INMEDIATAMENTE.
+              These Legal Terms constitute a legally binding agreement entered into between you, either individually or on behalf of an entity (&ldquo;<strong>you</strong>&rdquo;), and Savlo, concerning your access to and use of the Services. By accessing them, you agree that you have read, understood, and commit to comply with all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND MUST DISCONTINUE YOUR USE IMMEDIATELY.
             </p>
             <p>
-              Los términos y condiciones o documentos complementarios que puedan publicarse en los Servicios de vez en cuando se incorporan expresamente al presente documento por referencia. Nos reservamos el derecho, a nuestra entera discreción, de realizar cambios o modificaciones a estos Términos Legales. Le avisaremos de cualquier cambio actualizando la fecha de &ldquo;Última actualización&rdquo;. Al continuar utilizando los Servicios después de la fecha de publicación de estos Términos Legales revisados, usted renuncia a cualquier derecho a recibir notificación específica de cada cambio. Es su responsabilidad revisar periódicamente estos Términos Legales para mantenerse informado sobre las actualizaciones.
+              The terms and conditions or supplementary documents that may be published on the Services from time to time are expressly incorporated into this document by reference. We reserve the right, at our sole discretion, to make changes or modifications to these Legal Terms. We will notify you of any changes by updating the date of &ldquo;Last updated.&rdquo; By continuing to use the Services after the date these revised Legal Terms are posted, you waive any right to receive specific notice of each change. It is your responsibility to review these Legal Terms periodically to stay informed of updates.
             </p>
             <p>
-              Los Servicios están destinados a usuarios mayores de 18 años. Las personas menores de 18 años no están autorizadas a utilizar ni a registrarse en los Servicios.
+              The Services are intended for users over the age of 18. Individuals under 18 years of age are not authorized to use or register for the Services.
             </p>
-            <p>Le recomendamos que imprima una copia de estos Términos Legales para sus archivos.</p>
+            <p>We recommend that you print a copy of these Legal Terms for your records.</p>
           </section>
 
           {/* Table of Contents */}
           <section id="table-of-contents" className="border-t border-border/40 pt-10 scroll-mt-24">
             <h2 className="font-serif text-2xl font-medium tracking-tight text-foreground uppercase">
-              TABLA DE CONTENIDO
+              TABLE OF CONTENTS
             </h2>
             <nav className="mt-6">
               <ul className="space-y-3.5 text-[14px]">
@@ -128,133 +128,133 @@ export default function TermsPage() {
           </section>
 
           {/* ── 1 ── */}
-          <section id="1-nuestros-servicios" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">1. NUESTROS SERVICIOS</h2>
+          <section id="1-our-services" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">1. OUR SERVICES</h2>
             <p>
-              La información proporcionada al utilizar los Servicios no está destinada a ser distribuida ni utilizada por ninguna persona o entidad en ninguna jurisdicción o país donde dicha distribución o uso sea contrario a la ley o a la normativa vigente, o que nos someta a algún requisito de registro en dicha jurisdicción o país. Por consiguiente, quienes decidan acceder a los Servicios desde otras ubicaciones lo hacen por iniciativa propia y son los únicos responsables del cumplimiento de las leyes locales, si estas fueran aplicables.
+              The information provided when using the Services is not intended to be distributed or used by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulations, or would subject us to any registration requirement in such jurisdiction or country. Accordingly, those who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if applicable.
             </p>
             <p>
-              Los Servicios no están diseñados para cumplir con las regulaciones específicas del sector (Ley de Portabilidad y Responsabilidad del Seguro Médico [HIPAA], Ley Federal de Gestión de la Seguridad de la Información [FISMA], etc.), por lo que si sus interacciones estuvieran sujetas a dichas leyes, no podrá utilizar los Servicios. Tampoco podrá utilizar los Servicios de forma que infrinja la Ley Gramm-Leach-Bliley (GLBA).
+              The Services are not designed to comply with industry-specific regulations (Health Insurance Portability and Accountability Act [HIPAA], Federal Information Security Management Act [FISMA], etc.), so if your interactions are subject to such laws, you may not use the Services. You also may not use the Services in a manner that violates the Gramm-Leach-Bliley Act (GLBA).
             </p>
           </section>
 
           {/* ── 2 ── */}
-          <section id="2-derechos-de-propiedad-intelectual" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">2. DERECHOS DE PROPIEDAD INTELECTUAL</h2>
+          <section id="2-intellectual-property-rights" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">2. INTELLECTUAL PROPERTY RIGHTS</h2>
 
-            <h3 className="font-semibold text-foreground text-[15px]">Nuestra propiedad intelectual</h3>
+            <h3 className="font-semibold text-foreground text-[15px]">Our intellectual property</h3>
             <p>
-              Somos los propietarios o licenciatarios de todos los derechos de propiedad intelectual en nuestros Servicios, incluyendo todo el código fuente, bases de datos, funcionalidad, software, diseños de sitios web, audio, video, texto, fotografías y gráficos en los Servicios (colectivamente, el &ldquo;Contenido&rdquo;), así como las marcas comerciales, marcas de servicio y logotipos contenidos en el mismo (las &ldquo;Marcas&rdquo;).
+              We own or license all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the &ldquo;Content&rdquo;), as well as the trademarks, service marks, and logos contained therein (the &ldquo;Marks&rdquo;).
             </p>
             <p>
-              Nuestro contenido y nuestras marcas están protegidos por las leyes de derechos de autor y marcas registradas (y diversas otras leyes de propiedad intelectual y de competencia desleal) y tratados en los Estados Unidos y alrededor del mundo.
+              Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property and unfair competition laws) and treaties in the United States and around the world.
             </p>
             <p>
-              El Contenido y las Marcas se proporcionan en o a través de los Servicios &ldquo;TAL CUAL&rdquo; para tu uso personal y no comercial solo.
+              The Content and Marks are provided on or through the Services &ldquo;AS IS&rdquo; for your personal and non-commercial use only.
             </p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Su uso de nuestros Servicios</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Your use of our Services</h3>
             <p>
-              Sujeto a su cumplimiento de estos Términos Legales, incluida la sección{" "}
-              <a href="#8-actividades-prohibidas" className="text-primary hover:underline font-semibold uppercase">&ldquo;ACTIVIDADES PROHIBIDAS&rdquo;</a>{" "}a continuación, le otorgamos una licencia no exclusiva, intransferible y revocable para:
+              Subject to your compliance with these Legal Terms, including the section{" "}
+              <a href="#8-prohibited-activities" className="text-primary hover:underline font-semibold uppercase">&ldquo;PROHIBITED ACTIVITIES&rdquo;</a>{" "}below, we grant you a non-exclusive, nontransferable, and revocable license to:
             </p>
             <ul className="pl-6 space-y-2 list-disc marker:text-primary">
-              <li>acceder a los Servicios; y</li>
-              <li>descargar o imprimir una copia de cualquier parte del Contenido al que haya accedido correctamente,</li>
+              <li>access the Services; and</li>
+              <li>download or print a copy of any portion of the Content to which you have properly accessed,</li>
             </ul>
-            <p>exclusivamente para tu uso personal y no comercial.</p>
+            <p>solely for your personal and non-commercial use.</p>
             <p>
-              Salvo lo estipulado en esta sección o en cualquier otra parte de nuestros Términos Legales, ninguna parte de los Servicios ni ningún Contenido o Marca podrá ser copiado, reproducido, agregado, republicado, cargado, publicado, exhibido públicamente, codificado, traducido, transmitido, distribuido, vendido, licenciado o explotado de cualquier otra forma para ningún propósito comercial, sin nuestra autorización previa expresa por escrito.
+              Except as expressly set out in this section or any other part of our Legal Terms, no part of the Services, Content, or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or exploited for any commercial purpose whatsoever, without our prior express written authorization.
             </p>
             <p>
-              Si desea hacer uso de los Servicios, el Contenido o las Marcas de manera distinta a la establecida en esta sección o en cualquier otra parte de nuestros Términos Legales, dirija su solicitud a:{" "}
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">soporte@savloapp.com</a>. Si en algún momento le otorgamos permiso para publicar, reproducir o mostrar públicamente cualquier parte de nuestros Servicios o Contenido, deberá identificarnos como los propietarios o licenciatarios de los Servicios, el Contenido o las Marcas y asegurarse de que cualquier aviso de derechos de autor o de propiedad aparezca o sea visible al publicar, reproducir o mostrar nuestro Contenido.
+              If you wish to use the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please direct your request to:{" "}
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">support@savloapp.com</a>. If we ever grant you permission to publish, reproduce, or publicly display any portion of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible when you publish, reproduce, or display our Content.
             </p>
-            <p>Nos reservamos todos los derechos no otorgados expresamente a usted en relación con los Servicios, el Contenido y las Marcas.</p>
-            <p>Cualquier infracción de estos Derechos de Propiedad Intelectual constituirá una infracción grave de nuestros Términos Legales y su derecho a utilizar nuestros Servicios finalizará de inmediato.</p>
+            <p>We reserve all rights not expressly granted to you with respect to the Services, Content, and Marks.</p>
+            <p>Any violation of these Intellectual Property Rights will constitute a serious violation of our Legal Terms and your right to use our Services will terminate immediately.</p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Sus envíos</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Your submissions</h3>
             <p>
-              Por favor revise esta sección y la sección{" "}
-              <a href="#8-actividades-prohibidas" className="text-primary hover:underline font-semibold uppercase">&ldquo;ACTIVIDADES PROHIBIDAS&rdquo;</a>{" "}atentamente antes de utilizar nuestros Servicios para comprender (a) los derechos que nos otorga y (b) las obligaciones que tiene cuando publica o carga cualquier contenido a través de los Servicios.
+              Please review this section and the section{" "}
+              <a href="#8-prohibited-activities" className="text-primary hover:underline font-semibold uppercase">&ldquo;PROHIBITED ACTIVITIES&rdquo;</a>{" "}carefully before using our Services to understand (a) the rights you give us and (b) your obligations when you post or upload any content through the Services.
             </p>
             <p>
-              <strong className="text-foreground">Envíos:</strong> Al enviarnos directamente cualquier pregunta, comentario, sugerencia, idea, opinión u otra información sobre los Servicios (&ldquo;Presentaciones&rdquo;), al enviar este material, usted acepta cedernos todos los derechos de propiedad intelectual sobre el mismo. Asimismo, acepta que seremos los propietarios de este material y tendremos derecho a su uso y difusión sin restricciones para cualquier fin lícito, comercial o de otra índole, sin necesidad de reconocimiento ni compensación alguna.
+              <strong className="text-foreground">Submissions:</strong> By sending us directly any question, comment, suggestion, idea, feedback, or other information about the Services (&ldquo;Submissions&rdquo;), by submitting this material, you agree to transfer all intellectual property rights to us. You also agree that we will own this material and will have the right to its unrestricted use and dissemination for any lawful, commercial, or other purpose, without the need for recognition or compensation.
             </p>
             <p>
-              <strong className="text-foreground">Usted es responsable de lo que publica o sube:</strong> Al enviarnos Envíos a través de cualquier parte de los Servicios tú:
+              <strong className="text-foreground">You are responsible for what you post or upload:</strong> By sending us Submissions through any part of the Services, you:
             </p>
             <ul className="pl-6 space-y-2 list-disc marker:text-primary">
-              <li>Confirmas que has leído y aceptas nuestros términos y condiciones (&ldquo;ACTIVIDADES PROHIBIDAS&rdquo;) y no publicarás, enviarás, divulgará, cargará ni transmitirá a través de los Servicios ningún Envío que sea ilegal, acosador, odioso, dañino, difamatorio, obsceno, intimidatorio, abusivo, discriminatorio, amenazante para cualquier persona o grupo, sexualmente explícito, falso, inexacto, engañoso o confuso;</li>
-              <li>en la medida permitida por la ley aplicable, renuncia a todos y cada uno de los derechos morales sobre cualquier Envío de este tipo;</li>
-              <li>garantizan que cualquier envío de este tipo son originales de usted o que usted tiene los derechos necesarios y licencias para presentar dichas presentaciones y que usted tiene plena autoridad para otorgarnos los derechos mencionados anteriormente en relación con sus Envíos; y</li>
-              <li>garantizo y declaro que sus Envíos no constituyen información confidencial.</li>
+              <li>Confirm that you have read and accept our terms and conditions (&ldquo;PROHIBITED ACTIVITIES&rdquo;) and will not post, send, disclose, upload, or transmit through the Services any Submission that is illegal, harassing, hateful, harmful, defamatory, obscene, intimidating, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, misleading, or deceptive;</li>
+              <li>to the extent permitted by applicable law, waive all moral rights to any such Submission;</li>
+              <li>warrant that any such submission is original to you or that you have the necessary rights and licenses to submit such submissions and that you have full authority to grant us the rights mentioned above with respect to your Submissions; and</li>
+              <li>warrant and represent that your Submissions do not constitute confidential information.</li>
             </ul>
             <p>
-              Usted es el único responsable de sus envíos, y usted acepta expresamente reembolsarnos por todas y cada una de las pérdidas que podamos sufrir debido a su incumplimiento de (a) esta sección, (b) los derechos de propiedad intelectual de cualquier tercero o (c) la ley aplicable.
+              You are solely responsible for your Submissions, and you expressly agree to indemnify us for any and all losses we may incur due to your breach of (a) this section, (b) any intellectual property rights of any third party, or (c) applicable law.
             </p>
           </section>
 
           {/* ── 3 ── */}
-          <section id="3-representaciones-de-los-usuarios" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">3. REPRESENTACIONES DE LOS USUARIOS</h2>
+          <section id="3-user-representations" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">3. USER REPRESENTATIONS</h2>
             <p>
-              Al utilizar los Servicios, usted declara y garantiza que: (1) toda la información de registro que envíe será verdadera, precisa, actual y completa; (2) mantendrá la precisión de dicha información y actualizará puntualmente dicha información de registro según sea necesario; (3) usted tiene la capacidad legal y acepta cumplir con estos Términos Legales; (4) usted no es menor de edad en la jurisdicción en la que reside; (5) no accederá a los Servicios a través de medios automatizados o no humanos, ya sea a través de un bot, script o de otro modo; (6) no utilizará los Servicios para ningún fin ilegal o no autorizado; y (7) su uso de los Servicios no violará ninguna ley o reglamento aplicable.
+              By using the Services, you represent and warrant that: (1) all registration information you submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such information and promptly update such registration information as necessary; (3) you have the legal capacity and agree to comply with these Legal Terms; (4) you are not a minor in the jurisdiction in which you reside; (5) you will not access the Services through automated or non-human means, whether through a bot, script, or otherwise; (6) you will not use the Services for any illegal or unauthorized purpose; and (7) your use of the Services will not violate any applicable law or regulation.
             </p>
             <p>
-              Si proporciona información falsa, inexacta, desactualizada o incompleta, tenemos derecho a suspender o cancelar su cuenta y a rechazar cualquier uso presente o futuro de los Servicios (o cualquier parte de los mismos).
+              If you provide any information that is false, inaccurate, outdated, or incomplete, we have the right to suspend or cancel your account and to refuse any present or future use of the Services (or any portion thereof).
             </p>
           </section>
 
           {/* ── 4 ── */}
-          <section id="4-registro-de-usuario" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">4. REGISTRO DE USUARIO</h2>
+          <section id="4-user-registration" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">4. USER REGISTRATION</h2>
             <p>
-              Es posible que deba registrarse para usar los Servicios. Usted se compromete a mantener la confidencialidad de su contraseña y será responsable de todo uso de su cuenta y contraseña. Nos reservamos el derecho de eliminar, recuperar o cambiar el nombre de usuario que usted seleccione si, a nuestra entera discreción, consideramos que dicho nombre de usuario es inapropiado, obsceno o de alguna otra manera objetable.
+              You may need to register to use the Services. You commit to maintaining the confidentiality of your password and will be responsible for all use of your account and password. We reserve the right to delete, recover, or change the username you select if, at our sole discretion, we consider that such username is inappropriate, obscene, or objectionable in any way.
             </p>
           </section>
 
           {/* ── 5 ── */}
-          <section id="5-compras-y-pagos" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">5. COMPRAS Y PAGOS</h2>
-            <p>Aceptamos las siguientes formas de pago:</p>
+          <section id="5-purchases-and-payment" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">5. PURCHASES AND PAYMENT</h2>
+            <p>We accept the following forms of payment:</p>
             <ul className="pl-6 space-y-2 list-disc marker:text-primary">
               <li>Google Play Store / Apple App Store</li>
             </ul>
             <p>
-              Usted acepta proporcionar información de compra y de cuenta actual, completa y precisa para todas las compras realizadas a través de los Servicios. Asimismo, acepta actualizar puntualmente la información de la cuenta y del pago, incluyendo la dirección de correo electrónico, el método de pago y la fecha de vencimiento de la tarjeta de pago, para que podamos completar sus transacciones y contactarlo cuando sea necesario. Se agregará el impuesto sobre las ventas al precio de las compras según lo consideremos necesario. Podemos cambiar los precios en cualquier momento. Todos los pagos se realizarán en dólares estadounidenses.
+              You agree to provide current, complete, and accurate purchase and account information for all purchases made through the Services. You also agree to promptly update account and payment information, including email address, payment method, and credit card expiration date, so we can complete your transactions and contact you when necessary. Sales tax will be added to the purchase price as we deem necessary. We may change prices at any time. All payments will be made in U.S. dollars.
             </p>
             <p>
-              Usted acepta pagar todos los cargos a los precios vigentes en ese momento por sus compras y cualquier tarifa de envío aplicable, y usted autoriza a que carguemos dichos importes a su proveedor de pago seleccionado al realizar su pedido. Nos reservamos el derecho de corregir cualquier error en los precios, incluso si ya hemos solicitado o recibido el pago.
+              You agree to pay all charges at the prices then in effect for your purchases and any applicable shipping fees, and you authorize us to charge such amounts to your selected payment provider when you place your order. We reserve the right to correct any pricing errors, even if we have already requested or received payment.
             </p>
             <p>
-              Nos reservamos el derecho de rechazar cualquier pedido realizado a través de los Servicios. Podemos, a nuestra entera discreción, limitar o cancelar las cantidades compradas por persona, por hogar o por pedido. Estas restricciones pueden incluir pedidos realizados por o bajo la misma cuenta de cliente, el mismo método de pago y/o pedidos que utilicen la misma dirección de facturación o envío. Nos reservamos el derecho de limitar o prohibir pedidos que, a nuestra entera discreción, juicio, parezcan ser colocados por comerciantes, revendedores o distribuidores.
+              We reserve the right to refuse any order placed through the Services. We may, at our sole discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed by or under the same customer account, the same payment method, and/or orders that use the same billing or shipping address. We reserve the right to limit or prohibit orders that, at our sole discretion, appear to be placed by merchants, resellers, or distributors.
             </p>
           </section>
 
           {/* ── 6 ── */}
-          <section id="6-suscripciones" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">6. SUSCRIPCIONES</h2>
+          <section id="6-subscriptions" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">6. SUBSCRIPTIONS</h2>
 
-            <h3 className="font-semibold text-foreground text-[15px]">Facturación y renovación</h3>
+            <h3 className="font-semibold text-foreground text-[15px]">Billing and Renewal</h3>
             <p>
-              Tu suscripción continuará y se renovará automáticamente a menos que sea cancelada. Usted acepta que carguemos a su método de pago de forma recurrente sin necesidad de su aprobación previa para cada cargo recurrente, hasta que cancele el pedido correspondiente. La duración de su ciclo de facturación dependerá del tipo de plan de suscripción que elija al suscribirte a los Servicios.
+              Your subscription will continue and renew automatically unless canceled. You agree that we may charge your payment method on a recurring basis without requiring your prior approval for each recurring charge, until you cancel the corresponding order. The length of your billing cycle will depend on the type of subscription plan you choose when you subscribe to the Services.
             </p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Prueba gratuita</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Free Trial</h3>
             <p>
-              Ofrecemos una prueba gratuita de 14 días para nuevos usuarios que se registren en los Servicios. El cargo en la cuenta se realizará de acuerdo con la suscripción elegida por el usuario al final del período de prueba gratuito.
+              We offer a 14-day free trial for new users who register for the Services. Charges to your account will be made in accordance with the subscription chosen by the user at the end of the free trial period.
             </p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Cancelación</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Cancellation</h3>
             <p>
-              Puedes cancelar tu suscripción en cualquier momento iniciando sesión en tu cuenta. Su cancelación entrará en vigor al final del período pagado actual. Si tiene alguna pregunta o no está satisfecho con nuestros Servicios, envíenos un correo electrónico a{" "}
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">soporte@savloapp.com</a>.
+              You can cancel your subscription at any time by logging into your account. Your cancellation will take effect at the end of your current paid period. If you have any questions or are not satisfied with our Services, please email us at{" "}
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">support@savloapp.com</a>.
             </p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Cambios en las tarifas</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Changes in Fees</h3>
             <p>
-              Ocasionalmente, podremos modificar la cuota de suscripción y le comunicaremos cualquier cambio de precio de acuerdo con la legislación aplicable.
+              Occasionally, we may modify the subscription fee and will communicate any price changes in accordance with applicable law.
             </p>
           </section>
 
@@ -262,81 +262,81 @@ export default function TermsPage() {
           <section id="7-software" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
             <h2 className="font-serif text-xl font-semibold text-foreground uppercase">7. SOFTWARE</h2>
             <p>
-              Podemos incluir software para su uso en relación con nuestros Servicios. Si dicho software viene acompañado de un acuerdo de licencia de usuario final (&ldquo;EULA&rdquo;), los términos del EULA regirán su uso del software. Si dicho software no está acompañado de un EULA, entonces le otorgamos una licencia no exclusiva, revocable, personal e intransferible para utilizar dicho software únicamente en relación con nuestros servicios y de conformidad con estos Términos Legales. Cualquier software y cualquier documentación relacionada se proporciona &ldquo;TAL CUAL&rdquo; sin garantía de ningún tipo, ya sea expresa o implícita, incluyendo, sin limitación, las garantías implícitas de comerciabilidad, idoneidad para un propósito particular o no infracción. Usted acepta todos y cada uno de los riesgos que surjan del uso o funcionamiento de cualquier software. No podrá reproducir ni redistribuir ningún software, salvo de conformidad con el EULA o estos Términos Legales.
+              We may include software for use in connection with our Services. If such software is accompanied by an end-user license agreement (&ldquo;EULA&rdquo;), the terms of the EULA will govern your use of the software. If such software is not accompanied by an EULA, then we grant you a non-exclusive, revocable, personal, and nontransferable license to use such software solely in connection with our services and in compliance with these Legal Terms. Any software and any related documentation is provided &ldquo;AS IS&rdquo; without any warranty of any kind, either express or implied, including, without limitation, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. You accept all and any risks arising from the use or operation of any software. You may not reproduce or redistribute any software except in compliance with the EULA or these Legal Terms.
             </p>
           </section>
 
           {/* ── 8 ── */}
-          <section id="8-actividades-prohibidas" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">8. ACTIVIDADES PROHIBIDAS</h2>
+          <section id="8-prohibited-activities" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">8. PROHIBITED ACTIVITIES</h2>
             <p>
-              No podrá acceder ni utilizar los Servicios para ningún otro fin que no sea aquel para el que ponemos los Servicios a su disposición. Los Servicios no podrán utilizarse en relación con ningún fin comercial, excepto aquellas actividades que estén específicamente respaldadas o aprobadas por nosotros.
+              You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial endeavor except those specifically endorsed or approved by us.
             </p>
-            <p>Como usuario de los Servicios, usted acepta no:</p>
+            <p>As a user of the Services, you agree not to:</p>
             <ul className="pl-6 space-y-2 list-disc marker:text-primary">
-              <li>Recuperar sistemáticamente datos u otro contenido de los Servicios para crear o compilar, directa o indirectamente, una colección, compilación, base de datos o directorio sin nuestro permiso por escrito.</li>
-              <li>Engañarnos, estafarnos o inducirnos a error a nosotros y a otros usuarios, especialmente en cualquier intento de obtener información confidencial de la cuenta, como las contraseñas de los usuarios.</li>
-              <li>Eludir, deshabilitar o interferir de cualquier otra forma con las funciones relacionadas con la seguridad de los Servicios, incluidas las funciones que impiden o restringen el uso o la copia de cualquier Contenido o que imponen limitaciones al uso de los Servicios y/o del Contenido que contienen.</li>
-              <li>Menospreciar, desprestigiar o perjudicar de cualquier otro modo, en nuestra opinión, a nosotros y/o a los Servicios.</li>
-              <li>No utilice ninguna información obtenida a través de los Servicios para acosar, abusar o dañar a otra persona.</li>
-              <li>Hacer un uso indebido de nuestros servicios de soporte o presentar informes falsos de abuso o mala conducta.</li>
-              <li>Utilizar los Servicios de una manera que no sea compatible con las leyes o regulaciones aplicables.</li>
-              <li>Participar en uso no autorizado de marcos o enlaces a los Servicios.</li>
-              <li>Cargar o transmitir (o intentar cargar o transmitir) virus, troyanos u otro material, incluido el uso excesivo de mayúsculas y el envío de spam (publicación continua de texto repetitivo), que interfiera con el uso y disfrute ininterrumpido de los Servicios por parte de cualquier usuario o que modifique, perjudique, interrumpa, altere o interfiera con el uso, las características, las funciones, el funcionamiento o el mantenimiento de los Servicios.</li>
-              <li>Queda prohibido cualquier uso automatizado del sistema, como el uso de scripts para enviar comentarios o mensajes, o el uso de minería de datos, robots o herramientas similares de recopilación y extracción de datos.</li>
-              <li>Elimine el aviso de derechos de autor u otros derechos de propiedad de cualquier Contenido.</li>
-              <li>Intentar suplantar la identidad de otro usuario o persona, o utilizar el nombre de usuario de otro usuario.</li>
-              <li>Cargar o transmitir (o intentar cargar o transmitir) cualquier material que actúe como mecanismo pasivo o activo de recopilación o transmisión de información, incluyendo, entre otros, formatos de intercambio de gráficos claros (&ldquo;gifs&rdquo;), píxeles de 1×1, web bugs, cookies u otros dispositivos similares (a veces denominados &ldquo;software espía&rdquo; o &ldquo;mecanismos de recopilación pasiva&rdquo; o &ldquo;PCM&rdquo;).</li>
-              <li>Interferir, interrumpir o crear una carga indebida en los Servicios o en las redes o servicios conectados a los Servicios.</li>
-              <li>Acosar, molestar, intimidar o amenazar a cualquiera de nuestros empleados o agentes que participen en la prestación de cualquier parte de los Servicios.</li>
-              <li>Intentar eludir cualquier medida de los Servicios diseñada para prevenir o restringir el acceso a los Servicios, o a cualquier parte de los mismos.</li>
-              <li>Copiar o adaptar el software de los Servicios, incluyendo, entre otros, Flash, PHP, HTML, JavaScript u otro código.</li>
-              <li>Salvo que lo permita la ley aplicable, no se permite descifrar, descompilar, desensamblar ni aplicar ingeniería inversa a ningún software que forme parte de los Servicios o que de alguna manera los integre.</li>
-              <li>Excepto en los casos en que sea el resultado del uso estándar de un motor de búsqueda o navegador de Internet, utilice, inicie, desarrolle o distribuya cualquier sistema automatizado, incluyendo, entre otros, cualquier araña, robot, utilidad de trampa, raspador o lector fuera de línea que acceda a los Servicios, o utilice o inicie cualquier script no autorizado u otro software.</li>
-              <li>Utilice un agente de compras para realizar compras en los Servicios.</li>
-              <li>Haz cualquier uso no autorizado de los Servicios, incluyendo la recopilación de nombres de usuario y/o direcciones de correo electrónico de los usuarios por medios electrónicos o de otro tipo con el propósito de enviar correos electrónicos no solicitados, o la creación de cuentas de usuario por medios automatizados o bajo falsas pretensiones.</li>
-              <li>Utilizar los Servicios como parte de cualquier esfuerzo para competir con nosotros o utilizar de otro modo los Servicios y/o el Contenido para cualquier actividad generadora de ingresos, empeño o empresa comercial.</li>
-              <li>Vende o transfiere tu perfil de cualquier otra forma.</li>
+              <li>Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection, compilation, database, or directory without our written permission.</li>
+              <li>Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.</li>
+              <li>Circumvent, disable, or otherwise interfere with security-related features of the Services, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Services and/or the Content contained therein.</li>
+              <li>Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Services.</li>
+              <li>Use any information obtained from the Services in order to harass, abuse, or harm another person.</li>
+              <li>Misuse our support services or submit false reports of abuse or misconduct.</li>
+              <li>Use the Services in a manner inconsistent with any applicable laws or regulations.</li>
+              <li>Engage in unauthorized framing of or linking to the Services.</li>
+              <li>Upload or transmit (or attempt to upload or transmit) viruses, Trojan horses or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party&apos;s uninterrupted use and enjoyment of the Services or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Services.</li>
+              <li>Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.</li>
+              <li>Delete the copyright or other proprietary rights notice from any Content.</li>
+              <li>Attempt to impersonate another user or person or use the username of another user.</li>
+              <li>Upload or transmit (or attempt to upload or transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation clear graphics interchange formats (&ldquo;gifs&rdquo;), 1x1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as &ldquo;spyware&rdquo; or &ldquo;passive collection mechanisms&rdquo; or &ldquo;PCMs&rdquo;).</li>
+              <li>Interfere with, disrupt, or create an undue burden on the Services or the networks or services connected to the Services.</li>
+              <li>Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Services to you.</li>
+              <li>Attempt to bypass any measures of the Services designed to prevent or restrict access to the Services, or any portion of the Services.</li>
+              <li>Copy or adapt the Services&apos; software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.</li>
+              <li>Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any software comprising or in any way making up a part of the Services or that in any manner integrates it.</li>
+              <li>Except as the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation any spider, robot, cheat utility, scraper, or offline reader that accesses the Services, or use or launch any unauthorized script or other software.</li>
+              <li>Use a buying agent or purchasing agent to make purchases on the Services.</li>
+              <li>Make any unauthorized use of the Services, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.</li>
+              <li>Use the Services as part of any effort to compete with us or otherwise use the Services and/or the Content for any revenue-generating endeavor or commercial enterprise.</li>
+              <li>Sell or otherwise transfer your profile.</li>
             </ul>
           </section>
 
           {/* ── 9 ── */}
-          <section id="9-contribuciones-generadas-por-el-usuario" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">9. CONTRIBUCIONES GENERADAS POR EL USUARIO</h2>
+          <section id="9-user-generated-contributions" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">9. USER-GENERATED CONTRIBUTIONS</h2>
             <p>
-              El Servicio no ofrece a los usuarios la posibilidad de enviar o publicar contenido. Podemos brindarle la oportunidad de crear, enviar, publicar, mostrar, transmitir, ejecutar, publicar, distribuir o difundir contenido y materiales para nosotros o en los Servicios, incluyendo, entre otros, texto, escritos, video, audio, fotografías, gráficos, comentarios, sugerencias o información personal u otro material (colectivamente, &ldquo;Contribuciones&rdquo;). Las contribuciones pueden ser vistas por otros usuarios de los Servicios y a través de sitios web de terceros. Por lo tanto, cualquier contribución que usted transmita podrá ser tratada de acuerdo con la Política de Privacidad de los Servicios. Al crear o poner a disposición cualquier Contribución, usted declara y garantiza que:
+              The Service does not offer users the possibility to submit or publish content. We may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute or broadcast content and materials to us or on the Services, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions or personal information or other material (collectively, &ldquo;Contributions&rdquo;). Contributions may be viewable by other users of the Services and through third-party websites. As such, any Contributions you transmit may be treated in accordance with the Services&rsquo; Privacy Policy. When you create or make any Contribution available, you represent and warrant that:
             </p>
             <ul className="pl-6 space-y-2 list-disc marker:text-primary">
-              <li>La creación, distribución, transmisión, exhibición pública o ejecución, así como el acceso, descarga o copia de sus Contribuciones, no infringen ni infringirán los derechos de propiedad, incluidos, entre otros, los derechos de autor, patentes, marcas registradas, secretos comerciales o derechos morales de terceros.</li>
-              <li>Usted es el creador y propietario de o tiene el derecho necesario, licencias, derechos, consentimientos, liberaciones y permisos para usar y para autorizarnos, los Servicios y otros usuarios de los Servicios para utilizar sus Contribuciones de cualquier manera contemplada por los Servicios y estos Términos Legales.</li>
-              <li>Usted cuenta con el consentimiento, autorización y/o permiso por escrito de cada persona identificable en sus Contribuciones para usar el nombre o la imagen de cada una de dichas personas identificables para permitir la inclusión y el uso de sus Contribuciones de cualquier manera contemplada por los Servicios y estos Términos Legales.</li>
-              <li>Sus aportaciones no son falsas, inexactas ni engañosas.</li>
-              <li>Sus contribuciones no son no solicitadas o no autorizadas: publicidad, material promocional, esquemas piramidales, cartas en cadena, correo basura, envíos masivos u otras formas de solicitud.</li>
-              <li>Sus contribuciones no son obscenas, lascivas, inmorales, sucias, violentas ni acosadoras, difamatorias o de otro modo objetable (según lo determinemos nosotros).</li>
-              <li>Sus contribuciones no ridiculizan, se burlan, menosprecian, intimidan ni abusan de nadie.</li>
-              <li>Sus contribuciones no se utilizan para acosar o amenazar (en el sentido legal de esos términos) a ninguna otra persona ni para promover la violencia contra una persona o grupo de personas específico.</li>
-              <li>Sus contribuciones no infringen ninguna ley, reglamento o norma aplicable.</li>
-              <li>Sus contribuciones no violan los derechos de privacidad ni de imagen de ningún tercero.</li>
-              <li>Sus contribuciones no infringen ninguna ley aplicable relativa a la pornografía infantil ni ninguna otra ley destinada a proteger la salud o el bienestar de los menores.</li>
-              <li>Sus contribuciones no incluyen comentarios ofensivos relacionados con la raza, el origen nacional, el género, la orientación sexual o la discapacidad física.</li>
-              <li>Sus contribuciones no infringen, ni enlazan a material que infrinja, ninguna disposición de estos Términos Legales, ni ninguna ley o reglamento aplicable.</li>
+              <li>The creation, distribution, transmission, public display or performance, and the accessing, downloading or copying of your Contributions, do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret or moral rights of any third party.</li>
+              <li>You are the creator and owner of or have the necessary licenses, rights, consents, releases and permissions to use and to authorize us, the Services and other users of the Services to use your Contributions in any manner contemplated by the Services and these Legal Terms.</li>
+              <li>You have the written consent, authorization and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness of each such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the Services and these Legal Terms.</li>
+              <li>Your Contributions are not false, inaccurate or misleading.</li>
+              <li>Your Contributions are not unsolicited or unauthorized advertising, promotional materials, pyramid schemes, chain letters, spam, mass mailings or other forms of solicitation.</li>
+              <li>Your Contributions are not obscene, lewd, lascivious, filthy, violent or harassing and do not otherwise violate general standards of acceptability or decency.</li>
+              <li>Your Contributions do not ridicule, mock, disparage, intimidate or abuse anyone.</li>
+              <li>Your Contributions are not used to harass or threaten (in the legal sense of those terms) any other person and to promote violence against a particular person or class of people.</li>
+              <li>Your Contributions do not violate any applicable law, regulation or rule.</li>
+              <li>Your Contributions do not violate the privacy or publicity rights of any third party.</li>
+              <li>Your Contributions do not violate any applicable law concerning child pornography or otherwise intended to protect the health or well-being of minors.</li>
+              <li>Your Contributions do not include any offensive comments that are connected to race, national origin, gender, sexual preference or physical handicap.</li>
+              <li>Your Contributions do not otherwise violate, or link to material that violates, any provision of these Legal Terms or any applicable law or regulation.</li>
             </ul>
             <p>
-              Cualquier uso de los Servicios que infrinja lo anterior constituye una violación de estos Términos Legales y puede resultar, entre otras cosas, en la rescisión o suspensión de sus derechos de uso de los Servicios.
+              Any use of the Services in violation of the foregoing violates these Legal Terms and may result in, among other things, termination or suspension of your rights to use the Services.
             </p>
           </section>
 
           {/* ── 10 ── */}
-          <section id="10-licencia-de-contribucion" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">10. LICENCIA DE CONTRIBUCIÓN</h2>
+          <section id="10-contribution-license" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">10. CONTRIBUTION LICENSE</h2>
             <p>
-              Usted y los Servicios aceptan que podemos acceder, almacenar, procesar y utilizar cualquier información y datos personales que usted proporcione, de conformidad con los términos de la Política de Privacidad y tus elecciones (incluida la configuración).
+              You and the Services agree that we may access, store, process and use any information and personal data that you provide in accordance with the terms of the Privacy Policy and your choices (including settings).
             </p>
             <p>
-              Al enviar sugerencias u otros comentarios sobre los Servicios, usted acepta que podemos usar y compartir dichos comentarios para cualquier propósito sin que usted reciba compensación alguna.
+              By submitting suggestions or other feedback regarding the Services, you agree that we may use and share such feedback for any purpose without any obligation to you or compensation.
             </p>
             <p>
-              No reclamamos ningún derecho de propiedad sobre sus Contribuciones. Usted conserva la plena propiedad de todas sus Contribuciones y de cualquier derecho de propiedad intelectual u otros derechos de propiedad asociados a ellas. No nos hacemos responsables de las declaraciones o representaciones que usted proporcione en sus Contribuciones en cualquier área de los Servicios. Usted es el único responsable de sus Contribuciones a los Servicios y acepta expresamente eximirnos de toda responsabilidad y abstenerse de emprender cualquier acción legal contra nosotros en relación con sus Contribuciones.
+              We do not claim ownership of your Contributions. You retain full ownership of all your Contributions and any intellectual property rights or other proprietary rights associated with them. We are not responsible for any statements or representations you provide in your Contributions in any area of the Services. You are solely responsible for your Contributions to the Services and you expressly agree to indemnify us from any and all losses we may suffer due to your breach of (a) this section, (b) any intellectual property rights of any third party, or (c) applicable law.
             </p>
           </section>
 
@@ -364,87 +364,86 @@ export default function TermsPage() {
           </section>
 
           {/* ── 13 ── */}
-          <section id="13-gestion-de-servicios" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">13. GESTIÓN DE SERVICIOS</h2>
+          <section id="13-services-management" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">13. SERVICES MANAGEMENT</h2>
             <p>
-              Nos reservamos el derecho, pero no la obligación, de: (1) supervisar los Servicios para detectar infracciones de estos Términos Legales; (2) emprender las acciones legales pertinentes contra cualquier persona que, a nuestra entera discreción, infrinja la ley o estos Términos Legales, incluyendo, entre otras cosas, denunciar a dicho usuario ante las autoridades policiales; (3) a nuestra entera discreción y sin limitación, rechazar, restringir el acceso, limitar la disponibilidad o deshabilitar (en la medida en que sea tecnológicamente factible) cualquiera de sus Contribuciones o cualquier parte de las mismas; (4) a nuestra entera discreción y sin limitación, aviso o responsabilidad, eliminar de los Servicios o deshabilitar de otro modo todos los archivos y contenidos que sean excesivamente grandes o que de alguna manera supongan una carga para nuestros sistemas; y (5) gestionar los Servicios de otra manera que esté diseñada para proteger nuestros derechos y propiedad y para facilitar el correcto funcionamiento de los Servicios.
+              We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or that are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.
             </p>
           </section>
 
           {/* ── 14 ── */}
-          <section id="14-politica-de-privacidad" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">14. POLÍTICA DE PRIVACIDAD</h2>
+          <section id="14-privacy-policy" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">14. PRIVACY POLICY</h2>
             <p>
-              Nos preocupamos por la privacidad y la seguridad de los datos. Por favor, revise nuestra{" "}
-              <Link href="/privacy" className="text-primary hover:text-primary-hover underline transition-colors">Política de Privacidad</Link>. Al utilizar los Servicios, usted acepta estar sujeto a nuestra Política de Privacidad, que se incorpora a estos Términos Legales. Tenga en cuenta que los Servicios están alojados en Estados Unidos. Si accede a los Servicios desde cualquier otra región del mundo con leyes u otros requisitos que rigen la recopilación, el uso o la divulgación de datos personales que difieren de las leyes aplicables en Estados Unidos, entonces, mediante el uso continuado de los Servicios, usted está transfiriendo sus datos a Estados Unidos y usted consiente expresamente que sus datos sean transferidos y procesados en Estados Unidos.
+              We care about data privacy and security. Please review our{" "}
+              <Link href="/privacy" className="text-primary hover:text-primary-hover underline transition-colors">Privacy Policy</Link>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be aware that the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from the laws applicable in the United States, then through your continued use of the Services, you are transferring your data to the United States and you expressly consent to have your data transferred to and processed in the United States.
             </p>
           </section>
 
           {/* ── 15 ── */}
-          <section id="15-plazo-y-terminacion" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">15. PLAZO Y TERMINACIÓN</h2>
+          <section id="15-term-and-termination" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">15. TERM AND TERMINATION</h2>
             <p>
-              Estos Términos Legales permanecerán en pleno vigor y efecto mientras usted utilice los Servicios. SIN LIMITAR CUALQUIER OTRA DISPOSICIÓN DE ESTOS TÉRMINOS LEGALES, NOS RESERVAMOS EL DERECHO, A NUESTRA ENTERA DISCRECIÓN Y SIN PREVIO AVISO NI RESPONSABILIDAD, DE NEGAR EL ACCESO Y USO DE LOS SERVICIOS (INCLUYENDO EL BLOQUEO DE CIERTAS DIRECCIONES IP) A CUALQUIER PERSONA POR CUALQUIER MOTIVO O SIN MOTIVO ALGUNO, INCLUYENDO SIN LIMITACIÓN EL INCUMPLIMIENTO DE CUALQUIER DECLARACIÓN, GARANTÍA O COMPROMISO CONTENIDO EN ESTOS TÉRMINOS LEGALES O DE CUALQUIER LEY O REGLAMENTO APLICABLE. PODEMOS TERMINAR SU USO O PARTICIPACIÓN EN LOS SERVICIOS O ELIMINAR SU CUENTA Y CUALQUIER CONTENIDO O INFORMACIÓN QUE USTED PUBLIQUE EN CUALQUIER MOMENTO, SIN PREVIO AVISO, A NUESTRA ENTERA DISCRECIÓN.
+              These Legal Terms will remain in full force and effect while you use the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING BLOCKING CERTAIN IP ADDRESSES) TO ANY PERSON FOR ANY REASON OR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SERVICES OR DELETE YOUR ACCOUNT AND ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, AT OUR SOLE DISCRETION.
             </p>
             <p>
-              Si cancelamos o suspendemos su cuenta por cualquier motivo, usted tiene prohibido registrarse y crear una nueva cuenta a su nombre, con un nombre falso o prestado, o a nombre de un tercero, incluso si actúa en nombre de dicho tercero. Además de cancelar o suspender su cuenta, nos reservamos el derecho de emprender las acciones legales pertinentes, incluyendo, entre otras, acciones civiles, penales y medidas cautelares.
+              If we cancel or suspend your account for any reason, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to canceling or suspending your account, we reserve the right to take appropriate legal action, including without limitation civil, criminal and injunctive redress.
             </p>
           </section>
 
           {/* ── 16 ── */}
-          <section id="16-modificaciones-e-interrupciones" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">16. MODIFICACIONES E INTERRUPCIONES</h2>
+          <section id="16-modifications-and-interruptions" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">16. MODIFICATIONS AND INTERRUPTIONS</h2>
             <p>
-              Nos reservamos el derecho de cambiar, modificar o eliminar el contenido de los Servicios en cualquier momento y por cualquier motivo, a nuestra entera discreción y sin previo aviso. Sin embargo, no tenemos la obligación de actualizar la información de nuestros Servicios. No seremos responsables ante usted ni ante ningún tercero por cualquier modificación, cambio de precio, suspensión o interrupción de los Servicios.
+              We reserve the right to change, modify, or remove the contents of the Services at any time and for any reason at our sole discretion and without notice. However, we have no obligation to update any information on our Services. We will not be liable to you or any third party for any modification, change of price, suspension, or interruption of the Services.
             </p>
             <p>
-              No podemos garantizar que los Servicios estén disponibles en todo momento. Podríamos experimentar problemas de hardware, software u otros, o necesitar realizar tareas de mantenimiento relacionadas con los Servicios, lo que podría ocasionar interrupciones, retrasos o errores. Nos reservamos el derecho de cambiar, revisar, actualizar, suspender, interrumpir o modificar los Servicios en cualquier momento y por cualquier motivo, sin previo aviso. Usted acepta que no tenemos ninguna responsabilidad por cualquier pérdida, daño o inconveniente causado por su imposibilidad de acceder o utilizar los Servicios durante cualquier período de inactividad o interrupción de los mismos. Nada de lo estipulado en estos Términos Legales se interpretará como una obligación por nuestra parte de mantener y brindar soporte para los Servicios, ni de proporcionar correcciones, actualizaciones o nuevas versiones relacionadas con los mismos.
-            </p>
+              We cannot guarantee that the Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Services, which may result in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, interrupt, or modify the Services at any time and for any reason without prior notice. You agree that we have no liability whatsoever for any loss, damage or inconvenience caused by your inability to access or use the Services during any downtime or interruption of the Services. Nothing in these Legal Terms will be construed as an obligation on our part to maintain and provide support for the Services, or to provide any corrections, updates or new versions of them.
           </section>
 
           {/* ── 17 ── */}
-          <section id="17-ley-aplicable" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">17. LEY APLICABLE</h2>
+          <section id="17-governing-law" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">17. GOVERNING LAW</h2>
             <p>
-              Estos Términos Legales se regirán y definirán de acuerdo con las leyes de Argentina. Savlo y usted consiente irrevocablemente que los tribunales de Argentina tendrán jurisdicción exclusiva para resolver cualquier disputa que pueda surgir en relación con estos Términos Legales.
+              These Legal Terms shall be governed by and defined following the laws of Argentina. Savlo and you irrevocably consent that the courts of Argentina shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.
             </p>
           </section>
 
           {/* ── 18 ── */}
-          <section id="18-resolucion-de-disputas" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">18. RESOLUCIÓN DE DISPUTAS</h2>
+          <section id="18-dispute-resolution" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">18. DISPUTE RESOLUTION</h2>
 
-            <h3 className="font-semibold text-foreground text-[15px]">Negociaciones informales</h3>
+            <h3 className="font-semibold text-foreground text-[15px]">Informal Negotiations</h3>
             <p>
-              Para agilizar la resolución y controlar el costo de cualquier disputa, controversia o reclamo relacionado con estos Términos Legales (cada uno de ellos, una &ldquo;Disputa&rdquo; y, en conjunto, las &ldquo;Disputas&rdquo;) traído por usted o por nosotros (individualmente, una &ldquo;Parte&rdquo; y, colectivamente, las &ldquo;Partes&rdquo;), las Partes acuerdan intentar primero negociar cualquier Disputa (excepto aquellas Disputas expresamente previstas a continuación) de manera informal durante al menos treinta (30) días antes de iniciar el arbitraje. Dichas negociaciones informales comienzan mediante notificación escrita de una Parte a la otra.
+              To expedite resolution and control the cost of any dispute, controversy or claim related to these Legal Terms (each a "Dispute" and, collectively, the "Disputes") brought by you or us (individually, a "Party" and, collectively, the "Parties"), the Parties agree to attempt to negotiate any Dispute (except those Disputes expressly provided below) informally for at least thirty (30) days before initiating arbitration. Such informal negotiations commence upon written notice of a Party to the other.
             </p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Arbitraje vinculante</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Binding Arbitration</h3>
             <p>
-              Cualquier controversia que surja de o en relación con estos Términos Legales, incluyendo cualquier cuestión relativa a su existencia, validez o terminación, será sometida y resuelta definitivamente por el Tribunal de Arbitraje Comercial Internacional de la Cámara de Arbitraje Europea (Bélgica, Bruselas, Avenue Louise, 146) de conformidad con el Reglamento de dicho Tribunal, que, como resultado de la remisión al mismo, se considera parte integrante de esta cláusula. El número de árbitros será uno (1). La sede, o lugar legal, o arbitraje será Bahía Blanca, Argentina. El idioma del procedimiento será inglés. La ley que regirá estos Términos Legales será la ley sustantiva de Argentina.
+              Any dispute arising out of or in connection with these Legal Terms, including any question regarding its existence, validity or termination, shall be submitted and finally resolved by international commercial arbitration administered by the International Commercial Arbitration Court of the European Arbitration Chamber (Belgium, Brussels, Avenue Louise, 146) in accordance with the Rules of that Court, which, as a result of the reference thereto, is considered to be an integral part of this clause. The number of arbitrators shall be one (1). The seat, or judicial seat, or place of arbitration shall be Bahía Blanca, Argentina. The language of the proceedings shall be English. The law that will be applied in these Legal Terms shall be the substantive law of Argentina.
             </p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Restricciones</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Restrictions</h3>
             <p>
-              Las Partes acuerdan que cualquier arbitraje se limitará a la Disputa entre las Partes individualmente. En la máxima medida permitida por la ley, (a) ningún arbitraje se acumulará con ningún otro procedimiento; (b) no existe derecho ni autoridad para que ninguna Disputa se someta a arbitraje de forma colectiva utilizar procedimientos de demanda colectiva; y (c) no existe derecho ni autoridad para que se presente ninguna Disputa en calidad de representante en nombre del público en general o de cualquier otra persona.
+              The Parties agree that any arbitration shall be limited to the Dispute between the Parties individually. To the maximum extent permitted by law, (a) no arbitration shall be combined with any other proceeding; (b) there is no right or authority for any Dispute to be submitted to arbitration on a class action basis or to use class action procedures; and (c) there is no right or authority for any Dispute to be brought in a purported representative capacity on behalf of the general public or any other persons.
             </p>
 
-            <h3 className="font-semibold text-foreground text-[15px] pt-2">Excepciones a las negociaciones informales y al arbitraje</h3>
+            <h3 className="font-semibold text-foreground text-[15px] pt-2">Exceptions to Informal Negotiations and Binding Arbitration</h3>
             <p>
-              Las Partes acuerdan que las siguientes Disputas no están sujetas a las disposiciones anteriores relativas a negociaciones informales arbitraje vinculante: (a) cualquier Disputa que busque hacer valer o proteger, o que se refiera a la validez de, cualquiera de los derechos de propiedad intelectual de una Parte; (b) cualquier Disputa relacionada con, o que surja de, alegaciones de robo, piratería, invasión de la privacidad o uso no autorizado; y (c) cualquier reclamación de medidas cautelares. Si esta disposición se considera ilegal o inaplicable, ninguna de las Partes optará por someter a arbitraje ninguna Controversia que se encuentre dentro de la parte de esta disposición que se considere ilegal o inaplicable, y dicha Controversia será resuelta por un tribunal de jurisdicción competente dentro de los tribunales enumerados anteriormente, y las Partes acuerdan someterse a la jurisdicción personal de dicho tribunal.
+              The Parties agree that the following Disputes are not subject to the above provisions concerning informal negotiations and binding arbitration: (a) any Dispute seeking to enforce or protect, or concerning the validity of, any of the intellectual property rights of a Party; (b) any Dispute related to, or arising out of, allegations of theft, piracy, invasion of privacy, or unauthorized use; and (c) any claim for injunctive relief. If this provision is found to be illegal or unenforceable, then neither of the Parties will opt to arbitrate any Dispute that falls within the portion of this provision found to be illegal or unenforceable, and such Dispute shall be decided by a court of competent jurisdiction within the courts listed above, and the Parties agree to submit to the personal jurisdiction of that court.
             </p>
           </section>
 
           {/* ── 19 ── */}
-          <section id="19-correcciones" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">19. CORRECCIONES</h2>
+          <section id="19-corrections" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">19. CORRECTIONS</h2>
             <p>
-              Es posible que la información de los Servicios contenga errores tipográficos, imprecisiones u omisiones, incluyendo descripciones, precios, disponibilidad y otra información diversa. Nos reservamos el derecho de corregir cualquier error, imprecisión u omisión, así como de modificar o actualizar la información de los Servicios en cualquier momento y sin previo aviso.
+              There may be information on the Services that contains typographical errors, inaccuracies, or omissions, including descriptions, pricing, availability, and other diverse information. We reserve the right to correct any error, inaccuracy, or omission and to change or update the information on the Services at any time without prior notice.
             </p>
           </section>
 
           {/* ── 20 ── */}
-          <section id="20-descargo-de-responsabilidad" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+          <section id="20-disclaimer" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
             <h2 className="font-serif text-xl font-semibold text-foreground uppercase">20. DESCARGO DE RESPONSABILIDAD</h2>
             <p>
               LOS SERVICIOS SE PROPORCIONAN &laquo;TAL CUAL&raquo; Y &laquo;SEGÚN DISPONIBILIDAD&raquo;. USTED ACEPTA QUE EL USO DE LOS SERVICIOS SERÁ BAJO SU PROPIO RIESGO. EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, RENUNCIAMOS A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, EN RELACIÓN CON LOS SERVICIOS Y SU USO, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR Y NO VIOLACIÓN DE DERECHOS. NO OFRECEMOS GARANTÍAS NI DECLARACIONES SOBRE LA EXACTITUD O INTEGRIDAD DEL CONTENIDO DE LOS SERVICIOS NI DEL CONTENIDO DE NINGÚN SITIO WEB O APLICACIÓN MÓVIL VINCULADA A LOS SERVICIOS, Y NO ASUMIREMOS NINGUNA RESPONSABILIDAD POR (1) ERRORES, EQUIVOCACIONES O INEXACTITUDES DEL CONTENIDO Y LOS MATERIALES, (2) LESIONES PERSONALES O DAÑOS A LA PROPIEDAD, DE CUALQUIER NATURALEZA, QUE RESULTEN DE SU ACCESO Y USO DE LOS SERVICIOS, (3) CUALQUIER NO AUTORIZADO ACCESO O USO DE NUESTROS SERVIDORES SEGUROS Y/O CUALQUIER INFORMACIÓN PERSONAL Y/O INFORMACIÓN FINANCIERA ALMACENADA EN ELLOS, (4) CUALQUIER INTERRUPCIÓN O CESE DE LA TRANSMISIÓN HACIA O DESDE LOS SERVICIOS, (5) CUALQUIER ERROR, VIRUS, CABALLO DE TROYA O SIMILAR QUE PUEDA SER TRANSMITIDO A TRAVÉS DE LOS SERVICIOS POR CUALQUIER TERCERO, Y/O (6) CUALQUIER ERROR U OMISIÓN EN CUALQUIER CONTENIDO Y MATERIAL O POR CUALQUIER PÉRDIDA O DAÑO DE CUALQUIER TIPO INCURRIDO COMO RESULTADO DEL USO DE CUALQUIER CONTENIDO PUBLICADO, TRANSMITIDO O PUESTO A DISPOSICIÓN DE OTRO MODO A TRAVÉS DE LOS SERVICIOS. NO GARANTIZAMOS, RESPALDAMOS, ASEGURAMOS NI ASUMIMOS RESPONSABILIDAD ALGUNA POR NINGÚN PRODUCTO O SERVICIO ANUNCIADO U OFRECIDO POR UN TERCERO A TRAVÉS DE LOS SERVICIOS, NINGÚN SITIO WEB CON HIPERVÍNCULOS, NI NINGÚN SITIO WEB O APLICACIÓN MÓVIL PRESENTADA EN NINGÚN BANNER U OTRO ANUNCIO, Y NO SEREMOS PARTE NI RESPONSABLES DE NINGUNA MANERA DE MONITOREAR NINGUNA TRANSACCIÓN ENTRE USTED Y CUALQUIER PROVEEDOR TERCERO DE PRODUCTOS O SERVICIOS. AL IGUAL QUE CON LA COMPRA DE UN PRODUCTO O SERVICIO A TRAVÉS DE CUALQUIER MEDIO O EN CUALQUIER ENTORNO, USTED DEBE USAR SU MEJOR JUICIO Y TOME PRECAUCIONES CUANDO CORRESPONDA.
@@ -452,74 +451,74 @@ export default function TermsPage() {
           </section>
 
           {/* ── 21 ── */}
-          <section id="21-limitaciones-de-responsabilidad" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">21. LIMITACIONES DE RESPONSABILIDAD</h2>
+          <section id="21-limitation-of-liability" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">21. LIMITATION OF LIABILITY</h2>
             <p>
-              EN NINGÚN CASO NOSOTROS NI NUESTROS DIRECTORES, EMPLEADOS O AGENTES SEREMOS RESPONSABLES ANTE USTED O CUALQUIER TERCERO POR DAÑOS DIRECTOS, INDIRECTOS, CONSECUENTES, EJEMPLARES, INCIDENTALES, ESPECIALES O PUNITIVOS, INCLUIDA LA PÉRDIDA DE BENEFICIOS, LA PÉRDIDA DE INGRESOS, LA PÉRDIDA DE DATOS U OTROS DAÑOS DERIVADOS DEL USO DE LOS SERVICIOS, INCLUSO SI SE NOS HA ADVERTIDO DE LA POSIBILIDAD DE DICHOS DAÑOS. SIN PERJUICIO DE CUALQUIER DISPOSICIÓN EN CONTRARIO CONTENIDA EN EL PRESENTE DOCUMENTO, NUESTRA RESPONSABILIDAD ANTE USTED POR CUALQUIER CAUSA Y SIN IMPORTAR LA FORMA DE LA ACCIÓN, SE LIMITARÁ EN TODO MOMENTO A EL IMPORTE PAGADO, SI LO HUBIERE, POR USTED A NOSOTROS DURANTE EL SEIS (6) PERÍODO DE MESES ANTERIOR A CUALQUIER CAUSA DE ACCIÓN QUE SURJA. Algunas leyes estatales de EE. UU. y leyes internacionales no permiten limitaciones a las garantías implícitas ni la exclusión o limitación de ciertos daños. Si estas leyes le son aplicables, es posible que algunas o todas las exenciones de responsabilidad o limitaciones anteriores no le sean aplicables, y que usted tenga derechos adicionales.
+              IN NO EVENT SHALL WE OR OUR DIRECTORS, EMPLOYEES OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOST DATA OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE AMOUNT PAID, IF ANY, BY YOU TO US DURING THE SIX (6) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING. CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
             </p>
           </section>
 
           {/* ── 22 ── */}
-          <section id="22-indemnizacion" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">22. INDEMNIZACIÓN</h2>
+          <section id="22-indemnification" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">22. INDEMNIFICATION</h2>
             <p>
-              Usted acepta defendernos, indemnizarnos y mantenernos indemnes, incluyendo a nuestras subsidiarias, afiliadas y todos nuestros respectivos funcionarios, agentes, socios y empleados, de y contra cualquier pérdida, daño, responsabilidad, reclamo o demanda, incluyendo honorarios y gastos razonables de abogados, presentados por cualquier tercero debido a o que surjan de: (1) uso de los Servicios; (2) incumplimiento de estos Términos Legales; (3) cualquier incumplimiento de sus declaraciones y garantías establecidas en estos Términos Legales; (4) su violación de los derechos de un tercero, incluidos, entre otros, los derechos de propiedad intelectual; o (5) cualquier acto dañino manifiesto hacia cualquier otro usuario de los Servicios con quien se haya conectado a través de los Servicios. No obstante lo anterior, nos reservamos el derecho, a su cargo, de asumir la responsabilidad exclusiva de la defensa y el control de cualquier asunto por el cual usted esté obligado a indemnizarnos, y usted acepta cooperar, a su cargo, con nuestra defensa de tales reclamaciones. Haremos todo lo posible para notificarle sobre cualquier reclamación, acción o procedimiento sujeto a esta indemnización tan pronto como tengamos conocimiento de ello.
+              You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates and all of our respective officers, agents, partners and employees, from and against any loss, damage, liability, claim or demand, including reasonable attorneys' fees and expenses, made by any third party due to or arising out of: (1) use of the Services; (2) breach of these Legal Terms; (3) any breach of your representations and warranties set forth in these Legal Terms; (4) your violation of the rights of a third party, including but not limited to intellectual property rights; or (5) any overt harmful act toward any other user of the Services with whom you connected via the Services. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will make reasonable efforts to notify you of any such claim, action or proceeding subject to this indemnification as soon as we become aware of it.
             </p>
           </section>
 
           {/* ── 23 ── */}
-          <section id="23-datos-del-usuario" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">23. DATOS DEL USUARIO</h2>
+          <section id="23-user-data" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">23. USER DATA</h2>
             <p>
-              Conservaremos ciertos datos que usted transmita a los Servicios con el fin de gestionar su funcionamiento, así como datos relacionados con su uso de los mismos. Si bien realizamos copias de seguridad periódicas, usted es el único responsable de todos los datos que transmita o que estén relacionados con cualquier actividad que haya realizado utilizando los Servicios. Usted acepta que no seremos responsables ante usted por la pérdida o corrupción de dichos datos y, por la presente, renuncia a cualquier derecho de acción legal contra nosotros que pudiera derivarse de dicha pérdida o corrupción.
+              We will maintain certain data that you transmit to the Services for the purpose of managing performance of the Services, as well as data relating to your use of the Services. Although we perform regular backups, you are the sole responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall not be liable to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any loss or corruption of such data.
             </p>
           </section>
 
           {/* ── 24 ── */}
-          <section id="24-comunicaciones-transacciones-y-firmas-electronicas" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">24. COMUNICACIONES, TRANSACCIONES Y FIRMAS ELECTRÓNICAS</h2>
+          <section id="24-communications-transactions-and-signatures" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">24. COMMUNICATIONS, TRANSACTIONS, AND ELECTRONIC SIGNATURES</h2>
             <p>
-              Visitar los Servicios, enviarnos correos electrónicos y completar formularios en línea constituyen comunicaciones electrónicas. Usted acepta recibir comunicaciones electrónicas y reconoce que todos los acuerdos, avisos, divulgaciones y demás comunicaciones que le proporcionemos electrónicamente, por correo electrónico y a través de los Servicios, cumplen con cualquier requisito legal de que dicha comunicación sea por escrito. USTED ACEPTA EL USO DE FIRMAS ELECTRÓNICAS, CONTRATOS, PEDIDOS Y OTROS REGISTROS, ASÍ COMO LA ENTREGA ELECTRÓNICA DE AVISOS, POLÍTICAS Y REGISTROS DE TRANSACCIONES INICIADAS O COMPLETADAS POR NOSOTROS O A TRAVÉS DE LOS SERVICIOS. Por la presente, usted renuncia a cualquier derecho o requisito bajo cualquier estatuto, reglamento, norma, ordenanza u otra ley en cualquier jurisdicción que requiera una firma original o la entrega o conservación de registros no electrónicos, o pagos o la concesión de créditos por cualquier medio que no sea electrónico.
+              Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures, and other communications that we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR BY YOU THROUGH THE SERVICES. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or payment or the granting of credit by other than electronic means.
             </p>
           </section>
 
           {/* ── 25 ── */}
-          <section id="25-usuarios-y-residentes-de-california" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">25. USUARIOS Y RESIDENTES DE CALIFORNIA</h2>
+          <section id="25-california-users-and-residents" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">25. CALIFORNIA USERS AND RESIDENTS</h2>
             <p>
-              Si alguna queja con nosotros no se resuelve satisfactoriamente, puede comunicarse con la Unidad de Asistencia para Quejas de la División de Servicios al Consumidor del Departamento de Asuntos del Consumidor de California por escrito a 1625 North Market Blvd., Suite N 112, Sacramento, California 95834 o por teléfono al (800) 952-5210 o (916) 445-1254.
+              If any complaint with us is not resolved satisfactorily, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 North Market Blvd., Suite N 112, Sacramento, California 95834 or by telephone at (800) 952-5210 or (916) 445-1254.
             </p>
           </section>
 
           {/* ── 26 ── */}
-          <section id="26-varios" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">26. VARIOS</h2>
+          <section id="26-miscellaneous" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">26. MISCELLANEOUS</h2>
             <p>
-              Estos Términos Legales y cualquier política o regla operativa publicada por nosotros en los Servicios o con respecto a los Servicios constituyen el acuerdo y entendimiento completo entre usted y nosotros. El hecho de que no ejerzamos o hagamos cumplir algún derecho o disposición de estos Términos Legales no se interpretará como una renuncia a dicho derecho o disposición. Estos Términos Legales se aplicarán en la máxima medida permitida por la ley. Podemos ceder cualquiera o todos nuestros derechos y obligaciones a terceros en cualquier momento. No seremos responsables de ninguna pérdida, daño, retraso o falta de acción causada por cualquier causa fuera de nuestro control razonable. Si alguna disposición o parte de una disposición de estos Términos Legales se determina como ilegal, nula o inaplicable, dicha disposición o parte de la disposición se considerará separable de estos Términos Legales y no afectará la validez y aplicabilidad de las demás disposiciones. No existe ninguna relación de empresa conjunta, sociedad, empleo o agencia creada entre usted y nosotros como resultado de estos Términos Legales o del uso de los Servicios. Usted acepta que estos Términos Legales no se interpretarán en nuestra contra por el hecho de haberlos redactado nosotros. Por la presente, usted renuncia a cualquier derecho o reclamación de defensas posibles que usted haya tenido en base al formato electrónico de estos Términos Legales y la falta de firma de las partes para ejecutar estos Términos Legales.
+              These Legal Terms and any policies or operating rules posted by us on the Services or with respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms does not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Legal Terms and the lack of signing by the parties hereto to execute these Legal Terms.
             </p>
           </section>
 
           {/* ── 27 ── */}
-          <section id="27-decisiones-financieras-del-usuario" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">27. DECISIONES FINANCIERAS DEL USUARIO</h2>
+          <section id="27-user-financial-decisions" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">27. USER FINANCIAL DECISIONS</h2>
             <p>
-              La empresa no se responsabiliza de las decisiones financieras que el usuario tome basándose en la información proporcionada por la aplicación, incluidas las predicciones generadas por inteligencia artificial. La aplicación es una herramienta de gestión de presupuesto personal y no constituye asesoramiento financiero.
+              The company is not responsible for the financial decisions that users make based on information provided by the application, including predictions generated by artificial intelligence. The application is a personal budget management tool and does not constitute financial advice.
             </p>
           </section>
 
           {/* ── 28 ── */}
-          <section id="28-contactenos" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
-            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">28. CONTÁCTENOS</h2>
+          <section id="28-contact-us" className="border-t border-border/40 pt-10 scroll-mt-24 space-y-4 text-[14px]">
+            <h2 className="font-serif text-xl font-semibold text-foreground uppercase">28. CONTACT US</h2>
             <p>
-              Para resolver una queja relacionada con los Servicios o para recibir más información sobre el uso de los Servicios, póngase en contacto con nosotros en:
+              To resolve a complaint regarding the Services or to receive further information about use of the Services, please contact us at:
             </p>
             <address className="not-italic text-foreground/90 leading-relaxed">
               Savlo<br />
               Bahía Blanca<br />
               Bahía Blanca, Buenos Aires 8000<br />
               Argentina<br />
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
-                soporte@savloapp.com
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
+                support@savloapp.com
               </a>
             </address>
           </section>
