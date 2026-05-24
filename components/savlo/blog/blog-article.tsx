@@ -5,7 +5,6 @@ import {
   getRelatedPosts,
   type BlogPost,
 } from "@/lib/blog/posts"
-import { SavloLogo } from "@/components/savlo/savlo-logo"
 
 export function BlogArticle({ post }: { post: BlogPost }) {
   const related = getRelatedPosts(post.slug, 3)
@@ -65,9 +64,13 @@ export function BlogArticle({ post }: { post: BlogPost }) {
       {/* Author + share row */}
       <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-y border-border/60 py-4">
         <div className="flex items-center gap-3">
-          <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-surface text-emerald-400 ring-1 ring-border">
-            <SavloLogo className="h-7 w-7" />
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/savlo-logo.svg"
+            alt="Savlo"
+            aria-hidden
+            className="h-8 w-8"
+          />
           <div className="flex flex-col leading-tight">
             <span className="text-[13px] font-medium text-foreground">
               Savlo Team
