@@ -399,6 +399,7 @@ export default function TermsPage() {
             </p>
             <p>
               We cannot guarantee that the Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Services, which may result in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, interrupt, or modify the Services at any time and for any reason without prior notice. You agree that we have no liability whatsoever for any loss, damage or inconvenience caused by your inability to access or use the Services during any downtime or interruption of the Services. Nothing in these Legal Terms will be construed as an obligation on our part to maintain and provide support for the Services, or to provide any corrections, updates or new versions of them.
+            </p>
           </section>
 
           {/* ── 17 ── */}
