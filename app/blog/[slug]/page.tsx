@@ -20,7 +20,7 @@ export async function generateMetadata({
   const post = getPostBySlug(slug)
   if (!post) {
     return {
-      title: "Artículo no encontrado — Blog de Savlo",
+      title: "Article not found — Savlo Blog",
     }
   }
 
@@ -35,10 +35,10 @@ export async function generateMetadata({
       title: post.title,
       description: post.description,
       type: "article",
-      locale: "es_ES",
+      locale: "en_US",
       siteName: "Savlo",
       publishedTime: new Date(post.date + "T00:00:00").toISOString(),
-      authors: ["Equipo Savlo"],
+      authors: ["Savlo Team"],
       tags: post.keywords,
       url,
     },
@@ -72,7 +72,7 @@ export default async function BlogArticlePage({ params }: PageProps) {
     },
     keywords: post.keywords.join(", "),
     wordCount: post.stats.words,
-    inLanguage: "es",
+    inLanguage: "en",
     articleSection: post.category,
   }
 

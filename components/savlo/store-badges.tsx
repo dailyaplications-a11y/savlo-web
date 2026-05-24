@@ -24,7 +24,7 @@ export function AppStoreBadge({
   return (
     <Link
       href="#"
-      aria-label="Descargar en el App Store"
+      aria-label="Download on the App Store"
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
         pad,
@@ -42,7 +42,7 @@ export function AppStoreBadge({
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
-          Descargar en
+          Download on the
         </span>
         <span className={cn("font-sans font-semibold tracking-tight", bigText)}>
           App Store
@@ -66,7 +66,7 @@ export function GooglePlayBadge({
   return (
     <Link
       href="#"
-      aria-label="Consíguelo en Google Play"
+      aria-label="Get it on Google Play"
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
         pad,
@@ -117,7 +117,7 @@ export function GooglePlayBadge({
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
-          Disponible en
+          Get it on
         </span>
         <span className={cn("font-sans font-semibold tracking-tight", bigText)}>
           Google Play

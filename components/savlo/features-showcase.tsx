@@ -29,7 +29,7 @@ const FEATURES: {
     kicker: "One minute a night",
     title: "Speak it. Savlo hears the day.",
     description:
-      "Tap the mic and tell savlo how your day went — in your own words, in your own language. savlo IA extracts amount, merchant and category, saves the expense, and returns a small micro-plan for tomorrow.",
+      "Tap the mic and tell savlo how your day went — in your own words, in your own language. Savlo AI extracts amount, merchant and category, saves the expense, and returns a small micro-plan for tomorrow.",
   },
   {
     id: "export",
@@ -37,7 +37,7 @@ const FEATURES: {
     kicker: "Your data belongs to you",
     title: "Ready to leave, always.",
     description:
-      "Export every check-in, every fondo, every note — to CSV, JSON or PDF in one gesture. No lock-in, no dark patterns. Savlo is a companion, not a cage.",
+      "Export every check-in, every fund, every note — to CSV, JSON or PDF in one gesture. No lock-in, no dark patterns. Savlo is a companion, not a cage.",
   },
 ]
 
@@ -158,8 +158,7 @@ export function FeaturesShowcase() {
 
         <Reveal delay={160}>
           <p className="mt-5 max-w-xl text-pretty text-base text-muted-foreground sm:text-lg">
-            Import what already exists. Speak what happens next. Take it all
-            with you whenever you want.
+            Import what already exists. Speak what happens next. Take it all with you whenever you want.
           </p>
         </Reveal>
 
@@ -281,6 +280,18 @@ export function FeaturesShowcase() {
               <p className="mt-4 text-pretty text-sm leading-relaxed text-muted-foreground">
                 {current.description}
               </p>
+
+              {active === "voice" && (
+                <div className="mt-5 flex items-center gap-3 rounded-xl border border-border bg-surface/50 p-3">
+                  <div className="relative h-10 w-10 shrink-0">
+                    <img src="/savlo_ai_icon.svg" className="h-full w-full object-contain" alt="Savlo AI" />
+                  </div>
+                  <div>
+                    <h4 className="text-[12px] font-semibold text-foreground">Savlo AI active</h4>
+                    <p className="text-[11px] text-muted-foreground">Extracts entities locally & contextually.</p>
+                  </div>
+                </div>
+              )}
 
               <div className="mt-6 flex items-center gap-1.5">
                 {FEATURES.map((f) => (

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <!-- Mint Green (Capa Frontal Principal - Brillante) -->
+    <linearGradient id="mint-bright" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#76E4B6" />
+      <stop offset="50%" stop-color="#4CAF8A" />
+      <stop offset="100%" stop-color="#2D8C68" />
+    </linearGradient>
+
+    <!-- Soft Mint (Lazo Izquierdo - Luminoso) -->
+    <linearGradient id="soft-mint" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2F9EB" />
+      <stop offset="50%" stop-color="#A8D8B9" />
+      <stop offset="100%" stop-color="#72B58A" />
+    </linearGradient>
+
+    <!-- Trust Blue (Lazo Derecho - Profundidad) -->
+    <linearGradient id="trust-blue" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#67B1F4" />
+      <stop offset="50%" stop-color="#2E6DA4" />
+      <stop offset="100%" stop-color="#15426B" />
+    </linearGradient>
+
+    <!-- Inner shadow para dar volumen -->
+    <filter id="inner-glow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur" />
+      <feOffset dx="-0.5" dy="-0.5" />
+      <feComposite in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowDiff" />
+      <feFlood flood-color="white" flood-opacity="0.5" />
+      <feComposite in2="shadowDiff" operator="in" />
+      <feComposite in2="SourceGraphic" operator="over" />
+    </filter>
+
+    <!-- Sombra de oclusión -->
+    <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- 1. Lazo Derecho (Trust Blue) - Capa Fondo -->
+  <path
+    d="M 50 50 C 70 30, 95 30, 95 50 C 95 70, 70 70, 50 50 Z"
+    fill="url(#trust-blue)"
+    filter="url(#inner-glow)"
+  />
+
+  <!-- 2. Lazo Izquierdo (Soft Mint) - Capa Fondo Izquierda -->
+  <path
+    d="M 50 50 C 30 70, 5 70, 5 50 C 5 30, 30 30, 50 50 Z"
+    fill="url(#soft-mint)"
+    filter="url(#inner-glow)"
+  />
+
+  <!-- 3. Lazo Inferior (Mint Green) - Capa Frontal -->
+  <path
+    d="M 50 50 C 30 70, 50 95, 50 95 C 70 95, 70 70, 50 50 Z"
+    fill="url(#mint-bright)"
+    filter="url(#drop-shadow)"
+  />
+  <path
+    d="M 50 50 C 30 70, 50 95, 50 95 C 70 95, 70 70, 50 50 Z"
+    fill="url(#mint-bright)"
+    filter="url(#inner-glow)"
+  />
+
+  <!-- 4. Lazo Superior (Mint Green) - Capa Frontal -->
+  <path
+    d="M 50 50 C 70 30, 50 5, 50 5 C 30 5, 30 30, 50 50 Z"
+    fill="url(#mint-bright)"
+    filter="url(#drop-shadow)"
+  />
+  <path
+    d="M 50 50 C 70 30, 50 5, 50 5 C 30 5, 30 30, 50 50 Z"
+    fill="url(#mint-bright)"
+    filter="url(#inner-glow)"
+  />
+
+  <!-- Estrella Negativa Central -->
+  <path
+    d="M 50 38 C 52 45, 55 48, 62 50 C 55 52, 52 55, 50 62 C 48 55, 45 52, 38 50 C 45 48, 48 45, 50 38 Z"
+    fill="#FDFCFB"
+  />
+
+  <!-- Detalles de volumen en la estrella central -->
+  <path
+    d="M 50 42 C 51 46, 54 49, 58 50 C 54 51, 51 54, 50 58 C 49 54, 46 51, 42 50 C 46 49, 49 46, 50 42 Z"
+    fill="#4CAF8A"
+    opacity="0.1"
+  />
+</svg>

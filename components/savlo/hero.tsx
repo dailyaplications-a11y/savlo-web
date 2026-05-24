@@ -51,7 +51,7 @@ export function Hero() {
                 <span className="absolute inset-0 animate-ping rounded-full bg-primary/50" />
                 <span className="relative h-1.5 w-1.5 rounded-full bg-primary" />
               </span>
-              Finanzas conductuales · Modo calma
+              Behavioral finance · Calm mode
             </div>
 
             <h1
@@ -61,13 +61,13 @@ export function Hero() {
                 animation: "fadeUp 1000ms ease-out 350ms forwards",
               }}
             >
-              Conoce Savlo.{" "}
+              Meet Savlo.{" "}
               <span className="block">
-                Entiende tu dinero{" "}
+                Understand your money{" "}
                 <em className="font-normal italic text-primary/90">
-                  en un minuto
+                  in one minute
                 </em>{" "}
-                al día.
+                a day.
               </span>
             </h1>
 
@@ -78,9 +78,9 @@ export function Hero() {
                 animation: "fadeUp 1000ms ease-out 520ms forwards",
               }}
             >
-              La app de finanzas diseñada para mentes ansiosas. Un check-in por
-              voz cada noche, una micro-guía para mañana. Sin rachas, sin
-              presión, sin juicio — sólo calma.
+              The personal budgeting app designed for peace of mind. A fast voice check-in,
+              smart division into separate Spaces and Sinking Funds, and a gentle streak
+              that helps you build financial habits without pressure or guilt.
             </p>
 
             <div
@@ -101,7 +101,7 @@ export function Hero() {
                 animation: "fadeIn 1400ms ease-out 1000ms forwards",
               }}
             >
-              Próximamente en iOS y Android · Español de España.
+              Coming soon to iOS and Android · English & Spanish native support.
             </p>
           </div>
 

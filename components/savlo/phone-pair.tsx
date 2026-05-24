@@ -28,16 +28,20 @@ export function PhonePair() {
           transformOrigin: "60% 60%",
         }}
       >
-        <PhoneFrame rotate="-7deg">
-          <CheckinScreen />
+        <PhoneFrame rotate="-7deg" fullBleed>
+          <img
+            src="/app_screen_today.png"
+            className="h-full w-full object-cover select-none"
+            alt="Savlo Today Screen"
+          />
         </PhoneFrame>
 
         {/* Callouts around left phone */}
         <Callout className="-left-6 top-14" delay={1800} dx={-16} dy={-6}>
-          <Dot className="bg-primary" /> Voz en español
+          <Dot className="bg-primary" /> Spanish & English voice
         </Callout>
         <Callout className="-bottom-2 left-10" delay={2100} dx={-6} dy={14}>
-          Modo calma
+          Calm mode
         </Callout>
       </div>
 
@@ -52,13 +56,17 @@ export function PhonePair() {
           transformOrigin: "40% 60%",
         }}
       >
-        <PhoneFrame rotate="6deg">
-          <ReflectionScreen />
+        <PhoneFrame rotate="6deg" fullBleed>
+          <img
+            src="/app_screen_funds.png"
+            className="h-full w-full object-cover select-none"
+            alt="Savlo Funds Screen"
+          />
         </PhoneFrame>
 
         {/* Callouts around right phone */}
         <Callout className="-right-2 top-6 sm:-right-6" delay={2400} dx={12} dy={-10}>
-          <Dot className="bg-warning" /> Fondo vacaciones
+          <Dot className="bg-warning" /> Vacation fund
         </Callout>
         <Callout
           className="bottom-20 -right-4 sm:-right-10"
@@ -66,10 +74,10 @@ export function PhonePair() {
           dx={14}
           dy={6}
         >
-          +12 € hoy
+          +$12 today
         </Callout>
         <Callout className="bottom-2 right-14" delay={3000} dx={6} dy={16}>
-          <Dot className="bg-primary" /> Plan suave
+          <Dot className="bg-primary" /> Gentle plan
         </Callout>
       </div>
     </div>
@@ -83,9 +91,11 @@ export function PhonePair() {
 function PhoneFrame({
   children,
   rotate,
+  fullBleed = false,
 }: {
   children: ReactNode
   rotate: string
+  fullBleed?: boolean
 }) {
   return (
     <div
@@ -102,22 +112,28 @@ function PhoneFrame({
       >
         {/* Screen */}
         <div className="relative h-full w-full overflow-hidden rounded-[38px] bg-background">
-          {/* Status bar */}
-          <div className="flex items-center justify-between px-6 pt-3 text-[10px] font-medium tabular-nums text-foreground/70">
-            <span>9:41</span>
-            <span className="inline-flex items-center gap-1">
-              <span className="inline-block h-1 w-1 rounded-full bg-foreground/70" />
-              <span className="inline-block h-1 w-1.5 rounded-full bg-foreground/70" />
-              <span className="inline-block h-1 w-2 rounded-full bg-foreground/70" />
-            </span>
-          </div>
-          {/* Dynamic-island-ish pill */}
-          <div
-            aria-hidden
-            className="absolute left-1/2 top-1.5 h-5 w-[82px] -translate-x-1/2 rounded-full bg-black"
-          />
+          {!fullBleed && (
+            <>
+              {/* Status bar */}
+              <div className="flex items-center justify-between px-6 pt-3 text-[10px] font-medium tabular-nums text-foreground/70">
+                <span>9:41</span>
+                <span className="inline-flex items-center gap-1">
+                  <span className="inline-block h-1 w-1 rounded-full bg-foreground/70" />
+                  <span className="inline-block h-1 w-1.5 rounded-full bg-foreground/70" />
+                  <span className="inline-block h-1 w-2 rounded-full bg-foreground/70" />
+                </span>
+              </div>
+              {/* Dynamic-island-ish pill */}
+              <div
+                aria-hidden
+                className="absolute left-1/2 top-1.5 h-5 w-[82px] -translate-x-1/2 rounded-full bg-black"
+              />
+            </>
+          )}
           {/* Content */}
-          <div className="absolute inset-0 px-4 pt-9 pb-6">{children}</div>
+          <div className={fullBleed ? "absolute inset-0" : "absolute inset-0 px-4 pt-9 pb-6"}>
+            {children}
+          </div>
         </div>
       </div>
     </div>
@@ -133,10 +149,10 @@ function CheckinScreen() {
     <div className="relative flex h-full flex-col">
       <div className="mt-2">
         <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-          Martes · check-in
+          Tuesday · check-in
         </p>
         <h3 className="mt-1 font-serif text-[20px] leading-tight text-foreground">
-          ¿Cómo ha ido tu día?
+          How was your day?
         </h3>
       </div>
 
@@ -156,7 +172,7 @@ function CheckinScreen() {
           </div>
         </div>
         <p className="mt-3 text-[11px] uppercase tracking-[0.22em] text-primary">
-          Escuchando
+          Listening
         </p>
       </div>
 
@@ -181,7 +197,7 @@ function CheckinScreen() {
       {/* Live transcript */}
       <div className="mt-4 rounded-2xl border border-border/60 bg-surface px-4 py-3">
         <p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-          Transcripción
+          Live Transcript
         </p>
         <p className="mt-1.5 text-[13px] leading-snug text-foreground">
           &ldquo;Cinco cincuenta en un café con leche
@@ -195,7 +211,7 @@ function CheckinScreen() {
       </div>
 
       <div className="mt-auto flex items-center justify-center gap-1 text-[10px] tracking-[0.2em] text-muted-foreground">
-        <span>MANTÉN PARA HABLAR</span>
+        <span>HOLD TO SPEAK</span>
       </div>
     </div>
   )
@@ -230,29 +246,29 @@ function ReflectionScreen() {
     <div className="flex h-full flex-col">
       <div className="mt-2">
         <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-          Tu reflejo de hoy
+          Today's reflection
         </p>
         <h3 className="mt-1 font-serif text-[20px] leading-tight text-foreground">
-          Un día{" "}
-          <em className="font-normal italic text-primary/90">en calma.</em>
+          A calm{" "}
+          <em className="font-normal italic text-primary/90">day.</em>
         </h3>
       </div>
 
       {/* Expense card (committed from voice) */}
       <div className="mt-4 rounded-2xl border border-border/60 bg-surface px-4 py-3">
         <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
-          <span>Gasto de voz</span>
-          <span>ahora</span>
+          <span>Voice expense</span>
+          <span>now</span>
         </div>
         <div className="mt-2 flex items-end justify-between">
           <div>
-            <p className="text-[13px] text-foreground">Café con leche</p>
+            <p className="text-[13px] text-foreground">Latte</p>
             <p className="text-[11px] text-muted-foreground">
-              Comida y bebida
+              Food & drink
             </p>
           </div>
           <p className="font-serif text-[22px] tabular-nums text-foreground">
-            5,50 €
+            $5.50
           </p>
         </div>
       </div>
@@ -262,10 +278,10 @@ function ReflectionScreen() {
         <div className="flex items-center justify-between">
           <div>
             <p className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
-              Fondo · Vacaciones
+              Fund · Vacation
             </p>
             <p className="mt-1 font-serif text-[16px] text-foreground">
-              412 € <span className="text-muted-foreground">de 600 €</span>
+              $412 <span className="text-muted-foreground">of $600</span>
             </p>
           </div>
           <FondoRing percent={68} />
@@ -284,16 +300,18 @@ function ReflectionScreen() {
 
       {/* Micro-plan */}
       <div className="mt-auto rounded-2xl border border-border/60 bg-surface px-4 py-3">
-        <p className="text-[10px] uppercase tracking-[0.18em] text-primary">
-          Plan de mañana
-        </p>
+        <div className="flex items-center justify-between">
+          <p className="text-[10px] uppercase tracking-[0.18em] text-primary font-semibold">
+            Tomorrow's plan
+          </p>
+          <img src="/savlo_ai_icon.svg" className="h-4.5 w-4.5 opacity-90 object-contain" alt="Savlo AI" />
+        </div>
         <p className="mt-1.5 font-serif text-[14px] leading-snug text-foreground">
-          <em className="italic">Un vaso de agua</em> con la comida, en lugar de
-          la bebida azucarada.
+          <em className="italic">A glass of water</em> with lunch instead of soda.
         </p>
         <div className="mt-3 flex items-center gap-2 text-[10px] text-muted-foreground">
           <span className="inline-block h-1 w-1 rounded-full bg-primary" />
-          Un pequeño cambio. Sin presión.
+          A small change. No pressure.
         </div>
       </div>
     </div>

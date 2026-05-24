@@ -136,24 +136,27 @@ export function EntranceHalo() {
         {main.map((d, i) => {
           const x = Math.cos(d.angle) * d.radius
           const y = Math.sin(d.angle) * d.radius
+          const sizeStr = d.size.toFixed(3)
+          const mlStr = (x - d.size / 2).toFixed(3)
+          const mtStr = (y - d.size / 2).toFixed(3)
           return (
             <span
               key={`m-${i}`}
               className="absolute left-1/2 top-1/2 rounded-full bg-primary"
               style={{
-                width: `${d.size}px`,
-                height: `${d.size}px`,
-                marginLeft: `${x - d.size / 2}px`,
-                marginTop: `${y - d.size / 2}px`,
+                width: `${sizeStr}px`,
+                height: `${sizeStr}px`,
+                marginLeft: `${mlStr}px`,
+                marginTop: `${mtStr}px`,
                 ["--dot-o" as string]: d.opacity.toFixed(3),
-                ["--sx" as string]: `${d.sx}px`,
-                ["--sy" as string]: `${d.sy}px`,
+                ["--sx" as string]: `${d.sx.toFixed(1)}px`,
+                ["--sy" as string]: `${d.sy.toFixed(1)}px`,
                 opacity: 0,
                 willChange: "transform, opacity",
                 boxShadow: d.glow
                   ? `0 0 ${Math.round(d.size * 3)}px color-mix(in oklch, var(--primary) 55%, transparent)`
                   : undefined,
-                animation: `haloAssemble 1400ms cubic-bezier(0.22, 1, 0.36, 1) ${d.delay}ms both`,
+                animation: `haloAssemble 1400ms cubic-bezier(0.22, 1, 0.36, 1) ${d.delay.toFixed(1)}ms both`,
               }}
             />
           )
@@ -163,25 +166,28 @@ export function EntranceHalo() {
         {embers.map((d, i) => {
           const x = Math.cos(d.angle) * d.radius
           const y = Math.sin(d.angle) * d.radius
+          const sizeStr = d.size.toFixed(3)
+          const mlStr = (x - d.size / 2).toFixed(3)
+          const mtStr = (y - d.size / 2).toFixed(3)
           return (
             <span
               key={`e-${i}`}
               className="absolute left-1/2 top-1/2 rounded-full"
               style={{
-                width: `${d.size}px`,
-                height: `${d.size}px`,
-                marginLeft: `${x - d.size / 2}px`,
-                marginTop: `${y - d.size / 2}px`,
+                width: `${sizeStr}px`,
+                height: `${sizeStr}px`,
+                marginLeft: `${mlStr}px`,
+                marginTop: `${mtStr}px`,
                 background:
                   i % 3 === 0
                     ? "color-mix(in oklch, var(--warning) 75%, transparent)"
                     : "color-mix(in oklch, var(--primary) 60%, transparent)",
                 ["--dot-o" as string]: d.opacity.toFixed(3),
-                ["--sx" as string]: `${d.sx}px`,
-                ["--sy" as string]: `${d.sy}px`,
+                ["--sx" as string]: `${d.sx.toFixed(1)}px`,
+                ["--sy" as string]: `${d.sy.toFixed(1)}px`,
                 opacity: 0,
                 willChange: "transform, opacity",
-                animation: `haloAssemble 1800ms cubic-bezier(0.22, 1, 0.36, 1) ${d.delay}ms both`,
+                animation: `haloAssemble 1800ms cubic-bezier(0.22, 1, 0.36, 1) ${d.delay.toFixed(1)}ms both`,
               }}
             />
           )

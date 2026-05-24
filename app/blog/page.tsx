@@ -4,32 +4,32 @@ import { SiteFooter } from "@/components/savlo/site-footer"
 import { BlogIndex } from "@/components/savlo/blog/blog-index"
 
 export const metadata: Metadata = {
-  title: "Blog de Savlo — Finanzas conductuales, presupuesto y ahorro calmado",
+  title: "Savlo Blog — Behavioral Finance, Budgeting & Calm Saving",
   description:
-    "Guías sobre cómo hacer un presupuesto, la regla 50/30/20, fondo de emergencia, método de los sobres y la psicología del dinero. Sin rachas. Sin culpa.",
+    "Guides on budgeting, the 50/30/20 rule, emergency funds, envelope method, and the psychology of money. No streaks. No guilt.",
   keywords: [
-    "blog finanzas personales",
-    "app de presupuesto",
-    "cómo hacer un presupuesto",
-    "regla 50/30/20",
-    "fondo de emergencia",
-    "ansiedad financiera",
-    "finanzas conductuales",
-    "método de los sobres",
+    "personal finance blog",
+    "budgeting app",
+    "how to budget",
+    "50/30/20 rule",
+    "emergency fund",
+    "financial anxiety",
+    "behavioral finance",
+    "envelope budgeting",
   ],
   openGraph: {
-    title: "Blog de Savlo — Finanzas calmas, mes a mes",
+    title: "Savlo Blog — Calm finances, month by month",
     description:
-      "Guías de presupuesto, ahorro y psicología del dinero. Escrito con la misma calma que la app.",
+      "Budgeting, saving, and money psychology guides. Written with the same calm as the app.",
     type: "website",
-    locale: "es_ES",
+    locale: "en_US",
     siteName: "Savlo",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog de Savlo",
+    title: "Savlo Blog",
     description:
-      "Finanzas conductuales aplicadas: presupuesto humano, ahorro sostenible, cero números rojos.",
+      "Applied behavioral finance: human budgeting, sustainable saving, zero red numbers.",
   },
   alternates: {
     canonical: "/blog",

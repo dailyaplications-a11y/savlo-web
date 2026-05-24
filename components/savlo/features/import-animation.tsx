@@ -24,11 +24,11 @@ type Row = {
 }
 
 const ROWS: Row[] = [
-  { date: "2026-04-03", merchant: "Blue Bottle Coffee", amount: "-4.50", category: "Food", initial: "B" },
-  { date: "2026-04-02", merchant: "Trader Joe's", amount: "-62.18", category: "Groceries", initial: "T" },
-  { date: "2026-04-02", merchant: "Paycheck · Acme Co.", amount: "+2,400.00", category: "Income", initial: "A" },
-  { date: "2026-04-01", merchant: "Figma", amount: "-15.00", category: "Tools", initial: "F" },
-  { date: "2026-03-30", merchant: "Lyft", amount: "-11.20", category: "Transport", initial: "L" },
+  { date: "2026-04-03", merchant: "Coffee Shop", amount: "-4.50", category: "Food", initial: "C" },
+  { date: "2026-04-02", merchant: "Groceries", amount: "-62.18", category: "Groceries", initial: "G" },
+  { date: "2026-04-02", merchant: "Salary · Payroll", amount: "+2,400.00", category: "Income", initial: "S" },
+  { date: "2026-04-01", merchant: "App Subscription", amount: "-15.00", category: "Services", initial: "A" },
+  { date: "2026-03-30", merchant: "Uber Ride", amount: "-11.20", category: "Transport", initial: "U" },
 ]
 
 const COLS = ["Date", "Merchant", "Amount", "Category"]

@@ -6,7 +6,7 @@ const COLUMNS: { heading: string; links: { label: string; href: string }[] }[] =
       heading: "Product",
       links: [
         { label: "Daily check-in", href: "#features" },
-        { label: "Sinking funds (fondos)", href: "#" },
+        { label: "Sinking funds", href: "#" },
         { label: "AI micro-plans", href: "#" },
         { label: "Weekly insights", href: "#product" },
         { label: "Excel import", href: "#features" },
@@ -16,7 +16,7 @@ const COLUMNS: { heading: string; links: { label: string; href: string }[] }[] =
       heading: "Philosophy",
       links: [
         { label: "Behavioral finance", href: "#philosophy" },
-        { label: "Why no streaks", href: "#philosophy" },
+        { label: "Gentle streaks", href: "#philosophy" },
         { label: "Dark mode only", href: "#" },
         { label: "Design principles", href: "#" },
       ],
@@ -42,7 +42,7 @@ const COLUMNS: { heading: string; links: { label: string; href: string }[] }[] =
     {
       heading: "Legal",
       links: [
-        { label: "Privacy", href: "#" },
+        { label: "Privacy", href: "/privacy" },
         { label: "Terms", href: "#" },
         { label: "Security", href: "#trust" },
         { label: "Responsible disclosure", href: "#" },
@@ -59,20 +59,8 @@ export function SiteFooter() {
           {/* Brand column */}
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2">
-              <span className="flex h-8 w-8 items-center justify-center rounded-full border border-border bg-surface">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-4 w-4 text-primary"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  aria-hidden
-                >
-                  <path d="M4 15c3-7 6-7 8-4s5 3 8-4" />
-                </svg>
-              </span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/savlo-icon.svg" alt="Savlo" className="h-10 w-10 rounded-full" />
               <span className="font-serif text-xl tracking-tight">Savlo</span>
             </Link>
             <p className="mt-4 max-w-[220px] text-[13px] leading-relaxed text-muted-foreground">

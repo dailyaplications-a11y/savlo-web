@@ -6,15 +6,15 @@ import { Reveal } from "./reveal"
 const principles = [
   {
     title: "No ads. Not now, not ever.",
-    body: "Savlo is funded by members, not advertisers. Your attention isn't a product we sell.",
+    body: "Savlo is funded 100% by members, not advertisers. Your attention and peace of mind are not a product to sell.",
   },
   {
     title: "We never sell your data.",
-    body: "Your transactions stay yours. We don't broker, resell, or monetize your financial history — in any form.",
+    body: "Your transactions and voice check-ins stay yours. We don't broker, resell, or monetize your financial history in any form.",
   },
   {
-    title: "Bank-grade encryption.",
-    body: "256-bit AES at rest. TLS 1.3 in transit. Read-only connections through trusted aggregators.",
+    title: "Local Privacy & Encryption.",
+    body: "Your voice check-ins are processed locally or under strict on-device privacy. Furthermore, your data is stored using bank-grade AES-256 encryption.",
   },
 ]
 
@@ -29,17 +29,16 @@ export function TrustSection() {
               Trust, by default
             </p>
             <h2 className="mt-4 font-serif text-3xl leading-tight tracking-tight text-balance sm:text-4xl">
-              Built quietly, with the boring parts done right.
+              Built quietly, with the plumbing done right.
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-              A calm tone is only worth something if the plumbing is solid.
-              Here&apos;s what we mean when we ask you to trust us.
+              A calm tone is only worth something if the plumbing is solid. Here's what we mean when we ask you to trust us.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-8 border-t border-border/40 pt-8 text-sm sm:gap-12">
-              <Metric label="Uptime" value="99.98%" />
-              <Metric label="Audits" value="SOC 2 II" />
-              <Metric label="Team" value="Ex‑Stripe" />
+              <Metric label="Uptime" value="99.9%" />
+              <Metric label="Encryption" value="AES-256" />
+              <Metric label="Privacy" value="Local-First" />
             </div>
           </div>
         </Reveal>

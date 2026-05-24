@@ -6,54 +6,53 @@ export function ProductOverview() {
     <section id="product" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
-          <p className="text-xs uppercase tracking-[0.18em] text-primary/80">
+          <p className="text-xs uppercase tracking-[0.18em] text-primary/80 font-semibold">
             Your week, gently summarized
           </p>
           <h2 className="mt-3 font-serif text-3xl leading-tight tracking-tight text-balance sm:text-4xl">
             Not a dashboard.{" "}
-            <em className="font-normal italic text-primary/90">
-              A reflection.
-            </em>
+            <span className="block">
+              <em className="font-normal italic text-primary/90">
+                A reflection.
+              </em>
+            </span>
           </h2>
-          <p className="mt-4 max-w-xl text-pretty text-muted-foreground">
-            Savlo reads your week and returns it to you softly — spending shape,
-            fondos progress, a category or two worth noticing. Observed, never
-            judged.
+          <p className="mt-4 max-w-xl text-pretty text-muted-foreground text-sm sm:text-base leading-relaxed">
+            Savlo organizes your money flow and returns it to you softly: the progress of your savings funds, your independent financial spaces, and your safe daily spending margin. Observed, never judged.
           </p>
         </Reveal>
 
         <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3">
-          {/* Net worth card */}
+          {/* Daily Margin card */}
           <Reveal delay={80} className="md:col-span-1">
-            <article className="card-calm group relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6">
+            <article className="card-calm group relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6 animate-fade-up">
               <header className="flex items-center justify-between">
-                <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
-                  Net worth
+                <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground font-semibold">
+                  Daily Margin
                 </p>
-                <span className="text-[11px] text-muted-foreground">12m</span>
+                <span className="text-[11px] text-muted-foreground font-mono">Today</span>
               </header>
               <p className="mt-4 font-serif text-4xl tracking-tight">
-                <AnimatedNumber value={184320} prefix="$" duration={1800} />
+                <AnimatedNumber value={45} prefix="$" duration={1800} />
               </p>
               <p className="mt-1 text-xs text-muted-foreground">
-                <span className="text-primary">+11.4%</span> over the year
+                <span className="text-primary font-medium">Safe to spend</span> today
               </p>
 
               <MiniWave className="mt-8" />
 
-              <p className="mt-6 text-sm text-muted-foreground">
-                A single, honest line. No green-arrow theatrics — just the shape
-                of your progress.
+              <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
+                A single, honest metric. No flashing red alarms — just the exact amount of money you can spend today, guilt-free.
               </p>
             </article>
           </Reveal>
 
           {/* Cash flow timeline */}
           <Reveal delay={160} className="md:col-span-2">
-            <article className="card-calm relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6">
+            <article className="card-calm relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6 animate-fade-up">
               <header className="flex items-center justify-between">
                 <div>
-                  <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
+                  <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground font-semibold">
                     Cash flow · last 8 weeks
                   </p>
                   <p className="mt-1 font-serif text-2xl tracking-tight">
@@ -61,8 +60,8 @@ export function ProductOverview() {
                   </p>
                 </div>
                 <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
-                  <LegendDot color="primary" label="In" />
-                  <LegendDot color="accent" label="Out" />
+                  <LegendDot color="primary" label="Income" />
+                  <LegendDot color="accent" label="Spending" />
                 </div>
               </header>
 
@@ -76,20 +75,20 @@ export function ProductOverview() {
             </article>
           </Reveal>
 
-          {/* Categories */}
+          {/* Spaces & Funds */}
           <Reveal delay={240} className="md:col-span-3">
-            <article className="card-calm relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6">
+            <article className="card-calm relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6 animate-fade-up">
               <header className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">
                 <div>
-                  <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
-                    Budget categories
+                  <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground font-semibold">
+                    Spaces & Funds
                   </p>
                   <p className="mt-1 font-serif text-2xl tracking-tight">
-                    Where it actually went
+                    Your money separated by context
                   </p>
                 </div>
-                <span className="rounded-full border border-border px-3 py-1 text-[11px] text-muted-foreground">
-                  October · observed, not judged
+                <span className="rounded-full border border-border px-3 py-1 text-[11px] text-muted-foreground font-medium">
+                  Simple, intuitive structure
                 </span>
               </header>
 
@@ -100,7 +99,7 @@ export function ProductOverview() {
                     className="rounded-xl border border-border/70 bg-surface-2/50 p-4"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-foreground/90">
+                      <span className="text-sm text-foreground/90 font-medium">
                         {c.name}
                       </span>
                       <span className="font-mono text-xs text-muted-foreground">
@@ -153,7 +152,7 @@ function FooterStat({
         : "text-foreground"
   return (
     <div>
-      <p className="text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
+      <p className="text-[11px] uppercase tracking-[0.14em] text-muted-foreground font-semibold">
         {label}
       </p>
       <p className={`mt-1 font-serif text-lg ${color}`}>{value}</p>
@@ -228,7 +227,7 @@ function CashFlowBars({ className }: { className?: string }) {
               height: `${b.in}%`,
               background:
                 "color-mix(in oklch, var(--primary) 70%, transparent)",
-              opacity: 0.55 + (i / bars.length) * 0.4,
+              opacity: 0.55 + (i / bars.length) * 0.45,
             }}
           />
           <div
@@ -237,7 +236,7 @@ function CashFlowBars({ className }: { className?: string }) {
               height: `${b.out}%`,
               background:
                 "color-mix(in oklch, var(--accent) 72%, transparent)",
-              opacity: 0.5 + (i / bars.length) * 0.4,
+              opacity: 0.5 + (i / bars.length) * 0.45,
             }}
           />
         </div>
@@ -258,8 +257,8 @@ const bars = [
 ]
 
 const categories = [
-  { name: "Housing", amount: 1840, pct: 42 },
-  { name: "Food & dining", amount: 612, pct: 14, warm: true },
-  { name: "Transport", amount: 284, pct: 7 },
-  { name: "Wellness", amount: 196, pct: 5 },
+  { name: "Personal Space", amount: 1240, pct: 55 },
+  { name: "Freelance Space", amount: 612, pct: 28, warm: true },
+  { name: "Emergency Fund", amount: 450, pct: 75 },
+  { name: "Vacation Fund", amount: 196, pct: 33 },
 ]

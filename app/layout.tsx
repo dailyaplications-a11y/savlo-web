@@ -18,10 +18,9 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: "Savlo — Behavioral finance, softened.",
+  title: "Savlo — Behavioral finance and peace of mind for your money",
   description:
-    "A calm, dark-native app for financial wellness. One minute of voice check-in a night, a quiet micro-plan in the morning. No streaks, no pressure, no red numbers.",
-  generator: "v0.app",
+    "The personal budgeting app designed for mental clarity. Featuring local voice logging, independent financial spaces, and visual sinking funds. Take control of your money in just one minute a day.",
   icons: {
     icon: [
       { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
@@ -39,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="es"
+      lang="en"
       className={`${dmSans.variable} ${fraunces.variable} bg-background`}
     >
       <body className="font-sans antialiased text-foreground">

@@ -12,9 +12,9 @@ const easeOut = (t: number) => 1 - Math.pow(1 - t, 3)
 const TRANSCRIPT = "Cinco cincuenta en un café con leche"
 // Parsed tokens — Savlo is a Spanish-first app
 const TOKENS = [
-  { label: "5,50 €", kind: "amount" as const, color: "text-foreground" },
-  { label: "Café", kind: "merchant" as const, color: "text-foreground" },
-  { label: "Comida y bebida", kind: "category" as const, color: "text-primary" },
+  { label: "$5.50", kind: "amount" as const, color: "text-foreground" },
+  { label: "Coffee Shop", kind: "merchant" as const, color: "text-foreground" },
+  { label: "Food & drink", kind: "category" as const, color: "text-primary" },
 ]
 
 const BAR_COUNT = 42
@@ -108,7 +108,7 @@ export function VoiceAnimation({ progress: p }: { progress: number }) {
             <span className="absolute inset-0 animate-ping rounded-full bg-primary/70" />
             <span className="relative h-1.5 w-1.5 rounded-full bg-primary" />
           </span>
-          Escuchando
+          Listening
         </div>
 
         {/* Waveform */}
@@ -206,7 +206,7 @@ export function VoiceAnimation({ progress: p }: { progress: number }) {
           >
             <div className="flex items-center justify-between">
               <span className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
-                Nuevo gasto
+                New Expense
               </span>
               <span
                 className="flex h-5 w-5 items-center justify-center rounded-full bg-primary text-primary-foreground"
@@ -230,21 +230,21 @@ export function VoiceAnimation({ progress: p }: { progress: number }) {
             {/* Card fields — faint placeholders before tokens slot in */}
             <div className="mt-3 space-y-3 text-sm">
               <FieldRow
-                label="Importe"
-                value="5,50 €"
+                label="Amount"
+                value="$5.50"
                 filled={cardT}
                 delay={0}
                 accent
               />
               <FieldRow
-                label="Comercio"
-                value="Café"
+                label="Merchant"
+                value="Coffee Shop"
                 filled={cardT}
                 delay={0.12}
               />
               <FieldRow
-                label="Categoría"
-                value="Comida y bebida"
+                label="Category"
+                value="Food & drink"
                 filled={cardT}
                 delay={0.22}
               />
@@ -256,9 +256,9 @@ export function VoiceAnimation({ progress: p }: { progress: number }) {
             >
               <span className="inline-flex items-center gap-1.5">
                 <span className="h-1 w-1 rounded-full bg-primary" />
-                Guardado · voz
+                Saved · voice
               </span>
-              <span>ahora mismo</span>
+              <span>just now</span>
             </div>
           </div>
         </div>

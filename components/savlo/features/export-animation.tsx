@@ -15,8 +15,8 @@ const easeInOut = (t: number) =>
 const SOURCES = [
   { x: 8, y: 22, label: "Balance" },
   { x: 72, y: 14, label: "Categories" },
-  { x: 6, y: 72, label: "Cash flow" },
-  { x: 76, y: 76, label: "Goals" },
+  { x: 6, y: 72, label: "Transactions" },
+  { x: 76, y: 76, label: "Funds" },
 ]
 
 const PARTICLE_COUNT = 34
@@ -268,7 +268,7 @@ export function ExportAnimation({ progress: p }: { progress: number }) {
             </svg>
           </span>
           <span className="font-mono text-foreground/90">
-            savlo-2026-04.csv
+            savlo-export.csv
           </span>
           <span className="text-muted-foreground">· 184 KB</span>
         </div>

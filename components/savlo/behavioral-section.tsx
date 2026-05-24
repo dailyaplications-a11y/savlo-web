@@ -9,31 +9,31 @@ type Tenet = {
 
 const tenets: Tenet[] = [
   {
-    caption: "NO STREAKS",
-    title: "No streaks. No guilt.",
+    caption: "GENTLE STREAKS",
+    title: "Gentle habits, zero guilt.",
     body:
-      "No fire emojis. No red numbers designed to make you anxious. Your money deserves a steadier tone.",
+      "A supportive daily check-in to build lasting habits, with no anxiety-inducing red notifications or penalization. Your money deserves a steadier tone.",
     Motif: EmberMotif,
   },
   {
     caption: "OBSERVE FIRST",
-    title: "Observe, then decide.",
+    title: "Observe today, decide tomorrow.",
     body:
-      "Savlo surfaces patterns the way a good notebook would — quietly, and only when you open it.",
+      "Savlo surfaces patterns the way a high-quality notebook would — quietly, and only when you open it.",
     Motif: RippleMotif,
   },
   {
     caption: "COMPOUND SLOWLY",
     title: "Small changes, compounded.",
     body:
-      "We celebrate consistency, not willpower. A single mindful swap is worth more than a month of restriction.",
+      "We celebrate consistency, not willpower. A single mindful swap is worth more than a month of severe restriction.",
     Motif: SpiralMotif,
   },
   {
     caption: "YOU DECIDE",
     title: "You stay in charge.",
     body:
-      "Your categories, your thresholds, your definitions. Savlo is a mirror, not a coach.",
+      "Your spaces, your savings goals, and your definitions. Savlo is a mirror, not a coach.",
     Motif: ReticleMotif,
   },
 ]
@@ -73,10 +73,7 @@ export function BehavioralSection() {
 
         <Reveal delay={160}>
           <p className="mt-8 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Most money apps treat every dollar as a test you&apos;re failing.
-            Savlo is built on behavioral finance research: awareness, not
-            pressure, is what creates lasting change. So we show you the shape
-            of your habits — and then we step back.
+            Most money apps treat every dollar as a test you&apos;re failing. Savlo is built on behavioral finance research: awareness, not pressure, is what creates lasting change. So we show you the shape of your habits — and then we step back.
           </p>
         </Reveal>
 

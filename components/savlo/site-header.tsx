@@ -2,17 +2,23 @@
 
 import Link from "next/link"
 import { useEffect, useState } from "react"
+import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
 
+
 const nav = [
-  { label: "Hogar", href: "/" },
+  { label: "Home", href: "#hero" },
+  { label: "Product", href: "#product" },
+  { label: "Philosophy", href: "#philosophy" },
+  { label: "Security", href: "#trust" },
   { label: "Blog", href: "/blog" },
-  { label: "Acerca de", href: "/#about" },
 ]
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === "/"
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -20,6 +26,12 @@ export function SiteHeader() {
     window.addEventListener("scroll", onScroll, { passive: true })
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
+
+  // Resolve the correct href: hash-only links get "/" prepended when not on homepage
+  function resolveHref(href: string) {
+    if (href.startsWith("#") && !isHome) return `/${href}`
+    return href
+  }
 
   return (
     <header
@@ -40,7 +52,7 @@ export function SiteHeader() {
           {nav.map((item) => (
             <Link
               key={item.href}
-              href={item.href}
+              href={resolveHref(item.href)}
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {item.label}
@@ -59,21 +71,12 @@ export function SiteHeader() {
 
 function Logo() {
   return (
-    <span
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src="/savlo-icon.svg"
+      alt="Savlo"
       aria-hidden
-      className="flex h-7 w-7 items-center justify-center rounded-full border border-border bg-surface"
-    >
-      <svg
-        viewBox="0 0 24 24"
-        className="h-4 w-4 text-primary"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M4 15c3-7 6-7 8-4s5 3 8-4" />
-      </svg>
-    </span>
+      className="h-9 w-9 rounded-full"
+    />
   )
 }
