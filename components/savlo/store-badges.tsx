@@ -74,46 +74,15 @@ export function GooglePlayBadge({
       )}
     >
       <svg
-        viewBox="0 0 48 48"
+        viewBox="0 0 24 24"
         width={iconSize}
         height={iconSize}
+        fill="currentColor"
         aria-hidden
       >
-        {/* Full-color Google Play triangle (Cal AI matches brand guidelines) */}
-        <defs>
-          <linearGradient id="gp-a" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stopColor="#00C2FF" />
-            <stop offset="1" stopColor="#00A4FF" />
-          </linearGradient>
-          <linearGradient id="gp-b" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stopColor="#FFBD00" />
-            <stop offset="1" stopColor="#FF9B00" />
-          </linearGradient>
-          <linearGradient id="gp-c" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stopColor="#FF3A44" />
-            <stop offset="1" stopColor="#C31162" />
-          </linearGradient>
-          <linearGradient id="gp-d" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stopColor="#00F076" />
-            <stop offset="1" stopColor="#00A455" />
-          </linearGradient>
-        </defs>
-        <path
-          d="M10 4.5 28.4 23.2l-4.7 4.7L10 41.5c-.7-.4-1.2-1.2-1.2-2.2V6.7c0-1 .5-1.8 1.2-2.2z"
-          fill="url(#gp-a)"
-        />
-        <path
-          d="M33.7 28.5 28.4 23.2l5.3-5.3 6.8 3.9c1.4.8 1.4 2.8 0 3.6l-6.8 3.1z"
-          fill="url(#gp-b)"
-        />
-        <path
-          d="m10 41.5 18.4-18.3 5.3 5.3-18.9 10.9c-1.6.9-3.3.1-4.8-.1z"
-          fill="url(#gp-c)"
-        />
-        <path
-          d="M10 4.5c1.5-.2 3.2-1 4.8-.1l18.9 11-5.3 5.3L10 4.5z"
-          fill="url(#gp-d)"
-        />
+        {/* Google Play monochrome icon */}
+        <path d="M3.5 2.5v19c0 .83.67 1.5 1.5 1.5h14.5l3.5-3.5V5l-3.5-3.5H5c-.83 0-1.5.67-1.5 1.5z" fill="currentColor" opacity="0.2" />
+        <path d="M3 2.5V22c0 .83.67 1.5 1.5 1.5h14.5L22 20V4l-3.5-3.5H4.5C3.67 1 3 1.67 3 2.5zm7 6.45l6.88 6.05-6.88 6.05V8.95z" fill="currentColor" />
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
