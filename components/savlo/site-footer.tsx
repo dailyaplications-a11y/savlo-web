@@ -68,7 +68,7 @@ export function SiteFooter() {
               users.
             </p>
             <p className="mt-3 max-w-[220px] font-serif text-[13px] italic leading-relaxed text-muted-foreground/80">
-              &ldquo;What is felt, is not seen.&rdquo;
+              &ldquo;Lo que se siente, no se ve.&rdquo;
             </p>
           </div>
 
