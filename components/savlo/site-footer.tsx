@@ -60,8 +60,8 @@ export function SiteFooter() {
           <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/savlo-icon.svg" alt="Savlo" className="h-10 w-10 rounded-full" />
-              <span className="font-serif text-xl tracking-tight">Savlo</span>
+              <img src="/savlo-logo.svg" alt="Savlo" className="h-8 w-8" />
+              <span className="font-serif text-lg tracking-tight">Savlo</span>
             </Link>
             <p className="mt-4 max-w-[220px] text-[13px] leading-relaxed text-muted-foreground">
               Behavioral finance wellness. Designed for anxious minds, not power
