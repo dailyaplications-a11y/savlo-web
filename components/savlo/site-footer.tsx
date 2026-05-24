@@ -121,11 +121,19 @@ export function SiteFooter() {
           >
             <svg
               viewBox="0 0 24 24"
-              className="h-5 w-5 text-foreground"
-              fill="currentColor"
+              className="h-5 w-5"
+              fill="none"
               aria-hidden
             >
-              <path d="M6 18c0 .55.45 1 1 1h1v3.5c0 .83.67 1.5 1.5 1.5S11.5 23.33 11.5 22.5V19h1v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h1c.55 0 1-.45 1-1V8H6v10zm3.5-9c.83 0 1.5-.67 1.5-1.5S10.33 6 9.5 6 8 6.67 8 7.5 8.67 9 9.5 9zm5 0c.83 0 1.5-.67 1.5-1.5S15.33 6 14.5 6 13 6.67 13 7.5 13.67 9 14.5 9zM5.5 8C4.12 8 3 9.12 3 10.5v7c0 1.38 1.12 2.5 2.5 2.5S8 18.88 8 17.5v-7C8 9.12 6.88 8 5.5 8zm13 0c-1.38 0-2.5 1.12-2.5 2.5v7c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5v-7c0-1.38-1.12-2.5-2.5-2.5zm-5.5-7C12 .45 11.55 0 11 0s-1 .45-1 1v1.5H10V1c0-.55-.45-1-1-1s-1 .45-1 1v1.5H7V1c0-.55-.45-1-1-1s-1 .45-1 1v1.5H4c-1.38 0-2.5 1.12-2.5 2.5v1h17V4c0-1.38-1.12-2.5-2.5-2.5h-1V1c0-.55-.45-1-1-1s-1 .45-1 1v1.5h-1V1z" />
+              {/* Google Play badge triangle */}
+              <path d="M3 3l9 15 9-15H3Z" fill="url(#playGradient)" />
+              <defs>
+                <linearGradient id="playGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#FF6B6B" />
+                  <stop offset="50%" stopColor="#FFD93D" />
+                  <stop offset="100%" stopColor="#6BCB77" />
+                </linearGradient>
+              </defs>
             </svg>
             <span className="flex flex-col leading-tight">
               <span className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
