@@ -73,10 +73,10 @@ function Logo() {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src="/savlo-icon.svg"
+      src="/savlo-logo.svg"
       alt="Savlo"
       aria-hidden
-      className="h-9 w-9 rounded-full"
+      className="h-8 w-8"
     />
   )
 }
