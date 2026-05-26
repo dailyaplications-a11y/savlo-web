@@ -1,12 +1,7 @@
 "use client"
 
-import Link from "next/link"
 import { cn } from "@/lib/utils"
-
-/**
- * Cal AI-style store badges — dark pills with monochrome product marks.
- * Kept calm, no color glitter: they match Savlo's restrained palette.
- */
+import { buildWaitlistMailto } from "@/lib/site"
 
 type Size = "sm" | "md"
 
@@ -21,10 +16,14 @@ export function AppStoreBadge({
   const iconSize = size === "sm" ? 18 : 22
   const topText = size === "sm" ? "text-[8px]" : "text-[9px]"
   const bigText = size === "sm" ? "text-[13px]" : "text-[15px]"
+
   return (
-    <Link
-      href="#"
-      aria-label="Download on the App Store"
+    <a
+      href={buildWaitlistMailto({
+        platform: "iOS",
+        source: "store-badge-ios",
+      })}
+      aria-label="Join the iOS waitlist"
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
         pad,
@@ -42,13 +41,13 @@ export function AppStoreBadge({
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
-          Download on the
+          Join the
         </span>
         <span className={cn("font-sans font-semibold tracking-tight", bigText)}>
-          App Store
+          iOS waitlist
         </span>
       </span>
-    </Link>
+    </a>
   )
 }
 
@@ -63,10 +62,14 @@ export function GooglePlayBadge({
   const iconSize = size === "sm" ? 18 : 22
   const topText = size === "sm" ? "text-[8px]" : "text-[9px]"
   const bigText = size === "sm" ? "text-[13px]" : "text-[15px]"
+
   return (
-    <Link
-      href="#"
-      aria-label="Get it on Google Play"
+    <a
+      href={buildWaitlistMailto({
+        platform: "Android",
+        source: "store-badge-android",
+      })}
+      aria-label="Join the Android waitlist"
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
         pad,
@@ -79,7 +82,6 @@ export function GooglePlayBadge({
         height={iconSize}
         aria-hidden
       >
-        {/* Full-color Google Play triangle (Cal AI matches brand guidelines) */}
         <defs>
           <linearGradient id="gp-a" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0" stopColor="#00C2FF" />
@@ -117,12 +119,12 @@ export function GooglePlayBadge({
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
-          Get it on
+          Join the
         </span>
         <span className={cn("font-sans font-semibold tracking-tight", bigText)}>
-          Google Play
+          Android waitlist
         </span>
       </span>
-    </Link>
+    </a>
   )
 }

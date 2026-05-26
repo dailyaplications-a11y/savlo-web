@@ -1,27 +1,44 @@
 "use client"
 
 import Link from "next/link"
-import { useMemo, useState } from "react"
+import { useMemo, useState, type FormEvent } from "react"
 import {
   categories,
   formatBlogDateShort,
   posts,
   type BlogCategory,
 } from "@/lib/blog/posts"
+import { buildMailto } from "@/lib/site"
 import { cn } from "@/lib/utils"
 
 export function BlogIndex() {
   const [active, setActive] = useState<BlogCategory | "All">("All")
+  const [email, setEmail] = useState("")
 
   const visible = useMemo(() => {
     const list =
-      active === "All" ? posts : posts.filter((p) => p.category === active)
+      active === "All" ? posts : posts.filter((post) => post.category === active)
     return [...list].sort((a, b) => (a.date < b.date ? 1 : -1))
   }, [active])
 
+  function onSubscribe(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    if (!email) return
+
+    window.location.href = buildMailto({
+      subject: "Savlo Journal updates",
+      bodyLines: [
+        "Hi Savlo team,",
+        "",
+        "Please send me future Savlo Journal updates.",
+        `My email: ${email}`,
+        "Source: blog-journal",
+      ],
+    })
+  }
+
   return (
     <section className="mx-auto w-full max-w-3xl px-6 pb-32 pt-32 sm:pt-36">
-      {/* Heading — mirrors Cal AI's centered "Our Blog" */}
       <header className="flex flex-col items-center text-center">
         <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
           <span
@@ -38,22 +55,22 @@ export function BlogIndex() {
         </p>
         <p className="mt-6 max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground">
           Guides, methods, and reflections on budgeting, saving, and the
-          emotional relationship with money. No streaks, no red numbers.
+          emotional relationship with money. No flashing red numbers and no
+          guilt-based productivity framing.
         </p>
       </header>
 
-      {/* Category pills */}
       <nav
         aria-label="Categories"
         className="mt-14 flex flex-wrap items-center justify-center gap-2"
       >
-        {categories.map((c) => {
-          const isActive = c.label === active
+        {categories.map((category) => {
+          const isActive = category.label === active
           return (
             <button
-              key={c.label}
+              key={category.label}
               type="button"
-              onClick={() => setActive(c.label)}
+              onClick={() => setActive(category.label)}
               className={cn(
                 "btn-calm inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-[13px] transition-colors",
                 isActive
@@ -62,7 +79,7 @@ export function BlogIndex() {
               )}
               aria-pressed={isActive}
             >
-              <span>{c.label}</span>
+              <span>{category.label}</span>
               <span
                 className={cn(
                   "rounded-full px-1.5 py-0.5 text-[10px] tabular-nums",
@@ -71,58 +88,55 @@ export function BlogIndex() {
                     : "bg-muted/40 text-muted-foreground",
                 )}
               >
-                {c.count}
+                {category.count}
               </span>
             </button>
           )
         })}
       </nav>
 
-      {/* Article list — sparse Cal AI-style list */}
       <ol className="mt-16 flex flex-col gap-10">
-        {visible.map((p) => (
-          <li key={p.slug} className="group">
+        {visible.map((post) => (
+          <li key={post.slug} className="group">
             <Link
-              href={`/blog/${p.slug}`}
+              href={`/blog/${post.slug}`}
               className="flex flex-col items-center text-center"
             >
               <h2 className="max-w-2xl text-balance text-lg font-semibold leading-snug text-foreground transition-colors group-hover:text-primary sm:text-xl">
-                {p.title}
+                {post.title}
               </h2>
               <time
-                dateTime={p.date}
+                dateTime={post.date}
                 className="mt-1.5 text-[12px] font-medium text-primary/80"
               >
-                {formatBlogDateShort(p.date)}
+                {formatBlogDateShort(post.date)}
               </time>
               <p className="mt-2 max-w-xl text-pretty text-[14px] leading-relaxed text-muted-foreground">
-                {p.description}
+                {post.description}
               </p>
             </Link>
           </li>
         ))}
       </ol>
 
-      {/* Empty state */}
       {visible.length === 0 && (
         <p className="mt-20 text-center text-sm text-muted-foreground">
           No articles in this category yet. Check back soon.
         </p>
       )}
 
-      {/* Footer note — SEO copy + newsletter hook */}
       <div className="mt-24 flex flex-col items-center gap-4 border-t border-border/60 pt-12 text-center">
         <h3 className="font-serif text-xl font-medium text-foreground">
-          One letter per month, zero noise
+          One note per month, zero noise
         </h3>
         <p className="max-w-md text-[14px] leading-relaxed text-muted-foreground">
-          We send one thoughtful article per month on{" "}
-          <span className="text-foreground/90">behavioral finance</span>,
-          human budgeting, and sustainable saving. No hard sells.
+          If you want future Savlo Journal updates, this form opens your mail
+          app with a prefilled note to the team. No invisible newsletter
+          backend, no silent subscriptions.
         </p>
         <form
           className="mt-2 flex w-full max-w-md items-center gap-2"
-          onSubmit={(e) => e.preventDefault()}
+          onSubmit={onSubscribe}
         >
           <label htmlFor="newsletter" className="sr-only">
             Email
@@ -131,6 +145,8 @@ export function BlogIndex() {
             id="newsletter"
             type="email"
             required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             placeholder="you@quietmail.com"
             className="min-w-0 flex-1 rounded-full border border-border bg-surface/60 px-4 py-2.5 text-[14px] text-foreground placeholder:text-muted-foreground/70 focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-ring"
           />
@@ -138,11 +154,18 @@ export function BlogIndex() {
             type="submit"
             className="btn-calm rounded-full bg-primary px-5 py-2.5 text-[14px] font-medium text-primary-foreground hover:bg-primary-hover"
           >
-            Subscribe
+            Email us
           </button>
         </form>
         <p className="text-[11px] text-muted-foreground">
-          One click to unsubscribe, any time.
+          If you prefer reading now, start with{" "}
+          <Link
+            href="/blog/how-to-make-a-budget"
+            className="underline underline-offset-4 transition-colors hover:text-foreground"
+          >
+            How to Make a Budget
+          </Link>
+          .
         </p>
       </div>
     </section>

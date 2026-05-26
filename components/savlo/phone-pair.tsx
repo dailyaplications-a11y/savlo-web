@@ -21,10 +21,6 @@ export function PhonePair() {
       <div
         className="absolute left-0 top-10 sm:left-4 sm:top-8"
         style={{
-          ["--from-rot" as string]: "-10deg",
-          ["--to-rot" as string]: "-7deg",
-          animation:
-            "phoneIn 1400ms cubic-bezier(0.22, 1, 0.36, 1) 700ms both",
           transformOrigin: "60% 60%",
         }}
       >
@@ -33,14 +29,15 @@ export function PhonePair() {
             src="/app_screen_today.png"
             className="h-full w-full object-cover select-none"
             alt="Savlo Today Screen"
+            loading="eager"
+            decoding="async"
           />
         </PhoneFrame>
 
-        {/* Callouts around left phone */}
-        <Callout className="-left-6 top-14" delay={1800} dx={-16} dy={-6}>
+        <Callout className="-left-6 top-14">
           <Dot className="bg-primary" /> Spanish & English voice
         </Callout>
-        <Callout className="-bottom-2 left-10" delay={2100} dx={-6} dy={14}>
+        <Callout className="-bottom-2 left-10">
           Calm mode
         </Callout>
       </div>
@@ -49,10 +46,6 @@ export function PhonePair() {
       <div
         className="absolute right-0 top-0 sm:right-2"
         style={{
-          ["--from-rot" as string]: "10deg",
-          ["--to-rot" as string]: "6deg",
-          animation:
-            "phoneIn 1400ms cubic-bezier(0.22, 1, 0.36, 1) 1100ms both",
           transformOrigin: "40% 60%",
         }}
       >
@@ -61,22 +54,18 @@ export function PhonePair() {
             src="/app_screen_funds.png"
             className="h-full w-full object-cover select-none"
             alt="Savlo Funds Screen"
+            loading="eager"
+            decoding="async"
           />
         </PhoneFrame>
 
-        {/* Callouts around right phone */}
-        <Callout className="-right-2 top-6 sm:-right-6" delay={2400} dx={12} dy={-10}>
+        <Callout className="-right-2 top-6 sm:-right-6">
           <Dot className="bg-warning" /> Vacation fund
         </Callout>
-        <Callout
-          className="bottom-20 -right-4 sm:-right-10"
-          delay={2700}
-          dx={14}
-          dy={6}
-        >
+        <Callout className="bottom-20 -right-4 sm:-right-10">
           +$12 today
         </Callout>
-        <Callout className="bottom-2 right-14" delay={3000} dx={6} dy={16}>
+        <Callout className="bottom-2 right-14">
           <Dot className="bg-primary" /> Gentle plan
         </Callout>
       </div>
@@ -413,15 +402,9 @@ function CurvyArrow() {
 function Callout({
   children,
   className,
-  delay,
-  dx = 0,
-  dy = 0,
 }: {
   children: ReactNode
   className?: string
-  delay: number
-  dx?: number
-  dy?: number
 }) {
   return (
     <span
@@ -429,12 +412,6 @@ function Callout({
         "absolute z-10 inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-surface px-3 py-1.5 text-[11px] tracking-tight text-foreground shadow-lg shadow-black/30 backdrop-blur",
         className,
       )}
-      style={{
-        opacity: 0,
-        ["--px" as string]: `${dx}px`,
-        ["--py" as string]: `${dy}px`,
-        animation: `pillIn 900ms cubic-bezier(0.22, 1, 0.36, 1) ${delay}ms both`,
-      }}
     >
       {children}
     </span>

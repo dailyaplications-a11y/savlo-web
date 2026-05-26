@@ -4,13 +4,14 @@ import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { BlogArticle } from "@/components/savlo/blog/blog-article"
 import { getPostBySlug, posts } from "@/lib/blog/posts"
+import { absoluteUrl, siteConfig } from "@/lib/site"
 
 type PageProps = {
   params: Promise<{ slug: string }>
 }
 
 export function generateStaticParams() {
-  return posts.map((p) => ({ slug: p.slug }))
+  return posts.map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({
@@ -18,16 +19,18 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { slug } = await params
   const post = getPostBySlug(slug)
+
   if (!post) {
     return {
-      title: "Article not found — Savlo Blog",
+      title: "Article not found",
     }
   }
 
   const url = `/blog/${post.slug}`
+  const image = absoluteUrl(siteConfig.ogImage)
 
   return {
-    title: `${post.title} — Savlo`,
+    title: post.title,
     description: post.description,
     keywords: post.keywords,
     alternates: { canonical: url },
@@ -35,17 +38,24 @@ export async function generateMetadata({
       title: post.title,
       description: post.description,
       type: "article",
-      locale: "en_US",
-      siteName: "Savlo",
+      locale: siteConfig.locale,
+      siteName: siteConfig.name,
       publishedTime: new Date(post.date + "T00:00:00").toISOString(),
       authors: ["Savlo Team"],
       tags: post.keywords,
       url,
+      images: [
+        {
+          url: image,
+          alt: `${post.title} - Savlo`,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
+      images: [image],
     },
   }
 }
@@ -53,27 +63,37 @@ export async function generateMetadata({
 export default async function BlogArticlePage({ params }: PageProps) {
   const { slug } = await params
   const post = getPostBySlug(slug)
+
   if (!post) return notFound()
 
-  // JSON-LD Article structured data for SEO
+  const articleUrl = absoluteUrl(`/blog/${post.slug}`)
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
+    mainEntityOfPage: articleUrl,
+    url: articleUrl,
     headline: post.title,
     description: post.description,
     datePublished: new Date(post.date + "T00:00:00").toISOString(),
+    inLanguage: "en",
+    image: [absoluteUrl(siteConfig.ogImage)],
     author: {
       "@type": "Organization",
-      name: "Savlo",
+      name: siteConfig.name,
     },
     publisher: {
       "@type": "Organization",
-      name: "Savlo",
+      name: siteConfig.name,
+      logo: {
+        "@type": "ImageObject",
+        url: absoluteUrl("/savlo-logo.svg"),
+      },
     },
     keywords: post.keywords.join(", "),
     wordCount: post.stats.words,
-    inLanguage: "en",
     articleSection: post.category,
+    isAccessibleForFree: true,
   }
 
   return (
@@ -85,7 +105,6 @@ export default async function BlogArticlePage({ params }: PageProps) {
       <SiteFooter />
       <script
         type="application/ld+json"
-        // JSON-LD only — safe to inline as stringified JSON
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
     </div>

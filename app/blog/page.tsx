@@ -2,11 +2,12 @@ import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { BlogIndex } from "@/components/savlo/blog/blog-index"
+import { absoluteUrl, siteConfig } from "@/lib/site"
 
 export const metadata: Metadata = {
-  title: "Savlo Blog — Behavioral Finance, Budgeting & Calm Saving",
+  title: "Blog",
   description:
-    "Guides on budgeting, the 50/30/20 rule, emergency funds, envelope method, and the psychology of money. No streaks. No guilt.",
+    "Budgeting, saving, and money psychology guides for people who want a calmer relationship with their finances.",
   keywords: [
     "personal finance blog",
     "budgeting app",
@@ -15,21 +16,29 @@ export const metadata: Metadata = {
     "emergency fund",
     "financial anxiety",
     "behavioral finance",
-    "envelope budgeting",
+    "voice expense tracking",
+    "sinking funds",
   ],
   openGraph: {
-    title: "Savlo Blog — Calm finances, month by month",
+    title: "Savlo Blog",
     description:
-      "Budgeting, saving, and money psychology guides. Written with the same calm as the app.",
+      "Calm personal finance guides on budgeting, saving, and money psychology.",
     type: "website",
-    locale: "en_US",
-    siteName: "Savlo",
+    locale: siteConfig.locale,
+    siteName: siteConfig.name,
+    url: "/blog",
+    images: [
+      {
+        url: absoluteUrl(siteConfig.ogImage),
+        alt: "Savlo blog preview",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Savlo Blog",
-    description:
-      "Applied behavioral finance: human budgeting, sustainable saving, zero red numbers.",
+    description: "Calm guides on budgeting, saving, and behavioral finance.",
+    images: [absoluteUrl(siteConfig.ogImage)],
   },
   alternates: {
     canonical: "/blog",

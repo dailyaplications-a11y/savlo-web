@@ -1,5 +1,8 @@
-import type { ReactNode } from "react"
-import Link from "next/link"
+import {
+  cloneElement,
+  isValidElement,
+  type ReactNode,
+} from "react"
 
 /**
  * Savlo blog — data + content for every post.
@@ -49,13 +52,95 @@ export type BlogPost = {
 
 // ---------- Reusable typography helpers ----------
 
+const publicCopyReplacements: Array<[RegExp, string]> = [
+  [
+    /If Mint(?:'|&apos;)s shutdown left you hesitant to hand over your bank credentials to another app, Savlo was built with exactly that concern in mind\./g,
+    "If Mint's shutdown left you hesitant to jump into another money app, Savlo positions itself as a calmer alternative.",
+  ],
+  [
+    /No bank sync, no ads, no third-party access to your data[\s\S]*?own bank(?:'|&apos;)s CSV\./g,
+    "The public site highlights voice check-ins, spreadsheet imports, and a lower-pressure budgeting experience.",
+  ],
+  [
+    /In Savlo, both English and Spanish are supported for voice input\./g,
+    "Savlo positions voice input as a faster, lower-friction way to capture spending in the moment.",
+  ],
+  [
+    /The app processes audio entirely on-device, which means nothing you say is transmitted to a server or stored anywhere outside your phone\./g,
+    "The public site's core promise here is speed and simplicity, not a long manual entry flow.",
+  ],
+  [
+    /On-device processing means the audio never leaves your phone\./g,
+    "When evaluating any voice-enabled financial app, look for clear privacy disclosures about where audio is processed, how long it is retained, and whether it is shared with third parties.",
+  ],
+  [
+    /The speech recognition happens locally, the transaction is logged locally, and nothing is transmitted externally\./g,
+    "",
+  ],
+  [
+    /When evaluating any voice-enabled financial app,[\s\S]*?phrase to look for\./g,
+    "Those details matter far more than the marketing headline.",
+  ],
+  [
+    /On-device processing means your audio never leaves your phone\./g,
+    "The public site emphasizes faster check-ins, calmer review habits, and less friction than manual expense entry.",
+  ],
+  [
+    /No bank linking, no ads, no third-party access\./g,
+    "",
+  ],
+  [
+    /Just a fast, private way to know exactly where your money goes\./g,
+    "",
+  ],
+  [
+    /Your data stays on your device\./g,
+    "",
+  ],
+  [
+    /It features local-first privacy, 4-second natural voice logging, automated CSV importing, sinking funds, and a morning Daily Margin focus\./g,
+    "The public site emphasizes voice logging, CSV importing, sinking funds, Spaces, and a calmer daily money routine.",
+  ],
+  [
+    /Available on iOS with a free trial\./g,
+    "The public website currently presents the app as coming soon.",
+  ],
+]
+
+function sanitizePublicCopy(text: string) {
+  return publicCopyReplacements.reduce(
+    (current, [pattern, replacement]) => current.replace(pattern, replacement),
+    text,
+  )
+}
+
+function sanitizePublicNode(node: ReactNode): ReactNode {
+  if (typeof node === "string") {
+    return sanitizePublicCopy(node)
+  }
+
+  if (Array.isArray(node)) {
+    return node.map((child) => sanitizePublicNode(child))
+  }
+
+  if (isValidElement<{ children?: ReactNode }>(node)) {
+    if (node.props.children === undefined) {
+      return node
+    }
+
+    return cloneElement(node, undefined, sanitizePublicNode(node.props.children))
+  }
+
+  return node
+}
+
 function H2({ id, children }: { id: string; children: ReactNode }) {
   return (
     <h2
       id={id}
       className="mt-14 scroll-mt-28 font-serif text-3xl font-medium tracking-tight text-foreground sm:text-[34px]"
     >
-      {children}
+      {sanitizePublicNode(children)}
     </h2>
   )
 }
@@ -66,7 +151,7 @@ function H3({ id, children }: { id: string; children: ReactNode }) {
       id={id}
       className="mt-10 scroll-mt-28 font-serif text-xl font-medium tracking-tight text-foreground"
     >
-      {children}
+      {sanitizePublicNode(children)}
     </h3>
   )
 }
@@ -74,7 +159,7 @@ function H3({ id, children }: { id: string; children: ReactNode }) {
 function P({ children }: { children: ReactNode }) {
   return (
     <p className="mt-5 text-[17px] leading-[1.75] text-foreground/90">
-      {children}
+      {sanitizePublicNode(children)}
     </p>
   )
 }
@@ -82,7 +167,7 @@ function P({ children }: { children: ReactNode }) {
 function UL({ children }: { children: ReactNode }) {
   return (
     <ul className="mt-5 space-y-2.5 pl-5 text-[17px] leading-[1.7] text-foreground/90 [&>li]:list-disc [&>li]:marker:text-primary/80">
-      {children}
+      {sanitizePublicNode(children)}
     </ul>
   )
 }
@@ -90,26 +175,26 @@ function UL({ children }: { children: ReactNode }) {
 function OL({ children }: { children: ReactNode }) {
   return (
     <ol className="mt-5 space-y-2.5 pl-5 text-[17px] leading-[1.7] text-foreground/90 [&>li]:list-decimal [&>li]:marker:text-primary/80">
-      {children}
+      {sanitizePublicNode(children)}
     </ol>
   )
 }
 
 function A({ href, children }: { href: string; children: ReactNode }) {
   return (
-    <Link
+    <a
       href={href}
       className="text-primary underline decoration-primary/30 underline-offset-4 transition-colors hover:decoration-primary"
     >
       {children}
-    </Link>
+    </a>
   )
 }
 
 function Callout({ children }: { children: ReactNode }) {
   return (
     <aside className="mt-8 rounded-2xl border border-primary/25 bg-primary/[0.06] px-5 py-4 text-[16px] leading-relaxed text-foreground/90">
-      {children}
+      {sanitizePublicNode(children)}
     </aside>
   )
 }
@@ -778,7 +863,7 @@ function ContentMintAlternatives() {
         The right app depends on your relationship with money and how much friction you are willing to accept in exchange for control or privacy.
       </P>
       <UL>
-        <li><strong>Choose Savlo</strong> if privacy matters to you, if linking your bank makes you uncomfortable, or if you want a polished, clear, stress-free, and guilt-free interface to stay aware of your daily spending. Take advantage of the speed provided by CSV imports, voice logging, and Savlo AI.</li>
+        <li><strong>Choose Savlo</strong> if privacy matters to you, if linking your bank makes you uncomfortable, or if you want a polished, clear, stress-free, and guilt-free interface to stay aware of your daily spending. The public site emphasizes CSV imports, voice logging, and a calmer daily budgeting rhythm.</li>
         <li><strong>Choose Monarch Money</strong> if you want a true Mint replacement with automatic sync, visual reporting, and couples budgeting all in one place.</li>
         <li><strong>Choose YNAB</strong> if you are determined to change your financial behavior and willing to invest time in learning a new system.</li>
         <li><strong>Choose Empower</strong> if you want free portfolio and net worth tracking and don&apos;t mind receiving occasional wealth management pitches.</li>

@@ -5,14 +5,16 @@ import {
   getRelatedPosts,
   type BlogPost,
 } from "@/lib/blog/posts"
+import { absoluteUrl } from "@/lib/site"
 
 export function BlogArticle({ post }: { post: BlogPost }) {
   const related = getRelatedPosts(post.slug, 3)
   const Content = post.content
+  const shareUrl = absoluteUrl(`/blog/${post.slug}`)
+  const shareText = `${post.title} | Savlo`
 
   return (
     <article className="mx-auto w-full max-w-3xl px-6 pb-24 pt-32 sm:pt-36">
-      {/* Breadcrumb */}
       <nav
         aria-label="Breadcrumb"
         className="mb-10 text-[12px] text-muted-foreground"
@@ -40,7 +42,6 @@ export function BlogArticle({ post }: { post: BlogPost }) {
         </ol>
       </nav>
 
-      {/* Category pill */}
       <div className="flex items-center gap-3 text-[12px] text-muted-foreground">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/[0.08] px-2.5 py-1 text-[11px] uppercase tracking-[0.14em] text-primary">
           {post.category}
@@ -51,17 +52,14 @@ export function BlogArticle({ post }: { post: BlogPost }) {
         <span>{post.readingTime} min read</span>
       </div>
 
-      {/* Title */}
       <h1 className="mt-5 text-balance font-serif text-4xl font-medium leading-[1.05] tracking-tight text-foreground sm:text-[56px]">
         {post.title}
       </h1>
 
-      {/* Lede */}
       <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
         {post.description}
       </p>
 
-      {/* Author + share row */}
       <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-y border-border/60 py-4">
         <div className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -82,7 +80,7 @@ export function BlogArticle({ post }: { post: BlogPost }) {
         <div className="flex items-center gap-2 text-[12px] text-muted-foreground">
           <span>Share</span>
           <ShareIconLink
-            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}`}
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`}
             label="Share on X"
           >
             <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
@@ -90,7 +88,7 @@ export function BlogArticle({ post }: { post: BlogPost }) {
             </svg>
           </ShareIconLink>
           <ShareIconLink
-            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://savloapp.com/blog/${post.slug}`)}`}
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
             label="Share on LinkedIn"
           >
             <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
@@ -100,7 +98,6 @@ export function BlogArticle({ post }: { post: BlogPost }) {
         </div>
       </div>
 
-      {/* Article stats block — establishes length benchmark */}
       <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-4">
         <Stat label="Words" value={post.stats.words.toLocaleString()} />
         <Stat
@@ -117,12 +114,10 @@ export function BlogArticle({ post }: { post: BlogPost }) {
         />
       </div>
 
-      {/* Body */}
       <div className="mt-10">
         <Content />
       </div>
 
-      {/* Footer nav */}
       <footer className="mt-20 border-t border-border/60 pt-8">
         <div className="flex items-center justify-between gap-4 text-[13px]">
           <Link
@@ -152,7 +147,6 @@ export function BlogArticle({ post }: { post: BlogPost }) {
         </div>
       </footer>
 
-      {/* Related */}
       {related.length > 0 && (
         <section
           aria-labelledby="related-heading"
@@ -165,20 +159,24 @@ export function BlogArticle({ post }: { post: BlogPost }) {
             Keep reading
           </h2>
           <p className="mt-2 text-center text-[13px] text-muted-foreground">
-            More articles in <span className="text-foreground/80">{post.category}</span>
+            More articles in{" "}
+            <span className="text-foreground/80">{post.category}</span>
           </p>
           <ol className="mt-10 flex flex-col gap-8">
-            {related.map((r) => (
-              <li key={r.slug} className="text-center">
-                <Link href={`/blog/${r.slug}`} className="group inline-block">
+            {related.map((relatedPost) => (
+              <li key={relatedPost.slug} className="text-center">
+                <Link
+                  href={`/blog/${relatedPost.slug}`}
+                  className="group inline-block"
+                >
                   <h3 className="text-balance text-lg font-semibold text-foreground transition-colors group-hover:text-primary">
-                    {r.title}
+                    {relatedPost.title}
                   </h3>
                   <time
-                    dateTime={r.date}
+                    dateTime={relatedPost.date}
                     className="mt-1 block text-[12px] font-medium text-primary/80"
                   >
-                    {formatBlogDateShort(r.date)}
+                    {formatBlogDateShort(relatedPost.date)}
                   </time>
                 </Link>
               </li>

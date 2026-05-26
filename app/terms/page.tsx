@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/savlo/site-footer"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Términos de Servicio — Savlo",
+  title: "Terminos de servicio",
   description:
-    "Lea los Términos de Servicio de Savlo, la aplicación móvil de finanzas personales con inteligencia artificial.",
+    "Lee los terminos de servicio de Savlo y la informacion legal de la app de finanzas personales.",
   alternates: {
     canonical: "/terms",
   },
@@ -90,8 +90,8 @@ export default function TermsPage() {
             </p>
             <p>
               Puedes contactarnos por correo electrónico en{" "}
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
-                soporte@savloapp.com
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
+                support@savloapp.com
               </a>{" "}o por correo a Bahía Blanca, Bahía Blanca, Buenos Aires 8000, Argentina.
             </p>
             <p>
@@ -168,7 +168,7 @@ export default function TermsPage() {
             </p>
             <p>
               Si desea hacer uso de los Servicios, el Contenido o las Marcas de manera distinta a la establecida en esta sección o en cualquier otra parte de nuestros Términos Legales, dirija su solicitud a:{" "}
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">soporte@savloapp.com</a>. Si en algún momento le otorgamos permiso para publicar, reproducir o mostrar públicamente cualquier parte de nuestros Servicios o Contenido, deberá identificarnos como los propietarios o licenciatarios de los Servicios, el Contenido o las Marcas y asegurarse de que cualquier aviso de derechos de autor o de propiedad aparezca o sea visible al publicar, reproducir o mostrar nuestro Contenido.
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">support@savloapp.com</a>. Si en algún momento le otorgamos permiso para publicar, reproducir o mostrar públicamente cualquier parte de nuestros Servicios o Contenido, deberá identificarnos como los propietarios o licenciatarios de los Servicios, el Contenido o las Marcas y asegurarse de que cualquier aviso de derechos de autor o de propiedad aparezca o sea visible al publicar, reproducir o mostrar nuestro Contenido.
             </p>
             <p>Nos reservamos todos los derechos no otorgados expresamente a usted en relación con los Servicios, el Contenido y las Marcas.</p>
             <p>Cualquier infracción de estos Derechos de Propiedad Intelectual constituirá una infracción grave de nuestros Términos Legales y su derecho a utilizar nuestros Servicios finalizará de inmediato.</p>
@@ -243,13 +243,13 @@ export default function TermsPage() {
 
             <h3 className="font-semibold text-foreground text-[15px] pt-2">Prueba gratuita</h3>
             <p>
-              Ofrecemos una prueba gratuita de 14 días para nuevos usuarios que se registren en los Servicios. El cargo en la cuenta se realizará de acuerdo con la suscripción elegida por el usuario al final del período de prueba gratuito.
+              Ofrecemos una prueba gratuita de 7 días para nuevos usuarios que se registren en los Servicios. El cargo en la cuenta se realizará de acuerdo con la suscripción elegida por el usuario al final del período de prueba gratuito.
             </p>
 
             <h3 className="font-semibold text-foreground text-[15px] pt-2">Cancelación</h3>
             <p>
               Puedes cancelar tu suscripción en cualquier momento iniciando sesión en tu cuenta. Su cancelación entrará en vigor al final del período pagado actual. Si tiene alguna pregunta o no está satisfecho con nuestros Servicios, envíenos un correo electrónico a{" "}
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">soporte@savloapp.com</a>.
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">support@savloapp.com</a>.
             </p>
 
             <h3 className="font-semibold text-foreground text-[15px] pt-2">Cambios en las tarifas</h3>
@@ -518,8 +518,8 @@ export default function TermsPage() {
               Bahía Blanca<br />
               Bahía Blanca, Buenos Aires 8000<br />
               Argentina<br />
-              <a href="mailto:soporte@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
-                soporte@savloapp.com
+              <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">
+                support@savloapp.com
               </a>
             </address>
           </section>

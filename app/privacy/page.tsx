@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/savlo/site-footer"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Savlo",
+  title: "Privacy policy",
   description:
-    "Review the privacy policy and data processing notice for Savlo, our personal finance mobile application.",
+    "Review the privacy policy and data-processing notice for Savlo, the personal finance mobile app.",
   alternates: {
     canonical: "/privacy",
   },
