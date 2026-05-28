@@ -91,7 +91,7 @@ export default function PrivacyPage() {
               </li>
             </ul>
             <p className="mt-6">
-              <strong>Questions or concerns?</strong> Reading this Privacy Notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:support@savloapp.com" className="text-primary hover:text-primary-hover underline transition-colors">support@savloapp.com</a>.
+              <strong>Questions or concerns?</strong> Reading this Privacy Notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <span>support@savloapp.com</span>.
             </p>
           </section>
 
@@ -933,7 +933,7 @@ export default function PrivacyPage() {
                 <p>
                   To exercise these rights, you can contact us by visiting{" "}
                   <a href="mailto:support@savloapp.com" className="text-primary hover:underline font-mono text-[13px]">
-                    mailto:support@savloapp.com
+                    support@savloapp.com
                   </a>
                   , by emailing us at{" "}
                   <a href="mailto:support@savloapp.com" className="text-primary hover:underline">
@@ -1027,7 +1027,7 @@ export default function PrivacyPage() {
               <p>
                 Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please visit:{" "}
                 <a href="mailto:support@savloapp.com" className="text-primary hover:underline font-mono text-[13px]">
-                  mailto:support@savloapp.com
+                  support@savloapp.com
                 </a>.
               </p>
             </div>
