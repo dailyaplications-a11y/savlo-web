@@ -128,7 +128,7 @@ export default function PrivacyPage() {
                   Do we collect any information from third parties?
                 </p>
                 <p className="mt-1">
-                  We do not collect any information from third parties.
+                  We do not purchase or acquire personal data from third-party data brokers. We may receive limited profile information from social login providers (such as Google) only when you choose to sign in through them.
                 </p>
               </div>
 
@@ -456,9 +456,6 @@ export default function PrivacyPage() {
               <ul className="pl-6 space-y-4 list-disc marker:text-primary">
                 <li>
                   <strong className="text-foreground">Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
-                </li>
-                <li>
-                  <strong className="text-foreground">Offer Wall.</strong> Our application(s) may display a third-party hosted &ldquo;offer wall.&rdquo; Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.
                 </li>
               </ul>
             </div>

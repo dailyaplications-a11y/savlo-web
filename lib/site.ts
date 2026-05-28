@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Savlo",
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-    "https://savlo-web.vercel.app",
+    "https://www.savloapp.com",
   description:
     "Savlo is a calm personal budgeting app for anxious minds. Track spending by voice, organize money into Spaces and Sinking Funds, and build steady habits without guilt.",
   longDescription:
