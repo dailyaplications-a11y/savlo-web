@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   description:
     "Review the privacy policy and data processing notice for Savlo, our personal finance mobile application.",
   alternates: {
-    canonical: "/privacy",
+    canonical: "https://www.savloapp.com/privacy",
+  },
+  openGraph: {
+    url: "https://www.savloapp.com/privacy",
   },
 }
 
@@ -128,7 +131,7 @@ export default function PrivacyPage() {
                   Do we collect any information from third parties?
                 </p>
                 <p className="mt-1">
-                  We do not collect any information from third parties.
+                  We do not purchase data from third parties.
                 </p>
               </div>
 
@@ -456,9 +459,6 @@ export default function PrivacyPage() {
               <ul className="pl-6 space-y-4 list-disc marker:text-primary">
                 <li>
                   <strong className="text-foreground">Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
-                </li>
-                <li>
-                  <strong className="text-foreground">Offer Wall.</strong> Our application(s) may display a third-party hosted &ldquo;offer wall.&rdquo; Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.
                 </li>
               </ul>
             </div>
@@ -1035,14 +1035,6 @@ export default function PrivacyPage() {
               </p>
             </div>
           </section>
-
-          {/* Footer note */}
-          <div className="border-t border-border/20 pt-8 text-center text-[12px] text-muted-foreground/60">
-            This Privacy Policy was created using Termly&apos;s{" "}
-            <a href="https://termly.io/products/privacy-policy-generator/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-              Privacy Policy Generator
-            </a>.
-          </div>
         </div>
       </main>
 

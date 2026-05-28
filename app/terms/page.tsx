@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   description:
     "Lea los Términos de Servicio de Savlo, la aplicación móvil de finanzas personales con inteligencia artificial.",
   alternates: {
-    canonical: "/terms",
+    canonical: "https://www.savloapp.com/terms",
+  },
+  openGraph: {
+    url: "https://www.savloapp.com/terms",
   },
 }
 
