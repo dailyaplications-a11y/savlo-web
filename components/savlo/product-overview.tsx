@@ -55,6 +55,32 @@ const copy = {
       { name: "Fondo vacaciones", amount: 196, pct: 33 },
     ],
   },
+  pt: {
+    eyebrow: "Sua semana, resumida com leveza",
+    heading: "Não é um dashboard.",
+    emphasis: "É uma reflexão.",
+    description:
+      "O Savlo organiza o fluxo do seu dinheiro e devolve isso com calma: o progresso dos seus fundos, seus espaços financeiros separados e sua margem segura de gastos do dia. Observado, nunca julgado.",
+    dailyMargin: "Margem diária",
+    today: "Hoje",
+    safeToSpend: "Seguro para gastar",
+    safeToSpendSuffix: " hoje",
+    marginBody:
+      "Uma métrica simples e honesta. Sem alertas vermelhos piscando - só o valor exato que você pode gastar hoje, sem culpa.",
+    cashFlow: "Fluxo de caixa · últimas 8 semanas",
+    income: "Entradas",
+    spending: "Gastos",
+    saved: "Guardado",
+    spacesFunds: "Spaces & Funds",
+    spacesTitle: "Seu dinheiro separado por contexto",
+    spacesBadge: "Estrutura simples e intuitiva",
+    categories: [
+      { name: "Espaço pessoal", amount: 1240, pct: 55 },
+      { name: "Espaço freelance", amount: 612, pct: 28, warm: true },
+      { name: "Fundo de emergência", amount: 450, pct: 75 },
+      { name: "Fundo de viagem", amount: 196, pct: 33 },
+    ],
+  },
 } as const
 
 export function ProductOverview({ locale = "en" }: { locale?: Locale }) {
@@ -81,7 +107,6 @@ export function ProductOverview({ locale = "en" }: { locale?: Locale }) {
         </Reveal>
 
         <div className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-3">
-          {/* Daily Margin card */}
           <Reveal delay={80} className="md:col-span-1">
             <article className="card-calm group relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6 animate-fade-up">
               <header className="flex items-center justify-between">
@@ -110,7 +135,6 @@ export function ProductOverview({ locale = "en" }: { locale?: Locale }) {
             </article>
           </Reveal>
 
-          {/* Cash flow timeline */}
           <Reveal delay={160} className="md:col-span-2">
             <article className="card-calm relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6 animate-fade-up">
               <header className="flex items-center justify-between">
@@ -138,7 +162,6 @@ export function ProductOverview({ locale = "en" }: { locale?: Locale }) {
             </article>
           </Reveal>
 
-          {/* Spaces & Funds */}
           <Reveal delay={240} className="md:col-span-3">
             <article className="card-calm relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6 animate-fade-up">
               <header className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">

@@ -69,6 +69,32 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
         "Exporta cada check-in, fondo y nota a CSV, JSON o PDF en un gesto. Sin encierro, sin patrones oscuros. Savlo es una compañía, no una jaula.",
     },
   ],
+  pt: [
+    {
+      id: "import",
+      label: "Importar histórico",
+      kicker: "Da planilha à história",
+      title: "Solte seu Excel. Mantenha seu passado.",
+      description:
+        "Traga anos de transações de um único .xlsx ou .csv. O Savlo lê suas colunas, reconcilia duplicados e transforma uma planilha silenciosa na sua linha do tempo, para que seus check-ins comecem com histórico real.",
+    },
+    {
+      id: "voice",
+      label: "Check-in diário",
+      kicker: "Um minuto por noite",
+      title: "Fale. O Savlo escuta o dia.",
+      description:
+        "Toque no microfone e conte ao Savlo como foi seu dia, com suas palavras e no seu idioma. O Savlo AI extrai valor, comerciante e categoria, salva o gasto e devolve um micro-plano para amanhã.",
+    },
+    {
+      id: "export",
+      label: "Exportar",
+      kicker: "Seus dados pertencem a você",
+      title: "Pronto para sair, sempre.",
+      description:
+        "Exporte cada check-in, cada fundo e cada nota para CSV, JSON ou PDF em um gesto. Sem aprisionamento, sem padrões obscuros. O Savlo é uma companhia, não uma gaiola.",
+    },
+  ],
 }
 
 const sectionCopy = {
@@ -94,6 +120,17 @@ const sectionCopy = {
     aiBody: "Extrae entidades con contexto.",
     showLabel: "Mostrar",
   },
+  pt: {
+    eyebrow: "O que o Savlo faz",
+    headingStart: "Três gestos.",
+    headingEmphasis: "Um registro silencioso.",
+    description:
+      "Importe o que já existe. Fale o que acontece depois. Leve tudo com você quando quiser.",
+    tablist: "Demonstração de recursos",
+    aiTitle: "Savlo AI ativo",
+    aiBody: "Extrai entidades localmente e com contexto.",
+    showLabel: "Mostrar",
+  },
 } as const
 
 const CYCLE_MS = 8500
@@ -106,7 +143,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
   const [progress, setProgress] = useState(0)
   const sectionRef = useRef<HTMLDivElement>(null)
 
-  // Driver state kept in a ref so the rAF loop doesn't rebuild on every tick
   const driverRef = useRef({
     active: 0,
     progress: 0,
@@ -115,7 +151,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
     reduced: false,
   })
 
-  // Reduced motion
   useEffect(() => {
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)")
     const apply = () => {
@@ -130,7 +165,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
     return () => mq.removeEventListener?.("change", apply)
   }, [])
 
-  // Visibility
   useEffect(() => {
     const el = sectionRef.current
     if (!el) return
@@ -144,7 +178,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
     return () => io.disconnect()
   }, [])
 
-  // rAF loop
   useEffect(() => {
     let raf = 0
     let last = performance.now()
@@ -193,7 +226,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
       id="features"
       className="relative px-6 py-28 sm:py-36"
     >
-      {/* Section chrome */}
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <div className="flex items-baseline gap-3">
@@ -219,7 +251,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
           </p>
         </Reveal>
 
-        {/* Tabs */}
         <div
           role="tablist"
           aria-label={text.tablist}
@@ -241,7 +272,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
                     : "border-border bg-surface/60 text-muted-foreground hover:border-primary/30 hover:text-foreground",
                 ].join(" ")}
               >
-                {/* Progress fill under the label */}
                 {isActive && (
                   <span
                     aria-hidden
@@ -264,11 +294,8 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
           })}
         </div>
 
-        {/* Two-column: stage + description */}
         <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_320px]">
-          {/* Stage */}
           <div className="relative overflow-hidden rounded-3xl border border-border bg-gradient-to-b from-surface/60 to-surface-2/40 backdrop-blur">
-            {/* Ambient glow */}
             <div
               aria-hidden
               className="pointer-events-none absolute inset-0"
@@ -277,7 +304,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
                   "radial-gradient(600px 300px at 50% 40%, color-mix(in oklch, var(--primary) 10%, transparent), transparent 70%)",
               }}
             />
-            {/* Soft grid */}
             <div
               aria-hidden
               className="pointer-events-none absolute inset-0 opacity-30"
@@ -294,7 +320,6 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
               {active === "export" && <ExportAnimation progress={progress} />}
             </div>
 
-            {/* Caption */}
             <div className="relative flex items-center justify-between border-t border-border/60 px-6 py-3 text-[11px] text-muted-foreground sm:px-10">
               <span className="flex items-center gap-2">
                 <span className="relative flex h-1.5 w-1.5">
@@ -314,10 +339,9 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
             </div>
           </div>
 
-          {/* Description panel — swaps with active feature */}
           <div className="flex flex-col justify-center">
             <div
-              key={active /* remount → replays enter animation */}
+              key={active}
               className="rounded-2xl border border-border bg-card/60 p-6 backdrop-blur"
               style={{
                 opacity: 0,
@@ -341,7 +365,11 @@ export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
               {active === "voice" && (
                 <div className="mt-5 flex items-center gap-3 rounded-xl border border-border bg-surface/50 p-3">
                   <div className="relative h-10 w-10 shrink-0">
-                    <img src="/savlo_ai_icon.svg" className="h-full w-full object-contain" alt="Savlo AI" />
+                    <img
+                      src="/savlo_ai_icon.svg"
+                      className="h-full w-full object-contain"
+                      alt="Savlo AI"
+                    />
                   </div>
                   <div>
                     <h4 className="text-[12px] font-semibold text-foreground">

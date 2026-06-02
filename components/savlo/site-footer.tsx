@@ -1,12 +1,13 @@
 import Link from "next/link"
 import { buildMailto, buildWaitlistMailto, siteConfig } from "@/lib/site"
+import type { Locale } from "@/lib/i18n"
 
-type Locale = "en" | "es"
+type Column = {
+  heading: string
+  links: { label: string; href: string }[]
+}
 
-const COLUMNS: Record<
-  Locale,
-  { heading: string; links: { label: string; href: string }[] }[]
-> = {
+const COLUMNS: Record<Locale, Column[]> = {
   en: [
     {
       heading: "Product",
@@ -129,18 +130,93 @@ const COLUMNS: Record<
       ],
     },
   ],
+  pt: [
+    {
+      heading: "Produto",
+      links: [
+        { label: "Check-in diário", href: "/pt#features" },
+        { label: "Registro por voz", href: "/pt/blog/voice-expense-tracking" },
+        { label: "Sinking funds", href: "/pt/blog/sinking-funds" },
+        { label: "Espaços e fundos", href: "/pt#product" },
+        { label: "Exportar seus dados", href: "/pt#features" },
+      ],
+    },
+    {
+      heading: "Aprender",
+      links: [
+        { label: "Blog", href: "/pt/blog" },
+        { label: "Como fazer um orçamento", href: "/pt/blog/how-to-make-a-budget" },
+        { label: "Regra 50/30/20", href: "/pt/blog/50-30-20-rule" },
+        { label: "Orçamento base zero", href: "/pt/blog/zero-based-budgeting" },
+        {
+          label: "Alternativas ao Mint",
+          href: "/pt/blog/best-mint-alternatives-2025",
+        },
+      ],
+    },
+    {
+      heading: "Mentalidade",
+      links: [
+        {
+          label: "Finanças comportamentais",
+          href: "/pt/blog/why-traditional-budgets-fail",
+        },
+        { label: "Ansiedade financeira", href: "/pt/blog/financial-anxiety" },
+        { label: "Money dysmorphia", href: "/pt/blog/money-dysmorphia" },
+        { label: "Filosofia", href: "/pt#philosophy" },
+      ],
+    },
+    {
+      heading: "Empresa",
+      links: [
+        { label: "Início", href: "/pt" },
+        { label: "Guias", href: "/pt#guides" },
+        { label: "Acesso antecipado", href: "/pt#cta" },
+        {
+          label: "Contato",
+          href: buildMailto({ subject: "Savlo contact" }),
+        },
+      ],
+    },
+    {
+      heading: "Legal",
+      links: [
+        { label: "Privacidade", href: "/privacy" },
+        { label: "Termos", href: "/terms" },
+        { label: "Confiança", href: "/pt#trust" },
+        {
+          label: "Divulgação responsável",
+          href: buildMailto({ subject: "Savlo security disclosure" }),
+        },
+      ],
+    },
+  ],
 }
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
-  const homePath = locale === "es" ? "/es" : "/"
+  const homePath = locale === "en" ? "/" : `/${locale}`
   const copy =
     locale === "es"
       ? "Finanzas conductuales para personas que quieren una práctica de presupuesto más tranquila."
-      : "Behavioral finance wellness for people who want a calmer budgeting practice."
-  const directBlogLabel = locale === "es" ? "Leer el blog" : "Read the blog"
-  const privacyLabel = locale === "es" ? "Privacidad" : "Privacy"
+      : locale === "pt"
+        ? "Finanças comportamentais para pessoas que querem uma prática de orçamento mais tranquila."
+        : "Behavioral finance wellness for people who want a calmer budgeting practice."
+  const quote =
+    locale === "es"
+      ? "Lo que se siente, no se ve."
+      : locale === "pt"
+        ? "O que se sente, não se vê."
+        : "What you feel is not always visible."
+  const directBlogLabel =
+    locale === "es" ? "Leer el blog" : locale === "pt" ? "Ler o blog" : "Read the blog"
+  const privacyLabel =
+    locale === "es" ? "Privacidad" : locale === "pt" ? "Privacidade" : "Privacy"
   const noAdsLabel =
-    locale === "es" ? "Sin anuncios. Sin venta de datos." : "No ads. No data selling."
+    locale === "es"
+      ? "Sin anuncios. Sin venta de datos."
+      : locale === "pt"
+        ? "Sem anúncios. Sem venda de dados."
+        : "No ads. No data selling."
 
   return (
     <footer className="relative border-t border-border/70 bg-background">
@@ -156,7 +232,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               {copy}
             </p>
             <p className="mt-3 max-w-[220px] font-serif text-[13px] italic leading-relaxed text-muted-foreground/80">
-              "Lo que se siente, no se ve."
+              "{quote}"
             </p>
           </div>
 
@@ -186,29 +262,49 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
             href={buildWaitlistMailto({
               platform: "iOS",
               source: "footer-ios",
+              locale,
             })}
             className="btn-calm inline-flex items-center gap-3 rounded-xl border border-border bg-surface px-4 py-2.5 text-left"
           >
             <span className="flex flex-col leading-tight">
               <span className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                {locale === "es" ? "Pedir acceso anticipado" : "Request early access"}
+                {locale === "es"
+                  ? "Pedir acceso anticipado"
+                  : locale === "pt"
+                    ? "Pedir acesso antecipado"
+                    : "Request early access"}
               </span>
-              <span className="text-sm text-foreground">iOS waitlist</span>
+              <span className="text-sm text-foreground">
+                {locale === "es"
+                  ? "Lista de iOS"
+                  : locale === "pt"
+                    ? "Lista de iOS"
+                    : "iOS waitlist"}
+              </span>
             </span>
           </a>
           <a
             href={buildWaitlistMailto({
               platform: "Android",
               source: "footer-android",
+              locale,
             })}
             className="btn-calm inline-flex items-center gap-3 rounded-xl border border-border bg-surface px-4 py-2.5 text-left"
           >
             <span className="flex flex-col leading-tight">
               <span className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                {locale === "es" ? "Pedir acceso anticipado" : "Request early access"}
+                {locale === "es"
+                  ? "Pedir acceso anticipado"
+                  : locale === "pt"
+                    ? "Pedir acesso antecipado"
+                    : "Request early access"}
               </span>
               <span className="text-sm text-foreground">
-                Android waitlist
+                {locale === "es"
+                  ? "Lista de Android"
+                  : locale === "pt"
+                    ? "Lista de Android"
+                    : "Android waitlist"}
               </span>
             </span>
           </a>
@@ -223,7 +319,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               {siteConfig.supportEmail}
             </a>
             <Link
-              href={locale === "es" ? "/es/blog" : "/blog"}
+              href={locale === "en" ? "/blog" : `/${locale}/blog`}
               className="transition-colors hover:text-foreground"
             >
               {directBlogLabel}
@@ -241,7 +337,14 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               <span className="h-1.5 w-1.5 rounded-full bg-primary" />
               {noAdsLabel}
             </p>
-            <p>Copyright {new Date().getFullYear()} Savlo. All rights reserved.</p>
+            <p>
+              Copyright {new Date().getFullYear()} Savlo.{" "}
+              {locale === "en"
+                ? "All rights reserved."
+                : locale === "es"
+                  ? "Todos los derechos reservados."
+                  : "Todos os direitos reservados."}
+            </p>
           </div>
         </div>
       </div>

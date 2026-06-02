@@ -1,6 +1,8 @@
 import Link from "next/link"
 import type { Locale } from "@/lib/i18n"
+import { blogCategoryLabel } from "@/lib/blog/category-labels"
 import { posts } from "@/lib/blog/posts"
+import { portuguesePosts } from "@/lib/blog/portuguese-posts"
 import { spanishPosts } from "@/lib/blog/spanish-posts"
 
 const featuredSlugs = [
@@ -16,6 +18,12 @@ const englishFeaturedPosts = featuredSlugs
 const spanishFeaturedPosts = featuredSlugs
   .map((slug) => spanishPosts.find((post) => post.slug === slug))
   .filter((post): post is (typeof spanishPosts)[number] => post !== undefined)
+
+const portugueseFeaturedPosts = featuredSlugs
+  .map((slug) => portuguesePosts.find((post) => post.slug === slug))
+  .filter(
+    (post): post is (typeof portuguesePosts)[number] => post !== undefined,
+  )
 
 const copy = {
   en: {
@@ -36,12 +44,25 @@ const copy = {
     cta: "Leer la guía",
     hrefPrefix: "/es/blog",
   },
+  pt: {
+    eyebrow: "Aprenda com o Savlo",
+    heading:
+      "Comece pelas perguntas que aparecem antes de escolher um app de orçamento.",
+    description:
+      "Estes guias fortalecem os temas centrais do Savlo: orçamento, registro de gastos por voz e poupança de longo prazo com mais calma.",
+    cta: "Ler o guia",
+    hrefPrefix: "/pt/blog",
+  },
 } as const
 
 export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
   const text = copy[locale]
   const featuredPosts =
-    locale === "es" ? spanishFeaturedPosts : englishFeaturedPosts
+    locale === "es"
+      ? spanishFeaturedPosts
+      : locale === "pt"
+        ? portugueseFeaturedPosts
+        : englishFeaturedPosts
 
   return (
     <section id="guides" className="relative py-24 sm:py-32">
@@ -66,7 +87,7 @@ export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
                 className="group block h-full rounded-2xl border border-border bg-surface/70 p-6 transition-colors hover:border-primary/30 hover:bg-surface"
               >
                 <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-primary/80">
-                  {post.category}
+                  {blogCategoryLabel(locale, post.category)}
                 </p>
                 <h3 className="mt-3 text-balance font-serif text-2xl tracking-tight text-foreground transition-colors group-hover:text-primary">
                   {post.title}

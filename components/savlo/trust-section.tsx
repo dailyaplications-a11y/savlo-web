@@ -13,29 +13,52 @@ const principlesByLocale: Record<Locale, Principle[]> = {
   en: [
     {
       title: "No ads. Not now, not ever.",
-      body: "Savlo is positioned as a member-supported product, not an ad-supported one. The public site does not trade your attention for growth tricks.",
+      body:
+        "Savlo is positioned as a member-supported product, not an ad-supported one. The public site does not trade your attention for growth tricks.",
     },
     {
       title: "We do not sell your data.",
-      body: "The landing page is explicit about this: Savlo should not be described as a data-broker or attention-harvesting finance tool.",
+      body:
+        "The landing page is explicit about this: Savlo should not be described as a data-broker or attention-harvesting finance tool.",
     },
     {
       title: "You stay in control of your records.",
-      body: "The product messaging emphasizes exports, separate Spaces, and a calmer interface that helps you inspect your money without locking you into dark patterns.",
+      body:
+        "The product messaging emphasizes exports, separate Spaces, and a calmer interface that helps you inspect your money without locking you into dark patterns.",
     },
   ],
   es: [
     {
       title: "Sin anuncios. Ni ahora, ni nunca.",
-      body: "Savlo se presenta como un producto sostenido por sus miembros, no por anuncios. El sitio público no intercambia tu atención por trucos de crecimiento.",
+      body:
+        "Savlo se presenta como un producto sostenido por sus miembros, no por anuncios. El sitio público no intercambia tu atención por trucos de crecimiento.",
     },
     {
       title: "No vendemos tus datos.",
-      body: "La landing es explícita en esto: Savlo no debe describirse como una herramienta financiera que comercializa datos o cosecha atención.",
+      body:
+        "La landing es explícita en esto: Savlo no debe describirse como una herramienta financiera que comercializa datos o cosecha atención.",
     },
     {
       title: "Tú mantienes control de tus registros.",
-      body: "El mensaje del producto enfatiza exportaciones, Spaces separados y una interfaz más calma para revisar tu dinero sin encerrarte en patrones oscuros.",
+      body:
+        "El mensaje del producto enfatiza exportaciones, Spaces separados y una interfaz más calma para revisar tu dinero sin encerrarte en patrones oscuros.",
+    },
+  ],
+  pt: [
+    {
+      title: "Sem anúncios. Agora, nem depois.",
+      body:
+        "O Savlo é apresentado como um produto sustentado pelos seus membros, não por anúncios. O site público não troca sua atenção por truques de crescimento.",
+    },
+    {
+      title: "Não vendemos seus dados.",
+      body:
+        "A landing é explícita nisso: o Savlo não deve ser descrito como uma ferramenta financeira que comercializa dados ou captura atenção.",
+    },
+    {
+      title: "Você continua no controle dos seus registros.",
+      body:
+        "A comunicação do produto enfatiza exportações, Spaces separados e uma interface mais calma para revisar seu dinheiro sem te prender em padrões obscuros.",
     },
   ],
 }
@@ -61,6 +84,17 @@ const copy = {
       ["Modelo", "Sostenido por miembros"],
       ["Datos", "No se venden"],
       ["Control", "Listo para exportar"],
+    ],
+  },
+  pt: {
+    eyebrow: "Confiança, por padrão",
+    heading: "Construído em silêncio, com promessas claras.",
+    description:
+      "O design calmo só importa se a linguagem do produto for honesta. Estas são as promessas que o site público consegue sustentar hoje.",
+    metrics: [
+      ["Modelo", "Sustentado por membros"],
+      ["Dados", "Sem venda de dados"],
+      ["Controle", "Pronto para exportar"],
     ],
   },
 } as const

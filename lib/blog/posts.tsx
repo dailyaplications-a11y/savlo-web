@@ -1875,8 +1875,11 @@ export function formatBlogDate(iso: string, locale: string = "en-US") {
   })
 }
 
-export function formatBlogDateShort(iso: string) {
-  // Render as "4/18/2026" to match Cal AI's visual cadence
+export function formatBlogDateShort(iso: string, locale: string = "en-US") {
   const d = new Date(iso + "T00:00:00")
-  return `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`
+  return new Intl.DateTimeFormat(locale, {
+    day: "numeric",
+    month: "numeric",
+    year: "numeric",
+  }).format(d)
 }

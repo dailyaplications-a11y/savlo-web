@@ -3,10 +3,9 @@
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
+import { nextLocale, switchLocalizedPath, type Locale } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
-
-type Locale = "en" | "es"
 
 const nav: Record<Locale, { label: string; href: string }[]> = {
   en: [
@@ -23,14 +22,21 @@ const nav: Record<Locale, { label: string; href: string }[]> = {
     { label: "Confianza", href: "#trust" },
     { label: "Blog", href: "/es/blog" },
   ],
+  pt: [
+    { label: "Início", href: "#hero" },
+    { label: "Produto", href: "#product" },
+    { label: "Filosofia", href: "#philosophy" },
+    { label: "Confiança", href: "#trust" },
+    { label: "Blog", href: "/pt/blog" },
+  ],
 }
 
 export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
   const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
-  const homePath = locale === "es" ? "/es" : "/"
+  const homePath = locale === "en" ? "/" : `/${locale}`
   const isHome = pathname === homePath
-  const alternateLocale = locale === "es" ? "en" : "es"
+  const alternateLocale = nextLocale(locale)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -39,28 +45,13 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
 
-  // Resolve the correct href: hash-only links get "/" prepended when not on homepage
   function resolveHref(href: string) {
     if (href.startsWith("#") && !isHome) return `${homePath}${href}`
     return href
   }
 
   function languageHref() {
-    if (alternateLocale === "en") {
-      if (pathname === "/es") return "/"
-      if (pathname.startsWith("/es/")) return pathname.replace(/^\/es/, "") || "/"
-      return "/"
-    }
-
-    if (pathname === "/") return "/es"
-    if (
-      pathname.startsWith("/blog") ||
-      pathname.startsWith("/author/savlo-team")
-    ) {
-      return `/es${pathname}`
-    }
-
-    return "/es"
+    return switchLocalizedPath(pathname, alternateLocale)
   }
 
   return (
@@ -95,12 +86,18 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
             href={languageHref()}
             hrefLang={alternateLocale}
             className="hidden rounded-full border border-border px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground sm:inline-flex"
-            aria-label={locale === "es" ? "Cambiar idioma" : "Change language"}
+            aria-label={
+              locale === "en"
+                ? "Change language"
+                : locale === "es"
+                  ? "Cambiar idioma"
+                  : "Mudar idioma"
+            }
           >
             {alternateLocale}
           </Link>
-          <AppStoreBadge size="sm" className="hidden sm:inline-flex" />
-          <GooglePlayBadge size="sm" />
+          <AppStoreBadge size="sm" className="hidden sm:inline-flex" locale={locale} />
+          <GooglePlayBadge size="sm" locale={locale} />
         </div>
       </div>
     </header>

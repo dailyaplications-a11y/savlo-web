@@ -1,3 +1,5 @@
+import type { Locale } from "@/lib/i18n"
+
 export const siteConfig = {
   name: "Savlo",
   shortName: "Savlo",
@@ -58,31 +60,71 @@ type WaitlistOptions = {
   email?: string
   platform?: "iOS" | "Android" | "Both"
   source?: string
+  locale?: Locale
 }
 
 export function buildWaitlistMailto({
   email,
   platform = "Both",
   source,
+  locale = "en",
 }: WaitlistOptions = {}) {
-  const platformLine =
-    platform === "Both"
-      ? "I'd like early access to Savlo."
-      : `I'd like early access to Savlo on ${platform}.`
+  const copy =
+    locale === "es"
+      ? {
+          greeting: "Hola equipo de Savlo,",
+          platformLine:
+            platform === "Both"
+              ? "Me gustaría tener acceso anticipado a Savlo."
+              : `Me gustaría tener acceso anticipado a Savlo para ${platform}.`,
+          subject:
+            platform === "Both"
+              ? "Acceso anticipado a Savlo"
+              : `Acceso anticipado a Savlo - ${platform}`,
+          emailLabel: "Mi correo:",
+          sourceLabel: "Fuente:",
+          thanks: "Gracias!",
+        }
+      : locale === "pt"
+        ? {
+            greeting: "Olá equipe Savlo,",
+            platformLine:
+              platform === "Both"
+                ? "Gostaria de ter acesso antecipado ao Savlo."
+                : `Gostaria de ter acesso antecipado ao Savlo para ${platform}.`,
+            subject:
+              platform === "Both"
+                ? "Acesso antecipado ao Savlo"
+                : `Acesso antecipado ao Savlo - ${platform}`,
+            emailLabel: "Meu e-mail:",
+            sourceLabel: "Origem:",
+            thanks: "Obrigado!",
+          }
+        : {
+            greeting: "Hi Savlo team,",
+            platformLine:
+              platform === "Both"
+                ? "I'd like early access to Savlo."
+                : `I'd like early access to Savlo on ${platform}.`,
+            subject:
+              platform === "Both"
+                ? "Savlo early access"
+                : `Savlo early access - ${platform}`,
+            emailLabel: "My email:",
+            sourceLabel: "Source:",
+            thanks: "Thanks!",
+          }
 
   return buildMailto({
-    subject:
-      platform === "Both"
-        ? "Savlo early access"
-        : `Savlo early access - ${platform}`,
+    subject: copy.subject,
     bodyLines: [
-      "Hi Savlo team,",
+      copy.greeting,
       "",
-      platformLine,
-      email ? `My email: ${email}` : "",
-      source ? `Source: ${source}` : "",
+      copy.platformLine,
+      email ? `${copy.emailLabel} ${email}` : "",
+      source ? `${copy.sourceLabel} ${source}` : "",
       "",
-      "Thanks!",
+      copy.thanks,
     ].filter(Boolean),
   })
 }

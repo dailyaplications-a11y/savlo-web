@@ -69,6 +69,36 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       Motif: ReticleMotif,
     },
   ],
+  pt: [
+    {
+      caption: "SEQUÊNCIAS GENTIS",
+      title: "Hábitos gentis, zero culpa.",
+      body:
+        "Um check-in diário de apoio para construir hábitos duradouros, sem notificações vermelhas que gerem ansiedade nem penalizações. Seu dinheiro merece um tom mais estável.",
+      Motif: EmberMotif,
+    },
+    {
+      caption: "OBSERVE PRIMEIRO",
+      title: "Observe hoje, decida amanhã.",
+      body:
+        "O Savlo mostra padrões como um bom caderno mostraria: em silêncio, e só quando você abre.",
+      Motif: RippleMotif,
+    },
+    {
+      caption: "COMPOSTO DEVAGAR",
+      title: "Pequenas mudanças, acumuladas.",
+      body:
+        "Celebramos a constância, não a força de vontade. Uma única troca consciente vale mais do que um mês de restrição severa.",
+      Motif: SpiralMotif,
+    },
+    {
+      caption: "VOCÊ DECIDE",
+      title: "Você continua no comando.",
+      body:
+        "Seus espaços, suas metas de poupança e suas definições. O Savlo é um espelho, não um coach.",
+      Motif: ReticleMotif,
+    },
+  ],
 }
 
 const copy = {
@@ -86,6 +116,13 @@ const copy = {
     description:
       "La mayoría de las apps de dinero tratan cada dólar como una prueba que estás fallando. Savlo se apoya en finanzas conductuales: la conciencia, no la presión, es lo que crea cambios duraderos. Te mostramos la forma de tus hábitos y luego damos un paso atrás.",
   },
+  pt: {
+    eyebrow: "Nossa filosofia",
+    firstLine: "Não julgamos seus gastos.",
+    emphasis: "Ajudamos você a entendê-los.",
+    description:
+      "A maioria dos apps de dinheiro trata cada real como uma prova que você está perdendo. O Savlo foi construído com base em finanças comportamentais: consciência, não pressão, é o que cria mudança duradoura. Então mostramos a forma dos seus hábitos e depois damos um passo atrás.",
+  },
 } as const
 
 export function BehavioralSection({ locale = "en" }: { locale?: Locale }) {
@@ -94,7 +131,6 @@ export function BehavioralSection({ locale = "en" }: { locale?: Locale }) {
 
   return (
     <section id="philosophy" className="relative py-24 sm:py-32">
-      {/* ambient */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-x-0 top-1/2 mx-auto h-[360px] max-w-4xl -translate-y-1/2 opacity-60 blur-3xl"
@@ -118,9 +154,7 @@ export function BehavioralSection({ locale = "en" }: { locale?: Locale }) {
           <h2 className="mt-5 font-serif text-4xl leading-[1.05] tracking-tight text-balance sm:text-5xl lg:text-[3.4rem]">
             {text.firstLine}
             <br />
-            <span className="text-primary/90 italic">
-              {text.emphasis}
-            </span>
+            <span className="text-primary/90 italic">{text.emphasis}</span>
           </h2>
         </Reveal>
 
@@ -130,7 +164,6 @@ export function BehavioralSection({ locale = "en" }: { locale?: Locale }) {
           </p>
         </Reveal>
 
-        {/* Bracket-framed motif row */}
         <div className="mt-20 grid grid-cols-1 gap-x-10 gap-y-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-6">
           {tenets.map((t, i) => (
             <Reveal key={t.title} delay={220 + i * 80}>
@@ -147,7 +180,6 @@ function TenetFrame({ tenet }: { tenet: Tenet }) {
   const { Motif, caption, title, body } = tenet
   return (
     <figure className="flex flex-col items-center text-center">
-      {/* Bracket-framed motif */}
       <div className="relative w-full max-w-[260px] aspect-square">
         <CornerBrackets />
         <div className="absolute inset-4 flex items-center justify-center">
@@ -155,18 +187,12 @@ function TenetFrame({ tenet }: { tenet: Tenet }) {
         </div>
       </div>
 
-      {/* Monospace caption */}
       <figcaption className="mt-8 font-mono text-[11px] uppercase tracking-[0.24em] text-muted-foreground">
         {caption}
       </figcaption>
 
-      {/* Thin divider */}
-      <span
-        aria-hidden
-        className="mt-5 block h-px w-12 bg-border"
-      />
+      <span aria-hidden className="mt-5 block h-px w-12 bg-border" />
 
-      {/* Body */}
       <h3 className="mt-5 font-serif text-lg leading-snug tracking-tight text-foreground text-pretty">
         {title}
       </h3>
@@ -176,10 +202,6 @@ function TenetFrame({ tenet }: { tenet: Tenet }) {
     </figure>
   )
 }
-
-/* -------------------------------------------------------------------------- */
-/*                            L-shaped crop brackets                          */
-/* -------------------------------------------------------------------------- */
 
 function CornerBrackets() {
   const stroke = "color-mix(in oklch, var(--muted-foreground) 70%, transparent)"
@@ -198,10 +220,6 @@ function CornerBrackets() {
   )
 }
 
-/* -------------------------------------------------------------------------- */
-/*                                 Motifs                                     */
-/* -------------------------------------------------------------------------- */
-
 function MotifSvg({ children }: { children: React.ReactNode }) {
   return (
     <svg
@@ -215,8 +233,6 @@ function MotifSvg({ children }: { children: React.ReactNode }) {
   )
 }
 
-/* "No streaks. No guilt." — a single calm ember with a very soft halo.
-   Intentionally NOT a flame. */
 function EmberMotif() {
   return (
     <MotifSvg>
@@ -228,7 +244,6 @@ function EmberMotif() {
         </radialGradient>
       </defs>
       <circle cx="100" cy="100" r="90" fill="url(#ember-halo)" />
-      {/* faint crossed-out marks suggesting "no" */}
       <g
         stroke="color-mix(in oklch, var(--muted-foreground) 40%, transparent)"
         strokeWidth="1"
@@ -237,13 +252,7 @@ function EmberMotif() {
         <path d="M 42 100 L 58 100" />
         <path d="M 142 100 L 158 100" />
       </g>
-      <circle
-        cx="100"
-        cy="100"
-        r="6"
-        fill="var(--primary)"
-        opacity="0.9"
-      />
+      <circle cx="100" cy="100" r="6" fill="var(--primary)" opacity="0.9" />
       <circle
         cx="100"
         cy="100"
@@ -256,7 +265,6 @@ function EmberMotif() {
   )
 }
 
-/* "Observe, then decide." — concentric ripples. */
 function RippleMotif() {
   return (
     <MotifSvg>
@@ -273,7 +281,6 @@ function RippleMotif() {
         />
       ))}
       <circle cx="100" cy="100" r="4" fill="var(--primary)" />
-      {/* subtle horizon line */}
       <line
         x1="10"
         x2="190"
@@ -287,7 +294,6 @@ function RippleMotif() {
   )
 }
 
-/* "Small changes, compounded." — a logarithmic spiral of growing dots. */
 function SpiralMotif() {
   const dots: { cx: number; cy: number; r: number; o: number }[] = []
   const cx = 100
@@ -309,7 +315,6 @@ function SpiralMotif() {
   }
   return (
     <MotifSvg>
-      {/* spiral trail */}
       <path
         d={(() => {
           let d = ""
@@ -341,7 +346,6 @@ function SpiralMotif() {
   )
 }
 
-/* "You stay in charge." — lens / reticle, Savlo is a mirror. */
 function ReticleMotif() {
   return (
     <MotifSvg>
@@ -370,7 +374,6 @@ function ReticleMotif() {
         stroke="var(--primary)"
         strokeWidth="1"
       />
-      {/* cross */}
       <line
         x1="100"
         x2="100"
@@ -403,7 +406,6 @@ function ReticleMotif() {
         stroke="color-mix(in oklch, var(--muted-foreground) 80%, transparent)"
         strokeWidth="1"
       />
-      {/* center dot */}
       <circle cx="100" cy="100" r="2.5" fill="var(--primary)" />
     </MotifSvg>
   )

@@ -7,7 +7,9 @@ import {
   posts as englishPosts,
   type BlogCategory,
 } from "@/lib/blog/posts"
+import { blogCategoryLabels } from "@/lib/blog/category-labels"
 import type { Locale } from "@/lib/i18n"
+import { blogDateLocale } from "@/lib/i18n"
 import { buildMailto, siteConfig } from "@/lib/site"
 import { cn } from "@/lib/utils"
 
@@ -34,27 +36,6 @@ const categoryValues: (BlogCategory | "All")[] = [
   "Comparisons",
   "Goals",
 ]
-
-const categoryLabels: Record<Locale, Record<BlogCategory | "All", string>> = {
-  en: {
-    All: "All",
-    Budgeting: "Budgeting",
-    Saving: "Saving",
-    Debt: "Debt",
-    "Money Psychology": "Money Psychology",
-    Comparisons: "Comparisons",
-    Goals: "Goals",
-  },
-  es: {
-    All: "Todo",
-    Budgeting: "Presupuesto",
-    Saving: "Ahorro",
-    Debt: "Deuda",
-    "Money Psychology": "Psicología del dinero",
-    Comparisons: "Comparativas",
-    Goals: "Metas",
-  },
-}
 
 const copy = {
   en: {
@@ -105,6 +86,31 @@ const copy = {
       "Quiero recibir futuras actualizaciones de Savlo Journal.",
       `Mi email: ${email}`,
       "Source: blog-journal-es",
+    ],
+  },
+  pt: {
+    title: "Blog",
+    subtitle: "finanças pessoais em calma",
+    description:
+      "Guias, métodos e reflexões sobre orçamento, poupança e a relação emocional com o dinheiro. Sem números vermelhos gritando e sem produtividade baseada em culpa.",
+    updated: "Atualizado",
+    empty: "Ainda não há artigos nesta categoria. Volte em breve.",
+    noteTitle: "Uma nota por mês, zero ruído",
+    noteBody:
+      "Se você quiser receber futuras novidades do Savlo Journal, este formulário abre seu app de e-mail com uma nota pré-preenchida para a equipe. Sem backend invisível de newsletter, sem inscrições silenciosas.",
+    emailLabel: "E-mail",
+    placeholder: "voce@calmo.com",
+    button: "Enviar",
+    footerText: "Se preferir ler agora, comece com",
+    footerLink: "Como fazer um orçamento",
+    footerHref: "/pt/blog/how-to-make-a-budget",
+    subject: "Atualizações do Savlo Journal",
+    bodyLines: (email: string) => [
+      "Olá equipe Savlo,",
+      "",
+      "Quero receber futuras atualizações do Savlo Journal.",
+      `Meu e-mail: ${email}`,
+      "Source: blog-journal-pt",
     ],
   },
 } as const
@@ -159,9 +165,7 @@ export function BlogIndex({
         <h1 className="font-serif text-5xl font-medium tracking-tight text-foreground sm:text-6xl">
           {text.title}
         </h1>
-        <p className="mt-3 text-[15px] text-primary">
-          {text.subtitle}
-        </p>
+        <p className="mt-3 text-[15px] text-primary">{text.subtitle}</p>
         <p className="mt-6 max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground">
           {text.description}
         </p>
@@ -186,7 +190,7 @@ export function BlogIndex({
               )}
               aria-pressed={isActive}
             >
-              <span>{categoryLabels[locale][category.value]}</span>
+              <span>{blogCategoryLabels[locale][category.value]}</span>
               <span
                 className={cn(
                   "rounded-full px-1.5 py-0.5 text-[10px] tabular-nums",
@@ -206,9 +210,12 @@ export function BlogIndex({
         {visible.map((post) => (
           <li key={post.slug} className="group">
             <Link
-              href={`/blog/${post.slug}`}
+              href={`${locale === "en" ? "" : `/${locale}`}/blog/${post.slug}`}
               className="flex flex-col items-center text-center"
             >
+              <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-primary/80">
+                {blogCategoryLabels[locale][post.category]}
+              </p>
               <h2 className="max-w-2xl text-balance text-lg font-semibold leading-snug text-foreground transition-colors group-hover:text-primary sm:text-xl">
                 {post.title}
               </h2>
@@ -216,7 +223,8 @@ export function BlogIndex({
                 <span>{siteConfig.author.name}</span>
                 <span aria-hidden>·</span>
                 <time dateTime={post.dateModified}>
-                  {text.updated} {formatBlogDateShort(post.dateModified)}
+                  {text.updated}{" "}
+                  {formatBlogDateShort(post.dateModified, blogDateLocale(locale))}
                 </time>
               </p>
               <p className="mt-2 max-w-xl text-pretty text-[14px] leading-relaxed text-muted-foreground">

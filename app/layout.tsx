@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { DM_Sans, Fraunces } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 import "./globals.css"
 
@@ -77,10 +78,22 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${dmSans.variable} ${fraunces.variable} bg-background`}
-    >
+    <html lang="en" className={`${dmSans.variable} ${fraunces.variable} bg-background`}>
+      <head>
+        <Script id="savlo-html-lang" strategy="beforeInteractive">
+          {`(() => {
+            try {
+              const path = window.location.pathname;
+              const lang = path.startsWith('/pt')
+                ? 'pt-BR'
+                : path.startsWith('/es')
+                  ? 'es'
+                  : 'en';
+              document.documentElement.lang = lang;
+            } catch {}
+          })();`}
+        </Script>
+      </head>
       <body className="font-sans antialiased text-foreground">
         {children}
         {process.env.NODE_ENV === "production" && process.env.VERCEL === "1" && (

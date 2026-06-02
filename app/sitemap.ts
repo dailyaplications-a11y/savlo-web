@@ -33,6 +33,13 @@ function localizedEntries({
       priority: Math.max(priority - 0.05, 0.1),
       alternates,
     },
+    {
+      url: absoluteUrl(localizedPath(path, "pt")),
+      lastModified,
+      changeFrequency,
+      priority: Math.max(priority - 0.1, 0.1),
+      alternates,
+    },
   ]
 }
 

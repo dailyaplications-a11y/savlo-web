@@ -7,7 +7,9 @@ import {
   getRelatedPosts,
   type BlogPost,
 } from "@/lib/blog/posts"
+import { getPortuguesePostBySlug } from "@/lib/blog/portuguese-posts"
 import { getSpanishPostBySlug } from "@/lib/blog/spanish-posts"
+import { blogCategoryLabel } from "@/lib/blog/category-labels"
 import type { Locale } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
@@ -60,7 +62,27 @@ const labels = {
     homeHref: "/es",
     blogHref: "/es/blog",
     blogPath: "/es/blog",
-    dateLocale: "es",
+    dateLocale: "es-ES",
+  },
+  pt: {
+    home: "Início",
+    blog: "Blog",
+    updated: "Atualizado",
+    minRead: "min de leitura",
+    authorHref: "/pt/author/savlo-team",
+    authorTagline: "Finanças comportamentais, escritas com calma",
+    share: "Compartilhar",
+    shareX: "Compartilhar no X",
+    shareLinkedIn: "Compartilhar no LinkedIn",
+    stats: ["Palavras", "Caracteres", "Frases", "Parágrafos"],
+    relatedGuides: "Guias relacionados",
+    backToBlog: "Voltar ao blog",
+    keepReading: "Continuar lendo",
+    moreIn: "Mais artigos em",
+    homeHref: "/pt",
+    blogHref: "/pt/blog",
+    blogPath: "/pt/blog",
+    dateLocale: "pt-BR",
   },
 } as const
 
@@ -115,7 +137,7 @@ export function BlogArticle({
 
       <div className="flex flex-wrap items-center gap-3 text-[12px] text-muted-foreground">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/[0.08] px-2.5 py-1 text-[11px] uppercase tracking-[0.14em] text-primary">
-          {post.category}
+          {blogCategoryLabel(locale, post.category)}
         </span>
         <span aria-hidden>·</span>
         <time dateTime={post.date}>
@@ -165,7 +187,11 @@ export function BlogArticle({
             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`}
             label={text.shareX}
           >
-            <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+            <svg
+              viewBox="0 0 24 24"
+              className="h-3.5 w-3.5"
+              fill="currentColor"
+            >
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z" />
             </svg>
           </ShareIconLink>
@@ -173,7 +199,11 @@ export function BlogArticle({
             href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
             label={text.shareLinkedIn}
           >
-            <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+            <svg
+              viewBox="0 0 24 24"
+              className="h-3.5 w-3.5"
+              fill="currentColor"
+            >
               <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.04c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.39 4.3 5.5v6.24ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45C23.2 24 24 23.23 24 22.28V1.72C24 .77 23.2 0 22.22 0Z" />
             </svg>
           </ShareIconLink>
@@ -182,18 +212,9 @@ export function BlogArticle({
 
       <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-4">
         <Stat label={text.stats[0]} value={stats.words.toLocaleString()} />
-        <Stat
-          label={text.stats[1]}
-          value={stats.characters.toLocaleString()}
-        />
-        <Stat
-          label={text.stats[2]}
-          value={stats.sentences.toLocaleString()}
-        />
-        <Stat
-          label={text.stats[3]}
-          value={stats.paragraphs.toLocaleString()}
-        />
+        <Stat label={text.stats[1]} value={stats.characters.toLocaleString()} />
+        <Stat label={text.stats[2]} value={stats.sentences.toLocaleString()} />
+        <Stat label={text.stats[3]} value={stats.paragraphs.toLocaleString()} />
       </div>
 
       <div className="mt-10">
@@ -219,7 +240,7 @@ export function BlogArticle({
                   className="group block h-full"
                 >
                   <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-primary/80">
-                    {recommendedPost.category}
+                    {blogCategoryLabel(locale, recommendedPost.category)}
                   </p>
                   <h3 className="mt-2 text-balance text-sm font-semibold leading-snug text-foreground transition-colors group-hover:text-primary">
                     {recommendedPost.title}
@@ -255,7 +276,8 @@ export function BlogArticle({
             dateTime={post.dateModified}
             className="text-muted-foreground tabular-nums"
           >
-            {text.updated} {formatBlogDateShort(post.dateModified)}
+            {text.updated}{" "}
+            {formatBlogDateShort(post.dateModified, text.dateLocale)}
           </time>
         </div>
       </footer>
@@ -273,7 +295,9 @@ export function BlogArticle({
           </h2>
           <p className="mt-2 text-center text-[13px] text-muted-foreground">
             {text.moreIn}{" "}
-            <span className="text-foreground/80">{post.category}</span>
+            <span className="text-foreground/80">
+              {blogCategoryLabel(locale, post.category)}
+            </span>
           </p>
           <ol className="mt-10 flex flex-col gap-8">
             {related.map((relatedPost) => (
@@ -289,7 +313,7 @@ export function BlogArticle({
                     dateTime={relatedPost.date}
                     className="mt-1 block text-[12px] font-medium text-primary/80"
                   >
-                    {formatBlogDateShort(relatedPost.date)}
+                    {formatBlogDateShort(relatedPost.date, text.dateLocale)}
                   </time>
                 </Link>
               </li>
@@ -303,8 +327,14 @@ export function BlogArticle({
 
 function localizePosts(posts: BlogPost[], locale: Locale): ArticlePost[] {
   if (locale === "en") return posts
-
-  return posts.map<ArticlePost>((post) => getSpanishPostBySlug(post.slug) ?? post)
+  if (locale === "es") {
+    return posts.map<ArticlePost>(
+      (post) => getSpanishPostBySlug(post.slug) ?? post,
+    )
+  }
+  return posts.map<ArticlePost>(
+    (post) => getPortuguesePostBySlug(post.slug) ?? post,
+  )
 }
 
 function getArticleStats(post: ArticlePost): BlogPost["stats"] {

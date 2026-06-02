@@ -1,17 +1,45 @@
 "use client"
 
 import { cn } from "@/lib/utils"
+import type { Locale } from "@/lib/i18n"
 import { buildWaitlistMailto } from "@/lib/site"
 
 type Size = "sm" | "md"
 
+const copy = {
+  en: {
+    top: "Join the",
+    ios: "iOS waitlist",
+    android: "Android waitlist",
+    ariaIos: "Join the iOS waitlist",
+    ariaAndroid: "Join the Android waitlist",
+  },
+  es: {
+    top: "Únete a",
+    ios: "lista de iOS",
+    android: "lista de Android",
+    ariaIos: "Únete a la lista de iOS",
+    ariaAndroid: "Únete a la lista de Android",
+  },
+  pt: {
+    top: "Participe da",
+    ios: "lista do iOS",
+    android: "lista do Android",
+    ariaIos: "Participe da lista do iOS",
+    ariaAndroid: "Participe da lista do Android",
+  },
+} as const
+
 export function AppStoreBadge({
   className,
   size = "md",
+  locale = "en",
 }: {
   className?: string
   size?: Size
+  locale?: Locale
 }) {
+  const text = copy[locale]
   const pad = size === "sm" ? "px-3 py-1.5" : "px-4 py-2.5"
   const iconSize = size === "sm" ? 18 : 22
   const topText = size === "sm" ? "text-[8px]" : "text-[9px]"
@@ -22,8 +50,9 @@ export function AppStoreBadge({
       href={buildWaitlistMailto({
         platform: "iOS",
         source: "store-badge-ios",
+        locale,
       })}
-      aria-label="Join the iOS waitlist"
+      aria-label={text.ariaIos}
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
         pad,
@@ -41,10 +70,10 @@ export function AppStoreBadge({
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
-          Join the
+          {text.top}
         </span>
         <span className={cn("font-sans font-semibold tracking-tight", bigText)}>
-          iOS waitlist
+          {text.ios}
         </span>
       </span>
     </a>
@@ -54,10 +83,13 @@ export function AppStoreBadge({
 export function GooglePlayBadge({
   className,
   size = "md",
+  locale = "en",
 }: {
   className?: string
   size?: Size
+  locale?: Locale
 }) {
+  const text = copy[locale]
   const pad = size === "sm" ? "px-3 py-1.5" : "px-4 py-2.5"
   const iconSize = size === "sm" ? 18 : 22
   const topText = size === "sm" ? "text-[8px]" : "text-[9px]"
@@ -68,8 +100,9 @@ export function GooglePlayBadge({
       href={buildWaitlistMailto({
         platform: "Android",
         source: "store-badge-android",
+        locale,
       })}
-      aria-label="Join the Android waitlist"
+      aria-label={text.ariaAndroid}
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
         pad,
@@ -119,10 +152,10 @@ export function GooglePlayBadge({
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
-          Join the
+          {text.top}
         </span>
         <span className={cn("font-sans font-semibold tracking-tight", bigText)}>
-          Android waitlist
+          {text.android}
         </span>
       </span>
     </a>
