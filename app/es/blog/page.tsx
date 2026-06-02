@@ -1,61 +1,59 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
-import { SiteFooter } from "@/components/savlo/site-footer"
 import { BlogIndex } from "@/components/savlo/blog/blog-index"
-import { posts } from "@/lib/blog/posts"
+import { SiteFooter } from "@/components/savlo/site-footer"
+import { SiteHeader } from "@/components/savlo/site-header"
+import { spanishPosts } from "@/lib/blog/spanish-posts"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
 const blogDescription =
-  "Budgeting, saving, and money psychology guides for people who want a calmer relationship with their finances."
+  "Guías de presupuesto, ahorro y psicología del dinero para personas que quieren una relación más tranquila con sus finanzas."
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Blog en español",
   description: blogDescription,
   keywords: [
-    "personal finance blog",
-    "budgeting app",
-    "how to budget",
-    "50/30/20 rule",
-    "emergency fund",
-    "financial anxiety",
-    "behavioral finance",
-    "voice expense tracking",
+    "blog de finanzas personales",
+    "presupuesto personal",
+    "ansiedad financiera",
     "sinking funds",
+    "app de presupuesto",
   ],
+  alternates: metadataAlternates("/es/blog"),
   openGraph: {
-    title: "Savlo Blog",
-    description:
-      "Calm personal finance guides on budgeting, saving, and money psychology.",
+    title: "Savlo Blog en español",
+    description: blogDescription,
     type: "website",
-    locale: siteConfig.locale,
+    locale: "es_ES",
     siteName: siteConfig.name,
-    url: "/blog",
+    url: "/es/blog",
     images: [
       {
         url: absoluteUrl(siteConfig.ogImage),
-        alt: "Savlo blog preview",
+        alt: "Vista previa del blog de Savlo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo Blog",
-    description: "Calm guides on budgeting, saving, and behavioral finance.",
+    title: "Savlo Blog en español",
+    description: blogDescription,
     images: [absoluteUrl(siteConfig.ogImage)],
   },
-  alternates: metadataAlternates("/blog"),
 }
 
-export default function BlogPage() {
+export default function SpanishBlogPage() {
+  const sortedPosts = [...spanishPosts].sort((a, b) =>
+    a.date < b.date ? 1 : -1,
+  )
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "@id": absoluteUrl("/blog#blog"),
-    url: absoluteUrl("/blog"),
-    name: "Savlo Blog",
+    "@id": absoluteUrl("/es/blog#blog"),
+    url: absoluteUrl("/es/blog"),
+    name: "Savlo Blog en español",
     description: blogDescription,
-    inLanguage: "en",
+    inLanguage: "es",
     publisher: {
       "@type": "Organization",
       name: siteConfig.name,
@@ -67,27 +65,31 @@ export default function BlogPage() {
         height: 1024,
       },
     },
-    blogPost: posts.map((post) => ({
+    blogPost: sortedPosts.map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,
-      url: absoluteUrl(`/blog/${post.slug}`),
+      url: absoluteUrl(`/es/blog/${post.slug}`),
       datePublished: new Date(`${post.date}T00:00:00Z`).toISOString(),
       dateModified: new Date(`${post.dateModified}T00:00:00Z`).toISOString(),
+      inLanguage: "es",
       author: {
         "@type": "Organization",
         name: siteConfig.author.name,
-        url: absoluteUrl(siteConfig.author.url),
+        url: absoluteUrl("/es/author/savlo-team"),
       },
     })),
   }
 
   return (
-    <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader />
+    <div
+      lang="es"
+      className="bg-grain relative min-h-screen bg-background text-foreground"
+    >
+      <SiteHeader locale="es" />
       <main>
-        <BlogIndex />
+        <BlogIndex locale="es" posts={spanishPosts} />
       </main>
-      <SiteFooter />
+      <SiteFooter locale="es" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

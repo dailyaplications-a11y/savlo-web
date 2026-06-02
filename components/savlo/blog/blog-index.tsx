@@ -3,37 +3,146 @@
 import Link from "next/link"
 import { useMemo, useState, type FormEvent } from "react"
 import {
-  categories,
   formatBlogDateShort,
-  posts,
+  posts as englishPosts,
   type BlogCategory,
 } from "@/lib/blog/posts"
-import { buildMailto } from "@/lib/site"
+import type { Locale } from "@/lib/i18n"
+import { buildMailto, siteConfig } from "@/lib/site"
 import { cn } from "@/lib/utils"
 
-export function BlogIndex() {
+type BlogIndexPost = {
+  slug: string
+  title: string
+  description: string
+  category: BlogCategory
+  date: string
+  dateModified: string
+}
+
+type BlogIndexProps = {
+  locale?: Locale
+  posts?: BlogIndexPost[]
+}
+
+const categoryValues: (BlogCategory | "All")[] = [
+  "All",
+  "Budgeting",
+  "Saving",
+  "Debt",
+  "Money Psychology",
+  "Comparisons",
+  "Goals",
+]
+
+const categoryLabels: Record<Locale, Record<BlogCategory | "All", string>> = {
+  en: {
+    All: "All",
+    Budgeting: "Budgeting",
+    Saving: "Saving",
+    Debt: "Debt",
+    "Money Psychology": "Money Psychology",
+    Comparisons: "Comparisons",
+    Goals: "Goals",
+  },
+  es: {
+    All: "Todo",
+    Budgeting: "Presupuesto",
+    Saving: "Ahorro",
+    Debt: "Deuda",
+    "Money Psychology": "Psicología del dinero",
+    Comparisons: "Comparativas",
+    Goals: "Metas",
+  },
+}
+
+const copy = {
+  en: {
+    title: "The Blog",
+    subtitle: "stay updated on calm personal finance",
+    description:
+      "Guides, methods, and reflections on budgeting, saving, and the emotional relationship with money. No flashing red numbers and no guilt-based productivity framing.",
+    updated: "Updated",
+    empty: "No articles in this category yet. Check back soon.",
+    noteTitle: "One note per month, zero noise",
+    noteBody:
+      "If you want future Savlo Journal updates, this form opens your mail app with a prefilled note to the team. No invisible newsletter backend, no silent subscriptions.",
+    emailLabel: "Email",
+    placeholder: "you@quietmail.com",
+    button: "Email us",
+    footerText: "If you prefer reading now, start with",
+    footerLink: "How to Make a Budget",
+    footerHref: "/blog/how-to-make-a-budget",
+    subject: "Savlo Journal updates",
+    bodyLines: (email: string) => [
+      "Hi Savlo team,",
+      "",
+      "Please send me future Savlo Journal updates.",
+      `My email: ${email}`,
+      "Source: blog-journal",
+    ],
+  },
+  es: {
+    title: "Blog en español",
+    subtitle: "finanzas personales en calma",
+    description:
+      "Guías, métodos y reflexiones sobre presupuesto, ahorro y la relación emocional con el dinero. Sin números rojos que gritan y sin productividad basada en culpa.",
+    updated: "Actualizado",
+    empty: "Todavía no hay artículos en esta categoría. Vuelve pronto.",
+    noteTitle: "Una nota por mes, cero ruido",
+    noteBody:
+      "Si quieres recibir futuras novedades de Savlo Journal, este formulario abre tu app de mail con una nota prellenada para el equipo. Sin backend invisible de newsletter, sin suscripciones silenciosas.",
+    emailLabel: "Email",
+    placeholder: "tu@email.com",
+    button: "Escribir",
+    footerText: "Si prefieres leer ahora, empieza con",
+    footerLink: "Cómo hacer un presupuesto",
+    footerHref: "/es/blog/how-to-make-a-budget",
+    subject: "Actualizaciones de Savlo Journal",
+    bodyLines: (email: string) => [
+      "Hola equipo de Savlo,",
+      "",
+      "Quiero recibir futuras actualizaciones de Savlo Journal.",
+      `Mi email: ${email}`,
+      "Source: blog-journal-es",
+    ],
+  },
+} as const
+
+function buildCategories(blogPosts: BlogIndexPost[]) {
+  return categoryValues.map((value) => ({
+    value,
+    count:
+      value === "All"
+        ? blogPosts.length
+        : blogPosts.filter((post) => post.category === value).length,
+  }))
+}
+
+export function BlogIndex({
+  locale = "en",
+  posts: blogPosts = englishPosts,
+}: BlogIndexProps) {
+  const text = copy[locale]
+  const categories = useMemo(() => buildCategories(blogPosts), [blogPosts])
   const [active, setActive] = useState<BlogCategory | "All">("All")
   const [email, setEmail] = useState("")
 
   const visible = useMemo(() => {
     const list =
-      active === "All" ? posts : posts.filter((post) => post.category === active)
+      active === "All"
+        ? blogPosts
+        : blogPosts.filter((post) => post.category === active)
     return [...list].sort((a, b) => (a.date < b.date ? 1 : -1))
-  }, [active])
+  }, [active, blogPosts])
 
   function onSubscribe(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     if (!email) return
 
     window.location.href = buildMailto({
-      subject: "Savlo Journal updates",
-      bodyLines: [
-        "Hi Savlo team,",
-        "",
-        "Please send me future Savlo Journal updates.",
-        `My email: ${email}`,
-        "Source: blog-journal",
-      ],
+      subject: text.subject,
+      bodyLines: text.bodyLines(email),
     })
   }
 
@@ -48,15 +157,13 @@ export function BlogIndex() {
           Savlo Journal
         </p>
         <h1 className="font-serif text-5xl font-medium tracking-tight text-foreground sm:text-6xl">
-          The Blog
+          {text.title}
         </h1>
         <p className="mt-3 text-[15px] text-primary">
-          stay updated on calm personal finance
+          {text.subtitle}
         </p>
         <p className="mt-6 max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground">
-          Guides, methods, and reflections on budgeting, saving, and the
-          emotional relationship with money. No flashing red numbers and no
-          guilt-based productivity framing.
+          {text.description}
         </p>
       </header>
 
@@ -65,12 +172,12 @@ export function BlogIndex() {
         className="mt-14 flex flex-wrap items-center justify-center gap-2"
       >
         {categories.map((category) => {
-          const isActive = category.label === active
+          const isActive = category.value === active
           return (
             <button
-              key={category.label}
+              key={category.value}
               type="button"
-              onClick={() => setActive(category.label)}
+              onClick={() => setActive(category.value)}
               className={cn(
                 "btn-calm inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-[13px] transition-colors",
                 isActive
@@ -79,7 +186,7 @@ export function BlogIndex() {
               )}
               aria-pressed={isActive}
             >
-              <span>{category.label}</span>
+              <span>{categoryLabels[locale][category.value]}</span>
               <span
                 className={cn(
                   "rounded-full px-1.5 py-0.5 text-[10px] tabular-nums",
@@ -105,12 +212,13 @@ export function BlogIndex() {
               <h2 className="max-w-2xl text-balance text-lg font-semibold leading-snug text-foreground transition-colors group-hover:text-primary sm:text-xl">
                 {post.title}
               </h2>
-              <time
-                dateTime={post.date}
-                className="mt-1.5 text-[12px] font-medium text-primary/80"
-              >
-                {formatBlogDateShort(post.date)}
-              </time>
+              <p className="mt-1.5 flex flex-wrap items-center justify-center gap-1.5 text-[12px] font-medium text-primary/80">
+                <span>{siteConfig.author.name}</span>
+                <span aria-hidden>·</span>
+                <time dateTime={post.dateModified}>
+                  {text.updated} {formatBlogDateShort(post.dateModified)}
+                </time>
+              </p>
               <p className="mt-2 max-w-xl text-pretty text-[14px] leading-relaxed text-muted-foreground">
                 {post.description}
               </p>
@@ -121,25 +229,23 @@ export function BlogIndex() {
 
       {visible.length === 0 && (
         <p className="mt-20 text-center text-sm text-muted-foreground">
-          No articles in this category yet. Check back soon.
+          {text.empty}
         </p>
       )}
 
       <div className="mt-24 flex flex-col items-center gap-4 border-t border-border/60 pt-12 text-center">
         <h3 className="font-serif text-xl font-medium text-foreground">
-          One note per month, zero noise
+          {text.noteTitle}
         </h3>
         <p className="max-w-md text-[14px] leading-relaxed text-muted-foreground">
-          If you want future Savlo Journal updates, this form opens your mail
-          app with a prefilled note to the team. No invisible newsletter
-          backend, no silent subscriptions.
+          {text.noteBody}
         </p>
         <form
           className="mt-2 flex w-full max-w-md items-center gap-2"
           onSubmit={onSubscribe}
         >
           <label htmlFor="newsletter" className="sr-only">
-            Email
+            {text.emailLabel}
           </label>
           <input
             id="newsletter"
@@ -147,23 +253,23 @@ export function BlogIndex() {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="you@quietmail.com"
+            placeholder={text.placeholder}
             className="min-w-0 flex-1 rounded-full border border-border bg-surface/60 px-4 py-2.5 text-[14px] text-foreground placeholder:text-muted-foreground/70 focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-ring"
           />
           <button
             type="submit"
             className="btn-calm rounded-full bg-primary px-5 py-2.5 text-[14px] font-medium text-primary-foreground hover:bg-primary-hover"
           >
-            Email us
+            {text.button}
           </button>
         </form>
         <p className="text-[11px] text-muted-foreground">
-          If you prefer reading now, start with{" "}
+          {text.footerText}{" "}
           <Link
-            href="/blog/how-to-make-a-budget"
+            href={text.footerHref}
             className="underline underline-offset-4 transition-colors hover:text-foreground"
           >
-            How to Make a Budget
+            {text.footerLink}
           </Link>
           .
         </p>

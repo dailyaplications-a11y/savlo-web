@@ -1,6 +1,8 @@
 "use client"
 
+import Image from "next/image"
 import type { ReactNode } from "react"
+import type { Locale } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 
 /**
@@ -11,7 +13,24 @@ import { cn } from "@/lib/utils"
  * Right phone: Savlo's response — insight + fondo + micro-plan.
  */
 
-export function PhonePair() {
+export function PhonePair({ locale = "en" }: { locale?: Locale }) {
+  const copy =
+    locale === "es"
+      ? {
+          voice: "Voz en español e inglés",
+          calm: "Modo calma",
+          fund: "Fondo vacaciones",
+          today: "+$12 hoy",
+          plan: "Plan suave",
+        }
+      : {
+          voice: "Spanish & English voice",
+          calm: "Calm mode",
+          fund: "Vacation fund",
+          today: "+$12 today",
+          plan: "Gentle plan",
+        }
+
   return (
     <div className="relative mx-auto h-[580px] w-full max-w-[640px] sm:h-[640px]">
       {/* Connecting hand-drawn arrow */}
@@ -25,20 +44,24 @@ export function PhonePair() {
         }}
       >
         <PhoneFrame rotate="-7deg" fullBleed>
-          <img
+          <Image
             src="/app_screen_today.png"
+            width={1440}
+            height={3120}
+            sizes="(min-width: 640px) 260px, 244px"
             className="h-full w-full object-cover select-none"
             alt="Savlo Today Screen"
-            loading="eager"
+            priority
+            fetchPriority="high"
             decoding="async"
           />
         </PhoneFrame>
 
         <Callout className="-left-6 top-14">
-          <Dot className="bg-primary" /> Spanish & English voice
+          <Dot className="bg-primary" /> {copy.voice}
         </Callout>
         <Callout className="-bottom-2 left-10">
-          Calm mode
+          {copy.calm}
         </Callout>
       </div>
 
@@ -50,8 +73,11 @@ export function PhonePair() {
         }}
       >
         <PhoneFrame rotate="6deg" fullBleed>
-          <img
+          <Image
             src="/app_screen_funds.png"
+            width={1440}
+            height={3120}
+            sizes="(min-width: 640px) 260px, 244px"
             className="h-full w-full object-cover select-none"
             alt="Savlo Funds Screen"
             loading="eager"
@@ -60,13 +86,13 @@ export function PhonePair() {
         </PhoneFrame>
 
         <Callout className="-right-2 top-6 sm:-right-6">
-          <Dot className="bg-warning" /> Vacation fund
+          <Dot className="bg-warning" /> {copy.fund}
         </Callout>
         <Callout className="bottom-20 -right-4 sm:-right-10">
-          +$12 today
+          {copy.today}
         </Callout>
         <Callout className="bottom-2 right-14">
-          <Dot className="bg-primary" /> Gentle plan
+          <Dot className="bg-primary" /> {copy.plan}
         </Callout>
       </div>
     </div>

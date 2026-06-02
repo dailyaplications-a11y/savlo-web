@@ -38,6 +38,8 @@ export type BlogPost = {
   description: string
   /** ISO date (YYYY-MM-DD) */
   date: string
+  /** ISO date (YYYY-MM-DD) */
+  dateModified: string
   category: BlogCategory
   keywords: string[]
   readingTime: number
@@ -1538,6 +1540,7 @@ export const posts: BlogPost[] = [
     description:
       "Learn how to build a realistic monthly budget that fits your life. No complicated spreadsheets or guilt, just simple, sustainable steps for financial peace of mind.",
     date: "2026-04-18",
+    dateModified: "2026-06-02",
     category: "Budgeting",
     keywords: [
       "how to make a budget",
@@ -1561,6 +1564,7 @@ export const posts: BlogPost[] = [
     description:
       "The 50/30/20 budgeting rule explained with real-world examples. Learn how to divide your income between needs, wants, and your future without feeling restricted.",
     date: "2026-04-17",
+    dateModified: "2026-06-02",
     category: "Budgeting",
     keywords: [
       "50/30/20 rule",
@@ -1578,6 +1582,7 @@ export const posts: BlogPost[] = [
     description:
       "Mint shut down in 2024. Here are the best replacements ranked by privacy, price, and ease of use — including apps that don’t require linking your bank.",
     date: "2026-04-15",
+    dateModified: "2026-06-02",
     category: "Comparisons",
     keywords: [
       "mint alternatives",
@@ -1596,6 +1601,7 @@ export const posts: BlogPost[] = [
     description:
       "Do you know the difference between an emergency fund and a sinking fund? Learn how to separate the unexpected from the predictable to save with peace of mind.",
     date: "2026-04-14",
+    dateModified: "2026-06-02",
     category: "Saving",
     keywords: [
       "emergency fund vs sinking fund",
@@ -1613,6 +1619,7 @@ export const posts: BlogPost[] = [
     description:
       "Three psychological biases explain why we abandon budgeting apps. Discover how a calm, behavioral design works with your brain instead of relying on pure discipline.",
     date: "2026-04-12",
+    dateModified: "2026-06-02",
     category: "Money Psychology",
     keywords: [
       "why budgeting apps fail",
@@ -1630,6 +1637,7 @@ export const posts: BlogPost[] = [
     description:
       "Typing expenses into an app takes 60 seconds. Saying them out loud takes 4. Here’s how voice expense tracking works, who it’s for, and what to look for in an app.",
     date: "2026-04-10",
+    dateModified: "2026-06-02",
     category: "Budgeting",
     keywords: [
       "voice expense tracker",
@@ -1648,6 +1656,7 @@ export const posts: BlogPost[] = [
     description:
       "Financial anxiety isn’t just about how much you earn. Learn simple, daily practices to lower your money stress and build a healthier relationship with your finances.",
     date: "2026-04-08",
+    dateModified: "2026-06-02",
     category: "Money Psychology",
     keywords: [
       "financial anxiety",
@@ -1665,6 +1674,7 @@ export const posts: BlogPost[] = [
     description:
       "A sinking fund turns large, predictable future expenses into small monthly savings. Learn how to set up sinking funds for travel, holidays, and car maintenance.",
     date: "2026-04-06",
+    dateModified: "2026-06-02",
     category: "Saving",
     keywords: [
       "sinking funds",
@@ -1682,6 +1692,7 @@ export const posts: BlogPost[] = [
     description:
       "Give every dollar a job before you spend it with zero-based budgeting. Learn how this methodology works, its benefits, and how to start without feeling restricted.",
     date: "2026-04-04",
+    dateModified: "2026-06-02",
     category: "Budgeting",
     keywords: [
       "zero-based budgeting",
@@ -1699,6 +1710,7 @@ export const posts: BlogPost[] = [
     description:
       "Debt snowball vs. debt avalanche compared without judgment. Learn a humane strategy to tackle credit cards and loans while staying motivated.",
     date: "2026-04-02",
+    dateModified: "2026-06-02",
     category: "Debt",
     keywords: [
       "how to get out of debt",
@@ -1716,6 +1728,7 @@ export const posts: BlogPost[] = [
     description:
       "Money dysmorphia is feeling financially broken even when your numbers are fine. Here’s what causes it, how to tell it apart from real financial stress, and practical steps to untangle it.",
     date: "2026-03-30",
+    dateModified: "2026-06-02",
     category: "Money Psychology",
     keywords: [
       "money dysmorphia",
@@ -1734,6 +1747,7 @@ export const posts: BlogPost[] = [
     description:
       "Three personal finance apps, three distinct philosophies. Compare YNAB, Monarch, and Savlo to find the one you'll actually keep using six months from now.",
     date: "2026-03-28",
+    dateModified: "2026-06-02",
     category: "Comparisons",
     keywords: [
       "ynab vs monarch",
@@ -1777,6 +1791,77 @@ export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
   if (!current) return []
   return posts
     .filter((p) => p.slug !== slug && p.category === current.category)
+    .slice(0, limit)
+}
+
+const recommendedPostSlugs: Record<string, string[]> = {
+  "how-to-make-a-budget": [
+    "50-30-20-rule",
+    "zero-based-budgeting",
+    "sinking-funds",
+    "financial-anxiety",
+  ],
+  "50-30-20-rule": [
+    "how-to-make-a-budget",
+    "zero-based-budgeting",
+    "how-to-get-out-of-debt",
+  ],
+  "best-mint-alternatives-2025": [
+    "ynab-vs-monarch-vs-savlo",
+    "voice-expense-tracking",
+    "zero-based-budgeting",
+  ],
+  "emergency-fund-vs-sinking-fund": [
+    "sinking-funds",
+    "how-to-make-a-budget",
+    "financial-anxiety",
+  ],
+  "why-traditional-budgets-fail": [
+    "financial-anxiety",
+    "money-dysmorphia",
+    "how-to-make-a-budget",
+  ],
+  "voice-expense-tracking": [
+    "how-to-make-a-budget",
+    "best-mint-alternatives-2025",
+    "financial-anxiety",
+  ],
+  "financial-anxiety": [
+    "money-dysmorphia",
+    "why-traditional-budgets-fail",
+    "how-to-make-a-budget",
+  ],
+  "sinking-funds": [
+    "emergency-fund-vs-sinking-fund",
+    "zero-based-budgeting",
+    "how-to-make-a-budget",
+  ],
+  "zero-based-budgeting": [
+    "how-to-make-a-budget",
+    "50-30-20-rule",
+    "ynab-vs-monarch-vs-savlo",
+  ],
+  "how-to-get-out-of-debt": [
+    "zero-based-budgeting",
+    "50-30-20-rule",
+    "financial-anxiety",
+  ],
+  "money-dysmorphia": [
+    "financial-anxiety",
+    "why-traditional-budgets-fail",
+    "sinking-funds",
+  ],
+  "ynab-vs-monarch-vs-savlo": [
+    "best-mint-alternatives-2025",
+    "zero-based-budgeting",
+    "voice-expense-tracking",
+  ],
+}
+
+export function getRecommendedPosts(slug: string, limit = 3): BlogPost[] {
+  return (recommendedPostSlugs[slug] ?? [])
+    .map((relatedSlug) => getPostBySlug(relatedSlug))
+    .filter((post): post is BlogPost => post !== undefined)
     .slice(0, limit)
 }
 

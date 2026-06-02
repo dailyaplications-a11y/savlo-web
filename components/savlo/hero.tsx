@@ -1,5 +1,6 @@
 "use client"
 
+import type { Locale } from "@/lib/i18n"
 import { EntranceHalo } from "./entrance-halo"
 import { PhonePair } from "./phone-pair"
 import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
@@ -17,7 +18,9 @@ import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
  * nod to Savlo's mechanic of a one-minute evening check-in.
  */
 
-export function Hero() {
+export function Hero({ locale = "en" }: { locale?: Locale }) {
+  const isSpanish = locale === "es"
+
   return (
     <section
       id="hero"
@@ -46,28 +49,45 @@ export function Hero() {
                 <span className="absolute inset-0 animate-ping rounded-full bg-primary/50" />
                 <span className="relative h-1.5 w-1.5 rounded-full bg-primary" />
               </span>
-              Behavioral finance · Calm mode
+              {isSpanish
+                ? "Finanzas conductuales · modo calma"
+                : "Behavioral finance · Calm mode"}
             </div>
 
             <h1
               className="mt-6 font-serif text-5xl leading-[1.02] tracking-tight text-foreground text-balance sm:text-6xl lg:text-[68px]"
             >
-              Meet Savlo.{" "}
-              <span className="block">
-                Understand your money{" "}
-                <em className="font-normal italic text-primary/90">
-                  in one minute
-                </em>{" "}
-                a day.
-              </span>
+              {isSpanish ? (
+                <>
+                  Conoce Savlo.{" "}
+                  <span className="block">
+                    Entiende tu dinero{" "}
+                    <em className="font-normal italic text-primary/90">
+                      en un minuto
+                    </em>{" "}
+                    al día.
+                  </span>
+                </>
+              ) : (
+                <>
+                  Meet Savlo.{" "}
+                  <span className="block">
+                    Understand your money{" "}
+                    <em className="font-normal italic text-primary/90">
+                      in one minute
+                    </em>{" "}
+                    a day.
+                  </span>
+                </>
+              )}
             </h1>
 
             <p
               className="mt-5 max-w-[440px] text-pretty text-[15px] leading-relaxed text-muted-foreground"
             >
-              The personal budgeting app designed for peace of mind. A fast voice check-in,
-              smart division into separate Spaces and Sinking Funds, and a gentle streak
-              that helps you build financial habits without pressure or guilt.
+              {isSpanish
+                ? "La app de presupuesto personal diseñada para mirar tu dinero con calma. Un check-in rápido por voz, separación inteligente en Spaces y Sinking Funds, y una racha suave para construir hábitos sin presión ni culpa."
+                : "The personal budgeting app designed for peace of mind. A fast voice check-in, smart division into separate Spaces and Sinking Funds, and a gentle streak that helps you build financial habits without pressure or guilt."}
             </p>
 
             <div
@@ -80,13 +100,15 @@ export function Hero() {
             <p
               className="mt-5 text-[12px] text-muted-foreground/80"
             >
-              Coming soon to iOS and Android · English & Spanish native support.
+              {isSpanish
+                ? "Próximamente en iOS y Android · soporte nativo en español e inglés."
+                : "Coming soon to iOS and Android · English & Spanish native support."}
             </p>
           </div>
           <div className="relative lg:col-span-7">
             <EntranceHalo />
             <div className="relative z-10">
-              <PhonePair />
+              <PhonePair locale={locale} />
             </div>
           </div>
         </div>

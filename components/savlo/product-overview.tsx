@@ -1,24 +1,82 @@
+import type { Locale } from "@/lib/i18n"
 import { AnimatedNumber } from "./animated-number"
 import { Reveal } from "./reveal"
 
-export function ProductOverview() {
+const copy = {
+  en: {
+    eyebrow: "Your week, gently summarized",
+    heading: "Not a dashboard.",
+    emphasis: "A reflection.",
+    description:
+      "Savlo organizes your money flow and returns it to you softly: the progress of your savings funds, your independent financial spaces, and your safe daily spending margin. Observed, never judged.",
+    dailyMargin: "Daily Margin",
+    today: "Today",
+    safeToSpend: "Safe to spend",
+    safeToSpendSuffix: " today",
+    marginBody:
+      "A single, honest metric. No flashing red alarms - just the exact amount of money you can spend today, guilt-free.",
+    cashFlow: "Cash flow · last 8 weeks",
+    income: "Income",
+    spending: "Spending",
+    saved: "Saved",
+    spacesFunds: "Spaces & Funds",
+    spacesTitle: "Your money separated by context",
+    spacesBadge: "Simple, intuitive structure",
+    categories: [
+      { name: "Personal Space", amount: 1240, pct: 55 },
+      { name: "Freelance Space", amount: 612, pct: 28, warm: true },
+      { name: "Emergency Fund", amount: 450, pct: 75 },
+      { name: "Vacation Fund", amount: 196, pct: 33 },
+    ],
+  },
+  es: {
+    eyebrow: "Tu semana, resumida con suavidad",
+    heading: "No es un dashboard.",
+    emphasis: "Es una reflexión.",
+    description:
+      "Savlo organiza tu flujo de dinero y te lo devuelve con calma: el progreso de tus fondos, tus espacios financieros separados y tu margen diario seguro. Observado, nunca juzgado.",
+    dailyMargin: "Margen diario",
+    today: "Hoy",
+    safeToSpend: "Seguro para gastar",
+    safeToSpendSuffix: " hoy",
+    marginBody:
+      "Una métrica simple y honesta. Sin alarmas rojas - solo el monto exacto que puedes gastar hoy, sin culpa.",
+    cashFlow: "Flujo de caja · últimas 8 semanas",
+    income: "Ingresos",
+    spending: "Gastos",
+    saved: "Ahorrado",
+    spacesFunds: "Spaces & Funds",
+    spacesTitle: "Tu dinero separado por contexto",
+    spacesBadge: "Estructura simple e intuitiva",
+    categories: [
+      { name: "Espacio personal", amount: 1240, pct: 55 },
+      { name: "Espacio freelance", amount: 612, pct: 28, warm: true },
+      { name: "Fondo emergencia", amount: 450, pct: 75 },
+      { name: "Fondo vacaciones", amount: 196, pct: 33 },
+    ],
+  },
+} as const
+
+export function ProductOverview({ locale = "en" }: { locale?: Locale }) {
+  const text = copy[locale]
+
   return (
     <section id="product" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <p className="text-xs uppercase tracking-[0.18em] text-primary/80 font-semibold">
-            Your week, gently summarized
+            {text.eyebrow}
           </p>
           <h2 className="mt-3 font-serif text-3xl leading-tight tracking-tight text-balance sm:text-4xl">
-            Not a dashboard.{" "}
+            {text.heading}{" "}
             <span className="block">
               <em className="font-normal italic text-primary/90">
-                A reflection.
+                {text.emphasis}
               </em>
             </span>
           </h2>
           <p className="mt-4 max-w-xl text-pretty text-muted-foreground text-sm sm:text-base leading-relaxed">
-            Savlo organizes your money flow and returns it to you softly: the progress of your savings funds, your independent financial spaces, and your safe daily spending margin. Observed, never judged.
+            {text.description}
           </p>
         </Reveal>
 
@@ -28,21 +86,26 @@ export function ProductOverview() {
             <article className="card-calm group relative h-full overflow-hidden rounded-2xl border border-border bg-surface/70 p-6 animate-fade-up">
               <header className="flex items-center justify-between">
                 <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground font-semibold">
-                  Daily Margin
+                  {text.dailyMargin}
                 </p>
-                <span className="text-[11px] text-muted-foreground font-mono">Today</span>
+                <span className="text-[11px] text-muted-foreground font-mono">
+                  {text.today}
+                </span>
               </header>
               <p className="mt-4 font-serif text-4xl tracking-tight">
                 <AnimatedNumber value={45} prefix="$" duration={1800} />
               </p>
               <p className="mt-1 text-xs text-muted-foreground">
-                <span className="text-primary font-medium">Safe to spend</span> today
+                <span className="text-primary font-medium">
+                  {text.safeToSpend}
+                </span>
+                {text.safeToSpendSuffix}
               </p>
 
               <MiniWave className="mt-8" />
 
               <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
-                A single, honest metric. No flashing red alarms — just the exact amount of money you can spend today, guilt-free.
+                {text.marginBody}
               </p>
             </article>
           </Reveal>
@@ -53,24 +116,24 @@ export function ProductOverview() {
               <header className="flex items-center justify-between">
                 <div>
                   <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground font-semibold">
-                    Cash flow · last 8 weeks
+                    {text.cashFlow}
                   </p>
                   <p className="mt-1 font-serif text-2xl tracking-tight">
                     $2,510 <span className="text-muted-foreground">net</span>
                   </p>
                 </div>
                 <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
-                  <LegendDot color="primary" label="Income" />
-                  <LegendDot color="accent" label="Spending" />
+                  <LegendDot color="primary" label={text.income} />
+                  <LegendDot color="accent" label={text.spending} />
                 </div>
               </header>
 
               <CashFlowBars className="mt-6" />
 
               <footer className="mt-5 grid grid-cols-3 gap-4 border-t border-border/60 pt-4 text-sm">
-                <FooterStat label="Income" value="$6,820" tone="primary" />
-                <FooterStat label="Spending" value="$4,310" tone="accent" />
-                <FooterStat label="Saved" value="$2,510" tone="muted" />
+                <FooterStat label={text.income} value="$6,820" tone="primary" />
+                <FooterStat label={text.spending} value="$4,310" tone="accent" />
+                <FooterStat label={text.saved} value="$2,510" tone="muted" />
               </footer>
             </article>
           </Reveal>
@@ -81,51 +144,55 @@ export function ProductOverview() {
               <header className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">
                 <div>
                   <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground font-semibold">
-                    Spaces & Funds
+                    {text.spacesFunds}
                   </p>
                   <p className="mt-1 font-serif text-2xl tracking-tight">
-                    Your money separated by context
+                    {text.spacesTitle}
                   </p>
                 </div>
                 <span className="rounded-full border border-border px-3 py-1 text-[11px] text-muted-foreground font-medium">
-                  Simple, intuitive structure
+                  {text.spacesBadge}
                 </span>
               </header>
 
               <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {categories.map((c) => (
-                  <li
-                    key={c.name}
-                    className="rounded-xl border border-border/70 bg-surface-2/50 p-4"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-foreground/90 font-medium">
-                        {c.name}
-                      </span>
-                      <span className="font-mono text-xs text-muted-foreground">
-                        {c.pct}%
-                      </span>
-                    </div>
-                    <p className="mt-2 font-serif text-xl tracking-tight">
-                      <AnimatedNumber
-                        value={c.amount}
-                        prefix="$"
-                        duration={1400}
-                      />
-                    </p>
-                    <div className="mt-3 h-1 w-full overflow-hidden rounded-full bg-border/60">
-                      <div
-                        className="h-full rounded-full"
-                        style={{
-                          width: `${c.pct}%`,
-                          background: c.warm
-                            ? "color-mix(in oklch, var(--accent) 80%, transparent)"
-                            : "color-mix(in oklch, var(--primary) 85%, transparent)",
-                        }}
-                      />
-                    </div>
-                  </li>
-                ))}
+                {text.categories.map((c) => {
+                  const isWarm = "warm" in c && c.warm
+
+                  return (
+                    <li
+                      key={c.name}
+                      className="rounded-xl border border-border/70 bg-surface-2/50 p-4"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm text-foreground/90 font-medium">
+                          {c.name}
+                        </span>
+                        <span className="font-mono text-xs text-muted-foreground">
+                          {c.pct}%
+                        </span>
+                      </div>
+                      <p className="mt-2 font-serif text-xl tracking-tight">
+                        <AnimatedNumber
+                          value={c.amount}
+                          prefix="$"
+                          duration={1400}
+                        />
+                      </p>
+                      <div className="mt-3 h-1 w-full overflow-hidden rounded-full bg-border/60">
+                        <div
+                          className="h-full rounded-full"
+                          style={{
+                            width: `${c.pct}%`,
+                            background: isWarm
+                              ? "color-mix(in oklch, var(--accent) 80%, transparent)"
+                              : "color-mix(in oklch, var(--primary) 85%, transparent)",
+                          }}
+                        />
+                      </div>
+                    </li>
+                  )
+                })}
               </ul>
             </article>
           </Reveal>
@@ -254,11 +321,4 @@ const bars = [
   { in: 60, out: 34 },
   { in: 54, out: 30 },
   { in: 66, out: 36 },
-]
-
-const categories = [
-  { name: "Personal Space", amount: 1240, pct: 55 },
-  { name: "Freelance Space", amount: 612, pct: 28, warm: true },
-  { name: "Emergency Fund", amount: 450, pct: 75 },
-  { name: "Vacation Fund", amount: 196, pct: 33 },
 ]

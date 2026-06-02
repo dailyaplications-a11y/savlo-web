@@ -13,82 +13,75 @@ import { absoluteUrl, siteConfig } from "@/lib/site"
 
 const faqItems = [
   {
-    question: "Is Savlo available now?",
+    question: "¿Savlo ya está disponible?",
     answer:
-      "Savlo is currently presented as coming soon to iOS and Android. You can join the waitlist from the App Store and Google Play buttons on this site.",
+      "Savlo se presenta actualmente como una app próximamente disponible para iOS y Android. Puedes pedir acceso anticipado desde esta página.",
   },
   {
-    question: "Does Savlo require bank linking?",
+    question: "¿Savlo obliga a conectar el banco?",
     answer:
-      "The public Savlo site emphasizes voice check-ins, CSV and XLSX imports, and user-controlled records rather than mandatory bank linking.",
+      "El sitio público de Savlo enfatiza check-ins por voz, importaciones CSV/XLSX y registros controlados por la persona usuaria, no una conexión bancaria obligatoria.",
   },
   {
-    question: "Who is Savlo built for?",
+    question: "¿Para quién está pensada la app?",
     answer:
-      "Savlo is built for people who want a calmer budgeting app, especially anyone who finds traditional personal finance tools stressful, rigid, or guilt-based.",
+      "Savlo está pensada para personas que quieren presupuestar con más calma, especialmente si las herramientas tradicionales de finanzas personales se sienten rígidas o ansiosas.",
   },
   {
-    question: "Can Savlo help with sinking funds?",
+    question: "¿Savlo sirve para sinking funds?",
     answer:
-      "Yes. Savlo highlights Sinking Funds as a core way to turn predictable expenses into smaller, steadier savings goals.",
+      "Sí. Savlo presenta los Sinking Funds como una forma central de convertir gastos grandes y previsibles en aportes más pequeños y constantes.",
   },
 ] as const
 
 export const metadata: Metadata = {
-  title: "Calm budgeting for anxious minds",
-  description: siteConfig.description,
-  keywords: [...siteConfig.keywords],
-  alternates: metadataAlternates("/"),
+  title: "Presupuesto personal en calma",
+  description:
+    "Savlo es una app de presupuesto personal para mentes ansiosas: registra gastos por voz, separa tu dinero en espacios y sinking funds, y vuelve a mirar tus finanzas sin culpa.",
+  keywords: [
+    "app de presupuesto",
+    "presupuesto personal",
+    "ansiedad financiera",
+    "registro de gastos por voz",
+    "sinking funds",
+    "finanzas personales",
+  ],
+  alternates: metadataAlternates("/es"),
   openGraph: {
-    title: "Savlo | Calm budgeting for anxious minds",
-    description: siteConfig.description,
-    url: "/",
+    title: "Savlo | Presupuesto personal en calma",
+    description:
+      "Una app de presupuesto personal diseñada para mirar tu dinero con menos presión.",
+    url: "/es",
     siteName: siteConfig.name,
-    locale: siteConfig.locale,
+    locale: "es_ES",
     type: "website",
     images: [
       {
         url: absoluteUrl(siteConfig.ogImage),
-        alt: "Savlo budgeting app preview",
+        alt: "Vista previa de la app de presupuesto Savlo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Calm budgeting for anxious minds",
-    description: siteConfig.description,
+    title: "Savlo | Presupuesto personal en calma",
+    description:
+      "Registra gastos por voz, organiza tu dinero y construye hábitos sin culpa.",
     images: [absoluteUrl(siteConfig.ogImage)],
   },
 }
 
-export default function Page() {
+export default function SpanishHomePage() {
   const organizationId = absoluteUrl("/#organization")
-  const websiteId = absoluteUrl("/#website")
-  const softwareId = absoluteUrl("/#software")
-
   const structuredData = [
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": organizationId,
-      name: siteConfig.name,
-      url: siteConfig.url,
-      email: siteConfig.supportEmail,
-      logo: {
-        "@type": "ImageObject",
-        url: absoluteUrl("/savlo-icon.png"),
-        width: 1024,
-        height: 1024,
-      },
-    },
-    {
-      "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": websiteId,
+      "@id": absoluteUrl("/es#website"),
       name: siteConfig.name,
-      url: siteConfig.url,
-      description: siteConfig.description,
-      inLanguage: "en",
+      url: absoluteUrl("/es"),
+      description: metadata.description,
+      inLanguage: "es",
       publisher: {
         "@id": organizationId,
       },
@@ -96,41 +89,44 @@ export default function Page() {
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "@id": softwareId,
+      "@id": absoluteUrl("/es#software"),
       name: siteConfig.name,
       alternateName: siteConfig.shortName,
       applicationCategory: "FinanceApplication",
       operatingSystem: "iOS, Android",
-      url: siteConfig.url,
-      description: siteConfig.longDescription,
+      url: absoluteUrl("/es"),
+      description:
+        "Savlo es una app de presupuesto personal informada por finanzas conductuales, con check-ins por voz, espacios separados, Sinking Funds, importaciones de planillas y exportación de datos.",
       image: absoluteUrl(siteConfig.ogImage),
       screenshot: [
         absoluteUrl("/app_screen_today.png"),
         absoluteUrl("/app_screen_funds.png"),
       ],
+      inLanguage: "es",
       offers: {
         "@type": "Offer",
         price: "0",
         priceCurrency: "USD",
         availability: "https://schema.org/PreOrder",
-        url: siteConfig.url,
+        url: absoluteUrl("/es"),
       },
       publisher: {
         "@id": organizationId,
       },
       isAccessibleForFree: true,
       featureList: [
-        "Voice expense check-ins",
-        "Money Spaces",
+        "Registro de gastos por voz",
+        "Spaces de dinero",
         "Sinking Funds",
-        "CSV and XLSX imports",
-        "Data export",
+        "Importaciones CSV y XLSX",
+        "Exportación de datos",
       ],
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": absoluteUrl("/#faq"),
+      "@id": absoluteUrl("/es#faq"),
+      inLanguage: "es",
       mainEntity: faqItems.map((item) => ({
         "@type": "Question",
         name: item.question,
@@ -143,26 +139,29 @@ export default function Page() {
   ]
 
   return (
-    <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader />
+    <div
+      lang="es"
+      className="bg-grain relative min-h-screen bg-background text-foreground"
+    >
+      <SiteHeader locale="es" />
       <main>
-        <Hero />
+        <Hero locale="es" />
         <SectionDivider />
-        <ProductOverview />
+        <ProductOverview locale="es" />
         <SectionDivider />
-        <FeaturesShowcase />
+        <FeaturesShowcase locale="es" />
         <SectionDivider />
-        <BehavioralSection />
+        <BehavioralSection locale="es" />
         <SectionDivider />
-        <TrustSection />
+        <TrustSection locale="es" />
         <SectionDivider />
-        <FeaturedReads />
+        <FeaturedReads locale="es" />
         <SectionDivider />
         <FaqSection />
         <SectionDivider />
-        <CtaSection />
+        <CtaSection locale="es" />
       </main>
-      <SiteFooter />
+      <SiteFooter locale="es" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -177,10 +176,10 @@ function FaqSection() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-12">
         <div className="lg:col-span-4">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary/80">
-            Questions
+            Preguntas
           </p>
           <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            A few calm answers before you join the waitlist.
+            Respuestas rápidas antes de pedir acceso.
           </h2>
         </div>
         <dl className="lg:col-span-8">

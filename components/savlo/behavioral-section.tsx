@@ -1,3 +1,4 @@
+import type { Locale } from "@/lib/i18n"
 import { Reveal } from "./reveal"
 
 type Tenet = {
@@ -7,38 +8,90 @@ type Tenet = {
   Motif: React.ComponentType
 }
 
-const tenets: Tenet[] = [
-  {
-    caption: "GENTLE STREAKS",
-    title: "Gentle habits, zero guilt.",
-    body:
-      "A supportive daily check-in to build lasting habits, with no anxiety-inducing red notifications or penalization. Your money deserves a steadier tone.",
-    Motif: EmberMotif,
-  },
-  {
-    caption: "OBSERVE FIRST",
-    title: "Observe today, decide tomorrow.",
-    body:
-      "Savlo surfaces patterns the way a high-quality notebook would — quietly, and only when you open it.",
-    Motif: RippleMotif,
-  },
-  {
-    caption: "COMPOUND SLOWLY",
-    title: "Small changes, compounded.",
-    body:
-      "We celebrate consistency, not willpower. A single mindful swap is worth more than a month of severe restriction.",
-    Motif: SpiralMotif,
-  },
-  {
-    caption: "YOU DECIDE",
-    title: "You stay in charge.",
-    body:
-      "Your spaces, your savings goals, and your definitions. Savlo is a mirror, not a coach.",
-    Motif: ReticleMotif,
-  },
-]
+const tenetsByLocale: Record<Locale, Tenet[]> = {
+  en: [
+    {
+      caption: "GENTLE STREAKS",
+      title: "Gentle habits, zero guilt.",
+      body:
+        "A supportive daily check-in to build lasting habits, with no anxiety-inducing red notifications or penalization. Your money deserves a steadier tone.",
+      Motif: EmberMotif,
+    },
+    {
+      caption: "OBSERVE FIRST",
+      title: "Observe today, decide tomorrow.",
+      body:
+        "Savlo surfaces patterns the way a high-quality notebook would - quietly, and only when you open it.",
+      Motif: RippleMotif,
+    },
+    {
+      caption: "COMPOUND SLOWLY",
+      title: "Small changes, compounded.",
+      body:
+        "We celebrate consistency, not willpower. A single mindful swap is worth more than a month of severe restriction.",
+      Motif: SpiralMotif,
+    },
+    {
+      caption: "YOU DECIDE",
+      title: "You stay in charge.",
+      body:
+        "Your spaces, your savings goals, and your definitions. Savlo is a mirror, not a coach.",
+      Motif: ReticleMotif,
+    },
+  ],
+  es: [
+    {
+      caption: "RACHAS SUAVES",
+      title: "Hábitos suaves, cero culpa.",
+      body:
+        "Un check-in diario de apoyo para construir hábitos duraderos, sin notificaciones rojas que generen ansiedad ni penalizaciones. Tu dinero merece un tono más estable.",
+      Motif: EmberMotif,
+    },
+    {
+      caption: "OBSERVA PRIMERO",
+      title: "Observa hoy, decide mañana.",
+      body:
+        "Savlo muestra patrones como lo haría un buen cuaderno: en silencio, y solo cuando lo abres.",
+      Motif: RippleMotif,
+    },
+    {
+      caption: "COMPONER DESPACIO",
+      title: "Cambios pequeños, acumulados.",
+      body:
+        "Celebramos la constancia, no la fuerza de voluntad. Un intercambio consciente vale más que un mes de restricción severa.",
+      Motif: SpiralMotif,
+    },
+    {
+      caption: "TÚ DECIDES",
+      title: "Tú sigues a cargo.",
+      body:
+        "Tus espacios, tus metas de ahorro y tus definiciones. Savlo es un espejo, no un coach.",
+      Motif: ReticleMotif,
+    },
+  ],
+}
 
-export function BehavioralSection() {
+const copy = {
+  en: {
+    eyebrow: "Our philosophy",
+    firstLine: "We don't judge your spending.",
+    emphasis: "We help you understand it.",
+    description:
+      "Most money apps treat every dollar as a test you're failing. Savlo is built on behavioral finance research: awareness, not pressure, is what creates lasting change. So we show you the shape of your habits - and then we step back.",
+  },
+  es: {
+    eyebrow: "Nuestra filosofía",
+    firstLine: "No juzgamos tus gastos.",
+    emphasis: "Te ayudamos a entenderlos.",
+    description:
+      "La mayoría de las apps de dinero tratan cada dólar como una prueba que estás fallando. Savlo se apoya en finanzas conductuales: la conciencia, no la presión, es lo que crea cambios duraderos. Te mostramos la forma de tus hábitos y luego damos un paso atrás.",
+  },
+} as const
+
+export function BehavioralSection({ locale = "en" }: { locale?: Locale }) {
+  const tenets = tenetsByLocale[locale]
+  const text = copy[locale]
+
   return (
     <section id="philosophy" className="relative py-24 sm:py-32">
       {/* ambient */}
@@ -56,24 +109,24 @@ export function BehavioralSection() {
           <div className="flex items-baseline gap-3">
             <span className="h-px w-10 bg-primary/60" />
             <span className="text-[11px] uppercase tracking-[0.22em] text-primary/80">
-              Our philosophy
+              {text.eyebrow}
             </span>
           </div>
         </Reveal>
 
         <Reveal delay={80}>
           <h2 className="mt-5 font-serif text-4xl leading-[1.05] tracking-tight text-balance sm:text-5xl lg:text-[3.4rem]">
-            We don&apos;t judge your spending.
+            {text.firstLine}
             <br />
             <span className="text-primary/90 italic">
-              We help you understand it.
+              {text.emphasis}
             </span>
           </h2>
         </Reveal>
 
         <Reveal delay={160}>
           <p className="mt-8 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Most money apps treat every dollar as a test you&apos;re failing. Savlo is built on behavioral finance research: awareness, not pressure, is what creates lasting change. So we show you the shape of your habits — and then we step back.
+            {text.description}
           </p>
         </Reveal>
 

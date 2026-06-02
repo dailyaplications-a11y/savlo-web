@@ -12,6 +12,13 @@ export const siteConfig = {
   category: "personal finance",
   ogImage: "/app_screen_today.png",
   supportEmail: "support@savloapp.com",
+  lastUpdated: "2026-06-02",
+  author: {
+    name: "The Savlo Team",
+    url: "/author/savlo-team",
+    description:
+      "Behavioral-finance notes and calm budgeting guidance from the team building Savlo.",
+  },
   keywords: [
     "budgeting app",
     "personal finance app",

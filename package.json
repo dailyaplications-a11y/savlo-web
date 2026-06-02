@@ -11,6 +11,7 @@
     "start": "next start",
     "start:ci": "next start --hostname 127.0.0.1 --port 3001",
     "lint": "eslint .",
+    "test:seo-structure": "node ./scripts/seo-structure-test.mjs",
     "seo:audit": "node ./scripts/run-seo-audit.mjs",
     "seo:lighthouse": "node ./scripts/run-seo-audit.mjs --lighthouse-only",
     "seo:screamingfrog": "node ./scripts/run-seo-audit.mjs --screaming-frog-only"

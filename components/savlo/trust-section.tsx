@@ -1,44 +1,93 @@
 "use client"
 
 import { useEffect, useRef } from "react"
+import type { Locale } from "@/lib/i18n"
 import { Reveal } from "./reveal"
 
-const principles = [
-  {
-    title: "No ads. Not now, not ever.",
-    body: "Savlo is positioned as a member-supported product, not an ad-supported one. The public site does not trade your attention for growth tricks.",
-  },
-  {
-    title: "We do not sell your data.",
-    body: "The landing page is explicit about this: Savlo should not be described as a data-broker or attention-harvesting finance tool.",
-  },
-  {
-    title: "You stay in control of your records.",
-    body: "The product messaging emphasizes exports, separate Spaces, and a calmer interface that helps you inspect your money without locking you into dark patterns.",
-  },
-]
+type Principle = {
+  title: string
+  body: string
+}
 
-export function TrustSection() {
+const principlesByLocale: Record<Locale, Principle[]> = {
+  en: [
+    {
+      title: "No ads. Not now, not ever.",
+      body: "Savlo is positioned as a member-supported product, not an ad-supported one. The public site does not trade your attention for growth tricks.",
+    },
+    {
+      title: "We do not sell your data.",
+      body: "The landing page is explicit about this: Savlo should not be described as a data-broker or attention-harvesting finance tool.",
+    },
+    {
+      title: "You stay in control of your records.",
+      body: "The product messaging emphasizes exports, separate Spaces, and a calmer interface that helps you inspect your money without locking you into dark patterns.",
+    },
+  ],
+  es: [
+    {
+      title: "Sin anuncios. Ni ahora, ni nunca.",
+      body: "Savlo se presenta como un producto sostenido por sus miembros, no por anuncios. El sitio público no intercambia tu atención por trucos de crecimiento.",
+    },
+    {
+      title: "No vendemos tus datos.",
+      body: "La landing es explícita en esto: Savlo no debe describirse como una herramienta financiera que comercializa datos o cosecha atención.",
+    },
+    {
+      title: "Tú mantienes control de tus registros.",
+      body: "El mensaje del producto enfatiza exportaciones, Spaces separados y una interfaz más calma para revisar tu dinero sin encerrarte en patrones oscuros.",
+    },
+  ],
+}
+
+const copy = {
+  en: {
+    eyebrow: "Trust, by default",
+    heading: "Built quietly, with clear promises.",
+    description:
+      "Calm design only matters if the product language is honest. These are the promises the public site can stand behind today.",
+    metrics: [
+      ["Business model", "Member-funded"],
+      ["Data policy", "No data selling"],
+      ["Control", "Export ready"],
+    ],
+  },
+  es: {
+    eyebrow: "Confianza, por defecto",
+    heading: "Construido en silencio, con promesas claras.",
+    description:
+      "El diseño calmado solo importa si el lenguaje del producto es honesto. Estas son las promesas que el sitio público puede sostener hoy.",
+    metrics: [
+      ["Modelo", "Sostenido por miembros"],
+      ["Datos", "No se venden"],
+      ["Control", "Listo para exportar"],
+    ],
+  },
+} as const
+
+export function TrustSection({ locale = "en" }: { locale?: Locale }) {
+  const principles = principlesByLocale[locale]
+  const text = copy[locale]
+
   return (
     <section id="trust" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-4xl px-6">
         <Reveal>
           <div className="mb-16 text-center sm:mb-20">
             <p className="text-xs uppercase tracking-[0.18em] text-primary/80">
-              Trust, by default
+              {text.eyebrow}
             </p>
             <h2 className="mt-4 font-serif text-3xl leading-tight tracking-tight text-balance sm:text-4xl">
-              Built quietly, with clear promises.
+              {text.heading}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-muted-foreground">
-              Calm design only matters if the product language is honest. These
-              are the promises the public site can stand behind today.
+              {text.description}
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-8 border-t border-border/40 pt-8 text-sm sm:gap-12">
-              <Metric label="Business model" value="Member-funded" />
-              <Metric label="Data policy" value="No data selling" />
-              <Metric label="Control" value="Export ready" />
+              {text.metrics.map(([label, value]) => (
+                <Metric key={label} label={label} value={value} />
+              ))}
             </div>
           </div>
         </Reveal>
@@ -72,7 +121,7 @@ function PrincipleCard({
   principle,
   index,
 }: {
-  principle: (typeof principles)[0]
+  principle: Principle
   index: number
 }) {
   const ref = useRef<HTMLDivElement>(null)

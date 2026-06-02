@@ -1,9 +1,12 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { SiteHeader } from "@/components/savlo/site-header"
-import { SiteFooter } from "@/components/savlo/site-footer"
 import { BlogArticle } from "@/components/savlo/blog/blog-article"
-import { getPostBySlug, posts } from "@/lib/blog/posts"
+import { SiteFooter } from "@/components/savlo/site-footer"
+import { SiteHeader } from "@/components/savlo/site-header"
+import {
+  getSpanishPostBySlug,
+  spanishPosts,
+} from "@/lib/blog/spanish-posts"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
@@ -12,22 +15,22 @@ type PageProps = {
 }
 
 export function generateStaticParams() {
-  return posts.map((post) => ({ slug: post.slug }))
+  return spanishPosts.map((post) => ({ slug: post.slug }))
 }
 
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params
-  const post = getPostBySlug(slug)
+  const post = getSpanishPostBySlug(slug)
 
   if (!post) {
     return {
-      title: "Article not found",
+      title: "Artículo no encontrado",
     }
   }
 
-  const url = `/blog/${post.slug}`
+  const url = `/es/blog/${post.slug}`
   const image = absoluteUrl(siteConfig.ogImage)
 
   return {
@@ -39,7 +42,7 @@ export async function generateMetadata({
       title: post.title,
       description: post.description,
       type: "article",
-      locale: siteConfig.locale,
+      locale: "es_ES",
       siteName: siteConfig.name,
       publishedTime: new Date(`${post.date}T00:00:00Z`).toISOString(),
       modifiedTime: new Date(`${post.dateModified}T00:00:00Z`).toISOString(),
@@ -62,16 +65,13 @@ export async function generateMetadata({
   }
 }
 
-export default async function BlogArticlePage({ params }: PageProps) {
+export default async function SpanishBlogArticlePage({ params }: PageProps) {
   const { slug } = await params
-  const post = getPostBySlug(slug)
+  const post = getSpanishPostBySlug(slug)
 
   if (!post) return notFound()
 
-  const articleUrl = absoluteUrl(`/blog/${post.slug}`)
-  const authorUrl = absoluteUrl(siteConfig.author.url)
-  const publishedAt = new Date(`${post.date}T00:00:00Z`).toISOString()
-  const modifiedAt = new Date(`${post.dateModified}T00:00:00Z`).toISOString()
+  const articleUrl = absoluteUrl(`/es/blog/${post.slug}`)
 
   const jsonLd = [
     {
@@ -85,14 +85,14 @@ export default async function BlogArticlePage({ params }: PageProps) {
       url: articleUrl,
       headline: post.title,
       description: post.description,
-      datePublished: publishedAt,
-      dateModified: modifiedAt,
-      inLanguage: "en",
+      datePublished: new Date(`${post.date}T00:00:00Z`).toISOString(),
+      dateModified: new Date(`${post.dateModified}T00:00:00Z`).toISOString(),
+      inLanguage: "es",
       image: [absoluteUrl(siteConfig.ogImage)],
       author: {
         "@type": "Organization",
         name: siteConfig.author.name,
-        url: authorUrl,
+        url: absoluteUrl("/es/author/savlo-team"),
       },
       publisher: {
         "@type": "Organization",
@@ -106,14 +106,13 @@ export default async function BlogArticlePage({ params }: PageProps) {
       },
       isPartOf: {
         "@type": "Blog",
-        name: "Savlo Blog",
-        url: absoluteUrl("/blog"),
+        name: "Savlo Blog en español",
+        url: absoluteUrl("/es/blog"),
       },
       breadcrumb: {
         "@id": `${articleUrl}#breadcrumb`,
       },
       keywords: post.keywords.join(", "),
-      wordCount: post.stats.words,
       articleSection: post.category,
       isAccessibleForFree: true,
     },
@@ -125,14 +124,14 @@ export default async function BlogArticlePage({ params }: PageProps) {
         {
           "@type": "ListItem",
           position: 1,
-          name: "Home",
-          item: absoluteUrl("/"),
+          name: "Inicio",
+          item: absoluteUrl("/es"),
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Blog",
-          item: absoluteUrl("/blog"),
+          item: absoluteUrl("/es/blog"),
         },
         {
           "@type": "ListItem",
@@ -145,12 +144,15 @@ export default async function BlogArticlePage({ params }: PageProps) {
   ]
 
   return (
-    <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader />
+    <div
+      lang="es"
+      className="bg-grain relative min-h-screen bg-background text-foreground"
+    >
+      <SiteHeader locale="es" />
       <main>
-        <BlogArticle post={post} />
+        <BlogArticle post={post} locale="es" />
       </main>
-      <SiteFooter />
+      <SiteFooter locale="es" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

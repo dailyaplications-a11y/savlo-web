@@ -1,50 +1,107 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import type { Locale } from "@/lib/i18n"
 import { Reveal } from "./reveal"
 import { ImportAnimation } from "./features/import-animation"
 import { VoiceAnimation } from "./features/voice-animation"
 import { ExportAnimation } from "./features/export-animation"
 
 type FeatureId = "import" | "voice" | "export"
-
-const FEATURES: {
+type Feature = {
   id: FeatureId
   label: string
   kicker: string
   title: string
   description: string
-}[] = [
-  {
-    id: "import",
-    label: "Import history",
-    kicker: "From spreadsheet to story",
-    title: "Drop your Excel. Keep your past.",
+}
+
+const FEATURE_SETS: Record<Locale, Feature[]> = {
+  en: [
+    {
+      id: "import",
+      label: "Import history",
+      kicker: "From spreadsheet to story",
+      title: "Drop your Excel. Keep your past.",
+      description:
+        "Pull years of transactions from a single .xlsx or .csv. Savlo reads your columns, reconciles duplicates, and folds a silent spreadsheet into your timeline - so your check-ins start with real history, not day one.",
+    },
+    {
+      id: "voice",
+      label: "Daily check-in",
+      kicker: "One minute a night",
+      title: "Speak it. Savlo hears the day.",
+      description:
+        "Tap the mic and tell Savlo how your day went - in your own words, in your own language. Savlo AI extracts amount, merchant and category, saves the expense, and returns a small micro-plan for tomorrow.",
+    },
+    {
+      id: "export",
+      label: "Export",
+      kicker: "Your data belongs to you",
+      title: "Ready to leave, always.",
+      description:
+        "Export every check-in, every fund, every note - to CSV, JSON or PDF in one gesture. No lock-in, no dark patterns. Savlo is a companion, not a cage.",
+    },
+  ],
+  es: [
+    {
+      id: "import",
+      label: "Importar historial",
+      kicker: "De planilla a historia",
+      title: "Suelta tu Excel. Conserva tu pasado.",
+      description:
+        "Trae años de movimientos desde un .xlsx o .csv. Savlo lee tus columnas, reconcilia duplicados y convierte una planilla silenciosa en tu línea de tiempo, para que tus check-ins empiecen con historia real.",
+    },
+    {
+      id: "voice",
+      label: "Check-in diario",
+      kicker: "Un minuto por noche",
+      title: "Dilo. Savlo escucha el día.",
+      description:
+        "Toca el micrófono y cuéntale a Savlo cómo fue tu día, con tus palabras y en tu idioma. Savlo AI extrae monto, comercio y categoría, guarda el gasto y devuelve un micro-plan para mañana.",
+    },
+    {
+      id: "export",
+      label: "Exportar",
+      kicker: "Tus datos te pertenecen",
+      title: "Listo para irte, siempre.",
+      description:
+        "Exporta cada check-in, fondo y nota a CSV, JSON o PDF en un gesto. Sin encierro, sin patrones oscuros. Savlo es una compañía, no una jaula.",
+    },
+  ],
+}
+
+const sectionCopy = {
+  en: {
+    eyebrow: "What Savlo does",
+    headingStart: "Three gestures.",
+    headingEmphasis: "One quiet ledger.",
     description:
-      "Pull years of transactions from a single .xlsx or .csv. Savlo reads your columns, reconciles duplicates, and folds a silent spreadsheet into your timeline — so your check-ins start with real history, not day one.",
+      "Import what already exists. Speak what happens next. Take it all with you whenever you want.",
+    tablist: "Feature showcase",
+    aiTitle: "Savlo AI active",
+    aiBody: "Extracts entities locally & contextually.",
+    showLabel: "Show",
   },
-  {
-    id: "voice",
-    label: "Daily check-in",
-    kicker: "One minute a night",
-    title: "Speak it. Savlo hears the day.",
+  es: {
+    eyebrow: "Qué hace Savlo",
+    headingStart: "Tres gestos.",
+    headingEmphasis: "Un registro silencioso.",
     description:
-      "Tap the mic and tell savlo how your day went — in your own words, in your own language. Savlo AI extracts amount, merchant and category, saves the expense, and returns a small micro-plan for tomorrow.",
+      "Importa lo que ya existe. Di lo que pasa después. Llévate todo cuando quieras.",
+    tablist: "Funciones de Savlo",
+    aiTitle: "Savlo AI activo",
+    aiBody: "Extrae entidades con contexto.",
+    showLabel: "Mostrar",
   },
-  {
-    id: "export",
-    label: "Export",
-    kicker: "Your data belongs to you",
-    title: "Ready to leave, always.",
-    description:
-      "Export every check-in, every fund, every note — to CSV, JSON or PDF in one gesture. No lock-in, no dark patterns. Savlo is a companion, not a cage.",
-  },
-]
+} as const
 
 const CYCLE_MS = 8500
 const HOLD_MS = 900
 
-export function FeaturesShowcase() {
+export function FeaturesShowcase({ locale = "en" }: { locale?: Locale }) {
+  const features = FEATURE_SETS[locale]
+  const text = sectionCopy[locale]
   const [active, setActive] = useState<FeatureId>("import")
   const [progress, setProgress] = useState(0)
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -99,9 +156,9 @@ export function FeaturesShowcase() {
         if (s.hold > 0) {
           s.hold -= dt
           if (s.hold <= 0) {
-            s.active = (s.active + 1) % FEATURES.length
+            s.active = (s.active + 1) % features.length
             s.progress = 0
-            setActive(FEATURES[s.active].id)
+            setActive(features[s.active].id)
             setProgress(0)
           }
         } else {
@@ -117,10 +174,10 @@ export function FeaturesShowcase() {
     }
     raf = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(raf)
-  }, [])
+  }, [features])
 
   const selectTab = (id: FeatureId) => {
-    const idx = FEATURES.findIndex((f) => f.id === id)
+    const idx = features.findIndex((f) => f.id === id)
     driverRef.current.active = idx
     driverRef.current.progress = 0
     driverRef.current.hold = 0
@@ -128,7 +185,7 @@ export function FeaturesShowcase() {
     setProgress(0)
   }
 
-  const current = FEATURES.find((f) => f.id === active)!
+  const current = features.find((f) => f.id === active)!
 
   return (
     <section
@@ -142,33 +199,33 @@ export function FeaturesShowcase() {
           <div className="flex items-baseline gap-3">
             <span className="h-px w-10 bg-primary/60" />
             <span className="text-[11px] uppercase tracking-[0.22em] text-primary/80">
-              What Savlo does
+              {text.eyebrow}
             </span>
           </div>
         </Reveal>
 
         <Reveal delay={80}>
           <h2 className="mt-5 max-w-3xl font-serif text-4xl font-light leading-[1.02] tracking-[-0.02em] text-balance sm:text-5xl lg:text-6xl">
-            Three gestures.{" "}
+            {text.headingStart}{" "}
             <em className="font-normal italic text-primary/90">
-              One quiet ledger.
+              {text.headingEmphasis}
             </em>
           </h2>
         </Reveal>
 
         <Reveal delay={160}>
           <p className="mt-5 max-w-xl text-pretty text-base text-muted-foreground sm:text-lg">
-            Import what already exists. Speak what happens next. Take it all with you whenever you want.
+            {text.description}
           </p>
         </Reveal>
 
         {/* Tabs */}
         <div
           role="tablist"
-          aria-label="Feature showcase"
+          aria-label={text.tablist}
           className="mt-12 flex flex-wrap items-center gap-2 sm:gap-3"
         >
-          {FEATURES.map((f, i) => {
+          {features.map((f, i) => {
             const isActive = active === f.id
             const tabProgress = isActive ? progress : 0
             return (
@@ -247,12 +304,12 @@ export function FeaturesShowcase() {
                 {current.kicker}
               </span>
               <span className="font-mono uppercase tracking-[0.14em]">
-                {String(FEATURES.findIndex((f) => f.id === active) + 1).padStart(
+                {String(features.findIndex((f) => f.id === active) + 1).padStart(
                   2,
                   "0",
                 )}
                 {" / "}
-                {String(FEATURES.length).padStart(2, "0")}
+                {String(features.length).padStart(2, "0")}
               </span>
             </div>
           </div>
@@ -269,7 +326,7 @@ export function FeaturesShowcase() {
               }}
             >
               <span className="text-[11px] uppercase tracking-[0.22em] text-primary/80">
-                {String(FEATURES.findIndex((f) => f.id === active) + 1).padStart(
+                {String(features.findIndex((f) => f.id === active) + 1).padStart(
                   2,
                   "0",
                 )}
@@ -287,17 +344,21 @@ export function FeaturesShowcase() {
                     <img src="/savlo_ai_icon.svg" className="h-full w-full object-contain" alt="Savlo AI" />
                   </div>
                   <div>
-                    <h4 className="text-[12px] font-semibold text-foreground">Savlo AI active</h4>
-                    <p className="text-[11px] text-muted-foreground">Extracts entities locally & contextually.</p>
+                    <h4 className="text-[12px] font-semibold text-foreground">
+                      {text.aiTitle}
+                    </h4>
+                    <p className="text-[11px] text-muted-foreground">
+                      {text.aiBody}
+                    </p>
                   </div>
                 </div>
               )}
 
               <div className="mt-6 flex items-center gap-1.5">
-                {FEATURES.map((f) => (
+                {features.map((f) => (
                   <button
                     key={f.id}
-                    aria-label={`Show ${f.label}`}
+                    aria-label={`${text.showLabel} ${f.label}`}
                     onClick={() => selectTab(f.id)}
                     className="group flex h-6 items-center px-1"
                   >

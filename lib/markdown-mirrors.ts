@@ -1,6 +1,7 @@
 import {
   formatBlogDate,
   getPostBySlug,
+  getRecommendedPosts,
   getRelatedPosts,
   posts,
   type BlogPost,
@@ -119,13 +120,17 @@ function postMirrorUrl(slug: string) {
 async function renderPostMarkdown(post: BlogPost) {
   const { renderToStaticMarkup } = await import("react-dom/server")
   const articleBody = htmlToMarkdown(renderToStaticMarkup(post.content()))
-  const related = getRelatedPosts(post.slug)
+  const recommended = getRecommendedPosts(post.slug)
+  const related =
+    recommended.length > 0 ? recommended : getRelatedPosts(post.slug)
 
   return `# ${post.title}
 
 - Canonical URL: ${absoluteUrl(`/blog/${post.slug}`)}
 - Mirror URL: ${postMirrorUrl(post.slug)}
 - Published: ${formatBlogDate(post.date)}
+- Updated: ${formatBlogDate(post.dateModified)}
+- Author: ${siteConfig.author.name}
 - Category: ${post.category}
 - Reading time: ${post.readingTime} minutes
 - Keywords: ${post.keywords.join(", ")}
@@ -158,6 +163,7 @@ export function buildMarkdownMirrorIndex() {
   const corePages = [
     `- Home mirror: ${absoluteUrl("/markdown/home.md")}`,
     `- Blog mirror: ${absoluteUrl("/markdown/blog.md")}`,
+    `- Author profile: ${absoluteUrl(siteConfig.author.url)}`,
     `- Privacy summary mirror: ${absoluteUrl("/markdown/privacy.md")}`,
     `- Terms summary mirror: ${absoluteUrl("/markdown/terms.md")}`,
   ].join("\n")
@@ -248,6 +254,8 @@ export function buildBlogMarkdownMirror() {
 - Canonical URL: ${absoluteUrl(`/blog/${post.slug}`)}
 - Mirror URL: ${postMirrorUrl(post.slug)}
 - Published: ${formatBlogDate(post.date)}
+- Updated: ${formatBlogDate(post.dateModified)}
+- Author: ${siteConfig.author.name}
 - Category: ${post.category}
 - Keywords: ${post.keywords.join(", ")}
 - Summary: ${post.description}

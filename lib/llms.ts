@@ -62,6 +62,7 @@ Savlo is a prelaunch personal budgeting app designed for people who want a calme
 
 - Home: ${absoluteUrl("/")}
 - Blog: ${absoluteUrl("/blog")}
+- Author: ${absoluteUrl(siteConfig.author.url)}
 - Privacy: ${absoluteUrl("/privacy")}
 - Terms: ${absoluteUrl("/terms")}
 - Markdown mirror index: ${absoluteUrl("/markdown")}
@@ -81,6 +82,8 @@ export function buildLlmsFull() {
 - URL: ${absoluteUrl(`/blog/${post.slug}`)}
 - Category: ${post.category}
 - Published: ${post.date}
+- Updated: ${post.dateModified}
+- Author: ${siteConfig.author.name}
 - Summary: ${post.description}
 - Keywords: ${post.keywords.join(", ")}
 `,
