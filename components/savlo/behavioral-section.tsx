@@ -129,6 +129,36 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       Motif: ReticleMotif,
     },
   ],
+  fr: [
+    {
+      caption: "RHYTHMES DOUX",
+      title: "Des habitudes douces, zéro culpabilité.",
+      body:
+        "Un check-in quotidien qui soutient la création d'habitudes durables, sans notifications rouges anxiogènes ni sanctions. Ton argent mérite un ton plus stable.",
+      Motif: EmberMotif,
+    },
+    {
+      caption: "OBSERVER D'ABORD",
+      title: "Observer aujourd'hui, décider demain.",
+      body:
+        "Savlo révèle les schémas comme le ferait un bon carnet: en silence, et seulement quand tu l'ouvres.",
+      Motif: RippleMotif,
+    },
+    {
+      caption: "ACCUMULER DOUCEMENT",
+      title: "Les petites habitudes s'additionnent.",
+      body:
+        "Nous célébrons la constance, pas la force de volonté. Un seul changement conscient vaut plus qu'un mois de restriction sévère.",
+      Motif: SpiralMotif,
+    },
+    {
+      caption: "C'EST TOI QUI DÉCIDES",
+      title: "Tu gardes la main.",
+      body:
+        "Tes espaces, tes objectifs d'épargne et tes définitions. Savlo est un miroir, pas un coach.",
+      Motif: ReticleMotif,
+    },
+  ],
 }
 
 const copy = {
@@ -159,6 +189,13 @@ const copy = {
     emphasis: "Wir helfen dir, sie zu verstehen.",
     description:
       "Die meisten Geld-Apps behandeln jeden Euro wie einen Test, den du nicht bestehst. Savlo basiert auf Verhaltensfinanz-Forschung: Bewusstsein, nicht Druck, erzeugt dauerhafte Veraenderung. Darum zeigen wir dir die Form deiner Gewohnheiten - und treten dann einen Schritt zurueck.",
+  },
+  fr: {
+    eyebrow: "Notre philosophie",
+    firstLine: "Nous ne jugeons pas tes dépenses.",
+    emphasis: "Nous t'aidons à les comprendre.",
+    description:
+      "La plupart des apps d'argent traitent chaque euro comme un test raté. Savlo s'appuie sur la finance comportementale: la conscience, pas la pression, crée un changement durable. Nous te montrons la forme de tes habitudes, puis nous prenons du recul.",
   },
 } as const
 

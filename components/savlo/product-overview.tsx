@@ -108,6 +108,32 @@ const copy = {
       { name: "Urlaubsfonds", amount: 196, pct: 33 },
     ],
   },
+  fr: {
+    eyebrow: "Ta semaine, résumée avec douceur",
+    heading: "Pas un dashboard.",
+    emphasis: "Une réflexion.",
+    description:
+      "Savlo organise ton flux d'argent et te le renvoie en douceur : la progression de tes fonds d'épargne, tes espaces financiers séparés et ta marge quotidienne sûre. Observé, jamais jugé.",
+    dailyMargin: "Marge quotidienne",
+    today: "Aujourd'hui",
+    safeToSpend: "À dépenser sans culpabilité",
+    safeToSpendSuffix: " aujourd'hui",
+    marginBody:
+      "Une seule métrique honnête. Pas d'alertes rouges qui clignotent - juste le montant exact que tu peux dépenser aujourd'hui sans culpabilité.",
+    cashFlow: "Flux de trésorerie - 8 dernières semaines",
+    income: "Revenus",
+    spending: "Dépenses",
+    saved: "Épargné",
+    spacesFunds: "Spaces & Funds",
+    spacesTitle: "Ton argent séparé par contexte",
+    spacesBadge: "Structure simple et intuitive",
+    categories: [
+      { name: "Espace personnel", amount: 1240, pct: 55 },
+      { name: "Espace freelance", amount: 612, pct: 28, warm: true },
+      { name: "Fonds d'urgence", amount: 450, pct: 75 },
+      { name: "Fonds vacances", amount: 196, pct: 33 },
+    ],
+  },
 } as const
 
 export function ProductOverview({ locale = "en" }: { locale?: Locale }) {

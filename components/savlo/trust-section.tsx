@@ -78,6 +78,23 @@ const principlesByLocale: Record<Locale, Principle[]> = {
         "Die Produktbotschaft betont Exporte, getrennte Spaces und eine ruhigere Oberflaeche, die dir hilft, dein Geld zu pruefen, ohne dich in dunkle Muster einzusperren.",
     },
   ],
+  fr: [
+    {
+      title: "Pas de pub. Ni maintenant, ni jamais.",
+      body:
+        "Savlo est présenté comme un produit soutenu par ses membres, pas par la publicité. Le site public n'échange pas ton attention contre des astuces de croissance.",
+    },
+    {
+      title: "Nous ne vendons pas tes données.",
+      body:
+        "Le message public est clair: Savlo ne doit pas être décrit comme un outil financier qui revend des données ou capte l'attention.",
+    },
+    {
+      title: "Tu gardes le contrôle de tes relevés.",
+      body:
+        "Le message produit met en avant les exportations, les Spaces séparés et une interface plus calme pour consulter ton argent sans te piéger dans des schémas sombres.",
+    },
+  ],
 }
 
 const copy = {
@@ -123,6 +140,17 @@ const copy = {
       ["Geschaeftsmodell", "Von Mitgliedern getragen"],
       ["Datenpolitik", "Kein Datenverkauf"],
       ["Kontrolle", "Exportbereit"],
+    ],
+  },
+  fr: {
+    eyebrow: "Confiance par défaut",
+    heading: "Construit en silence, avec des promesses claires.",
+    description:
+      "Un design calme ne compte que si le langage du produit est honnête. Voici les promesses que le site public peut soutenir aujourd'hui.",
+    metrics: [
+      ["Modèle", "Soutenu par les membres"],
+      ["Données", "Aucune vente"],
+      ["Contrôle", "Prêt à l'export"],
     ],
   },
 } as const

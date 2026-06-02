@@ -347,10 +347,13 @@ function buildPost(slug: GermanSlug): GermanBlogPost {
     category: base.category,
     date: base.date,
     dateModified: base.dateModified,
-    keywords: base.keywords,
+    keywords: [...base.keywords],
     readingTime: base.readingTime,
-    summary: override.summary,
-    sections: override.sections,
+    summary: [...override.summary],
+    sections: override.sections.map((section) => ({
+      heading: section.heading,
+      body: [...section.body],
+    })),
   }
 }
 

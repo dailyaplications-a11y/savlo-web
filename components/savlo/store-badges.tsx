@@ -35,6 +35,13 @@ const copy = {
     ariaIos: "Zur iOS-Warteliste",
     ariaAndroid: "Zur Android-Warteliste",
   },
+  fr: {
+    top: "Rejoignez la",
+    ios: "liste d'attente iOS",
+    android: "liste d'attente Android",
+    ariaIos: "Rejoignez la liste d'attente iOS",
+    ariaAndroid: "Rejoignez la liste d'attente Android",
+  },
 } as const
 
 export function AppStoreBadge({

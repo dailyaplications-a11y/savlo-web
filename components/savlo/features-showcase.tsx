@@ -121,6 +121,32 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
         "Exportiere jeden Check-in, jeden Fonds und jede Notiz mit einem Handgriff als CSV, JSON oder PDF. Kein Lock-in, keine dunklen Muster. Savlo ist ein Begleiter, kein Kaefig.",
     },
   ],
+  fr: [
+    {
+      id: "import",
+      label: "Importer l'historique",
+      kicker: "De la feuille au récit",
+      title: "Dépose ton Excel. Garde ton passé.",
+      description:
+        "Récupère des années de transactions depuis un seul fichier .xlsx ou .csv. Savlo lit tes colonnes, rapproche les doublons et transforme une feuille silencieuse en ligne du temps, pour que tes check-ins commencent avec une vraie histoire.",
+    },
+    {
+      id: "voice",
+      label: "Check-in quotidien",
+      kicker: "Une minute par soir",
+      title: "Parle. Savlo écoute ta journée.",
+      description:
+        "Appuie sur le micro et raconte à Savlo comment s'est passée ta journée, avec tes mots et dans ta langue. Savlo AI extrait le montant, le commerçant et la catégorie, enregistre la dépense et te renvoie un micro-plan pour demain.",
+    },
+    {
+      id: "export",
+      label: "Exporter",
+      kicker: "Tes données t'appartiennent",
+      title: "Toujours prêt à partir.",
+      description:
+        "Exporte chaque check-in, chaque fonds et chaque note en CSV, JSON ou PDF en un geste. Aucun verrouillage, aucun dark pattern. Savlo est un compagnon, pas une cage.",
+    },
+  ],
 }
 
 const sectionCopy = {
@@ -167,6 +193,17 @@ const sectionCopy = {
     aiTitle: "Savlo AI aktiv",
     aiBody: "Extrahiert Entitaeten lokal und kontextbezogen.",
     showLabel: "Zeigen",
+  },
+  fr: {
+    eyebrow: "Ce que fait Savlo",
+    headingStart: "Trois gestes.",
+    headingEmphasis: "Un registre silencieux.",
+    description:
+      "Importe ce qui existe déjà. Dis ce qui se passe ensuite. Emporte tout avec toi quand tu veux.",
+    tablist: "Démo des fonctionnalités",
+    aiTitle: "Savlo AI actif",
+    aiBody: "Extrait les entités localement et dans leur contexte.",
+    showLabel: "Afficher",
   },
 } as const
 

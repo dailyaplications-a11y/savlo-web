@@ -32,12 +32,20 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
             plan: "Plano gentil",
           }
         : locale === "de"
+        ? {
+            voice: "Stimme auf Deutsch",
+            calm: "Ruhemodus",
+            fund: "Urlaubsfonds",
+            today: "+$12 heute",
+            plan: "Sanfter Plan",
+          }
+        : locale === "fr"
           ? {
-              voice: "Stimme auf Deutsch",
-              calm: "Ruhemodus",
-              fund: "Urlaubsfonds",
-              today: "+$12 heute",
-              plan: "Sanfter Plan",
+              voice: "Voix en français",
+              calm: "Mode calme",
+              fund: "Fonds vacances",
+              today: "+$12 aujourd'hui",
+              plan: "Plan doux",
             }
         : {
             voice: "Spanish & English voice",

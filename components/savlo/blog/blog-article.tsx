@@ -8,6 +8,7 @@ import {
   type BlogPost,
 } from "@/lib/blog/posts"
 import { getGermanPostBySlug } from "@/lib/blog/german-posts"
+import { getFrenchPostBySlug } from "@/lib/blog/french-posts"
 import { getPortuguesePostBySlug } from "@/lib/blog/portuguese-posts"
 import { getSpanishPostBySlug } from "@/lib/blog/spanish-posts"
 import { blogCategoryLabel } from "@/lib/blog/category-labels"
@@ -104,6 +105,26 @@ const labels = {
     blogHref: "/de/blog",
     blogPath: "/de/blog",
     dateLocale: "de-DE",
+  },
+  fr: {
+    home: "Accueil",
+    blog: "Blog",
+    updated: "Mis à jour",
+    minRead: "min de lecture",
+    authorHref: "/fr/author/savlo-team",
+    authorTagline: "Finance comportementale, écrite avec calme",
+    share: "Partager",
+    shareX: "Partager sur X",
+    shareLinkedIn: "Partager sur LinkedIn",
+    stats: ["Mots", "Caractères", "Phrases", "Paragraphes"],
+    relatedGuides: "Guides associés",
+    backToBlog: "Retour au blog",
+    keepReading: "Continuer la lecture",
+    moreIn: "Plus d'articles dans",
+    homeHref: "/fr",
+    blogHref: "/fr/blog",
+    blogPath: "/fr/blog",
+    dateLocale: "fr-FR",
   },
 } as const
 
@@ -358,7 +379,12 @@ function localizePosts(posts: BlogPost[], locale: Locale): ArticlePost[] {
       (post) => getPortuguesePostBySlug(post.slug) ?? post,
     )
   }
-  return posts.map<ArticlePost>((post) => getGermanPostBySlug(post.slug) ?? post)
+  if (locale === "de") {
+    return posts.map<ArticlePost>(
+      (post) => getGermanPostBySlug(post.slug) ?? post,
+    )
+  }
+  return posts.map<ArticlePost>((post) => getFrenchPostBySlug(post.slug) ?? post)
 }
 
 function getArticleStats(post: ArticlePost): BlogPost["stats"] {

@@ -138,6 +138,26 @@ check(
 )
 
 check(
+  "French home route exists",
+  existsSync(filePath("app/fr/page.tsx")),
+)
+
+check(
+  "French blog index route exists",
+  existsSync(filePath("app/fr/blog/page.tsx")),
+)
+
+check(
+  "French blog article route exists",
+  existsSync(filePath("app/fr/blog/[slug]/page.tsx")),
+)
+
+check(
+  "French author route exists",
+  existsSync(filePath("app/fr/author/savlo-team/page.tsx")),
+)
+
+check(
   "Home metadata includes hreflang alternates",
   contains("app/page.tsx", /metadataAlternates\(["']\/["']\)/) &&
     contains("lib/i18n.ts", /languages:[\s\S]*languageAlternates/),
@@ -154,7 +174,8 @@ check(
   "Sitemap includes localized alternates",
   contains("app/sitemap.ts", /languages:\s*languageAlternates/) &&
     contains("app/sitemap.ts", /localizedPath\(path,\s*["']es["']\)/) &&
-    contains("app/sitemap.ts", /localizedPath\(path,\s*["']de["']\)/),
+    contains("app/sitemap.ts", /localizedPath\(path,\s*["']de["']\)/) &&
+    contains("app/sitemap.ts", /localizedPath\(path,\s*["']fr["']\)/),
 )
 
 check(
@@ -182,8 +203,25 @@ check(
 )
 
 check(
+  "French home reuses the English landing UI components",
+  contains("app/fr/page.tsx", /from "@\/components\/savlo\/hero"/) &&
+    contains("app/fr/page.tsx", /<Hero\s+locale="fr"\s*\/>/) &&
+    contains("app/fr/page.tsx", /<ProductOverview\s+locale="fr"\s*\/>/) &&
+    contains("app/fr/page.tsx", /<FeaturesShowcase\s+locale="fr"\s*\/>/) &&
+    contains("app/fr/page.tsx", /<BehavioralSection\s+locale="fr"\s*\/>/) &&
+    contains("app/fr/page.tsx", /<TrustSection\s+locale="fr"\s*\/>/) &&
+    contains("app/fr/page.tsx", /<FeaturedReads\s+locale="fr"\s*\/>/) &&
+    contains("app/fr/page.tsx", /<CtaSection\s+locale="fr"\s*\/>/),
+)
+
+check(
   "German home metadata includes alternates",
   contains("app/de/page.tsx", /metadataAlternates\(["']\/de["']\)/),
+)
+
+check(
+  "French home metadata includes alternates",
+  contains("app/fr/page.tsx", /metadataAlternates\(["']\/fr["']\)/),
 )
 
 check(
@@ -196,6 +234,12 @@ check(
   "German blog index reuses the English blog UI component",
   contains("app/de/blog/page.tsx", /from "@\/components\/savlo\/blog\/blog-index"/) &&
     contains("app/de/blog/page.tsx", /<BlogIndex\s+locale="de"\s+posts={germanPosts}\s*\/>/),
+)
+
+check(
+  "French blog index reuses the English blog UI component",
+  contains("app/fr/blog/page.tsx", /from "@\/components\/savlo\/blog\/blog-index"/) &&
+    contains("app/fr/blog/page.tsx", /<BlogIndex\s+locale="fr"\s+posts={frenchPosts}\s*\/>/),
 )
 
 check(
@@ -214,6 +258,15 @@ check(
     /from "@\/components\/savlo\/blog\/blog-article"/,
   ) &&
     contains("app/de/blog/[slug]/page.tsx", /<BlogArticle\s+post={post}\s+locale="de"/),
+)
+
+check(
+  "French blog articles reuse the English article UI component",
+  contains(
+    "app/fr/blog/[slug]/page.tsx",
+    /from "@\/components\/savlo\/blog\/blog-article"/,
+  ) &&
+    contains("app/fr/blog/[slug]/page.tsx", /<BlogArticle\s+post={post}\s+locale="fr"/),
 )
 
 if (failures.length > 0) {

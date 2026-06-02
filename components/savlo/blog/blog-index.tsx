@@ -138,6 +138,31 @@ const copy = {
       "Quelle: blog-journal-de",
     ],
   },
+  fr: {
+    title: "Blog",
+    subtitle: "finance personnelle en douceur",
+    description:
+      "Guides, méthodes et réflexions sur le budget, l'épargne et la relation émotionnelle à l'argent. Sans chiffres rouges qui crient et sans productivité fondée sur la culpabilité.",
+    updated: "Mis à jour",
+    empty: "Pas encore d'articles dans cette catégorie. Reviens bientôt.",
+    noteTitle: "Une note par mois, zéro bruit",
+    noteBody:
+      "Si tu veux recevoir les futures nouveautés de Savlo Journal, ce formulaire ouvre ton app de mail avec une note préremplie pour l'équipe. Pas de backend invisible de newsletter, pas d'abonnement silencieux.",
+    emailLabel: "E-mail",
+    placeholder: "toi@exemple.fr",
+    button: "Nous écrire",
+    footerText: "Si tu préfères lire maintenant, commence par",
+    footerLink: "Comment faire un budget",
+    footerHref: "/fr/blog/how-to-make-a-budget",
+    subject: "Mises à jour de Savlo Journal",
+    bodyLines: (email: string) => [
+      "Bonjour l'équipe Savlo,",
+      "",
+      "Je veux recevoir les futures mises à jour de Savlo Journal.",
+      `Mon e-mail: ${email}`,
+      "Source: blog-journal-fr",
+    ],
+  },
 } as const
 
 function buildCategories(blogPosts: BlogIndexPost[]) {

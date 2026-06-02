@@ -2,6 +2,7 @@ import Link from "next/link"
 import type { Locale } from "@/lib/i18n"
 import { blogCategoryLabel } from "@/lib/blog/category-labels"
 import { posts } from "@/lib/blog/posts"
+import { frenchPosts } from "@/lib/blog/french-posts"
 import { germanPosts } from "@/lib/blog/german-posts"
 import { portuguesePosts } from "@/lib/blog/portuguese-posts"
 import { spanishPosts } from "@/lib/blog/spanish-posts"
@@ -29,6 +30,10 @@ const portugueseFeaturedPosts = featuredSlugs
 const germanFeaturedPosts = featuredSlugs
   .map((slug) => germanPosts.find((post) => post.slug === slug))
   .filter((post): post is (typeof germanPosts)[number] => post !== undefined)
+
+const frenchFeaturedPosts = featuredSlugs
+  .map((slug) => frenchPosts.find((post) => post.slug === slug))
+  .filter((post): post is (typeof frenchPosts)[number] => post !== undefined)
 
 const copy = {
   en: {
@@ -67,6 +72,15 @@ const copy = {
     cta: "Leitfaden lesen",
     hrefPrefix: "/de/blog",
   },
+  fr: {
+    eyebrow: "Lire avec Savlo",
+    heading:
+      "Commence par les questions que les gens se posent avant de choisir une app de budget.",
+    description:
+      "Ces guides renforcent les thèmes centraux de Savlo: budget, suivi vocal des dépenses et épargne longue durée avec plus de calme.",
+    cta: "Lire le guide",
+    hrefPrefix: "/fr/blog",
+  },
 } as const
 
 export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
@@ -78,6 +92,8 @@ export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
         ? portugueseFeaturedPosts
         : locale === "de"
           ? germanFeaturedPosts
+          : locale === "fr"
+            ? frenchFeaturedPosts
           : englishFeaturedPosts
 
   return (

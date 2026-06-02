@@ -84,9 +84,11 @@ export default function RootLayout({
           {`(() => {
             try {
               const path = window.location.pathname;
-              const lang = path.startsWith('/pt')
-                ? 'pt-BR'
-                : path.startsWith('/es')
+              const lang = path.startsWith('/fr')
+                ? 'fr-FR'
+                : path.startsWith('/pt')
+                  ? 'pt-BR'
+                  : path.startsWith('/es')
                   ? 'es'
                   : path.startsWith('/de')
                     ? 'de-DE'

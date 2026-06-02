@@ -252,6 +252,67 @@ const COLUMNS: Record<Locale, Column[]> = {
       ],
     },
   ],
+  fr: [
+    {
+      heading: "Produit",
+      links: [
+        { label: "Check-in quotidien", href: "/fr#features" },
+        { label: "Journal vocal", href: "/fr/blog/voice-expense-tracking" },
+        { label: "Fonds dédiés", href: "/fr/blog/sinking-funds" },
+        { label: "Espaces et fonds", href: "/fr#product" },
+        { label: "Exporter vos données", href: "/fr#features" },
+      ],
+    },
+    {
+      heading: "Apprendre",
+      links: [
+        { label: "Blog", href: "/fr/blog" },
+        { label: "Comment faire un budget", href: "/fr/blog/how-to-make-a-budget" },
+        { label: "Règle 50/30/20", href: "/fr/blog/50-30-20-rule" },
+        { label: "Budget base zéro", href: "/fr/blog/zero-based-budgeting" },
+        {
+          label: "Alternatives à Mint",
+          href: "/fr/blog/best-mint-alternatives-2025",
+        },
+      ],
+    },
+    {
+      heading: "Mentalité",
+      links: [
+        {
+          label: "Finance comportementale",
+          href: "/fr/blog/why-traditional-budgets-fail",
+        },
+        { label: "Anxiété financière", href: "/fr/blog/financial-anxiety" },
+        { label: "Money dysmorphia", href: "/fr/blog/money-dysmorphia" },
+        { label: "Philosophie", href: "/fr#philosophy" },
+      ],
+    },
+    {
+      heading: "Entreprise",
+      links: [
+        { label: "Accueil", href: "/fr" },
+        { label: "Guides", href: "/fr#guides" },
+        { label: "Accès anticipé", href: "/fr#cta" },
+        {
+          label: "Contact",
+          href: buildMailto({ subject: "Contact Savlo" }),
+        },
+      ],
+    },
+    {
+      heading: "Légal",
+      links: [
+        { label: "Confidentialité", href: "/privacy" },
+        { label: "Conditions", href: "/terms" },
+        { label: "Confiance", href: "/fr#trust" },
+        {
+          label: "Signalement responsable",
+          href: buildMailto({ subject: "Signalement de sécurité Savlo" }),
+        },
+      ],
+    },
+  ],
 }
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
@@ -263,7 +324,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         ? "Finanças comportamentais para pessoas que querem uma prática de orçamento mais tranquila."
         : locale === "de"
           ? "Verhaltensfinanzen für Menschen, die sich eine ruhigere Budgetpraxis wünschen."
-          : "Behavioral finance wellness for people who want a calmer budgeting practice."
+          : locale === "fr"
+            ? "Des finances comportementales pour les personnes qui veulent une pratique du budget plus calme."
+            : "Behavioral finance wellness for people who want a calmer budgeting practice."
   const quote =
     locale === "es"
       ? "Lo que se siente, no se ve."
@@ -271,7 +334,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         ? "O que se sente, não se vê."
         : locale === "de"
           ? "Was du fühlst, ist nicht immer sichtbar."
-          : "What you feel is not always visible."
+          : locale === "fr"
+            ? "Ce que l'on ressent n'est pas toujours visible."
+            : "What you feel is not always visible."
   const directBlogLabel =
     locale === "es"
       ? "Leer el blog"
@@ -279,7 +344,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         ? "Ler o blog"
         : locale === "de"
           ? "Blog lesen"
-          : "Read the blog"
+          : locale === "fr"
+            ? "Lire le blog"
+            : "Read the blog"
   const privacyLabel =
     locale === "es"
       ? "Privacidad"
@@ -287,7 +354,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         ? "Privacidade"
         : locale === "de"
           ? "Datenschutz"
-          : "Privacy"
+          : locale === "fr"
+            ? "Confidentialité"
+            : "Privacy"
   const noAdsLabel =
     locale === "es"
       ? "Sin anuncios. Sin venta de datos."
@@ -295,7 +364,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         ? "Sem anúncios. Sem venda de dados."
         : locale === "de"
           ? "Keine Anzeigen. Kein Datenverkauf."
-          : "No ads. No data selling."
+          : locale === "fr"
+            ? "Sans publicité. Sans vente de données."
+            : "No ads. No data selling."
 
   return (
     <footer className="relative border-t border-border/70 bg-background">
@@ -353,7 +424,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                     ? "Pedir acesso antecipado"
                     : locale === "de"
                       ? "Frühzugang anfragen"
-                      : "Request early access"}
+                      : locale === "fr"
+                        ? "Demander un accès anticipé"
+                        : "Request early access"}
               </span>
               <span className="text-sm text-foreground">
                 {locale === "es"
@@ -362,7 +435,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                     ? "Lista de iOS"
                     : locale === "de"
                       ? "iOS-Warteliste"
-                      : "iOS waitlist"}
+                      : locale === "fr"
+                        ? "Liste d'attente iOS"
+                        : "iOS waitlist"}
               </span>
             </span>
           </a>
@@ -382,7 +457,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                     ? "Pedir acesso antecipado"
                     : locale === "de"
                       ? "Frühzugang anfragen"
-                      : "Request early access"}
+                      : locale === "fr"
+                        ? "Demander un accès anticipé"
+                        : "Request early access"}
               </span>
               <span className="text-sm text-foreground">
                 {locale === "es"
@@ -391,7 +468,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                     ? "Lista de Android"
                     : locale === "de"
                       ? "Android-Warteliste"
-                      : "Android waitlist"}
+                      : locale === "fr"
+                        ? "Liste d'attente Android"
+                        : "Android waitlist"}
               </span>
             </span>
           </a>
@@ -432,7 +511,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                   ? "Todos los derechos reservados."
                   : locale === "pt"
                     ? "Todos os direitos reservados."
-                    : "Alle Rechte vorbehalten."}
+                    : locale === "fr"
+                      ? "Tous droits réservés."
+                      : "Alle Rechte vorbehalten."}
             </p>
           </div>
         </div>
