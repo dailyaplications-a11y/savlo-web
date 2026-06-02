@@ -29,6 +29,13 @@ const nav: Record<Locale, { label: string; href: string }[]> = {
     { label: "Confiança", href: "#trust" },
     { label: "Blog", href: "/pt/blog" },
   ],
+  de: [
+    { label: "Start", href: "#hero" },
+    { label: "Produkt", href: "#product" },
+    { label: "Philosophie", href: "#philosophy" },
+    { label: "Vertrauen", href: "#trust" },
+    { label: "Blog", href: "/de/blog" },
+  ],
 }
 
 export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
@@ -91,7 +98,9 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
                 ? "Change language"
                 : locale === "es"
                   ? "Cambiar idioma"
-                  : "Mudar idioma"
+                  : locale === "pt"
+                    ? "Mudar idioma"
+                    : "Sprache aendern"
             }
           >
             {alternateLocale}

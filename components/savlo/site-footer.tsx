@@ -191,6 +191,67 @@ const COLUMNS: Record<Locale, Column[]> = {
       ],
     },
   ],
+  de: [
+    {
+      heading: "Produkt",
+      links: [
+        { label: "Täglicher Check-in", href: "/de#features" },
+        { label: "Sprachprotokoll", href: "/de/blog/voice-expense-tracking" },
+        { label: "Sinking Funds", href: "/de/blog/sinking-funds" },
+        { label: "Spaces und Funds", href: "/de#product" },
+        { label: "Daten exportieren", href: "/de#features" },
+      ],
+    },
+    {
+      heading: "Lernen",
+      links: [
+        { label: "Blog", href: "/de/blog" },
+        { label: "Wie man ein Budget erstellt", href: "/de/blog/how-to-make-a-budget" },
+        { label: "50/30/20-Regel", href: "/de/blog/50-30-20-rule" },
+        { label: "Nullbasiertes Budgetieren", href: "/de/blog/zero-based-budgeting" },
+        {
+          label: "Mint-Alternativen",
+          href: "/de/blog/best-mint-alternatives-2025",
+        },
+      ],
+    },
+    {
+      heading: "Denkweise",
+      links: [
+        {
+          label: "Verhaltensfinanzen",
+          href: "/de/blog/why-traditional-budgets-fail",
+        },
+        { label: "Finanzielle Angst", href: "/de/blog/financial-anxiety" },
+        { label: "Money Dysmorphia", href: "/de/blog/money-dysmorphia" },
+        { label: "Philosophie", href: "/de#philosophy" },
+      ],
+    },
+    {
+      heading: "Unternehmen",
+      links: [
+        { label: "Start", href: "/de" },
+        { label: "Leitfäden", href: "/de#guides" },
+        { label: "Frühzugang", href: "/de#cta" },
+        {
+          label: "Kontakt",
+          href: buildMailto({ subject: "Savlo Kontakt" }),
+        },
+      ],
+    },
+    {
+      heading: "Rechtliches",
+      links: [
+        { label: "Datenschutz", href: "/privacy" },
+        { label: "Nutzungsbedingungen", href: "/terms" },
+        { label: "Vertrauen", href: "/de#trust" },
+        {
+          label: "Verantwortungsvolle Offenlegung",
+          href: buildMailto({ subject: "Savlo Sicherheitsmeldung" }),
+        },
+      ],
+    },
+  ],
 }
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
@@ -200,23 +261,41 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
       ? "Finanzas conductuales para personas que quieren una práctica de presupuesto más tranquila."
       : locale === "pt"
         ? "Finanças comportamentais para pessoas que querem uma prática de orçamento mais tranquila."
-        : "Behavioral finance wellness for people who want a calmer budgeting practice."
+        : locale === "de"
+          ? "Verhaltensfinanzen für Menschen, die sich eine ruhigere Budgetpraxis wünschen."
+          : "Behavioral finance wellness for people who want a calmer budgeting practice."
   const quote =
     locale === "es"
       ? "Lo que se siente, no se ve."
       : locale === "pt"
         ? "O que se sente, não se vê."
-        : "What you feel is not always visible."
+        : locale === "de"
+          ? "Was du fühlst, ist nicht immer sichtbar."
+          : "What you feel is not always visible."
   const directBlogLabel =
-    locale === "es" ? "Leer el blog" : locale === "pt" ? "Ler o blog" : "Read the blog"
+    locale === "es"
+      ? "Leer el blog"
+      : locale === "pt"
+        ? "Ler o blog"
+        : locale === "de"
+          ? "Blog lesen"
+          : "Read the blog"
   const privacyLabel =
-    locale === "es" ? "Privacidad" : locale === "pt" ? "Privacidade" : "Privacy"
+    locale === "es"
+      ? "Privacidad"
+      : locale === "pt"
+        ? "Privacidade"
+        : locale === "de"
+          ? "Datenschutz"
+          : "Privacy"
   const noAdsLabel =
     locale === "es"
       ? "Sin anuncios. Sin venta de datos."
       : locale === "pt"
         ? "Sem anúncios. Sem venda de dados."
-        : "No ads. No data selling."
+        : locale === "de"
+          ? "Keine Anzeigen. Kein Datenverkauf."
+          : "No ads. No data selling."
 
   return (
     <footer className="relative border-t border-border/70 bg-background">
@@ -272,14 +351,18 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                   ? "Pedir acceso anticipado"
                   : locale === "pt"
                     ? "Pedir acesso antecipado"
-                    : "Request early access"}
+                    : locale === "de"
+                      ? "Frühzugang anfragen"
+                      : "Request early access"}
               </span>
               <span className="text-sm text-foreground">
                 {locale === "es"
                   ? "Lista de iOS"
                   : locale === "pt"
                     ? "Lista de iOS"
-                    : "iOS waitlist"}
+                    : locale === "de"
+                      ? "iOS-Warteliste"
+                      : "iOS waitlist"}
               </span>
             </span>
           </a>
@@ -297,14 +380,18 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                   ? "Pedir acceso anticipado"
                   : locale === "pt"
                     ? "Pedir acesso antecipado"
-                    : "Request early access"}
+                    : locale === "de"
+                      ? "Frühzugang anfragen"
+                      : "Request early access"}
               </span>
               <span className="text-sm text-foreground">
                 {locale === "es"
                   ? "Lista de Android"
                   : locale === "pt"
                     ? "Lista de Android"
-                    : "Android waitlist"}
+                    : locale === "de"
+                      ? "Android-Warteliste"
+                      : "Android waitlist"}
               </span>
             </span>
           </a>
@@ -343,7 +430,9 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
                 ? "All rights reserved."
                 : locale === "es"
                   ? "Todos los derechos reservados."
-                  : "Todos os direitos reservados."}
+                  : locale === "pt"
+                    ? "Todos os direitos reservados."
+                    : "Alle Rechte vorbehalten."}
             </p>
           </div>
         </div>

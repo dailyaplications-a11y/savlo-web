@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { absoluteUrl } from "@/lib/site"
 
 export const defaultLocale = "en"
-export const supportedLocales = ["en", "es", "pt"] as const
+export const supportedLocales = ["en", "es", "pt", "de"] as const
 
 export type Locale = (typeof supportedLocales)[number]
 
@@ -10,6 +10,7 @@ export const localeLabels: Record<Locale, string> = {
   en: "English",
   es: "Español",
   pt: "Português",
+  de: "Deutsch",
 }
 
 export function localizedPath(path: string, locale: Locale) {
@@ -23,9 +24,10 @@ export function localizedPath(path: string, locale: Locale) {
 }
 
 export function englishPathFromLocalized(path: string) {
-  if (path === "/es" || path === "/pt") return "/"
+  if (path === "/es" || path === "/pt" || path === "/de") return "/"
   if (path.startsWith("/es/")) return path.replace(/^\/es/, "") || "/"
   if (path.startsWith("/pt/")) return path.replace(/^\/pt/, "") || "/"
+  if (path.startsWith("/de/")) return path.replace(/^\/de/, "") || "/"
   return path
 }
 
@@ -34,12 +36,20 @@ export function switchLocalizedPath(path: string, locale: Locale) {
 }
 
 export function nextLocale(locale: Locale): Locale {
-  const order: Locale[] = ["en", "es", "pt"]
-  return order[(order.indexOf(locale) + 1) % order.length]
+  if (locale === "en") return "es"
+  if (locale === "es") return "pt"
+  if (locale === "pt") return "en"
+  return "en"
 }
 
 export function blogDateLocale(locale: Locale) {
-  return locale === "en" ? "en-US" : locale === "es" ? "es-ES" : "pt-BR"
+  return locale === "en"
+    ? "en-US"
+    : locale === "es"
+      ? "es-ES"
+      : locale === "pt"
+        ? "pt-BR"
+        : "de-DE"
 }
 
 export function languageAlternates(englishPath: string) {
@@ -49,6 +59,7 @@ export function languageAlternates(englishPath: string) {
     en: absoluteUrl(localizedPath(normalizedEnglishPath, "en")),
     es: absoluteUrl(localizedPath(normalizedEnglishPath, "es")),
     "pt-BR": absoluteUrl(localizedPath(normalizedEnglishPath, "pt")),
+    "de-DE": absoluteUrl(localizedPath(normalizedEnglishPath, "de")),
     "x-default": absoluteUrl(localizedPath(normalizedEnglishPath, "en")),
   }
 }

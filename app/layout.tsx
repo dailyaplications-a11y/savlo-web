@@ -88,7 +88,9 @@ export default function RootLayout({
                 ? 'pt-BR'
                 : path.startsWith('/es')
                   ? 'es'
-                  : 'en';
+                  : path.startsWith('/de')
+                    ? 'de-DE'
+                    : 'en';
               document.documentElement.lang = lang;
             } catch {}
           })();`}

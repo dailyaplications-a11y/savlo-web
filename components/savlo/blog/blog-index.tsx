@@ -113,6 +113,31 @@ const copy = {
       "Source: blog-journal-pt",
     ],
   },
+  de: {
+    title: "Blog",
+    subtitle: "ruhige persoenliche Finanzen",
+    description:
+      "Leitfaeden, Methoden und Reflexionen zu Budget, Sparen und der emotionalen Beziehung zu Geld. Keine blinkenden roten Zahlen und keine Schuld als Produktivitaet.",
+    updated: "Aktualisiert",
+    empty: "Noch keine Artikel in dieser Kategorie. Schau bald wieder vorbei.",
+    noteTitle: "Eine Notiz pro Monat, kein Laerm",
+    noteBody:
+      "Wenn du zukuenftige Savlo Journal-Updates erhalten moechtest, oeffnet dieses Formular deine Mail-App mit einer vorausgefuellten Nachricht an das Team. Kein unsichtbares Newsletter-Backend, kein stilles Abonnement.",
+    emailLabel: "E-Mail",
+    placeholder: "du@beispiel.de",
+    button: "Schreiben",
+    footerText: "Wenn du lieber jetzt liest, starte mit",
+    footerLink: "Wie man ein Budget erstellt",
+    footerHref: "/de/blog/how-to-make-a-budget",
+    subject: "Savlo Journal-Updates",
+    bodyLines: (email: string) => [
+      "Hallo Savlo-Team,",
+      "",
+      "Ich moechte kuenftige Savlo Journal-Updates erhalten.",
+      "Meine E-Mail: " + email,
+      "Quelle: blog-journal-de",
+    ],
+  },
 } as const
 
 function buildCategories(blogPosts: BlogIndexPost[]) {

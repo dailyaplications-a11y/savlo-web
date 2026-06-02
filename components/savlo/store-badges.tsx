@@ -28,6 +28,13 @@ const copy = {
     ariaIos: "Participe da lista do iOS",
     ariaAndroid: "Participe da lista do Android",
   },
+  de: {
+    top: "Zur",
+    ios: "iOS-Warteliste",
+    android: "Android-Warteliste",
+    ariaIos: "Zur iOS-Warteliste",
+    ariaAndroid: "Zur Android-Warteliste",
+  },
 } as const
 
 export function AppStoreBadge({

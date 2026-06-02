@@ -81,6 +81,33 @@ const copy = {
       { name: "Fundo de viagem", amount: 196, pct: 33 },
     ],
   },
+
+  de: {
+    eyebrow: "Deine Woche, sanft zusammengefasst",
+    heading: "Kein Dashboard.",
+    emphasis: "Eine Reflexion.",
+    description:
+      "Savlo ordnet deinen Geldfluss und gibt ihn dir ruhig zurueck: den Fortschritt deiner Sparfonds, deine getrennten finanziellen Spaces und deine sichere taegliche Ausgabemarge. Beobachtet, nie beurteilt.",
+    dailyMargin: "Taeglicher Spielraum",
+    today: "Heute",
+    safeToSpend: "Sicher auszugeben",
+    safeToSpendSuffix: " heute",
+    marginBody:
+      "Eine einzige, ehrliche Kennzahl. Keine blinkenden roten Alarme - nur genau der Betrag, den du heute ohne Schuldgefuehl ausgeben kannst.",
+    cashFlow: "Cashflow - letzte 8 Wochen",
+    income: "Einnahmen",
+    spending: "Ausgaben",
+    saved: "Gespart",
+    spacesFunds: "Spaces & Funds",
+    spacesTitle: "Dein Geld nach Kontext getrennt",
+    spacesBadge: "Einfache, intuitive Struktur",
+    categories: [
+      { name: "Persoenlicher Space", amount: 1240, pct: 55 },
+      { name: "Freelance-Space", amount: 612, pct: 28, warm: true },
+      { name: "Notfallfonds", amount: 450, pct: 75 },
+      { name: "Urlaubsfonds", amount: 196, pct: 33 },
+    ],
+  },
 } as const
 
 export function ProductOverview({ locale = "en" }: { locale?: Locale }) {

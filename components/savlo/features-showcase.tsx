@@ -95,6 +95,32 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
         "Exporte cada check-in, cada fundo e cada nota para CSV, JSON ou PDF em um gesto. Sem aprisionamento, sem padrões obscuros. O Savlo é uma companhia, não uma gaiola.",
     },
   ],
+  de: [
+    {
+      id: "import",
+      label: "Verlauf importieren",
+      kicker: "Von der Tabelle zur Geschichte",
+      title: "Lass dein Excel los. Behalte deine Vergangenheit.",
+      description:
+        "Lade Jahre von Transaktionen aus einer einzigen .xlsx- oder .csv-Datei. Savlo liest deine Spalten, gleicht Duplikate ab und macht aus einer stillen Tabelle deine Zeitleiste, damit deine Check-ins mit echter Historie beginnen.",
+    },
+    {
+      id: "voice",
+      label: "Taeglicher Check-in",
+      kicker: "Eine Minute am Abend",
+      title: "Sprich es aus. Savlo hoert den Tag.",
+      description:
+        "Tippe aufs Mikrofon und erzaehle Savlo, wie dein Tag war - in deinen Worten, in deiner Sprache. Savlo AI extrahiert Betrag, Haendler und Kategorie, speichert den Ausgabeposten und gibt dir einen kleinen Mikro-Plan fuer morgen zurueck.",
+    },
+    {
+      id: "export",
+      label: "Export",
+      kicker: "Deine Daten gehoeren dir",
+      title: "Jederzeit bereit zu gehen.",
+      description:
+        "Exportiere jeden Check-in, jeden Fonds und jede Notiz mit einem Handgriff als CSV, JSON oder PDF. Kein Lock-in, keine dunklen Muster. Savlo ist ein Begleiter, kein Kaefig.",
+    },
+  ],
 }
 
 const sectionCopy = {
@@ -130,6 +156,17 @@ const sectionCopy = {
     aiTitle: "Savlo AI ativo",
     aiBody: "Extrai entidades localmente e com contexto.",
     showLabel: "Mostrar",
+  },
+  de: {
+    eyebrow: "Was Savlo macht",
+    headingStart: "Drei Gesten.",
+    headingEmphasis: "Ein stilles Hauptbuch.",
+    description:
+      "Importiere, was schon existiert. Sage, was als Naechstes passiert. Nimm alles jederzeit mit.",
+    tablist: "Funktionsuebersicht",
+    aiTitle: "Savlo AI aktiv",
+    aiBody: "Extrahiert Entitaeten lokal und kontextbezogen.",
+    showLabel: "Zeigen",
   },
 } as const
 

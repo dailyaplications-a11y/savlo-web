@@ -6,7 +6,7 @@ import { PhonePair } from "./phone-pair"
 import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
 
 /**
- * Hero â€” mobile-product focused layout, Cal AI-inspired.
+ * Hero — mobile-product focused layout, Cal AI-inspired.
  *
  * Left column: brand pill, editorial headline, short product description,
  *   App Store + Google Play badges.
@@ -14,7 +14,7 @@ import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
  *   hand-drawn arrow illustrating the flow: voice check-in -> insight.
  *
  * The entrance animation ("un respiro") is an assembling dotted halo
- * behind the phones that settles into a slow 4.5s breath â€” a literal
+ * behind the phones that settles into a slow 4.5s breath — a literal
  * nod to Savlo's mechanic of a one-minute evening check-in.
  */
 
@@ -54,22 +54,39 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
               "O app de orçamento pessoal feito para trazer calma. Um check-in rápido por voz, divisão inteligente em Spaces e Sinking Funds, e uma sequência gentil para criar hábitos sem pressão nem culpa.",
             note: "Em breve no iOS e Android · experiência multilíngue nativa.",
           }
-        : {
-            pill: "Behavioral finance · Calm mode",
-            titleFirst: "Meet Savlo.",
-            titleSecond: (
-              <>
-                Understand your money{" "}
-                <em className="font-normal italic text-primary/90">
-                  in one minute
-                </em>{" "}
-                a day.
-              </>
-            ),
-            description:
-              "The personal budgeting app designed for peace of mind. A fast voice check-in, smart division into separate Spaces and Sinking Funds, and a gentle streak that helps you build financial habits without pressure or guilt.",
-            note: "Coming soon to iOS and Android · English & Spanish native support.",
-          }
+        : locale === "de"
+          ? {
+              pill: "Verhaltensfinanzen · Ruhemodus",
+              titleFirst: "Lerne Savlo kennen.",
+              titleSecond: (
+                <>
+                  Verstehe dein Geld{" "}
+                  <em className="font-normal italic text-primary/90">
+                    in einer Minute
+                  </em>{" "}
+                  am Tag.
+                </>
+              ),
+              description:
+                "Die persönliche Budget-App für mehr Ruhe im Umgang mit Geld. Ein schneller Sprach-Check-in, intelligente Trennung in Spaces und Sinking Funds, und ein sanfter Rhythmus für Gewohnheiten ohne Druck oder Schuld.",
+              note: "Bald für iOS und Android · native mehrsprachige Unterstützung.",
+            }
+          : {
+              pill: "Behavioral finance · Calm mode",
+              titleFirst: "Meet Savlo.",
+              titleSecond: (
+                <>
+                  Understand your money{" "}
+                  <em className="font-normal italic text-primary/90">
+                    in one minute
+                  </em>{" "}
+                  a day.
+                </>
+              ),
+              description:
+                "The personal budgeting app designed for peace of mind. A fast voice check-in, smart division into separate Spaces and Sinking Funds, and a gentle streak that helps you build financial habits without pressure or guilt.",
+              note: "Coming soon to iOS and Android · English & Spanish native support.",
+            }
 
   return (
     <section

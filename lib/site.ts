@@ -100,6 +100,21 @@ export function buildWaitlistMailto({
             sourceLabel: "Origem:",
             thanks: "Obrigado!",
           }
+        : locale === "de"
+          ? {
+              greeting: "Hallo Savlo-Team,",
+              platformLine:
+                platform === "Both"
+                  ? "Ich moechte fruehzeitigen Zugang zu Savlo."
+                  : `Ich moechte fruehzeitigen Zugang zu Savlo fuer ${platform}.`,
+              subject:
+                platform === "Both"
+                  ? "Fruehzugang zu Savlo"
+                  : `Fruehzugang zu Savlo - ${platform}`,
+              emailLabel: "Meine E-Mail:",
+              sourceLabel: "Quelle:",
+              thanks: "Danke!",
+            }
         : {
             greeting: "Hi Savlo team,",
             platformLine:

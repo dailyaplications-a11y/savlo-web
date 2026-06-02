@@ -61,6 +61,23 @@ const principlesByLocale: Record<Locale, Principle[]> = {
         "A comunicação do produto enfatiza exportações, Spaces separados e uma interface mais calma para revisar seu dinheiro sem te prender em padrões obscuros.",
     },
   ],
+  de: [
+    {
+      title: "Keine Anzeigen. Jetzt nicht. Nie.",
+      body:
+        "Savlo wird als von Mitgliedern getragenes Produkt praesentiert, nicht als werbefinanziertes. Die oeffentliche Seite tauscht deine Aufmerksamkeit nicht gegen Wachstums-Tricks ein.",
+    },
+    {
+      title: "Wir verkaufen deine Daten nicht.",
+      body:
+        "Die Landing Page ist dabei eindeutig: Savlo sollte nicht als Datenhaendler oder Aufmerksamkeits-Magnet fuer Finanzen beschrieben werden.",
+    },
+    {
+      title: "Du behaeltst die Kontrolle ueber deine Aufzeichnungen.",
+      body:
+        "Die Produktbotschaft betont Exporte, getrennte Spaces und eine ruhigere Oberflaeche, die dir hilft, dein Geld zu pruefen, ohne dich in dunkle Muster einzusperren.",
+    },
+  ],
 }
 
 const copy = {
@@ -95,6 +112,17 @@ const copy = {
       ["Modelo", "Sustentado por membros"],
       ["Dados", "Sem venda de dados"],
       ["Controle", "Pronto para exportar"],
+    ],
+  },
+  de: {
+    eyebrow: "Vertrauen von Anfang an",
+    heading: "Still gebaut, mit klaren Zusagen.",
+    description:
+      "Ruhiges Design zaehlt nur, wenn die Produktsprache ehrlich ist. Das sind die Zusagen, zu denen die oeffentliche Seite heute stehen kann.",
+    metrics: [
+      ["Geschaeftsmodell", "Von Mitgliedern getragen"],
+      ["Datenpolitik", "Kein Datenverkauf"],
+      ["Kontrolle", "Exportbereit"],
     ],
   },
 } as const

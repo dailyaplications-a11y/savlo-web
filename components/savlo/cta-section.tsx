@@ -49,6 +49,20 @@ const copy = {
     guideHref: "/pt/blog/how-to-make-a-budget",
     source: "landing-cta-pt",
   },
+  de: {
+    eyebrow: "Beginne sanft",
+    heading: "Fang an, dein Geld zu verstehen.",
+    description:
+      "Fordere den Fruehzugang per E-Mail an. Die aktuelle Website schickt deine Adresse nicht an ein verborgenes Backend; sie oeffnet deine Mail-App mit einer vorausgefuellten Nachricht an das Savlo-Team.",
+    emailLabel: "E-Mail",
+    placeholder: "du@beispiel.de",
+    button: "Team anschreiben",
+    direct: "Lieber ein direkter Link?",
+    explore: "Lieber erst stoebern?",
+    guide: "Starte mit dem Budget-Leitfaden",
+    guideHref: "/de/blog/how-to-make-a-budget",
+    source: "landing-cta-de",
+  },
 } as const
 
 export function CtaSection({ locale = "en" }: { locale?: Locale }) {

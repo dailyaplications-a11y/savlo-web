@@ -2,6 +2,7 @@ import Link from "next/link"
 import type { Locale } from "@/lib/i18n"
 import { blogCategoryLabel } from "@/lib/blog/category-labels"
 import { posts } from "@/lib/blog/posts"
+import { germanPosts } from "@/lib/blog/german-posts"
 import { portuguesePosts } from "@/lib/blog/portuguese-posts"
 import { spanishPosts } from "@/lib/blog/spanish-posts"
 
@@ -24,6 +25,10 @@ const portugueseFeaturedPosts = featuredSlugs
   .filter(
     (post): post is (typeof portuguesePosts)[number] => post !== undefined,
   )
+
+const germanFeaturedPosts = featuredSlugs
+  .map((slug) => germanPosts.find((post) => post.slug === slug))
+  .filter((post): post is (typeof germanPosts)[number] => post !== undefined)
 
 const copy = {
   en: {
@@ -53,6 +58,15 @@ const copy = {
     cta: "Ler o guia",
     hrefPrefix: "/pt/blog",
   },
+  de: {
+    eyebrow: "Mit Savlo lernen",
+    heading:
+      "Starte mit den Fragen, die vor der Wahl einer Budget-App auftauchen.",
+    description:
+      "Diese Leitfaeden staerken die Kernthemen von Savlo: Budgetierung, Sprach-Erfassung und ruhiges Sparen mit Blick auf die Zukunft.",
+    cta: "Leitfaden lesen",
+    hrefPrefix: "/de/blog",
+  },
 } as const
 
 export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
@@ -62,7 +76,9 @@ export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
       ? spanishFeaturedPosts
       : locale === "pt"
         ? portugueseFeaturedPosts
-        : englishFeaturedPosts
+        : locale === "de"
+          ? germanFeaturedPosts
+          : englishFeaturedPosts
 
   return (
     <section id="guides" className="relative py-24 sm:py-32">

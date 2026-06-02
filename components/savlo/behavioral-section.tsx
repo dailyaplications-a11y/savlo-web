@@ -99,6 +99,36 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       Motif: ReticleMotif,
     },
   ],
+  de: [
+    {
+      caption: "SANFTE ROUTINEN",
+      title: "Sanfte Gewohnheiten, null Schuldgefuehl.",
+      body:
+        "Ein unterstuetzender taeglicher Check-in, um dauerhafte Gewohnheiten aufzubauen, ohne Angst ausloesende rote Benachrichtigungen oder Strafen. Dein Geld verdient einen ruhigeren Ton.",
+      Motif: EmberMotif,
+    },
+    {
+      caption: "ZUERST BEOBACHTEN",
+      title: "Heute beobachten, morgen entscheiden.",
+      body:
+        "Savlo zeigt Muster so, wie es ein hochwertiges Notizbuch tun wuerde - leise, und nur wenn du es oeffnest.",
+      Motif: RippleMotif,
+    },
+    {
+      caption: "LANGSAM KUMULIEREN",
+      title: "Kleine Aenderungen, die sich summieren.",
+      body:
+        "Wir feiern Konstanz, nicht Willenskraft. Ein einziger bewusster Tausch ist mehr wert als ein Monat harter Einschraenkung.",
+      Motif: SpiralMotif,
+    },
+    {
+      caption: "DU ENTSCHEIDEST",
+      title: "Du behaeltst die Kontrolle.",
+      body:
+        "Deine Spaces, deine Sparziele und deine Definitionen. Savlo ist ein Spiegel, kein Coach.",
+      Motif: ReticleMotif,
+    },
+  ],
 }
 
 const copy = {
@@ -122,6 +152,13 @@ const copy = {
     emphasis: "Ajudamos você a entendê-los.",
     description:
       "A maioria dos apps de dinheiro trata cada real como uma prova que você está perdendo. O Savlo foi construído com base em finanças comportamentais: consciência, não pressão, é o que cria mudança duradoura. Então mostramos a forma dos seus hábitos e depois damos um passo atrás.",
+  },
+  de: {
+    eyebrow: "Unsere Philosophie",
+    firstLine: "Wir beurteilen deine Ausgaben nicht.",
+    emphasis: "Wir helfen dir, sie zu verstehen.",
+    description:
+      "Die meisten Geld-Apps behandeln jeden Euro wie einen Test, den du nicht bestehst. Savlo basiert auf Verhaltensfinanz-Forschung: Bewusstsein, nicht Druck, erzeugt dauerhafte Veraenderung. Darum zeigen wir dir die Form deiner Gewohnheiten - und treten dann einen Schritt zurueck.",
   },
 } as const
 
