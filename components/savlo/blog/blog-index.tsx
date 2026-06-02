@@ -83,7 +83,7 @@ const copy = {
     ],
   },
   es: {
-    title: "Blog en español",
+    title: "Blog",
     subtitle: "finanzas personales en calma",
     description:
       "Guías, métodos y reflexiones sobre presupuesto, ahorro y la relación emocional con el dinero. Sin números rojos que gritan y sin productividad basada en culpa.",

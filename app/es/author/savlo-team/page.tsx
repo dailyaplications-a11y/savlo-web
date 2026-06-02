@@ -8,14 +8,14 @@ import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
 export const metadata: Metadata = {
-  title: `${siteConfig.author.name} en español`,
+  title: siteConfig.author.name,
   description:
     "Notas de finanzas conductuales y presupuesto en calma del equipo que construye Savlo.",
   alternates: metadataAlternates("/es/author/savlo-team"),
   openGraph: {
-    title: `${siteConfig.author.name} | Savlo`,
+    title: siteConfig.author.name,
     description:
-      "Guías en español sobre presupuesto, ahorro, ansiedad financiera y sinking funds.",
+      "Guías sobre presupuesto, ahorro, ansiedad financiera y sinking funds.",
     type: "profile",
     locale: "es_ES",
     siteName: siteConfig.name,
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.author.name} | Savlo`,
+    title: siteConfig.author.name,
     description:
-      "Guías en español sobre presupuesto, ahorro y psicología del dinero.",
+      "Guías sobre presupuesto, ahorro y psicología del dinero.",
     images: [absoluteUrl(siteConfig.ogImage)],
   },
 }

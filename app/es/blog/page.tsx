@@ -10,7 +10,7 @@ const blogDescription =
   "Guías de presupuesto, ahorro y psicología del dinero para personas que quieren una relación más tranquila con sus finanzas."
 
 export const metadata: Metadata = {
-  title: "Blog en español",
+  title: "Blog",
   description: blogDescription,
   keywords: [
     "blog de finanzas personales",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: metadataAlternates("/es/blog"),
   openGraph: {
-    title: "Savlo Blog en español",
+    title: "Savlo Blog",
     description: blogDescription,
     type: "website",
     locale: "es_ES",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo Blog en español",
+    title: "Savlo Blog",
     description: blogDescription,
     images: [absoluteUrl(siteConfig.ogImage)],
   },
@@ -51,7 +51,7 @@ export default function SpanishBlogPage() {
     "@type": "Blog",
     "@id": absoluteUrl("/es/blog#blog"),
     url: absoluteUrl("/es/blog"),
-    name: "Savlo Blog en español",
+    name: "Savlo Blog",
     description: blogDescription,
     inLanguage: "es",
     publisher: {

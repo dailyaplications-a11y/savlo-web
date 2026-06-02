@@ -17,7 +17,7 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
   const copy =
     locale === "es"
       ? {
-          voice: "Voz en español e inglés",
+          voice: "Voz bilingüe",
           calm: "Modo calma",
           fund: "Fondo vacaciones",
           today: "+$12 hoy",

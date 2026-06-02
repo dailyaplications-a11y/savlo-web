@@ -106,7 +106,7 @@ export default async function SpanishBlogArticlePage({ params }: PageProps) {
       },
       isPartOf: {
         "@type": "Blog",
-        name: "Savlo Blog en español",
+        name: "Savlo Blog",
         url: absoluteUrl("/es/blog"),
       },
       breadcrumb: {

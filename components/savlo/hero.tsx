@@ -101,7 +101,7 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
               className="mt-5 text-[12px] text-muted-foreground/80"
             >
               {isSpanish
-                ? "Próximamente en iOS y Android · soporte nativo en español e inglés."
+                ? "Próximamente en iOS y Android · soporte bilingüe nativo."
                 : "Coming soon to iOS and Android · English & Spanish native support."}
             </p>
           </div>

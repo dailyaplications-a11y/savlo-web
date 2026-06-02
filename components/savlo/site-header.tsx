@@ -95,11 +95,7 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
             href={languageHref()}
             hrefLang={alternateLocale}
             className="hidden rounded-full border border-border px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground sm:inline-flex"
-            aria-label={
-              alternateLocale === "es"
-                ? "Ver Savlo en español"
-                : "View Savlo in English"
-            }
+            aria-label={locale === "es" ? "Cambiar idioma" : "Change language"}
           >
             {alternateLocale}
           </Link>
