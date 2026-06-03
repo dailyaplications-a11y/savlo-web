@@ -40,7 +40,7 @@ export function switchLocalizedPath(path: string, locale: Locale) {
 export function nextLocale(locale: Locale): Locale {
   if (locale === "en") return "es"
   if (locale === "es") return "pt"
-  if (locale === "pt") return "en"
+  if (locale === "pt") return "de"
   if (locale === "de") return "fr"
   if (locale === "fr") return "en"
   return "en"

@@ -1,9 +1,15 @@
 "use client"
 
 import Link from "next/link"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { usePathname } from "next/navigation"
-import { nextLocale, switchLocalizedPath, type Locale } from "@/lib/i18n"
+import {
+  localeLabels,
+  nextLocale,
+  supportedLocales,
+  switchLocalizedPath,
+  type Locale,
+} from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
 
@@ -47,7 +53,9 @@ const nav: Record<Locale, { label: string; href: string }[]> = {
 
 export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
   const [scrolled, setScrolled] = useState(false)
+  const [languageMenuOpen, setLanguageMenuOpen] = useState(false)
   const pathname = usePathname()
+  const languageMenuRef = useRef<HTMLDivElement>(null)
   const homePath = locale === "en" ? "/" : `/${locale}`
   const isHome = pathname === homePath
   const alternateLocale = nextLocale(locale)
@@ -59,13 +67,41 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
 
+  useEffect(() => {
+    setLanguageMenuOpen(false)
+  }, [pathname])
+
+  useEffect(() => {
+    if (!languageMenuOpen) return
+
+    const onPointerDown = (event: PointerEvent) => {
+      if (!languageMenuRef.current?.contains(event.target as Node)) {
+        setLanguageMenuOpen(false)
+      }
+    }
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setLanguageMenuOpen(false)
+      }
+    }
+
+    document.addEventListener("pointerdown", onPointerDown)
+    document.addEventListener("keydown", onKeyDown)
+
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown)
+      document.removeEventListener("keydown", onKeyDown)
+    }
+  }, [languageMenuOpen])
+
   function resolveHref(href: string) {
     if (href.startsWith("#") && !isHome) return `${homePath}${href}`
     return href
   }
 
-  function languageHref() {
-    return switchLocalizedPath(pathname, alternateLocale)
+  function languageHref(targetLocale: Locale) {
+    return switchLocalizedPath(pathname, targetLocale)
   }
 
   return (
@@ -96,24 +132,49 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link
-            href={languageHref()}
-            hrefLang={alternateLocale}
-            className="hidden rounded-full border border-border px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground sm:inline-flex"
-            aria-label={
-              locale === "en"
-                ? "Change language"
-                : locale === "es"
-                  ? "Cambiar idioma"
-                  : locale === "pt"
-                    ? "Mudar idioma"
-                    : locale === "de"
-                      ? "Sprache aendern"
-                      : "Changer de langue"
-            }
-          >
-            {alternateLocale}
-          </Link>
+          <div className="relative hidden sm:inline-flex" ref={languageMenuRef}>
+            <button
+              type="button"
+              className="rounded-full border border-border px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+              aria-haspopup="menu"
+              aria-expanded={languageMenuOpen}
+              aria-label={
+                locale === "en"
+                  ? "Change language"
+                  : locale === "es"
+                    ? "Cambiar idioma"
+                    : locale === "pt"
+                      ? "Mudar idioma"
+                      : locale === "de"
+                        ? "Sprache aendern"
+                        : "Changer de langue"
+              }
+              onClick={() => setLanguageMenuOpen((open) => !open)}
+            >
+              {alternateLocale}
+            </button>
+            {languageMenuOpen ? (
+              <div
+                role="menu"
+                className="absolute right-0 top-full z-50 mt-2 w-48 overflow-hidden rounded-2xl border border-border bg-background/95 p-1 shadow-xl backdrop-blur"
+              >
+                {supportedLocales
+                  .filter((candidate) => candidate !== locale)
+                  .map((candidate) => (
+                    <Link
+                      key={candidate}
+                      href={languageHref(candidate)}
+                      hrefLang={candidate}
+                      role="menuitem"
+                      className="block rounded-xl px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-primary/5 hover:text-foreground"
+                      onClick={() => setLanguageMenuOpen(false)}
+                    >
+                      {localeLabels[candidate]}
+                    </Link>
+                  ))}
+              </div>
+            ) : null}
+          </div>
           <AppStoreBadge size="sm" className="hidden sm:inline-flex" locale={locale} />
           <GooglePlayBadge size="sm" locale={locale} />
         </div>
