@@ -22,7 +22,7 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
   const copy =
     locale === "es"
       ? {
-          pill: "Finanzas conductuales Â· modo calma",
+          pill: "Finanzas conductuales · modo calma",
           titleFirst: "Conoce Savlo.",
           titleSecond: (
             <>
@@ -30,17 +30,17 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
               <em className="font-normal italic text-primary/90">
                 en un minuto
               </em>{" "}
-              al dÃ­a.
+              al día.
             </>
           ),
           description:
-            "La app de presupuesto personal diseÃ±ada para mirar tu dinero con calma. Un check-in rÃ¡pido por voz, separaciÃ³n inteligente en Spaces y Sinking Funds, y una racha suave para construir hÃ¡bitos sin presiÃ³n ni culpa.",
-          note: "PrÃ³ximamente en iOS y Android Â· soporte multilingÃ¼e nativo.",
+            "La app de presupuesto personal diseñada para mirar tu dinero con calma. Un check-in rápido por voz, separación inteligente en Spaces y Sinking Funds, y una racha suave para construir hábitos sin presión ni culpa.",
+          note: "Próximamente en iOS y Android · soporte multilingüe nativo.",
         }
       : locale === "pt"
         ? {
-            pill: "FinanÃ§as comportamentais Â· modo calmo",
-            titleFirst: "ConheÃ§a o Savlo.",
+            pill: "Finanças comportamentais · modo calmo",
+            titleFirst: "Conheça o Savlo.",
             titleSecond: (
               <>
                 Entenda seu dinheiro{" "}
@@ -51,12 +51,12 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
               </>
             ),
             description:
-              "O app de orÃ§amento pessoal feito para trazer calma. Um check-in rÃ¡pido por voz, divisÃ£o inteligente em Spaces e Sinking Funds, e uma sequÃªncia gentil para criar hÃ¡bitos sem pressÃ£o nem culpa.",
-            note: "Em breve no iOS e Android Â· experiÃªncia multilÃ­ngue nativa.",
+              "O app de orçamento pessoal feito para trazer calma. Um check-in rápido por voz, divisão inteligente em Spaces e Sinking Funds, e uma sequência gentil para criar hábitos sem pressão nem culpa.",
+            note: "Em breve no iOS e Android · experiência multilíngue nativa.",
           }
         : locale === "de"
           ? {
-              pill: "Verhaltensfinanzen Â· Ruhemodus",
+              pill: "Verhaltensfinanzen · Ruhemodus",
               titleFirst: "Lerne Savlo kennen.",
               titleSecond: (
                 <>
@@ -68,8 +68,8 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
                 </>
               ),
               description:
-                "Die persÃ¶nliche Budget-App fÃ¼r mehr Ruhe im Umgang mit Geld. Ein schneller Sprach-Check-in, intelligente Trennung in Spaces und Sinking Funds, und ein sanfter Rhythmus fÃ¼r Gewohnheiten ohne Druck oder Schuld.",
-              note: "Bald fÃ¼r iOS und Android Â· native mehrsprachige UnterstÃ¼tzung.",
+                "Die persönliche Budget-App für mehr Ruhe im Umgang mit Geld. Ein schneller Sprach-Check-in, intelligente Trennung in Spaces und Sinking Funds, und ein sanfter Rhythmus für Gewohnheiten ohne Druck oder Schuld.",
+              note: "Bald für iOS und Android · native mehrsprachige Unterstützung.",
             }
           : locale === "fr"
             ? {
@@ -90,7 +90,7 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
                   "Bient\u00f4t sur iOS et Android \u00b7 prise en charge multilingue native.",
               }
             : {
-                pill: "Behavioral finance Â· Calm mode",
+                pill: "Behavioral finance · Calm mode",
                 titleFirst: "Meet Savlo.",
                 titleSecond: (
                   <>
@@ -104,7 +104,7 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
                 description:
                   "The personal budgeting app designed for peace of mind. A fast voice check-in, smart division into separate Spaces and Sinking Funds, and a gentle streak that helps you build financial habits without pressure or guilt.",
                 note:
-                  "Coming soon to iOS and Android Â· English & Spanish native support.",
+                  "Coming soon to iOS and Android · English & Spanish native support.",
               }
 
   return (
