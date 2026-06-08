@@ -7,6 +7,7 @@ import {
   getRelatedPosts,
   type BlogPost,
 } from "@/lib/blog/posts"
+import { RichArticleContent, type RichArticle } from "@/lib/blog/rich-article"
 import { getGermanPostBySlug } from "@/lib/blog/german-posts"
 import { getFrenchPostBySlug } from "@/lib/blog/french-posts"
 import { getPortuguesePostBySlug } from "@/lib/blog/portuguese-posts"
@@ -23,6 +24,7 @@ type ArticlePost = Omit<BlogPost, "content" | "stats"> & {
     heading: string
     body: string[]
   }[]
+  rich?: RichArticle
 }
 
 const labels = {
@@ -260,7 +262,13 @@ export function BlogArticle({
       </div>
 
       <div className="mt-10">
-        {Content ? <Content /> : <GeneratedArticleContent post={post} />}
+        {Content ? (
+          <Content />
+        ) : post.rich ? (
+          <RichArticleContent article={post.rich} />
+        ) : (
+          <GeneratedArticleContent post={post} />
+        )}
       </div>
 
       {recommended.length > 0 && (
@@ -390,11 +398,37 @@ function localizePosts(posts: BlogPost[], locale: Locale): ArticlePost[] {
 function getArticleStats(post: ArticlePost): BlogPost["stats"] {
   if (post.stats) return post.stats
 
-  const paragraphs = [
+  let text = ""
+  let paragraphs = 0
+
+  if (post.rich) {
+    for (const block of post.rich.blocks) {
+      if (block.kind === "p" || block.kind === "callout") {
+        text += " " + block.text
+        paragraphs += 1
+      } else if (block.kind === "ul" || block.kind === "ol") {
+        for (const item of block.items) {
+          text += " " + item
+          paragraphs += 1
+        }
+      } else if (block.kind === "faq") {
+        for (const item of block.items) {
+          text += " " + item.q + " " + item.a
+          paragraphs += 1
+        }
+      }
+    }
+  }
+
+  const simple = [
     ...(post.summary ?? []),
     ...(post.sections ?? []).flatMap((section) => section.body),
   ]
-  const text = paragraphs.join(" ")
+  for (const p of simple) {
+    text += " " + p
+    paragraphs += 1
+  }
+
   const words = text.match(/\S+/g)?.length ?? 0
   const sentences =
     text.split(/[.!?]+/).filter((sentence) => sentence.trim().length > 0)
@@ -404,7 +438,7 @@ function getArticleStats(post: ArticlePost): BlogPost["stats"] {
     words,
     characters: text.length,
     sentences,
-    paragraphs: paragraphs.length,
+    paragraphs,
   }
 }
 

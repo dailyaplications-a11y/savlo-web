@@ -78,7 +78,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         path: `/blog/${post.slug}`,
         lastModified: new Date(`${post.dateModified}T00:00:00Z`),
         changeFrequency: "monthly",
-        priority: post.slug === "how-to-make-a-budget" ? 0.9 : 0.8,
+        priority:
+          post.slug === "how-to-make-a-budget" ||
+          post.slug === "how-to-budget-money" ||
+          post.slug === "budgeting-on-a-low-income"
+            ? 0.9
+            : 0.8,
       }),
     ),
     ...localizedEntries({
