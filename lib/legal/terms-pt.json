@@ -1,0 +1,599 @@
+{
+  "title": "Termos de servicio",
+  "description": "Leia os termos de serviço da Savlo e as informações legais do aplicativo de finanças pessoais.",
+  "lastUpdated": "Última atualização 24 de maio de 2026",
+  "tocItems": [
+    { "id": "1-nuestros-servicios", "label": "1. NOSSOS SERVIÇOS" },
+    { "id": "2-derechos-de-propiedad-intelectual", "label": "2. DIREITOS DE PROPRIEDADE INTELECTUAL" },
+    { "id": "3-representaciones-de-los-usuarios", "label": "3. DECLARAÇÕES DOS USUÁRIOS" },
+    { "id": "4-registro-de-usuario", "label": "4. CADASTRO DO USUÁRIO" },
+    { "id": "5-compras-y-pagos", "label": "5. COMPRAS E PAGAMENTOS" },
+    { "id": "6-suscripciones", "label": "6. ASSINATURAS" },
+    { "id": "7-software", "label": "7. SOFTWARE" },
+    { "id": "8-actividades-prohibidas", "label": "8. ATIVIDADES PROIBIDAS" },
+    { "id": "9-contribuciones-generadas-por-el-usuario", "label": "9. CONTRIBUIÇÕES GERADAS PELO USUÁRIO" },
+    { "id": "10-licencia-de-contribucion", "label": "10. LICENÇA DE CONTRIBUIÇÃO" },
+    { "id": "11-licencia-de-aplicacion-movil", "label": "11. LICENÇA DO APLICATIVO MÓVEL" },
+    { "id": "12-sitios-web-y-contenido-de-terceros", "label": "12. SITES E CONTEÚDO DE TERCEIROS" },
+    { "id": "13-gestion-de-servicios", "label": "13. GESTÃO DOS SERVIÇOS" },
+    { "id": "14-politica-de-privacidad", "label": "14. POLÍTICA DE PRIVACIDADE" },
+    { "id": "15-plazo-y-terminacion", "label": "15. PRAZO E EXTINÇÃO" },
+    { "id": "16-modificaciones-e-interrupciones", "label": "16. MODIFICAÇÕES E INTERRUPÇÕES" },
+    { "id": "17-ley-aplicable", "label": "17. LEI APLICÁVEL" },
+    { "id": "18-resolucion-de-disputas", "label": "18. RESOLUÇÃO DE DISPUTAS" },
+    { "id": "19-correcciones", "label": "19. CORREÇÕES" },
+    { "id": "20-descargo-de-responsabilidad", "label": "20. ISENÇÃO DE RESPONSABILIDADE" },
+    { "id": "21-limitaciones-de-responsabilidad", "label": "21. LIMITAÇÕES DE RESPONSABILIDADE" },
+    { "id": "22-indemnizacion", "label": "22. INDENIZAÇÃO" },
+    { "id": "23-datos-del-usuario", "label": "23. DADOS DO USUÁRIO" },
+    { "id": "24-comunicaciones-transacciones-y-firmas-electronicas", "label": "24. COMUNICAÇÕES, TRANSAÇÕES E ASSINATURAS ELETRÔNICAS" },
+    { "id": "25-usuarios-y-residentes-de-california", "label": "25. USUÁRIOS E RESIDENTES DA CALIFÓRNIA" },
+    { "id": "26-varios", "label": "26. DIVERSOS" },
+    { "id": "27-decisiones-financieras-del-usuario", "label": "27. DECISÕES FINANCEIRAS DO USUÁRIO" },
+    { "id": "28-contactenos", "label": "28. CONTE-NOS" }
+  ],
+  "sections": [
+    {
+      "id": "aceptacion-de-nuestros-terminos-legales",
+      "heading": "ACEITAÇÃO DOS NOSSOS TERMOS LEGAIS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Somos a Savlo (\"Empresa\", \"nós\", \"nos\", \"nosso\"), uma empresa registrada na Argentina, em Bahía Blanca, Bahía Blanca, Buenos Aires 8000."
+        },
+        {
+          "type": "p",
+          "text": "Operamos o aplicativo móvel Savlo (o \"Aplicativo\"), bem como qualquer outro produto ou serviço relacionado que faça referência ou vinculação a estes termos legais (os \"Termos Legais\") (coletivamente, os \"Serviços\")."
+        },
+        {
+          "type": "p",
+          "text": "A Savlo é um aplicativo de finanças pessoais que ajuda os usuários a rastrear e gerenciar suas despesas e receitas, estabelecer metas de economia e obter informações valiosas, baseadas em inteligência artificial, sobre seus hábitos de gastos."
+        },
+        {
+          "type": "p",
+          "text": "Você pode entrar em contato conosco por e-mail em support@savloapp.com ou por correspondência em Bahía Blanca, Bahía Blanca, Buenos Aires 8000, Argentina."
+        },
+        {
+          "type": "p",
+          "text": "Estes Termos Legais constituem um acordo juridicamente vinculante celebrado entre você, seja em nome pessoal ou em nome de uma entidade (\"você\"), e a Savlo, em relação ao seu acesso e uso dos Serviços. Ao acessá-los, você aceita que leu, compreendeu e se compromete a cumprir todos estes Termos Legais. SE NÃO CONCORDA COM TODOS ESTES TERMOS LEGAIS, TEM PROIBIDO EXPRESSAMENTE UTILIZAR OS SERVIÇOS E DEVE INTERROMPER SEU USO IMEDIATAMENTE."
+        },
+        {
+          "type": "p",
+          "text": "Os termos e condições ou documentos complementares que possam ser publicados nos Serviços de tempos em tempos são expressamente incorporados ao presente documento por referência. Reservamo-nos o direito, a nosso critério exclusivo, de realizar alterações ou modificações nestes Termos Legais. Notificaremos você sobre qualquer alteração atualizando a data de \"Última atualização\". Ao continuar usando os Serviços após a data de publicação destes Termos Legais revisados, você renuncia a qualquer direito de receber notificação específica de cada alteração. É sua responsabilidade revisar periodicamente estes Termos Legais para se manter informado sobre as atualizações."
+        },
+        {
+          "type": "p",
+          "text": "Os Serviços são destinados a usuários maiores de 18 anos. Pessoas menores de 18 anos não estão autorizadas a utilizar nem a se cadastrar nos Serviços."
+        },
+        {
+          "type": "p",
+          "text": "Recomendamos que você imprima uma cópia destes Termos Legais para seus arquivos."
+        }
+      ]
+    },
+    {
+      "id": "1-nuestros-servicios",
+      "heading": "1. NOSSOS SERVIÇOS",
+      "content": [
+        {
+          "type": "p",
+          "text": "As informações fornecidas ao utilizar os Serviços não se destinam a ser distribuídas nem utilizadas por nenhuma pessoa ou entidade em qualquer jurisdição ou país onde dicha distribuição ou uso seja contrário à lei ou à regulamentação vigente, ou que nos submeta a algum requisito de registro em dicha jurisdição ou país. Portanto, quem decidir acessar os Serviços de outros locais o faz por iniciativa própria e é o único responsável pelo cumprimento das leis locais, se estas forem aplicáveis."
+        },
+        {
+          "type": "p",
+          "text": "Os Serviços não são projetados para cumprir as regulamentações específicas do setor (Lei de Portabilidade e Responsabilidade do Seguro Médico [HIPAA], Lei Federal de Gestão da Segurança da Informação [FISMA], etc.), portanto, se suas interações estiverem sujeitas a tais leis, você não poderá utilizar os Serviços. Tampouco poderá utilizar os Serviços de forma que viole a Lei Gramm-Leach-Bliley (GLBA)."
+        }
+      ]
+    },
+    {
+      "id": "2-derechos-de-propiedad-intelectual",
+      "heading": "2. DIREITOS DE PROPRIEDADE INTELECTUAL",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Nossa propriedade intelectual"
+        },
+        {
+          "type": "p",
+          "text": "Somos os proprietários ou licenciados de todos os direitos de propriedade intelectual em nossos Serviços, incluindo todo o código-fonte, bancos de dados, funcionalidades, software, designs de sites, áudio, vídeo, texto, fotografias e gráficos nos Serviços (coletivamente, o \"Conteúdo\"), assim como as marcas comerciais, marcas de serviço e logotipos contidos nele (as \"Marcas\")."
+        },
+        {
+          "type": "p",
+          "text": "Nosso conteúdo e nossas marcas são protegidos pelas leis de direitos autorais e marcas registradas (e diversas outras leis de propriedade intelectual e de concorrência desleal) e tratados nos Estados Unidos e ao redor do mundo."
+        },
+        {
+          "type": "p",
+          "text": "O Conteúdo e as Marcas são fornecidos em ou através dos Serviços \"TAL COMO ESTÃO\" para seu uso pessoal e não comercial apenas."
+        },
+        {
+          "type": "h3",
+          "text": "Seu uso dos nossos Serviços"
+        },
+        {
+          "type": "p",
+          "text": "Sujeito ao seu cumprimento destes Termos Legais, incluindo a seção \"ATIVIDADES PROIBIDAS\" abaixo, concedemos a você uma licença não exclusiva, intransferível e revogável para:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "acessar os Serviços; e",
+            "baixar ou imprimir uma cópia de qualquer parte do Conteúdo ao qual você tenha acessado corretamente,"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "exclusivamente para seu uso pessoal e não comercial."
+        },
+        {
+          "type": "p",
+          "text": "Salvo o disposto nesta seção ou em qualquer outra parte dos nossos Termos Legais, nenhuma parte dos Serviços nem qualquer Conteúdo ou Marca poderá ser copiada, reproduzida, agregada, republicada, carregada, publicada, exibida publicamente, codificada, traduzida, transmitida, distribuída, vendida, licenciada ou explorada de qualquer outra forma para qualquer finalidade comercial, sem nossa autorização prévia expressa por escrito."
+        },
+        {
+          "type": "p",
+          "text": "Se você deseja fazer uso dos Serviços, do Conteúdo ou das Marcas de maneira diversa da estabelecida nesta seção ou em qualquer outra parte dos nossos Termos Legais, dirija sua solicitação a: support@savloapp.com. Se em algum momento lhe concedermos permissão para publicar, reproduzir ou exibir publicamente qualquer parte dos nossos Serviços ou Conteúdo, você deverá nos identificar como os proprietários ou licenciados dos Serviços, do Conteúdo ou das Marcas e garantir que qualquer aviso de direitos autorais ou de propriedade apareça ou seja visível ao publicar, reproduzir ou exibir nosso Conteúdo."
+        },
+        {
+          "type": "p",
+          "text": "Reservamos todos os direitos não concedidos expressamente a você em relação aos Serviços, ao Conteúdo e às Marcas."
+        },
+        {
+          "type": "p",
+          "text": "Qualquer infração a estes Direitos de Propriedade Intelectual constituirá uma infração grave dos nossos Termos Legais e seu direito de utilizar nossos Serviços será finalizado imediatamente."
+        },
+        {
+          "type": "h3",
+          "text": "Suas contribuições"
+        },
+        {
+          "type": "p",
+          "text": "Por favor, revise esta seção e a seção \"ATIVIDADES PROIBIDAS\" atentamente antes de utilizar nossos Serviços para compreender (a) os direitos que nos concede e (b) as obrigações que tem quando publica ou carrega qualquer conteúdo através dos Serviços."
+        },
+        {
+          "type": "p",
+          "text": "Contribuições: Ao nos enviar diretamente qualquer pergunta, comentário, sugestão, ideia, opinião ou outra informação sobre os Serviços (\"Contribuições\"), ao enviar este material, você aceita nos ceder todos os direitos de propriedade intelectual sobre o mesmo. Da mesma forma, aceita que seremos os proprietários deste material e teremos direito ao seu uso e difusão sem restrições para qualquer finalidade lícita, comercial ou de outra natureza, sem necessidade de reconhecimento ou compensação alguma."
+        },
+        {
+          "type": "p",
+          "text": "Você é responsável pelo que publica ou envia: Ao nos enviar Contribuições através de qualquer parte dos Serviços, você:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Confirma que leu e aceita nossos termos e condições (\"ATIVIDADES PROIBIDAS\") e não publicará, enviará, divulgará, carregará nem transmitirá através dos Serviços nenhuma Contribuição que seja ilegal, assediadora, odiosa, prejudicial, difamatória, obscena, intimidadora, abusiva, discriminatória, ameaçadora para qualquer pessoa ou grupo, sexualmente explícita, falsa, imprecisa, enganosa ou confusa;",
+            "na medida permitida pela lei aplicável, renuncia a todos e a cada um dos direitos morais sobre qualquer Contribuição desse tipo;",
+            "garante que quaisquer contribuições desse tipo são originais suas ou que você possui os direitos necessários e licenças para apresentar dichas contribuições e que você possui plena autoridade para nos conceder os direitos mencionados anteriormente em relação às suas Contribuições; e",
+            "garante e declara que suas Contribuições não constituem informação confidencial."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Você é o único responsável por suas contribuições, e você aceita expressamente nos indenizar por todas e cada uma das perdas que possamos sofrer devido ao seu descumprimento de (a) esta seção, (b) os direitos de propriedade intelectual de qualquer terceiro ou (c) a lei aplicável."
+        }
+      ]
+    },
+    {
+      "id": "3-representaciones-de-los-usuarios",
+      "heading": "3. DECLARAÇÕES DOS USUÁRIOS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Ao utilizar os Serviços, você declara e garante que: (1) todas as informações de registro que enviar serão verdadeiras, precisas, atuais e completas; (2) manterá a precisão de dichas informações e atualizará pontualmente dichas informações de registro conforme necessário; (3) você possui a capacidade legal e aceita cumprir estes Termos Legais; (4) você não é menor de idade na jurisdição em que reside; (5) não acessará os Serviços por meio automatizados ou não humanos, seja por meio de um bot, script ou de outro modo; (6) não utilizará os Serviços para qualquer finalidade ilegal ou não autorizada; e (7) seu uso dos Serviços não violará nenhuma lei ou regulamentação aplicável."
+        },
+        {
+          "type": "p",
+          "text": "Se você fornecer informações falsas, imprecisas, desatualizadas ou incompletas, temos o direito de suspender ou cancelar sua conta e de rejeitar qualquer uso presente ou futuro dos Serviços (ou qualquer parte dos mesmos)."
+        }
+      ]
+    },
+    {
+      "id": "4-registro-de-usuario",
+      "heading": "4. CADASTRO DO USUÁRIO",
+      "content": [
+        {
+          "type": "p",
+          "text": "Você pode precisar se cadastrar para usar os Serviços. Você se compromete a manter a confidencialidade de sua senha e será responsável por todo uso de sua conta e senha. Reservamo-nos o direito de eliminar, recuperar ou alterar o nome de usuário que você selecionar se, a nosso critério exclusivo, considerarmos que dicho nome de usuário é inadequado, obsceno ou de alguma outra forma objetável."
+        }
+      ]
+    },
+    {
+      "id": "5-compras-y-pagos",
+      "heading": "5. COMPRAS E PAGAMENTOS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Aceitamos as seguintes formas de pagamento:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Google Play Store / Apple App Store"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Você aceita fornecer informações de compra e de conta atuais, completas e precisas para todas as compras realizadas através dos Serviços. Da mesma forma, aceita atualizar pontualmente as informações da conta e do pagamento, incluindo o endereço de e-mail, o método de pagamento e a data de vencimento do cartão de pagamento, para que possamos concluir suas transações e contactá-lo quando necessário. O imposto sobre vendas será adicionado ao preço das compras conforme considerarmos necessário. Podemos alterar os preços a qualquer momento. Todos os pagamentos serão realizados em dólares americanos."
+        },
+        {
+          "type": "p",
+          "text": "Você aceita pagar todas as cobranças pelos preços vigentes naquele momento por suas compras e qualquer taxa de envio aplicável, e você autoriza que carreguemos dichos valores ao seu provedor de pagamento selecionado ao realizar seu pedido. Reservamo-nos o direito de corrigir qualquer erro nos preços, mesmo que já tenhamos solicitado ou recebido o pagamento."
+        },
+        {
+          "type": "p",
+          "text": "Reservamo-nos o direito de rejeitar qualquer pedido realizado através dos Serviços. Podemos, a nosso critério exclusivo, limitar ou cancelar as quantidades compradas por pessoa, por domicílio ou por pedido. Essas restrições podem incluir pedidos realizados por ou sob a mesma conta de cliente, o mesmo método de pagamento e/ou pedidos que utilizem o mesmo endereço de faturamento ou envio. Reservamo-nos o direito de limitar ou proibir pedidos que, a nosso critério exclusivo, pareçam ser colocados por comerciantes, revendedores ou distribuidores."
+        }
+      ]
+    },
+    {
+      "id": "6-suscripciones",
+      "heading": "6. ASSINATURAS",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Faturamento e renovação"
+        },
+        {
+          "type": "p",
+          "text": "Sua assinatura continuará e será renovada automaticamente, a menos que seja cancelada. Você aceita que carreguemos seu método de pagamento de forma recorrente sem necessidade de sua aprovação prévia para cada cobrança recorrente, até que você cancele o pedido correspondente. A duração de seu ciclo de faturamento dependerá do tipo de plano de assinatura que escolher ao assinar os Serviços."
+        },
+        {
+          "type": "h3",
+          "text": "Período de teste gratuito"
+        },
+        {
+          "type": "p",
+          "text": "Oferecemos um período de teste gratuito de 7 dias para novos usuários que se cadastrem nos Serviços. A cobrança na conta será realizada de acordo com a assinatura escolhida pelo usuário ao final do período de teste gratuito."
+        },
+        {
+          "type": "h3",
+          "text": "Cancelamento"
+        },
+        {
+          "type": "p",
+          "text": "Você pode cancelar sua assinatura a qualquer momento acessando sua conta. Seu cancelamento entrará em vigor ao final do período pago atual. Se tiver alguma dúvida ou não estiver satisfeito com nossos Serviços, envie-nos um e-mail para support@savloapp.com."
+        },
+        {
+          "type": "h3",
+          "text": "Alterações nas tarifas"
+        },
+        {
+          "type": "p",
+          "text": "Ocasionalmente, poderemos modificar a taxa de assinatura e comunicaremos qualquer alteração de preço de acordo com a legislação aplicável."
+        }
+      ]
+    },
+    {
+      "id": "7-software",
+      "heading": "7. SOFTWARE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Podemos incluir software para seu uso em relação aos nossos Serviços. Se dicho software vier acompanhado de um acordo de licença de usuário final (\"EULA\"), os termos do EULA regerão seu uso do software. Se dicho software não estiver acompanhado de um EULA, então concedemos a você uma licença não exclusiva, revogável, pessoal e intransferível para utilizar dicho software exclusivamente em relação aos nossos serviços e em conformidade com estes Termos Legais. Qualquer software e qualquer documentação relacionada são fornecidos \"TAL COMO ESTÃO\" sem garantia de qualquer tipo, seja expressa ou implícita, incluindo, sem limitação, as garantias implícitas de comercialidade, adequação a um fim particular ou não violação. Você aceita todos e a cada um dos riscos decorrentes do uso ou funcionamento de qualquer software. Você não poderá reproduzir nem redistribuir nenhum software, salvo em conformidade com o EULA ou estes Termos Legais."
+        }
+      ]
+    },
+    {
+      "id": "8-actividades-prohibidas",
+      "heading": "8. ATIVIDADES PROIBIDAS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Você não poderá acessar nem utilizar os Serviços para qualquer outro fim que não seja aquele para o qual colocamos os Serviços à sua disposição. Os Serviços não poderão ser utilizados em relação a qualquer finalidade comercial, exceto aquelas atividades que sejam específicamente apoiadas ou aprovadas por nós."
+        },
+        {
+          "type": "p",
+          "text": "Como usuário dos Serviços, você aceita não:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Recuperar sistematicamente dados ou outro conteúdo dos Serviços para criar ou compilar, direta ou indiretamente, uma coleção, compilação, banco de dados ou diretório sem nossa permissão por escrito.",
+            "Nos enganar, nos fraudar ou nos induzir a erro a nós e a outros usuários, especialmente em qualquer tentativa de obter informações confidenciais da conta, como as senhas dos usuários.",
+            "Contornar, desabilitar ou interferir de qualquer outra forma com as funções relacionadas à segurança dos Serviços, incluindo as funções que impedem ou restringem o uso ou a cópia de qualquer Conteúdo ou que impõem limitações ao uso dos Serviços e/ou do Conteúdo que contêm.",
+            "Menosprezar, desmerecer ou prejudicar de qualquer outro modo, a nosso critério, a nós e/ou os Serviços.",
+            "Não utilize nenhuma informação obtida através dos Serviços para assediar, abusar ou prejudicar outra pessoa.",
+            "Fazer uso indevido dos nossos serviços de suporte ou apresentar relatórios falsos de abuso ou má conduta.",
+            "Utilizar os Serviços de uma maneira que não seja compatível com as leis ou regulamentações aplicáveis.",
+            "Participar de uso não autorizado de quadros ou links para os Serviços.",
+            "Carregar ou transmitir (ou tentar carregar ou transmitir) vírus, cavalos de Tróia ou outro material, incluindo o uso excessivo de maiúsculas e o envio de spam (publicação contínua de texto repetitivo), que interfira no uso e desfrute ininterrupto dos Serviços por parte de qualquer usuário ou que modifique, prejudique, interrompa, altere ou interfira no uso, nas características, nas funções, no funcionamento ou na manutenção dos Serviços.",
+            "É proibido qualquer uso automatizado do sistema, como o uso de scripts para enviar comentários ou mensagens, ou o uso de mineração de dados, robôs ou ferramentas similares de coleta e extração de dados.",
+            "Remova o aviso de direitos autorais ou outros direitos de propriedade de qualquer Conteúdo.",
+            "Tentar suplantar a identidade de outro usuário ou pessoa, ou utilizar o nome de usuário de outro usuário.",
+            "Carregar ou transmitir (ou tentar carregar ou transmitir) qualquer material que atue como mecanismo passivo ou ativo de coleta ou transmissão de informações, incluindo, entre outros, formatos de troca de gráficos claros (\"gifs\"), pixels de 1×1, web bugs, cookies ou outros dispositivos similares (às vezes denominados \"software espía\" ou \"mecanismos de coleta passiva\" ou \"PCM\").",
+            "Interferir, interromper ou criar uma carga indevida nos Serviços ou nas redes ou serviços conectados aos Serviços.",
+            "Assediar, incomodar, intimidar ou ameaçar qualquer um de nossos funcionários ou agentes que participem da prestação de qualquer parte dos Serviços.",
+            "Tentar contornar qualquer medida dos Serviços projetada para prevenir ou restringir o acesso aos Serviços, ou a qualquer parte dos mesmos.",
+            "Copiar ou adaptar o software dos Serviços, incluindo, entre outros, Flash, PHP, HTML, JavaScript ou outro código.",
+            "Salvo que a lei aplicável permita, não se permite decifrar, descompilar, desmontar ou aplicar engenharia reversa a qualquer software que faça parte dos Serviços ou que de alguma forma os integre.",
+            "Exceto nos casos em que seja o resultado do uso padrão de um mecanismo de busca ou navegador da Internet, utilize, inicie, desenvolva ou distribua qualquer sistema automatizado, incluindo, entre outros, qualquer aranha, robô, utilidade de armadilha, raspador ou leitor off-line que acesse os Serviços, ou utilize ou inicie qualquer script não autorizado ou outro software.",
+            "Utilize um agente de compras para realizar compras nos Serviços.",
+            "Faça qualquer uso não autorizado dos Serviços, incluindo a coleta de nomes de usuário e/ou endereços de e-mail dos usuários por meios eletrônicos ou de outro tipo com o propósito de enviar e-mails não solicitados, ou a criação de contas de usuário por meios automatizados ou sob falsas pretensões.",
+            "Utilizar os Serviços como parte de qualquer esforço para competir conosco ou utilizar de outro modo os Serviços e/ou o Conteúdo para qualquer atividade geradora de renda, empreendimento ou empresa comercial.",
+            "Vender ou transferir seu perfil de qualquer outra forma."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9-contribuciones-generadas-por-el-usuario",
+      "heading": "9. CONTRIBUIÇÕES GERADAS PELO USUÁRIO",
+      "content": [
+        {
+          "type": "p",
+          "text": "O Serviço não oferece aos usuários a possibilidade de enviar ou publicar conteúdo. Podemos lhe dar a oportunidade de criar, enviar, publicar, exibir, transmitir, executar, publicar, distribuir ou difundir conteúdo e materiais para nós ou nos Serviços, incluindo, entre outros, texto, escritos, vídeo, áudio, fotografias, gráficos, comentários, sugestões ou informações pessoais ou outro material (coletivamente, \"Contribuições\"). As contribuições podem ser vistas por outros usuários dos Serviços e através de sites de terceiros. Portanto, qualquer contribuição que você transmita poderá ser tratada de acordo com a Política de Privacidade dos Serviços. Ao criar ou disponibilizar qualquer Contribuição, você declara e garante que:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A criação, distribuição, transmissão, exibição pública ou execução, assim como o acesso, download ou cópia de suas Contribuições, não infringe nem infrigirá os direitos de propriedade, incluindo, entre outros, os direitos autorais, patentes, marcas registradas, segredos comerciais ou direitos morais de terceiros.",
+            "Você é o criador e proprietário de ou possui o direito necessário, licenças, direitos, consentimentos, liberações e permissões para usar e para nos autorizar, aos Serviços e a outros usuários dos Serviços para utilizar suas Contribuições de qualquer maneira prevista pelos Serviços e estes Termos Legais.",
+            "Você conta com o consentimento, autorização e/ou permissão por escrito de cada pessoa identificável em suas Contribuições para usar o nome ou a imagem de cada uma de dichas pessoas identificáveis para permitir a inclusão e o uso de suas Contribuições de qualquer maneira prevista pelos Serviços e estes Termos Legais.",
+            "Suas contribuições não são falsas, imprecisas nem enganosas.",
+            "Suas contribuições não são não solicitadas ou não autorizadas: publicidade, material promocional, esquemas piramidais, cartas em corrente, lixo eletrônico, envios em massa ou outras formas de solicitação.",
+            "Suas contribuições não são obscenas, lascivas, imorais, sujas, violentas nem assediadoras, difamatórias ou de outro modo objetável (conforme determinarmos nós).",
+            "Suas contribuições não ridicularizam, zombam, menosprezam, intimidam nem abusam de ninguém.",
+            "Suas contribuições não são utilizadas para assediar ou ameaçar (no sentido legal desses termos) nenhuma outra pessoa nem para promover a violência contra uma pessoa ou grupo de pessoas específico.",
+            "Suas contribuições não infringem nenhuma lei, regulamentação ou norma aplicável.",
+            "Suas contribuições não violam os direitos de privacidade nem de imagem de nenhum terceiro.",
+            "Suas contribuições não infringem nenhuma lei aplicável relativa à pornografia infantil nem nenhuma outra lei destinada a proteger a saúde ou o bem-estar dos menores.",
+            "Suas contribuições não incluem comentários ofensivos relacionados com a raça, a origem nacional, o gênero, a orientação sexual ou a deficiência física.",
+            "Suas contribuições não infringem, nem vinculam a material que infrinja, nenhuma disposição destes Termos Legais, nem nenhuma lei ou regulamentação aplicável."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Qualquer uso dos Serviços que viole o acima constitui uma violação destes Termos Legais e pode resultar, entre outras coisas, na rescisão ou suspensão de seus direitos de uso dos Serviços."
+        }
+      ]
+    },
+    {
+      "id": "10-licencia-de-contribucion",
+      "heading": "10. LICENÇA DE CONTRIBUIÇÃO",
+      "content": [
+        {
+          "type": "p",
+          "text": "Você e os Serviços aceitamos que podemos acessar, armazenar, processar e utilizar quaisquer informações e dados pessoais que você forneça, em conformidade com os termos da Política de Privacidade e suas escolhas (incluindo a configuração)."
+        },
+        {
+          "type": "p",
+          "text": "Ao enviar sugestões ou outros comentários sobre os Serviços, você aceita que podemos usar e compartilhar dichos comentários para qualquer finalidade sem que você receba compensação alguma."
+        },
+        {
+          "type": "p",
+          "text": "Não reivindicamos nenhum direito de propriedade sobre suas Contribuições. Você conserva a plena propriedade de todas as suas Contribuições e de qualquer direito de propriedade intelectual ou outros direitos de propriedade associados a elas. Não nos responsabilizamos pelas declarações ou representações que você forneça em suas Contribuições em qualquer área dos Serviços. Você é o único responsável por suas Contribuições aos Serviços e aceita expressamente nos isentar de toda responsabilidade e abster-se de empreender qualquer ação legal contra nós em relação às suas Contribuições."
+        }
+      ]
+    },
+    {
+      "id": "11-licencia-de-aplicacion-movil",
+      "heading": "11. LICENÇA DO APLICATIVO MÓVEL",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Licença de uso"
+        },
+        {
+          "type": "p",
+          "text": "Se você acessar os Serviços através do Aplicativo, concedemos a você um direito revogável, não exclusivo, intransferível e limitado para instalar e usar o Aplicativo em dispositivos eletrônicos sem fio de sua propriedade ou sob seu controle, e para acessar e usar o Aplicativo em dichos dispositivos estritamente de acordo com os termos e condições desta licença de aplicativo móvel contida nestes Termos Legais. Você não deverá: (1) salvo que a lei aplicável permita, descompilar, aplicar engenharia reversa, desmontar, tentar derivar o código-fonte de, ou decifrar o Aplicativo; (2) realizar qualquer modificação, adaptação, melhoria, otimização, tradução ou obra derivada do Aplicativo; (3) violar qualquer lei, norma ou regulamentação aplicável em relação ao seu acesso ou uso do Aplicativo; (4) remover, alterar ou ocultar qualquer aviso de propriedade (incluindo qualquer aviso de direitos autorais ou marca registrada) publicado por nós ou pelos licenciantes do Aplicativo; (5) usar o Aplicativo para qualquer atividade geradora de renda, empresa comercial ou outra finalidade para a qual não foi projetado ou previsto; (6) disponibilizar o Aplicativo através de uma rede ou outro ambiente que permita o acesso ou uso por múltiplos dispositivos ou usuários ao mesmo tempo; (7) usar o Aplicativo para criar um produto, serviço ou software que seja, direta ou indiretamente, concorrente com ou de alguma forma um substituto do Aplicativo; (8) usar o Aplicativo para enviar consultas automatizadas a qualquer site ou para enviar qualquer e-mail comercial não solicitado; ou (9) usar qualquer informação de propriedade exclusiva ou qualquer uma de nossas interfaces ou outra propriedade intelectual nossa no design, desenvolvimento, fabricação, licença ou distribuição de qualquer aplicativo, acessório ou dispositivo para usar com o Aplicativo."
+        },
+        {
+          "type": "h3",
+          "text": "Dispositivos Apple e Android"
+        },
+        {
+          "type": "p",
+          "text": "Os seguintes termos se aplicam quando você utiliza o aplicativo obtido da Apple Store ou Google Play (cada uma delas, uma \"aplicação\" e um \"Distribuidor de aplicações\") para acessar os Serviços: (1) a licença: o direito que lhe é concedido para nosso aplicativo está limitado a um uso não transferível para usar o aplicativo em um dispositivo que utilize os sistemas operacionais Apple iOS ou Android, conforme aplicável, e em conformidade com as regras de uso estabelecidas nos termos de serviço do Distribuidor da aplicação correspondente; (2) somos responsáveis por fornecer qualquer serviço de manutenção e suporte em relação ao aplicativo conforme especificado nos termos e condições desta licença de aplicativo móvel contida nestes Termos Legais ou conforme exigido pela lei aplicável, e você reconhece que cada Distribuidor de Aplicações não possui nenhuma obrigação de fornecer nenhum serviço de manutenção e suporte em relação ao Aplicativo; (3) em caso de o Aplicativo não cumprir nenhuma garantia aplicável, você pode notificar o Distribuidor de Aplicações correspondente, e o Distribuidor de Aplicações, de acordo com seus termos e políticas, pode reembolsar o preço de compra, se houver, pago pelo Aplicativo, e na máxima medida permitida pela lei aplicável, o Distribuidor de Aplicações não terá nenhuma outra obrigação de garantia em relação ao Aplicativo; (4) você declara e garante que (i) não se encontra em um país sujeito a um embargo do governo dos EUA, ou que tenha sido designado pelo governo dos EUA como \"apoio ao terrorismo\" país e (ii) você não figura em nenhuma lista do governo dos EUA de pessoas ou entidades proibidas ou restringidas; (5) você deve cumprir os termos de acordo de terceiros aplicáveis ao usar o aplicativo, por exemplo, se você tem uma aplicação VoIP, não deve violar seu contrato de serviço de telefonia quando usada com o aplicativo; e (6) você deve cumprir todas as leis de telefonia aplicáveis ao usar o aplicativo, incluindo, mas não se limitando a, leis de chamadas telefônicas, telemarketing, listas de não-telefone, e fraudes, spam, e leis de privacidade, conforme aplicável."
+        }
+      ]
+    },
+    {
+      "id": "12-sitios-web-y-contenido-de-terceros",
+      "heading": "12. SITES E CONTEÚDO DE TERCEIROS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Os Serviços podem conter (ou você pode receber através do Aplicativo) links para outros sites (\"Sites de Terceiros\") assim como artigos, fotografias, texto, gráficos, imagens, designs, música, som, vídeo, informações, aplicativos, software e outros conteúdos ou elementos pertencentes a terceiros ou provenientes deles (\"Conteúdo de Terceiros\"). Dichos sites e conteúdo de terceiros não são pesquisados, monitorados ou verificados por nós quanto à sua exatidão, adequação ou integridade, e não somos responsáveis por nenhum site de terceiros ao qual se acesse através dos Serviços nem por nenhum conteúdo de terceiros publicado, disponível ou instalado a partir dos Serviços, incluindo o conteúdo, a exatidão, o caráter ofensivo, as opiniões, a confiabilidade, as práticas de privacidade ou outras políticas dos sites ou o conteúdo de terceiros. A inclusão, o vínculo ou a autorização do uso ou a instalação de qualquer site ou conteúdo de terceiros não implica nossa aprovação ou respaldo. Se você decidir abandonar os Serviços e acessar sites de terceiros ou utilizar ou instalar conteúdo de terceiros, o faz por sua conta e risco, e deve ter em mente que estes Termos Legais já não regem. Você deve revisar os termos e políticas aplicáveis, incluindo as práticas de privacidade e coleta de dados, de qualquer site ao qual acesse a partir dos Serviços ou em relação a qualquer aplicação que utilize ou instale a partir dos Serviços. As compras que você realizar através de sites de terceiros serão gerenciadas por meio de dichos sites e através de outras empresas, e não assumimos nenhuma responsabilidade a respeito, já que dichas compras são exclusivamente entre você e o terceiro correspondente. Você aceita e reconhece que não respaldamos os produtos ou serviços oferecidos em sites de terceiros e nos isenta de toda responsabilidade por qualquer dano causado pela compra de dichos produtos ou serviços."
+        }
+      ]
+    },
+    {
+      "id": "13-gestion-de-servicios",
+      "heading": "13. GESTÃO DOS SERVIÇOS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Reservamo-nos o direito, mas não a obrigação, de: (1) monitorar os Serviços para detectar infrações destes Termos Legais; (2) empreender as ações legais pertinentes contra qualquer pessoa que, a nosso critério exclusivo, viole a lei ou estes Termos Legais, incluindo, entre outras coisas, denunciar dicho usuário às autoridades policiais; (3) a nosso critério exclusivo e sem limitação, rejeitar, restringir o acesso, limitar a disponibilidade ou desabilitar (na medida em que seja tecnicamente viável) quaisquer de suas Contribuições ou qualquer parte das mesmas; (4) a nosso critério exclusivo e sem limitação, aviso ou responsabilidade, eliminar dos Serviços ou desabilitar de outro modo todos os arquivos e conteúdos que sejam excessivamente grandes ou que de alguma forma representem uma carga para nossos sistemas; e (5) gerenciar os Serviços de outra maneira que seja projetada para proteger nossos direitos e propriedade e para facilitar o correto funcionamento dos Serviços."
+        }
+      ]
+    },
+    {
+      "id": "14-politica-de-privacidad",
+      "heading": "14. POLÍTICA DE PRIVACIDADE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nos preocupamos com a privacidade e a segurança dos dados. Por favor, revise nossa Política de Privacidade. Ao utilizar os Serviços, você aceita estar sujeito à nossa Política de Privacidade, que é incorporada a estes Termos Legais. Observe que os Serviços são hospedados nos Estados Unidos. Se você acessar os Serviços de qualquer outra região do mundo com leis ou outros requisitos que regem a coleta, o uso ou a divulgação de dados pessoais que difiram das leis aplicáveis nos Estados Unidos, então, mediante o uso continuado dos Serviços, você está transferindo seus dados aos Estados Unidos e você consente expressamente que seus dados sejam transferidos e processados nos Estados Unidos."
+        }
+      ]
+    },
+    {
+      "id": "15-plazo-y-terminacion",
+      "heading": "15. PRAZO E EXTINÇÃO",
+      "content": [
+        {
+          "type": "p",
+          "text": "Estes Termos Legais permanecerão em pleno vigor e efeito enquanto você utilizar os Serviços. SEM LIMITAR QUALQUER OUTRA DISPOSIÇÃO DESTES TERMOS LEGAIS, RESERVAMOS O DIREITO, A NOSSO CRITÉRIO EXCLUSIVO E SEM PREVIO AVISO OU RESPONSABILIDADE, DE NEGAR O ACESSO E USO DOS SERVIÇOS (INCLUINDO O BLOQUEIO DE CERTOS ENDEREÇOS IP) A QUALQUER PESSOA POR QUALQUER MOTIVO OU SEM MOTIVO ALGUMO, INCLUINDO, SEM LIMITAÇÃO, O CUMPRIMENTO DE QUALQUER DECLARAÇÃO, GARANTIA OU COMPROMISSO CONTIDO NESTES TERMOS LEGAIS OU DE QUALQUER LEI OU REGULAMENTAÇÃO APLICÁVEL. PODEMOS TERMINAR SEU USO OU PARTICIPAÇÃO NOS SERVIÇOS OU ELIMINAR SUA CONTA E QUALQUER CONTEÚDO OU INFORMAÇÃO QUE VOCÊ PUBLIQUE A QUALQUER MOMENTO, SEM PREVIO AVISO, A NOSSO CRITÉRIO EXCLUSIVO."
+        },
+        {
+          "type": "p",
+          "text": "Se cancelarmos ou suspendermos sua conta por qualquer motivo, você tem proibido se cadastrar e criar uma nova conta em seu nome, com um nome falso ou emprestado, ou em nome de um terceiro, mesmo que atue em nome de dicho terceiro. Além de cancelar ou suspender sua conta, reservamo-nos o direito de empreender as ações legais pertinentes, incluindo, entre outras, ações civis, penais e medidas cautelares."
+        }
+      ]
+    },
+    {
+      "id": "16-modificaciones-e-interrupciones",
+      "heading": "16. MODIFICAÇÕES E INTERRUPÇÕES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Reservamo-nos o direito de alterar, modificar ou eliminar o conteúdo dos Serviços a qualquer momento e por qualquer motivo, a nosso critério exclusivo e sem previo aviso. No entanto, não temos a obrigação de atualizar as informações dos nossos Serviços. Não seremos responsáveis perante você nem perante nenhum terceiro por qualquer modificação, alteração de preço, suspensão ou interrupção dos Serviços."
+        },
+        {
+          "type": "p",
+          "text": "Não podemos garantir que os Serviços estejam disponíveis em todo momento. Podemos experimentar problemas de hardware, software ou outros, ou precisar realizar tarefas de manutenção relacionadas com os Serviços, o que poderia ocasionar interrupções, atrasos ou erros. Reservamo-nos o direito de alterar, revisar, atualizar, suspender, interromper ou modificar os Serviços a qualquer momento e por qualquer motivo, sem previo aviso. Você aceita que não temos nenhuma responsabilidade por qualquer perda, dano ou inconveniência causada por sua impossibilidade de acessar ou utilizar os Serviços durante qualquer período de inatividade ou interrupção dos mesmos. Nada do disposto nestes Termos Legais se interpretará como uma obrigação por nossa parte de manter e prestar suporte para os Serviços, nem de fornecer correções, atualizações ou novas versões relacionadas com os mesmos."
+        }
+      ]
+    },
+    {
+      "id": "17-ley-aplicable",
+      "heading": "17. LEI APLICÁVEL",
+      "content": [
+        {
+          "type": "p",
+          "text": "Estes Termos Legais serão regidos e definidos de acordo com as leis da Argentina. A Savlo e você consentem irrevocavelmente que os tribunais da Argentina terão jurisdição exclusiva para resolver qualquer disputa que possa surgir em relação a estes Termos Legais."
+        }
+      ]
+    },
+    {
+      "id": "18-resolucion-de-disputas",
+      "heading": "18. RESOLUÇÃO DE DISPUTAS",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Negociações informais"
+        },
+        {
+          "type": "p",
+          "text": "Para agilizar a resolução e controlar o custo de qualquer disputa, controvérsia ou reclamação relacionada com estes Termos Legais (cada uma delas, uma \"Disputa\" e, em conjunto, as \"Disputas\") trazida por você ou por nós (individualmente, uma \"Parte\" e, coletivamente, as \"Partes\"), as Partes concordam em tentar primeiro negociar qualquer Disputa (exceto aquelas Disputas expressamente previstas abaixo) de forma informal durante pelo menos trinta (30) dias antes de iniciar a arbitragem. Dichas negociações informais começam mediante notificação escrita de uma Parte à outra."
+        },
+        {
+          "type": "h3",
+          "text": "Arbitragem vinculante"
+        },
+        {
+          "type": "p",
+          "text": "Qualquer controvérsia que surja de ou em relação a estes Termos Legais, incluindo qualquer questão relativa à sua existência, validade ou terminação, será submetida e resolvida definitivamente pelo Tribunal de Arbitragem Comercial Internacional da Câmara de Arbitragem Europeia (Bélgica, Bruxelas, Avenue Louise, 146) em conformidade com o Reglamento de dicho Tribunal, que, como resultado da remessa ao mesmo, se considera parte integrante desta cláusula. O número de árbitros será um (1). A sede, ou lugar legal, da arbitragem será Bahía Blanca, Argentina. O idioma do procedimento será inglês. A lei que regerá estes Termos Legais será a lei substantiva da Argentina."
+        },
+        {
+          "type": "h3",
+          "text": "Restrições"
+        },
+        {
+          "type": "p",
+          "text": "As Partes concordam que a arbitragem se limitará à Disputa entre as Partes individualmente. Na máxima medida permitida pela lei, (a) nenhuma arbitragem se acumulará com nenhum outro procedimento; (b) não existe direito nem autoridade para que nenhuma Disputa seja submetida à arbitragem de forma coletiva, utilizar procedimentos de demanda coletiva; e (c) não existe direito nem autoridade para que seja apresentada nenhuma Disputa em qualidade de representante em nome do público em geral ou de qualquer outra pessoa."
+        },
+        {
+          "type": "h3",
+          "text": "Exceções às negociações informais e à arbitragem"
+        },
+        {
+          "type": "p",
+          "text": "As Partes concordam que as seguintes Disputas não estão sujeitas às disposições anteriores relativas a negociações informais e arbitragem vinculante: (a) qualquer Disputa que busque fazer valer ou proteger, ou que se refira à validade de, quaisquer dos direitos de propriedade intelectual de uma Parte; (b) qualquer Disputa relacionada com, ou que surja de, alegações de roubo, pirataria, invasão da privacidade ou uso não autorizado; e (c) qualquer reclamação de medidas cautelares. Se esta disposição for considerada ilegal ou inaplicável, nenhuma das Partes optará por submeter à arbitragem nenhuma Controvérsia que se encontre dentro da parte desta disposição que seja considerada ilegal ou inaplicável, e dicha Controvérsia será resolvida por um tribunal de jurisdição competente dentro dos tribunais enumerados anteriormente, e as Partes concordam em se submeter à jurisdição pessoal de dicho tribunal."
+        }
+      ]
+    },
+    {
+      "id": "19-correcciones",
+      "heading": "19. CORREÇÕES",
+      "content": [
+        {
+          "type": "p",
+          "text": "As informações dos Serviços podem conter erros tipográficos, imprecisões ou omissões, incluindo descrições, preços, disponibilidade e outras informações diversas. Reservamo-nos o direito de corrigir qualquer erro, imprecisão ou omissão, assim como de modificar ou atualizar as informações dos Serviços a qualquer momento e sem previo aviso."
+        }
+      ]
+    },
+    {
+      "id": "20-descargo-de-responsabilidad",
+      "heading": "20. ISENÇÃO DE RESPONSABILIDADE",
+      "content": [
+        {
+          "type": "p",
+          "text": "OS SERVIÇOS SÃO FORNECIDOS \"TAL COMO ESTÃO\" E \"CONFORME DISPONÍVEL\". VOCÊ ACEITA QUE O USO DOS SERVIÇOS SERÁ POR SUA CONTA E RISCO. NA MÁXIMA MEDIDA PERMITIDA PELO DIREITO, NÓS RENUNCIAMOS A TODAS AS GARANTIAS, EXPRESSAS OU IMPLÍCITAS, EM RELAÇÃO AOS SERVIÇOS E SEU USO, INCLUINDO, ENTRE OUTRAS, AS GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM FIM PARTICULAR E NÃO VIOLAÇÃO DE DIREITOS. NÃO OFERECEMOS GARANTIAS NEM DECLARAÇÕES SOBRE A EXATIDÃO OU INTEGRIDADE DO CONTEÚDO DOS SERVIÇOS NEM DO CONTEÚDO DE NENHUM SITE OU APLICATIVO MÓVEL VINCULADO AOS SERVIÇOS, E NÃO ASSUMIREMOS NENHUMA RESPONSABILIDADE POR (1) ERROS, EQUívOCOS OU INEXATIDÕES DO CONTEÚDO E DOS MATERIAIS, (2) LESÕES PESSOAIS OU DANOS À PROPRIEDADE, DE QUALQUER NATUREZA, QUE RESULTEM DO SEU ACESSO E USO DOS SERVIÇOS, (3) QUALQUER ACESSO NÃO AUTORIZADO OU USO DOS NOSSOS SERVIDORES SEGUROS E/OU QUALQUER INFORMAÇÃO PESSOAL E/OU INFORMAÇÃO FINANCEIRA ARMAZENADA NELES, (4) QUALQUER INTERRUPÇÃO OU CESE DA TRANSMISSÃO PARA OU DESDE OS SERVIÇOS, (5) QUALQUER ERRO, VÍRUS, CAVALO DE TRÓIA OU SIMILAR QUE POSSA SER TRANSMITIDO ATRAVÉS DOS SERVIÇOS POR QUALQUER TERCEIRO, E/OU (6) QUALQUER ERRO OU OMISSÃO EM QUALQUER CONTEÚDO E MATERIAL OU POR QUALQUER PERDA OU DANO DE QUALQUER TIPO OCORRIDO COMO RESULTADO DO USO DE QUALQUER CONTEÚDO PUBLICADO, TRANSMITIDO OU POSTO À DISPOSIÇÃO DE OUTRO MODO ATRAVÉS DOS SERVIÇOS. NÃO GARANTIMOS, RESPALDAMOS, ASEGURAMOS NEM ASSUMIMOS RESPONSABILIDADE ALGUNA POR QUALQUER PRODUTO OU SERVIÇO ANUNCIADO OU OFERECIDO POR UM TERCEIRO ATRAVÉS DOS SERVIÇOS, QUALQUER SITE COM HIPERLINKS, NEM QUALQUER SITE OU APLICATIVO MÓVEL APRESENTADO EM QUALQUER BANNER OU OUTRO ANÚNCIO, E NÃO SEREMOS PARTE NEM RESPONSÁVEIS DE QUALQUER MANEIRA DE MONITORAR QUALQUER TRANSAÇÃO ENTRE VOCÊ E QUALQUER FORNECEDOR TERCEIRO DE PRODUTOS OU SERVIÇOS. DA MESMA FORMA QUE COM A COMPRA DE UM PRODUTO OU SERVIÇO ATRAVÉS DE QUALQUER MECANISMO OU AMBIENTE, VOCÊ DEVE AVALIAR SUAS INTERAÇÕES COM TERCEIROS E DEVE TOMAR CUIDADO AO SE COMUNICAR OU COMPARTILHAR INFORMAÇÕES COM TERCEIROS. NÃO COMPARTILHAMOS SUAS INFORMAÇÕES PESSOAIS COM NENHUM TERCEIRO E APROVAMOS UM TERCEIRO A COMPARTILHAR SUAS INFORMAÇÕES COM VOCÊ ATRAVÉS DOS SERVIÇOS. PARA MAIORES INFORMAÇÕES SOBRE OS NOSSOS SERVIÇOS, POR FAVOR, LEIA A NOSSA POLÍTICA DE PRIVACIDADE NA SEÇÃO 14 DESTES TERMOS LEGAIS."
+        }
+      ]
+    },
+    {
+      "id": "21-limitaciones-de-responsabilidad",
+      "heading": "21. LIMITAÇÕES DE RESPONSABILIDADE",
+      "content": [
+        {
+          "type": "p",
+          "text": "EM NENHUM CASO NÓS OU NOSSOS DIRETORES, FUNCIONÁRIOS OU AGENTES SEREMOS RESPONSÁVEIS PERANTE VOCÊ OU QUALQUER TERCEIRO POR DANOS DIRETOS, INDIRETOS, CONSENCIAIS, EXEMPLARES, INCIDENTAIS, ESPECIAIS OU PUNITIVOS, INCLUINDO A PERDA DE LUCROS, A PERDA DE RENDA, A PERDA DE DADOS OU OUTROS DANOS DECORRENTES DO USO DOS SERVIÇOS, MESMO SE NOS FOR ADVERTIDO DA POSSIBILIDADE DE DICHOS DANOS. SEM PREJUÍZO DE QUALQUER DISPOSIÇÃO EM CONTRÁRIO CONTIDA NO PRESENTE DOCUMENTO, NOSSA RESPONSABILIDADE PERANTE VOCÊ POR QUALQUER CAUSA E SEM IMPORTAR A FORMA DA AÇÃO, SE LIMITARÁ EM TODO MOMENTO AO VALOR PAGO, SE HOUVER, POR VOCÊ A NÓS DURANTE O PERÍODO DE SEIS (6) MESES ANTERIOR A QUALQUER CAUSA DE AÇÃO QUE SURJA. Algumas leis estaduais dos EUA e leis internacionais não permitem limitações às garantias implícitas nem a exclusão ou limitação de certos danos. Se essas leis forem aplicáveis a você, é possível que algumas ou todas as isenções de responsabilidade ou limitações acima não sejam aplicáveis a você, e que você tenha direitos adicionais."
+        }
+      ]
+    },
+    {
+      "id": "22-indemnizacion",
+      "heading": "22. INDENIZAÇÃO",
+      "content": [
+        {
+          "type": "p",
+          "text": "Você aceita nos defender, indenizar e manter indemnes, incluindo nossas subsidiárias, afiliadas e todos os nossos respectivos diretores, agentes, parceiros e empregados, de e contra qualquer perda, dano, responsabilidade, reclamação ou demanda, incluindo honorários e despesas razoáveis de advogados, apresentada por qualquer terceiro devido a ou que surja de: (1) uso dos Serviços; (2) descumprimento destes Termos Legais; (3) qualquer descumprimento de suas declarações e garantias estabelecidas nestes Termos Legais; (4) sua violação dos direitos de um terceiro, incluindo, entre outros, os direitos de propriedade intelectual; ou (5) qualquer ato danoso manifesto contra qualquer outro usuário dos Serviços com quem você tenha se conectado através dos Serviços. Não obstante o acima, reservamo-nos o direito, à sua custa, de assumir a responsabilidade exclusiva da defesa e do controle de qualquer assunto pelo qual você esteja obrigado a nos indenizar, e você aceita cooperar, à sua custa, com nossa defesa de tais reclamações. Faremos tudo o possível para notificá-lo sobre qualquer reclamação, ação ou procedimento sujeito a esta indenização assim que tivermos conhecimento do mesmo."
+        }
+      ]
+    },
+    {
+      "id": "23-datos-del-usuario",
+      "heading": "23. DADOS DO USUÁRIO",
+      "content": [
+        {
+          "type": "p",
+          "text": "Conservaremos certos dados que você transmita aos Serviços com o fim de gerenciar seu funcionamento, assim como dados relacionados com seu uso dos mesmos. Embora realizemos cópias de segurança periódicas, você é o único responsável por todos os dados que transmita ou que estejam relacionados com qualquer atividade que tenha realizado utilizando os Serviços. Você aceita que não seremos responsáveis perante você pela perda ou corrupção de dichos dados e, pela presente, renuncia a qualquer direito de ação legal contra nós que possa decorrer de dicha perda ou corrupção."
+        }
+      ]
+    },
+    {
+      "id": "24-comunicaciones-transacciones-y-firmas-electronicas",
+      "heading": "24. COMUNICAÇÕES, TRANSAÇÕES E ASSINATURAS ELETRÔNICAS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Acessar os Serviços, enviar-nos e-mails e preencher formulários on-line constituem comunicações eletrônicas. Você aceita receber comunicações eletrônicas e reconhece que todos os acordos, avisos, divulgações e demais comunicações que lhe fornecemos eletronicamente, por e-mail e através dos Serviços, cumprem com qualquer requisito legal de que dicha comunicação seja por escrito. VOCÊ ACEITA O USO DE ASSINATURAS ELETRÔNICAS, CONTRATOS, PEDIDOS E OUTROS REGISTROS, ASSIM COMO A ENTREGA ELETRÔNICA DE AVISOS, POLÍTICAS E REGISTROS DE TRANSAÇÕES INICIADAS OU CONCLUÍDAS POR NÓS OU ATRAVÉS DOS SERVIÇOS. Pela presente, você renuncia a qualquer direito ou requisito sob qualquer estatuto, regulamento, norma, ordenança ou outra lei em qualquer jurisdição que requeira uma assinatura original ou a entrega ou conservação de registros não eletrônicos, ou pagamentos ou a concessão de créditos por qualquer meio que não seja eletrônico."
+        }
+      ]
+    },
+    {
+      "id": "25-usuarios-y-residentes-de-california",
+      "heading": "25. USUÁRIOS E RESIDENTES DA CALIFÓRNIA",
+      "content": [
+        {
+          "type": "p",
+          "text": "Se alguma reclamação conosco não for resolvida satisfatoriamente, você pode comunicar-se com a Unidade de Assistência para Reclamações da Divisão de Serviços ao Consumidor do Departamento de Assuntos do Consumidor da Califórnia por escrito em 1625 North Market Blvd., Suite N 112, Sacramento, Califórnia 95834 ou por telefone no (800) 952-5210 ou (916) 445-1254."
+        }
+      ]
+    },
+    {
+      "id": "26-varios",
+      "heading": "26. DIVERSOS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Estes Termos Legais e qualquer política ou regra operativa publicada por nós nos Serviços ou em relação aos Serviços constituem o acordo e entendimento completo entre você e nós. O fato de não exercermos ou fazermos cumprir algum direito ou disposição destes Termos Legais não se interpretará como uma renúncia a dicho direito ou disposição. Estes Termos Legais se aplicarão na máxima medida permitida pela lei. Podemos ceder quaisquer ou todos os nossos direitos e obrigações a terceiros a qualquer momento. Não seremos responsáveis por nenhuma perda, dano, atraso ou falta de ação causada por qualquer causa fora de nosso controle razoável. Se alguma disposição ou parte de uma disposição destes Termos Legais for determinada como ilegal, nula ou inaplicável, dicha disposição ou parte da disposição se considerará separável destes Termos Legais e não afetará a validade e aplicabilidade das demais disposições. Não existe nenhuma relação de joint venture, sociedade, emprego ou agência criada entre você e nós como resultado destes Termos Legais ou do uso dos Serviços. Você aceita que estes Termos Legais não se interpretarão em nosso prejuízo pelo fato de termos redigido nós mesmos. Pela presente, você renuncia a qualquer direito ou reclamação de defesas possíveis que você possa ter tido em base ao formato eletrônico destes Termos Legais e da falta de assinatura das partes para executar estes Termos Legais."
+        }
+      ]
+    },
+    {
+      "id": "27-decisiones-financieras-del-usuario",
+      "heading": "27. DECISÕES FINANCEIRAS DO USUÁRIO",
+      "content": [
+        {
+          "type": "p",
+          "text": "A empresa não se responsabiliza pelas decisões financeiras que o usuário tome baseando-se nas informações fornecidas pelo aplicativo, incluindo as previsões geradas por inteligência artificial. O aplicativo é uma ferramenta de gerenciamento de orçamento pessoal e não constitui aconselhamento financeiro."
+        }
+      ]
+    },
+    {
+      "id": "28-contactenos",
+      "heading": "28. CONTATE-NOS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Para resolver uma reclamação relacionada com os Serviços ou para receber mais informações sobre o uso dos Serviços, entre em contato conosco em:"
+        },
+        {
+          "type": "address",
+          "text": "Savlo\nBahía Blanca\nBahía Blanca, Buenos Aires 8000\nArgentina\nsupport@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

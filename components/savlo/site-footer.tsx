@@ -120,8 +120,8 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Legal",
       links: [
-        { label: "Privacidad", href: "/privacy" },
-        { label: "Términos", href: "/terms" },
+        { label: "Privacidad", href: "/es/privacy" },
+        { label: "Términos", href: "/es/terms" },
         { label: "Confianza", href: "/es#trust" },
         {
           label: "Reporte responsable",
@@ -181,8 +181,8 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Legal",
       links: [
-        { label: "Privacidade", href: "/privacy" },
-        { label: "Termos", href: "/terms" },
+        { label: "Privacidade", href: "/pt/privacy" },
+        { label: "Termos", href: "/pt/terms" },
         { label: "Confiança", href: "/pt#trust" },
         {
           label: "Divulgação responsável",
@@ -242,8 +242,8 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Rechtliches",
       links: [
-        { label: "Datenschutz", href: "/privacy" },
-        { label: "Nutzungsbedingungen", href: "/terms" },
+        { label: "Datenschutz", href: "/de/privacy" },
+        { label: "Nutzungsbedingungen", href: "/de/terms" },
         { label: "Vertrauen", href: "/de#trust" },
         {
           label: "Verantwortungsvolle Offenlegung",
@@ -303,8 +303,8 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Légal",
       links: [
-        { label: "Confidentialité", href: "/privacy" },
-        { label: "Conditions", href: "/terms" },
+        { label: "Confidentialité", href: "/fr/privacy" },
+        { label: "Conditions", href: "/fr/terms" },
         { label: "Confiance", href: "/fr#trust" },
         {
           label: "Signalement responsable",
@@ -317,26 +317,6 @@ const COLUMNS: Record<Locale, Column[]> = {
 
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
   const homePath = locale === "en" ? "/" : `/${locale}`
-  const copy =
-    locale === "es"
-      ? "Finanzas conductuales para personas que quieren una práctica de presupuesto más tranquila."
-      : locale === "pt"
-        ? "Finanças comportamentais para pessoas que querem uma prática de orçamento mais tranquila."
-        : locale === "de"
-          ? "Verhaltensfinanzen für Menschen, die sich eine ruhigere Budgetpraxis wünschen."
-          : locale === "fr"
-            ? "Des finances comportementales pour les personnes qui veulent une pratique du budget plus calme."
-            : "Behavioral finance wellness for people who want a calmer budgeting practice."
-  const quote =
-    locale === "es"
-      ? "Lo que se siente, no se ve."
-      : locale === "pt"
-        ? "O que se sente, não se vê."
-        : locale === "de"
-          ? "Was du fühlst, ist nicht immer sichtbar."
-          : locale === "fr"
-            ? "Ce que l'on ressent n'est pas toujours visible."
-            : "What you feel is not always visible."
   const directBlogLabel =
     locale === "es"
       ? "Leer el blog"
@@ -357,17 +337,6 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
           : locale === "fr"
             ? "Confidentialité"
             : "Privacy"
-  const noAdsLabel =
-    locale === "es"
-      ? "Sin anuncios. Sin venta de datos."
-      : locale === "pt"
-        ? "Sem anúncios. Sem venda de dados."
-        : locale === "de"
-          ? "Keine Anzeigen. Kein Datenverkauf."
-          : locale === "fr"
-            ? "Sans publicité. Sans vente de données."
-            : "No ads. No data selling."
-
   return (
     <footer className="relative border-t border-border/70 bg-background">
       <div className="mx-auto max-w-7xl px-6 pb-10 pt-20 sm:pt-24">
@@ -378,12 +347,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               <img src="/savlo-logo.svg" alt="Savlo" className="h-8 w-8" />
               <span className="font-serif text-lg tracking-tight">Savlo</span>
             </Link>
-            <p className="mt-4 max-w-[220px] text-[13px] leading-relaxed text-muted-foreground">
-              {copy}
-            </p>
-            <p className="mt-3 max-w-[220px] font-serif text-[13px] italic leading-relaxed text-muted-foreground/80">
-              "{quote}"
-            </p>
+
           </div>
 
           {COLUMNS[locale].map((column) => (
@@ -491,7 +455,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
               {directBlogLabel}
             </Link>
             <Link
-              href="/privacy"
+              href={locale === "en" ? "/privacy" : `/${locale}/privacy`}
               className="transition-colors hover:text-foreground"
             >
               {privacyLabel}
@@ -499,10 +463,6 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
           </div>
 
           <div className="flex flex-col items-start gap-2 text-[12px] text-muted-foreground sm:flex-row sm:items-center sm:gap-6">
-            <p className="flex items-center gap-2">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-              {noAdsLabel}
-            </p>
             <p>
               Copyright {new Date().getFullYear()} Savlo.{" "}
               {locale === "en"

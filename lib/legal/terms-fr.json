@@ -1,0 +1,599 @@
+{
+  "title": "Conditions d'utilisation",
+  "description": "Consultez les conditions d'utilisation de Savlo et les informations légales de l'application de finances personnelles.",
+  "lastUpdated": "Dernière mise à jour le 24 mai 2026",
+  "tocItems": [
+    { "id": "1-nuestros-servicios", "label": "1. NOS SERVICES" },
+    { "id": "2-derechos-de-propiedad-intelectual", "label": "2. DROITS DE PROPRIÉTÉ INTELLECTUELLE" },
+    { "id": "3-representaciones-de-los-usuarios", "label": "3. DÉCLARATIONS DES UTILISATEURS" },
+    { "id": "4-registro-de-usuario", "label": "4. INSCRIPTION UTILISATEUR" },
+    { "id": "5-compras-y-pagos", "label": "5. ACHATS ET PAIEMENTS" },
+    { "id": "6-suscripciones", "label": "6. ABONNEMENTS" },
+    { "id": "7-software", "label": "7. LOGICIEL" },
+    { "id": "8-actividades-prohibidas", "label": "8. ACTIVITÉS INTERDITES" },
+    { "id": "9-contribuciones-generadas-por-el-usuario", "label": "9. CONTRIBUTIONS GÉNÉRÉES PAR L'UTILISATEUR" },
+    { "id": "10-licencia-de-contribucion", "label": "10. LICENCE DE CONTRIBUTION" },
+    { "id": "11-licencia-de-aplicacion-movil", "label": "11. LICENCE D'APPLICATION MOBILE" },
+    { "id": "12-sitios-web-y-contenido-de-terceros", "label": "12. SITES WEB ET CONTENU DE TIERS" },
+    { "id": "13-gestion-de-servicios", "label": "13. GESTION DES SERVICES" },
+    { "id": "14-politica-de-privacidad", "label": "14. POLITIQUE DE CONFIDENTIALITÉ" },
+    { "id": "15-plazo-y-terminacion", "label": "15. DURÉE ET RÉSILIATION" },
+    { "id": "16-modificaciones-e-interrupciones", "label": "16. MODIFICATIONS ET INTERRUPTIONS" },
+    { "id": "17-ley-aplicable", "label": "17. LOI APPLICABLE" },
+    { "id": "18-resolucion-de-disputas", "label": "18. RÈGLEMENT DES LITIGES" },
+    { "id": "19-correcciones", "label": "19. CORRECTIONS" },
+    { "id": "20-descargo-de-responsabilidad", "label": "20. AVIS DE NON-RESPONSABILITÉ" },
+    { "id": "21-limitaciones-de-responsabilidad", "label": "21. LIMITATIONS DE RESPONSABILITÉ" },
+    { "id": "22-indemnizacion", "label": "22. INDEMNISATION" },
+    { "id": "23-datos-del-usuario", "label": "23. DONNÉES UTILISATEUR" },
+    { "id": "24-comunicaciones-transacciones-y-firmas-electronicas", "label": "24. COMMUNICATIONS, TRANSACTIONS ET SIGNATURES ÉLECTRONIQUES" },
+    { "id": "25-usuarios-y-residentes-de-california", "label": "25. UTILISATEURS ET RÉSIDENTS DE CALIFORNIE" },
+    { "id": "26-varios", "label": "26. DISPOSITIONS DIVERSES" },
+    { "id": "27-decisiones-financieras-del-usuario", "label": "27. DÉCISIONS FINANCIÈRES DE L'UTILISATEUR" },
+    { "id": "28-contactenos", "label": "28. NOUS CONTACTER" }
+  ],
+  "sections": [
+    {
+      "id": "aceptacion-de-nuestros-terminos-legales",
+      "heading": "ACCEPTATION DE NOS CONDITIONS LÉGALES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nous sommes Savlo (\"la Société\", \"nous\", \"notre\"), une entreprise enregistrée en Argentine, à Bahía Blanca, Bahía Blanca, Buenos Aires 8000."
+        },
+        {
+          "type": "p",
+          "text": "Nous exploitons l'application mobile Savlo (l'\"Application\"), ainsi que tout autre produit ou service connexe faisant référence à ou lien vers ces conditions légales (les \"Conditions Légales\") (collectivement, les \"Services\")."
+        },
+        {
+          "type": "p",
+          "text": "Savlo est une application de finances personnelles qui aide les utilisateurs à suivre et gérer leurs dépenses et revenus, à fixer des objectifs d'épargne et à obtenir des informations précieuses, basées sur l'intelligence artificielle, sur leurs habitudes de dépenses."
+        },
+        {
+          "type": "p",
+          "text": "Vous pouvez nous contacter par courriel à support@savloapp.com ou par courrier à Bahía Blanca, Bahía Blanca, Buenos Aires 8000, Argentine."
+        },
+        {
+          "type": "p",
+          "text": "Ces Conditions Légales constituent un accord juridiquement contraignant conclu entre vous, que ce soit à titre personnel ou au nom d'une entité (\"vous\"), et Savlo, concernant votre accès et utilisation des Services. En y accédant, vous acceptez avoir lu, compris et vous engagez à respecter l'ensemble de ces Conditions Légales. SI VOUS N'ÊTES PAS D'ACCORD AVEC L'ENSEMBLE DE CES CONDITIONS LÉGALES, IL VOUS EST EXPRESSÉMENT INTERDIT D'UTILISER LES SERVICES ET VOUS DEVEZ ARRÊTER LEUR UTILISATION IMMÉDIATEMENT."
+        },
+        {
+          "type": "p",
+          "text": "Les termes et conditions ou documents complémentaires qui peuvent être publiés sur les Services de temps à autre sont expressément incorporés au présent document par référence. Nous nous réservons le droit, à notre seule discrétion, d'apporter des changements ou des modifications à ces Conditions Légales. Nous vous informerons de tout changement en mettant à jour la date de \"Dernière mise à jour\". En continuant à utiliser les Services après la date de publication de ces Conditions Légales révisées, vous renoncez à tout droit de recevoir une notification spécifique de chaque modification. Il est de votre responsabilité de consulter périodiquement ces Conditions Légales pour rester informé des mises à jour."
+        },
+        {
+          "type": "p",
+          "text": "Les Services sont destinés aux utilisateurs de plus de 18 ans. Les personnes de moins de 18 ans ne sont pas autorisées à utiliser ou à s'inscrire aux Services."
+        },
+        {
+          "type": "p",
+          "text": "Nous vous recommandons d'imprimer une copie de ces Conditions Légales pour vos archives."
+        }
+      ]
+    },
+    {
+      "id": "1-nuestros-servicios",
+      "heading": "1. NOS SERVICES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Les informations fournies lors de l'utilisation des Services ne sont pas destinées à être distribuées ou utilisées par toute personne ou entité dans une juridiction ou un pays où une telle distribution ou utilisation serait contraire à la loi ou à la réglementation en vigueur, ou qui nous soumettrait à une exigence d'enregistrement dans une telle juridiction ou pays. Par conséquent, ceux qui décident d'accéder aux Services depuis d'autres lieux le font de leur propre initiative et sont les seuls responsables du respect des lois locales, si celles-ci sont applicables."
+        },
+        {
+          "type": "p",
+          "text": "Les Services ne sont pas conçus pour se conformer aux réglementations spécifiques au secteur (Health Insurance Portability and Accountability Act [HIPAA], Federal Information Security Management Act [FISMA], etc.), de sorte que si vos interactions étaient soumises à ces lois, vous ne pourriez pas utiliser les Services. Vous ne pourriez pas non plus utiliser les Services d'une manière qui enfreindrait la Gramm-Leach-Bliley Act (GLBA)."
+        }
+      ]
+    },
+    {
+      "id": "2-derechos-de-propiedad-intelectual",
+      "heading": "2. DROITS DE PROPRIÉTÉ INTELLECTUELLE",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Notre propriété intellectuelle"
+        },
+        {
+          "type": "p",
+          "text": "Nous sommes propriétaires ou licenciés de tous les droits de propriété intellectuelle de nos Services, y compris l'ensemble du code source, des bases de données, des fonctionnalités, du logiciel, des designs de sites web, de l'audio, de la vidéo, du texte, des photographies et des graphiques sur les Services (collectivement, le \"Contenu\"), ainsi que des marques commerciales, marques de service et logos qui y sont contenus (les \"Marques\")."
+        },
+        {
+          "type": "p",
+          "text": "Notre contenu et nos marques sont protégés par les lois sur le droit d'auteur et les marques déposées (et diverses autres lois sur la propriété intellectuelle et la concurrence déloyale) et traités aux États-Unis et dans le monde entier."
+        },
+        {
+          "type": "p",
+          "text": "Le Contenu et les Marques sont fournis en ou via les Services \"EN L'ÉTAT\" pour votre usage personnel et non commercial uniquement."
+        },
+        {
+          "type": "h3",
+          "text": "Votre utilisation de nos Services"
+        },
+        {
+          "type": "p",
+          "text": "Sous réserve du respect de ces Conditions Légales, y compris la section \"ACTIVITÉS INTERDITES\" ci-dessous, nous vous accordons une licence non exclusive, non transférable et révocable pour :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "accéder aux Services ; et",
+            "télécharger ou imprimer une copie de toute partie du Contenu auquel vous avez accédé correctement,"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "uniquement pour votre usage personnel et non commercial."
+        },
+        {
+          "type": "p",
+          "text": "Sauf disposition stipulée dans cette section ou dans toute autre partie de nos Conditions Légales, aucune partie des Services ni aucun Contenu ou Marque ne peut être copié, reproduit, ajouté, republicué, chargé, publié, affiché publiquement, codé, traduit, transmis, distribué, vendu, licencié ou exploité de toute autre manière à des fins commerciales, sans notre autorisation préalable expresse écrite."
+        },
+        {
+          "type": "p",
+          "text": "Si vous souhaitez utiliser les Services, le Contenu ou les Marques d'une manière différente de celle établie dans cette section ou dans toute autre partie de nos Conditions Légales, veuillez adresser votre demande à : support@savloapp.com. Si à un moment donné nous vous accordons la permission de publier, reproduire ou afficher publiquement toute partie de nos Services ou du Contenu, vous devez nous identifier comme propriétaires ou licenciés des Services, du Contenu ou des Marques et vous assurer que tout avis de droit d'auteur ou de propriété apparaîsse ou soit visible lorsque vous publiez, reproduisez ou affichez notre Contenu."
+        },
+        {
+          "type": "p",
+          "text": "Nous nous réservons tous les droits non expressément accordés à votre égard concernant les Services, le Contenu et les Marques."
+        },
+        {
+          "type": "p",
+          "text": "Toute violation de ces Droits de Propriété Intellectuelle constitue une violation grave de nos Conditions Légales et votre droit d'utiliser nos Services prendra fin immédiatement."
+        },
+        {
+          "type": "h3",
+          "text": "Vos soumissions"
+        },
+        {
+          "type": "p",
+          "text": "Veuillez consulter cette section et la section \"ACTIVITÉS INTERDITES\" attentivement avant d'utiliser nos Services pour comprendre (a) les droits que vous nous accordez et (b) les obligations que vous avez lorsque vous publiez ou téléchargez du contenu via les Services."
+        },
+        {
+          "type": "p",
+          "text": "Soumissions : En nous envoyant directement toute question, commentaire, suggestion, idée, opinion ou autre information sur les Services (\"Soumissions\"), en soumettant ce matériel, vous acceptez de nous céder tous les droits de propriété intellectuelle sur celui-ci. De même, vous acceptez que nous serons propriétaires de ce matériel et aurons droit à son utilisation et diffusion sans restriction à des fins licites, commerciales ou autres, sans nécessité de reconnaissance ni d'indemnisation."
+        },
+        {
+          "type": "p",
+          "text": "Vous êtes responsable de ce que vous publiez ou téléchargez : En nous envoyant des Soumissions via n'importe quelle partie des Services, vous :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Confirmez avoir lu et accepté nos termes et conditions (\"ACTIVITÉS INTERDITES\") et que vous ne publierez, enverrez, divulguerez, téléchargerez ni transmettrez via les Services aucune Soumission qui soit illégale, harcelante, haineuse, nuisible, diffamatoire, obscène, intimidante, abusive, discriminatoire, menaçante pour toute personne ou groupe, sexuellement explicite, fausse, inexacte, trompeuse ou confuse ;",
+            "dans la mesure permise par la loi applicable, renoncez à chacun des droits moraux sur toute Soumission de ce type ;",
+            "garantissez que toute soumission de ce type est originale de votre part ou que vous disposez des droits et licences nécessaires pour présenter ces soumissions et que vous avez pleine autorité pour nous accorder les droits mentionnés précédemment concernant vos Soumissions ; et",
+            "garantissez et déclarez que vos Soumissions ne constituent pas d'information confidentielle."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Vous êtes le seul responsable de vos soumissions, et vous acceptez expressément de nous indemniser pour chacune des pertes que nous pourrions subir du fait de votre manquement à (a) cette section, (b) les droits de propriété intellectuelle de tout tiers ou (c) la loi applicable."
+        }
+      ]
+    },
+    {
+      "id": "3-representaciones-de-los-usuarios",
+      "heading": "3. DÉCLARATIONS DES UTILISATEURS",
+      "content": [
+        {
+          "type": "p",
+          "text": "En utilisant les Services, vous déclarez et garantissez que : (1) toutes les informations d'inscription que vous soumettez seront vraies, exactes, à jour et complètes ; (2) vous maintiendrez l'exactitude de ces informations et mettrez à jour en temps voulu ces informations d'inscription si nécessaire ; (3) vous avez la capacité légale et acceptez de respecter ces Conditions Légales ; (4) vous n'êtes pas mineur dans la juridiction où vous résidez ; (5) vous n'accéderez pas aux Services par des moyens automatisés ou non humains, que ce soit par un robot, un script ou autrement ; (6) vous n'utiliserez pas les Services à des fins illégales ou non autorisées ; et (7) votre utilisation des Services ne violera aucune loi ou réglementation applicable."
+        },
+        {
+          "type": "p",
+          "text": "Si vous fournissez des informations fausses, inexactes, obsolètes ou incomplètes, nous nous réservons le droit de suspendre ou d'annuler votre compte et de refuser toute utilisation présente ou future des Services (ou de toute partie de ceux-ci)."
+        }
+      ]
+    },
+    {
+      "id": "4-registro-de-usuario",
+      "heading": "4. INSCRIPTION UTILISATEUR",
+      "content": [
+        {
+          "type": "p",
+          "text": "Il peut vous être demandé de vous inscrire pour utiliser les Services. Vous vous engagez à maintenir la confidentialité de votre mot de passe et serez responsable de toute utilisation de votre compte et mot de passe. Nous nous réservons le droit de supprimer, récupérer ou modifier le nom d'utilisateur que vous sélectionnez si, à notre seule discrétion, nous estimons que ce nom d'utilisateur est inapproprié, obscène ou de quelque autre manière objectionnable."
+        }
+      ]
+    },
+    {
+      "id": "5-compras-y-pagos",
+      "heading": "5. ACHATS ET PAIEMENTS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nous acceptons les modes de paiement suivants :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Google Play Store / Apple App Store"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Vous acceptez de fournir des informations d'achat et de compte actuelles, complètes et exactes pour tous les achats effectués via les Services. De même, vous acceptez de mettre à jour en temps voulu les informations du compte et du paiement, y compris l'adresse courriel, le mode de paiement et la date d'expiration de la carte de paiement, afin que nous puissions compléter vos transactions et vous contacter si nécessaire. La taxe de vente sera ajoutée au prix des achats selon ce que nous jugerons nécessaire. Nous pouvons modifier les prix à tout moment. Tous les paiements seront effectués en dollars américains."
+        },
+        {
+          "type": "p",
+          "text": "Vous acceptez de payer tous les frais aux prix en vigueur au moment de vos achats et tout frais de livraison applicable, et vous autorisez à facturer ces montants à votre fournisseur de paiement sélectionné lors de votre commande. Nous nous réservons le droit de corriger toute erreur de prix, même si nous avons déjà demandé ou reçu le paiement."
+        },
+        {
+          "type": "p",
+          "text": "Nous nous réservons le droit de refuser toute commande passée via les Services. Nous pouvons, à notre seule discrétion, limiter ou annuler les quantités achetées par personne, par foyer ou par commande. Ces restrictions peuvent inclure les commandes passées par ou sous le même compte client, le même mode de paiement et/ou les commandes utilisant la même adresse de facturation ou de livraison. Nous nous réservons le droit de limiter ou d'interdire les commandes qui, à notre seule discrétion, semblent être passées par des commerçants, revendeurs ou distributeurs."
+        }
+      ]
+    },
+    {
+      "id": "6-suscripciones",
+      "heading": "6. ABONNEMENTS",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Facturation et renouvellement"
+        },
+        {
+          "type": "p",
+          "text": "Votre abonnement continuera et sera renouvelé automatiquement à moins qu'il ne soit annulé. Vous acceptez que nous facturions votre mode de paiement de manière récurrente sans nécessiter votre approbation préalable pour chaque facturation récurrente, jusqu'à ce que vous annuliez la commande correspondante. La durée de votre cycle de facturation dépendra du type de plan d'abonnement que vous choisissez lors de votre inscription aux Services."
+        },
+        {
+          "type": "h3",
+          "text": "Essai gratuit"
+        },
+        {
+          "type": "p",
+          "text": "Nous offrons un essai gratuit de 7 jours pour les nouveaux utilisateurs qui s'inscrivent aux Services. La facturation du compte sera effectuée conformément à l'abonnement choisi par l'utilisateur à la fin de la période d'essai gratuit."
+        },
+        {
+          "type": "h3",
+          "text": "Annulation"
+        },
+        {
+          "type": "p",
+          "text": "Vous pouvez annuler votre abonnement à tout moment en vous connectant à votre compte. L'annulation prendra effet à la fin de la période payée en cours. Si vous avez des questions ou si vous n'êtes pas satisfait de nos Services, veuillez nous envoyer un courriel à support@savloapp.com."
+        },
+        {
+          "type": "h3",
+          "text": "Modifications des tarifs"
+        },
+        {
+          "type": "p",
+          "text": "De temps à autre, nous pourrons modifier la cotisation d'abonnement et nous vous communiquerons tout changement de prix conformément à la législation applicable."
+        }
+      ]
+    },
+    {
+      "id": "7-software",
+      "heading": "7. LOGICIEL",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nous pouvons inclure un logiciel pour votre utilisation en rapport avec nos Services. Si ledit logiciel est accompagné d'un accord de licence utilisateur final (\"EULA\"), les termes de l'EULA régiront votre utilisation du logiciel. Si ledit logiciel n'est pas accompagné d'un EULA, alors nous vous accordons une licence non exclusive, révocable, personnelle et non transférable pour utiliser ledit logiciel uniquement en rapport avec nos services et conformément à ces Conditions Légales. Tout logiciel et toute documentation associée sont fournis \"EN L'ÉTAT\" sans garantie d'aucune sorte, qu'elle soit expresse ou implicite, y compris, sans limitation, les garanties implicites de qualité marchande, d'adéquation à un usage particulier ou de non-violation. Vous acceptez chacun des risques découlant de l'utilisation ou du fonctionnement de tout logiciel. Vous ne pourrez ni reproduire ni redistribuer aucun logiciel, sauf conformément à l'EULA ou à ces Conditions Légales."
+        }
+      ]
+    },
+    {
+      "id": "8-actividades-prohibidas",
+      "heading": "8. ACTIVITÉS INTERDITES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Vous ne pourrez accéder aux Services ni les utiliser pour tout autre objectif que celui pour lequel nous mettons les Services à votre disposition. Les Services ne peuvent être utilisés dans le cadre d'activités commerciales, sauf celles qui sont spécifiquement soutenues ou approuvées par nous."
+        },
+        {
+          "type": "p",
+          "text": "En tant qu'utilisateur des Services, vous acceptez de ne pas :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Extraire systématiquement des données ou tout autre contenu des Services pour créer ou compiler, directement ou indirectement, une collection, une compilation, une base de données ou un répertoire sans notre permission écrite.",
+            "Nous tromper, nous escroquer ou nous induire en erreur, nous et les autres utilisateurs, en particulier dans toute tentative d'obtenir des informations confidentielles du compte, comme les mots de passe des utilisateurs.",
+            "Éluder, désactiver ou interférer de toute autre manière avec les fonctions liées à la sécurité des Services, y compris les fonctions qui empêchent ou restreignent l'utilisation ou la copie de tout Contenu ou qui imposent des limitations à l'utilisation des Services et/ou du Contenu qu'ils contiennent.",
+            "Déprécier, discréditer ou nuire de toute autre manière, à notre avis, à nous et/ou aux Services.",
+            "N'utilisez aucune information obtenue via les Services pour harceler, abuser ou nuire à une autre personne.",
+            "Faire un usage abusif de nos services d'assistance ou présenter de faux signalements d'abus ou de mauvaise conduite.",
+            "Utiliser les Services d'une manière qui ne soit pas conforme aux lois ou réglementations applicables.",
+            "Participer à une utilisation non autorisée de cadres ou de liens vers les Services.",
+            "Télécharger ou transmettre (ou tenter de télécharger ou transmettre) des virus, chevaux de Troie ou autre matériel, y compris l'utilisation excessive de majuscules et l'envoi de spam (publication continue de texte répétitif), qui interfère avec l'utilisation et la jouissance ininterrompues des Services par tout utilisateur ou qui modifie, nuit, interrompt, altère ou interfère avec l'utilisation, les caractéristiques, les fonctions, le fonctionnement ou la maintenance des Services.",
+            "Toute utilisation automatisée du système est interdite, comme l'utilisation de scripts pour envoyer des commentaires ou des messages, ou l'utilisation de fouille de données, de robots ou d'outils similaires de collecte et d'extraction de données.",
+            "Supprimer l'avis de droit d'auteur ou d'autres droits de propriété de tout Contenu.",
+            "Tenter d'usurper l'identité d'un autre utilisateur ou personne, ou d'utiliser le nom d'utilisateur d'un autre utilisateur.",
+            "Télécharger ou transmettre (ou tenter de télécharger ou transmettre) tout matériel qui agit comme mécanisme passif ou actif de collecte ou de transmission d'informations, y compris, entre autres, les formats d'échange d'images explicites (\"gifs\"), les pixels de 1×1, les web bugs, les cookies ou autres dispositifs similaires (parfois appelés \"logiciel espion\" ou \"mécanismes de collecte passive\" ou \"PCM\").",
+            "Interférer, interrompre ou créer une charge abusive sur les Services ou sur les réseaux ou services connectés aux Services.",
+            "Harceler, molester, intimider ou menacer l'un de nos employés ou agents qui participent à la fourniture de toute partie des Services.",
+            "Tenter d'éluder toute mesure des Services conçue pour empêcher ou restreindre l'accès aux Services, ou à toute partie de ceux-ci.",
+            "Copier ou adapter le logiciel des Services, y compris, entre autres, Flash, PHP, HTML, JavaScript ou tout autre code.",
+            "Sauf si la loi applicable le permet, il est interdit de déchiffrer, décompiler, désassembler ou appliquer l'ingénierie inverse à tout logiciel faisant partie des Services ou qui les intègre de quelque manière que ce soit.",
+            "Sauf si c'est le résultat de l'utilisation standard d'un moteur de recherche ou d'un navigateur Internet, utilisez, lancez, développez ou distribuez tout système automatisé, y compris, entre autres, toute araignée, robot, utilité d'piège, gratteur ou lecteur hors ligne qui accède aux Services, ou utilisez ou lancez tout script non autorisé ou tout autre logiciel.",
+            "Utiliser un agent d'achat pour effectuer des achats sur les Services.",
+            "Faire toute utilisation non autorisée des Services, y compris la collecte de noms d'utilisateur et/ou d'adresses courriel des utilisateurs par des moyens électroniques ou autres dans le but d'envoyer des courriels non sollicités, ou la création de comptes utilisateurs par des moyens automatisés ou sous de fauses représentations.",
+            "Utiliser les Services dans le cadre de tout effort pour rivaliser avec nous ou utiliser autrement les Services et/ou le Contenu pour toute activité génératrice de revenus, prêts ou entreprise commerciale.",
+            "Vendre ou transférer votre profil de toute autre manière."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9-contribuciones-generadas-por-el-usuario",
+      "heading": "9. CONTRIBUTIONS GÉNÉRÉES PAR L'UTILISATEUR",
+      "content": [
+        {
+          "type": "p",
+          "text": "Le Service n'offre pas aux utilisateurs la possibilité de soumettre ou de publier du contenu. Nous pouvons vous donner l'occasion de créer, envoyer, publier, afficher, transmettre, exécuter, publier, distribuer ou diffuser du contenu et des matériaux pour nous ou sur les Services, y compris, entre autres, du texte, des écrits, de la vidéo, de l'audio, des photographies, des graphiques, des commentaires, des suggestions ou des informations personnelles ou tout autre matériau (collectivement, \"Contributions\"). Les contributions peuvent être vues par d'autres utilisateurs des Services et via des sites web de tiers. Par conséquent, toute contribution que vous transmettez pourra être traitée conformément à la Politique de Confidentialité des Services. En créant ou en mettant à disposition toute Contribution, vous déclarez et garantissez que :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "La création, la distribution, la transmission, l'affichage public ou l'exécution, ainsi que l'accès, le téléchargement ou la copie de vos Contributions n'enfreindront pas et n'enfreindront pas les droits de propriété, y compris, entre autres, les droits d'auteur, les brevets, les marques déposées, les secrets commerciaux ou les droits moraux des tiers.",
+            "Vous êtes le créataire et propriétaire de ou détenez le droit nécessaire, les licences, les droits, les consentements, les libérations et les autorisations pour utiliser et pour nous autoriser, les Services et les autres utilisateurs des Services à utiliser vos Contributions de toute manière prévue par les Services et ces Conditions Légales.",
+            "Vous disposez du consentement, de l'autorisation et/ou de la permission écrite de chaque personne identifiable dans vos Contributions pour utiliser le nom ou l'image de chacune de ces personnes identifiables pour permettre l'inclusion et l'utilisation de vos Contributions de toute manière prévue par les Services et ces Conditions Légales.",
+            "Vos contributions ne sont pas fausses, inexactes ou trompeuses.",
+            "Vos contributions ne sont pas non sollicitées ou non autorisées : publicité, matériel promotionnel, schémas pyramidaux, lettres en chaîne, courrier indésirable, envois en masse ou autres formes de sollicitation.",
+            "Vos contributions ne sont pas obscènes, lascives, immorales, sales, violentes ni harcelantes, diffamatoires ou de toute autre manière objectionnable (selon ce que nous déterminerons).",
+            "Vos contributions ne ridiculisent, ne se moquent, ne déprécient, n'intimident ni n'abusent de quiconque.",
+            "Vos contributions ne sont pas utilisées pour harceler ou menacer (au sens juridique de ces termes) une autre personne ni pour promouvoir la violence contre une personne ou un groupe de personnes spécifique.",
+            "Vos contributions ne violent aucune loi, réglementation ou norme applicable.",
+            "Vos contributions ne violent pas les droits à la vie privée ni à l'image de tout tiers.",
+            "Vos contributions ne violent aucune loi applicable relative à la pornographie infantile ni aucune autre loi destinée à protéger la santé ou le bien-être des mineurs.",
+            "Vos contributions ne comprennent pas de commentaires offensants liés à la race, à l'origine nationale, au genre, à l'orientation sexuelle ou au handicap physique.",
+            "Vos contributions ne violent, ni ne lient à du matériel qui viole, aucune disposition de ces Conditions Légales, ni aucune loi ou réglementation applicable."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Toute utilisation des Services qui enfreint ce qui précède constitue une violation de ces Conditions Légales et peut entraîner, entre autres, la résiliation ou la suspension de vos droits d'utilisation des Services."
+        }
+      ]
+    },
+    {
+      "id": "10-licencia-de-contribucion",
+      "heading": "10. LICENCE DE CONTRIBUTION",
+      "content": [
+        {
+          "type": "p",
+          "text": "Vous et les Services acceptez que nous puissions accéder, stocker, traiter et utiliser toute information et donnée personnelle que vous fournissez, conformément aux termes de la Politique de Confidentialité et à vos choix (y compris les paramètres)."
+        },
+        {
+          "type": "p",
+          "text": "En soumettant des suggestions ou d'autres commentaires sur les Services, vous acceptez que nous puissions utiliser et partager ces commentaires à des fins sans que vous receviez aucune indemnisation."
+        },
+        {
+          "type": "p",
+          "text": "Nous ne revendiquons aucun droit de propriété sur vos Contributions. Vous conservez la pleine propriété de toutes vos Contributions et de tout droit de propriété intellectuel ou autre droit de propriété qui y est associé. Nous ne sommes pas responsables des déclarations ou représentations que vous fournissez dans vos Contributions dans n'importe quel domaine des Services. Vous êtes le seul responsable de vos Contributions aux Services et vous acceptez expressément de nous dégager de toute responsabilité et de vous abstenir d'entreprendre toute action légale contre nous concernant vos Contributions."
+        }
+      ]
+    },
+    {
+      "id": "11-licencia-de-aplicacion-movil",
+      "heading": "11. LICENCE D'APPLICATION MOBILE",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Licence d'utilisation"
+        },
+        {
+          "type": "p",
+          "text": "Si vous accédez aux Services via l'Application, nous vous accordons un droit révocable, non exclusif, non transférable et limité pour installer et utiliser l'Application sur des appareils électroniques sans fil dont vous êtes propriétaire ou sous votre contrôle, et pour accéder à et utiliser l'Application sur ces appareils strictement conformément aux termes et conditions de cette licence d'application mobile contenu dans ces Conditions Légales. Vous ne devez pas : (1) sauf si la loi applicable le permet, décompiler, appliquer l'ingénierie inverse, désassembler, tenter de dériver le code source de, ou déchiffrer l'Application ; (2) effectuer toute modification, adaptation, amélioration, optimisation, traduction ou œuvre dérivée de l'Application ; (3) violer toute loi, norme ou réglementation applicable en rapport avec votre accès ou utilisation de l'Application ; (4) supprimer, altérer ou masquer tout avis de propriété (y compris tout avis de droit d'auteur ou de marque déposée) publié par nous ou les licenciés de l'Application ; (5) utiliser l'Application pour toute activité génératrice de revenus, entreprise commerciale ou autre objectif pour lequel elle n'est pas conçue ou prévue ; (6) mettre l'Application à disposition via un réseau ou un autre environnement qui permet l'accès ou l'utilisation par plusieurs appareils ou utilisateurs en même temps ; (7) utiliser l'Application pour créer un produit, service ou logiciel qui soit, directement ou indirectement, concurrent de ou de quelque manière un substitut de l'Application ; (8) utiliser l'Application pour envoyer des requêtes automatisées à tout site web ou pour envoyer tout courriel commercial non sollicité ; ou (9) utiliser toute information de propriété exclusive ou l'une de nos interfaces ou autre propriété intellectuelle dans la conception, le développement, la fabrication, la licence ou la distribution de toute application, accessoire ou appareil pour utiliser avec l'Application."
+        },
+        {
+          "type": "h3",
+          "text": "Appareils Apple et Android"
+        },
+        {
+          "type": "p",
+          "text": "Les termes suivants s'appliquent lorsque vous utilisez l'application obtenue sur l'Apple Store ou Google Play (chacune d'elles, une \"application\" et un \"Distributeur d'applications\") pour accéder aux Services : (1) la licence : le droit qui vous est accordé pour notre application est limité à un usage non transférable pour utiliser l'application sur un appareil utilisant les systèmes d'exploitation Apple iOS ou Android, selon le cas, et conformément aux règles d'utilisation établies dans les conditions de service du Distributeur d'applications correspondant ; (2) nous sommes responsables de fournir tout service d'entretien et de support concernant l'application tel que spécifié dans les termes et conditions de cette licence d'application mobile contenu dans ces Conditions Légales ou tel que l'exige la loi applicable, et vous reconnaissez que chaque Distributeur d'Applications n'a aucune obligation de fournir un service d'entretien et de support concernant l'Application ; (3) si l'Application ne répond pas à une garantie applicable, vous pouvez notifier le Distributeur d'Applications correspondant, et le Distributeur d'Applications, conformément à ses termes et politiques, peut rembourser le prix d'achat, s'il y a lieu, payé pour l'Application, et dans la mesure maximale permise par la loi applicable, le Distributeur d'Applications n'aura aucune autre obligation de garantie concernant l'Application ; (4) vous déclarez et garantissez que (i) vous ne vous trouvez pas dans un pays soumis à un embargo du gouvernement des États-Unis ou qui a été désigné par le gouvernement des États-Unis comme pays \"soutenant le terrorisme\" et (ii) vous n'êtes inscrit sur aucune liste du gouvernement américain de personnes ou entités interdites ou restreintes ; (5) vous devez respecter les termes de tout accord de tiers applicable lors de l'utilisation de l'application, par exemple, si vous avez une application VoIP, vous ne devez pas enfreindre votre contrat de service avec votre fournisseur de services lorsqu'il est utilisé de manière non conforme à ses conditions d'utilisation ; et (6) vous devez vous conformer à la legislation applicable en matière de télécommunications lors de l'utilisation de l'application pour respecter les lois et réglementations de télécommunications applicables."
+        }
+      ]
+    },
+    {
+      "id": "12-sitios-web-y-contenido-de-terceros",
+      "heading": "12. SITES WEB ET CONTENU DE TIERS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Les Services peuvent contenir (ou vous peuvent être envoyés via l'Application) des liens vers d'autres sites web (\"Sites web de tiers\") ainsi que des articles, des photographies, du texte, des graphiques, des images, des designs, de la musique, du son, de la vidéo, des informations, des applications, des logiciels et d'autres contenus ou éléments appartenant à des tiers ou provenant de eux (\"Contenu de tiers\"). Ces sites web et contenus de tiers ne sont pas recherchés, surveillés ni vérifiés par nous en ce qui concerne leur exactitude, leur pertinence ou leur intégrité, et nous ne sommes pas responsables d'un site web de tiers auquel on accède via les Services ni d'un contenu de tiers publié, disponible ou installé depuis les Services, y compris le contenu, l'exactitude, le caractère offensif, les opinions, la fiabilité, les pratiques de confidentialité ou autres politiques des sites web ou du contenu de tiers. L'inclusion, le lien ou l'autorisation de l'utilisation ou de l'installation de tout site web ou contenu de tiers n'implique pas notre approbation ou soutien. Si vous décidez de quitter les Services et d'accéder à des sites web de tiers ou d'utiliser ou d'installer du contenu de tiers, vous le faites à vos propres risques, et vous devez garder à l'esprit que ces Conditions Légales ne régissent plus. Vous devez consulter les termes et politiques applicables, y compris les pratiques de confidentialité et de collecte de données, de tout site web auquel vous accédez depuis les Services ou en rapport avec toute application que vous utilisez ou installez depuis les Services. Les achats que vous effectuez via des sites web de tiers seront gérés par ces sites web et par d'autres entreprises, et nous n'assumons aucune responsabilité à cet égard, car ces achats sont exclusivement entre vous et le tiers correspondant. Vous acceptez et reconnaissez que nous ne soutenons pas les produits ou services offerts sur les sites web de tiers et vous nous dégagez de toute responsabilité pour tout dommage causé par l'achat de tels produits ou services, et vous nous dégagez de toute responsabilité pour tout dommage causé par votre accès à tout site web de tiers et pour tout dommage causé par votre accès à tout contenu de tiers, et pour tout dommage causé par toute interaction avec tout site web de tiers, y compris les politiques de confidentialité et les pratiques de collecte de données de ces sites web de tiers."
+        }
+      ]
+    },
+    {
+      "id": "13-gestion-de-servicios",
+      "heading": "13. GESTION DES SERVICES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nous nous réservons le droit, mais non l'obligation, de : (1) surveiller les Services pour détecter les violations de ces Conditions Légales ; (2) entreprendre les actions légales appropriées contre toute personne qui, à notre seule discrétion, enfreint la loi ou ces Conditions Légales, y compris, entre autres, signaler cet utilisateur aux autorités policières ; (3) à notre seule discrétion et sans limitation, refuser, restreindre l'accès, limiter la disponibilité ou désactiver (dans la mesure techniquement possible) l'une de vos Contributions ou toute partie de celles-ci ; (4) à notre seule discrétion et sans limitation, préavis ou responsabilité, supprimer des Services ou désactiver autrement tous les fichiers et contenus qui sont excessivement volumineux ou qui représentent d'une manière ou d'une autre une charge pour nos systèmes ; et (5) gérer les Services d'une autre manière conçue pour protéger nos droits et notre propriété et pour faciliter le bon fonctionnement des Services."
+        }
+      ]
+    },
+    {
+      "id": "14-politica-de-privacidad",
+      "heading": "14. POLITIQUE DE CONFIDENTIALITÉ",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nous nous soucions de la confidentialité et de la sécurité des données. Veuillez consulter notre Politique de Confidentialité. En utilisant les Services, vous acceptez d'être soumis à notre Politique de Confidentialité, qui est incorporée à ces Conditions Légales. Veuillez noter que les Services sont hébergés aux États-Unis. Si vous accédez aux Services depuis toute autre région du monde disposant de lois ou d'autres exigences régissant la collecte, l'utilisation ou la divulgation de données personnelles différentes de celles applicables aux États-Unis, alors, en continuant à utiliser les Services, vous transférez vos données aux États-Unis et vous consentez expressément à ce que vos données soient transférées et traitées aux États-Unis."
+        }
+      ]
+    },
+    {
+      "id": "15-plazo-y-terminacion",
+      "heading": "15. DURÉE ET RÉSILIATION",
+      "content": [
+        {
+          "type": "p",
+          "text": "Ces Conditions Légales resteront en pleine vigueur et effet tant que vous utiliserez les Services. SANS PRÉJUDICE DE TOUTE AUTRE DISPOSITION DE CES CONDITIONS LÉGALES, NOUS NOUS RÉSERVONS LE DROIT, À NOTRE SEULE DISCRÉTION ET SANS PRÉAVIS NI RESPONSABILITÉ, DE REFUSER L'ACCÈS ET L'UTILISATION DES SERVICES (Y COMPRIS LE BLOQUAGE DE CERTAINES ADRESSES IP) À TOUTE PERSONNE POUR TOUT MOTIF OU SANS MOTIF, Y COMPRIS, SANS LIMITATION, LA VIOLATION DE TOUTE DÉCLARATION, GARANTIE OU ENGAGEMENT CONTENU DANS CES CONDITIONS LÉGALES OU DE TOUTE LOI OU RÉGLEMENTATION APPLICABLE. NOUS POUVONS METTRE FIN À VOTRE UTILISATION OU PARTICIPATION AUX SERVICES OU SUPPRIMER VOTRE COMPTE ET TOUT CONTENU OU INFORMATION QUE VOUS PUBLIEZ À TOUT MOMENT, SANS PRÉAVIS, À NOTRE SEULE DISCRÉTION."
+        },
+        {
+          "type": "p",
+          "text": "Si nous annulons ou suspendons votre compte pour quelque motif que ce soit, il vous est interdit de vous inscrire et de créer un nouveau compte à votre nom, avec un nom faux ou emprunté, ou au nom d'un tiers, même si vous agissez au nom de ce tiers. Outre l'annulation ou la suspension de votre compte, nous nous réservons le droit d'entreprendre les actions légales appropriées, y compris, entre autres, des actions civiles, pénales et des mesures conservatoires."
+        }
+      ]
+    },
+    {
+      "id": "16-modificaciones-e-interrupciones",
+      "heading": "16. MODIFICATIONS ET INTERRUPTIONS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nous nous réservons le droit de modifier, modifier ou supprimer le contenu des Services à tout moment et pour quelque motif que ce soit, à notre seule discrétion et sans préavis. Cependant, nous n'avons pas l'obligation de mettre à jour les informations de nos Services. Nous ne serons pas responsables envers vous ou tout tiers pour toute modification, changement de prix, suspension ou interruption des Services."
+        },
+        {
+          "type": "p",
+          "text": "Nous ne pouvons pas garantir que les Services soient disponibles en tout temps. Nous pourrions rencontrer des problèmes matériels, logiciels ou autres, ou avoir besoin d'effectuer des tâches de maintenance liées aux Services, ce qui pourrait entraîner des interruptions, des retards ou des erreurs. Nous nous réservons le droit de modifier, réviser, mettre à jour, suspendre, interrompre ou modifier les Services à tout moment et pour quelque motif que ce soit, sans préavis. Vous acceptez que nous n'ayons aucune responsabilité pour toute perte, dommage ou inconvénient causé par votre incapacité d'accéder aux Services ou de les utiliser pendant toute période d'inactivité ou d'interruption de ceux-ci. Rien dans ces Conditions Légales ne sera interprété comme une obligation de notre part de maintenir et de fournir un support pour les Services, ni de fournir des corrections, des mises à jour ou de nouvelles versions liées à ceux-ci."
+        }
+      ]
+    },
+    {
+      "id": "17-ley-aplicable",
+      "heading": "17. LOI APPLICABLE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Ces Conditions Légales seront régies et définies conformément aux lois de l'Argentine. Savlo et vous consentez irrévoquablement que les tribunaux de l'Argentine auront une juridiction exclusive pour résoudre tout litige pouvant survenir en rapport avec ces Conditions Légales."
+        }
+      ]
+    },
+    {
+      "id": "18-resolucion-de-disputas",
+      "heading": "18. RÈGLEMENT DES LITIGES",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Négociations informelles"
+        },
+        {
+          "type": "p",
+          "text": "Afin de faciliter la résolution et de contrôler le coût de tout litige, controverse ou réclamation lié à ces Conditions Légales (chacun d'eux, un \"Litige\" et, collectivement, les \"Litiges\") soulevé par vous ou par nous (individuellement, une \"Partie\" et, collectivement, les \"Parties\"), les Parties conviennent d'abord d'essayer de négocier tout Litige (à l'exception de ceux expressément prévus ci-dessous) de manière informelle pendant au moins trente (30) jours avant de lancer l'arbitrage. Ces négociations informelles commencent par une notification écrite d'une Partie à l'autre."
+        },
+        {
+          "type": "h3",
+          "text": "Arbitrage contraignant"
+        },
+        {
+          "type": "p",
+          "text": "Toute controverse découlant de ou en rapport avec ces Conditions Légales, y compris toute question relative à son existence, validité ou résiliation, sera soumise et définitivement résolue par le Tribunal d'Arbitrage Commercial International de la Chambre d'Arbitrage Européenne (Belgique, Bruxelles, Avenue Louise, 146) conformément au Règlement dudit Tribunal, qui, du fait de la renvoi à celui-ci, est considéré comme partie intégrante de cette clause. Le nombre d'arbitres sera un (1). Le siège, ou lieu légal, de l'arbitrage sera Bahía Blanca, Argentine. La langue de la procédure sera l'anglais. La loi qui régira ces Conditions Légales sera le droit substantiel de l'Argentine."
+        },
+        {
+          "type": "h3",
+          "text": "Restrictions"
+        },
+        {
+          "type": "p",
+          "text": "Les Parties conviennent que tout arbitrage sera limité au Litige entre les Parties individuellement. Dans la mesure maximale permise par la loi, (a) aucun arbitrage ne sera cumulé avec aucune autre procédure ; (b) il n'existe aucun droit ni autorité pour qu'un Litige soit soumis à un arbitrage collectif utilisant des procédures d'action collective ; et (c) il n'existe aucun droit ni autorité pour qu'un Litige soit intenté en qualité de représentant au nom du public en général ou de toute autre personne."
+        },
+        {
+          "type": "h3",
+          "text": "Exceptions aux négociations informelles et à l'arbitrage"
+        },
+        {
+          "type": "p",
+          "text": "Les Parties conviennent que les Litiges suivants ne sont pas soumis aux dispositions ci-dessus relatives aux négociations informelles et à l'arbitrage contraignant : (a) tout Litige visant à faire valoir ou protéger, ou se rapportant à la validité de, l'un des droits de propriété intellectuelle d'une Partie ; (b) tout Litige lié à, ou découlant de, des allégations de vol, piratage, atteinte à la vie privée ou utilisation non autorisée ; et (c) toute demande de mesures conservatoires. Si cette disposition est jugée illégale ou inapplicable, aucune des Parties n'optera pour soumettre à l'arbitrage toute Controverse qui se trouve dans la partie de cette disposition qui est jugée illégale ou inapplicable, et ladite Controverse sera résolue par un tribunal de juridiction compétente au sein des tribunaux énumérés ci-dessus, et les Parties conviennent de se soumettre à la juridiction personnelle dudit tribunal."
+        }
+      ]
+    },
+    {
+      "id": "19-correcciones",
+      "heading": "19. CORRECTIONS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Les informations des Services peuvent contenir des erreurs typographiques, des inexactitudes ou des omissions, y compris les descriptions, les prix, la disponibilité et d'autres informations diverses. Nous nous réservons le droit de corriger toute erreur, inexactitude ou omission, ainsi que de modifier ou mettre à jour les informations des Services à tout moment et sans préavis."
+        }
+      ]
+    },
+    {
+      "id": "20-descargo-de-responsabilidad",
+      "heading": "20. AVIS DE NON-RESPONSABILITÉ",
+      "content": [
+        {
+          "type": "p",
+          "text": "LES SERVICES SONT FOURNIS \"EN L'ÉTAT\" ET \"SELON DISPONIBILITÉ\". VOUS ACCEPTEZ QUE L'UTILISATION DES SERVICES SE FERA À VOS PROPRES RISQUES. DANS LA MESURE MAXIMALE PERMISE PAR LA LOI, NOUS RENONÇONS À TOUTES LES GARANTIES, EXPRIMES OU IMPLICITES, EN RAPPORT AVEC LES SERVICES ET LEUR UTILISATION, Y COMPRIS, ENTRE AUTRES, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET DE NON-VIOLATION DE DROITS. NOUS NE FOURNISSONS AUCUNE GARANTIE NI AUCUNE DÉCLARATION SUR L'EXACTITUDÉ OU L'INTÉGRITÉ DU CONTENU DES SERVICES NI DU CONTENU DE TOUT SITE WEB OU APPLICATION MOBILE LIÉ AUX SERVICES, ET NOUS N'ASSUMERONS AUCUNE RESPONSABILITÉ POUR (1) LES ERREURS, OMISSIONS OU INEXACTITUDES DU CONTENU ET DES MATÉRIAUX, (2) LES LESIONS PERSONNELLES OU LES DOMMAGES MATÉRIELS, DE TOUTE NATURE, RÉSULTANT DE VOTRE ACCÈS ET UTILISATION DES SERVICES, (3) TOUT ACCÈS OU UTILISATION NON AUTORISÉS DE NOS SERVEURS SÉCURISÉS ET/OU DE TOUTE INFORMATION PERSONNELLE ET/OU FINANCIÈRE STOCKÉE CEUX-CI, (4) TOUTE INTERRUPTION OU CESSATION DE LA TRANSMISSION VERS OU DEPUIS LES SERVICES, (5) TOUS ERREURS, VIRUS, CHEVAUX DE TROIE OU SIMILAIRES QUI PEUVENT ÊTRE TRANSMIS PAR L'INTERMÉDIAIRE DES SERVICES PAR TOUT TIERS, ET/OU (6) TOUTES ERREURS OU OMISSIONS DANS TOUT CONTENU ET MATÉRIAU OU POUR TOUTE PERTE OU DOMMAGE DE TOUTE NATURE ENCOURU COMME RÉSULTAT DE L'UTILISATION DE TOUT CONTENU PUBLIÉ, TRANSMIS OU MIS À DISPOSITION D'AUTRE MANIÈRE PAR L'INTERMÉDIAIRE DES SERVICES. NOUS NE GARANTISSONS PAS, NE SOUTENONS PAS, N'ASSURONS PAS ET N'ASSUMONS AUCUNE RESPONSABILITÉ POUR AUCUN PRODUIT OU SERVICE ANNONCÉ OU OFFERT PAR UN TIERS PAR L'INTERMÉDIAIRE DES SERVICES, AUCUN SITE WEB AVEC HYPERLIENS, NI AUCUN SITE WEB OU APPLICATION MOBILE PRÉSENTÉ DANS TOUT BANNIERE OU AUTRE ANNONCE, ET NOUS NE SERONS PAS PARTIE NI RESPONSABLES DE TOUTE MANIÈRE DE SURVEILLER TOUTE TRANSACTION ENTRE VOUS ET TOUT FOURNISSEUR TIERS DE PRODUITS OU SERVICES. TOUT COMME POUR L'ACHAT D'UN PRODUIT OU SERVICE PAR L'INTERMÉDIAIRE DE TOUT MOYEN ÉLECTRONIQUE, VOUS DEVEZ EXERCER VOTRE BON SENS ET PRUDENT DANS TOUTE TRANSACTION ÉLECTRONIQUE AVEC TOUTE AUTRE PARTIE. NOUS NE POUVONS PAS ET NE GARANTISSONS PAS L'IDENTITÉ DE TOUT UTILISATEUR SUR LES SERVICES."
+        }
+      ]
+    },
+    {
+      "id": "21-limitaciones-de-responsabilidad",
+      "heading": "21. LIMITATIONS DE RESPONSABILITÉ",
+      "content": [
+        {
+          "type": "p",
+          "text": "EN AUCUN CAS NOUS NOS DIRECTEURS, EMPLOYÉS OU AGENTS NE SERONS RESPONSABLES ENVERS VOUS OU TOUT TIERS POUR DES DOMMAGES DIRECTS, INDIRECTS, CONSÉQUENTS, EXEMPLAIRES, INCIDENTS, SPÉCIAUX OU PUNITIFS, Y COMPRIS LA PERTE DE BÉNÉFICES, LA PERTE DE REVENUS, LA PERTE DE DONNÉES OU AUTRES DOMMAGES DÉCOULANT DE L'UTILISATION DES SERVICES, MÊME SI ON NOUS A AVERTI DE LA POSSIBILITÉ DE TELS DOMMAGES. SANS PRÉJUDICE DE TOUTE DISPOSITION CONTRAIRE CONTENUE DANS LE PRÉSENT DOCUMENT, NOTRE RESPONSABILITÉ ENVERS VOUS POUR TOUTE CAUSE ET SANS ÉGARD À LA FORME DE L'ACTION, SERA LIMITÉE EN TOUT TEMPS AU MONTANT PAYÉ, S'IL Y A LIEU, PAR VOUS À NOUS DURANT LA PÉRIODE DE SIX (6) MOIS PRÉCÉDANT TOUTE CAUSE D'ACTION QUI DÉCOULE. Certaines lois des États-Unis et lois internationales ne permettent pas les limitations aux garanties implicites ni l'exclusion ou la limitation de certains dommages. Si ces lois vous sont applicables, il est possible que certaines ou toutes les exclusions de responsabilité ou limitations ci-dessus ne vous soient pas applicables, et que vous disposiez de droits supplémentaires."
+        }
+      ]
+    },
+    {
+      "id": "22-indemnizacion",
+      "heading": "22. INDEMNISATION",
+      "content": [
+        {
+          "type": "p",
+          "text": "Vous acceptez de défendre, indemniser et nous dégager de responsabilité, y compris nos filiales, affiliés et tous nos fonctionnaires, agents, partenaires et employés respectifs, de et contre toute perte, dommage, responsabilité, réclamation ou poursuite, y compris les honoraires et frais raisonnables d'avocats, présentés par tout tiers du fait de ou découlant de : (1) l'utilisation des Services ; (2) la violation de ces Conditions Légales ; (3) toute violation de vos déclarations et garanties énoncées dans ces Conditions Légales ; (4) votre violation des droits d'un tiers, y compris, entre autres, les droits de propriété intellectuelle ; ou (5) tout acte nuisible manifeste envers tout autre utilisateur des Services avec lequel vous vous êtes connecté via les Services. Nonobstant ce qui précède, nous nous réservons le droit, à vos frais, d'assumer la responsabilité exclusive de la défense et du contrôle de toute affaire pour laquelle vous êtes tenu de nous indemniser, et vous acceptez de coopérer, à vos frais, avec notre défense de telles réclamations. Nous ferons tout notre possible pour vous informer de toute réclamation, action ou procédure visée par cette indemnisation dès que nous en aurons connaissance."
+        }
+      ]
+    },
+    {
+      "id": "23-datos-del-usuario",
+      "heading": "23. DONNÉES UTILISATEUR",
+      "content": [
+        {
+          "type": "p",
+          "text": "Nous conserverons certaines données que vous transmettez aux Services afin de gérer leur fonctionnement, ainsi que les données liées à votre utilisation de ceux-ci. Bien que nous effectuions des sauvegardes périodiques, vous êtes le seul responsable de toutes les données que vous transmettez ou qui sont liées à toute activité que vous avez réalisée en utilisant les Services. Vous acceptez que nous ne serons pas responsables envers vous de la perte ou de la corruption de ces données et, par la présente, renoncez à tout droit d'action contre nous qui pourrait en découler."
+        }
+      ]
+    },
+    {
+      "id": "24-comunicaciones-transacciones-y-firmas-electronicas",
+      "heading": "24. COMMUNICATIONS, TRANSACTIONS ET SIGNATURES ÉLECTRONIQUES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Visiter les Services, nous envoyer des courriels et remplir des formulaires en ligne constituent des communications électroniques. Vous acceptez de recevoir des communications électroniques et reconnaissez que tous les accords, avis, divulgations et autres communications que nous vous fournissons par voie électronique, par courriel et via les Services, satisfont à toute exigence légale selon laquelle ladite communication doit être écrite. VOUS ACCEPTEZ L'UTILISATION DE SIGNATURES ÉLECTRONIQUES, DE CONTRATS, DE COMMANDES ET D'AUTRES ENREGISTREMENTS, AINSI QUE LA LIVRAISON ÉLECTRONIQUE D'AVIS, DE POLITIQUES ET D'ENREGISTREMENTS DE TRANSACTIONS INITIÉES OU COMPLÉTÉES PAR NOUS OU PAR L'INTERMÉDIAIRE DES SERVICES. Par la présente, vous renoncez à tout droit ou exigence en vertu de tout statut, règlement, norme, ordonnance ou autre loi dans toute juridiction qui nécessiterait une signature originale ou la livraison ou la conservation d'enregistrements non électroniques, ou des paiements ou l'octroi de crédits par tout moyen autre qu'électronique."
+        }
+      ]
+    },
+    {
+      "id": "25-usuarios-y-residentes-de-california",
+      "heading": "25. UTILISATEURS ET RÉSIDENTS DE CALIFORNIE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Si une plainte contre nous n'est pas résolue de manière satisfaisante, vous pouvez contacter l'Unité d'Assistance pour les Plaintes de la Division des Services aux Consommateurs du Département des Affaires des Consommateurs de Californie par courrier à 1625 North Market Blvd., Suite N 112, Sacramento, Californie 95834 ou par téléphone au (800) 952-5210 ou (916) 445-1254."
+        }
+      ]
+    },
+    {
+      "id": "26-varios",
+      "heading": "26. DISPOSITIONS DIVERSES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Ces Conditions Légales et toute politique ou règle opérationnelle publiée par nous sur les Services ou en rapport avec les Services constituent l'accord et l'entente complète entre vous et nous. Le fait que nous n'exercions pas ou ne fassions pas appliquer un droit ou une disposition de ces Conditions Légales ne sera pas interprété comme une renonciation à ce droit ou à cette disposition. Ces Conditions Légales s'appliqueront dans la mesure maximale permise par la loi. Nous pouvons céder tout ou partie de nos droits et obligations à des tiers à tout moment. Nous ne serons pas responsables de toute perte, dommage, retard ou absence d'action causée par toute cause échappant à notre contrôle raisonnable. Si une disposition ou partie d'une disposition de ces Conditions Légales est déterminée comme illégale, nulle ou inapplicable, ladite disposition ou partie de la disposition sera considérée comme séparable de ces Conditions Légales et n'affectera pas la validité et l'applicabilité des autres dispositions. Il n'existe aucune relation de coentreprise, partenariat, emploi ou agence créée entre vous et nous du fait de ces Conditions Légales ou de l'utilisation des Services. Vous acceptez que ces Conditions Légales ne seront pas interprétées contre nous du fait que nous les ayons rédigées. Par la présente, vous renoncez à tout droit ou réclamation de défenses potentielles que vous pourriez avoir eu sur la base du format électronique de ces Conditions Légales et de l'absence de signature des parties pour exécuter ces Conditions Légales."
+        }
+      ]
+    },
+    {
+      "id": "27-decisiones-financieras-del-usuario",
+      "heading": "27. DÉCISIONS FINANCIÈRES DE L'UTILISATEUR",
+      "content": [
+        {
+          "type": "p",
+          "text": "La société n'est pas responsable des décisions financières prises par l'utilisateur sur la base des informations fournies par l'application, y compris les prédictions générées par l'intelligence artificielle. L'application est un outil de gestion de budget personnel et ne constitue pas un conseil financier."
+        }
+      ]
+    },
+    {
+      "id": "28-contactenos",
+      "heading": "28. NOUS CONTACTER",
+      "content": [
+        {
+          "type": "p",
+          "text": "Pour résoudre une plainte liée aux Services ou pour obtenir plus d'informations sur l'utilisation des Services, veuillez nous contacter à :"
+        },
+        {
+          "type": "address",
+          "text": "Savlo\nBahía Blanca\nBahía Blanca, Buenos Aires 8000\nArgentine\nsupport@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

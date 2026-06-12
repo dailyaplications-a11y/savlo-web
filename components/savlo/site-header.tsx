@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react"
 import { usePathname } from "next/navigation"
 import {
   localeLabels,
-  nextLocale,
   supportedLocales,
   switchLocalizedPath,
   type Locale,
@@ -58,7 +57,7 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
   const languageMenuRef = useRef<HTMLDivElement>(null)
   const homePath = locale === "en" ? "/" : `/${locale}`
   const isHome = pathname === homePath
-  const alternateLocale = nextLocale(locale)
+  const currentLocaleLabel = localeLabels[locale]
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -151,25 +150,30 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
               }
               onClick={() => setLanguageMenuOpen((open) => !open)}
             >
-              {alternateLocale}
+              {currentLocaleLabel}
             </button>
             {languageMenuOpen ? (
               <div
                 role="menu"
                 className="absolute right-0 top-full z-50 mt-2 w-48 overflow-hidden rounded-2xl border border-border bg-background/95 p-1 shadow-xl backdrop-blur"
               >
-                {supportedLocales
-                  .filter((candidate) => candidate !== locale)
-                  .map((candidate) => (
+                {supportedLocales.map((candidate) => (
                     <Link
                       key={candidate}
                       href={languageHref(candidate)}
                       hrefLang={candidate}
+                      scroll={false}
                       role="menuitem"
-                      className="block rounded-xl px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-primary/5 hover:text-foreground"
+                      className={cn(
+                        "block rounded-xl px-3 py-2 text-sm font-medium transition-colors hover:bg-primary/5 hover:text-foreground",
+                        candidate === locale
+                          ? "text-foreground bg-primary/10"
+                          : "text-muted-foreground",
+                      )}
                       onClick={() => setLanguageMenuOpen(false)}
                     >
                       {localeLabels[candidate]}
+                      {candidate === locale ? " ✓" : null}
                     </Link>
                   ))}
               </div>

@@ -378,21 +378,43 @@ export function BlogArticle({
 function localizePosts(posts: BlogPost[], locale: Locale): ArticlePost[] {
   if (locale === "en") return posts
   if (locale === "es") {
-    return posts.map<ArticlePost>(
-      (post) => getSpanishPostBySlug(post.slug) ?? post,
-    )
+    return posts.map<ArticlePost>((post) => {
+      const localized = getSpanishPostBySlug(post.slug)
+      if (!localized) return post
+      if (!localized.rich && post.rich) {
+        return { ...post, ...localized, rich: post.rich }
+      }
+      return localized
+    })
   }
   if (locale === "pt") {
-    return posts.map<ArticlePost>(
-      (post) => getPortuguesePostBySlug(post.slug) ?? post,
-    )
+    return posts.map<ArticlePost>((post) => {
+      const localized = getPortuguesePostBySlug(post.slug)
+      if (!localized) return post
+      if (!localized.rich && post.rich) {
+        return { ...post, ...localized, rich: post.rich }
+      }
+      return localized
+    })
   }
   if (locale === "de") {
-    return posts.map<ArticlePost>(
-      (post) => getGermanPostBySlug(post.slug) ?? post,
-    )
+    return posts.map<ArticlePost>((post) => {
+      const localized = getGermanPostBySlug(post.slug)
+      if (!localized) return post
+      if (!localized.rich && post.rich) {
+        return { ...post, ...localized, rich: post.rich }
+      }
+      return localized
+    })
   }
-  return posts.map<ArticlePost>((post) => getFrenchPostBySlug(post.slug) ?? post)
+  return posts.map<ArticlePost>((post) => {
+    const localized = getFrenchPostBySlug(post.slug)
+    if (!localized) return post
+    if (!localized.rich && post.rich) {
+      return { ...post, ...localized, rich: post.rich }
+    }
+    return localized
+  })
 }
 
 function getArticleStats(post: ArticlePost): BlogPost["stats"] {
@@ -432,7 +454,7 @@ function getArticleStats(post: ArticlePost): BlogPost["stats"] {
   const words = text.match(/\S+/g)?.length ?? 0
   const sentences =
     text.split(/[.!?]+/).filter((sentence) => sentence.trim().length > 0)
-      .length || paragraphs.length
+      .length || paragraphs
 
   return {
     words,

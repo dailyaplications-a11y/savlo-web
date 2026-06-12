@@ -1,0 +1,711 @@
+{
+  "title": "Política de Privacidade",
+  "description": "Consulte a política de privacidade e o aviso de processamento de dados do Savlo, o aplicativo móvel de finanças pessoais.",
+  "lastUpdated": "Última atualização 23 de maio de 2026",
+  "toc": [
+    { "id": "1-what-information-do-we-collect", "label": "1. QUE INFORMAÇÕES COLETAMOS?" },
+    { "id": "2-how-do-we-process-your-information", "label": "2. COMO PROCESSAMOS SUAS INFORMAÇÕES?" },
+    { "id": "3-what-legal-bases-do-we-rely-on-to-process-your-personal-information", "label": "3. EM QUAIS BASES LEGAIS NOS APOIAMOS PARA PROCESSAR SUAS INFORMAÇÕES PESSOAIS?" },
+    { "id": "4-when-and-with-whom-do-we-share-your-personal-information", "label": "4. QUANDO E COM QUEM COMPARTILHAMOS SUAS INFORMAÇÕES PESSOAIS?" },
+    { "id": "5-do-we-offer-artificial-intelligence-based-products", "label": "5. OFERECEMOS PRODUTOS BASEADOS EM INTELIGÊNCIA ARTIFICIAL?" },
+    { "id": "6-how-do-we-handle-your-social-logins", "label": "6. COMO LIDAMOS COM SEUS LOGINS DE REDES SOCIAIS?" },
+    { "id": "7-is-your-information-transferred-internationally", "label": "7. SUAS INFORMAÇÕES SÃO TRANSFERIDAS INTERNACIONALMENTE?" },
+    { "id": "8-how-long-do-we-keep-your-information", "label": "8. POR QUANTO TEMPO MANTENHOS SUAS INFORMAÇÕES?" },
+    { "id": "9-how-do-we-keep-your-information-safe", "label": "9. COMO MANTENHOS SUAS INFORMAÇÕES SEGURAS?" },
+    { "id": "10-do-we-collect-information-from-minors", "label": "10. COLETAMOS INFORMAÇÕES DE MENORES?" },
+    { "id": "11-what-are-your-privacy-rights", "label": "11. QUAIS SÃO SEUS DIREITOS DE PRIVACIDADE?" },
+    { "id": "12-controls-for-do-not-track-features", "label": "12. CONTROLES PARA RECURSOS DE NÃO RASTREAR" },
+    { "id": "13-do-united-states-residents-have-specific-privacy-rights", "label": "13. OS RESIDENTES DOS ESTADOS UNIDOS TÊM DIREITOS ESPECÍFICOS DE PRIVACIDADE?" },
+    { "id": "14-do-we-make-updates-to-this-notice", "label": "14. FAZEMOS ATUALIZAÇÕES NESTE AVISO?" },
+    { "id": "15-how-can-you-contact-us-about-this-notice", "label": "15. COMO VOCÊ PODE ENTRAR EM CONTATO CONOSCO SOBRE ESTE AVISO?" },
+    { "id": "16-how-can-you-review-update-or-delete-the-data-we-collect-from-you", "label": "16. COMO VOCÊ PODE REVISAR, ATUALIZAR OU EXCLUIR OS DADOS QUE COLETAMOS DE VOCÊ?" }
+  ],
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Este Aviso de Privacidade do Savlo (\"nós\", \"nos\" ou \"nosso\"), descreve como e por que podemos acessar, coletar, armazenar, usar e/ou compartilhar (\"processar\") suas informações pessoais quando você usa nossos serviços (\"Serviços\"), incluindo quando você:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Baixa e usa nosso aplicativo móvel (Savlo), ou qualquer outro aplicativo nosso que vincule a este Aviso de Privacidade",
+          "Usa o Savlo. O Savlo é um aplicativo de finanças pessoais que ajuda os usuários a rastrear e gerenciar despesas e receitas, definir metas de economia e obter insights baseados em inteligência artificial sobre seus hábitos de gastos.",
+          "Interage conosco de outras maneiras relacionadas, incluindo qualquer marketing ou eventos"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Dúvidas ou preocupações? Ler este Aviso de Privacidade ajudará você a entender seus direitos e escolhas de privacidade. Se você não concorda com nossas políticas e práticas, por favor não use nossos Serviços. Se você ainda tiver alguma dúvida ou preocupação, por favor entre em contato conosco em support@savloapp.com."
+      }
+    ]
+  },
+  "summaryOfKeyPoints": {
+    "heading": "RESUMO DOS PONTOS PRINCIPAIS",
+    "subheading": "Este resumo fornece os pontos principais do nosso Aviso de Privacidade, mas você pode encontrar mais detalhes sobre qualquer um desses tópicos clicando no link seguinte cada ponto principal ou usando nossa tabela de conteúdo abaixo para encontrar a seção que você está procurando.",
+    "items": [
+      {
+        "question": "Que informações pessoais processamos?",
+        "answer": "Quando você visita, usa ou navega em nossos Serviços, podemos processar informações pessoais dependendo de como você interage conosco e com os Serviços, das escolhas que você faz e dos produtos e recursos que você usa. Saiba mais sobre as informações pessoais que você nos divulga."
+      },
+      {
+        "question": "Processamos alguma informação pessoal sensível?",
+        "answer": "Algumas das informações podem ser consideradas \"especiais\" ou \"sensíveis\" em certas jurisdições, por exemplo, suas origens raciais ou étnicas, orientação sexual e crenças religiosas. Podemos processar informações pessoais sensíveis quando necessário com seu consentimento ou conforme permitido pela lei aplicável. Saiba mais sobre as informações sensíveis que processamos."
+      },
+      {
+        "question": "Coletamos alguma informação de terceiros?",
+        "answer": "Não compramos nem adquirimos dados pessoais de corretores de dados de terceiros. Podemos receber informações limitadas de perfil de provedores de login social (como o Google) somente quando você escolhe fazer login através deles."
+      },
+      {
+        "question": "Como processamos suas informações?",
+        "answer": "Processamos suas informações para fornecer, melhorar e administrar nossos Serviços, comunicar com você, para segurança e prevenção de fraudes e para cumprir a lei. Também podemos processar suas informações para outros fins com seu consentimento. Processamos suas informações somente quando temos uma razão legal válida para fazê-lo. Saiba mais sobre como processamos suas informações."
+      },
+      {
+        "question": "Em quais situações e com quais tipos de partes compartilhamos informações pessoais?",
+        "answer": "Podemos compartilhar informações em situações específicas e com categorias específicas de terceiros. Saiba mais sobre quando e com quem compartilhamos suas informações pessoais."
+      },
+      {
+        "question": "Como mantemos suas informações seguras?",
+        "answer": "Temos processos e procedimentos organizacionais e técnicos adequados para proteger suas informações pessoais. No entanto, nenhuma transmissão eletrônica pela internet ou tecnologia de armazenamento de informações pode ser garantida como 100% segura, então não podemos prometer ou garantir que hackers, cibernautas criminosos ou outros terceiros não autorizados não conseguirão derrotar nossa segurança e coletar, acessar, roubar ou modificar suas informações indevidamente. Saiba mais sobre como mantemos suas informações seguras."
+      },
+      {
+        "question": "Quais são seus direitos?",
+        "answer": "Dependendo de onde você está localizado geograficamente, a lei de privacidade aplicável pode significar que você tem certos direitos em relação às suas informações pessoais. Saiba mais sobre seus direitos de privacidade."
+      },
+      {
+        "question": "Como você exercita seus direitos?",
+        "answer": "A maneira mais fácil de exercer seus direitos é visitando support@savloapp.com ou entrando em contato conosco. Consideraremos e atenderemos a qualquer solicitação de acordo com as leis de proteção de dados aplicáveis."
+      },
+      {
+        "question": "Quer saber mais sobre o que fazemos com as informações que coletamos?",
+        "answer": "Revise o Aviso de Privacidade na íntegra."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "1-what-information-do-we-collect",
+      "heading": "1. QUE INFORMAÇÕES COLETAMOS?",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Informações pessoais que você nos divulga"
+        },
+        {
+          "type": "p",
+          "text": "Resumindo: Coletamos informações pessoais que você nos fornece."
+        },
+        {
+          "type": "p",
+          "text": "Coletamos informações pessoais que você nos fornece voluntariamente quando você se registra nos Serviços, demonstra interesse em obter informações sobre nós ou nossos produtos e Serviços, quando você participa de atividades nos Serviços, ou de outra forma quando você entra em contato conosco."
+        },
+        {
+          "type": "p",
+          "text": "Informações Pessoais Fornecidas por Você. As informações pessoais que coletamos dependem do contexto de suas interações conosco e com os Serviços, das escolhas que você faz e dos produtos e recursos que você usa. As informações pessoais que coletamos podem incluir o seguinte:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "endereços de e-mail",
+            "nomes de usuário",
+            "dados de contato ou autenticação",
+            "senhas",
+            "nomes"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Informações Sensíveis. Quando necessário, com seu consentimento ou conforme permitido pela lei aplicável, processamos as seguintes categorias de informações sensíveis:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "dados biométricos"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dados de Login de Redes Sociais. Podemos oferecer a você a opção de se registrar conosco usando os detalhes da sua conta existente de rede social, como sua conta do Facebook, X ou outra rede social. Se você escolher se registrar desta forma, coletaremos certas informações de perfil sobre você do provedor de redes sociais, conforme descrito na seção chamada \"COMO LIDAMOS COM SEUS LOGINS DE REDES SOCIAIS?\" abaixo."
+        },
+        {
+          "type": "p",
+          "text": "Dados do Aplicativo. Se você usa nosso(s) aplicativo(s), também podemos coletar as seguintes informações se você escolher nos fornecer acesso ou permissão:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Acesso ao Dispositivo Móvel. Podemos solicitar acesso ou permissão a certos recursos do seu dispositivo móvel, incluindo o microfone, armazenamento, sensores, mensagens SMS e outros recursos do seu dispositivo móvel. Se você deseja alterar nosso acesso ou permissões, pode fazer isso nas configurações do seu dispositivo.",
+            "Dados do Dispositivo Móvel. Coletamos automaticamente informações do dispositivo (como o ID do dispositivo móvel, modelo e fabricante), informações do sistema operacional, versão e configuração do sistema, números de identificação do dispositivo e aplicativo, tipo e versão do navegador, modelo do hardware, provedor de serviços de Internet e/ou operadora móvel e endereço de Protocolo de Internet (IP) (ou servidor proxy). Se você está usando nosso(s) aplicativo(s), também podemos coletar informações sobre a rede de telefonia associada ao seu dispositivo móvel, o sistema operacional ou plataforma do seu dispositivo móvel, o tipo de dispositivo móvel que você usa, o ID exclusivo do dispositivo móvel e informações sobre os recursos do(s) nosso(s) aplicativo(s) que você acessou.",
+            "Notificações Push. Podemos solicitar enviar notificações push para você sobre sua conta ou certos recursos do(s) aplicativo(s). Se você deseja não receber essas comunicações, pode desativá-las nas configurações do seu dispositivo."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Essas informações são necessárias principalmente para manter a segurança e o funcionamento do(s) nosso(s) aplicativo(s), para solução de problemas e para nossos propósitos internos de análise e relatórios."
+        },
+        {
+          "type": "p",
+          "text": "Todas as informações pessoais que você nos fornece devem ser verdadeiras, completas e precisas, e você deve nos notificar sobre quaisquer alterações nessas informações pessoais."
+        },
+        {
+          "type": "h3",
+          "text": "Informações coletadas automaticamente"
+        },
+        {
+          "type": "p",
+          "text": "Resumindo: Algumas informações — como seu endereço de Protocolo de Internet (IP) e/ou características do navegador e dispositivo — são coletadas automaticamente quando você visita nossos Serviços."
+        },
+        {
+          "type": "p",
+          "text": "Coletamos automaticamente certas informações quando você visita, usa ou navega nos Serviços. Essas informações não revelam sua identidade específica (como seu nome ou informações de contato), mas podem incluir informações sobre o dispositivo e uso, como seu endereço IP, características do navegador e dispositivo, sistema operacional, preferências de idioma, URLs de referência, nome do dispositivo, país, localização, informações sobre como e quando você usa nossos Serviços e outras informações técnicas. Essas informações são necessárias principalmente para manter a segurança e o funcionamento dos nossos Serviços e para nossos propósitos internos de análise e relatórios."
+        },
+        {
+          "type": "p",
+          "text": "As informações que coletamos incluem:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Dados de Log e Uso. Dados de log e uso são informações relacionadas ao serviço, diagnósticas, de uso e desempenho que nossos servidores coletam automaticamente quando você acessa ou usa nossos Serviços e que registramos em arquivos de log. Dependendo de como você interage conosco, esses dados de log podem incluir seu endereço IP, informações do dispositivo, tipo de navegador e configurações e informações sobre sua atividade nos Serviços (como marcas de data/hora associadas ao seu uso, páginas e arquivos visualizados, pesquisas e outras ações que você realiza, como quais recursos você usa), informações de eventos do dispositivo (como atividade do sistema, relatórios de erros (às vezes chamados de \"crash dumps\") e configurações de hardware).",
+            "Dados do Dispositivo. Coletamos dados do dispositivo, como informações sobre seu computador, telefone, tablet ou outro dispositivo que você usa para acessar os Serviços. Dependendo do dispositivo usado, esses dados do dispositivo podem incluir informações como seu endereço IP (ou servidor proxy), números de identificação do dispositivo e aplicativo, localização, tipo de navegador, modelo do hardware, provedor de serviços de Internet e/ou operadora móvel, sistema operacional e informações de configuração do sistema."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "API do Google"
+        },
+        {
+          "type": "p",
+          "text": "Nosso uso de informações recebidas de APIs do Google seguirá a Política de Dados do Usuário dos Serviços da API do Google, incluindo os requisitos de Uso Limitado."
+        }
+      ]
+    },
+    {
+      "id": "2-how-do-we-process-your-information",
+      "heading": "2. COMO PROCESSAMOS SUAS INFORMAÇÕES?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Processamos suas informações para fornecer, melhorar e administrar nossos Serviços, comunicar com você, para segurança e prevenção de fraudes e para cumprir a lei. Processamos as informações pessoais para os seguintes fins listados abaixo. Também podemos processar suas informações para outros fins apenas com seu consentimento prévio explícito."
+        },
+        {
+          "type": "p",
+          "text": "Processamos suas informações pessoais por uma variedade de razões, dependendo de como você interage com nossos Serviços, incluindo:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Para facilitar a criação de conta e autenticação e, de outra forma, gerenciar contas de usuários. Podemos processar suas informações para que você possa criar e fazer login em sua conta, bem como manter sua conta em funcionamento.",
+            "Para fornecer e facilitar a prestação de serviços ao usuário. Podemos processar suas informações para fornecer o serviço solicitado.",
+            "Para responder a perguntas de usuários/oferecer suporte a usuários. Podemos processar suas informações para responder a suas perguntas e resolver quaisquer problemas potenciais que você possa ter com o serviço solicitado.",
+            "Para enviar informações administrativas para você. Podemos processar suas informações para enviar detalhes sobre nossos produtos e serviços, alterações em nossos termos e políticas e outras informações semelhantes.",
+            "Para solicitar feedback. Podemos processar suas informações quando necessário para solicitar feedback e entrar em contato com você sobre seu uso dos nossos Serviços.",
+            "Para proteger nossos Serviços. Podemos processar suas informações como parte de nossos esforços para manter nossos Serviços seguros e protegidos, incluindo monitoramento e prevenção de fraudes.",
+            "Para identificar tendências de uso. Podemos processar informações sobre como você usa nossos Serviços para entender melhor como estão sendo usados para que possamos melhorá-los.",
+            "Para salvar ou proteger o interesse vital de um indivíduo. Podemos processar suas informações quando necessário para salvar ou proteger o interesse vital de um indivíduo, como para prevenir danos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-what-legal-bases-do-we-rely-on-to-process-your-personal-information",
+      "heading": "3. EM QUAIS BASES LEGAIS NOS APOIAMOS PARA PROCESSAR SUAS INFORMAÇÕES PESSOAIS?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Só processamos suas informações pessoais quando acreditamos ser necessário e temos uma razão legal válida (ou seja, base legal) para fazê-lo sob a lei aplicável, como com seu consentimento, para cumprir leis, para fornecer serviços para entrar em ou cumprir nossas obrigações contratuais, para proteger seus direitos ou para cumprir nossos interesses comerciais legítimos."
+        },
+        {
+          "type": "p",
+          "text": "Se você está localizado na UE ou no RU, esta seção se aplica a você."
+        },
+        {
+          "type": "p",
+          "text": "O Regulamento Geral de Proteção de Dados (GDPR) e o GDPR do RU exigem que expliquemos as bases legais válidas nas quais nos apoiamos para processar suas informações pessoais. Como tal, podemos nos apoiar nas seguintes bases legais para processar suas informações pessoais:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Consentimento. Podemos processar suas informações se você nos deu permissão (ou seja, consentimento) para usar suas informações pessoais para um propósito específico. Você pode retirar seu consentimento a qualquer momento. Saiba mais sobre como retirar seu consentimento.",
+            "Execução de Contrato. Podemos processar suas informações pessoais quando acreditamos ser necessário para cumprir nossas obrigações contratuais com você, incluindo fornecer nossos Serviços ou a seu pedido antes de entrar em um contrato com você.",
+            "Interesses Legítimos. Podemos processar suas informações quando acreditamos ser razoavelmente necessário para atingir nossos interesses comerciais legítimos e esses interesses não superam seus interesses e direitos e liberdades fundamentais. Por exemplo, podemos processar suas informações pessoais para alguns dos fins descritos para: Analisar como nossos Serviços são usados para que possamos melhorá-los para engajar e reter usuários; Diagnosticar problemas e/ou prevenir atividades fraudulentas; Entender como nossos usuários usam nossos produtos e serviços para que possamos melhorar a experiência do usuário.",
+            "Obrigações Legais. Podemos processar suas informações onde acreditamos ser necessário para cumprir nossas obrigações legais, como cooperar com um órgão de aplicação da lei ou agência reguladora, exercer ou defender nossos direitos legais, ou divulgar suas informações como evidência em litígios nos quais estamos envolvidos.",
+            "Interesses Vitais. Podemos processar suas informações onde acreditamos ser necessário para proteger seus interesses vitais ou os interesses vitais de um terceiro, como situações envolvendo ameaças potenciais à segurança de qualquer pessoa."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Se você está localizado no Canadá, esta seção se aplica a você."
+        },
+        {
+          "type": "p",
+          "text": "Podemos processar suas informações se você nos deu permissão específica (ou seja, consentimento expresso) para usar suas informações pessoais para um propósito específico, ou em situações em que sua permissão pode ser inferida (ou seja, consentimento implícito). Você pode retirar seu consentimento a qualquer momento. Saiba mais sobre como retirar seu consentimento."
+        },
+        {
+          "type": "p",
+          "text": "Em alguns casos excepcionais, podemos ser legalmente permitidos sob a lei aplicável para processar suas informações sem seu consentimento, incluindo, por exemplo:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Se a coleta for claramente no interesse de um indivíduo e o consentimento não puder ser obtido de forma oportuna",
+            "Para investigações e detecção e prevenção de fraudes",
+            "Para transações comerciais, desde que certas condições sejam atendidas",
+            "Se estiver contido em um depoimento de testemunha e a coleta for necessária para avaliar, processar ou resolver um sinistro de seguro",
+            "Para identificar pessoas feridas, doentes ou falecidas e se comunicar com parentes próximos",
+            "Se tivermos motivos razoáveis para acreditar que um indivíduo foi, é ou pode ser vítima de abuso financeiro",
+            "Se for razoável esperar que a coleta e o uso com consentimento comprometeriam a disponibilidade ou a precisão das informações e a coleta for razoável para fins relacionados a investigar uma violação de acordo ou uma infração das leis do Canadá ou de uma província",
+            "Se a divulgação for necessária para cumprir uma intimação, mandado, ordem judicial ou regras do tribunal relacionadas à produção de registros",
+            "Se foi produzido por um indivíduo no curso de seu emprego, negócios ou profissão e a coleta for consistente com os fins para os quais as informações foram produzidas",
+            "Se a coleta for exclusivamente para fins jornalísticos, artísticos ou literários",
+            "Se as informações estiverem publicamente disponíveis e forem especificadas pela regulamentação",
+            "Podemos divulgar informações identificadas de forma desidentificada para projetos de pesquisa ou estatísticas aprovados, sujeitos a supervisão ética e compromissos de confidencialidade"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4-when-and-with-whom-do-we-share-your-personal-information",
+      "heading": "4. QUANDO E COM QUEM COMPARTILHAMOS SUAS INFORMAÇÕES PESSOAIS?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Podemos compartilhar informações em situações específicas descritas nesta seção e/ou com as seguintes categorias de terceiros."
+        },
+        {
+          "type": "p",
+          "text": "Fornecedores, Consultores e Outros Provedores de Serviços de Terceiros. Podemos compartilhar seus dados com fornecedores de terceiros, provedores de serviços, contratados ou agentes (\"terceiros\") que executam serviços para nós ou em nosso nome e requerem acesso a tais informações para realizar esse trabalho. Temos contratos em vigor com nossos terceiros, que são projetados para ajudar a proteger suas informações pessoais. Isso significa que eles não podem fazer nada com suas informações pessoais, a menos que nós tenhamos instruído a fazê-lo. Eles também não compartilharão suas informações pessoais com nenhuma organização além de nós. Eles também se comprometem a proteger os dados que mantêm em nosso nome e a retê-los pelo período que instruirmos."
+        },
+        {
+          "type": "p",
+          "text": "As categorias de terceiros com quem podemos compartilhar informações pessoais são as seguintes:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Plataformas de IA",
+            "Serviços de Computação em Nuvem",
+            "Serviços de Análise de Dados",
+            "Provedores de Serviços de Armazenamento de Dados",
+            "Ferramentas de Monitoramento de Desempenho",
+            "Serviços de Registro e Autenticação de Contas de Usuário"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Também podemos precisar compartilhar suas informações pessoais nas seguintes situações:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Transferências Comerciais. Podemos compartilhar ou transferir suas informações em conexão com, ou durante negociações de, qualquer fusão, venda de ativos da empresa, financiamento ou aquisição de toda ou uma parte do nosso negócio para outra empresa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-do-we-offer-artificial-intelligence-based-products",
+      "heading": "5. OFERECEMOS PRODUTOS BASEADOS EM INTELIGÊNCIA ARTIFICIAL?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Oferecemos produtos, recursos ou ferramentas baseados em inteligência artificial, aprendizado de máquina ou tecnologias semelhantes."
+        },
+        {
+          "type": "p",
+          "text": "Como parte dos nossos Serviços, oferecemos produtos, recursos ou ferramentas baseados em inteligência artificial, aprendizado de máquina ou tecnologias semelhantes (coletivamente, \"Produtos de IA\"). Essas ferramentas são projetadas para melhorar sua experiência e fornecer soluções inovadoras. Os termos neste Aviso de Privacidade regem seu uso dos Produtos de IA dentro dos nossos Serviços."
+        },
+        {
+          "type": "h3",
+          "text": "Uso de Tecnologias de IA"
+        },
+        {
+          "type": "p",
+          "text": "Fornecemos os Produtos de IA por meio de provedores de serviços de terceiros (\"Provedores de Serviços de IA\"), incluindo Google Cloud AI. Conforme descrito neste Aviso de Privacidade, sua entrada, saída e informações pessoais serão compartilhadas com e processadas por esses Provedores de Serviços de IA para permitir seu uso de nossos Produtos de IA para os fins descritos em \"EM QUAIS BASES LEGAIS NOS APOIAMOS PARA PROCESSAR SUAS INFORMAÇÕES PESSOAIS?\" Você não deve usar os Produtos de IA de qualquer forma que viole os termos ou políticas de qualquer Provedor de Serviços de IA."
+        },
+        {
+          "type": "h3",
+          "text": "Nossos Produtos de IA"
+        },
+        {
+          "type": "p",
+          "text": "Nossos Produtos de IA são projetados para as seguintes funções:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Insights de IA",
+            "Analítica preditiva de IA",
+            "Pesquisa por IA",
+            "Análise de texto"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Como Processamos Seus Dados Usando IA"
+        },
+        {
+          "type": "p",
+          "text": "Todas as informações pessoais processadas usando nossos Produtos de IA são tratadas em conformidade com nosso Aviso de Privacidade e nosso acordo com terceiros. Isso garante alta segurança e protege suas informações pessoais durante todo o processo, proporcionando tranquilidade sobre a segurança de seus dados."
+        }
+      ]
+    },
+    {
+      "id": "6-how-do-we-handle-your-social-logins",
+      "heading": "6. COMO LIDAMOS COM SEUS LOGINS DE REDES SOCIAIS?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Se você escolhe se registrar ou fazer login em nossos Serviços usando uma conta de rede social, podemos ter acesso a certas informações sobre você."
+        },
+        {
+          "type": "p",
+          "text": "Nossos Serviços oferecem a você a capacidade de se registrar e fazer login usando os detalhes da sua conta de rede social de terceiros (como seus logins do Facebook ou X). Onde você escolhe fazer isso, receberemos certas informações de perfil sobre você do seu provedor de rede social. As informações de perfil que recebemos podem variar dependendo do provedor de rede social em questão, mas geralmente incluem seu nome, endereço de e-mail, lista de amigos e foto de perfil, bem como outras informações que você escolhe tornar público em tal plataforma de rede social."
+        },
+        {
+          "type": "p",
+          "text": "Usaremos as informações que recebemos apenas para os fins que são descritos neste Aviso de Privacidade ou que são de outra forma esclarecidos a você nos Serviços relevantes. Por favor, note que não controlamos e não somos responsáveis por outros usos de suas informações pessoais pelo seu provedor de rede social de terceiros. Recomendamos que você revise o aviso de privacidade deles para entender como coletam, usam e compartilham suas informações pessoais e como você pode definir suas preferências de privacidade em seus sites e aplicativos."
+        }
+      ]
+    },
+    {
+      "id": "7-is-your-information-transferred-internationally",
+      "heading": "7. SUAS INFORMAÇÕES SÃO TRANSFERIDAS INTERNACIONALMENTE?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Podemos transferir, armazenar e processar suas informações em países diferentes do seu."
+        },
+        {
+          "type": "p",
+          "text": "Nossos servidores estão localizados nos Estados Unidos. Independentemente de sua localização, por favor esteja ciente de que suas informações podem ser transferidas para, armazenadas por e processadas por nós em nossas instalações e nas instalações dos terceiros com quem podemos compartilhar suas informações pessoais (veja \"QUANDO E COM QUEM COMPARTILHAMOS SUAS INFORMAÇÕES PESSOAIS?\" acima), incluindo instalações nos Estados Unidos e outros países."
+        },
+        {
+          "type": "p",
+          "text": "Se você é residente na Área Econômica Europeia (EEA), Reino Unido (UK) ou Suíça, então esses países podem não necessariamente ter leis de proteção de dados ou outras leis semelhantes tão abrangentes como as do seu país. No entanto, tomaremos todas as medidas necessárias para proteger suas informações pessoais de acordo com este Aviso de Privacidade e a lei aplicável."
+        },
+        {
+          "type": "p",
+          "text": "Cláusulas Contratuais Padrão da Comissão Europeia:"
+        },
+        {
+          "type": "p",
+          "text": "Implementamos medidas para proteger suas informações pessoais, incluindo o uso das Cláusulas Contratuais Padrão da Comissão Europeia para transferências de informações pessoais entre nossas empresas do grupo e entre nós e nossos provedores de terceiros. Essas cláusulas exigem que todos os destinatários protejam todas as informações pessoais que processam originadas da EEA ou do RU de acordo com as leis e regulamentos de proteção de dados europeus. Nossas Cláusulas Contratuais Padrão podem ser fornecidas mediante solicitação. Implementamos salvaguardas semelhantes apropriadas com nossos provedores de serviços e parceiros de terceiros e mais detalhes podem ser fornecidos mediante solicitação."
+        }
+      ]
+    },
+    {
+      "id": "8-how-long-do-we-keep-your-information",
+      "heading": "8. POR QUANTO TEMPO MANTENHOS SUAS INFORMAÇÕES?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Mantemos suas informações pelo tempo necessário para cumprir os fins descritos neste Aviso de Privacidade, a menos que exigido de outra forma por lei."
+        },
+        {
+          "type": "p",
+          "text": "Mantemos suas informações pessoais apenas pelo tempo necessário para os fins estabelecidos neste Aviso de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei (como impostos, contabilidade ou outros requisitos legais). Nenhum fim neste aviso exigirá que mantenhamos suas informações pessoais por mais tempo do que o período durante o qual os usuários têm uma conta conosco."
+        },
+        {
+          "type": "p",
+          "text": "Quando não tivermos mais necessidade legítima de negócios para processar suas informações pessoais, excluiremos ou anonimizaremos essas informações, ou, se isso não for possível (por exemplo, porque suas informações pessoais foram armazenadas em arquivos de backup), então armazenaremos suas informações pessoais de forma segura e as isolaríamos de qualquer processamento posterior até que a exclusão seja possível."
+        }
+      ]
+    },
+    {
+      "id": "9-how-do-we-keep-your-information-safe",
+      "heading": "9. COMO MANTENHOS SUAS INFORMAÇÕES SEGURAS?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Nosso objetivo é proteger suas informações pessoais através de um sistema de medidas de segurança organizacionais e técnicas."
+        },
+        {
+          "type": "p",
+          "text": "Implementamos medidas de segurança técnicas e organizacionais apropriadas e razoáveis projetadas para proteger a segurança de quaisquer informações pessoais que processamos. No entanto, apesar dos nossos salvaguardas e esforços para proteger suas informações, nenhuma transmissão eletrônica pela Internet ou tecnologia de armazenamento de informações pode ser garantida como 100% segura, então não podemos prometer ou garantir que hackers, cibernautas criminosos ou outros terceiros não autorizados não conseguirão derrotar nossa segurança e coletar, acessar, roubar ou modificar suas informações indevidamente. Embora faremos o possível para proteger suas informações pessoais, a transmissão de informações pessoais de e para nossos Serviços é por sua conta e risco. Você deve acessar os Serviços apenas dentro de um ambiente seguro."
+        }
+      ]
+    },
+    {
+      "id": "10-do-we-collect-information-from-minors",
+      "heading": "10. COLETAMOS INFORMAÇÕES DE MENORES?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Não coletamos deliberadamente dados de nem fazemos marketing para crianças menores de 18 anos ou a idade equivalente conforme especificado por lei em sua jurisdição."
+        },
+        {
+          "type": "p",
+          "text": "Não coletamos, solicitamos dados de nem fazemos marketing deliberadamente para crianças menores de 18 anos ou a idade equivalente conforme especificado por lei em sua jurisdição, nem vendemos deliberadamente tais informações pessoais. Ao usar os Serviços, você declara que tem pelo menos 18 anos ou a idade equivalente conforme especificado por lei em sua jurisdição ou que é o pai ou responsável legal de tal menor e consentir com o uso dos Serviços por tal dependente menor. Se soubermos que informações pessoais de usuários menores de 18 anos ou a idade equivalente conforme especificado por lei em sua jurisdição foram coletadas, desativaremos a conta e tomaremos medidas razoáveis para excluir prontamente tais dados de nossos registros. Se você tomar conhecimento de quaisquer dados que possamos ter coletado de crianças menores de 18 anos ou a idade equivalente conforme especificado por lei em sua jurisdição, por favor entre em contato conosco em support@savloapp.com."
+        }
+      ]
+    },
+    {
+      "id": "11-what-are-your-privacy-rights",
+      "heading": "11. QUAIS SÃO SEUS DIREITOS DE PRIVACIDADE?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Dependendo do seu estado de residência nos EUA ou em algumas regiões, como a Área Econômica Europeia (EEA), Reino Unido (UK), Suíça e Canadá, você tem direitos que permitem maior acesso e controle sobre suas informações pessoais. Você pode revisar, alterar ou encerrar sua conta a qualquer momento, dependendo do seu país, província ou estado de residência."
+        },
+        {
+          "type": "p",
+          "text": "Em algumas regiões (como a EEA, UK, Suíça e Canadá), você tem certos direitos sob as leis de proteção de dados aplicáveis. Estes podem incluir o direito (i) de solicitar acesso e obter uma cópia de suas informações pessoais, (ii) de solicitar retificação ou exclusão; (iii) de restringir o processamento de suas informações pessoais; (iv) se aplicável, à portabilidade de dados; e (v) não ser submetido a decisões automatizadas. Se uma decisão que produz efeitos legais ou similarmente significativos for tomada exclusivamente por meios automatizados, informaremos você, explicaremos os principais fatores e ofereceremos uma maneira simples de solicitar revisão humana. Em certas circunstâncias, você também pode ter o direito de se opor ao processamento de suas informações pessoais. Você pode fazer tal solicitação entrando em contato conosco usando os dados de contato fornecidos na seção \"COMO VOCÊ PODE ENTRAR EM CONTATO CONOSCO SOBRE ESTE AVISO?\" abaixo."
+        },
+        {
+          "type": "p",
+          "text": "Consideraremos e atenderemos a qualquer solicitação de acordo com as leis de proteção de dados aplicáveis."
+        },
+        {
+          "type": "p",
+          "text": "Se você está localizado na EEA ou no RU e acredita que estamos processando suas informações pessoais de forma ilegal, você também tem o direito de reclamar à autoridade de proteção de dados do seu Estado membro ou à autoridade de proteção de dados do RU."
+        },
+        {
+          "type": "p",
+          "text": "Se você está localizado na Suíça, pode entrar em contato com o Comissário Federal de Proteção de Dados e Informações."
+        },
+        {
+          "type": "p",
+          "text": "Retirando seu consentimento: Se estamos nos baseando em seu consentimento para processar suas informações pessoais, que pode ser consentimento expresso e/ou implícito dependendo da lei aplicável, você tem o direito de retirar seu consentimento a qualquer momento. Você pode retirar seu consentimento a qualquer momento entrando em contato conosco usando os dados de contato fornecidos na seção \"COMO VOCÊ PODE ENTRAR EM CONTATO CONOSCO SOBRE ESTE AVISO?\" abaixo."
+        },
+        {
+          "type": "p",
+          "text": "No entanto, por favor note que isso não afetará a legalidade do processamento antes de sua retirada nem, quando a lei aplicável permitir, afetará o processamento de suas informações pessoais conduzido com base em motivos legais de processamento diferentes do consentimento."
+        },
+        {
+          "type": "h3",
+          "text": "Informações da Conta"
+        },
+        {
+          "type": "p",
+          "text": "Se você gostaria a qualquer momento de revisar ou alterar as informações em sua conta ou encerrar sua conta, você pode:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Entrar em contato conosco usando as informações de contato fornecidas.",
+            "Fazer login nas configurações da sua conta e atualizar sua conta de usuário."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Após sua solicitação de encerrar sua conta, desativaremos ou excluiremos sua conta e informações de nossos bancos de dados ativos. No entanto, podemos reter algumas informações em nossos arquivos para prevenir fraudes, resolver problemas, ajudar com quaisquer investigações, impor nossos termos legais e/ou cumprir requisitos legais aplicáveis."
+        },
+        {
+          "type": "p",
+          "text": "Se você tiver dúvidas ou comentários sobre seus direitos de privacidade, pode nos enviar um e-mail para support@savloapp.com."
+        }
+      ]
+    },
+    {
+      "id": "12-controls-for-do-not-track-features",
+      "heading": "12. CONTROLES PARA RECURSOS DE NÃO RASTREAR",
+      "content": [
+        {
+          "type": "p",
+          "text": "A maioria dos navegadores web e alguns sistemas operacionais móveis e aplicativos móveis incluem um recurso ou configuração de Não Rastrear (\"DNT\") que você pode ativar para sinalizar sua preferência de privacidade de não ter dados sobre suas atividades de navegação online monitorados e coletados. Neste estágio, nenhum padrão técnico uniforme para reconhecer e implementar sinais DNT foi finalizado. Como tal, não respondemos atualmente a sinais DNT do navegador ou a qualquer outro mecanismo que comunique automaticamente sua escolha de não ser rastreado online. Se um padrão de rastreamento online for adotado que devamos seguir no futuro, informaremos você sobre essa prática em uma versão revisada deste Aviso de Privacidade."
+        },
+        {
+          "type": "p",
+          "text": "A lei da Califórnia nos exige que saibamos como respondemos a sinais DNT de navegadores web. Como atualmente não existe um padrão da indústria ou legal para reconhecer ou honrar sinais DNT, não respondemos a eles neste momento."
+        }
+      ]
+    },
+    {
+      "id": "13-do-united-states-residents-have-specific-privacy-rights",
+      "heading": "13. OS RESIDENTES DOS ESTADOS UNIDOS TÊM DIREITOS ESPECÍFICOS DE PRIVACIDADE?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Se você é residente da Califórnia, Colorado, Connecticut, Delaware, Flórida, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah ou Virgínia, pode ter o direito de solicitar acesso e receber detalhes sobre as informações pessoais que mantemos sobre você e como processamos, corrigir imprecisões, obter uma cópia ou excluir suas informações pessoais. Você também pode ter o direito de retirar seu consentimento para o processamento de suas informações pessoais. Esses direitos podem ser limitados em algumas circunstâncias pela lei aplicável. Mais informações são fornecidas abaixo."
+        },
+        {
+          "type": "h3",
+          "text": "Categorias de Informações Pessoais que Coletamos"
+        },
+        {
+          "type": "p",
+          "text": "A tabela abaixo mostra as categorias de informações pessoais que coletamos nos últimos doze (12) meses. A tabela inclui exemplos ilustrativos de cada categoria e não reflete as informações pessoais que coletamos de você. Para um inventário completo de todas as informações pessoais que processamos, por favor consulte a seção \"QUE INFORMAÇÕES COLETAMOS?\"."
+        },
+        {
+          "type": "p",
+          "text": "Só coletamos informações pessoais sensíveis, conforme definido pelas leis de privacidade aplicáveis ou para os fins permitidos por lei ou com seu consentimento. Informações pessoais sensíveis podem ser usadas, ou divulgadas a um provedor de serviços ou contratado, para fins adicionais especificados. Você pode ter o direito de limitar o uso ou divulgação de suas informações pessoais sensíveis. Não coletamos nem processamos informações pessoais sensíveis para o propósito de inferir características sobre você."
+        },
+        {
+          "type": "p",
+          "text": "Também podemos coletar outras informações pessoais fora dessas categorias através de instâncias em que você interage conosco pessoalmente, online ou por telefone ou correio no contexto de:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Receber ajuda através dos nossos canais de suporte ao cliente;",
+            "Participação em pesquisas ou concursos de clientes; e",
+            "Facilitação na prestação dos nossos Serviços e para responder a suas consultas."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Usaremos e manteremos as informações pessoais coletadas conforme necessário para fornecer os Serviços ou para:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Categoria K - Enquanto o usuário tiver uma conta conosco",
+            "Categoria L - Enquanto o usuário tiver uma conta conosco"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Fontes de Informações Pessoais"
+        },
+        {
+          "type": "p",
+          "text": "Saiba mais sobre as fontes de informações pessoais que coletamos em \"QUE INFORMAÇÕES COLETAMOS?\""
+        },
+        {
+          "type": "h3",
+          "text": "Como Usamos e Compartilhamos Informações Pessoais"
+        },
+        {
+          "type": "p",
+          "text": "Saiba mais sobre como usamos suas informações pessoais na seção, \"COMO PROCESSAMOS SUAS INFORMAÇÕES?\""
+        },
+        {
+          "type": "h3",
+          "text": "Suas informações serão compartilhadas com mais alguém?"
+        },
+        {
+          "type": "p",
+          "text": "Podemos divulgar suas informações pessoais aos nossos provedores de serviços de acordo com um contrato escrito entre nós e cada provedor de serviços. Saiba mais sobre como divulgamos informações pessoais na seção, \"QUANDO E COM QUEM COMPARTILHAMOS SUAS INFORMAÇÕES PESSOAIS?\""
+        },
+        {
+          "type": "p",
+          "text": "Podemos usar suas informações pessoais para nossos próprios fins comerciais, como para realizar pesquisas internas para desenvolvimento e demonstração tecnológica. Isso não é considerado \"venda\" de suas informações pessoais."
+        },
+        {
+          "type": "p",
+          "text": "Não vendemos nem compartilhamos informações pessoais com terceiros para fins comerciais ou comerciais nos últimos doze (12) meses. Divulgamos as seguintes categorias de informações pessoais a terceiros para fins comerciais ou comerciais nos últimos doze (12) meses:"
+        },
+        {
+          "type": "p",
+          "text": "As categorias de terceiros aos quais divulgamos informações pessoais para fins comerciais ou comerciais podem ser encontradas em \"QUANDO E COM QUEM COMPARTILHAMOS SUAS INFORMAÇÕES PESSOAIS?\""
+        },
+        {
+          "type": "h3",
+          "text": "Seus Direitos"
+        },
+        {
+          "type": "p",
+          "text": "Você tem direitos sob certas leis de proteção de dados dos estados dos EUA. No entanto, esses direitos não são absolutos e, em certos casos, podemos recusar sua solicitação conforme permitido por lei. Esses direitos incluem:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Direito de saber se estamos ou não processando seus dados pessoais",
+            "Direito de acessar seus dados pessoais",
+            "Direito de corrigir imprecisões em seus dados pessoais",
+            "Direito de solicitar a exclusão de seus dados pessoais",
+            "Direito de obter uma cópia dos dados pessoais que você compartilhou conosco anteriormente",
+            "Direito de não discriminação por exercer seus direitos",
+            "Direito de não participar do processamento de seus dados pessoais se forem usados para publicidade direcionada (ou compartilhamento conforme definido sob a lei de privacidade da Califórnia), venda de dados pessoais ou perfilamento para promover decisões que produzem efeitos legais ou similarmente significativos (\"perfilamento\")"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dependendo do estado onde você vive, você também pode ter os seguintes direitos:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Direito de acessar as categorias de dados pessoais sendo processados (conforme permitido pela lei aplicável, incluindo a lei de privacidade de Minnesota)",
+            "Direito de obter uma lista das categorias de terceiros aos quais divulgamos dados pessoais (conforme permitido pela lei aplicável, incluindo a lei de privacidade da Califórnia, Delaware e Maryland)",
+            "Direito de obter uma lista de terceiros específicos aos quais divulgamos dados pessoais (conforme permitido pela lei aplicável, incluindo a lei de privacidade de Minnesota e Oregon)",
+            "Direito de obter uma lista de terceiros aos quais vendemos dados pessoais (conforme permitido pela lei aplicável, incluindo a lei de privacidade de Connecticut)",
+            "Direito de revisar, entender, questionar e, dependendo de onde você vive, corrigir como os dados pessoais foram perfilados (conforme permitido pela lei aplicável, incluindo a lei de privacidade de Connecticut e Minnesota)",
+            "Direito de limitar o uso e divulgação de dados pessoais sensíveis (conforme permitido pela lei aplicável, incluindo a lei de privacidade da Califórnia)",
+            "Direito de não participar da coleta de dados sensíveis e dados pessoais coletados através da operação de um recurso de reconhecimento de voz ou facial (conforme permitido pela lei aplicável, incluindo a lei de privacidade da Flórida)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Como Exercer Seus Direitos"
+        },
+        {
+          "type": "p",
+          "text": "Para exercer esses direitos, você pode entrar em contato conosco visitando support@savloapp.com, nos enviando um e-mail para support@savloapp.com, ou consultando os dados de contato na parte inferior deste documento."
+        },
+        {
+          "type": "p",
+          "text": "Sob certas leis de proteção de dados dos estados dos EUA, você pode designar um agente autorizado para fazer uma solicitação em seu nome. Podemos negar uma solicitação de um agente autorizado que não submeter prova de que foi validamente autorizado a agir em seu nome de acordo com as leis aplicáveis."
+        },
+        {
+          "type": "h3",
+          "text": "Verificação de Solicitação"
+        },
+        {
+          "type": "p",
+          "text": "Após receber sua solicitação, precisaremos verificar sua identidade para determinar se você é a mesma pessoa sobre quem temos as informações em nosso sistema. Usaremos apenas as informações pessoais fornecidas em sua solicitação para verificar sua identidade ou autoridade para fazer a solicitação. No entanto, se não pudermos verificar sua identidade a partir das informações já mantidas por nós, podemos solicitar que você forneça informações adicionais para os fins de verificar sua identidade e por razões de segurança ou prevenção de fraudes."
+        },
+        {
+          "type": "p",
+          "text": "Se você submeter a solicitação por meio de um agente autorizado, podemos precisar coletar informações adicionais para verificar sua identidade antes de processar sua solicitação e o agente precisará fornecer uma permissão escrita e assinada de você para submeter tal solicitação em seu nome."
+        },
+        {
+          "type": "h3",
+          "text": "Apelações"
+        },
+        {
+          "type": "p",
+          "text": "Sob certas leis de proteção de dados dos estados dos EUA, se recusarmos a tomar uma ação em relação à sua solicitação, você pode apelar de nossa decisão nos enviando um e-mail para support@savloapp.com. Informaremos você por escrito sobre qualquer ação tomada ou não tomada em resposta à apelação, incluindo uma explicação escrita das razões para as decisões. Se sua apelação for negada, você pode submeter uma reclamação ao procurador-geral do seu estado."
+        },
+        {
+          "type": "h3",
+          "text": "Lei da Califórnia \"Shine The Light\""
+        },
+        {
+          "type": "p",
+          "text": "O Código Civil da Califórnia Seção 1798.83, também conhecida como lei \"Shine The Light\", permite que nossos usuários que são residentes da Califórnia solicitem e obtenham de nós, uma vez por ano e sem custo, informações sobre categorias de informações pessoais (se houver) que divulgamos a terceiros para fins de marketing direto e os nomes e endereços de todos os terceiros com quem compartilhamos informações pessoais no calendário imediatamente anterior. Se você é residente da Califórnia e gostaria de fazer tal solicitação, por favor submeta sua solicitação por escrito para nós usando os dados de contato fornecidos na seção \"COMO VOCÊ PODE ENTRAR EM CONTATO CONOSCO SOBRE ESTE AVISO?\"."
+        }
+      ]
+    },
+    {
+      "id": "14-do-we-make-updates-to-this-notice",
+      "heading": "14. FAZEMOS ATUALIZAÇÕES NESTE AVISO?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Resumindo: Sim, atualizaremos este aviso conforme necessário para permanecer em conformidade com as leis relevantes."
+        },
+        {
+          "type": "p",
+          "text": "Podemos atualizar este Aviso de Privacidade de tempos em tempos. A versão atualizada será indicada por uma data \"Revisada\" atualizada no topo deste Aviso de Privacidade. Se fizermos alterações materiais neste Aviso de Privacidade, podemos notificá-lo publicando um aviso de tais alterações de forma proeminente ou enviando diretamente uma notificação. Encorajamos você a revisar este Aviso de Privacidade frequentemente para ser informado sobre como estamos protegendo suas informações."
+        }
+      ]
+    },
+    {
+      "id": "15-how-can-you-contact-us-about-this-notice",
+      "heading": "15. COMO VOCÊ PODE ENTRAR EM CONTATO CONOSCO SOBRE ESTE AVISO?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Se você tiver dúvidas ou comentários sobre este aviso, pode nos enviar um e-mail para support@savloapp.com ou entrar em contato conosco por correspondência em:"
+        },
+        {
+          "type": "p",
+          "text": "Savlo\nBahia Blanca\nBahia Blanca, Buenos Aires 8000\nArgentina"
+        }
+      ]
+    },
+    {
+      "id": "16-how-can-you-review-update-or-delete-the-data-we-collect-from-you",
+      "heading": "16. COMO VOCÊ PODE REVISAR, ATUALIZAR OU EXCLUIR OS DADOS QUE COLETAMOS DE VOCÊ?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Com base nas leis aplicáveis do seu país ou estado de residência nos EUA, você pode ter o direito de solicitar acesso às informações pessoais que coletamos de você, detalhes sobre como processamos, corrigir imprecisões ou excluir suas informações pessoais. Você também pode ter o direito de retirar seu consentimento para o processamento de suas informações pessoais. Esses direitos podem ser limitados em algumas circunstâncias pela lei aplicável. Para solicitar revisão, atualização ou exclusão de suas informações pessoais, por favor visite: support@savloapp.com."
+        }
+      ]
+    }
+  ],
+  "footerNote": "Esta Política de Privacidade foi criada usando o Gerador de Política de Privacidade da Termly."
+}

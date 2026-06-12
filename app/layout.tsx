@@ -78,7 +78,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${fraunces.variable} bg-background`}>
+    <html lang="en" suppressHydrationWarning className={`${dmSans.variable} ${fraunces.variable} bg-background`}>
       <head>
         <Script id="savlo-html-lang" strategy="beforeInteractive">
           {`(() => {

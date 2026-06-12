@@ -1,0 +1,599 @@
+{
+  "title": "Nutzungsbedingungen",
+  "description": "Lesen Sie die Nutzungsbedingungen von Savlo und die rechtlichen Informationen der App für persönliche Finanzen.",
+  "lastUpdated": "Letzte Aktualisierung 24. Mai 2026",
+  "tocItems": [
+    { "id": "1-nuestros-servicios", "label": "1. UNSERE DIENSTE" },
+    { "id": "2-derechos-de-propiedad-intelectual", "label": "2. GEISTIGES EIGENTUM" },
+    { "id": "3-representaciones-de-los-usuarios", "label": "3. ERKLÄRUNGEN DER BENUTZER" },
+    { "id": "4-registro-de-usuario", "label": "4. BENUTZERREGISTRIERUNG" },
+    { "id": "5-compras-y-pagos", "label": "5. KÄUFE UND ZAHLUNGEN" },
+    { "id": "6-suscripciones", "label": "6. ABONNEMENTS" },
+    { "id": "7-software", "label": "7. SOFTWARE" },
+    { "id": "8-actividades-prohibidas", "label": "8. VERBOTENE AKTIVITÄTEN" },
+    { "id": "9-contribuciones-generadas-por-el-usuario", "label": "9. VOM BENUTZER ERSTELLTE BEITRÄGE" },
+    { "id": "10-licencia-de-contribucion", "label": "10. BEITRAGSLIZENZ" },
+    { "id": "11-licencia-de-aplicacion-movil", "label": "11. MOBILAPP-LIZENZ" },
+    { "id": "12-sitios-web-y-contenido-de-terceros", "label": "12. WEBSITES UND INHALTE DRITTER" },
+    { "id": "13-gestion-de-servicios", "label": "13. DIENSTSTEUERUNG" },
+    { "id": "14-politica-de-privacidad", "label": "14. DATENSCHUTZRICHTLINIE" },
+    { "id": "15-plazo-y-terminacion", "label": "15. LAUFZEIT UND KÜNDIGUNG" },
+    { "id": "16-modificaciones-e-interrupciones", "label": "16. ÄNDERUNGEN UND UNTERBRECHUNGEN" },
+    { "id": "17-ley-aplicable", "label": "17. ANWENDBARES RECHT" },
+    { "id": "18-resolucion-de-disputas", "label": "18. STREITBEILEGUNG" },
+    { "id": "19-correcciones", "label": "19. KORREKTUREN" },
+    { "id": "20-descargo-de-responsabilidad", "label": "20. HAFTUNGSAUSSCHLUSS" },
+    { "id": "21-limitaciones-de-responsabilidad", "label": "21. HAFTUNGSBESCHRÄNKUNGEN" },
+    { "id": "22-indemnizacion", "label": "22. FREISTELLUNG" },
+    { "id": "23-datos-del-usuario", "label": "23. BENUTZERDATEN" },
+    { "id": "24-comunicaciones-transacciones-y-firmas-electronicas", "label": "24. KOMMUNIKATIONEN, TRANSAKTIONEN UND ELEKTRONISCHE UNTERSCHRIFTEN" },
+    { "id": "25-usuarios-y-residentes-de-california", "label": "25. BENUTZER UND EINWOHNER VON KALIFORNIEN" },
+    { "id": "26-varios", "label": "26. VERSCHIEDENES" },
+    { "id": "27-decisiones-financieras-del-usuario", "label": "27. FINANZENTSCHEIDUNGEN DES BENUTZERS" },
+    { "id": "28-contactenos", "label": "28. KONTAKT" }
+  ],
+  "sections": [
+    {
+      "id": "aceptacion-de-nuestros-terminos-legales",
+      "heading": "AKZEPTANZ UNSERER RECHTLICHEN BEDINGUNGEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir sind Savlo (\"Gesellschaft\", \"wir\", \"uns\", \"unser\"), ein in Argentinien registriertes Unternehmen mit Sitz in Bahía Blanca, Bahía Blanca, Buenos Aires 8000."
+        },
+        {
+          "type": "p",
+          "text": "Wir betreiben die mobile Anwendung Savlo (die \"Anwendung\") sowie jedes andere Produkt oder Dienst, der sich auf diese rechtlichen Bedingungen (die \"Rechtlichen Bedingungen\") bezieht oder darauf verweist (zusammen die \"Dienste\")."
+        },
+        {
+          "type": "p",
+          "text": "Savlo ist eine App für persönliche Finanzen, die Benutzern hilft, ihre Ausgaben und Einnahmen nachzuverfolgen und zu verwalten, Sparziele zu setzen und wertvolle, auf Künstlicher Intelligenz basierende Erkenntnisse über ihre Ausgabegewohnheiten zu erhalten."
+        },
+        {
+          "type": "p",
+          "text": "Sie können uns per E-Mail unter support@savloapp.com oder per Post an Bahía Blanca, Bahía Blanca, Buenos Aires 8000, Argentinien erreichen."
+        },
+        {
+          "type": "p",
+          "text": "Diese Rechtlichen Bedingungen bilden eine rechtlich bindende Vereinbarung zwischen Ihnen, persönlich oder im Namen einer Organisation (\"Sie\"), und Savlo in Bezug auf Ihren Zugang zu den Diensten und deren Nutzung. Mit dem Zugang zu den Diensten bestätigen Sie, dass Sie diese Rechtlichen Bedingungen gelesen, verstanden haben und sich zur Einhaltung aller dieser Rechtlichen Bedingungen verpflichten. WENN SIE MIT ALLEN DIESEN RECHTLICHEN BEDINGUNGEN NICHT EINVERSTANDEN SIND, IST IHNEN DIE NUTZUNG DER DIENSTE AUSDRÜCKLICH UNTERSAGT, UND SIE MÜSSEN DIE NUTZUNG SOFORT EINSTELLEN."
+        },
+        {
+          "type": "p",
+          "text": "Ergänzende Geschäftsbedingungen oder Dokumente, die von Zeit zu Zeit in den Diensten veröffentlicht werden, werden ausdrücklich durch Bezugnahme in dieses Dokument einbezogen. Wir behalten uns das Recht vor, nach eigenem Ermessen Änderungen oder Modifikationen an diesen Rechtlichen Bedingungen vorzunehmen. Wir werden Sie über Änderungen informieren, indem wir das Datum der \"Letzten Aktualisierung\" aktualisieren. Durch die fortgesetzte Nutzung der Dienste nach dem Veröffentlichungsdatum dieser überarbeiteten Rechtlichen Bedingungen verzichten Sie auf das Recht, eine spezifische Benachrichtigung über jede Änderung zu erhalten. Es ist Ihre Verantwortung, diese Rechtlichen Bedingungen regelmäßig zu überprüfen, um über Aktualisierungen informiert zu bleiben."
+        },
+        {
+          "type": "p",
+          "text": "Die Dienste sind für Benutzer über 18 Jahren bestimmt. Personen unter 18 Jahren ist die Nutzung oder Registrierung bei den Diensten nicht gestattet."
+        },
+        {
+          "type": "p",
+          "text": "Wir empfehlen Ihnen, einen Ausdruck dieser Rechtlichen Bedingungen für Ihre Unterlagen aufzubewahren."
+        }
+      ]
+    },
+    {
+      "id": "1-nuestros-servicios",
+      "heading": "1. UNSERE DIENSTE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Die bei Nutzung der Dienste bereitgestellten Informationen sind nicht zur Verteilung oder Nutzung durch Personen oder Organisationen in Gerichtsbarkeiten oder Ländern bestimmt, in denen eine solche Verteilung oder Nutzung gegen Gesetze oder Vorschriften verstößt oder uns einem Registrierungserfordernis in solchen Gerichtsbarkeiten oder Ländern unterwirft. Daher tun diejenigen, die sich für den Zugang zu den Diensten aus anderen Standorten entscheiden, dies auf eigene Verantwortung und sind allein für die Einhaltung der lokalen Gesetze verantwortlich, sofern diese anwendbar sind."
+        },
+        {
+          "type": "p",
+          "text": "Die Dienste sind nicht darauf ausgelegt, industriespezifische Vorschriften (Health Insurance Portability and Accountability Act [HIPAA], Federal Information Security Management Act [FISMA] usw.) zu erfüllen. Wenn Ihre Interaktionen diesen Gesetzen unterliegen, können Sie die Dienste nicht nutzen. Ebenso dürfen Sie die Dienste nicht in einer Weise nutzen, die den Gramm-Leach-Bliley Act (GLBA) verletzt."
+        }
+      ]
+    },
+    {
+      "id": "2-derechos-de-propiedad-intelectual",
+      "heading": "2. GEISTIGES EIGENTUM",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Unser geistiges Eigentum"
+        },
+        {
+          "type": "p",
+          "text": "Wir sind Eigentümer oder Lizenznehmer aller geistigen Eigentumsrechte an unseren Diensten, einschließlich des gesamten Quellcodes, der Datenbanken, Funktionalität, Software, Webdesigns, Audio, Video, Texte, Fotografien und Grafiken in den Diensten (zusammen der \"Inhalt\") sowie der darin enthaltenen Marken, Servicemarken und Logos (die \"Marken\")."
+        },
+        {
+          "type": "p",
+          "text": "Unsere Inhalte und Marken sind durch Urheberrechts- und Markengesetze (sowie diverse andere Gesetze über geistiges Eigentum und unlauteren Wettbewerb) und Verträge in den Vereinigten Staaten und weltweit geschützt."
+        },
+        {
+          "type": "p",
+          "text": "Der Inhalt und die Marken werden \"WIE SIE SIND\" über die Dienste für Ihren persönlichen und nicht-kommerziellen Gebrauch bereitgestellt."
+        },
+        {
+          "type": "h3",
+          "text": "Ihre Nutzung unserer Dienste"
+        },
+        {
+          "type": "p",
+          "text": "Vorbehaltlich Ihrer Einhaltung dieser Rechtlichen Bedingungen, einschließlich des Abschnitts \"VERBOTENE AKTIVITÄTEN\" unten, gewähren wir Ihnen eine nicht-exklusive, nicht übertragbare und widerrufliche Lizenz zur:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nutzung der Dienste; und",
+            "Herunterladen oder Ausdrucken einer Kopie jedes Teils des Inhalts, auf den Sie ordnungsgemäß zugegriffen haben,"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ausschließlich für Ihren persönlichen und nicht-kommerziellen Gebrauch."
+        },
+        {
+          "type": "p",
+          "text": "Ungeachtet des in diesem Abschnitt oder an anderer Stelle unserer Rechtlichen Bedingungen Ausgeführten darf kein Teil der Dienste und kein Inhalt oder Marke ohne unsere vorherige ausdrückliche schriftliche Genehmigung kopiert, vervielfältigt, hinzugefügt, erneut veröffentlicht, hochgeladen, öffentlich dargestellt, kodiert, übersetzt, übertragen, verteilt, verkauft, lizenziert oder in sonstiger Weise für kommerzielle Zwecke genutzt werden."
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie die Dienste, den Inhalt oder die Marken auf eine von diesem Abschnitt oder an anderer Stelle unserer Rechtlichen Bedingungen abweichende Weise nutzen möchten, richten Sie Ihre Anfrage an: support@savloapp.com. Sollten wir Ihnen jemals die Genehmigung erteilen, einen Teil unserer Dienste oder unseres Inhalts zu veröffentlichen, zu vervielfältigen oder öffentlich darzustellen, müssen Sie uns als Eigentümer oder Lizenznehmer der Dienste, des Inhalts oder der Marken identifizieren und sicherstellen, dass ein Urheberrechtshinweis oder ein Hinweis auf geistiges Eigentum beim Veröffentlichen, Vervielfältigen oder Darstellen unseres Inhalts sichtbar ist."
+        },
+        {
+          "type": "p",
+          "text": "Wir behalten uns alle Rechte vor, die Ihnen in Bezug auf die Dienste, den Inhalt und die Marken nicht ausdrücklich eingeräumt werden."
+        },
+        {
+          "type": "p",
+          "text": "Jede Verletzung dieser geistigen Eigentumsrechte stellt einen schwerwiegenden Verstoß gegen unsere Rechtlichen Bedingungen dar, und Ihr Recht zur Nutzung unserer Dienste endet unverzüglich."
+        },
+        {
+          "type": "h3",
+          "text": "Ihre Einreichungen"
+        },
+        {
+          "type": "p",
+          "text": "Bitte lesen Sie diesen Abschnitt und den Abschnitt \"VERBOTENE AKTIVITÄTEN\" sorgfältig durch, bevor Sie unsere Dienste nutzen, um zu verstehen: (a) welche Rechte Sie uns einräumen und (b) welche Verpflichtungen Sie haben, wenn Sie Inhalte über die Dienste veröffentlichen oder hochladen."
+        },
+        {
+          "type": "p",
+          "text": "Einreichungen: Wenn Sie uns direkt Fragen, Kommentare, Vorschläge, Ideen, Meinungen oder andere Informationen über die Dienste übermitteln (\"Einreichungen\"), stimmen Sie mit der Übermittlung dieses Materials zu, uns alle geistigen Eigentumsrechte daran zu übertragen. Ebenso stimmen Sie zu, dass wir Eigentümer dieses Materials sein werden und das Recht haben, es uneingeschränkt für jeden rechtmäßigen, kommerziellen oder anderen Zweck zu nutzen und zu verbreiten, ohne dass eine Anerkennung oder Entschädigung erforderlich ist."
+        },
+        {
+          "type": "p",
+          "text": "Sie sind für das verantwortlich, was Sie veröffentlichen oder hochladen: Wenn Sie Einreichungen über einen Teil der Dienste an uns übermitteln, Sie:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "bestätigen, dass Sie unsere Geschäftsbedingungen (\"VERBOTENE AKTIVITÄTEN\") gelesen haben und akzeptieren, und dass Sie über die Dienste keine Einreichungen veröffentlichen, übermitteln, offenlegen, hochladen oder senden werden, die rechtswidrig, belästigend, hassverhetzend, schädlich, verleumderisch, obszön, Einschüchterung ausübend, missbräuchlich, diskriminierend, bedrohlich für Personen oder Gruppen, sexuell explizit, falsch, ungenau, irreführend oder verwirrend sind;",
+            "soweit nach geltendem Recht zulässig, auf sämtliche Urheberpersönlichkeitsrechte bezüglich einer solchen Einreichung verzichten;",
+            "garantieren, dass solche Einreichungen von Ihnen stammen oder dass Sie die erforderlichen Rechte und Lizenzen haben, solche Einreichungen einzureichen, und dass Sie die volle Befugnis haben, uns die oben genannten Rechte in Bezug auf Ihre Einreichungen zu übertragen; und",
+            "garantieren und versichern, dass Ihre Einreichungen keine vertraulichen Informationen enthalten."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sie sind allein verantwortlich für Ihre Einreichungen, und Sie stimmen ausdrücklich zu, uns für alle Verluste zu entschädigen, die wir aufgrund Ihrer Nichteinhaltung von (a) diesem Abschnitt, (b) den geistigen Eigentumsrechten eines Dritten oder (c) geltendem Recht erleiden können."
+        }
+      ]
+    },
+    {
+      "id": "3-representaciones-de-los-usuarios",
+      "heading": "3. ERKLÄRUNGEN DER BENUTZER",
+      "content": [
+        {
+          "type": "p",
+          "text": "Mit der Nutzung der Dienste erklären und garantieren Sie, dass: (1) alle von Ihnen übermittelten Registrierungsinformationen wahr,准确, aktuell und vollständig sind; (2) Sie die Accuracy dieser Informationen aufrechterhalten und diese Registrierungsinformationen bei Bedarf aktuell halten; (3) Sie die rechtliche Fähigkeit haben und diesen Rechtlichen Bedingungen zustimmen; (4) Sie in der Gerichtszone, in der Sie wohnen, nicht minderjährig sind; (5) Sie nicht über automatisierte oder nicht-menschliche Mittel auf die Dienste zugreifen, sei es über Bots, Skripte oder andere Wege; (6) Sie die Dienste nicht für illegale oder nicht genehmigte Zwecke nutzen werden; und (7) Ihre Nutzung der Dienste kein geltendes Gesetz oder keine geltende Verordnung verletzen wird."
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie unrichtige, ungenaue, veraltete oder unvollständige Informationen bereitstellen, haben wir das Recht, Ihr Konto auszusetzen oder zu kündigen und die jetzige oder zukünftige Nutzung der Dienste (oder eines Teils davon) abzulehnen."
+        }
+      ]
+    },
+    {
+      "id": "4-registro-de-usuario",
+      "heading": "4. BENUTZERREGISTRIERUNG",
+      "content": [
+        {
+          "type": "p",
+          "text": "Möglicherweise müssen Sie sich registrieren, um die Dienste zu nutzen. Sie verpflichten sich, die Vertraulichkeit Ihres Passworts zu wahren, und sind für die Nutzung Ihres Kontos und Passworts verantwortlich. Wir behalten uns das Recht vor, den von Ihnen gewählten Benutzernamen zu löschen, wiederherzustellen oder umzubenennen, wenn wir nach eigenem Ermessen feststellen, dass dieser Benutzername unangemessen, obszön oder anderweitig anstößig ist."
+        }
+      ]
+    },
+    {
+      "id": "5-compras-y-pagos",
+      "heading": "5. KÄUFE UND ZAHLUNGEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir akzeptieren folgende Zahlungsmethoden:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Google Play Store / Apple App Store"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sie stimmen zu, aktuelle, vollständige und genaue Kauf- und Kontoinformationen für alle über die Dienste getätigten Käufe bereitzustellen. Ebenso stimmen Sie zu, Kontoinformations- und Zahlungsinformationen, einschließlich E-Mail-Adresse, Zahlungsmethode und Ablaufdatum der Zahlungskarte, rechtzeitig zu aktualisieren, damit wir Ihre Transaktionen abschließen und Sie bei Bedarf kontaktieren können. Die Umsatzsteuer wird dem Kaufpreis hinzugefügt, wie wir es für notwendig erachten. Wir können die Preise jederzeit ändern. Alle Zahlungen erfolgen in US-Dollar."
+        },
+        {
+          "type": "p",
+          "text": "Sie stimmen zu, alle Gebühren zu den zu dem jeweiligen Zeitpunkt geltenden Preisen für Ihre Käufe und eventuelle anwendbare Versandgebühren zu zahlen, und Sie ermächtigen uns, diese Beträge bei Auftragserteilung an Ihren gewählten Zahlungsdienstleister zu belasten. Wir behalten uns das Recht vor, Fehler in den Preisen zu korrigieren, selbst wenn wir die Zahlung bereits angefordert oder erhalten haben."
+        },
+        {
+          "type": "p",
+          "text": "Wir behalten uns das Recht vor, Bestellungen über die Dienste abzulehnen. Wir können nach eigenem Ermessen die pro Person, pro Haushalt oder pro Bestellung gekauften Mengen beschränken oder stornieren. Diese Beschränkungen können Bestellungen umfassen, die von oder unter demselben Kundenkonto, derselben Zahlungsmethode und/oder mit derselben Rechnungs- oder Versandadresse aufgegeben werden. Wir behalten uns das Recht vor, Bestellungen zu beschränken oder zu untersagen, die nach unserem Ermessen von Händlern, Wiederverkäufern oder Distributoren aufgegeben zu sein scheinen."
+        }
+      ]
+    },
+    {
+      "id": "6-suscripciones",
+      "heading": "6. ABONNEMENTS",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Abrechnung und Verlängerung"
+        },
+        {
+          "type": "p",
+          "text": "Ihr Abonnement läuft weiter und wird automatisch verlängert, sofern es nicht gekündigt wird. Sie stimmen zu, dass wir Ihr Zahlungsmittel ohne Ihre vorherige Genehmigung für jede wiederkehrende Zahlung belasten, bis Sie die entsprechende Bestellung kündigen. Die Dauer Ihres Abrechnungszyklus hängt von dem von Ihnen bei der Anmeldung für die Dienste gewählten Abonnementplan ab."
+        },
+        {
+          "type": "h3",
+          "text": "Kostenlose Testversion"
+        },
+        {
+          "type": "p",
+          "text": "Wir bieten eine 7-tägige kostenlose Testversion für neue Benutzer, die sich bei den Diensten registrieren. Die Kontobelastung erfolgt gemäß dem vom Benutzer am Ende der kostenlosen Testphase gewählten Abonnement."
+        },
+        {
+          "type": "h3",
+          "text": "Kündigung"
+        },
+        {
+          "type": "p",
+          "text": "Sie können Ihr Abonnement jederzeit kündigen, indem Sie sich in Ihr Konto einloggen. Die Kündigung wird zum Ende des aktuellen bezahlten Zeitraums wirksam. Wenn Sie Fragen haben oder mit unseren Diensten nicht zufrieden sind, senden Sie uns eine E-Mail an support@savloapp.com."
+        },
+        {
+          "type": "h3",
+          "text": "Preisänderungen"
+        },
+        {
+          "type": "p",
+          "text": "Gelegentlich können wir die Abonnementsgebühr ändern, und wir werden Sie über Preiseänderungen gemäß dem geltenden Recht informieren."
+        }
+      ]
+    },
+    {
+      "id": "7-software",
+      "heading": "7. SOFTWARE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir können Software zur Nutzung im Zusammenhang mit unseren Diensten bereitstellen. Wenn diese Software mit einer Endbenutzer-Lizenzvereinbarung (\"EULA\") geliefert wird, gelten für Ihre Nutzung der Software die Bestimmungen der EULA. Wenn diese Software nicht mit einer EULA geliefert wird, gewähren wir Ihnen eine nicht-exklusive, widerrufliche, persönliche und nicht übertragbare Lizenz zur Nutzung dieser Software ausschließlich im Zusammenhang mit unseren Diensten und in Übereinstimmung mit diesen Rechtlichen Bedingungen. Jede Software und zugehörige Dokumentation wird \"WIE SIE SIND\" ohne Gewährleistung jeglicher Art bereitgestellt, weder ausdrücklich noch stillschweigend, einschließlich, aber nicht beschränkt auf, stillschweigende Gewährleistungen der Marktfähigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung von Rechten. Sie übernehmen jedes Risiko, das sich aus der Nutzung oder dem Betrieb einer beliebigen Software ergibt. Sie dürfen keine Software reproduzieren oder weiterverteilen, es sei denn, dies ist in Übereinstimmung mit der EULA oder diesen Rechtlichen Bedingungen gestattet."
+        }
+      ]
+    },
+    {
+      "id": "8-actividades-prohibidas",
+      "heading": "8. VERBOTENE AKTIVITÄTEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Sie dürfen die Dienste nur für den Zweck nutzen, für den wir sie zur Verfügung stellen. Die Dienste dürfen nicht in Verbindung mit kommerziellen Zwecken genutzt werden, es sei denn, diese Aktivitäten werden von uns speziell unterstützt oder genehmigt."
+        },
+        {
+          "type": "p",
+          "text": "Als Benutzer der Dienste stimmen Sie zu, nicht:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Systematisch Daten oder andere Inhalte von den Diensten abzurufen, um ohne unsere schriftliche Genehmigung eine Sammlung, Zusammenstellung, Datenbank oder Verzeichnis zu erstellen oder zusammenzustellen, direkt oder indirekt.",
+            "Uns, andere Benutzer und insbesondere in jedem Versuch, vertrauliche Kontoinformationen wie Benutzerpasswörter zu erhalten, zu täuschen, zu betrügen oder in die Irre zu führen.",
+            "Sicherheitsfunktionen der Dienste zu umgehen, zu deaktivieren oder anderweitig zu stören, einschließlich Funktionen, die die Nutzung oder Vervielfältigung jeglichen Inhalts verhindern oder beschränken oder die Nutzung der Dienste und/oder der darin enthaltenen Inhalte einschränken.",
+            "Uns und/oder die Dienste nach unserer Meinung herabzusetzen, zu verunglimpfen oder anderweitig zu schädigen.",
+            "Keine Informationen, die über die Dienste erhalten wurden, zu verwenden, um eine andere Person zu belästigen, zu missbrauchen oder zu schädigen.",
+            "Unsere Supportservices missbräuchlich zu nutzen oder falsche Missbrauchs- oder Fehlverhaltensberichte einzureichen.",
+            "Die Dienste auf eine Weise zu nutzen, die nicht mit geltenden Gesetzen oder Verordnungen vereinbar ist.",
+            "An nicht autorisierter Nutzung von Frames oder Links zu den Diensten teilzunehmen.",
+            "Viren, Trojaner oder anderes Material hochzuladen oder zu übertragen (oder zu versuchen, hochzuladen oder zu übertragen), einschließlich übermäßiger Großbuchstabennutzung und Spam-Versendung (fortlaufende Veröffentlichung wiederholenden Texts), das die ununterbrochene Nutzung und den Genuss der Dienste durch jeden Benutzer beeinträchtigt oder das die Nutzung, Merkmale, Funktionsweise, den Betrieb oder die Wartung der Dienste verändert, beeinträchtigt, unterbricht, altersbestimmt oder anderweitig stört.",
+            "Jegliche automatisierte Nutzung des Systems, wie die Nutzung von Skripten zum Senden von Kommentaren oder Nachrichten, oder die Nutzung von Datenmining, Robots oder ähnlichen Datenerfassungs- und Extraktionswerkzeugen.",
+            "Urheberrechtshinweise oder andere Eigentumshinweise von jeglichem Inhalt zu entfernen.",
+            "Zu versuchen, sich als einen anderen Benutzer oder eine andere Person auszugeben, oder den Benutzernamen eines anderen Benutzers zu verwenden.",
+            "Jegliches Material hochzuladen oder zu übertragen (oder zu versuchen, hochzuladen oder zu übertragen), das als passiver oder aktiver Mechanismus zur Informationserfassung oder -übertragung dient, einschließlich, aber nicht beschränkt auf, Graphics Interchange Format (\"GIFs\"), 1x1-Pixel, Web-Bugs, Cookies oder ähnliche Vorrichtungen (manchmal als \"Spyware\" oder \"Passive Erfassungsmechanismen\" oder \"PCM\" bezeichnet).",
+            "Die Dienste oder mit den Diensten verbundene Netzwerke oder Dienste zu stören, zu unterbrechen oder eine unzumutbare Belastung zu erzeugen.",
+            "Unsere Mitarbeiter oder Vertreter, die an der Erbringung irgendeines Teils der Dienste beteiligt sind, zu belästigen, zu belästigen, einzuschüchtern oder zu bedrohen.",
+            "Zu versuchen, Sicherheitsmaßnahmen der Dienste zu umgehen, die darauf ausgelegt sind, den Zugang zu den Diensten oder zu einem Teil davon zu verhindern oder einzuschränken.",
+            "Die Software der Dienste zu kopieren oder anzupassen, einschließlich, aber nicht beschränkt auf, Flash, PHP, HTML, JavaScript oder anderen Code.",
+            "Sofern dies durch geltendes Recht nicht gestattet ist, keine Software zu entschlüsseln, zu dekompilieren, zu disassembieren oder reverse engineering anzuwenden, die Teil der Dienste ist oder diese anderweitig integriert.",
+            "Ausgenommen, wenn es das Ergebnis der Standardnutzung einer Internet-Suchmaschine oder eines Browsers ist, kein automatisiertes System zu nutzen, zu starten, zu entwickeln oder zu verbreiten, einschließlich, aber nicht beschränkt auf, Spider, Roboter, Cheat-Utility, Scraper oder Offline-Leser, die auf die Dienste zugreifen, oder nicht autorisierte Skripte oder andere Software zu starten.",
+            "Einen Einkaufsagenten zum Tätigen von Käufen über die Dienste zu nutzen.",
+            "Jegliche nicht autorisierte Nutzung der Dienste, einschließlich der Erfassung von Benutzernamen und/oder E-Mail-Adressen von Benutzern auf elektronischem oder anderem Wege zum Zwecke der Zusendung unerwünschter E-Mails oder der Erstellung von Benutzerkonten durch automatisierte Mittel oder unter falschen Vorspiegelungen.",
+            "Die Dienste als Teil jeglicher Bemühungen zu nutzen, um mit uns zu konkurrieren, oder die Dienste und/oder den Inhalt anderweitig für jegliche Einnahmen generierende Aktivität, Anleihen oder kommerzielle Unternehmen zu nutzen.",
+            "Ihr Profil zu verkaufen oder in sonstiger Weise zu übertragen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9-contribuciones-generadas-por-el-usuario",
+      "heading": "9. VOM BENUTZER ERSTELLTE BEITRÄGE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Der Dienst bietet den Benutzern nicht die Möglichkeit, Inhalte einzureichen oder zu veröffentlichen. Wir können Ihnen die Möglichkeit geben, Inhalte und Materialien für uns oder in den Diensten zu erstellen, zu senden, zu veröffentlichen, darzustellen, zu übertragen, auszuführen, zu veröffentlichen, zu verteilen oder zu verbreiten, einschließlich, aber nicht beschränkt auf, Texte, Schriften, Videos, Audio, Fotografien, Grafiken, Kommentare, Vorschläge oder persönliche Informationen oder anderes Material (zusammen \"Beiträge\"). Beiträge können von anderen Benutzern der Dienste und über Websites Dritter gesehen werden. Daher kann jeder Beitrag, den Sie übermitteln, gemäß der Datenschutzrichtlinie der Dienste behandelt werden. Bei der Erstellung oder Bereitstellung eines Beitrags erklären und garantieren Sie:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Die Erstellung, Verteilung, Übertragung, öffentliche Darbietung oder Aufführung sowie der Zugriff, das Herunterladen oder die Vervielfältigung Ihrer Beiträge verletzen oder werden die Eigentumsrechte Dritter nicht verletzen, einschließlich, aber nicht beschränkt, Urheberrechte, Patente, Marken, Geschäftsgeheimnisse oder Urheberpersönlichkeitsrechte Dritter.",
+            "Sie sind der Schöpfer und Eigentümer oder haben das erforderliche Recht, die Lizenzen, Rechte, Einwilligungen, Freigaben und Genehmigungen, um Ihre Beiträge zu nutzen und um uns, die Dienste und andere Benutzer der Dienste zu ermächtigen, Ihre Beiträge auf eine von den Diensten und diesen Rechtlichen Bedingungen vorgesehene Weise zu nutzen.",
+            "Sie haben die schriftliche Zustimmung, Genehmigung und/oder Erlaubnis jeder identifizierbaren Person in Ihren Beiträgen, den Namen oder das Bild einer jeden dieser identifizierbaren Personen zu nutzen, um die Einbeziehung und Nutzung Ihrer Beiträge auf eine von den Diensten und diesen Rechtlichen Bedingungen vorgesehene Weise zu ermöglichen.",
+            "Ihre Beiträge sind nicht falsch, ungenau oder irreführend.",
+            "Ihre Beiträge sind nicht unerbeten oder nicht genehmigt: Werbung, werbliches Material, MLM-Systeme, Kettenbriefe, Spam, Massenversendungen oder andere Formen der Werbung.",
+            "Ihre Beiträge sind nicht obszön, schmutzig, unanständig, schmutzig, gewalttätig oder belästigend, verleumderisch oder anderweitig anstößig (wie von uns bestimmt).",
+            "Ihre Beiträge verspotten, verspotten, verunglimpfen, schüchtern nicht ein und missbrauchen keine Person.",
+            "Ihre Beiträge werden nicht verwendet, um eine andere Person zu belästigen oder zu bedrohen (im rechtlichen Sinne dieser Begriffe) oder um Gewalt gegen eine bestimmte Person oder Personengruppe zu fördern.",
+            "Ihre Beiträge verletzen kein anwendbares Gesetz, keine Verordnung oder Norm.",
+            "Ihre Beiträge verletzen nicht das Privatsphäre- oder Bildrecht eines Dritten.",
+            "Ihre Beiträge verletzen kein anwendbares Gesetz in Bezug auf Kinderpornographie oder kein anderes Gesetz, das zum Schutz der Gesundheit oder des Wohlergehens Minderjährigener bestimmt ist.",
+            "Ihre Beiträge enthalten keine beleidigenden Kommentare in Bezug auf Rasse, nationale Herkunft, Geschlecht, sexuelle Orientierung oder körperliche Behinderung.",
+            "Ihre Beiträge verletzen keine Bestimmung dieser Rechtlichen Bedingungen oder kein anwendbares Gesetz oder keine anwendbare Verordnung und verlinken nicht auf Material, das dies tut."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Jede Nutzung der Dienste, die gegen das Vorstehende verstößt, stellt einen Verstoß gegen diese Rechtlichen Bedingungen dar und kann unter anderem zur Kündigung oder Aussetzung Ihrer Nutzungsrechte für die Dienste führen."
+        }
+      ]
+    },
+    {
+      "id": "10-licencia-de-contribucion",
+      "heading": "10. BEITRAGSLIZENZ",
+      "content": [
+        {
+          "type": "p",
+          "text": "Sie und die Dienste stimmen zu, dass wir auf Informationen und personenbezogene Daten, die Sie bereitstellen, zugreifen, sie speichern, verarbeiten und nutzen können, gemäß den Bestimmungen der Datenschutzrichtlinie und Ihren Einstellungen (einschließlich der Konfiguration)."
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie Vorschläge oder andere Kommentare über die Dienste einreichen, stimmen Sie zu, dass wir diese Kommentare ohne Entschädigung für Sie für jeden Zweck nutzen und weitergeben können."
+        },
+        {
+          "type": "p",
+          "text": "Wir erheben keine Eigentumsansprüche an Ihren Beiträgen. Sie behalten das volle Eigentum an all Ihren Beiträgen und an jedem damit verbundenen geistigen Eigentumsrecht oder sonstigem Eigentumsrecht. Wir übernehmen keine Verantwortung für Aussagen oder Darstellungen, die Sie in Ihren Beiträgen in irgendeinem Bereich der Dienste bereitstellen. Sie sind allein verantwortlich für Ihre Beiträge zu den Diensten und stimmen ausdrücklich zu, uns von jeder Verantwortung freizustellen und keine rechtlichen Schritte gegen uns in Bezug auf Ihre Beiträge einzuleiten."
+        }
+      ]
+    },
+    {
+      "id": "11-licencia-de-aplicacion-movil",
+      "heading": "11. MOBILAPP-LIZENZ",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Nutzungslizenz"
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie über die Anwendung auf die Dienste zugreifen, gewähren wir Ihnen ein widerrufbares, nicht-exklusives, nicht übertragbares und eingeschränktes Recht, die Anwendung auf drahtlosen elektronischen Geräten zu installieren und zu nutzen, die in Ihrem Eigentum stehen oder unter Ihrer Kontrolle sind, und auf diesen Geräten auf die Anwendung zuzugreifen und diese zu nutzen, streng in Übereinstimmung mit den Bedingungen dieser Mobilapp-Lizenz, die in diesen Rechtlichen Bedingungen enthalten ist. Sie dürfen nicht: (1) sofern dies durch geltendes Recht nicht gestattet ist, die Anwendung zu dekompilieren, reverse engineering anzuwenden, zu disassembieren, zu versuchen, den Quellcode abzuleiten, oder zu entschlüsseln; (2) keine Änderungen, Anpassungen, Verbesserungen, Optimierungen, Übersetzungen oder abgeleitete Werke der Anwendung vornehmen; (3) kein anwendbares Gesetz, keine Norm oder Verordnung in Bezug auf Ihren Zugang zu oder Ihre Nutzung der Anwendung verletzen; (4) keine Eigentumshinweise (einschließlich Urheberrechts- oder Markenhinweise), die von uns oder den Lizenzgebern der Anwendung veröffentlicht wurden, entfernen, verändern oder verbergen; (5) die Anwendung nicht für jegliche Einnahmen generierende Tätigkeit, kommerzielles Unternehmen oder anderen Zweck nutzen, für den sie nicht ausgelegt oder vorgesehen ist; (6) die Anwendung nicht über ein Netzwerk oder eine andere Umgebung bereitstellen, die den Zugang oder die Nutzung durch mehrere Geräte oder Benutzer gleichzeitig ermöglicht; (7) die Anwendung nicht nutzen, um ein Produkt, eine Dienstleistung oder Software zu erstellen, die direkt oder indirekt mit der Anwendung konkurriert oder diese anderweitig ersetzt; (8) die Anwendung nicht nutzen, um automatisierte Abfragen an eine Website zu senden oder unerwünschte kommerzielle E-Mails zu senden; oder (9) keine exklusiven Eigentumsinformationen oder unserer Interfaces oder sonstige geistige Eigentumsrechte von uns im Design, der Entwicklung, Fertigung, Lizenzierung oder Verbreitung einer Anwendung, eines Zubehörs oder eines Geräts zur Nutzung mit der Anwendung verwenden."
+        },
+        {
+          "type": "h3",
+          "text": "Apple- und Android-Geräte"
+        },
+        {
+          "type": "p",
+          "text": "Die folgenden Bestimmungen gelten, wenn Sie die Anwendung nutzen, die Sie von Apple Store oder Google Play erhalten haben (jede davon eine \"Anwendung\" und ein \"App-Distributor\"), um auf die Dienste zuzugreifen: (1) die Lizenz: Das Ihnen für unsere Anwendung eingeräumte Recht ist auf die nicht übertragbare Nutzung der Anwendung auf einem Gerät beschränkt, das die Betriebssysteme Apple iOS oder Android, je nach Fall, verwendet, und in Übereinstimmung mit den Nutzungsregeln, die in den Servicebedingungen des jeweiligen App-Distributors festgelegt sind; (2) wir sind verantwortlich für die Bereitstellung von Wartungs- und Supportleistungen bezüglich der Anwendung, wie in den Bestimmungen dieser Mobilapp-Lizenz in diesen Rechtlichen Bedingungen spezifiziert oder wie dies durch geltendes Recht vorgeschrieben ist, und Sie erkennen an, dass jeder App-Distributor keine Verpflichtung hat, Wartungs- und Supportleistungen bezüglich der Anwendung zu erbringen; (3) falls die Anwendung keine anwendbare Gewährleistung erfüllt, können Sie den entsprechenden App-Distributor benachrichtigen, und der App-Distributor kann gemäß seinen Bedingungen und Richtlinien den Kaufpreis, falls vorhanden, für die Anwendung erstatten, und im maximalen Umfang des geltenden Rechts wird der App-Distributor keine weitere Gewährleistungsverpflichtung bezüglich der Anwendung haben; (4) Sie erklären und garantieren, dass (i) Sie sich nicht in einem Land befinden, das einem US-Embargo unterliegt oder als \"Terrorismus unterstützendes\" Land durch die US-Regierung bezeichnet wurde, und (ii) Sie nicht in einer Liste der US-Regierung von verbotenen oder eingeschränkten Personen oder Organisationen aufgeführt sind; (5) Sie müssen die anwendbaren Drittanbietervertragsbedingungen einhalten, wenn Sie die Anwendung nutzen, z.B. wenn Sie eine VoIP-Anwendung haben, dürfen Sie Ihren Dienstvertrag mit ... nicht verletzen."
+        }
+      ]
+    },
+    {
+      "id": "12-sitios-web-y-contenido-de-terceros",
+      "heading": "12. WEBSITES UND INHALTE DRITTER",
+      "content": [
+        {
+          "type": "p",
+          "text": "Die Dienste können (oder können Ihnen über die Anwendung zugesendet werden) Links zu anderen Websites (\"Websites Dritter\") sowie Artikel, Fotografien, Texte, Grafiken, Bilder, Designs, Musik, Sound, Video, Informationen, Anwendungen, Software und andere Inhalte oder Elemente von Dritten oder stammend von Dritten enthalten (\"Inhalte Dritter\"). Solche Websites und Inhalte Dritter werden von uns nicht hinsichtlich ihrer Genauigkeit, Eignung oder Vollständigkeit untersucht, überwacht oder überprüft, und wir übernehmen keine Verantwortung für Drittanbieter-Websites, auf die über die Dienste zugegriffen wird, oder für Drittanbieter-Inhalte, die über die Dienste veröffentlicht, verfügbar sind oder installiert wurden, einschließlich des Inhalts, der Genauigkeit, des anstößigen Charakters, der Meinungen, der Zuverlässigkeit, der Datenschutzpraktiken oder anderer Richtlinien der Websites oder Inhalte Dritter. Die Aufnahme, der Link oder die Genehmigung der Nutzung oder Installation einer Website oder Inhalte Dritter stellt keine Unterstützung oder Genehmigung durch uns dar. Wenn Sie die Dienste verlassen und auf Websites Dritter zugreifen oder Inhalte Dritter nutzen oder installieren, geschieht dies auf eigene Gefahr, und Sie sollten beachten, dass diese Rechtlichen Bedingungen nicht mehr gelten. Sie sollten die anwendbaren Bestimmungen und Richtlinien, einschließlich der Datenschutz- und Datenerfassungspraktiken, jeder Website überprüfen, auf die Sie von den Diensten aus zugreifen, oder in Bezug auf jede Anwendung, die Sie von den Diensten aus nutzen oder installieren. Käufe, die Sie über Websites Dritter tätigen, werden über diese Websites und über andere Unternehmen abgewickelt, und wir übernehmen keine Verantwortung dafür, da solche Käufe ausschließlich zwischen Ihnen und dem jeweiligen Drittanbieter stattfinden. Sie stimmen zu und erkennen an, dass wir die über Websites Dritter angebotenen Produkte oder Dienste nicht unterstützen, und stellen uns von jeder Verantwortung für Schaden frei, der durch den Kauf solcher Produkte, Dienste und/oder Inhalte entsteht."
+        }
+      ]
+    },
+    {
+      "id": "13-gestion-de-servicios",
+      "heading": "13. DIENSTSTEUERUNG",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir behalten uns das Recht, aber nicht die Pflicht vor: (1) die Dienste zu überwachen, um Verstöße gegen diese Rechtlichen Bedingungen festzustellen; (2) die rechtlich geeigneten Maßnahmen gegen jede Person zu ergreifen, die nach unserem Ermessen das Gesetz oder diese Rechtlichen Bedingungen verletzt, einschließlich, aber nicht beschränkt auf, die Meldung dieses Benutzers bei den Polizeibehörden; (3) nach unserem Ermessen und ohne Einschränkung, Ihre Beiträge oder einen Teil davon abzulehnen, den Zugang einzuschränken, die Verfügbarkeit zu begrenzen oder zu deaktivieren (soweit dies technisch machbar ist); (4) nach unserem Ermessen und ohne Einschränkung, Vorankündigung oder Haftung, von den Diensten zu entfernen oder anderweitig zu deaktivieren alle Dateien und Inhalte, die übermäßig groß sind oder die unsere Systeme anderweitig belasten; und (5) die Dienste anderweitig zu steuern, die darauf ausgelegt sind, unsere Rechte und unser Eigentum zu schützen und den ordnungsgemäßen Betrieb der Dienste zu erleichtern."
+        }
+      ]
+    },
+    {
+      "id": "14-politica-de-privacidad",
+      "heading": "14. DATENSCHUTZRICHTLINIE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir legen Wert auf Datenschutz und Datensicherheit. Bitte lesen Sie unsere Datenschutzrichtlinie. Durch die Nutzung der Dienste stimmen Sie zu, an unsere Datenschutzrichtlinie gebunden zu sein, die in diese Rechtlichen Bedingungen einbezogen ist. Bitte beachten Sie, dass die Dienste in den Vereinigten Staaten gehostet werden. Wenn Sie aus einer anderen Region der Welt auf die Dienste zugreifen, in der Gesetze oder andere Anforderungen für die Erhebung, Nutzung oder Offenlegung personenbezogener Daten gelten, die von den in den Vereinigten Staaten geltenden Gesetzen abweichen, dann übertragen Sie durch die fortgesetzte Nutzung der Dienste Ihre Daten in die Vereinigten Staaten, und Sie stimmen ausdrücklich zu, dass Ihre Daten in die Vereinigten Staaten übertragen und dort verarbeitet werden."
+        }
+      ]
+    },
+    {
+      "id": "15-plazo-y-terminacion",
+      "heading": "15. LAUFZEIT UND KÜNDIGUNG",
+      "content": [
+        {
+          "type": "p",
+          "text": "Diese Rechtlichen Bedingungen bleiben in vollem Umfang und mit voller Wirkung bestehen, solange Sie die Dienste nutzen. UNBESCHRÄNKT DURCH JEGLICHE ANDERE BESTIMMUNG DIESER RECHTLICHEN BEDINGUNGEN BEHALTEN WIR UNS DAS RECHT VOR, NACH EIGENEM ERMESSEN UND OHNE VORHERIGE KÜNDIGUNG ODER HAFTUNG DEN ZUGANG UND DIE NUTZUNG DER DIENSTE (EINSCHLIESSLICH DER SPERRUNG BESTIMMTER IP-ADRESSEN) JEDER PERSON JEDEN GRUNDES ODER OHNE GRUND ZU VERWEIGERN, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF, DEN VERSTOSS GEGEN JEGLICHE ERKLÄRUNG, GEWÄHRLEISTUNG ODER VERPFLICHTUNG, DIE IN DIESEN RECHTLICHEN BEDINGUNGEN ENTHALTEN IST, ODER GEGEN JEGLICHES ANWENDBARES GESETZ ODER VERORDNUNG. WIR KÖNNEN IHRE NUTZUNG ODER TEILNAHME AN DEN DIENSTEN BEENDEN ODER IHR KONTO UND JEGLICHEN INHALT ODER JEGLICHE INFORMATION, DIE SIE VERÖFFENTLICHEN, ZU JEDEM ZEITPUNKT OHNE VORHERIGE KÜNDIGUNG NACH EIGENEM ERMESSEN ENTFERNEN."
+        },
+        {
+          "type": "p",
+          "text": "Wenn wir Ihr Konto aus irgendeinem Grund kündigen oder aussetzen, ist es Ihnen untersagt, sich erneut zu registrieren und ein neues Konto unter Ihrem Namen, einem falschen oder geliehenen Namen oder im Namen eines Dritten zu erstellen, selbst wenn Sie im Namen dieses Dritten handeln. Neben der Kündigung oder Aussetzung Ihres Kontos behalten wir uns das Recht vor, die rechtlich geeigneten Maßnahmen zu ergreifen, einschließlich, aber nicht beschränkt, zivil-, strafrechtlicher Schritte und einstweiliger Verfügung."
+        }
+      ]
+    },
+    {
+      "id": "16-modificaciones-e-interrupciones",
+      "heading": "16. ÄNDERUNGEN UND UNTERBRECHUNGEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir behalten uns das Recht vor, den Inhalt der Dienste jederzeit und aus jedem Grund nach eigenem Ermessen und ohne Vorankündigung zu ändern, zu modifizieren oder zu entfernen. Wir sind jedoch nicht verpflichtet, die Informationen unserer Dienste zu aktualisieren. Wir haften nicht Ihnen gegenüber oder gegenüber Dritten für Änderungen, Preisanpassungen, Aussetzungen oder Unterbrechungen der Dienste."
+        },
+        {
+          "type": "p",
+          "text": "Wir können nicht garantieren, dass die Dienste jederzeit verfügbar sind. Wir könnten auf Hardware-, Software- oder andere Probleme stoßen oder Wartungsarbeiten im Zusammenhang mit den Diensten durchführen müssen, was zu Unterbrechungen, Verzögerungen oder Fehlern führen könnte. Wir behalten uns das Recht vor, die Dienste jederzeit und aus jedem Grund ohne Vorankündigung zu ändern, zu überprüfen, zu aktualisieren, auszusetzen, zu unterbrechen oder zu modifizieren. Sie stimmen zu, dass wir für keinen Verlust, Schaden oder Nachteil haften, der durch die Unfähigkeit, während einer Ausfallzeit oder Unterbrechung der Dienste auf diese zuzugreifen oder sie zu nutzen, verursacht wird. Nichts in diesen Rechtlichen Bedingungen wird als Verpflichtung unsererseits ausgelegt, die Dienste aufrechtzuerhalten und Support bereitzustellen oder Korrekturen, Aktualisierungen oder neue Versionen in Bezug auf diese bereitzustellen."
+        }
+      ]
+    },
+    {
+      "id": "17-ley-aplicable",
+      "heading": "17. ANWENDBARES RECHT",
+      "content": [
+        {
+          "type": "p",
+          "text": "Diese Rechtlichen Bedingungen werden durch die Gesetze Argentiniens geregelt und ausgelegt. Savlo und Sie stimmen unwiderruflich zu, dass die Gerichte Argentiniens ausschließliche Zuständigkeit für die Beilegung jeglicher Streitigkeiten haben, die sich im Zusammenhang mit diesen Rechtlichen Bedingungen ergeben können."
+        }
+      ]
+    },
+    {
+      "id": "18-resolucion-de-disputas",
+      "heading": "18. STREITBEILEGUNG",
+      "content": [
+        {
+          "type": "h3",
+          "text": "Informelle Verhandlungen"
+        },
+        {
+          "type": "p",
+          "text": "Um die Beilegung und Kostenkontrolle jeglicher Streitigkeit, Kontroverse oder Anspruchs im Zusammenhang mit diesen Rechtlichen Bedingungen (jede davon eine \"Streitigkeit\" und zusammen \"Streitigkeiten\"), die von Ihnen oder von uns erhoben wird (jeweils eine \"Partei\" und zusammen \"Parteien\"), zu beschleunigen, vereinbaren die Parteien, zunächst jede Streitigkeit (mit Ausnahme der nachstehend ausdrücklich vorgesehenen Streitigkeiten) auf informelle Weise während mindestens dreißig (30) Tagen vor Einleitung eines Schiedsverfahrens zu verhandeln. Solche informellen Verhandlungen beginnen mit einer schriftlichen Benachrichtigung einer Partei an die andere."
+        },
+        {
+          "type": "h3",
+          "text": "Rechtskräftiges Schiedsverfahren"
+        },
+        {
+          "type": "p",
+          "text": "Jede Kontroverse, die sich aus diesen Rechtlichen Bedingungen oder im Zusammenhang mit diesen Rechtlichen Bedingungen ergibt, einschließlich jeder Frage in Bezug auf ihre Existenz, Gültigkeit oder Beendigung, wird dem Internationalen Handelsgericht der Europäischen Schiedskammer (Belgien, Brüssel, Avenue Louise, 146) vorgelegt und von diesem endgültig entschieden, in Übereinstimmung mit der Verfahrensordnung dieses Gerichts, die infolge der Unterwerfung unter dieses als wesentlicher Bestandteil dieser Klausel gilt. Die Anzahl der Schiedsrichter beträgt Eins (1). Der Sitz oder Gerichtsstand oder des Schiedsverfahrens ist Bahía Blanca, Argentinien. Die Verfahrenssprache ist Englisch. Das anwendbare Recht für diese Rechtlichen Bedingungen ist das materielle Recht Argentiniens."
+        },
+        {
+          "type": "h3",
+          "text": "Einschränkungen"
+        },
+        {
+          "type": "p",
+          "text": "Die Parteien vereinbaren, dass das Schiedsverfahren auf die Streitigkeit zwischen den Parteien individuell beschränkt ist. Im maximalen Umfang des geltenden Rechts: (a) wird kein Schiedsverfahren mit einem anderen Verfahren kombiniert; (b) besteht kein Recht und keine Befugnis, eine Streitigkeit kollektiv einem Schiedsverfahren zu unterwerfen, Kollektivklageverfahren zu nutzen; und (c) besteht kein Recht und keine Befugnis, eine Streitigkeit als Vertreter im Namen der Öffentlichkeit oder einer anderen Person einzureichen."
+        },
+        {
+          "type": "h3",
+          "text": "Ausnahmen von informellen Verhandlungen und Schiedsverfahren"
+        },
+        {
+          "type": "p",
+          "text": "Die Parteien vereinbaren, dass die folgenden Streitigkeiten nicht den vorstehenden Bestimmungen bezüglich informeller Verhandlungen und rechtskräftiger Schiedsverfahren unterliegen: (a) jede Streitigkeit, die darauf abzielt, die Gültigkeit von geistigen Eigentumsrechten einer Partei geltend zu machen oder zu schützen; (b) jede Streitigkeit, die sich auf Anschuldigungen des Diebstahls, der Piraterie, des Eindringens in die Privatsphäre oder der nicht autorisierten Nutzung bezieht; und (c) jeder Anspruch auf einstweilige Verfügung. Sollte diese Bestimmung als rechtswidrig oder undurchsetzbar erachtet werden, wird keine der Parteien eine Kontroverse, die in den Teil dieser Bestimmung fällt, der als rechtswidrig oder undurchsetzbar erachtet wird, einem Schiedsverfahren unterwerfen, und diese Kontroverse wird von einem Gericht mit zuständiger Gerichtsbarkeit innerhalb der oben aufgeführten Gerichte entschieden, und die Parteien unterwerfen sich der persönlichen Gerichtsbarkeit dieses Gerichts."
+        }
+      ]
+    },
+    {
+      "id": "19-correcciones",
+      "heading": "19. KORREKTUREN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Informationen der Dienste können Druckfehler, Ungenauigkeiten oder Auslassungen enthalten, einschließlich Beschreibungen, Preise, Verfügbarkeit und andere vielfältige Informationen. Wir behalten uns das Recht vor, Fehler, Ungenauigkeiten oder Auslassungen zu korrigieren sowie die Informationen der Dienste jederzeit und ohne Vorankündigung zu ändern oder zu aktualisieren."
+        }
+      ]
+    },
+    {
+      "id": "20-descargo-de-responsabilidad",
+      "heading": "20. HAFTUNGSAUSSCHLUSS",
+      "content": [
+        {
+          "type": "p",
+          "text": "DIE DIENSTE WERDEN \"WIE SIE SIND\" UND \"WIE VERFÜGBAR\" BEREITGESTELLT. SIE STIMMEN ZU, DASS DIE NUTZUNG DER DIENSTE AUF EIGENE GEFAHRE ERFOLGT. IM MAXIMALEN UMFANG DES GELTENDEN RECHTS SCHAFFEN WIR KEINE GEWÄHRLEISTUNG, WEDER AUSDRÜCKLICH NOCH STILLSCHWEIGEND, IN BEZUG AUF DIE DIENSTE UND IHRE NUTZUNG, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF, STILLSCHWEIGENDE GEWÄHRLEISTUNGEN DER MARKTFÄHIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG VON RECHTEN. WIR GEBEN KEINE GEWÄHRLEISTUNGEN ODER ERKLÄRUNGEN ÜBER DIE GENAUIGKEIT ODER VOLLSTÄNDIGKEIT DES INHALTS DER DIENSTE ODER DES INHALTS JEGLICHER WEBSITE ODER MOBILAPP, DIE MIT DEN DIENSTEN VERBUNDEN IST, UND WIR ÜBERNEHMEN KEINE VERANTWORTUNG FÜR (1) FEHLER, VERSEHEN ODER UNGENAUIGKEITEN DER INHALTE UND MATERIALIEN, (2) PERSONENVERLETZUNGEN ODER SACHSCHÄDEN JEDER ART, DIE AUS IHREM ZUGANG UND IHRER NUTZUNG DER DIENSTE RESULTIEREN, (3) JEGLICHEN NICHT AUTORISIERTEN ZUGANG ODER DIE NUTZUNG UNSERER SICHEREN SERVER UND/ODER JEGLICHER PERSONENBEZOGENER UND/ODER FINANZIELLER INFORMATIONEN, DIE AUF IHNEN GESPEICHERT SIND, (4) JEGLICHE UNTERBRECHUNG ODER EINSTELLUNG DER ÜBERTRAGUNG ZU DEN DIENSTEN ODER VON DEN DIENSTEN, (5) JEGLICHE FEHLER, VIREN, TROJANER ÄHNLICHE MATERIALIEN, DIE DURCH JEGLICHE DRITTE ÜBER DIE DIENSTE ÜBERTRAGEN WERDEN KÖNNEN, UND/ODER (6) JEGLICHE FEHLER ODER AUSLASSUNGEN IN JEGLICHEN INHALTEN UND MATERIALIEN ODER FÜR JEGLICHEN VERLUST ODER SCHADEN JEDER ART, DER ALS ERGEBNIS DER NUTZUNG JEGLICHER INHALTE, DIE ÜBER DIE DIENSTE VERÖFFENTLICHT, ÜBERTRAGEN ODER ANDERWEITIG BEREITGESTELLT WURDEN, ENTSTEHT. WIR GARANTIEREN NICHT, UNTERSTÜTZEN NICHT, VERSICHERN NICHT UND ÜBERNEHMEN KEINE VERANTWORTUNG FÜR JEGLICHE VON DRITTEN ÜBER DIE DIENSTE BEWORBENEN ODER ANGEBOTENEN PRODUKTE ODER DIENSTE, JEGLICHE WEBSITE MIT HYPERLINKS ODER JEGLICHE WEBSITE ODER MOBILAPP, DIE IN JEGLICHEM BANNER ODER ANDERER WERBUNG DARGESTELLT WIRD, UND WIR WERDEN NICHT TEILNEHMEN ODER ANDERWEITIG FÜR JEGLICHE ÜBERWACHUNG EINER TRANSAKTION ZWISCHEN IHNEN UND JEGLICHEM DRITTANBIETER VON PRODUKTEN ODER DIENSTEN VERANTWORTLICH SEIN. WIE BEIM KAUF EINES PRODUKTS ODER EINES DIENSTES ÜBER JEGLICHES MITTEL ODER IN JEGLICHER UMGEBUNG, SOLLTEN SIE IHRE BESTEN URTEILSKRÄFTE VERWENDEN UND VORSICHT WALTEN, WO ES ANGEMESSEN IST."
+        }
+      ]
+    },
+    {
+      "id": "21-limitaciones-de-responsabilidad",
+      "heading": "21. HAFTUNGSBESCHRÄNKUNGEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "IN KEINEM FALL WERDEN WIR UNSERE DIREKTOREN, MITARBEITER ODER VERTRETER GEGEN SIE ODER JEGLICHE DRITTE FÜR DIREKTE, INDIREKTE, FOLGESCHÄDEN, STRAFSCHÄDEN, BEILÄUFIGE, BESONDERE ODER BESTRafende Schäden haften, EINSCHLIESSLICH GEWINNEINBUßEN, EINNAHMEVERLUST, DATENVERLUST ODER ANDERE SCHÄDEN, DIE AUS DER NUTZUNG DER DIENSTE RESULTIEREN, SELBST WENN WIR ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN INFORMIERT WURDEN. UNBESCHRÄNKT DURCH JEGLICHE ENTGEGENSTEHENDE BESTIMMUNG IN DIESEM DOKUMENT WIRD UNSERE HAFTUNG GEGEN SIE FÜR JEGLICHE URSACHE UND UNBESCHADEGT DER FORM DER KLAGE ZU JEDEM ZEITPUNKT AUF DEN BETRAG BEGRENZT, DER VON IHNEN, WENN ÜBERHAUPT, AN UNS WÄHREND DES SECHS (6) MONATEN ZEITRAUMS VOR JEGLICHER KLAGESTELLUNG GEZAHLT WURDE. Manche US-Bundesstaatengesetze und internationale Gesetze erlauben keine Einschränkungen stillschweigender Gewährleistungen oder den Ausschluss oder die Beschränkung bestimmter Schäden. Wenn diese Gesetze auf Sie anwendbar sind, ist es möglich, dass einige oder alle vorstehenden Haftungsausschlüsse oder Beschränkungen nicht auf Sie anwendbar sind und dass Sie zusätzliche Rechte haben."
+        }
+      ]
+    },
+    {
+      "id": "22-indemnizacion",
+      "heading": "22. FREISTELLUNG",
+      "content": [
+        {
+          "type": "p",
+          "text": "Sie stimmen zu, uns und unsere Gesellschaften, Tochtergesellschaften, Verbundunternehmen und alle unsere jeweiligen Beamten, Agenten, Partner und Mitarbeiter gegen und vor jeglichen Verlusten, Schäden, Haftungen, Ansprüchen oder Klagen, einschließlich angemessener Anwaltskosten und Ausgaben, die von einem Dritten aufgrund von oder resultierend aus: (1) Nutzung der Dienste; (2) Verstoß gegen diese Rechtlichen Bedingungen; (3) jeglichem Verstoß gegen Ihre Erklärungen und Garantien in diesen Rechtlichen Bedingungen; (4) Ihrer Verletzung der Rechte eines Dritten, einschließlich, aber nicht beschränkt, geistige Eigentumsrechte; oder (5) jeglichem offensichtlich schädlichen Verhalten gegenüber einem anderen Benutzer der Dienste, mit dem Sie sich über die Dienste verbunden haben, freizustellen, zu entschädigen und schadlos zu halten. Ungeachtet des Vorstehenden behalten wir uns das Recht vor, auf Ihre Kosten die ausschließliche Verantwortung für die Verteidigung und Kontrolle jeder Angelegenheit zu übernehmen, für die Sie zur Freistellung verpflichtet sind, und Sie stimmen zu, auf Ihre Kosten bei der Verteidigung solcher Ansprüche mitzuwirken. Wir werden uns bemühen, Sie über jede unter diese Freistellung fallende Klage, Aktion oder Verfahren so bald wie möglich zu benachrichtigen, sobald wir davon erfahren."
+        }
+      ]
+    },
+    {
+      "id": "23-datos-del-usuario",
+      "heading": "23. BENUTZERDATEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wir werden bestimmte Daten, die Sie an die Dienste übermitteln, aufbewahren, um deren Betrieb zu steuern, sowie Daten im Zusammenhang mit Ihrer Nutzung der Dienste. Obwohl wir periodische Datensicherungen durchführen, sind Sie allein verantwortlich für alle Daten, die Sie übermitteln oder die mit jeglicher Aktivität verbunden sind, die Sie unter Nutzung der Dienste durchgeführt haben. Sie stimmen zu, dass wir Ihnen gegenüber für den Verlust oder die Beschädigung solcher Daten nicht haften und hiermit auf jegliches rechtliche Vorgehen gegen uns verzichten, das sich aus solchem Verlust oder solcher Beschädigung ergeben könnte."
+        }
+      ]
+    },
+    {
+      "id": "24-comunicaciones-transacciones-y-firmas-electronicas",
+      "heading": "24. KOMMUNIKATIONEN, TRANSAKTIONEN UND ELEKTRONISCHE UNTERSCHRIFTEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Das Besuchen der Dienste, das Senden von E-Mails an uns und das Ausfüllen von Online-Formularen stellen elektronische Kommunikation dar. Sie stimmen zu, elektronische Kommunikationen zu erhalten, und erkennen an, dass alle Vereinbarungen, Mitteilungen, Offenlegungen und sonstigen Kommunikationen, die wir Ihnen elektronisch, per E-Mail und über die Dienste zur Verfügung stellen, den gesetzlichen Anforderungen entsprechen, dass solche Kommunikation schriftlich erfolgt. SIE STIMMEN DER NUTZUNG ELEKTRONISCHER UNTERSCHRIFTEN, VERTRÄGE, BESTELLUNGEN UND ANDERER AUFZEICHNUNGEN SOWIE DER ELEKTRONISCHEN ZUSTELLUNG VON MITTEILUNGEN, RICHTLINIEN UND TRANSAKTIONSAUFZEICHNUNGEN ZU, DIE VON UNS ODER ÜBER DIE DIENSTE EINGELEITET ODER ABGESCHLOSSEN WURDEN. Hiermit verzichten Sie auf jedes Recht oder Erfordernis nach jeglichem Gesetz, Statut, Verordnung, Norm oder sonstigem Recht in jeglicher Gerichtszone, das eine handschriftliche Unterschrift oder die Zustellung oder Aufbewahrung von Aufzeichnungen in nicht-elektronischer Form oder Zahlungen oder die Kreditgewährung durch ein nicht-elektronisches Mittel verlangt."
+        }
+      ]
+    },
+    {
+      "id": "25-usuarios-y-residentes-de-california",
+      "heading": "25. BENUTZER UND EINWOHNER VON KALIFORNIEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wenn eine Beschwerde bei uns nicht zufriedenstellend gelöst wird, können Sie sich schriftlich an die Beschwerdestelle der Abteilung für Verbraucherdienste des kalifornischen Amts für Verbraucherschutz wenden unter 1625 North Market Blvd., Suite N 112, Sacramento, Kalifornien 95834 oder telefonisch unter (800) 952-5210 oder (916) 445-1254."
+        }
+      ]
+    },
+    {
+      "id": "26-varios",
+      "heading": "26. VERSCHIEDENES",
+      "content": [
+        {
+          "type": "p",
+          "text": "Diese Rechtlichen Bedingungen und jede von uns in den Diensten oder in Bezug auf die Dienste veröffentlichte Richtlinie oder Betriebsregel bilden die vollständige Vereinbarung und das vollständige Verständnis zwischen Ihnen und uns. Die Tatsache, dass wir ein Recht oder eine Bestimmung dieser Rechtlichen Bedingungen nicht ausüben oder durchsetzen, wird nicht als Verzicht auf dieses Recht oder diese Bestimmung ausgelegt. Diese Rechtlichen Bedingungen gelten im maximalen Umfang des geltenden Rechts. Wir können jederzeit unsere Rechte und Pflichten ganz oder teilweise an Dritte übertragen. Wir haften nicht für Verluste, Schäden, Verzögerungen oder Unterlassungen, die durch Ursachen außerhalb unserer zumutbaren Kontrolle verursacht werden. Sollte eine Bestimmung oder ein Teil einer Bestimmung dieser Rechtlichen Bedingungen als rechtswidrig, nichtig oder undurchsetzbar festgestellt werden, wird diese Bestimmung oder dieser Teil der Bestimmung als abtrennbar von diesen Rechtlichen Bedingungen betrachtet und wird die Gültigkeit und Durchsetzbarkeit der übrigen Bestimmungen nicht beeinträchtigen. Es besteht kein Joint-Venture-, Gesellschafts-, Beschäftigungs- oder Agenturverhältnis zwischen Ihnen und uns als Ergebnis dieser Rechtlichen Bedingungen oder der Nutzung der Dienste. Sie stimmen zu, dass diese Rechtlichen Bedingungen nicht gegen uns ausgelegt werden, weil wir sie verfasst haben. Hiermit verzichten Sie auf jedes Recht oder jeden Anspruch auf mögliche Einreden, die Sie aufgrund des elektronischen Formats dieser Rechtlichen Bedingungen und der fehlenden Unterschrift der Parteien zur Ausführung dieser Rechtlichen Bedingungen gehabt haben könnten."
+        }
+      ]
+    },
+    {
+      "id": "27-decisiones-financieras-del-usuario",
+      "heading": "27. FINANZENTSCHEIDUNGEN DES BENUTZERS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Die Gesellschaft übernimmt keine Verantwortung für Finanzentscheidungen, die der Benutzer auf Basis der von der App bereitgestellten Informationen trifft, einschließlich der von Künstlicher Intelligenz generierten Vorhersagen. Die App ist ein Werkzeug zur persönlichen Haushaltsführung und stellt keine Finanzberatung dar."
+        }
+      ]
+    },
+    {
+      "id": "28-contactenos",
+      "heading": "28. KONTAKT",
+      "content": [
+        {
+          "type": "p",
+          "text": "Um eine Beschwerde im Zusammenhang mit den Diensten zu lösen oder um weitere Informationen über die Nutzung der Dienste zu erhalten, kontaktieren Sie uns unter:"
+        },
+        {
+          "type": "address",
+          "text": "Savlo\nBahía Blanca\nBahía Blanca, Buenos Aires 8000\nArgentinien\nsupport@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

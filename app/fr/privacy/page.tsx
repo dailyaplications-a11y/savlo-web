@@ -2,13 +2,13 @@ import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import LegalPage from "@/components/savlo/legal-page"
-import privacyData from "@/lib/legal/privacy-en.json"
+import privacyData from "@/lib/legal/privacy-fr.json"
 
 export const metadata: Metadata = {
   title: privacyData.title,
   description: privacyData.description,
   alternates: {
-    canonical: "/privacy",
+    canonical: "/fr/privacy",
     languages: {
       en: "https://savloapp.com/privacy",
       es: "https://savloapp.com/es/privacy",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader />
-      <LegalPage data={privacyData} locale="en" type="privacy" />
-      <SiteFooter />
+      <SiteHeader locale="fr" />
+      <LegalPage data={privacyData} locale="fr" type="privacy" />
+      <SiteFooter locale="fr" />
     </div>
   )
 }
