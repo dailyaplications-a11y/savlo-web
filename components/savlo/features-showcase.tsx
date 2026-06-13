@@ -28,11 +28,11 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
     },
     {
       id: "voice",
-      label: "Daily check-in",
-      kicker: "One minute a night",
-      title: "Speak it. Savlo hears the day.",
+      label: "Easy logging",
+      kicker: "Logs in seconds",
+      title: "Speak or type. Savlo registers.",
       description:
-        "Tap the mic and tell Savlo how your day went - in your own words, in your own language. Savlo AI extracts amount, merchant and category, saves the expense, and returns a small micro-plan for tomorrow.",
+        "Record your transactions easily every day using voice or quick text. Savlo AI instantly extracts amount, merchant, and category to keep your accounts updated without effort.",
     },
     {
       id: "export",
@@ -54,11 +54,11 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
     },
     {
       id: "voice",
-      label: "Check-in diario",
-      kicker: "Un minuto por noche",
-      title: "Dilo. Savlo escucha el día.",
+      label: "Registro fácil",
+      kicker: "Registros en segundos",
+      title: "Dilo o escríbelo. Savlo registra.",
       description:
-        "Toca el micrófono y cuéntale a Savlo cómo fue tu día, con tus palabras y en tu idioma. Savlo AI extrae monto, comercio y categoría, guarda el gasto y devuelve un micro-plan para mañana.",
+        "Registra tus movimientos diariamente de forma fácil utilizando tu voz o texto rápido. Savlo AI extrae de inmediato el monto, comercio y categoría para mantener tus cuentas al día sin esfuerzo.",
     },
     {
       id: "export",
@@ -80,11 +80,11 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
     },
     {
       id: "voice",
-      label: "Check-in diário",
-      kicker: "Um minuto por noite",
-      title: "Fale. O Savlo escuta o dia.",
+      label: "Registro fácil",
+      kicker: "Registros em segundos",
+      title: "Fale ou escreva. O Savlo registra.",
       description:
-        "Toque no microfone e conte ao Savlo como foi seu dia, com suas palavras e no seu idioma. O Savlo AI extrai valor, comerciante e categoria, salva o gasto e devolve um micro-plano para amanhã.",
+        "Registre seus movimentos diariamente de forma fácil utilizando sua voz ou texto rápido. O Savlo AI extrai de imediato o valor, comércio e categoria para manter suas contas em dia sem esforço.",
     },
     {
       id: "export",
@@ -106,11 +106,11 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
     },
     {
       id: "voice",
-      label: "Taeglicher Check-in",
-      kicker: "Eine Minute am Abend",
-      title: "Sprich es aus. Savlo hoert den Tag.",
+      label: "Einfache Erfassung",
+      kicker: "Erfassung in Sekunden",
+      title: "Sprechen oder tippen. Savlo erfasst.",
       description:
-        "Tippe aufs Mikrofon und erzaehle Savlo, wie dein Tag war - in deinen Worten, in deiner Sprache. Savlo AI extrahiert Betrag, Haendler und Kategorie, speichert den Ausgabeposten und gibt dir einen kleinen Mikro-Plan fuer morgen zurueck.",
+        "Erfassen Sie Ihre Bewegungen täglich ganz einfach per Sprache oder Kurztext. Savlo AI extrahiert sofort Betrag, Händler und Kategorie, um Ihre Konten mühelos auf dem neuesten Stand zu halten.",
     },
     {
       id: "export",
@@ -132,11 +132,11 @@ const FEATURE_SETS: Record<Locale, Feature[]> = {
     },
     {
       id: "voice",
-      label: "Check-in quotidien",
-      kicker: "Une minute par soir",
-      title: "Parle. Savlo écoute ta journée.",
+      label: "Enregistrement facile",
+      kicker: "Saisie en quelques secondes",
+      title: "Parlez ou écrivez. Savlo enregistre.",
       description:
-        "Appuie sur le micro et raconte à Savlo comment s'est passée ta journée, avec tes mots et dans ta langue. Savlo AI extrait le montant, le commerçant et la catégorie, enregistre la dépense et te renvoie un micro-plan pour demain.",
+        "Enregistrez facilement vos mouvements au quotidien par la voix ou par un texte rapide. Savlo AI extrait instantanément le montant, le marchand et la catégorie pour tenir vos comptes à jour sans effort.",
     },
     {
       id: "export",

@@ -390,7 +390,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn du die digitale Version bevorzugst, bieten viele Budget-Apps virtuelle Umschläge an. [Savlo](/blog/best-mint-alternatives-2025) Savlo nennt sie Spaces — digitale Behälter, in denen du Geld für bestimmte Zwecke zurücklegst. Die Psychologie ist dieselbe: Sobald der Umschlag voll ist, hörst du auf, hinzuzulegen. Sobald er leer ist, hörst du auf, davon auszugeben."
+            "text": "Wenn du die digitale Version bevorzugst, bieten viele Budget-Apps virtuelle Umschläge an. [Savlo](/blog/best-mint-alternatives-2025) Savlo nennt sie Konten — unabhängige Konten, in denen du Geld für bestimmte Zwecke zurücklegst. Die Psychologie ist dieselbe: Sobald der Umschlag voll ist, hörst du auf, hinzuzulegen. Sobald er leer ist, hörst du auf, davon auszugeben."
       },
       {
             "kind": "p",
@@ -476,7 +476,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Savlo wurde um diesen wöchentlichen Rhythmus herum gebaut. Du kannst Ausgaben schnell per Spracheingabe erfassen, deine Spaces und Fonds überprüfen und sehen, wo du stehst — alles ohne die lauten roten Zahlen und schuldbewussten Benachrichtigungen, die Leute andere Apps vergessen lassen."
+            "text": "Savlo wurde um diesen wöchentlichen Rhythmus herum gebaut. Du kannst Ausgaben schnell per Spracheingabe erfassen, deine Konten und Fonds überprüfen und sehen, wo du stehst — alles ohne die lauten roten Zahlen und schuldbewussten Benachrichtigungen, die Leute andere Apps vergessen lassen."
       },
       {
             "kind": "divider"
@@ -1756,7 +1756,7 @@ const overrides = {
       {
         heading: "Wo Savlo hineinpasst",
         body: [
-          "Savlo positioniert sich als ruhigere Alternative: Spracheingabe, CSV/XLSX-Importe, getrennte Spaces und Sinking Funds.",
+          "Savlo positioniert sich als ruhigere Alternative: Spracheingabe, CSV/XLSX-Importe, getrennte Konten und Sinking Funds.",
           "Es will kein aggressives Kontrollzentrum sein. Es soll dir helfen, dein Geld mit weniger Reibung wieder anzuschauen.",
         ],
       },
@@ -4917,7 +4917,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Umschlagmethode (auch Bargeldstopfen genannt) ist die bargeldbasierte Version der Nullbudgetierung. Jede Kategorie hat einen Umschlag, und wenn der Umschlag leer ist, wird die Kategorie für den Monat pausiert. Die Disziplin ist dieselbe wie bei Nullbasis; der Unterschied besteht darin, dass das Geld in physischen Umschlägen anstelle einer Tracking-App liegt. Die Umschlagmethode funktioniert gut für Menschen, die freier ausgeben, wenn sie eine Karte benutzen. Die Nullbudgetierung funktioniert gut für Menschen, die die Flexibilität von Kartenzahlungen, aber die Disziplin der Umschlagmethode wollen. Die meisten modernen Nullbudget-Apps, einschließlich Savlo, ermöglichen es dir, die Umschlaglogik digital als „Spaces\" nachzubilden."
+            "text": "Die Umschlagmethode (auch Bargeldstopfen genannt) ist die bargeldbasierte Version der Nullbudgetierung. Jede Kategorie hat einen Umschlag, und wenn der Umschlag leer ist, wird die Kategorie für den Monat pausiert. Die Disziplin ist dieselbe wie bei Nullbasis; der Unterschied besteht darin, dass das Geld in physischen Umschlägen anstelle einer Tracking-App liegt. Die Umschlagmethode funktioniert gut für Menschen, die freier ausgeben, wenn sie eine Karte benutzen. Die Nullbudgetierung funktioniert gut für Menschen, die die Flexibilität von Kartenzahlungen, aber die Disziplin der Umschlagmethode wollen. Die meisten modernen Nullbudget-Apps, einschließlich Savlo, ermöglichen es dir, die Umschlaglogik digital als „Konten\" nachzubilden."
       },
       {
             "kind": "p",
@@ -4976,7 +4976,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Methode kann auf einem Blatt Papier, einer Tabelle oder einer dedizierten App ausgeführt werden. Das richtige Tool ist das, das du in sechs Monaten noch verwenden wirst. YNAB ist die etablierteste App für Nullbudgetierung und enthält eine 34-tägige Testversion plus ein jährliches Abonnement. Es enthält kein Investment-Tracking, und die Lernkurve ist real. Für einen ans Datenschutz denkenden Ansatz unterstützt die Savlo-App eine ähnliche Struktur über Spaces (digitale Umschläge für Ausgabenkategorien) und Sinking Funds, ohne Bankverbindung erforderlich. Der Punkt ist nicht, welches Tool du wählst. Der Punkt ist, dass die Tool die vier Regeln unterstützt: Jeden Dollar zuweisen, die wahren Ausgaben akzeptieren, mit den Schlägen durchschlagen und dein Geld altern lassen. Die meisten Tabellen können die ersten beiden abdecken. Die dritte und vierte sind in einer App einfacher, die die Kategorieguthaben für dich verfolgt."
+            "text": "Die Methode kann auf einem Blatt Papier, einer Tabelle oder einer dedizierten App ausgeführt werden. Das richtige Tool ist das, das du in sechs Monaten noch verwenden wirst. YNAB ist die etablierteste App für Nullbudgetierung und enthält eine 34-tägige Testversion plus ein jährliches Abonnement. Es enthält kein Investment-Tracking, und die Lernkurve ist real. Für einen ans Datenschutz denkenden Ansatz unterstützt die Savlo-App eine ähnliche Struktur über Konten (digitale Umschläge für Ausgabenkategorien) und Sinking Funds, ohne Bankverbindung erforderlich. Der Punkt ist nicht, welches Tool du wählst. Der Punkt ist, dass die Tool die vier Regeln unterstützt: Jeden Dollar zuweisen, die wahren Ausgaben akzeptieren, mit den Schlägen durchschlagen und dein Geld altern lassen. Die meisten Tabellen können die ersten beiden abdecken. Die dritte und vierte sind in einer App einfacher, die die Kategorieguthaben für dich verfolgt."
       },
       {
             "id": "ein-tieferer-einblick-in-die-vier-regeln-in-der-pr",
@@ -5764,7 +5764,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Drei Haushaltsbudget-Apps, drei unterschiedliche Finanzphilosophien. YNAB möchte, dass du jedem einzelnen Dollar einen Job zuweist, bevor der Monat beginnt. Monarch Money möchte dir ein wunderschönes Dashboard deines gesamten Finanz- lebens zeigen. Savlo möchte, dass du ruhig überprüfst, einen Einkauf per Sprache protokollierst und ohne Schuldgefühle deinen Tag fortsetzt."
+            "text": "Drei Haushaltsbudget-Apps, drei unterschiedliche Finanzphilosophien. YNAB möchte, dass du jedem einzelnen Dollar einen Job zuweist, bevor der Monat beginnt. Monarch Money möchte dir ein wunderschönes Dashboard deines gesamten Finanz- lebens zeigen. Savlo ist darauf ausgelegt, dir in wenigen Minuten die tägliche Kontrolle und Verwaltung deiner Finanzen zu ermöglichen, indem du Ausgaben schnell per Sprach- oder Texteingabe erfassen und dein Geld in unabhängigen Konten organisieren kannst."
       },
       {
             "kind": "p",
@@ -6620,13 +6620,13 @@ const overrides = {
             "text": "Stärken: zwingt zur Priorisierung, deckt Verschwendung auf, macht Kompromisse explizit. Einschränkungen: erfordert mehr Einrichtung, mehr Verfolgung und Bereitschaft, häufig kleine Entscheidungen zu treffen. Wenn Sie jemand sind, dem ständige Kategorisierung sauer aufstößt, kann nullbasiertes Budgeting sich wie eine Teilzeitstelle anfühlen."
       },
       {
-            "id": "stil-3-umschlag-spaces-methode",
+            "id": "stil-3-umschlag-konten-methode",
             "kind": "h3",
-            "text": "Stil 3: Umschlag- / Spaces-Methode"
+            "text": "Stil 3: Umschlag- / Konten-Methode"
       },
       {
             "kind": "p",
-            "text": "Die Umschlagmethode, manchmal Bargeldstopfmethode in ihrer physischen Form genannt, gibt jeder Ausgabenkategorie ihren eigenen Geldpool. Wenn der Umschlag leer ist, wird die Kategorie bis zum nächsten Monat pausiert. In modernen Apps wird dies normalerweise als separate \"Spaces\" oder Unterkonten implementiert. Savlo verwendet beispielsweise den Begriff Spaces für dieselbe Idee."
+            "text": "Die Umschlagmethode, manchmal Bargeldstopfmethode in ihrer physischen Form genannt, gibt jeder Ausgabenkategorie ihren eigenen Geldpool. Wenn der Umschlag leer ist, wird die Kategorie bis zum nächsten Monat pausiert. In modernen Apps wird dies normalerweise als separate \"Konten\" oder Unterkonten implementiert. Savlo verwendet beispielsweise den Begriff Konten für dieselbe Idee."
       },
       {
             "kind": "p",
@@ -6907,7 +6907,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ranking der besten Mint-Alternativen 2025 {\" \"} ein Wochenende Recherche. Savlo zum Beispiel basiert auf Sprachcheck-ins, CSV-Imports und einer ruhigeren täglichen Geldroutine anstatt kontinuierlicher Banksynchronisation. Es ist auf Android verfügbar und kommt bald auf iOS."
+            "text": "Ranking der besten Mint-Alternativen 2025 {\" \"} ein Wochenende Recherche. Savlo zum Beispiel ist darauf ausgelegt, Ihnen in wenigen Minuten die tägliche Kontrolle und Verwaltung Ihrer Finanzen zu ermöglichen – durch einfache Sprach- oder Texteingabe, Tabellenkalkulations-Imports und unabhängige Konten, anstatt kontinuierlicher Banksynchronisation. Es ist auf Android verfügbar und kommt bald auf iOS."
       },
       {
             "kind": "p",
@@ -7022,7 +7022,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn Sie ein Werkzeug möchten, das versucht, diese gesamte Anleitung leichter erscheinen zu lassen, ist Savlo um die Ideen herum gebaut, die wir besprochen haben: Sprachcheck-ins, sanfte Kategorisierung, separate Spaces für das wichtige Geld, Rücklaufschuld-Depots für die vorhersehbare Zukunft und eine ruhige Benutzeroberfläche, die Sie nicht dafür bestraft, eine schlechte Woche zu haben. Es ist auf Android verfügbar und kommt bald auf iOS. Der Rest des Blogs behandelt jede dieser Ideen ausführlicher, wenn Sie weitermachen möchten."
+            "text": "Wenn Sie ein Werkzeug suchen, das Ihnen hilft, die tägliche Kontrolle und Verwaltung Ihrer Finanzen in wenigen Minuten zu behalten, ist Savlo um die Ideen herum aufgebaut, die wir besprochen haben: einfache Sprach- und Texteingabe, Budgetierung nach Kategorien, unabhängige Konten zur Organisation Ihres Geldes, Sinking Funds (Rücklaufschuld-Depots) und ein motivierendes Streak-System. Es ist auf Android verfügbar und kommt bald auf iOS. Der Rest des Blogs behandelt jede dieser Ideen ausführlicher, wenn Sie weitermachen möchten."
       }
 ]
     },

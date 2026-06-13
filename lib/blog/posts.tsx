@@ -103,7 +103,7 @@ const publicCopyReplacements: Array<[RegExp, string]> = [
   ],
   [
     /It features local-first privacy, 4-second natural voice logging, automated CSV importing, sinking funds, and a morning Daily Margin focus\./g,
-    "The public site emphasizes voice logging, CSV importing, sinking funds, Spaces, and a calmer daily money routine.",
+    "The public site emphasizes voice logging, CSV importing, sinking funds, independent accounts, and daily control of your finances in minutes.",
   ],
   [
     /Available on iOS with a free trial\./g,
@@ -1025,7 +1025,7 @@ function ContentHowToMakeABudget() {
       <P>
         If you prefer digital, many budgeting apps offer virtual envelopes.
         <A href="/blog/best-mint-alternatives-2025">Savlo</A> calls them
-        Spaces — digital containers where you set aside money for specific
+        Accounts — independent accounts where you set aside money for specific
         purposes. The psychology is the same: once the envelope is full, you
         stop adding to it. Once it is empty, you stop spending from it.
       </P>
@@ -1138,7 +1138,7 @@ function ContentHowToMakeABudget() {
       </P>
       <P>
         Savlo is built around this weekly rhythm. You can log expenses quickly
-        with voice input, review your Spaces and funds, and see where you stand
+        with voice input, review your accounts and funds, and see where you stand
         — all without the loud red numbers and guilt-inducing notifications
         that make people abandon other apps.
       </P>
@@ -2334,10 +2334,10 @@ function ContentMintAlternatives() {
         This approach matters for a reason that goes beyond privacy ideology. When you log an expense yourself — whether by voice or by importing a file — you are making a conscious decision to engage with your spending. You are not passively watching a dashboard update itself. You are participating in the process of tracking your money, which research consistently shows leads to better financial awareness and more intentional spending decisions.
       </P>
       <P>
-        Savlo also includes Spaces (digital spending envelopes), Funds (<A href="/blog/sinking-funds">sinking funds</A> with custom names for planned expenses), and Gentle Streaks that encourage consistency without punishing you if you miss a day. The app is designed around the idea that money management should feel calm, not stressful — that the best financial tool is one you actually want to open.
+        Savlo also includes independent Accounts to organize your money, Funds (<A href="/blog/sinking-funds">sinking funds</A> with custom names for planned expenses), and Streak system that encourages consistency. The app is designed to help you quickly log transactions and keep daily control in minutes.
       </P>
       <P>
-        The app is available on Android and coming soon to iOS. It is the right choice if <A href="/blog/financial-anxiety">financial anxiety</A> has made you avoid your finances — its calm, ad-free design eliminates the friction and judgment that keep many people from looking at their numbers. For more on this approach, see our guide to <A href="/blog/how-to-budget-money">how to budget money</A> without the overwhelm.
+        The app is available on Android and coming soon to iOS. It is the right choice for active daily control and management of your finances in minutes. For more on this approach, see our guide to <A href="/blog/how-to-budget-money">how to budget money</A> without the overwhelm.
       </P>
 
       <H3 id="monarch-money">Monarch Money — the best option for automatic sync and net worth tracking</H3>
@@ -5727,7 +5727,7 @@ function ContentZeroBasedBudgeting() {
         when they tap a card. Zero-based budgeting works well for people who want the
         flexibility of card payments but the discipline of the envelope method. Most
         modern zero-based apps, including Savlo, let you recreate the envelope logic
-        digitally as "Spaces."
+        digitally as "Accounts."
       </P>
       <P>
         The percentage method is similar to 50/30/20 but with custom buckets. Some people
@@ -5823,7 +5823,7 @@ function ContentZeroBasedBudgeting() {
         established app for zero-based budgeting and includes a 34-day free trial plus a
         yearly subscription. It does not include investment tracking, and the learning
         curve is real. For a privacy-first approach, the Savlo app supports a similar
-        structure through Spaces (digital envelopes for spending categories) and Sinking
+        structure through Accounts (independent accounts for spending categories) and Sinking
         Funds, with no bank linking required. The point is not which tool you pick. The
         point is that the tool supports the four rules: assign every dollar, embrace the
         true expenses, roll with the punches, and age your money. Most spreadsheets can
@@ -8261,14 +8261,14 @@ function ContentHowToBudgetMoney() {
         feel like a part-time job.
       </P>
 
-      <H3 id="envelope-method">Style 3: Envelope / Spaces method</H3>
+      <H3 id="envelope-method">Style 3: Envelope / Accounts method</H3>
       <P>
         The envelope method, sometimes called the cash-stuffing method in
         its physical form, gives each spending category its own pool of
         money. When the envelope is empty, the category is paused until
         next month. In modern apps, this is usually implemented as
-        separate &ldquo;Spaces&rdquo; or sub-accounts. Savlo, for example,
-        uses the term Spaces to refer to the same idea.
+        separate independent &ldquo;Accounts&rdquo;. Savlo, for example,
+        uses the term Accounts to refer to the same idea.
       </P>
       <P>
         Strengths: extremely visual, hard to overspend by accident, good
@@ -8649,8 +8649,7 @@ function ContentHowToBudgetMoney() {
           best Mint alternatives in 2025
         </A>{" "}
         roundup will save you a weekend of research. Savlo, for example,
-        is built around voice check-ins, CSV imports, and a calmer daily
-        money routine rather than continuous bank sync. It is available
+        is designed to give you daily control and management of your finances in minutes through easy voice or text logging, spreadsheet imports, and independent accounts, rather than continuous bank sync. It is available
         on Android and coming soon to iOS.
       </P>
       <P>
@@ -8781,12 +8780,8 @@ function ContentHowToBudgetMoney() {
         relationship with money that is humane enough to last.
       </P>
       <P>
-        If you want a tool that tries to make this entire guide feel
-        lighter, <A href="/">Savlo</A> is built around the ideas we
-        covered: voice check-ins, gentle categorization, separate Spaces
-        for the money that matters, Sinking Funds for the predictable
-        future, and a calm interface that does not punish you for having
-        a bad week. It is available on Android and coming soon to iOS.
+        If you want a tool that helps you keep daily control and management of your finances in minutes, <A href="/">Savlo</A> is built around the ideas we
+        covered: voice and text logging, category budgeting, independent accounts to organize your money, Sinking Funds, and a gamified streak system to stay motivated. It is available on Android and coming soon to iOS.
         The rest of the blog covers each of these ideas in more depth if
         you want to keep going.
       </P>

@@ -22,7 +22,7 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
   const copy =
     locale === "es"
       ? {
-          pill: "Finanzas conductuales · modo calma",
+          pill: "Control y manejo diario · en minutos",
           titleFirst: "Conoce Savlo.",
           titleSecond: (
             <>
@@ -34,12 +34,12 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
             </>
           ),
           description:
-            "La app de presupuesto personal diseñada para mirar tu dinero con calma. Un check-in rápido por voz, separación inteligente en Spaces y Sinking Funds, y una racha suave para construir hábitos sin presión ni culpa.",
+            "La app que convierte el control financiero en un hábito diario rápido. Registra movimientos por voz o texto, organiza tu dinero en cuentas independientes y mantén tus gastos bajo control sin perder tiempo.",
           note: "Próximamente en iOS y Android · soporte multilingüe nativo.",
         }
       : locale === "pt"
         ? {
-            pill: "Finanças comportamentais · modo calmo",
+            pill: "Controle e gestão diária · em minutos",
             titleFirst: "Conheça o Savlo.",
             titleSecond: (
               <>
@@ -51,12 +51,12 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
               </>
             ),
             description:
-              "O app de orçamento pessoal feito para trazer calma. Um check-in rápido por voz, divisão inteligente em Spaces e Sinking Funds, e uma sequência gentil para criar hábitos sem pressão nem culpa.",
+              "O app que transforma o controle financeiro em um hábito diário rápido. Registre movimentos por voz ou texto, organize seu dinheiro em contas independentes e mantenha seus gastos sob controle sem perder tempo.",
             note: "Em breve no iOS e Android · experiência multilíngue nativa.",
           }
         : locale === "de"
           ? {
-              pill: "Verhaltensfinanzen · Ruhemodus",
+              pill: "Tägliche Finanzkontrolle · in Minuten",
               titleFirst: "Lerne Savlo kennen.",
               titleSecond: (
                 <>
@@ -68,12 +68,12 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
                 </>
               ),
               description:
-                "Die persönliche Budget-App für mehr Ruhe im Umgang mit Geld. Ein schneller Sprach-Check-in, intelligente Trennung in Spaces und Sinking Funds, und ein sanfter Rhythmus für Gewohnheiten ohne Druck oder Schuld.",
+                "Die App, die die Finanzkontrolle in eine schnelle tägliche Gewohnheit verwandelt. Erfassen Sie Ausgaben per Sprache oder Text, organisieren Sie Geld auf unabhängigen Konten und behalten Sie Ihre Ausgaben ohne Zeitverlust im Griff.",
               note: "Bald für iOS und Android · native mehrsprachige Unterstützung.",
             }
           : locale === "fr"
             ? {
-                pill: "Finance comportementale \u00b7 mode calme",
+                pill: "Contrôle et gestion quotidienne · en minutes",
                 titleFirst: "D\u00e9couvre Savlo.",
                 titleSecond: (
                   <>
@@ -85,12 +85,12 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
                   </>
                 ),
                 description:
-                  "L'application de budget personnel con\u00e7ue pour plus de s\u00e9r\u00e9nit\u00e9. Un check-in vocal rapide, une s\u00e9paration intelligente en Spaces et Sinking Funds, et un rythme doux pour cr\u00e9er des habitudes sans pression ni culpabilit\u00e9.",
+                  "L'application qui transforme le contrôle financier en une habitude quotidienne rapide. Enregistrez vos mouvements par voix ou par texte, organisez votre argent sur des comptes indépendants et gardez vos dépenses sous contrôle sans perdre de temps.",
                 note:
                   "Bient\u00f4t sur iOS et Android \u00b7 prise en charge multilingue native.",
               }
             : {
-                pill: "Behavioral finance · Calm mode",
+                pill: "Daily control · In minutes",
                 titleFirst: "Meet Savlo.",
                 titleSecond: (
                   <>
@@ -102,7 +102,7 @@ export function Hero({ locale = "en" }: { locale?: Locale }) {
                   </>
                 ),
                 description:
-                  "The personal budgeting app designed for peace of mind. A fast voice check-in, smart division into separate Spaces and Sinking Funds, and a gentle streak that helps you build financial habits without pressure or guilt.",
+                  "The app that turns personal finance control into a quick daily habit. Log your transactions via voice or text, organize your money in independent accounts, and keep your spending under control without wasting time.",
                 note:
                   "Coming soon to iOS and Android · English & Spanish native support.",
               }

@@ -20,25 +20,25 @@ const faqItems = [
   {
     question: "Muss ich mein Bankkonto verbinden?",
     answer:
-      "Die oeffentliche Savlo-Seite betont Sprach-Check-ins, CSV- und XLSX-Importe sowie vom Nutzer kontrollierte Eintraege statt einer zwingenden Bankverknuepfung.",
+      "Die oeffentliche Savlo-Seite betont einfache Sprach- oder Texteingaben, CSV- und XLSX-Importe sowie vom Nutzer kontrollierte Eintraege statt einer zwingenden Bankverknuepfung.",
   },
   {
     question: "Fuer wen ist Savlo gemacht?",
     answer:
-      "Savlo richtet sich an Menschen, die ihr Budget ruhiger verwalten wollen, besonders wenn klassische Finanz-Tools sich starr, laut oder schuldorientiert anfuehlen.",
+      "Savlo richtet sich an beschaeftigte Menschen, die eine aktive Kontrolle und taegliche Verwaltung ihrer Finanzen in wenigen Minuten suchen, ohne den Aufwand und die Komplexitaet traditioneller Tools.",
   },
   {
     question: "Hilft Savlo bei Sinking Funds?",
     answer:
-      "Ja. Savlo zeigt Sinking Funds als zentrale Methode, um planbare groessere Ausgaben in kleinere, stetige Ruecklagen zu verwandeln.",
+      "Ja. Savlo zeigt Sinking Funds als zentrale Methode, um planbare groessere Ausgaben in kleinere, stetige Ruecklagen direkt auf Ihren Konten zu verwandeln.",
   },
 ] as const
 
 const description =
-  "Savlo ist eine ruhige App fuer persoenliches Budgetieren fuer angespannte Koepfe: Ausgaben per Sprache erfassen, Geld in Spaces und Sinking Funds trennen und finanzielle Gewohnheiten ohne Schuldgefuehl aufbauen."
+  "Savlo ist eine App fuer die taegliche Finanzkontrolle und -verwaltung in Minuten. Erfassen Sie Ausgaben per Sprache oder Text, organisieren Sie Geld auf unabhaengigen Konten und optimieren Sie Ihr Budget muehelos."
 
 export const metadata: Metadata = {
-  title: "Ruhiges Budgetieren fuer angespannte Koepfe",
+  title: "Persoenliche Finanzkontrolle und -verwaltung in Minuten",
   description,
   keywords: [
     "Budget App",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   ],
   alternates: metadataAlternates("/de"),
   openGraph: {
-    title: "Savlo | Ruhiges Budgetieren fuer angespannte Koepfe",
+    title: "Savlo | Taegliche Finanzkontrolle in Minuten",
     description,
     url: "/de",
     siteName: siteConfig.name,
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Ruhiges Budgetieren fuer angespannte Koepfe",
+    title: "Savlo | Taegliche Finanzkontrolle in Minuten",
     description,
     images: [absoluteUrl(siteConfig.ogImage)],
   },
@@ -113,7 +113,7 @@ export default function GermanHomePage() {
       operatingSystem: "iOS, Android",
       url: absoluteUrl("/de"),
       description:
-        "Savlo ist eine verhaltensfinanzierte Budget-App mit Sprach-Check-ins, getrennten Spaces, Sinking Funds, Tabellenimport und Datenexport.",
+        "Savlo ist eine App fuer die taegliche Finanzkontrolle und -verwaltung in Minuten mit Sprach- und Texteingabe, unabhaengigen Konten, Sinking Funds, Tabellenimport und Datenexport.",
       image: absoluteUrl(siteConfig.ogImage),
       screenshot: [
         absoluteUrl("/app_screen_today.png"),
@@ -131,8 +131,8 @@ export default function GermanHomePage() {
       },
       isAccessibleForFree: true,
       featureList: [
-        "Sprach-Check-ins",
-        "Geld-Space",
+        "Sprach- und Texteingabe",
+        "Unabhaengige Konten",
         "Sinking Funds",
         "CSV- und XLSX-Importe",
         "Datenexport",

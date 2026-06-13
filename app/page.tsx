@@ -20,22 +20,22 @@ const faqItems = [
   {
     question: "Does Savlo require bank linking?",
     answer:
-      "The public Savlo site emphasizes voice check-ins, CSV and XLSX imports, and user-controlled records rather than mandatory bank linking.",
+      "The public Savlo site emphasizes easy voice or text logging, CSV and XLSX imports, and user-controlled records rather than mandatory bank linking.",
   },
   {
     question: "Who is Savlo built for?",
     answer:
-      "Savlo is built for people who want a calmer budgeting app, especially anyone who finds traditional personal finance tools stressful, rigid, or guilt-based.",
+      "Savlo is built for busy people who want active control and daily management of their finances in minutes, without the hassle and complexity of traditional tools.",
   },
   {
     question: "Can Savlo help with sinking funds?",
     answer:
-      "Yes. Savlo highlights Sinking Funds as a core way to turn predictable expenses into smaller, steadier savings goals.",
+      "Yes. Savlo highlights Sinking Funds as a core way to turn predictable expenses into smaller, steadier savings goals directly inside your accounts.",
   },
 ] as const
 
 export const metadata: Metadata = {
-  title: "Calm budgeting for anxious minds",
+  title: "Daily personal finance control and management in minutes",
   description: siteConfig.description,
   keywords: [...siteConfig.keywords],
   alternates: metadataAlternates("/"),
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Calm budgeting for anxious minds",
+    title: "Savlo | Daily personal finance control in minutes",
     description: siteConfig.description,
     images: [absoluteUrl(siteConfig.ogImage)],
   },
@@ -120,8 +120,8 @@ export default function Page() {
       },
       isAccessibleForFree: true,
       featureList: [
-        "Voice expense check-ins",
-        "Money Spaces",
+        "Voice and text logging",
+        "Independent accounts",
         "Sinking Funds",
         "CSV and XLSX imports",
         "Data export",

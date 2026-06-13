@@ -396,7 +396,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si tu préfères le numérique, beaucoup d'applications de budget offrent des enveloppes virtuelles. Savlo les appelle Spaces — des conteneurs numériques où tu mets de côté de l'argent pour des objectifs spécifiques. La psychologie est la même : une fois que l'enveloppe est pleine, tu arrêtes d'y ajouter. Une fois qu'elle est vide, tu arrêtes d'en dépenser."
+                "text": "Si tu préfères le numérique, beaucoup d'applications de budget offrent des enveloppes virtuelles. Savlo les appelle Comptes — des comptes indépendants où tu mets de côté de l'argent pour des objectifs spécifiques. La psychologie est la même : une fois que l'enveloppe est pleine, tu arrêtes d'y ajouter. Une fois qu'elle est vide, tu arrêtes d'en dépenser."
         },
         {
                 "kind": "p",
@@ -482,7 +482,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Savlo est construit autour de ce rythme hebdomadaire. Tu peux enregistrer des dépenses rapidement avec la saisie vocale, réviser tes Spaces et fonds, et voir où tu en es — tout sans les chiffres rouges bruyants et les notifications culpabilisantes qui font que les gens abandonnent d'autres applications."
+                "text": "Savlo est construit autour de ce rythme hebdomadaire. Tu peux enregistrer des dépenses rapidement avec la saisie vocale, réviser tes comptes et fonds, et voir où tu en es — tout sans les chiffres rouges bruyants et les notifications culpabilisantes qui font que les gens abandonnent d'autres applications."
         },
         {
                 "kind": "divider"
@@ -815,7 +815,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "> Savlo est disponible sur Android et bientôt sur iOS. Il est construit pour les personnes qui veulent un moyen plus calme et plus privé de comprendre où va leur argent — sans connexion bancaire, sans publicité et sans jugement. Si ce guide t'a aidé, l'application est la prochaine étape."
+                "text": "> Si tu veux un outil pour t'aider à garder le contrôle et la gestion quotidienne de tes finances en quelques minutes, Savlo est construit autour des idées que nous avons abordées : enregistrements rapides par voix et par texte, budgétisation par catégories, comptes indépendants pour organiser ton argent, sinking funds (fonds dédiés) et un système de séries motivant. Il est disponible sur Android et bientôt sur iOS."
         }
 ]
     },
@@ -1776,7 +1776,7 @@ const overrides = {
       {
         heading: "Où Savlo se situe",
         body: [
-          "Savlo se positionne comme une alternative plus calme: saisie vocale, importation CSV/XLSX, Spaces séparés et fonds dédiés.",
+          "Savlo se positionne comme une alternative plus calme: saisie vocale, importation CSV/XLSX, comptes séparés et fonds dédiés.",
           "Il n'essaie pas d'être un centre de contrôle agressif. Il essaie de t'aider à regarder ton argent avec moins de friction.",
         ],
       },
@@ -4973,7 +4973,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La méthode des enveloppes (également appelée « cash stuffing ») est la version en espèces de la budgétisation à base zéro. Chaque catégorie a une enveloppe, et quand l'enveloppe est vide, la catégorie est mise en pause pour le mois. La discipline est la même que pour la base zéro ; la différence est que l'argent est dans des enveloppes physiques au lieu d'une application de suivi. Le budget par enveloppes fonctionne bien pour les gens qui dépensent plus librement quand ils utilisent une carte. La budgétisation à base zéro fonctionne bien pour les gens qui veulent la flexibilité des paiements par carte mais la discipline de la méthode des enveloppes. La plupart des applications modernes à base zéro, y compris Savlo, vous permettent de recréer la logique des enveloppes numériquement sous forme d'« Espaces »."
+                "text": "La méthode des enveloppes (également appelée « cash stuffing ») est la version en espèces de la budgétisation à base zéro. Chaque catégorie a une enveloppe, et quand l'enveloppe est vide, la catégorie est mise en pause pour le mois. La discipline est la même que pour la base zéro ; la différence est que l'argent est dans des enveloppes physiques au lieu d'une application de suivi. Le budget par enveloppes fonctionne bien pour les gens qui dépensent plus librement quand ils utilisent une carte. La budgétisation à base zéro fonctionne bien pour les gens qui veulent la flexibilité des paiements par carte mais la discipline de la méthode des enveloppes. La plupart des applications modernes à base zéro, y compris Savlo, vous permettent de recréer la logique des enveloppes numériquement sous forme d'« Comptes »."
         },
         {
                 "kind": "p",
@@ -5032,7 +5032,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La méthode peut être exécutée sur une feuille de papier, un tableur, ou une application dédiée. Le bon outil est celui que vous utiliserez encore dans six mois. YNAB est l'application la plus établie pour la budgétisation à base zéro et comprend un essai gratuit de 34 jours plus un abonnement annuel. Elle ne comprend pas le suivi des investissements, et la courbe d'apprentissage est réelle. Pour une approche respectueuse de la vie privée, l'application Savlo supporte une structure similaire via les Espaces (enveloppes numériques pour les catégories de dépenses) et les Fonds de Réserve, sans lien bancaire requis. Le but n'est pas quelle outil vous choisissez. Le but est que l'outil supporte les quatre règles : affecter chaque dollar, accepter les véritables dépenses, encaisser les coups, et vieillir votre argent. La plupart des tableurs peuvent couvrir les deux premières. La troisième et la quatrième sont plus faciles dans une application qui suit les soldes des catégories pour vous."
+                "text": "La méthode peut être exécutée sur une feuille de papier, un tableur, ou une application dédiée. Le bon outil est celui que vous utiliserez encore dans six mois. YNAB est l'application la plus établie pour la budgétisation à base zéro et comprend un essai gratuit de 34 jours plus un abonnement annuel. Elle ne comprend pas le suivi des investissements, et la courbe d'apprentissage est réelle. Pour une approche respectueuse de la vie privée, l'application Savlo supporte une structure similaire via les Comptes (comptes indépendants pour les catégories de dépenses) et les Fonds de Réserve, sans lien bancaire requis. Le but n'est pas quelle outil vous choisissez. Le but est que l'outil supporte les quatre règles : affecter chaque dollar, accepter les véritables dépenses, encaisser les coups, et vieillir votre argent. La plupart des tableurs peuvent couvrir les deux premières. La troisième et la quatrième sont plus faciles dans une application qui suit les soldes des catégories pour vous."
         },
         {
                 "id": "un-aper-u-plus-profond-des-quatre-r-gles-en-pratiq",
@@ -5840,7 +5840,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Trois applications de budget, trois philosophies financières distinctes. YNAB veut que vous attribuiez chaque dollar à un emploi avant que le mois ne commence. Monarch Money veut vous montrer un magnifique tableau de bord de votre vie financière entière. Savlo veut que vous vérifiiez calmement, enregistriez un achat par voix et poursuiviez votre journée sans culpabilité."
+                "text": "Trois applications de budget, trois philosophies financières distinctes. YNAB veut que vous attribuiez chaque dollar à un emploi avant que le mois ne commence. Monarch Money veut vous montrer un magnifique tableau de bord de votre vie financière entière. Savlo est conçue pour vous donner le contrôle et la gestion quotidienne de vos finances en quelques minutes, en vous permettant d'enregistrer rapidement vos mouvements par voix ou par texte et d'organiser votre argent dans des comptes indépendants."
         },
         {
                 "kind": "p",
@@ -6703,13 +6703,13 @@ const overrides = {
                 "text": "Points forts : oblige à prioriser, révèle le gaspillage, rend les compromis explicites. Limitations : nécessite plus de paramétrage, plus de suivi et la volonté de prendre de petites décisions souvent. Si vous êtes quelqu'un qui trouve la catégorisation constante épuisante, le budget basé sur zéro peut ressembler à un emploi à temps partiel."
         },
         {
-                "id": "style-3-m-thode-des-enveloppes-espaces",
+                "id": "style-3-m-thode-des-enveloppes-comptes",
                 "kind": "h3",
-                "text": "Style 3 : Méthode des enveloppes / Espaces"
+                "text": "Style 3 : Méthode des enveloppes / Comptes"
         },
         {
                 "kind": "p",
-                "text": "La méthode des enveloppes, parfois appelée méthode de remplissage d'argent sous sa forme physique, donne à chaque catégorie de dépense son propre pool d'argent. Quand l'enveloppe est vide, la catégorie est mise en pause jusqu'au mois prochain. Dans les applications modernes, c'est généralement implémenté comme des « Espaces » ou sous-comptes séparés. Savlo, par exemple, utilise le terme Espaces pour désigner la même idée."
+                "text": "La méthode des enveloppes, parfois appelée méthode de remplissage d'argent sous sa forme physique, donne à chaque catégorie de dépense son propre pool d'argent. Quand l'enveloppe est vide, la catégorie est mise en pause jusqu'au mois prochain. Dans les applications modernes, c'est généralement implémenté comme des « Comptes » ou sous-comptes séparés. Savlo, par exemple, utilise le terme Comptes pour désigner la même idée."
         },
         {
                 "kind": "p",
@@ -6978,7 +6978,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les applications couvrent la gamme de l'automatisation complète (connexion bancaire) au uniquement manuel. La bonne application dépend de votre relation avec la confidentialité, de votre tolérance à la friction de saisie et de la visibilité que vous voulez donner aux dépenses. Si vous avez quitté Mint pour des raisons de confidentialité, le comparatif des meilleures alternatives à Mint en 2025 vous économisera un week-end de recherche. Savlo, par exemple, est construit autour de vérifications vocales, d'imports CSV et d'une routine financière quotidienne plus calme plutôt que de la synchronisation bancaire continue. Il est disponible sur Android et bientôt sur iOS."
+                "text": "Les applications couvrent la gamme de l'automatisation complète (connexion bancaire) au uniquement manuel. La bonne application dépend de votre relation avec la confidentialité, de votre tolérance à la friction de saisie et de la visibilité que vous voulez donner aux dépenses. Si vous avez quitté Mint pour des raisons de confidentialité, le comparatif des meilleures alternatives à Mint en 2025 vous économisera un week-end de recherche. Savlo, par exemple, est conçu pour vous donner le contrôle et la gestion quotidienne de vos finances en quelques minutes grâce à des enregistrements faciles par voix ou par texte, l'importation de feuilles de calcul et l'organisation par comptes indépendants, plutôt que la synchronisation bancaire continue. Il est disponible sur Android et bientôt sur iOS."
         },
         {
                 "kind": "p",
@@ -7089,7 +7089,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vous voulez un outil qui essaie de rendre tout ce guide plus léger, Savlo est construit autour des idées que nous avons couvertes : vérifications vocales, catégorisation douce, Espaces séparés pour l'argent qui compte, fonds de prévision pour l'avenir prévisible et une interface calme qui ne vous punit pas pour avoir une mauvaise semaine. Il est disponible sur Android et bientôt sur iOS. Le reste du blog traite chacune de ces idées en profondeur si vous voulez continuer."
+                "text": "Si vous voulez un outil pour vous aider à garder le contrôle et la gestion quotidienne de vos finances en quelques minutes, Savlo est construit autour des idées que nous avons abordées : enregistrements rapides par voix et par texte, budgétisation par catégories, comptes indépendants pour organiser votre argent, sinking funds (fonds de prévision) et un système de séries motivant. Il est disponible sur Android et bientôt sur iOS. Le reste du blog traite chacune de ces idées en profondeur si vous voulez continuer."
         }
 ]
     },

@@ -11,10 +11,10 @@ type Tenet = {
 const tenetsByLocale: Record<Locale, Tenet[]> = {
   en: [
     {
-      caption: "GENTLE STREAKS",
-      title: "Gentle habits, zero guilt.",
+      caption: "CONTROL STREAKS",
+      title: "Daily habit, total control.",
       body:
-        "A supportive daily check-in to build lasting habits, with no anxiety-inducing red notifications or penalization. Your money deserves a steadier tone.",
+        "Log your transactions easily every day. Our streak system motivates you to keep your accounts updated consistently and in just a few minutes.",
       Motif: EmberMotif,
     },
     {
@@ -35,16 +35,16 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       caption: "YOU DECIDE",
       title: "You stay in charge.",
       body:
-        "Your spaces, your savings goals, and your definitions. Savlo is a mirror, not a coach.",
+        "Your accounts, your savings goals, and your definitions. Savlo is a mirror, not a coach.",
       Motif: ReticleMotif,
     },
   ],
   es: [
     {
-      caption: "RACHAS SUAVES",
-      title: "Hábitos suaves, cero culpa.",
+      caption: "RACHAS DE CONTROL",
+      title: "Hábito diario, control total.",
       body:
-        "Un check-in diario de apoyo para construir hábitos duraderos, sin notificaciones rojas que generen ansiedad ni penalizaciones. Tu dinero merece un tono más estable.",
+        "Registra tus movimientos diariamente de forma fácil. Nuestro sistema de rachas te motiva a mantener tus cuentas al día de manera constante y en pocos minutos.",
       Motif: EmberMotif,
     },
     {
@@ -65,16 +65,16 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       caption: "TÚ DECIDES",
       title: "Tú sigues a cargo.",
       body:
-        "Tus espacios, tus metas de ahorro y tus definiciones. Savlo es un espejo, no un coach.",
+        "Tus cuentas, tus metas de ahorro y tus definiciones. Savlo es un espejo, no un coach.",
       Motif: ReticleMotif,
     },
   ],
   pt: [
     {
-      caption: "SEQUÊNCIAS GENTIS",
-      title: "Hábitos gentis, zero culpa.",
+      caption: "SEQUÊNCIAS DE CONTROLE",
+      title: "Hábito diário, controle total.",
       body:
-        "Um check-in diário de apoio para construir hábitos duradouros, sem notificações vermelhas que gerem ansiedade nem penalizações. Seu dinheiro merece um tom mais estável.",
+        "Registre seus movimentos diariamente de forma fácil. Nosso sistema de sequências motiva você a manter suas contas em dia de maneira constante e em poucos minutos.",
       Motif: EmberMotif,
     },
     {
@@ -95,16 +95,16 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       caption: "VOCÊ DECIDE",
       title: "Você continua no comando.",
       body:
-        "Seus espaços, suas metas de poupança e suas definições. O Savlo é um espelho, não um coach.",
+        "Suas contas, suas metas de poupança e suas definições. O Savlo é um espelho, não um coach.",
       Motif: ReticleMotif,
     },
   ],
   de: [
     {
-      caption: "SANFTE ROUTINEN",
-      title: "Sanfte Gewohnheiten, null Schuldgefuehl.",
+      caption: "KONTROLL-ROUTINEN",
+      title: "Tägliche Gewohnheit, volle Kontrolle.",
       body:
-        "Ein unterstuetzender taeglicher Check-in, um dauerhafte Gewohnheiten aufzubauen, ohne Angst ausloesende rote Benachrichtigungen oder Strafen. Dein Geld verdient einen ruhigeren Ton.",
+        "Erfassen Sie Ihre Bewegungen täglich ganz einfach. Unser Streak-System motiviert Sie, Ihre Konten konsistent und in wenigen Minuten auf dem neuesten Stand zu halten.",
       Motif: EmberMotif,
     },
     {
@@ -125,16 +125,16 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       caption: "DU ENTSCHEIDEST",
       title: "Du behaeltst die Kontrolle.",
       body:
-        "Deine Spaces, deine Sparziele und deine Definitionen. Savlo ist ein Spiegel, kein Coach.",
+        "Deine Konten, deine Sparziele und deine Definitionen. Savlo ist ein Spiegel, kein Coach.",
       Motif: ReticleMotif,
     },
   ],
   fr: [
     {
-      caption: "RHYTHMES DOUX",
-      title: "Des habitudes douces, zéro culpabilité.",
+      caption: "SÉRIES DE CONTRÔLE",
+      title: "Habitude quotidienne, contrôle total.",
       body:
-        "Un check-in quotidien qui soutient la création d'habitudes durables, sans notifications rouges anxiogènes ni sanctions. Ton argent mérite un ton plus stable.",
+        "Enregistrez facilement vos mouvements au quotidien. Notre système de séries vous motive à tenir vos comptes à jour de manière constante et en quelques minutes.",
       Motif: EmberMotif,
     },
     {
@@ -155,7 +155,7 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
       caption: "C'EST TOI QUI DÉCIDES",
       title: "Tu gardes la main.",
       body:
-        "Tes espaces, tes objectifs d'épargne et tes définitions. Savlo est un miroir, pas un coach.",
+        "Tes comptes, tes objectifs d'épargne et tes définitions. Savlo est un miroir, pas un coach.",
       Motif: ReticleMotif,
     },
   ],
@@ -164,38 +164,38 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
 const copy = {
   en: {
     eyebrow: "Our philosophy",
-    firstLine: "We don't judge your spending.",
-    emphasis: "We help you understand it.",
+    firstLine: "Take control of your money.",
+    emphasis: "Without wasting time.",
     description:
-      "Most money apps treat every dollar as a test you're failing. Savlo is built on behavioral finance research: awareness, not pressure, is what creates lasting change. So we show you the shape of your habits - and then we step back.",
+      "Most financial apps require hours of spreadsheets or complex manual classifications. Savlo is designed to give you absolute, daily control of your accounts in minutes, automating logging so you can optimize your finances effortlessly.",
   },
   es: {
     eyebrow: "Nuestra filosofía",
-    firstLine: "No juzgamos tus gastos.",
-    emphasis: "Te ayudamos a entenderlos.",
+    firstLine: "Toma el control de tu dinero.",
+    emphasis: "Sin perder tiempo.",
     description:
-      "La mayoría de las apps de dinero tratan cada dólar como una prueba que estás fallando. Savlo se apoya en finanzas conductuales: la conciencia, no la presión, es lo que crea cambios duraderos. Te mostramos la forma de tus hábitos y luego damos un paso atrás.",
+      "La mayoría de las apps de finanzas requieren horas de Excel o clasificaciones manuales complejas. Savlo está diseñada para darte control absoluto y diario de tus cuentas en minutos, automatizando el registro para que optimices tus finanzas sin esfuerzo.",
   },
   pt: {
     eyebrow: "Nossa filosofia",
-    firstLine: "Não julgamos seus gastos.",
-    emphasis: "Ajudamos você a entendê-los.",
+    firstLine: "Tome o controle do seu dinheiro.",
+    emphasis: "Sem perder tempo.",
     description:
-      "A maioria dos apps de dinheiro trata cada real como uma prova que você está perdendo. O Savlo foi construído com base em finanças comportamentais: consciência, não pressão, é o que cria mudança duradoura. Então mostramos a forma dos seus hábitos e depois damos um passo atrás.",
+      "A maioria dos aplicativos financeiros exige horas de planilhas ou classificações manuais complexas. O Savlo foi desenvolvido para dar a você controle absoluto e diário de suas contas em minutos, automatizando os registros para que você otimize suas finanças sem esforço.",
   },
   de: {
     eyebrow: "Unsere Philosophie",
-    firstLine: "Wir beurteilen deine Ausgaben nicht.",
-    emphasis: "Wir helfen dir, sie zu verstehen.",
+    firstLine: "Übernehmen Sie die Kontrolle über Ihr Geld.",
+    emphasis: "Ohne Zeit zu verlieren.",
     description:
-      "Die meisten Geld-Apps behandeln jeden Euro wie einen Test, den du nicht bestehst. Savlo basiert auf Verhaltensfinanz-Forschung: Bewusstsein, nicht Druck, erzeugt dauerhafte Veraenderung. Darum zeigen wir dir die Form deiner Gewohnheiten - und treten dann einen Schritt zurueck.",
+      "Die meisten Finanz-Apps erfordern stundenlange Excel-Tabellen oder komplexe manuelle Klassifizierungen. Savlo wurde entwickelt, um Ihnen in wenigen Minuten die absolute tägliche Kontrolle über Ihre Konten zu geben. Die Erfassung wird automatisiert, sodass Sie Ihre Finanzen mühelos optimieren können.",
   },
   fr: {
     eyebrow: "Notre philosophie",
-    firstLine: "Nous ne jugeons pas tes dépenses.",
-    emphasis: "Nous t'aidons à les comprendre.",
+    firstLine: "Prenez le contrôle de votre argent.",
+    emphasis: "Sans perdre de temps.",
     description:
-      "La plupart des apps d'argent traitent chaque euro comme un test raté. Savlo s'appuie sur la finance comportementale: la conscience, pas la pression, crée un changement durable. Nous te montrons la forme de tes habitudes, puis nous prenons du recul.",
+      "La plupart des applications financières exigent des heures sur des tableurs ou des classifications manuelles complexes. Savlo est conçue pour vous donner le contrôle absolu et quotidien de vos comptes en quelques minutes, en automatisant la saisie pour optimiser vos finances sans effort.",
   },
 } as const
 

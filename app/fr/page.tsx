@@ -20,25 +20,25 @@ const faqItems = [
   {
     question: "Dois-je connecter mon compte bancaire ?",
     answer:
-      "Le site public met en avant des check-ins vocaux, des imports CSV et XLSX, et des saisies contrôlées par l'utilisateur plutôt qu'une connexion bancaire obligatoire.",
+      "Le site public met en avant des enregistrements faciles par voix ou par texte, des imports CSV et XLSX, et des saisies contrôlées par l'utilisateur plutôt qu'une connexion bancaire obligatoire.",
   },
   {
     question: "Pour qui Savlo est-il conçu ?",
     answer:
-      "Savlo s'adresse aux personnes qui veulent gérer leur budget plus calmement, surtout si les outils financiers classiques semblent rigides, bruyants ou culpabilisants.",
+      "Savlo s'adresse aux personnes occupées qui recherchent un contrôle actif et une gestion quotidienne de leurs finances en quelques minutes, sans les tracas ni la rigidité des outils traditionnels.",
   },
   {
     question: "Savlo aide-t-il avec les fonds dédiés ?",
     answer:
-      "Oui. Savlo met en avant les fonds dédiés comme une manière centrale de transformer des dépenses planifiables en réserves régulières plus petites.",
+      "Oui. Savlo met en avant les fonds dédiés comme une manière centrale de transformer des dépenses planifiables en réserves régulières directement au sein de vos comptes.",
   },
 ] as const
 
 const description =
-  "Savlo est une application de budget calme pour les esprits anxieux: suivre les dépenses par voix, organiser l'argent en Spaces et en fonds dédiés, et construire des habitudes financières sans culpabilité."
+  "Savlo est une application pour le contrôle et la gestion quotidienne des finances en minutes. Suivez vos dépenses par voix ou texte, organisez votre argent sur des comptes indépendants et optimisez votre budget sans effort."
 
 export const metadata: Metadata = {
-  title: "Budget calme pour esprits anxieux",
+  title: "Contrôle et gestion quotidienne des finances en minutes",
   description,
   keywords: [
     "application budget",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   ],
   alternates: metadataAlternates("/fr"),
   openGraph: {
-    title: "Savlo | Budget calme pour esprits anxieux",
+    title: "Savlo | Contrôle quotidien des finances en minutes",
     description,
     url: "/fr",
     siteName: siteConfig.name,
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Budget calme pour esprits anxieux",
+    title: "Savlo | Contrôle quotidien des finances en minutes",
     description,
     images: [absoluteUrl(siteConfig.ogImage)],
   },
@@ -113,7 +113,7 @@ export default function FrenchHomePage() {
       operatingSystem: "iOS, Android",
       url: absoluteUrl("/fr"),
       description:
-        "Savlo est une application de budget fondée sur la finance comportementale avec check-ins vocaux, Spaces séparés, fonds dédiés, import de tableurs et export de données.",
+        "Savlo est une application pour le contrôle et la gestion quotidienne des finances en minutes avec enregistrement voix/texte, comptes indépendants, fonds dédiés, import de tableurs et export de données.",
       image: absoluteUrl(siteConfig.ogImage),
       screenshot: [
         absoluteUrl("/app_screen_today.png"),
@@ -131,8 +131,8 @@ export default function FrenchHomePage() {
       },
       isAccessibleForFree: true,
       featureList: [
-        "Check-ins vocaux",
-        "Spaces d'argent",
+        "Enregistrement voix et texte",
+        "Comptes indépendants",
         "Fonds dédiés",
         "Import CSV et XLSX",
         "Export des données",

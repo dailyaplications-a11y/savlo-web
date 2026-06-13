@@ -20,37 +20,37 @@ const faqItems = [
   {
     question: "O Savlo exige conexão com banco?",
     answer:
-      "O site público do Savlo enfatiza check-ins por voz, importações CSV/XLSX e registros controlados pela própria pessoa usuária, não conexão bancária obrigatória.",
+      "O site público do Savlo enfatiza registros fáceis por voz ou texto, importações CSV/XLSX e registros controlados pela própria pessoa usuária, não conexão bancária obrigatória.",
   },
   {
     question: "Para quem o app foi feito?",
     answer:
-      "O Savlo foi pensado para pessoas que querem orçar com mais calma, especialmente se ferramentas tradicionais de finanças pessoais parecem rígidas ou ansiosas.",
+      "O Savlo foi feito para pessoas ocupadas que buscam controle ativo e gestão diária de suas finanças em minutos, sem as complicações e a rigidez das ferramentas tradicionais.",
   },
   {
     question: "O Savlo ajuda com sinking funds?",
     answer:
-      "Sim. O Savlo apresenta Sinking Funds como uma forma central de transformar gastos grandes e previsíveis em aportes menores e mais constantes.",
+      "Sim. O Savlo apresenta Sinking Funds como uma forma central de apartar dinheiro intencionalmente para despesas previstas diretamente dentro de suas contas.",
   },
 ] as const
 
 export const metadata: Metadata = {
-  title: "Orçamento pessoal em calma",
+  title: "Controle e gestão diária de finanças em minutos",
   description:
-    "O Savlo é um app de orçamento pessoal para mentes ansiosas: registre gastos por voz, separe seu dinheiro em espaços e sinking funds e volte a olhar suas finanças sem culpa.",
+    "O Savlo é um app para controle e gestão diária de suas finanças em minutos. Registre movimentos por voz ou texto rápido, organize seu dinheiro em contas independentes e otimize seus gastos sem esforço.",
   keywords: [
     "app de orçamento",
-    "orçamento pessoal",
-    "ansiedade financeira",
+    "controle de gastos",
     "registro de gastos por voz",
     "sinking funds",
     "finanças pessoais",
+    "contas independentes",
   ],
   alternates: metadataAlternates("/pt"),
   openGraph: {
-    title: "Savlo | Orçamento pessoal em calma",
+    title: "Savlo | Controle e gestão diária de finanças em minutos",
     description:
-      "Um app de orçamento pessoal pensado para olhar seu dinheiro com menos pressão.",
+      "Um app desenvolvido para dar a você o controle ativo e diário do seu dinheiro em minutos.",
     url: "/pt",
     siteName: siteConfig.name,
     locale: "pt_BR",
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Orçamento pessoal em calma",
+    title: "Savlo | Controle e gestão diária de finanças em minutos",
     description:
-      "Registre gastos por voz, organize seu dinheiro e crie hábitos sem culpa.",
+      "Registre movimentos por voz ou texto, organize seu dinheiro em contas independentes e otimize seus gastos diariamente.",
     images: [absoluteUrl(siteConfig.ogImage)],
   },
 }
@@ -96,7 +96,7 @@ export default function PortugueseHomePage() {
       operatingSystem: "iOS, Android",
       url: absoluteUrl("/pt"),
       description:
-        "O Savlo é um app de orçamento pessoal inspirado em finanças comportamentais, com check-ins por voz, espaços separados, Sinking Funds, importação de planilhas e exportação de dados.",
+        "O Savlo é um app para controle e gestão diária de finanças em minutos, com registros por voz e texto rápido, contas independentes, Sinking Funds, importação de planilhas e exportação de dados.",
       image: absoluteUrl(siteConfig.ogImage),
       screenshot: [
         absoluteUrl("/app_screen_today.png"),
@@ -115,8 +115,8 @@ export default function PortugueseHomePage() {
       },
       isAccessibleForFree: true,
       featureList: [
-        "Registro de gastos por voz",
-        "Espaços de dinheiro",
+        "Registro de movimentos por voz e texto",
+        "Contas independentes",
         "Sinking Funds",
         "Importações CSV e XLSX",
         "Exportação de dados",

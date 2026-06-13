@@ -12,10 +12,10 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Product",
       links: [
-        { label: "Daily check-in", href: "/#features" },
+        { label: "Easy logging", href: "/#features" },
         { label: "Voice logging", href: "/blog/voice-expense-tracking" },
         { label: "Sinking funds", href: "/blog/sinking-funds" },
-        { label: "Spaces and funds", href: "/#product" },
+        { label: "Accounts and funds", href: "/#product" },
         { label: "Export your data", href: "/#features" },
       ],
     },
@@ -73,10 +73,10 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Producto",
       links: [
-        { label: "Chequeo diario", href: "/es#features" },
+        { label: "Registro fácil", href: "/es#features" },
         { label: "Registro por voz", href: "/es/blog/voice-expense-tracking" },
         { label: "Sinking funds", href: "/es/blog/sinking-funds" },
-        { label: "Espacios y fondos", href: "/es#product" },
+        { label: "Cuentas y fondos", href: "/es#product" },
         { label: "Exportar tus datos", href: "/es#features" },
       ],
     },
@@ -134,10 +134,10 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Produto",
       links: [
-        { label: "Check-in diário", href: "/pt#features" },
+        { label: "Registro fácil", href: "/pt#features" },
         { label: "Registro por voz", href: "/pt/blog/voice-expense-tracking" },
         { label: "Sinking funds", href: "/pt/blog/sinking-funds" },
-        { label: "Espaços e fundos", href: "/pt#product" },
+        { label: "Contas e fundos", href: "/pt#product" },
         { label: "Exportar seus dados", href: "/pt#features" },
       ],
     },
@@ -195,10 +195,10 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Produkt",
       links: [
-        { label: "Täglicher Check-in", href: "/de#features" },
+        { label: "Einfache Erfassung", href: "/de#features" },
         { label: "Sprachprotokoll", href: "/de/blog/voice-expense-tracking" },
         { label: "Sinking Funds", href: "/de/blog/sinking-funds" },
-        { label: "Spaces und Funds", href: "/de#product" },
+        { label: "Konten und Funds", href: "/de#product" },
         { label: "Daten exportieren", href: "/de#features" },
       ],
     },
@@ -256,10 +256,10 @@ const COLUMNS: Record<Locale, Column[]> = {
     {
       heading: "Produit",
       links: [
-        { label: "Check-in quotidien", href: "/fr#features" },
+        { label: "Enregistrement facile", href: "/fr#features" },
         { label: "Journal vocal", href: "/fr/blog/voice-expense-tracking" },
         { label: "Fonds dédiés", href: "/fr/blog/sinking-funds" },
-        { label: "Espaces et fonds", href: "/fr#product" },
+        { label: "Comptes et fonds", href: "/fr#product" },
         { label: "Exporter vos données", href: "/fr#features" },
       ],
     },

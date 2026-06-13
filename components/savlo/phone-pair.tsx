@@ -18,41 +18,41 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
     locale === "es"
       ? {
           voice: "Voz bilingüe",
-          calm: "Modo calma",
+          calm: "Control diario",
           fund: "Fondo vacaciones",
           today: "+$12 hoy",
-          plan: "Plan suave",
+          plan: "Presupuesto",
         }
       : locale === "pt"
         ? {
             voice: "Voz em português",
-            calm: "Modo calmo",
+            calm: "Controle diário",
             fund: "Fundo de viagem",
             today: "+$12 hoje",
-            plan: "Plano gentil",
+            plan: "Orçamento",
           }
         : locale === "de"
         ? {
             voice: "Stimme auf Deutsch",
-            calm: "Ruhemodus",
+            calm: "Tägliche Kontrolle",
             fund: "Urlaubsfonds",
             today: "+$12 heute",
-            plan: "Sanfter Plan",
+            plan: "Budget",
           }
         : locale === "fr"
           ? {
               voice: "Voix en français",
-              calm: "Mode calme",
+              calm: "Contrôle quotidien",
               fund: "Fonds vacances",
               today: "+$12 aujourd'hui",
-              plan: "Plan doux",
+              plan: "Budget",
             }
         : {
             voice: "Spanish & English voice",
-            calm: "Calm mode",
+            calm: "Daily control",
             fund: "Vacation fund",
             today: "+$12 today",
-            plan: "Gentle plan",
+            plan: "Budgeting",
           }
 
   return (

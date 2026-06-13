@@ -24,7 +24,7 @@ const principlesByLocale: Record<Locale, Principle[]> = {
     {
       title: "You stay in control of your records.",
       body:
-        "The product messaging emphasizes exports, separate Spaces, and a calmer interface that helps you inspect your money without locking you into dark patterns.",
+        "The product messaging emphasizes exports, independent accounts to organize your money, and an active interface that helps you keep control without locking you into dark patterns.",
     },
   ],
   es: [
@@ -41,7 +41,7 @@ const principlesByLocale: Record<Locale, Principle[]> = {
     {
       title: "Tú mantienes control de tus registros.",
       body:
-        "El mensaje del producto enfatiza exportaciones, Spaces separados y una interfaz más calma para revisar tu dinero sin encerrarte en patrones oscuros.",
+        "El mensaje del producto enfatiza exportaciones, cuentas independientes para organizar tu dinero y una interfaz activa para revisar tu dinero sin encerrarte en patrones oscuros.",
     },
   ],
   pt: [
@@ -58,7 +58,7 @@ const principlesByLocale: Record<Locale, Principle[]> = {
     {
       title: "Você continua no controle dos seus registros.",
       body:
-        "A comunicação do produto enfatiza exportações, Spaces separados e uma interface mais calma para revisar seu dinheiro sem te prender em padrões obscuros.",
+        "A comunicação do produto enfatiza exportações, contas independentes para organizar seu dinheiro e uma interface ativa para revisar seu dinheiro sem te prender em padrões obscuros.",
     },
   ],
   de: [
@@ -75,7 +75,7 @@ const principlesByLocale: Record<Locale, Principle[]> = {
     {
       title: "Du behaeltst die Kontrolle ueber deine Aufzeichnungen.",
       body:
-        "Die Produktbotschaft betont Exporte, getrennte Spaces und eine ruhigere Oberflaeche, die dir hilft, dein Geld zu pruefen, ohne dich in dunkle Muster einzusperren.",
+        "Die Produktbotschaft betont Exporte, unabhaengige Konten und eine aktive Benutzeroberflaeche, die dir hilft, dein Geld zu pruefen, ohne dich in dunkle Muster einzusperren.",
     },
   ],
   fr: [
@@ -92,7 +92,7 @@ const principlesByLocale: Record<Locale, Principle[]> = {
     {
       title: "Tu gardes le contrôle de tes relevés.",
       body:
-        "Le message produit met en avant les exportations, les Spaces séparés et une interface plus calme pour consulter ton argent sans te piéger dans des schémas sombres.",
+        "Le message produit met en avant les exportations, les comptes indépendants et une interface active pour consulter ton argent sans te piéger dans des schémas sombres.",
     },
   ],
 }
@@ -102,7 +102,7 @@ const copy = {
     eyebrow: "Trust, by default",
     heading: "Built quietly, with clear promises.",
     description:
-      "Calm design only matters if the product language is honest. These are the promises the public site can stand behind today.",
+      "Honest design only matters if the product language is true. These are the promises the public site can stand behind today.",
     metrics: [
       ["Business model", "Member-funded"],
       ["Data policy", "No data selling"],
@@ -113,7 +113,7 @@ const copy = {
     eyebrow: "Confianza, por defecto",
     heading: "Construido en silencio, con promesas claras.",
     description:
-      "El diseño calmado solo importa si el lenguaje del producto es honesto. Estas son las promesas que el sitio público puede sostener hoy.",
+      "El diseño honesto solo importa si el lenguaje del producto es verdadero. Estas son las promesas que el sitio público puede sostener hoy.",
     metrics: [
       ["Modelo", "Sostenido por miembros"],
       ["Datos", "No se venden"],
@@ -124,7 +124,7 @@ const copy = {
     eyebrow: "Confiança, por padrão",
     heading: "Construído em silêncio, com promessas claras.",
     description:
-      "O design calmo só importa se a linguagem do produto for honesta. Estas são as promessas que o site público consegue sustentar hoje.",
+      "O design honesto só importa se a linguagem do produto for verdadeira. Estas são as promessas que o site público consegue sustentar hoje.",
     metrics: [
       ["Modelo", "Sustentado por membros"],
       ["Dados", "Sem venda de dados"],
@@ -135,7 +135,7 @@ const copy = {
     eyebrow: "Vertrauen von Anfang an",
     heading: "Still gebaut, mit klaren Zusagen.",
     description:
-      "Ruhiges Design zaehlt nur, wenn die Produktsprache ehrlich ist. Das sind die Zusagen, zu denen die oeffentliche Seite heute stehen kann.",
+      "Ehrliches Design zaehlt nur, wenn die Produktsprache wahrhaftig ist. Das sind die Zusagen, zu denen die oeffentliche Seite heute stehen kann.",
     metrics: [
       ["Geschaeftsmodell", "Von Mitgliedern getragen"],
       ["Datenpolitik", "Kein Datenverkauf"],
@@ -146,7 +146,7 @@ const copy = {
     eyebrow: "Confiance par défaut",
     heading: "Construit en silence, avec des promesses claires.",
     description:
-      "Un design calme ne compte que si le langage du produit est honnête. Voici les promesses que le site public peut soutenir aujourd'hui.",
+      "Un design honnête ne compte que si le langage du produit est vrai. Voici les promesses que le site public peut soutenir aujourd'hui.",
     metrics: [
       ["Modèle", "Soutenu par les membres"],
       ["Données", "Aucune vente"],

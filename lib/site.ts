@@ -7,9 +7,9 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
     "https://www.savloapp.com",
   description:
-    "Savlo is a calm personal budgeting app for anxious minds. Track spending by voice, organize money into Spaces and Sinking Funds, and build steady habits without guilt.",
+    "Savlo is a personal finance app for active daily control and management in minutes. Track spending by voice or text, organize money into independent accounts, and optimize your budget effortlessly.",
   longDescription:
-    "Savlo is a behavioral-finance-informed budgeting app designed for peace of mind. The public site presents voice check-ins, spreadsheet imports, separate money Spaces, Sinking Funds, and exportable data in a quieter, lower-pressure interface.",
+    "Savlo is a personal finance app designed for daily control in minutes. The app features multi-modal AI logging, independent accounts, sinking funds, category budgeting, and quick-access widgets for instant overview without complex spreadsheets.",
   locale: "en_US",
   category: "personal finance",
   ogImage: "/app_screen_today.png",

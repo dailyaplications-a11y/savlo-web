@@ -2352,7 +2352,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O método de envelopes (também chamado de \"cash stuffing\") é a versão em dinheiro da orçamentação de base zero. Cada categoria tem um envelope, e quando o envelope está vazio, a categoria é pausada para o mês. A disciplina é a mesma da base zero; a diferença é que o dinheiro está em envelopes físicos em vez de em um aplicativo de acompanhamento. O orçamento por envelopes funciona bem para pessoas que gastam mais livremente quando usam um cartão. A orçamentação de base zero funciona bem para pessoas que querem a flexibilidade dos pagamentos com cartão mas a disciplina do método de envelopes. A maioria dos aplicativos modernos de base zero, incluindo Savlo, permite recriar a lógica de envelopes digitalmente como \"Espaços\"."
+                "text": "O método de envelopes (também chamado de \"cash stuffing\") é a versão em dinheiro da orçamentação de base zero. Cada categoria tem um envelope, e quando o envelope está vazio, a categoria é pausada para o mês. A disciplina é a mesma da base zero; a diferença é que o dinheiro está em envelopes físicos em vez de em um aplicativo de acompanhamento. O orçamento por envelopes funciona bem para pessoas que gastam mais livremente quando usam um cartão. A orçamentação de base zero funciona bem para pessoas que querem a flexibilidade dos pagamentos com cartão mas a disciplina do método de envelopes. A maioria dos aplicativos modernos de base zero, incluindo Savlo, permite recriar a lógica de envelopes digitalmente como \"Contas\"."
         },
         {
                 "kind": "p",
@@ -2411,7 +2411,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O método pode ser executado em uma folha de papel, uma planilha ou um aplicativo dedicado. A ferramenta certa é a que você ainda estará usando em seis meses. O YNAB é o aplicativo mais estabelecido para orçamentação de base zero e inclui um período gratuito de 34 dias mais uma assinatura anual. Não inclui acompanhamento de investimentos, e a curva de aprendizado é real. Para uma abordagem que prioriza a privacidade, o aplicativo Savlo suporta uma estrutura semelhante através de Espaços (envelopes digitais para categorias de gasto) e Fundos de Reserva, sem necessidade de vincular contas bancárias. O ponto não é qual ferramenta você escolhe. O ponto é que a ferramenta suporte as quatro regras: atribuir cada dólar, aceitar os gastos reais, adaptar-se aos golpes, e envelhecer seu dinheiro. A maioria das planilhas pode cobrir as duas primeiras. A terceira e a quarta são mais fáceis em um aplicativo que rastreie os saldos das categorias por você."
+                "text": "O método pode ser executado em uma folha de papel, uma planilha ou um aplicativo dedicado. A ferramenta certa é a que você ainda estará usando em seis meses. O YNAB é o aplicativo mais estabelecido para orçamentação de base zero e inclui um período gratuito de 34 dias mais uma assinatura anual. Não inclui acompanhamento de investimentos, e a curva de aprendizado é real. Para uma abordagem que prioriza a privacidade, o aplicativo Savlo suporta uma estrutura semelhante através de Contas (contas independentes para categorias de gasto) e Fundos de Reserva, sem necessidade de vincular contas bancárias. O ponto não é qual ferramenta você escolhe. O ponto é que a ferramenta suporte as quatro regras: atribuir cada dólar, aceitar os gastos reais, adaptar-se aos golpes, e envelhecer seu dinheiro. A maioria das planilhas pode cobrir as duas primeiras. A terceira e a quarta são mais fáceis em um aplicativo que rastreie os saldos das categorias por você."
         },
         {
                 "id": "uma-imers-o-mais-profunda-nas-quatro-regras-na-pr-",
@@ -3375,11 +3375,11 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O Savlo também inclui Espaços (envelopes digitais de gastos), Fundos ([fundos de amortização](/blog/sinking-funds) com nomes personalizados para despesas planejadas) e Sequências Suaves que incentivam a consistência sem puni-lo se você perder um dia. O app foi projetado com a ideia de que o gerenciamento de dinheiro deve ser calmo, não estressante — que a melhor ferramenta financeira é aquela que você realmente quer abrir."
+                "text": "O Savlo também inclui Contas (contas independentes de gastos), Fundos ([fundos de amortização](/blog/sinking-funds) com nomes personalizados para despesas planejadas) e Sequências motivadoras. O app foi projetado para que o gerenciamento de dinheiro seja rápido e eficiente, ajudando você a controlar suas despesas diárias em minutos."
         },
         {
                 "kind": "p",
-                "text": "O app está disponível no Android e em breve no iOS. É a escolha certa se [ansiedade financeira] fez você evitar suas finanças — seu design calmo e sem anúncios elimina a fricção e o julgamento que impedem muitas pessoas de olhar seus números. Para mais sobre essa abordagem, veja nosso guia de [como fazer orçamento](/blog/how-to-budget-money) e [ansiedade financeira](/blog/financial-anxiety) sem o excesso."
+                "text": "O app está disponível no Android e em breve no iOS. É a escolha certa para te dar o controle diário de suas finanças em minutos, com um design limpo e sem anúncios que elimina a fricção que impede muitas pessoas de olhar seus números. Para mais sobre essa abordagem, veja nosso guia de [como fazer orçamento](/blog/how-to-budget-money) e [ansiedade financeira](/blog/financial-anxiety) sem o excesso."
         },
         {
                 "id": "monarch-money-a-melhor-op-o-para-sincroniza-o-auto",
@@ -4033,13 +4033,13 @@ export const portuguesePosts: BlogPost[] = [
                 "text": "Pontos fortes: força a definir prioridades, revela desperdícios, torna as trocas explícitas. Limitações: requer mais configuração, mais acompanhamento e disposição para tomar decisões pequenas com frequência. Se você é uma pessoa que encontra a categorização constante exaustiva, o orçamento baseado em zero pode parecer um emprego de meio período."
         },
         {
-                "id": "estilo-3-m-todo-de-envelopes-espa-os",
+                "id": "estilo-3-m-todo-de-envelopes-contas",
                 "kind": "h3",
-                "text": "Estilo 3: Método de envelopes / Espaços"
+                "text": "Estilo 3: Método de envelopes / Contas"
         },
         {
                 "kind": "p",
-                "text": "O método de envelopes, às vezes chamado de método de reenchimento de dinheiro em sua forma física, dá a cada categoria de gasto seu próprio pool de dinheiro. Quando o envelope está vazio, a categoria é pausada até o próximo mês. Em aplicativos modernos, isso geralmente é implementado como \"Espaços\" ou subcontas separadas. Savlo, por exemplo, usa o termo Espaços para se referir à mesma ideia."
+                "text": "O método de envelopes, às vezes chamado de método de reenchimento de dinheiro em sua forma física, dá a cada categoria de gasto seu próprio pool de dinheiro. Quando o envelope está vazio, a categoria é pausada até o próximo mês. Em aplicativos modernos, isso geralmente é implementado como \"Contas\" ou subcontas separadas. Savlo, por exemplo, usa o termo Contas para se referir à mesma ideia."
         },
         {
                 "kind": "p",
@@ -4320,7 +4320,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "resumo das melhores alternativas ao Mint em 2025 {\" \"} lhe economizará um fim de semana de pesquisa. Savlo, por exemplo, é construído em torno de check-ins por voz, importações CSV e uma rotina diária de dinheiro mais calma em vez de sincronização bancária contínua. Está disponível no Android e em breve no iOS."
+                "text": "resumo das melhores alternativas ao Mint em 2025 {\" \"} lhe economizará um fim de semana de pesquisa. Savlo, por exemplo, é projetado para dar a você o controle e a gestão diária de suas finanças em minutos, através de registros fáceis por voz ou texto, importação de planilhas e a organização por contas independentes, em vez de sincronização bancária contínua. Está disponível no Android e em breve no iOS."
         },
         {
                 "kind": "p",
@@ -4435,7 +4435,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Se você quer uma ferramenta que tente fazer todo este guia parecer mais leve, Savlo é construído ao redor das ideias que cobrimos: check-ins por voz, categorização suave, Espaços separados para o dinheiro que importa, fundos acumulativos para o futuro previsível e uma interface calma que não te castiga por ter uma semana ruim. Está disponível no Android e em breve no iOS. O resto do blog cobre cada uma dessas ideias em mais profundidade se você quiser continuar."
+                "text": "Se você quer uma ferramenta que te ajude a levar o controle e a gestão diária de suas finanças em minutos, Savlo é construído ao redor das ideias que cobrimos: registros rápidos por voz e texto, categorização por categorias, contas independentes para organizar seu dinheiro, sinking funds (fundos acumulativos) e um sistema de sequências (streaks) motivador. Está disponível no Android e em breve no iOS. O resto do blog cobre cada uma dessas ideias em mais profundidade se você quiser continuar."
         }
 ]
     },
@@ -7482,7 +7482,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Três apps de orçamento, três filosofias financeiras distintas. O YNAB quer que você atribua cada dólar a um trabalho antes que o mês comece. O Monarch Money quer mostrar um lindo painel de toda a sua vida financeira. O Savlo quer que você revise com calma, registre uma compra por voz e siga com o seu dia sem culpa."
+                "text": "Três apps de orçamento, três filosofias financeiras distintas. O YNAB quer que você atribua cada dólar a um trabalho antes que o mês comece. O Monarch Money quer mostrar um lindo painel de toda a sua vida financeira. O Savlo é projetado para dar a você o controle e a gestão diária de suas finanças em minutos, permitindo registrar movimentos por voz ou texto rapidamente e organizar seu dinheiro em contas independentes."
         },
         {
                 "kind": "p",

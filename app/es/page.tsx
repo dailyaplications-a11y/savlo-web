@@ -20,37 +20,37 @@ const faqItems = [
   {
     question: "¿Savlo obliga a conectar el banco?",
     answer:
-      "El sitio público de Savlo enfatiza check-ins por voz, importaciones CSV/XLSX y registros controlados por la persona usuaria, no una conexión bancaria obligatoria.",
+      "El sitio público de Savlo enfatiza registros fáciles por voz o texto, importaciones CSV/XLSX y registros controlados por la persona usuaria, no una conexión bancaria obligatoria.",
   },
   {
     question: "¿Para quién está pensada la app?",
     answer:
-      "Savlo está pensada para personas que quieren presupuestar con más calma, especialmente si las herramientas tradicionales de finanzas personales se sienten rígidas o ansiosas.",
+      "Savlo está pensada para personas que buscan un control activo de su dinero de forma rápida y flexible en su rutina diaria, sin las complicaciones ni la rigidez de las herramientas tradicionales.",
   },
   {
     question: "¿Savlo sirve para sinking funds?",
     answer:
-      "Sí. Savlo presenta los Sinking Funds como una forma central de convertir gastos grandes y previsibles en aportes más pequeños y constantes.",
+      "Sí. Savlo presenta los Sinking Funds como una forma central de apartar dinero de forma intencional para gastos previsibles directamente dentro de tus cuentas.",
   },
 ] as const
 
 export const metadata: Metadata = {
-  title: "Presupuesto personal en calma",
+  title: "Control y manejo diario de finanzas en minutos",
   description:
-    "Savlo es una app de presupuesto personal para mentes ansiosas: registra gastos por voz, separa tu dinero en espacios y sinking funds, y vuelve a mirar tus finanzas sin culpa.",
+    "Savlo es una app para el control y manejo diario de tus finanzas en minutos. Registra movimientos por voz o texto rápido, organiza tu dinero en cuentas independientes y optimiza tus gastos sin esfuerzo.",
   keywords: [
-    "app de presupuesto",
-    "presupuesto personal",
-    "ansiedad financiera",
+    "app de finanzas",
+    "control de gastos",
     "registro de gastos por voz",
     "sinking funds",
     "finanzas personales",
+    "cuentas personales",
   ],
   alternates: metadataAlternates("/es"),
   openGraph: {
-    title: "Savlo | Presupuesto personal en calma",
+    title: "Savlo | Control y manejo diario de finanzas en minutos",
     description:
-      "Una app de presupuesto personal diseñada para mirar tu dinero con menos presión.",
+      "Una app diseñada para darte el control activo y diario de tu dinero en minutos.",
     url: "/es",
     siteName: siteConfig.name,
     locale: "es_ES",
@@ -58,15 +58,15 @@ export const metadata: Metadata = {
     images: [
       {
         url: absoluteUrl(siteConfig.ogImage),
-        alt: "Vista previa de la app de presupuesto Savlo",
+        alt: "Vista previa de la app de control financiero Savlo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Presupuesto personal en calma",
+    title: "Savlo | Control y manejo diario de finanzas en minutos",
     description:
-      "Registra gastos por voz, organiza tu dinero y construye hábitos sin culpa.",
+      "Registra movimientos por voz o texto, organiza tu dinero en cuentas independientes y optimiza tus gastos diariamente.",
     images: [absoluteUrl(siteConfig.ogImage)],
   },
 }
@@ -96,7 +96,7 @@ export default function SpanishHomePage() {
       operatingSystem: "iOS, Android",
       url: absoluteUrl("/es"),
       description:
-        "Savlo es una app de presupuesto personal informada por finanzas conductuales, con check-ins por voz, espacios separados, Sinking Funds, importaciones de planillas y exportación de datos.",
+        "Savlo es una app para el control y manejo diario de finanzas en minutos, con registros por voz y texto rápido, cuentas independientes, Sinking Funds, importaciones de planillas y exportación de datos.",
       image: absoluteUrl(siteConfig.ogImage),
       screenshot: [
         absoluteUrl("/app_screen_today.png"),
@@ -115,8 +115,8 @@ export default function SpanishHomePage() {
       },
       isAccessibleForFree: true,
       featureList: [
-        "Registro de gastos por voz",
-        "Spaces de dinero",
+        "Registro de movimientos por voz y texto",
+        "Cuentas independientes",
         "Sinking Funds",
         "Importaciones CSV y XLSX",
         "Exportación de datos",
