@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { DM_Sans, Fraunces } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Script from "next/script"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 import "./globals.css"
@@ -101,7 +102,10 @@ export default function RootLayout({
       <body className="font-sans antialiased text-foreground">
         {children}
         {process.env.NODE_ENV === "production" && process.env.VERCEL === "1" && (
-          <Analytics />
+          <>
+            <Analytics />
+            <SpeedInsights />
+          </>
         )}
       </body>
     </html>
