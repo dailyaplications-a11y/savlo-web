@@ -1,4 +1,4 @@
-import { posts, type BlogCategory } from "./posts";
+﻿import { posts, type BlogCategory } from "./posts";
 import type { BlogPost } from "./posts";
 
 const englishPostBySlug = new Map(posts.map((post) => [post.slug, post]));
@@ -24,10 +24,6 @@ export const portuguesePosts: BlogPost[] = [
     sections: [],
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Fazer um orçamento mensal não é um castigo. No fundo, é uma conversa tranquila e honesta com o seu eu passado e o seu eu futuro. Este guia acompanha você passo a passo, sem planilhas hostis, sequências ou números vermelhos que induzem culpa. Apenas decisões intencionais."
@@ -814,10 +810,6 @@ export const portuguesePosts: BlogPost[] = [
       blocks: [
         {
                 "kind": "p",
-                "text": "<>"
-        },
-        {
-                "kind": "p",
                 "text": "Fazer orçamento com baixa renda é toda uma arte. Os conselhos que circulam pela internet tendem a assumir uma margem: pare de tomar cafés, construa um fundo de emergência, automatize suas economias. Quando a margem não existe, esses conselhos não parecem úteis. Parecem uma porta que se fecha na sua cara. Este guia é para aqueles meses em que as contas não fecham, quando o salário se esgota antes que o mês termine e quando \"simplesmente faça um orçamento melhor\" é a última coisa que você precisa ouvir."
         },
         {
@@ -1169,10 +1161,6 @@ export const portuguesePosts: BlogPost[] = [
       blocks: [
         {
                 "kind": "p",
-                "text": "<>"
-        },
-        {
-                "kind": "p",
                 "text": "A ansiedade financeira raramente é proporcional à quantia de dinheiro que você tem no banco. É proporcional à quantidade de incerteza que você sente. Esses hábitos diários foram projetados para reduzir sua carga emocional antes mesmo de olhar para os números. Eles não substituem ajuda profissional se a ansiedade for grave, mas são um ponto de partida para qualquer pessoa que queira mudar a forma como o dinheiro a faz sentir."
         },
         {
@@ -1495,10 +1483,6 @@ export const portuguesePosts: BlogPost[] = [
     sections: [],
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Um fundo de ahorro específico é um fundo de poupança destinado a uma despesa grande e esperada no futuro: umas férias, o registro anual do carro, presentes de Natal ou manutenção da casa. Não é um fundo de emergência; é um planejamento calmo e deliberado."
@@ -2532,10 +2516,6 @@ export const portuguesePosts: BlogPost[] = [
       blocks: [
         {
                 "kind": "p",
-                "text": "<>"
-        },
-        {
-                "kind": "p",
                 "text": "Dívida é uma das experiências financeiras mais estressantes que uma pessoa pode enfrentar. Não é apenas um número em um extrato. É um peso que afeta seu sono, seus relacionamentos, sua autoimagem e sua capacidade de planejar o futuro. Se você está endividado agora e se sente sobrecarregado, você não está sozinho. De acordo com o Federal Reserve, a dívida total dos domicílios nos Estados Unidos ultrapassou US$ 17 trilhões em 2024. Milhões de pessoas estão lidando com a mesma incerteza que você."
         },
         {
@@ -3242,10 +3222,6 @@ export const portuguesePosts: BlogPost[] = [
       blocks: [
         {
                 "kind": "p",
-                "text": "<>"
-        },
-        {
-                "kind": "p",
                 "text": "Em janeiro de 2024, a Intuit desativou o Mint — o app que ensinou milhões de pessoas como deveria ser um painel de finanças pessoais. Por mais de uma década, o Mint foi a recomendação padrão para quem quisesse ver seus gastos, acompanhar seu patrimônio líquido e ter uma visão geral da sua vida financeira sem pagar um centavo. Então, de um dia para o outro, ele simplesmente desapareceu — migrado para o Credit Karma, uma ferramenta projetada em torno do monitoramento de crédito e recomendações de produtos em vez de orçamento."
         },
         {
@@ -3795,10 +3771,6 @@ export const portuguesePosts: BlogPost[] = [
     sections: [],
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Se alguma vez você abriu o aplicativo do banco à noite e sentiu o estômago revirar, este guia é para você. Orçamento tem sido vendido para a maioria de nós como um problema de disciplina: uma questão de força de vontade, uma sequência a manter, um número a superar. A realidade é mais suave, e muito mais útil. Um orçamento é um plano que você faz antes de gastar, não um veredicto que profere depois. É a diferença entre dirigir com um mapa e dirigir olhando para o espelho retrovisor."
@@ -4454,10 +4426,6 @@ export const portuguesePosts: BlogPost[] = [
     sections: [],
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Orçamentos tradicionais assumem que somos agentes racionais maximizando utilidade em todos os momentos. Cinquenta anos de pesquisa em economia comportamental dizem exatamente o oposto: somos humanos cansados, estressados tomando decisões complexas em ambientes com ruído."
@@ -5330,10 +5298,6 @@ export const portuguesePosts: BlogPost[] = [
     sections: [],
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Você já tentou fazer orçamento antes. Talvez você baixou um aplicativo, criou uma planilha ou seguiu um desafio viral de economia. E por algumas semanas, funcionou. Então a vida real aconteceu — uma conta inesperada, um jantar de aniversário, uma terça-feira em que você simplesmente não tinha vontade de rastrear nada — e todo o sistema desmoronou silenciosamente."
@@ -6254,10 +6218,6 @@ export const portuguesePosts: BlogPost[] = [
     sections: [],
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Você está no caixa. Acabou de pagar. Sabe que deveria registrar. Mas quando chega em casa — ou até quando volta ao carro — o valor está embaçado, o nome do comércio sumiu e o momento já passou. Você se diz que vai reconstruir o registro depois pelo extrato bancário. Não vai. Essa é exatamente a lacuna que o rastreamento de despesas por voz foi construído para preencher."
@@ -7478,10 +7438,6 @@ export const portuguesePosts: BlogPost[] = [
       blocks: [
         {
                 "kind": "p",
-                "text": "<>"
-        },
-        {
-                "kind": "p",
                 "text": "Três apps de orçamento, três filosofias financeiras distintas. O YNAB quer que você atribua cada dólar a um trabalho antes que o mês comece. O Monarch Money quer mostrar um lindo painel de toda a sua vida financeira. O Savlo é projetado para dar a você o controle e a gestão diária de suas finanças em minutos, permitindo registrar movimentos por voz ou texto rapidamente e organizar seu dinheiro em contas independentes."
         },
         {
@@ -8101,10 +8057,6 @@ export const portuguesePosts: BlogPost[] = [
     sections: [],
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Você tem $1.200 na sua conta corrente. Eles estão lá. Você pode vê-los. Mas para que servem? É para o aluguel do mês que vem? Para aquela consulta odontológica que você vem adiando? Para a viagem de fim de semana que seus amigos estão organizando? Você não tem certeza — e essa incerteza é exatamente o problema."

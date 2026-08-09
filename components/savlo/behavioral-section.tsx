@@ -41,31 +41,31 @@ const tenetsByLocale: Record<Locale, Tenet[]> = {
   ],
   es: [
     {
-      caption: "RACHAS DE CONTROL",
+      caption: "REGISTRO RÁPIDO",
       title: "Hábito diario, control total.",
       body:
-        "Registra tus movimientos diariamente de forma fácil. Nuestro sistema de rachas te motiva a mantener tus cuentas al día de manera constante y en pocos minutos.",
+        "Registrar toma menos de 1 minuto. Cuando hacerlo es tan fácil, realmente lo haces. La constancia construye el control.",
       Motif: EmberMotif,
     },
     {
-      caption: "OBSERVA PRIMERO",
-      title: "Observa hoy, decide mañana.",
+      caption: "DATOS EN TIEMPO REAL",
+      title: "Ve tus patrones al instante.",
       body:
-        "Savlo muestra patrones como lo haría un buen cuaderno: en silencio, y solo cuando lo abres.",
+        "Savlo agrupa tus gastos, calcula tendencias y te muestra exactamente en qué va tu dinero, sin que tengas que pedirlo.",
       Motif: RippleMotif,
     },
     {
-      caption: "COMPONER DESPACIO",
-      title: "Cambios pequeños, acumulados.",
+      caption: "MEJORA CONTINUA",
+      title: "Decisiones mejores, cada vez.",
       body:
-        "Celebramos la constancia, no la fuerza de voluntad. Un intercambio consciente vale más que un mes de restricción severa.",
+        "Con tu historial real, cada decisión financiera está respaldada por datos concretos. No intuiciones, no estimaciones.",
       Motif: SpiralMotif,
     },
     {
       caption: "TÚ DECIDES",
-      title: "Tú sigues a cargo.",
+      title: "Tus datos. Tus reglas.",
       body:
-        "Tus cuentas, tus metas de ahorro y tus definiciones. Savlo es un espejo, no un coach.",
+        "Tus cuentas, tus fondos y tus límites. Savlo se adapta a cómo manejas tu dinero, no al revés.",
       Motif: ReticleMotif,
     },
   ],
@@ -170,11 +170,11 @@ const copy = {
       "Most financial apps require hours of spreadsheets or complex manual classifications. Savlo is designed to give you absolute, daily control of your accounts in minutes, automating logging so you can optimize your finances effortlessly.",
   },
   es: {
-    eyebrow: "Nuestra filosofía",
-    firstLine: "Toma el control de tu dinero.",
-    emphasis: "Sin perder tiempo.",
+    eyebrow: "Por qué Savlo",
+    firstLine: "Control real,",
+    emphasis: "en menos de 1 minuto.",
     description:
-      "La mayoría de las apps de finanzas requieren horas de Excel o clasificaciones manuales complejas. Savlo está diseñada para darte control absoluto y diario de tus cuentas en minutos, automatizando el registro para que optimices tus finanzas sin esfuerzo.",
+      "La mayoría de las apps financieras requieren demasiado tiempo o son demasiado complejas. Savlo está diseñada para darte control total de tus finanzas en minutos, con registro automático y visibilidad inmediata.",
   },
   pt: {
     eyebrow: "Nossa filosofia",

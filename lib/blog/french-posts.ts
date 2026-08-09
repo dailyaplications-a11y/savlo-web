@@ -1,4 +1,4 @@
-import { posts, type BlogCategory } from "@/lib/blog/posts"
+﻿import { posts, type BlogCategory } from "@/lib/blog/posts"
 import type { RichArticle } from "@/lib/blog/rich-article"
 
 export type FrenchBlogPost = {
@@ -46,10 +46,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Établir un budget mensuel n'est pas une punition. Au fond, c'est une conversation calme et honnête avec ton toi passé et ton toi futur. Ce guide t'accompagne étape par étape, sans tableurs hostiles, séquences ou chiffres rouges culpabilisants. Juste des décisions intentionnelles."
@@ -839,10 +835,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Tu as déjà essayé de faire un budget. Tu as peut-être téléchargé une application, créé un tableur, ou suivi un défi viral d'économie. Et pendant quelques semaines, ça a fonctionné. Ensuite, la vraie vie est arrivée — une facture imprévue, un dîner d'anniversaire, un mardi où tu n'avais tout simplement pas envie de suivre quoi que ce soit — et tout le système s'est effondré en silence."
@@ -1803,10 +1795,6 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "<>"
-        },
-        {
-                "kind": "p",
                 "text": "Tu as 1 200 $ sur ton compte courant. Ils sont là. Tu peux les voir. Mais à quoi servent-ils ? Pour le loyer du mois prochain ? Pour ce rendez-vous chez le dentiste que tu repousses sans cesse ? Pour le week-end que tes amis planifient ? Tu n'es pas entièrement sûr — et cette incertitude est exactement le problème."
         },
         {
@@ -2385,10 +2373,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Les budgets traditionnels supposent que nous sommes des agents rationnels maximisant leur utilité en tout temps. Cinquante ans de recherche en économie comportementale disent exactement le contraire : nous sommes des humains fatigués, stressés qui prennent des décisions complexes dans des environnements bruyants."
@@ -3855,10 +3839,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "L'anxiété financière est rarement proportionnelle au montant d'argent que vous avez sur votre compte. Elle est proportionnelle à la quantité d'incertitude que vous ressentez. Ces habitudes quotidiennes sont conçues pour réduire votre charge émotionnelle avant même que vous ne regardiez les chiffres. Elles ne remplacent pas une aide professionnelle si l'anxiété est grave, mais elles constituent un point de départ pour toute personne qui veut changer la façon dont l'argent la fait se sentir."
@@ -5836,10 +5816,6 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "<>"
-        },
-        {
-                "kind": "p",
                 "text": "Trois applications de budget, trois philosophies financières distinctes. YNAB veut que vous attribuiez chaque dollar à un emploi avant que le mois ne commence. Monarch Money veut vous montrer un magnifique tableau de bord de votre vie financière entière. Savlo est conçue pour vous donner le contrôle et la gestion quotidienne de vos finances en quelques minutes, en vous permettant d'enregistrer rapidement vos mouvements par voix ou par texte et d'organiser votre argent dans des comptes indépendants."
         },
         {
@@ -6469,10 +6445,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Si vous avez déjà ouvert votre application bancaire tard le soir et que vous avez senti votre estomac se nouer, ce guide est pour vous. Le budget nous a été vendu à la plupart d'entre nous comme un problème de discipline : une question de volonté, une série à maintenir, un nombre à battre. La réalité est plus douce, et bien plus utile. Un budget est un plan que vous faites avant de dépenser, pas un verdict que vous rendez après. C'est la différence entre conduire avec une carte et conduire en fixant le rétroviseur."
@@ -7119,10 +7091,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-        {
-                "kind": "p",
-                "text": "<>"
-        },
         {
                 "kind": "p",
                 "text": "Faire un budget avec de faibles revenus est un art en soi. Les conseils qui circulent sur internet tendent à supposer une marge : arrêtez les lattes, constituez un fonds d'urgence, automatisez vos économies. Quand la marge n'existe pas, ces conseils ne semblent pas utiles. Ils semblent comme une porte qui se ferme au nez. Ce guide est pour les mois où les comptes sont serrés, quand le salaire disparaît avant la fin du mois et quand \"faites simplement un meilleur budget\" est la dernière chose que vous avez besoin d'entendre."

@@ -2,45 +2,49 @@
 
 import { cn } from "@/lib/utils"
 import type { Locale } from "@/lib/i18n"
-import { buildWaitlistMailto } from "@/lib/site"
 
 type Size = "sm" | "md"
 
 const copy = {
   en: {
-    top: "Join the",
-    ios: "iOS waitlist",
-    android: "Android waitlist",
-    ariaIos: "Join the iOS waitlist",
-    ariaAndroid: "Join the Android waitlist",
+    top: "Download on",
+    iosTop: "Coming soon on",
+    ios: "App Store",
+    android: "Google Play",
+    ariaIos: "Coming soon on the App Store",
+    ariaAndroid: "Get it on Google Play",
   },
   es: {
-    top: "Únete a",
-    ios: "lista de iOS",
-    android: "lista de Android",
-    ariaIos: "Únete a la lista de iOS",
-    ariaAndroid: "Únete a la lista de Android",
+    top: "Descargar en",
+    iosTop: "Próximamente en",
+    ios: "App Store",
+    android: "Google Play",
+    ariaIos: "Próximamente en App Store",
+    ariaAndroid: "Descargar en Google Play",
   },
   pt: {
-    top: "Participe da",
-    ios: "lista do iOS",
-    android: "lista do Android",
-    ariaIos: "Participe da lista do iOS",
-    ariaAndroid: "Participe da lista do Android",
+    top: "Baixar na",
+    iosTop: "Em breve na",
+    ios: "App Store",
+    android: "Google Play",
+    ariaIos: "Em breve na App Store",
+    ariaAndroid: "Baixar no Google Play",
   },
   de: {
-    top: "Zur",
-    ios: "iOS-Warteliste",
-    android: "Android-Warteliste",
-    ariaIos: "Zur iOS-Warteliste",
-    ariaAndroid: "Zur Android-Warteliste",
+    top: "Laden im",
+    iosTop: "Demnächst im",
+    ios: "App Store",
+    android: "Google Play",
+    ariaIos: "Demnächst im App Store",
+    ariaAndroid: "Bei Google Play laden",
   },
   fr: {
-    top: "Rejoignez la",
-    ios: "liste d'attente iOS",
-    android: "liste d'attente Android",
-    ariaIos: "Rejoignez la liste d'attente iOS",
-    ariaAndroid: "Rejoignez la liste d'attente Android",
+    top: "Télécharger sur",
+    iosTop: "Bientôt sur",
+    ios: "App Store",
+    android: "Google Play",
+    ariaIos: "Bientôt sur App Store",
+    ariaAndroid: "Télécharger sur Google Play",
   },
 } as const
 
@@ -61,11 +65,7 @@ export function AppStoreBadge({
 
   return (
     <a
-      href={buildWaitlistMailto({
-        platform: "iOS",
-        source: "store-badge-ios",
-        locale,
-      })}
+      href="#"
       aria-label={text.ariaIos}
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
@@ -84,7 +84,7 @@ export function AppStoreBadge({
       </svg>
       <span className="flex flex-col leading-none">
         <span className={cn("font-sans tracking-wide text-white/75", topText)}>
-          {text.top}
+          {text.iosTop}
         </span>
         <span className={cn("font-sans font-semibold tracking-tight", bigText)}>
           {text.ios}
@@ -111,11 +111,7 @@ export function GooglePlayBadge({
 
   return (
     <a
-      href={buildWaitlistMailto({
-        platform: "Android",
-        source: "store-badge-android",
-        locale,
-      })}
+      href="#"
       aria-label={text.ariaAndroid}
       className={cn(
         "btn-calm inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black text-white",
@@ -123,12 +119,7 @@ export function GooglePlayBadge({
         className,
       )}
     >
-      <svg
-        viewBox="0 0 48 48"
-        width={iconSize}
-        height={iconSize}
-        aria-hidden
-      >
+      <svg viewBox="0 0 48 48" width={iconSize} height={iconSize} aria-hidden>
         <defs>
           <linearGradient id="gp-a" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0" stopColor="#00C2FF" />

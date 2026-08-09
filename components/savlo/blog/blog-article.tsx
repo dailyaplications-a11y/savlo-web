@@ -209,7 +209,7 @@ export function BlogArticle({
         <div className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/savlo-icon.svg"
+            src="/savlo_app_icon.png"
             alt="Savlo"
             className="h-10 w-10 rounded-full"
           />

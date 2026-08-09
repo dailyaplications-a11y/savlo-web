@@ -1,0 +1,139 @@
+{
+  "title": "Supprimer votre compte",
+  "description": "Comment supprimer définitivement votre compte Savlo et les données personnelles associées, depuis l'application ou sur demande.",
+  "lastUpdated": "Dernière mise à jour : 9 août 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Cette page explique comment supprimer définitivement votre compte **Savlo** (développeur : Savlo, paquet <code>com.savlo.app</code>) et les données personnelles associées. Il y a deux façons de le faire : depuis l'application, ou en nous envoyant une demande."
+      },
+      {
+        "type": "p",
+        "text": "Savlo est uniquement une application mobile — il n'existe pas de version web, il n'y a donc rien à quoi se connecter sur ce site. C'est pourquoi les demandes faites sans l'application sont traitées par e-mail."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "delete-in-app",
+      "heading": "Option 1 — Supprimer vous-même depuis l'application",
+      "content": [
+        {
+          "type": "p",
+          "text": "C'est la voie la plus rapide et elle est immédiate. Si Savlo est encore installée :"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Ouvrez Savlo et allez dans <strong>Paramètres</strong>.",
+            "Appuyez sur <strong>Compte et profil → Infos personnelles</strong>.",
+            "Appuyez sur <strong>Supprimer le compte</strong>.",
+            "Confirmez les deux écrans d'avertissement."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Votre compte et vos données sont effacés immédiatement et votre session est fermée sur tous les appareils. **Cette action est irréversible.**"
+        },
+        {
+          "type": "p",
+          "text": "Si vous souhaitez d'abord conserver une copie de vos données, utilisez <strong>Paramètres → Exporter mes données</strong> avant de supprimer."
+        }
+      ]
+    },
+    {
+      "id": "request-by-email",
+      "heading": "Option 2 — Demander la suppression sans l'application",
+      "content": [
+        {
+          "type": "p",
+          "text": "Si vous avez déjà désinstallé Savlo ou si vous ne pouvez plus accéder à votre compte, écrivez-nous et nous le supprimerons pour vous :"
+        },
+        {
+          "type": "p",
+          "text": "<a class=\"text-primary underline font-semibold\" href=\"mailto:support@savloapp.com?subject=Demande%20de%20suppression%20de%20compte%20%E2%80%94%20Savlo&body=Bonjour%20l%27%C3%A9quipe%20Savlo%2C%0A%0AJe%20souhaite%20que%20mon%20compte%20Savlo%20et%20toutes%20les%20donn%C3%A9es%20associ%C3%A9es%20soient%20supprim%C3%A9s%20d%C3%A9finitivement.%0A%0AE-mail%20du%20compte%20%3A%20%0A%0AMerci.\">support@savloapp.com</a>"
+        },
+        {
+          "type": "p",
+          "text": "Envoyez la demande <strong>depuis l'adresse e-mail enregistrée sur le compte</strong> (si vous vous êtes inscrit avec Google, utilisez cette même adresse Google). Cela nous sert de vérification. Si vous écrivez depuis une autre adresse, nous vous demanderons de confirmer que le compte vous appartient avant toute suppression : une demande non vérifiée émanant d'un inconnu serait elle-même un problème de sécurité."
+        }
+      ]
+    },
+    {
+      "id": "what-gets-deleted",
+      "heading": "Ce qui est supprimé",
+      "content": [
+        {
+          "type": "p",
+          "text": "La suppression du compte efface vos identifiants de connexion et, en cascade, tout ce qui y est rattaché :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Votre profil, votre adresse e-mail et les réglages de l'application",
+            "Tous les mouvements : dépenses, revenus, virements et réserves",
+            "Comptes, soldes, fonds dédiés et leurs versements",
+            "Budgets, catégories et objectifs d'épargne",
+            "Règles récurrentes et leurs occurrences programmées",
+            "Fichiers importés et leur historique de traitement",
+            "Conversations avec l'assistant IA et les mémoires qui en découlent",
+            "Enregistrements vocaux et leurs transcriptions",
+            "Séries, insights et rapports"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-keep",
+      "heading": "Ce que nous conservons, et pour combien de temps",
+      "content": [
+        {
+          "type": "p",
+          "text": "Une infime partie des données survit à la suppression, et uniquement pour ces raisons :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Sauvegardes chiffrées.</strong> Vos données peuvent subsister dans les sauvegardes de notre base de données jusqu'à <strong>30 jours</strong> après la suppression, isolées de tout traitement ultérieur, jusqu'à la rotation de ces sauvegardes.",
+            "<strong>Analytique et rapports de plantage.</strong> Les événements de diagnostic (Sentry, PostHog) sont supprimés ou dépouillés de tout identifiant dans les <strong>30 jours</strong> suivant votre demande.",
+            "<strong>Documents de facturation et fiscaux.</strong> Si vous avez souscrit un abonnement, les justificatifs de transaction sont conservés aussi longtemps que la législation fiscale et comptable l'exige. Ils contiennent l'achat, pas vos données financières."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-long-it-takes",
+      "heading": "Délais",
+      "content": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Depuis l'application :</strong> immédiat.",
+            "<strong>Par e-mail :</strong> nous finalisons la suppression dans les <strong>30 jours</strong> suivant la vérification de la demande, et généralement bien plus tôt. Nous confirmons par e-mail une fois terminé."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "heading": "À propos des abonnements",
+      "content": [
+        {
+          "type": "p",
+          "text": "Supprimer votre compte Savlo n'annule **pas** à lui seul un abonnement payant. Les abonnements sont facturés par Google Play, vous devez donc aussi l'annuler là-bas : <strong>Play Store → votre profil → Paiements et abonnements → Abonnements → Savlo → Annuler</strong>. Faites-le avant de supprimer le compte pour ne pas être facturé à nouveau."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "Questions",
+      "content": [
+        {
+          "type": "p",
+          "text": "Écrivez à <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. Pour le détail complet de ce que nous collectons et pourquoi, consultez notre <a class=\"text-primary underline\" href=\"/fr/privacy\">Politique de confidentialité</a>."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { DM_Sans, Fraunces } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { GoogleAnalytics } from "@next/third-parties/google"
 import Script from "next/script"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 import "./globals.css"
@@ -70,6 +71,11 @@ export const metadata: Metadata = {
     icon: "/savlo-icon.png",
     apple: "/savlo-icon.png",
   },
+  ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION && {
+    verification: {
+      google: process.env.NEXT_PUBLIC_GSC_VERIFICATION,
+    },
+  }),
 }
 
 export default function RootLayout({
@@ -102,6 +108,9 @@ export default function RootLayout({
         {children}
         {process.env.NODE_ENV === "production" && process.env.VERCEL === "1" && (
           <Analytics />
+        )}
+        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
         )}
       </body>
     </html>

@@ -205,13 +205,6 @@ export function BlogIndex({
   return (
     <section className="mx-auto w-full max-w-3xl px-6 pb-32 pt-32 sm:pt-36">
       <header className="flex flex-col items-center text-center">
-        <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-          <span
-            aria-hidden
-            className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse"
-          />
-          Savlo Journal
-        </p>
         <h1 className="font-serif text-5xl font-medium tracking-tight text-foreground sm:text-6xl">
           {text.title}
         </h1>

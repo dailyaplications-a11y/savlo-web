@@ -163,10 +163,10 @@ const sectionCopy = {
   },
   es: {
     eyebrow: "Qué hace Savlo",
-    headingStart: "Tres gestos.",
-    headingEmphasis: "Un registro silencioso.",
+    headingStart: "Importa, registra,",
+    headingEmphasis: "exporta. Tus datos.",
     description:
-      "Importa lo que ya existe. Di lo que pasa después. Llévate todo cuando quieras.",
+      "Importa tu historial existente. Registra lo que pasa en segundos. Exporta todo cuando quieras.",
     tablist: "Funciones de Savlo",
     aiTitle: "Savlo AI activo",
     aiBody: "Extrae entidades con contexto.",

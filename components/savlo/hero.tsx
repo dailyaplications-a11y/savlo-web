@@ -1,164 +1,147 @@
 "use client"
 
+import Image from "next/image"
 import type { Locale } from "@/lib/i18n"
-import { EntranceHalo } from "./entrance-halo"
-import { PhonePair } from "./phone-pair"
 import { AppStoreBadge, GooglePlayBadge } from "./store-badges"
 
-/**
- * Hero - mobile-product focused layout, Cal AI-inspired.
- *
- * Left column: brand pill, editorial headline, short product description,
- *   App Store + Google Play badges.
- * Right column: two tilted phones with floating callout pills and a
- *   hand-drawn arrow illustrating the flow: voice check-in -> insight.
- *
- * The entrance animation ("un respiro") is an assembling dotted halo
- * behind the phones that settles into a slow 4.5s breath - a literal
- * nod to Savlo's mechanic of a one-minute evening check-in.
- */
+const copy: Record<Locale, {
+  line1: string
+  line2: string
+  description: string
+}> = {
+  es: {
+    line1: "Convierte el control de tus finanzas personales",
+    line2: "en un hábito diario.",
+    description:
+      "Habla o escribe lo que gastas — Savlo lo clasifica al instante, organiza tus cuentas y te muestra el panorama real de tu dinero. Sin planillas, sin complicaciones.",
+  },
+  en: {
+    line1: "Turn managing your personal finances",
+    line2: "into a daily habit.",
+    description:
+      "Speak or type what you spend — Savlo classifies it instantly, organizes your accounts and shows you the real picture of your money. No spreadsheets, no hassle.",
+  },
+  pt: {
+    line1: "Transforme o controle das suas finanças pessoais",
+    line2: "em um hábito diário.",
+    description:
+      "Fale ou escreva o que gastou — o Savlo classifica na hora, organiza suas contas e mostra o panorama real do seu dinheiro. Sem planilhas, sem complicações.",
+  },
+  de: {
+    line1: "Mach die Kontrolle über deine persönlichen Finanzen",
+    line2: "zur täglichen Gewohnheit.",
+    description:
+      "Sprich oder tippe deine Ausgaben — Savlo kategorisiert sofort, organisiert deine Konten und zeigt dir das echte Bild deiner Finanzen. Ohne Tabellen, ohne Aufwand.",
+  },
+  fr: {
+    line1: "Fais du contrôle de tes finances personnelles",
+    line2: "une habitude quotidienne.",
+    description:
+      "Parle ou écris tes dépenses — Savlo les classe instantanément, organise tes comptes et te montre la vraie image de ton argent. Sans tableurs, sans complications.",
+  },
+}
 
 export function Hero({ locale = "en" }: { locale?: Locale }) {
-  const copy =
-    locale === "es"
-      ? {
-          pill: "Control y manejo diario · en minutos",
-          titleFirst: "Conoce Savlo.",
-          titleSecond: (
-            <>
-              Entiende tu dinero{" "}
-              <em className="font-normal italic text-primary/90">
-                en un minuto
-              </em>{" "}
-              al día.
-            </>
-          ),
-          description:
-            "La app que convierte el control financiero en un hábito diario rápido. Registra movimientos por voz o texto, organiza tu dinero en cuentas independientes y mantén tus gastos bajo control sin perder tiempo.",
-          note: "Próximamente en iOS y Android · soporte multilingüe nativo.",
-        }
-      : locale === "pt"
-        ? {
-            pill: "Controle e gestão diária · em minutos",
-            titleFirst: "Conheça o Savlo.",
-            titleSecond: (
-              <>
-                Entenda seu dinheiro{" "}
-                <em className="font-normal italic text-primary/90">
-                  em um minuto
-                </em>{" "}
-                por dia.
-              </>
-            ),
-            description:
-              "O app que transforma o controle financeiro em um hábito diário rápido. Registre movimentos por voz ou texto, organize seu dinheiro em contas independentes e mantenha seus gastos sob controle sem perder tempo.",
-            note: "Em breve no iOS e Android · experiência multilíngue nativa.",
-          }
-        : locale === "de"
-          ? {
-              pill: "Tägliche Finanzkontrolle · in Minuten",
-              titleFirst: "Lerne Savlo kennen.",
-              titleSecond: (
-                <>
-                  Verstehe dein Geld{" "}
-                  <em className="font-normal italic text-primary/90">
-                    in einer Minute
-                  </em>{" "}
-                  am Tag.
-                </>
-              ),
-              description:
-                "Die App, die die Finanzkontrolle in eine schnelle tägliche Gewohnheit verwandelt. Erfassen Sie Ausgaben per Sprache oder Text, organisieren Sie Geld auf unabhängigen Konten und behalten Sie Ihre Ausgaben ohne Zeitverlust im Griff.",
-              note: "Bald für iOS und Android · native mehrsprachige Unterstützung.",
-            }
-          : locale === "fr"
-            ? {
-                pill: "Contrôle et gestion quotidienne · en minutes",
-                titleFirst: "D\u00e9couvre Savlo.",
-                titleSecond: (
-                  <>
-                    Comprends ton argent{" "}
-                    <em className="font-normal italic text-primary/90">
-                      en une minute
-                    </em>{" "}
-                    par jour.
-                  </>
-                ),
-                description:
-                  "L'application qui transforme le contrôle financier en une habitude quotidienne rapide. Enregistrez vos mouvements par voix ou par texte, organisez votre argent sur des comptes indépendants et gardez vos dépenses sous contrôle sans perdre de temps.",
-                note:
-                  "Bient\u00f4t sur iOS et Android \u00b7 prise en charge multilingue native.",
-              }
-            : {
-                pill: "Daily control · In minutes",
-                titleFirst: "Meet Savlo.",
-                titleSecond: (
-                  <>
-                    Understand your money{" "}
-                    <em className="font-normal italic text-primary/90">
-                      in one minute
-                    </em>{" "}
-                    a day.
-                  </>
-                ),
-                description:
-                  "The app that turns personal finance control into a quick daily habit. Log your transactions via voice or text, organize your money in independent accounts, and keep your spending under control without wasting time.",
-                note:
-                  "Coming soon to iOS and Android · English & Spanish native support.",
-              }
+  const c = copy[locale] ?? copy.en
 
   return (
     <section
       id="hero"
-      className="relative overflow-hidden pt-28 pb-24 sm:pt-32 sm:pb-28"
+      className="relative overflow-x-hidden pt-20 pb-16 sm:pt-24 sm:pb-20"
     >
-      {/* Ambient background wash */}
+      {/* Subtle ambient wash behind phone */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse 960px 520px at 62% 42%, color-mix(in oklch, var(--primary) 6%, transparent), transparent 70%)",
+            "radial-gradient(ellipse 800px 600px at 72% 44%, color-mix(in oklch, var(--primary) 7%, transparent), transparent 60%)",
         }}
       />
 
       <div className="relative mx-auto max-w-6xl px-6">
-        <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-6">
-          <div className="relative z-10 lg:col-span-5">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-surface/80 px-3 py-1.5 text-[11px] tracking-wide text-muted-foreground backdrop-blur">
-              <span aria-hidden className="relative flex h-1.5 w-1.5">
-                <span className="absolute inset-0 animate-ping rounded-full bg-primary/50" />
-                <span className="relative h-1.5 w-1.5 rounded-full bg-primary" />
-              </span>
-              {copy.pill}
-            </div>
-
-            <h1 className="mt-6 font-serif text-5xl leading-[1.02] tracking-tight text-foreground text-balance sm:text-6xl lg:text-[68px]">
-              {copy.titleFirst}{" "}
-              <span className="block">{copy.titleSecond}</span>
+        <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-4">
+          {/* ── Left — text ─────────────────────────────────── */}
+          <div className="relative z-10 pb-8 lg:col-span-5 lg:pb-0">
+            {/* Headline */}
+            <h1 className="mt-6 font-serif text-5xl leading-[1.04] tracking-tight text-foreground text-balance sm:text-6xl lg:text-[62px]">
+              {c.line1}
+              <br />
+              <em className="font-normal italic text-primary/90">{c.line2}</em>
             </h1>
 
-            <p className="mt-5 max-w-[440px] text-pretty text-[15px] leading-relaxed text-muted-foreground">
-              {copy.description}
+            {/* Subtitle */}
+            <p className="mt-5 max-w-[420px] text-pretty text-[15px] leading-relaxed text-muted-foreground">
+              {c.description}
             </p>
 
-            <div className="mt-7 flex flex-wrap items-center gap-3">
+            {/* Store badges */}
+            <div className="mt-8 flex flex-wrap items-center gap-4">
               <AppStoreBadge locale={locale} />
               <GooglePlayBadge locale={locale} />
             </div>
-
-            <p className="mt-5 text-[12px] text-muted-foreground/80">
-              {copy.note}
-            </p>
           </div>
-          <div className="relative lg:col-span-7">
-            <EntranceHalo />
-            <div className="relative z-10">
-              <PhonePair locale={locale} />
-            </div>
+
+          {/* ── Right — single large phone ───────────────────── */}
+          <div className="relative flex justify-center lg:col-span-7 lg:justify-end">
+            <HeroPhone />
           </div>
         </div>
       </div>
     </section>
+  )
+}
+
+function HeroPhone() {
+  return (
+    <div className="relative w-[230px] sm:w-[250px] lg:w-[270px]">
+      {/* Glow behind phone */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -inset-20 opacity-55 blur-3xl"
+        style={{
+          background:
+            "radial-gradient(ellipse 420px 620px at 50% 35%, color-mix(in oklch, var(--primary) 20%, transparent), transparent 62%)",
+        }}
+      />
+
+      {/* Samsung Galaxy A25 5G frame — 1080×2340 (19.5:9) */}
+      <div
+        className="relative overflow-hidden"
+        style={{
+          aspectRatio: "1080 / 2340",
+          borderRadius: "40px",
+          border: "9px solid #08111e",
+          boxShadow:
+            "0 0 0 1px rgba(255,255,255,0.07), 0 48px 96px -24px rgba(0,0,0,0.75), 0 16px 40px -10px rgba(0,0,0,0.55)",
+        }}
+      >
+        {/* Punch-hole camera — Samsung Galaxy A25 center top */}
+        <div
+          aria-hidden
+          className="absolute left-1/2 top-3 z-10 h-[11px] w-[11px] -translate-x-1/2 rounded-full bg-black"
+        />
+
+        <Image
+          src="/app_screen_today.png"
+          alt="Savlo — pantalla principal"
+          fill
+          className="object-cover object-top"
+          priority
+          fetchPriority="high"
+          sizes="(min-width: 1024px) 370px, (min-width: 640px) 330px, 290px"
+        />
+
+        {/* Gradient fade at bottom */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-44"
+          style={{
+            background:
+              "linear-gradient(to bottom, transparent 0%, var(--background) 100%)",
+          }}
+        />
+      </div>
+    </div>
   )
 }

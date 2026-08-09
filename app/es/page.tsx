@@ -1,10 +1,8 @@
 import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
 import { Hero } from "@/components/savlo/hero"
-import { ProductOverview } from "@/components/savlo/product-overview"
-import { FeaturesShowcase } from "@/components/savlo/features-showcase"
-import { TrustSection } from "@/components/savlo/trust-section"
-import { BehavioralSection } from "@/components/savlo/behavioral-section"
+import { HowItWorks } from "@/components/savlo/how-it-works"
+import { FeatureCards } from "@/components/savlo/feature-cards"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
 import { CtaSection } from "@/components/savlo/cta-section"
 import { SiteFooter } from "@/components/savlo/site-footer"
@@ -15,7 +13,7 @@ const faqItems = [
   {
     question: "¿Savlo ya está disponible?",
     answer:
-      "Savlo se presenta actualmente como una app próximamente disponible para iOS y Android. Puedes pedir acceso anticipado desde esta página.",
+      "Sí. Savlo está disponible en Android desde Google Play. La versión de iOS está en desarrollo y llegará próximamente a la App Store.",
   },
   {
     question: "¿Savlo obliga a conectar el banco?",
@@ -146,14 +144,9 @@ export default function SpanishHomePage() {
       <SiteHeader locale="es" />
       <main>
         <Hero locale="es" />
+        <HowItWorks locale="es" />
         <SectionDivider />
-        <ProductOverview locale="es" />
-        <SectionDivider />
-        <FeaturesShowcase locale="es" />
-        <SectionDivider />
-        <BehavioralSection locale="es" />
-        <SectionDivider />
-        <TrustSection locale="es" />
+        <FeatureCards locale="es" />
         <SectionDivider />
         <FeaturedReads locale="es" />
         <SectionDivider />
@@ -179,7 +172,7 @@ function FaqSection() {
             Preguntas
           </p>
           <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            Respuestas rápidas antes de pedir acceso.
+            Respuestas rápidas antes de descargar.
           </h2>
         </div>
         <dl className="lg:col-span-8">

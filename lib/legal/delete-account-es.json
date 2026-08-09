@@ -1,0 +1,139 @@
+{
+  "title": "Eliminar tu cuenta",
+  "description": "Cómo eliminar de forma permanente tu cuenta de Savlo y los datos personales asociados, desde la app o mediante una solicitud.",
+  "lastUpdated": "Última actualización: 9 de agosto de 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Esta página explica cómo eliminar de forma permanente tu cuenta de **Savlo** (desarrollador: Savlo, paquete <code>com.savlo.app</code>) y los datos personales asociados. Hay dos formas de hacerlo: desde la app, o enviándonos una solicitud."
+      },
+      {
+        "type": "p",
+        "text": "Savlo es solo una app móvil — no existe una versión web, así que en este sitio no hay ninguna sesión que iniciar. Por eso las solicitudes hechas sin la app se gestionan por correo."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "delete-in-app",
+      "heading": "Opción 1 — Eliminarla vos mismo desde la app",
+      "content": [
+        {
+          "type": "p",
+          "text": "Es el camino más rápido y es inmediato. Si todavía tenés Savlo instalada:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Abrí Savlo y entrá a <strong>Ajustes</strong>.",
+            "Tocá <strong>Cuenta y perfil → Información personal</strong>.",
+            "Tocá <strong>Eliminar cuenta</strong>.",
+            "Confirmá las dos pantallas de advertencia."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Tu cuenta y sus datos se borran en el acto y se cierra tu sesión en todos los dispositivos. **Esto no se puede deshacer.**"
+        },
+        {
+          "type": "p",
+          "text": "Si querés conservar una copia de tus registros, usá <strong>Ajustes → Exportar mis datos</strong> antes de eliminar la cuenta."
+        }
+      ]
+    },
+    {
+      "id": "request-by-email",
+      "heading": "Opción 2 — Solicitar la eliminación sin la app",
+      "content": [
+        {
+          "type": "p",
+          "text": "Si ya desinstalaste Savlo o no podés acceder a tu cuenta, escribinos y la eliminamos nosotros:"
+        },
+        {
+          "type": "p",
+          "text": "<a class=\"text-primary underline font-semibold\" href=\"mailto:support@savloapp.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20%E2%80%94%20Savlo&body=Hola%20equipo%20de%20Savlo%2C%0A%0AQuiero%20que%20eliminen%20de%20forma%20permanente%20mi%20cuenta%20de%20Savlo%20y%20todos%20los%20datos%20asociados.%0A%0ACorreo%20de%20la%20cuenta%3A%20%0A%0AGracias.\">support@savloapp.com</a>"
+        },
+        {
+          "type": "p",
+          "text": "Enviá la solicitud <strong>desde el correo registrado en la cuenta</strong> (si te registraste con Google, usá esa misma dirección de Google). Eso nos sirve como verificación. Si escribís desde otra dirección te vamos a pedir que confirmes la titularidad antes de borrar nada, porque eliminar una cuenta a pedido de un desconocido sin verificar sería, en sí mismo, un problema de seguridad."
+        }
+      ]
+    },
+    {
+      "id": "what-gets-deleted",
+      "heading": "Qué se elimina",
+      "content": [
+        {
+          "type": "p",
+          "text": "Eliminar la cuenta borra tus credenciales de acceso y, en cascada, todo lo que depende de ellas:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Tu perfil, tu correo y la configuración de la app",
+            "Todos los movimientos: gastos, ingresos, transferencias y reservas",
+            "Cuentas, saldos, fondos y sus aportes",
+            "Presupuestos, categorías y metas de ahorro",
+            "Reglas de recurrencia y sus ocurrencias programadas",
+            "Archivos importados y su historial de procesamiento",
+            "Conversaciones con el asistente de IA y las memorias construidas a partir de ellas",
+            "Grabaciones de voz y sus transcripciones",
+            "Rachas, insights y reportes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-keep",
+      "heading": "Qué conservamos, y por cuánto tiempo",
+      "content": [
+        {
+          "type": "p",
+          "text": "Una porción mínima de datos sobrevive a la eliminación, y solo por estas razones:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Backups cifrados.</strong> Tus datos pueden persistir en los backups de nuestra base de datos hasta <strong>30 días</strong> después de la eliminación, aislados de cualquier procesamiento posterior, hasta que esos backups roten.",
+            "<strong>Analítica y reportes de fallos.</strong> Los eventos de diagnóstico (Sentry, PostHog) se eliminan o se despojan de todo identificador dentro de los <strong>30 días</strong> de tu solicitud.",
+            "<strong>Registros de facturación e impuestos.</strong> Si alguna vez compraste una suscripción, los registros de la transacción se conservan mientras lo exija la legislación fiscal y contable. Contienen la compra, no tus datos financieros."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-long-it-takes",
+      "heading": "Cuánto demora",
+      "content": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Desde la app:</strong> inmediato.",
+            "<strong>Por correo:</strong> completamos la eliminación dentro de los <strong>30 días</strong> de verificar la solicitud, y normalmente mucho antes. Te confirmamos por correo cuando está hecho."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "heading": "Nota sobre las suscripciones",
+      "content": [
+        {
+          "type": "p",
+          "text": "Eliminar tu cuenta de Savlo **no** cancela por sí solo una suscripción paga. Las suscripciones las cobra Google Play, así que también tenés que cancelarla ahí: <strong>Play Store → tu perfil → Pagos y suscripciones → Suscripciones → Savlo → Cancelar</strong>. Hacelo antes de eliminar la cuenta para que no te vuelvan a cobrar."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "Consultas",
+      "content": [
+        {
+          "type": "p",
+          "text": "Escribinos a <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. Para ver en detalle qué datos recopilamos y por qué, consultá nuestra <a class=\"text-primary underline\" href=\"/es/privacy\">Política de Privacidad</a>."
+        }
+      ]
+    }
+  ]
+}

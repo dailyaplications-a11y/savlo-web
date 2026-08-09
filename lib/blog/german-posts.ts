@@ -1,4 +1,4 @@
-import { posts, type BlogCategory } from "@/lib/blog/posts"
+﻿import { posts, type BlogCategory } from "@/lib/blog/posts"
 import type { RichArticle } from "@/lib/blog/rich-article"
 
 export type GermanBlogPost = {
@@ -40,10 +40,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-      {
-            "kind": "p",
-            "text": "<>"
-      },
       {
             "kind": "p",
             "text": "Einen monatlichen Budget zu erstellen ist keine Strafe. Im Kern ist es ein ruhiges, ehrliches Gespräch mit deinem vergangenen Selbst und deinem zukünftigen Selbst. Diese Anleitung begleitet dich Schritt für Schritt, ohne feindselige Tabellenkalkulationen, Serien oder schuldbewusste rote Zahlen. Nur bewusste Entscheidungen."
@@ -827,10 +823,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-      {
-            "kind": "p",
-            "text": "<>"
-      },
       {
             "kind": "p",
             "text": "Du hast schon einmal versucht, ein Budget zu erstellen. Vielleicht hast du eine App heruntergeladen, eine Tabelle erstellt oder einer viralen Geld-Herausforderung gefolgt. Und für ein paar Wochen hat es funktioniert. Dann passierte das echte Leben — eine unerwartete Rechnung, ein Geburtstagsessen, ein Dienstag, an dem du einfach nichts nachverfolgen wolltest — und das gesamte System brach leise zusammen."
@@ -1777,10 +1769,6 @@ const overrides = {
       blocks: [
       {
             "kind": "p",
-            "text": "<>"
-      },
-      {
-            "kind": "p",
             "text": "Du hast $1.200 auf deinem Girokonto. Sie sind da. Du kannst sie sehen. Aber wofür sind sie? Für die Miete nächsten Monat? Für den Zahnarzttermin, den du immer wieder aufschiebst? Für das Wochenendtrip, das deine Freunde planen? Du bist dir nicht ganz sicher — und genau diese Unsicherheit ist das Problem."
       },
       {
@@ -2353,10 +2341,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-      {
-            "kind": "p",
-            "text": "<>"
-      },
       {
             "kind": "p",
             "text": "Traditionelle Budgets gehen davon aus, dass wir rational handelnde Akteure sind, die zu jedem Zeitpunkt ihren Nutzen maximieren. Fünfzig Jahre verhaltensökonomische Forschung sagen genau das Gegenteil: Wir sind müde, gestresste Menschen, die komplexe Entscheidungen in einer lauten Umgebung treffen."
@@ -3232,10 +3216,6 @@ const overrides = {
       blocks: [
       {
             "kind": "p",
-            "text": "<>"
-      },
-      {
-            "kind": "p",
             "text": "Sie stehen an der Kasse. Sie haben gerade bezahlt. Sie wissen, dass Sie es eintragen sollten. Aber bis Sie zu Hause sind — oder sogar zurück in Ihrem Auto — ist der Betrag unscharf, der Händlername ist vergangen, und der Moment ist vorbei. Sie sagen sich, Sie werden es später anhand Ihrer Kontoauszüge rekonstruieren. Das werden Sie nicht. Das ist genau die Lücke, die das Sprachausgaben-Tracking schließen soll."
       },
       {
@@ -3811,10 +3791,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-      {
-            "kind": "p",
-            "text": "<>"
-      },
       {
             "kind": "p",
             "text": "Finanzielle Angst ist selten proportional zu dem Geld auf deinem Konto. Sie ist proportional zu dem Ausmaß an Unsicherheit, das du fühlst. Diese täglichen Gewohnheiten wurden entwickelt, um deine emotionale Belastung zu senken, noch bevor du überhaupt auf die Zahlen schaust. Sie ersetzen keine professionelle Hilfe, wenn die Angst schwerwiegend ist, aber sie sind ein Ausgangspunkt für jeden, der die Art und Weise verändern möchte, wie Geld ihn fühlen lässt."
@@ -5760,10 +5736,6 @@ const overrides = {
       blocks: [
       {
             "kind": "p",
-            "text": "<>"
-      },
-      {
-            "kind": "p",
             "text": "Drei Haushaltsbudget-Apps, drei unterschiedliche Finanzphilosophien. YNAB möchte, dass du jedem einzelnen Dollar einen Job zuweist, bevor der Monat beginnt. Monarch Money möchte dir ein wunderschönes Dashboard deines gesamten Finanz- lebens zeigen. Savlo ist darauf ausgelegt, dir in wenigen Minuten die tägliche Kontrolle und Verwaltung deiner Finanzen zu ermöglichen, indem du Ausgaben schnell per Sprach- oder Texteingabe erfassen und dein Geld in unabhängigen Konten organisieren kannst."
       },
       {
@@ -6382,10 +6354,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-      {
-            "kind": "p",
-            "text": "<>"
-      },
       {
             "kind": "p",
             "text": "Wenn Sie jemals abends Ihre Banking-App geöffnet haben und Ihnen das Magenrium heruntergefallen ist, ist diese Anleitung für Sie. Budgeting wurde den meisten von uns als Disziplinproblem verkauft: eine Frage der Willenskraft, eine Serie, die man aufrechterhalten muss, eine Zahl, die man schlagen muss. Die Realität ist sanfter und viel nützlicher. Ein Budget ist ein Plan, den Sie machen, bevor Sie ausgeben, nicht ein Urteil, das Sie danach fällen. Es ist der Unterschied zwischen Fahren mit einer Karte und Fahren while man in den Rückspiegel starrt."
@@ -7052,10 +7020,6 @@ const overrides = {
     readingTime: 20,
     rich: {
       blocks: [
-      {
-            "kind": "p",
-            "text": "<>"
-      },
       {
             "kind": "p",
             "text": "Budgetieren mit niedrigem Einkommen ist eine eigene Kunst. Der Rat, der im Internet kursiert, geht davon aus, dass ein gewisser Spielraum vorhanden ist: Hör auf, Lattes zu trinken, bau einen Notgroschen auf, automatisiere deine Ersparnisse. Wenn kein Spielraum da ist, fühlt sich dieser Rat nicht hilfreich an. Er fühlt sich an wie eine Tür, die dir vor der Nase zugeschlagen wird. Diese Anleitung ist für die Monate, in denen die Rechnungengrenzen eng sind, der Lohn verschwindet, bevor der Monat zu Ende ist, und „mach einfach einen besseren Haushaltsplan\" das Letzte ist, was du hören möchtest."

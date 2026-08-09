@@ -94,7 +94,7 @@ export default function LegalPage({
 }: {
   data: LegalPageData
   locale: Locale
-  type: "terms" | "privacy"
+  type: "terms" | "privacy" | "delete-account"
 }) {
   const homeLabel = breadcrumbLabels[locale]
   const tocItems = data.tocItems || data.toc || []
@@ -121,7 +121,7 @@ export default function LegalPage({
             {data.title}
           </h1>
           <p className="mt-3 text-sm text-muted-foreground">
-            {type === "terms" ? data.lastUpdated : `Last updated ${data.lastUpdated}`}
+            {type === "privacy" ? `Last updated ${data.lastUpdated}` : data.lastUpdated}
           </p>
         </header>
 

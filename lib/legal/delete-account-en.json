@@ -1,0 +1,139 @@
+{
+  "title": "Delete your account",
+  "description": "How to permanently delete your Savlo account and the personal data associated with it, from inside the app or by request.",
+  "lastUpdated": "Last updated August 9, 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "This page explains how to permanently delete your **Savlo** account (developer: Savlo, package <code>com.savlo.app</code>) and the personal data associated with it. There are two ways to do it: from inside the app, or by sending us a request."
+      },
+      {
+        "type": "p",
+        "text": "Savlo is a mobile app only — there is no web version, so there is nothing on this website to sign in to. That is why requests made without the app are handled by email."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "delete-in-app",
+      "heading": "Option 1 — Delete it yourself from the app",
+      "content": [
+        {
+          "type": "p",
+          "text": "This is the fastest route and it is immediate. If you still have Savlo installed:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Open Savlo and go to <strong>Settings</strong>.",
+            "Tap <strong>Account &amp; Profile → Personal Info</strong>.",
+            "Tap <strong>Delete account</strong>.",
+            "Confirm the two warning screens."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Your account and its data are erased right away and your session is closed on every device. **This cannot be undone.**"
+        },
+        {
+          "type": "p",
+          "text": "If you want to keep a copy of your records first, use <strong>Settings → Export my data</strong> before deleting."
+        }
+      ]
+    },
+    {
+      "id": "request-by-email",
+      "heading": "Option 2 — Request deletion without the app",
+      "content": [
+        {
+          "type": "p",
+          "text": "If you have already uninstalled Savlo or cannot access your account, email us and we will delete it for you:"
+        },
+        {
+          "type": "p",
+          "text": "<a class=\"text-primary underline font-semibold\" href=\"mailto:support@savloapp.com?subject=Account%20deletion%20request%20%E2%80%94%20Savlo&body=Hi%20Savlo%20team%2C%0A%0AI%20would%20like%20my%20Savlo%20account%20and%20all%20associated%20data%20to%20be%20permanently%20deleted.%0A%0AAccount%20email%3A%20%0A%0AThank%20you.\">support@savloapp.com</a>"
+        },
+        {
+          "type": "p",
+          "text": "Send the request <strong>from the email address registered on the account</strong> (if you signed up with Google, use that same Google address). We use that as verification. If you write from a different address we will ask you to confirm ownership before deleting anything, because an unverified deletion request from a stranger would itself be a security problem."
+        }
+      ]
+    },
+    {
+      "id": "what-gets-deleted",
+      "heading": "What gets deleted",
+      "content": [
+        {
+          "type": "p",
+          "text": "Deleting your account removes your login credentials and, in cascade, everything tied to them:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Your profile, email address and app settings",
+            "All movements: expenses, income, transfers and reserves",
+            "Accounts, balances, sinking funds and their contributions",
+            "Budgets, categories and savings goals",
+            "Recurring rules and their scheduled occurrences",
+            "Imported files and their processing history",
+            "AI assistant conversations and the memories built from them",
+            "Voice recordings and their transcripts",
+            "Streaks, insights and reports"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-keep",
+      "heading": "What we keep, and for how long",
+      "content": [
+        {
+          "type": "p",
+          "text": "A small amount of data survives the deletion, and only for these reasons:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Encrypted backups.</strong> Your data may persist in our database backups for up to <strong>30 days</strong> after deletion, isolated from any further processing, until those backups rotate out.",
+            "<strong>Analytics and crash reports.</strong> Diagnostic events (Sentry, PostHog) are deleted or stripped of any identifier within <strong>30 days</strong> of your request.",
+            "<strong>Billing and tax records.</strong> If you ever purchased a subscription, the transaction records are kept for as long as tax and accounting law requires. They contain the purchase, not your financial data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-long-it-takes",
+      "heading": "How long it takes",
+      "content": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>From inside the app:</strong> immediate.",
+            "<strong>By email:</strong> we complete the deletion within <strong>30 days</strong> of verifying the request, and normally much sooner. We confirm by email once it is done."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "heading": "A note about subscriptions",
+      "content": [
+        {
+          "type": "p",
+          "text": "Deleting your Savlo account does **not** cancel a paid subscription on its own. Subscriptions are billed by Google Play, so you also need to cancel it there: <strong>Play Store → your profile → Payments and subscriptions → Subscriptions → Savlo → Cancel</strong>. Do this before deleting the account so you are not billed again."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "Questions",
+      "content": [
+        {
+          "type": "p",
+          "text": "Write to <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. For the full picture of what we collect and why, see our <a class=\"text-primary underline\" href=\"/privacy\">Privacy Policy</a>."
+        }
+      ]
+    }
+  ]
+}

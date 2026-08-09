@@ -104,5 +104,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.2,
     },
+    // Google Play exige una URL pública de eliminación de cuenta, alcanzable
+    // sin instalar la app. Se listan los 5 idiomas para que sea indexable.
+    ...localizedEntries({
+      path: "/delete-account",
+      lastModified: new Date("2026-08-09T00:00:00Z"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    }),
   ]
 }

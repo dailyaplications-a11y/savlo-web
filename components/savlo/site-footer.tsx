@@ -61,6 +61,7 @@ const COLUMNS: Record<Locale, Column[]> = {
       links: [
         { label: "Privacy", href: "/privacy" },
         { label: "Terms", href: "/terms" },
+        { label: "Delete account", href: "/delete-account" },
         { label: "Security", href: "/#trust" },
         {
           label: "Responsible disclosure",
@@ -122,6 +123,7 @@ const COLUMNS: Record<Locale, Column[]> = {
       links: [
         { label: "Privacidad", href: "/es/privacy" },
         { label: "Términos", href: "/es/terms" },
+        { label: "Eliminar cuenta", href: "/es/delete-account" },
         { label: "Confianza", href: "/es#trust" },
         {
           label: "Reporte responsable",
@@ -183,6 +185,7 @@ const COLUMNS: Record<Locale, Column[]> = {
       links: [
         { label: "Privacidade", href: "/pt/privacy" },
         { label: "Termos", href: "/pt/terms" },
+        { label: "Excluir conta", href: "/pt/delete-account" },
         { label: "Confiança", href: "/pt#trust" },
         {
           label: "Divulgação responsável",
@@ -244,6 +247,7 @@ const COLUMNS: Record<Locale, Column[]> = {
       links: [
         { label: "Datenschutz", href: "/de/privacy" },
         { label: "Nutzungsbedingungen", href: "/de/terms" },
+        { label: "Konto löschen", href: "/de/delete-account" },
         { label: "Vertrauen", href: "/de#trust" },
         {
           label: "Verantwortungsvolle Offenlegung",
@@ -305,6 +309,7 @@ const COLUMNS: Record<Locale, Column[]> = {
       links: [
         { label: "Confidentialité", href: "/fr/privacy" },
         { label: "Conditions", href: "/fr/terms" },
+        { label: "Supprimer le compte", href: "/fr/delete-account" },
         { label: "Confiance", href: "/fr#trust" },
         {
           label: "Signalement responsable",

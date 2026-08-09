@@ -1,0 +1,139 @@
+{
+  "title": "Konto löschen",
+  "description": "So löschen Sie Ihr Savlo-Konto und die damit verbundenen personenbezogenen Daten dauerhaft — in der App oder auf Anfrage.",
+  "lastUpdated": "Zuletzt aktualisiert am 9. August 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Diese Seite erklärt, wie Sie Ihr **Savlo**-Konto (Entwickler: Savlo, Paket <code>com.savlo.app</code>) und die damit verbundenen personenbezogenen Daten dauerhaft löschen. Es gibt zwei Wege: direkt in der App oder per Anfrage an uns."
+      },
+      {
+        "type": "p",
+        "text": "Savlo ist ausschließlich eine mobile App — es gibt keine Web-Version, auf dieser Website können Sie sich also nirgends anmelden. Deshalb werden Anfragen ohne die App per E-Mail bearbeitet."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "delete-in-app",
+      "heading": "Option 1 — Selbst in der App löschen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Das ist der schnellste Weg und wirkt sofort. Wenn Sie Savlo noch installiert haben:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Öffnen Sie Savlo und gehen Sie zu <strong>Einstellungen</strong>.",
+            "Tippen Sie auf <strong>Konto und Profil → Persönliche Daten</strong>.",
+            "Tippen Sie auf <strong>Konto löschen</strong>.",
+            "Bestätigen Sie die beiden Warnhinweise."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ihr Konto und Ihre Daten werden sofort gelöscht und Ihre Sitzung wird auf allen Geräten beendet. **Dies kann nicht rückgängig gemacht werden.**"
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie vorher eine Kopie Ihrer Aufzeichnungen behalten möchten, nutzen Sie <strong>Einstellungen → Meine Daten exportieren</strong>, bevor Sie löschen."
+        }
+      ]
+    },
+    {
+      "id": "request-by-email",
+      "heading": "Option 2 — Löschung ohne die App anfordern",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wenn Sie Savlo bereits deinstalliert haben oder nicht mehr auf Ihr Konto zugreifen können, schreiben Sie uns und wir löschen es für Sie:"
+        },
+        {
+          "type": "p",
+          "text": "<a class=\"text-primary underline font-semibold\" href=\"mailto:support@savloapp.com?subject=Antrag%20auf%20Kontol%C3%B6schung%20%E2%80%94%20Savlo&body=Hallo%20Savlo-Team%2C%0A%0Aich%20m%C3%B6chte%2C%20dass%20mein%20Savlo-Konto%20und%20alle%20zugeh%C3%B6rigen%20Daten%20dauerhaft%20gel%C3%B6scht%20werden.%0A%0AKonto-E-Mail%3A%20%0A%0AVielen%20Dank.\">support@savloapp.com</a>"
+        },
+        {
+          "type": "p",
+          "text": "Senden Sie die Anfrage <strong>von der im Konto registrierten E-Mail-Adresse</strong> (wenn Sie sich mit Google registriert haben, verwenden Sie dieselbe Google-Adresse). Das dient uns als Verifizierung. Schreiben Sie von einer anderen Adresse, bitten wir Sie vor jeder Löschung um einen Eigentumsnachweis — eine unverifizierte Löschanfrage von einer fremden Person wäre selbst ein Sicherheitsproblem."
+        }
+      ]
+    },
+    {
+      "id": "what-gets-deleted",
+      "heading": "Was gelöscht wird",
+      "content": [
+        {
+          "type": "p",
+          "text": "Mit dem Konto werden Ihre Zugangsdaten und in der Folge alles daran Gebundene gelöscht:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ihr Profil, Ihre E-Mail-Adresse und die App-Einstellungen",
+            "Alle Bewegungen: Ausgaben, Einnahmen, Überweisungen und Rücklagen",
+            "Konten, Salden, Sparfonds und deren Einzahlungen",
+            "Budgets, Kategorien und Sparziele",
+            "Wiederkehrende Regeln und deren geplante Vorkommen",
+            "Importierte Dateien und deren Verarbeitungsverlauf",
+            "Unterhaltungen mit dem KI-Assistenten und die daraus gebildeten Erinnerungen",
+            "Sprachaufnahmen und deren Transkripte",
+            "Serien, Insights und Berichte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-keep",
+      "heading": "Was wir behalten und wie lange",
+      "content": [
+        {
+          "type": "p",
+          "text": "Ein kleiner Teil der Daten überdauert die Löschung, und zwar ausschließlich aus diesen Gründen:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Verschlüsselte Backups.</strong> Ihre Daten können bis zu <strong>30 Tage</strong> nach der Löschung in unseren Datenbank-Backups verbleiben — isoliert von jeder weiteren Verarbeitung —, bis diese Backups rotieren.",
+            "<strong>Analyse- und Absturzberichte.</strong> Diagnoseereignisse (Sentry, PostHog) werden innerhalb von <strong>30 Tagen</strong> nach Ihrer Anfrage gelöscht oder von jeder Kennung befreit.",
+            "<strong>Abrechnungs- und Steuerunterlagen.</strong> Falls Sie ein Abonnement gekauft haben, werden die Transaktionsbelege so lange aufbewahrt, wie es das Steuer- und Handelsrecht verlangt. Sie enthalten den Kauf, nicht Ihre Finanzdaten."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-long-it-takes",
+      "heading": "Wie lange es dauert",
+      "content": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>In der App:</strong> sofort.",
+            "<strong>Per E-Mail:</strong> Wir schließen die Löschung innerhalb von <strong>30 Tagen</strong> nach Verifizierung der Anfrage ab, in der Regel deutlich früher. Wir bestätigen den Abschluss per E-Mail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "heading": "Hinweis zu Abonnements",
+      "content": [
+        {
+          "type": "p",
+          "text": "Das Löschen Ihres Savlo-Kontos kündigt ein kostenpflichtiges Abonnement **nicht** automatisch. Abonnements werden von Google Play abgerechnet, Sie müssen es also auch dort kündigen: <strong>Play Store → Ihr Profil → Zahlungen und Abos → Abos → Savlo → Kündigen</strong>. Tun Sie das vor der Kontolöschung, damit Ihnen nichts erneut berechnet wird."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "Fragen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Schreiben Sie an <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. Den vollständigen Überblick darüber, was wir erheben und warum, finden Sie in unserer <a class=\"text-primary underline\" href=\"/de/privacy\">Datenschutzrichtlinie</a>."
+        }
+      ]
+    }
+  ]
+}
