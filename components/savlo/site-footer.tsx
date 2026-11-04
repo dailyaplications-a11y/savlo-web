@@ -1,6 +1,10 @@
 import Link from "next/link"
-import { buildMailto, buildWaitlistMailto, siteConfig } from "@/lib/site"
+import { buildMailto, siteConfig } from "@/lib/site"
 import type { Locale } from "@/lib/i18n"
+import { SavloMark } from "./savlo-mark"
+import { ScreenWallCta } from "./screen-wall"
+import { storyCopy } from "./story/story-copy"
+import styles from "./site-footer.module.css"
 
 type Column = {
   heading: string
@@ -62,7 +66,12 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Privacy", href: "/privacy" },
         { label: "Terms", href: "/terms" },
         { label: "Delete account", href: "/delete-account" },
-        { label: "Security", href: "/#trust" },
+        // Obligatorio por la Disposición 954/2025 (Argentina): el enlace tiene
+        // que estar a simple vista y en el primer acceso, y con ese nombre.
+        // Va en los cinco idiomas porque la obligación no depende del idioma
+        // en que navegue el visitante.
+        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Open source", href: "/attributions" },
         {
           label: "Responsible disclosure",
           href: buildMailto({ subject: "Savlo security disclosure" }),
@@ -124,7 +133,8 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Privacidad", href: "/es/privacy" },
         { label: "Términos", href: "/es/terms" },
         { label: "Eliminar cuenta", href: "/es/delete-account" },
-        { label: "Confianza", href: "/es#trust" },
+        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Código abierto", href: "/es/attributions" },
         {
           label: "Reporte responsable",
           href: buildMailto({ subject: "Savlo security disclosure" }),
@@ -186,7 +196,8 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Privacidade", href: "/pt/privacy" },
         { label: "Termos", href: "/pt/terms" },
         { label: "Excluir conta", href: "/pt/delete-account" },
-        { label: "Confiança", href: "/pt#trust" },
+        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Código aberto", href: "/pt/attributions" },
         {
           label: "Divulgação responsável",
           href: buildMailto({ subject: "Savlo security disclosure" }),
@@ -248,7 +259,8 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Datenschutz", href: "/de/privacy" },
         { label: "Nutzungsbedingungen", href: "/de/terms" },
         { label: "Konto löschen", href: "/de/delete-account" },
-        { label: "Vertrauen", href: "/de#trust" },
+        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Open Source", href: "/de/attributions" },
         {
           label: "Verantwortungsvolle Offenlegung",
           href: buildMailto({ subject: "Savlo Sicherheitsmeldung" }),
@@ -310,7 +322,8 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Confidentialité", href: "/fr/privacy" },
         { label: "Conditions", href: "/fr/terms" },
         { label: "Supprimer le compte", href: "/fr/delete-account" },
-        { label: "Confiance", href: "/fr#trust" },
+        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Open source", href: "/fr/attributions" },
         {
           label: "Signalement responsable",
           href: buildMailto({ subject: "Signalement de sécurité Savlo" }),
@@ -320,7 +333,11 @@ const COLUMNS: Record<Locale, Column[]> = {
   ],
 }
 
-export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
+/**
+ * Footer, on a darker ground than the page. With `cta` (home pages) it opens
+ * with the final call to action over the wall of app screens, on that same ground.
+ */
+export function SiteFooter({ locale = "en", cta = false }: { locale?: Locale; cta?: boolean }) {
   const homePath = locale === "en" ? "/" : `/${locale}`
   const directBlogLabel =
     locale === "es"
@@ -342,147 +359,70 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
           : locale === "fr"
             ? "Confidentialité"
             : "Privacy"
-  return (
-    <footer className="relative border-t border-border/70 bg-background">
-      <div className="mx-auto max-w-7xl px-6 pb-10 pt-20 sm:pt-24">
-        <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-6">
-          <div className="col-span-2 sm:col-span-3 lg:col-span-1">
-            <Link href={homePath} className="inline-flex items-center gap-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/savlo-logo.svg" alt="Savlo" className="h-8 w-8" />
-              <span className="font-serif text-lg tracking-tight">Savlo</span>
-            </Link>
+  const rights =
+    locale === "en"
+      ? "All rights reserved."
+      : locale === "es"
+        ? "Todos los derechos reservados."
+        : locale === "pt"
+          ? "Todos os direitos reservados."
+          : locale === "fr"
+            ? "Tous droits réservés."
+            : "Alle Rechte vorbehalten."
+  const tagline = `${storyCopy[locale].intro.t1} ${storyCopy[locale].intro.t2}`
 
+  return (
+    <div className={styles.ground} data-cta={cta}>
+      {cta ? <ScreenWallCta locale={locale} /> : null}
+      <footer className={styles.footer}>
+        <div className={styles.cols}>
+          <div className={styles.brandCol}>
+            <Link href={homePath} aria-label="Savlo" className={styles.brand}>
+              <SavloMark size={30} />
+              <span className={styles.wordmark}>savlo</span>
+            </Link>
+            <p className={styles.tagline}>{tagline}</p>
           </div>
 
           {COLUMNS[locale].map((column) => (
-            <div key={column.heading}>
-              <p className="text-sm font-medium text-foreground">
-                {column.heading}
-              </p>
-              <ul className="mt-4 space-y-3">
+            <nav key={column.heading} aria-label={column.heading} className={styles.col}>
+              <p className={styles.label}>{column.heading}</p>
+              <ul>
                 {column.links.map((link) => (
                   <li key={link.label}>
-                    <Link
-                      href={link.href}
-                      className="text-[13px] text-muted-foreground transition-colors hover:text-foreground"
-                    >
+                    <Link href={link.href} className={styles.link}>
                       {link.label}
                     </Link>
                   </li>
                 ))}
               </ul>
-            </div>
+            </nav>
           ))}
         </div>
 
-        <div className="mt-14 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-end">
-          <a
-            href={buildWaitlistMailto({
-              platform: "iOS",
-              source: "footer-ios",
-              locale,
-            })}
-            className="btn-calm inline-flex items-center gap-3 rounded-xl border border-border bg-surface px-4 py-2.5 text-left"
-          >
-            <span className="flex flex-col leading-tight">
-              <span className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                {locale === "es"
-                  ? "Pedir acceso anticipado"
-                  : locale === "pt"
-                    ? "Pedir acesso antecipado"
-                    : locale === "de"
-                      ? "Frühzugang anfragen"
-                      : locale === "fr"
-                        ? "Demander un accès anticipé"
-                        : "Request early access"}
-              </span>
-              <span className="text-sm text-foreground">
-                {locale === "es"
-                  ? "Lista de iOS"
-                  : locale === "pt"
-                    ? "Lista de iOS"
-                    : locale === "de"
-                      ? "iOS-Warteliste"
-                      : locale === "fr"
-                        ? "Liste d'attente iOS"
-                        : "iOS waitlist"}
-              </span>
+        <div className={styles.bottom}>
+          <div className={styles.legal}>
+            <span className={styles.copyright}>
+              © {new Date().getFullYear()} Savlo. {rights}
             </span>
-          </a>
-          <a
-            href={buildWaitlistMailto({
-              platform: "Android",
-              source: "footer-android",
-              locale,
-            })}
-            className="btn-calm inline-flex items-center gap-3 rounded-xl border border-border bg-surface px-4 py-2.5 text-left"
-          >
-            <span className="flex flex-col leading-tight">
-              <span className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                {locale === "es"
-                  ? "Pedir acceso anticipado"
-                  : locale === "pt"
-                    ? "Pedir acesso antecipado"
-                    : locale === "de"
-                      ? "Frühzugang anfragen"
-                      : locale === "fr"
-                        ? "Demander un accès anticipé"
-                        : "Request early access"}
-              </span>
-              <span className="text-sm text-foreground">
-                {locale === "es"
-                  ? "Lista de Android"
-                  : locale === "pt"
-                    ? "Lista de Android"
-                    : locale === "de"
-                      ? "Android-Warteliste"
-                      : locale === "fr"
-                        ? "Liste d'attente Android"
-                        : "Android waitlist"}
-              </span>
-            </span>
-          </a>
-        </div>
-
-        <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-border/60 pt-6 sm:flex-row sm:items-center">
-          <div className="flex flex-wrap items-center gap-4 text-[12px] text-muted-foreground">
-            <a
-              href={`mailto:${siteConfig.supportEmail}`}
-              className="transition-colors hover:text-foreground"
-            >
-              {siteConfig.supportEmail}
-            </a>
-            <Link
-              href={locale === "en" ? "/blog" : `/${locale}/blog`}
-              className="transition-colors hover:text-foreground"
-            >
+            <span aria-hidden>·</span>
+            <Link href={locale === "en" ? "/blog" : `/${locale}/blog`} className={styles.bottomLink}>
               {directBlogLabel}
             </Link>
-            <Link
-              href={locale === "en" ? "/privacy" : `/${locale}/privacy`}
-              className="transition-colors hover:text-foreground"
-            >
+            <span aria-hidden>·</span>
+            <Link href={locale === "en" ? "/privacy" : `/${locale}/privacy`} className={styles.bottomLink}>
               {privacyLabel}
             </Link>
           </div>
-
-          <div className="flex flex-col items-start gap-2 text-[12px] text-muted-foreground sm:flex-row sm:items-center sm:gap-6">
-            <p>
-              Copyright {new Date().getFullYear()} Savlo.{" "}
-              {locale === "en"
-                ? "All rights reserved."
-                : locale === "es"
-                  ? "Todos los derechos reservados."
-                  : locale === "pt"
-                    ? "Todos os direitos reservados."
-                    : locale === "fr"
-                      ? "Tous droits réservés."
-                      : "Alle Rechte vorbehalten."}
-            </p>
-          </div>
+          <a href={`mailto:${siteConfig.supportEmail}`} className={styles.bottomLink}>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <rect x="3" y="5" width="18" height="14" rx="3" />
+              <path d="m4 7 8 6 8-6" />
+            </svg>
+            {siteConfig.supportEmail}
+          </a>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   )
 }

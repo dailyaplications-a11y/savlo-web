@@ -1,0 +1,127 @@
+{
+  "title": "Open-Source-Attributionen",
+  "description": "Die Open-Source-Software hinter Savlo, mit ihren Lizenzen und Copyright-Hinweisen.",
+  "lastUpdated": "Zuletzt aktualisiert am 23. August 2026",
+  "tocItems": [
+    {
+      "id": "iconos",
+      "label": "1. ICONS"
+    },
+    {
+      "id": "tipografias",
+      "label": "2. SCHRIFTEN"
+    },
+    {
+      "id": "este-sitio",
+      "label": "3. DIESE WEBSITE"
+    },
+    {
+      "id": "la-aplicacion",
+      "label": "4. DIE APP"
+    }
+  ],
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Savlo baut auf freier Software auf. Diese Seite sammelt die Copyright-Hinweise und Lizenzen der Komponenten Dritter, die wir mitliefern — sowohl auf dieser Website als auch in der App."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "iconos",
+      "heading": "1. ICONS",
+      "content": [
+        {
+          "type": "p",
+          "text": "Die Icons auf dieser Website stammen von **Lucide**, einem Open-Source-Set mit über 1.700 Icons unter ISC-Lizenz. Rund 110 dieser Icons stammen aus dem Projekt **Feather** und tragen zusätzlich dessen ursprüngliche MIT-Lizenz. (Die App nutzt das Material-Icon-Set von Google, das Flutter mitbringt.)"
+        },
+        {
+          "type": "p",
+          "text": "Lucide — lucide.dev — ISC-Lizenz. Feather — feathericons.com — MIT-Lizenz."
+        },
+        {
+          "type": "h3",
+          "text": "Lucide-Hinweis (ISC)"
+        },
+        {
+          "type": "p",
+          "text": "ISC License. Copyright (c) 2026 Lucide Icons and Contributors. Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+        },
+        {
+          "type": "h3",
+          "text": "Feather-Hinweis (MIT), für die abgeleiteten Icons"
+        },
+        {
+          "type": "p",
+          "text": "The MIT License (MIT). Copyright (c) 2013-present Cole Bemis. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }
+      ]
+    },
+    {
+      "id": "tipografias",
+      "heading": "2. SCHRIFTEN",
+      "content": [
+        {
+          "type": "p",
+          "text": "Beide Markenschriften werden unter der **SIL Open Font License 1.1** vertrieben:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fraunces** — Undercase Type (Phaedra Charles und Flavia Zimbardi). Die Serifenschrift der Überschriften.",
+            "**DM Sans** — Colophon Foundry, Jonny Pinhorn und Indian Type Foundry. Die Grotesk der gesamten Oberfläche."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "este-sitio",
+      "heading": "3. DIESE WEBSITE",
+      "content": [
+        {
+          "type": "p",
+          "text": "savloapp.com ist mit Next.js und React gebaut. Die folgenden Komponenten stehen unter **MIT-Lizenz**:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Next.js — Vercel",
+            "React y React DOM — Meta Platforms",
+            "Radix UI — WorkOS",
+            "Tailwind CSS — Tailwind Labs",
+            "Recharts",
+            "Embla Carousel",
+            "date-fns",
+            "Zod",
+            "React Hook Form",
+            "Sonner",
+            "cmdk",
+            "Vaul",
+            "clsx · tailwind-merge · next-themes · input-otp · React Day Picker · react-resizable-panels · Autoprefixer"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Außerdem: **class-variance-authority** steht unter **Apache-2.0**, und **@vercel/analytics** unter der **Mozilla Public License 2.0**."
+        }
+      ]
+    },
+    {
+      "id": "la-aplicacion",
+      "heading": "4. DIE APP",
+      "content": [
+        {
+          "type": "p",
+          "text": "Die Savlo-App ist mit **Flutter** gebaut, das Google unter der BSD-3-Clause-Lizenz veröffentlicht, und nutzt mehrere Dutzend Pakete Dritter."
+        },
+        {
+          "type": "p",
+          "text": "Die vollständige Liste — jede Komponente mit dem kompletten Text ihrer Lizenz — ist unter savloapp.com/licenses veröffentlicht, und die App öffnet sie über **Einstellungen → Über → Open-Source-Lizenzen**. Dieselben Hinweise liegen außerdem im App-Paket selbst; diese Seite deckt ab, was über die Website ausgeliefert wird."
+        }
+      ]
+    }
+  ],
+  "footerNote": "Fehlt eine Attribution oder ist etwas falsch zugeordnet? Schreib an support@savloapp.com und wir korrigieren es."
+}

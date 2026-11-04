@@ -1,12 +1,7 @@
 import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
-import { Hero } from "@/components/savlo/hero"
-import { ProductOverview } from "@/components/savlo/product-overview"
-import { FeaturesShowcase } from "@/components/savlo/features-showcase"
-import { TrustSection } from "@/components/savlo/trust-section"
-import { BehavioralSection } from "@/components/savlo/behavioral-section"
+import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
-import { CtaSection } from "@/components/savlo/cta-section"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
@@ -38,7 +33,7 @@ const description =
   "Savlo est une application pour le contrôle et la gestion quotidienne des finances en minutes. Suivez vos dépenses par voix ou texte, organisez votre argent sur des comptes indépendants et optimisez votre budget sans effort."
 
 export const metadata: Metadata = {
-  title: "Contrôle et gestion quotidienne des finances en minutes",
+  title: { absolute: "Savlo Budgeting App | Suis, épargne et planifie ton argent" },
   description,
   keywords: [
     "application budget",
@@ -105,12 +100,12 @@ export default function FrenchHomePage() {
     },
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "@id": softwareId,
       name: siteConfig.name,
       alternateName: siteConfig.shortName,
       applicationCategory: "FinanceApplication",
-      operatingSystem: "iOS, Android",
+      operatingSystem: "Android",
       url: absoluteUrl("/fr"),
       description:
         "Savlo est une application pour le contrôle et la gestion quotidienne des finances en minutes avec enregistrement voix/texte, comptes indépendants, fonds dédiés, import de tableurs et export de données.",
@@ -123,13 +118,14 @@ export default function FrenchHomePage() {
         "@type": "Offer",
         price: "0",
         priceCurrency: "USD",
+        description: "Essai gratuit de 14 jours, puis abonnement mensuel ou annuel",
         availability: "https://schema.org/PreOrder",
         url: absoluteUrl("/fr"),
       },
       publisher: {
         "@id": organizationId,
       },
-      isAccessibleForFree: true,
+      isAccessibleForFree: false,
       featureList: [
         "Enregistrement voix et texte",
         "Comptes indépendants",
@@ -161,23 +157,12 @@ export default function FrenchHomePage() {
     >
       <SiteHeader locale="fr" />
       <main>
-        <Hero locale="fr" />
-        <SectionDivider />
-        <ProductOverview locale="fr" />
-        <SectionDivider />
-        <FeaturesShowcase locale="fr" />
-        <SectionDivider />
-        <BehavioralSection locale="fr" />
-        <SectionDivider />
-        <TrustSection locale="fr" />
-        <SectionDivider />
+        <ProductStory locale="fr" />
         <FeaturedReads locale="fr" />
         <SectionDivider />
         <FaqSection />
-        <SectionDivider />
-        <CtaSection locale="fr" />
       </main>
-      <SiteFooter locale="fr" />
+      <SiteFooter locale="fr" cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -195,7 +180,7 @@ function FaqSection() {
             Questions
           </p>
           <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            Quelques réponses calmes avant de rejoindre la liste d'attente.
+            Quelques réponses avant de rejoindre la liste d'attente.
           </h2>
         </div>
         <dl className="lg:col-span-8">

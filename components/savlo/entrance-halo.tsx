@@ -3,11 +3,11 @@
 import { useMemo } from "react"
 
 /**
- * Savlo entrance — "un respiro".
+ * Savlo entrance halo.
  *
  * Roughly ~180 dots assemble from scattered positions into a soft halo
- * that gently breathes behind the phones. Represents the app's core
- * mechanic: a one-minute evening check-in, a single calm breath.
+ * that pulses behind the phones: scattered movements coming together into
+ * one clear picture of your money.
  *
  * Character of the animation:
  * 1. Dots start scattered in random +/-120px offsets, blurred, at scale 0.3

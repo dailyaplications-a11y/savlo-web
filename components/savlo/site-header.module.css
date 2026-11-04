@@ -1,0 +1,394 @@
+/*
+ * Header: open at the top, a slim glass pill once the page moves.
+ * Quiet by design: links and the language are words that brighten under the
+ * pointer, a one-pixel rule sets the way in apart, and "Get the app" is the
+ * only filled thing. Nothing here paints a gray box, on hover or on press.
+ */
+
+/* (the sheet lives outside the bar, so both carry the palette) */
+.bar,
+.sheet {
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --cream: #f7f3ee;
+  --soft: rgba(247, 243, 238, 0.64);
+  --mint: #4caf8a;
+}
+
+.bar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 16px;
+  pointer-events: none;
+}
+
+.shell {
+  pointer-events: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1240px;
+  height: 72px;
+  padding: 0 8px 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-radius: 999px;
+  background: rgba(13, 23, 37, 0);
+  border: 1px solid rgba(247, 243, 238, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transform: translate3d(0, 12px, 0);
+  transition:
+    max-width 0.7s var(--ease),
+    height 0.6s var(--ease),
+    padding 0.6s var(--ease),
+    background-color 0.5s ease,
+    border-color 0.5s ease,
+    box-shadow 0.6s ease,
+    transform 0.6s var(--ease);
+}
+.bar[data-condensed="true"] .shell {
+  max-width: 880px;
+  height: 56px;
+  padding: 0 8px 0 20px;
+  background: rgba(13, 23, 37, 0.72);
+  border-color: rgba(247, 243, 238, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 16px 40px -20px rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  backdrop-filter: blur(20px) saturate(1.4);
+  transform: translate3d(0, 16px, 0);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--cream);
+  flex-shrink: 0;
+}
+.brand:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+.wordmark {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.link {
+  position: relative;
+  padding: 10px 2px;
+  color: var(--soft);
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  bottom: 4px;
+  height: 1.5px;
+  border-radius: 2px;
+  background: var(--mint);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s var(--ease);
+}
+.link:hover {
+  color: var(--cream);
+}
+.link:hover::after {
+  transform: scaleX(1);
+}
+.link:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* "Get the app" makes its own room: the wrapper opens, then the pill shows. */
+.ctaWrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow: hidden;
+  max-width: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-width 0.6s var(--ease), opacity 0.35s ease, visibility 0s linear 0.6s;
+}
+.ctaWrap[data-show="true"] {
+  max-width: 200px;
+  opacity: 1;
+  visibility: visible;
+  transition: max-width 0.6s var(--ease), opacity 0.35s ease 0.08s, visibility 0s;
+}
+.divider {
+  flex-shrink: 0;
+  width: 1px;
+  height: 20px;
+  margin-right: 2px;
+  background: rgba(247, 243, 238, 0.1);
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: var(--mint);
+  color: #0d1b2a;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  transition: background-color 0.25s ease, scale 0.12s ease;
+}
+.cta:hover {
+  background: #5cc29b;
+}
+.cta:active {
+  scale: 0.97;
+}
+.cta:focus-visible {
+  outline: 2px solid #a8d8b9;
+  outline-offset: 2px;
+}
+
+/* ── a narrow window: the menu ─────────────────────────────────── */
+
+.menuButton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--cream);
+  cursor: pointer;
+  transition: scale 0.12s ease;
+}
+.menuButton:active {
+  scale: 0.94;
+}
+.menuButton:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+.menuTop,
+.menuBottom {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.35s var(--ease);
+}
+.bar[data-menu="true"] .menuTop {
+  transform: translateY(3px) rotate(45deg);
+}
+.bar[data-menu="true"] .menuBottom {
+  transform: translateY(-3px) rotate(-45deg);
+}
+
+.sheet {
+  position: fixed;
+  z-index: 99;
+  inset: 0;
+  box-sizing: border-box;
+  padding: 104px 24px calc(28px + env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background: #0d1b2a;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.22s ease, visibility 0s linear 0.22s;
+}
+.sheet[data-open="true"] {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.28s ease, visibility 0s;
+}
+
+.sheetLinks {
+  display: flex;
+  flex-direction: column;
+}
+.sheetLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  border-bottom: 1px solid rgba(247, 243, 238, 0.08);
+  color: var(--cream);
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  opacity: 0;
+  translate: 0 10px;
+  transition: opacity 0.15s ease, translate 0.15s ease;
+}
+.sheetLink svg {
+  color: rgba(247, 243, 238, 0.4);
+}
+.sheet[data-open="true"] .sheetLink {
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity 0.3s ease calc(60ms + var(--i) * 40ms),
+    translate 0.45s var(--ease) calc(60ms + var(--i) * 40ms);
+}
+.sheetLink:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.sheetLang {
+  margin-top: 36px;
+}
+.sheetHeading {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8fa3b1;
+}
+.chips {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+.chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(247, 243, 238, 0.08);
+  color: rgba(247, 243, 238, 0.7);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.chip:hover {
+  color: var(--cream);
+  border-color: rgba(247, 243, 238, 0.16);
+}
+.chip[aria-current="true"] {
+  color: var(--cream);
+  font-weight: 600;
+  border-color: rgba(76, 175, 138, 0.55);
+  background: rgba(76, 175, 138, 0.12);
+}
+.chip:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+
+.sheetFoot {
+  margin-top: auto;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 14px;
+}
+.sheetCta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: 999px;
+  background: var(--mint);
+  color: #0d1b2a;
+  font-size: 16px;
+  font-weight: 600;
+  transition: scale 0.12s ease;
+}
+.sheetCta:active {
+  scale: 0.98;
+}
+.sheetStores {
+  justify-content: center;
+}
+
+@media (max-width: 960px) {
+  .links {
+    display: none;
+  }
+  .menuButton {
+    display: flex;
+  }
+}
+@media (min-width: 961px) {
+  .sheet {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  .bar {
+    padding: 0 12px;
+  }
+  .lang {
+    display: none;
+  }
+  .shell {
+    padding: 0 4px 0 12px;
+  }
+  .bar[data-condensed="true"] .shell {
+    height: 52px;
+    padding: 0 4px 0 16px;
+    transform: translate3d(0, 12px, 0);
+  }
+  .wordmark {
+    font-size: 20px;
+  }
+  .divider {
+    display: none;
+  }
+  .cta {
+    height: 38px;
+    padding: 0 14px;
+    font-size: 13.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell,
+  .ctaWrap,
+  .link::after,
+  .sheet,
+  .sheetLink,
+  .menuTop,
+  .menuBottom {
+    transition: none !important;
+  }
+}

@@ -41,7 +41,7 @@ const copy = {
     heading:
       "Start with the questions people ask before they choose a budgeting app.",
     description:
-      "These guides strengthen Savlo's core topics: budgeting, voice expense tracking, and calmer long-term saving.",
+      "These guides strengthen Savlo's core topics: budgeting, voice expense tracking, and long-term saving.",
     cta: "Read the guide",
     hrefPrefix: "/blog",
   },
@@ -50,7 +50,7 @@ const copy = {
     heading:
       "Empieza por las preguntas que aparecen antes de elegir una app de presupuesto.",
     description:
-      "Estas guías refuerzan los temas centrales de Savlo: presupuesto, registro por voz y ahorro de largo plazo con más calma.",
+      "Estas guías refuerzan los temas centrales de Savlo: presupuesto, registro por voz y ahorro a largo plazo.",
     cta: "Leer la guía",
     hrefPrefix: "/es/blog",
   },
@@ -59,7 +59,7 @@ const copy = {
     heading:
       "Comece pelas perguntas que aparecem antes de escolher um app de orçamento.",
     description:
-      "Estes guias fortalecem os temas centrais do Savlo: orçamento, registro de gastos por voz e poupança de longo prazo com mais calma.",
+      "Estes guias fortalecem os temas centrais do Savlo: orçamento, registro de gastos por voz e poupança de longo prazo.",
     cta: "Ler o guia",
     hrefPrefix: "/pt/blog",
   },
@@ -68,7 +68,7 @@ const copy = {
     heading:
       "Starte mit den Fragen, die vor der Wahl einer Budget-App auftauchen.",
     description:
-      "Diese Leitfaeden staerken die Kernthemen von Savlo: Budgetierung, Sprach-Erfassung und ruhiges Sparen mit Blick auf die Zukunft.",
+      "Diese Leitfaeden staerken die Kernthemen von Savlo: Budgetierung, Sprach-Erfassung und langfristiges Sparen.",
     cta: "Leitfaden lesen",
     hrefPrefix: "/de/blog",
   },
@@ -77,7 +77,7 @@ const copy = {
     heading:
       "Commence par les questions que les gens se posent avant de choisir une app de budget.",
     description:
-      "Ces guides renforcent les thèmes centraux de Savlo: budget, suivi vocal des dépenses et épargne longue durée avec plus de calme.",
+      "Ces guides renforcent les thèmes centraux de Savlo: budget, suivi vocal des dépenses et épargne longue durée.",
     cta: "Lire le guide",
     hrefPrefix: "/fr/blog",
   },
@@ -116,7 +116,7 @@ export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
             <li key={post.slug}>
               <Link
                 href={`${text.hrefPrefix}/${post.slug}`}
-                className="group block h-full rounded-2xl border border-border bg-surface/70 p-6 transition-colors hover:border-primary/30 hover:bg-surface"
+                className="group block h-full rounded-2xl border border-border bg-surface/70 p-6 transition-colors hover:border-primary/30"
               >
                 <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-primary/80">
                   {blogCategoryLabel(locale, post.category)}

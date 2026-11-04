@@ -1,7 +1,7 @@
 {
   "title": "Política de Privacidad",
   "description": "Revise la política de privacidad y el aviso de procesamiento de datos de Savlo, la aplicación móvil de finanzas personales.",
-  "lastUpdated": "Última actualización 23 de mayo de 2026",
+  "lastUpdated": "31 de agosto de 2026",
   "toc": [
     {
       "id": "1-what-information-do-we-collect",
@@ -155,25 +155,28 @@
           "type": "ul",
           "items": [
             "direcciones de correo electrónico",
-            "nombres de usuario",
-            "datos de contacto o autenticación",
+            "nombres y nombres de usuario",
+            "datos de contacto o de autenticación",
             "contraseñas",
-            "nombres"
+            "la información financiera que registrás en la app: importes, fechas y descripciones de movimientos, nombres de comercios, categorías, nombres de cuentas y fondos de ahorro, ingresos y cifras de presupuesto",
+            "el texto libre que escribís, incluidas las notas de los movimientos y los mensajes que le mandás al asistente de IA",
+            "grabaciones de voz, solo si lo activás explícitamente (ver \"¿Cuánto tiempo conservamos tu información?\")"
           ]
         },
         {
           "type": "p",
-          "text": "Información Sensible. Cuando sea necesario, con su consentimiento o de lo contrario permitido por la ley aplicable, procesamos las siguientes categorías de información sensible:"
+          "text": "Información sensible. La información financiera se considera sensible en muchas jurisdicciones, y es el núcleo de lo que Savlo guarda. Procesamos las siguientes categorías de información sensible:"
         },
         {
           "type": "ul",
           "items": [
-            "datos biométricos"
+            "información financiera sobre tus finanzas personales, según se describe arriba",
+            "grabaciones de voz, solo cuando lo activás"
           ]
         },
         {
           "type": "p",
-          "text": "Datos de Inicio de Sesión en Redes Sociales. Podemos ofrecerle la opción de registrarse con nosotros usando los detalles de su cuenta existente en redes sociales, como su cuenta de Facebook, X u otra red social. Si elige registrarse de esta manera, recopilaremos cierta información de perfil sobre usted del proveedor de redes sociales, como se describe en la sección llamada \"¿CÓMO GESTIONAMOS SUS INICIOS DE SESIÓN EN REDES SOCIALES?\" a continuación."
+          "text": "Datos de inicio de sesión social. Ofrecemos la opción de crear una cuenta o iniciar sesión con Google. Google es el único proveedor de inicio de sesión social que Savlo admite. Si lo elegís, recibimos tu dirección de correo y la información básica de tu perfil de Google, según se describe en \"¿Cómo manejamos tus inicios de sesión sociales?\" más abajo. No ofrecemos inicio de sesión con Facebook, X ni ninguna otra red social."
         },
         {
           "type": "p",
@@ -182,7 +185,7 @@
         {
           "type": "ul",
           "items": [
-            "Acceso al Dispositivo Móvil. Podemos solicitar acceso o permiso a ciertas características de su dispositivo móvil, incluyendo el micrófono, almacenamiento, sensores, mensajes SMS y otras características de su dispositivo móvil. Si desea cambiar nuestro acceso o permisos, puede hacerlo en la configuración de su dispositivo.",
+            "Acceso al dispositivo. Savlo pide solo los permisos que realmente usa: el micrófono, para que puedas registrar un gasto por voz, y las notificaciones, para poder enviarte el recordatorio diario que configures. Los dos son opcionales y la app funciona sin ellos. Savlo no pide acceso a tus mensajes SMS, contactos, fotos, archivos, ubicación ni a los sensores del dispositivo. Podés cambiar estos permisos cuando quieras desde los ajustes de tu dispositivo.",
             "Datos del Dispositivo Móvil. Recopilamos automáticamente información del dispositivo (como el ID, modelo y fabricante de su dispositivo móvil), información del sistema operativo, versión y configuración del sistema, números de identificación del dispositivo y aplicación, tipo y versión del navegador, modelo del hardware, proveedor de servicios de Internet y/o operador de telefonía móvil, y dirección de Protocolo de Internet (IP) (o servidor proxy). Si está usando nuestra(s) aplicación(es), también podemos recopilar información sobre la red de telefonía asociada con su dispositivo móvil, el sistema operativo o plataforma de su dispositivo móvil, el tipo de dispositivo móvil que usa, el ID único de su dispositivo móvil, e información sobre las características de nuestra(s) aplicación(es) a las que accedió.",
             "Notificaciones Push. Podemos solicitar enviarle notificaciones push relacionadas con su cuenta o ciertas características de la(s) aplicación(es). Si desea no recibir este tipo de comunicaciones, puede desactivarlas en la configuración de su dispositivo."
           ]
@@ -225,6 +228,29 @@
         {
           "type": "p",
           "text": "Nuestro uso de información recibida de las APIs de Google adherirá a la Política de Datos de Usuario de Servicios de Google API, incluyendo los requisitos de Uso Limitado."
+        },
+        {
+          "type": "h3",
+          "text": "Cookies y analitica en nuestro sitio web"
+        },
+        {
+          "type": "p",
+          "text": "Esta parte habla de savloapp.com, nuestro sitio web, no de la app. La app no usa cookies ni lleva identificadores publicitarios: nunca pide el ID de publicidad de Android ni el IDFA de Apple, y Savlo no muestra anuncios ni vende datos."
+        },
+        {
+          "type": "p",
+          "text": "Nuestro sitio web usa dos herramientas de medición, y ninguna tiene acceso a nada de lo que registrás en la app:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Google Analytics 4 (Google, Estados Unidos). Mide qué páginas se visitan y por dónde llega la gente. Escribe cookies en tu navegador (normalmente llamadas _ga y _ga_*) que guardan un identificador aleatorio, y recibe tu dirección IP, tu navegador y la ubicación aproximada que se deduce de esa dirección.",
+            "Vercel Analytics (Vercel, Estados Unidos). Cuenta las visitas a las páginas que alojamos. No escribe ninguna cookie ni arma un perfil entre sitios."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Podés bloquear o borrar estas cookies desde la configuración de tu navegador en cualquier momento, y Google ofrece un complemento de exclusión en tools.google.com/dlpage/gaoptout. Bloquearlas no afecta en nada a la app ni a tu cuenta."
         }
       ]
     },
@@ -326,17 +352,20 @@
         },
         {
           "type": "p",
-          "text": "Las categorías de terceros con las que podemos compartir información personal son las siguientes:"
+          "text": "Estos son los terceros que Savlo realmente utiliza, qué recibe cada uno y para qué:"
         },
         {
           "type": "ul",
           "items": [
-            "Plataformas de IA",
-            "Servicios de Computación en la Nube",
-            "Servicios de Análisis de Datos",
-            "Proveedores de Servicios de Almacenamiento de Datos",
-            "Herramientas de Monitoreo de Rendimiento",
-            "Servicios de Registro y Autenticación de Cuentas de Usuario"
+            "Supabase (Estados Unidos). Aloja la base de datos, la autenticación y el backend donde se guardan tu cuenta y toda la información financiera que registrás. Es donde viven tus datos.",
+            "Google — API de Gemini (Estados Unidos). Recibe el texto que le mandás al asistente de IA y, para poder responderlo, un resumen de tu contexto financiero: saldos, movimientos recientes, categorías y nombres de fondos de ahorro. También recibe lo que dictás o escribís en la carga rápida para convertirlo en un movimiento. Ver \"¿Ofrecemos productos basados en inteligencia artificial?\" para una aclaración importante sobre cómo puede usarlo Google.",
+            "PostHog (Estados Unidos). Analítica de producto y seguimiento de errores. Recibe eventos de uso — qué pantallas abrís, qué funciones usás, si una acción salió bien o falló. En las funciones de IA recibe la forma de cada consulta (qué tarea corrió, qué herramientas usó el modelo, cuánto tardó, cuántos tokens) pero NO su contenido: el texto que escribís y el contexto financiero que se le manda al modelo se reemplazan por su longitud antes de que el evento salga de nuestros servidores.",
+            "Sentry (Estados Unidos). Reporte de fallos. Recibe detalles técnicos de errores y cierres inesperados: mensajes de error, trazas y versión del dispositivo y de la app.",
+            "RevenueCat (Estados Unidos). Gestiona las suscripciones. Recibe tu identificador de usuario y el estado de tu compra. Nunca recibe tus datos de pago, que los maneja Google Play.",
+            "Google Play (Google Irlanda / Estados Unidos). Procesa las compras. Tus datos de pago van a Google, nunca a Savlo.",
+            "Resend (Estados Unidos). Envía los correos de verificación con tu código de acceso. Recibe tu dirección de correo.",
+            "Mailcheck (mailcheck.ai). Recibe una dirección de correo al registrarte para comprobar si viene de un proveedor de correo desechable.",
+            "Google Analytics (Google, Estados Unidos) y Vercel Analytics (Vercel, Estados Unidos). Miden el tráfico únicamente de nuestro sitio web savloapp.com. No tienen acceso a la app ni a tus datos financieros. Ver \"Cookies y analítica en nuestro sitio web\" más arriba."
           ]
         },
         {
@@ -369,7 +398,7 @@
         },
         {
           "type": "p",
-          "text": "Proporcionamos los Productos de IA a través de proveedores de servicios de terceros (\"Proveedores de Servicios de IA\"), incluyendo Google Cloud AI. Como se describe en este Aviso de Privacidad, su entrada, salida e información personal serán compartidas y procesadas por estos Proveedores de Servicios de IA para permitir su uso de nuestros Productos de IA para los propósitos descritos en \"¿EN QUÉ BASES LEGALES NOS APOYAMOS PARA PROCESAR SU INFORMACIÓN PERSONAL?\" No debe usar los Productos de IA de ninguna manera que viole los términos o políticas de ningún Proveedor de Servicios de IA."
+          "text": "Ofrecemos los Productos de IA a través de Google, usando la API de Gemini. Para poder responderte, lo que escribís y un resumen de tu contexto financiero se envían a Google y se procesan en sus servidores.\n\nLeé esta parte con atención. Savlo usa hoy el nivel gratuito de la API de Gemini. Según los términos de Google para ese nivel, Google puede usar el contenido que recibe —tus consultas y las respuestas del modelo— para prestar y mejorar sus productos y servicios, y revisores humanos pueden leerlo. Eso es distinto de los niveles pagos de Google, donde el contenido no se usa para mejorar productos. Te lo decimos porque es una diferencia real y merecés decidir con ese dato adelante: no escribas en el asistente de IA nada que no quieras que lea un tercero, y tené en cuenta que el contexto financiero que se manda junto con tu pregunta está sujeto a los mismos términos. Si Savlo pasa a un nivel pago, vamos a actualizar este aviso y decirlo."
         },
         {
           "type": "h3",
@@ -382,10 +411,10 @@
         {
           "type": "ul",
           "items": [
-            "Perspectivas de IA",
-            "Analítica predictiva de IA",
-            "Búsqueda de IA",
-            "Análisis de texto"
+            "Convertir lo que decís o escribís en un movimiento (importe, fecha, categoría y comercio)",
+            "Un asistente conversacional que responde preguntas sobre tus propias finanzas",
+            "Observaciones y resúmenes sobre tus patrones de gasto",
+            "Sugerir una categoría al importar un archivo, y leer las columnas de ese archivo"
           ]
         },
         {
@@ -394,7 +423,7 @@
         },
         {
           "type": "p",
-          "text": "Toda la información personal procesada usando nuestros Productos de IA se maneja de acuerdo con nuestro Aviso de Privacidad y nuestro acuerdo con terceros. Esto garantiza alta seguridad y protege su información personal durante todo el proceso, brindándole tranquilidad sobre la seguridad de sus datos."
+          "text": "El asistente de IA es una herramienta para entender tus propios datos. No es asesoramiento financiero, de inversión, impositivo ni legal, y puede equivocarse: verificá cualquier cosa importante antes de actuar en consecuencia. Podés usar Savlo sin las funciones de IA — registrar movimientos, presupuestos, cuentas e informes funcionan sin mandarle nada a un modelo."
         }
       ]
     },
@@ -408,7 +437,7 @@
         },
         {
           "type": "p",
-          "text": "Nuestros Servicios le ofrecen la posibilidad de registrarse e iniciar sesión usando los detalles de su cuenta de red social de terceros (como sus inicios de sesión de Facebook o X). Cuando elige hacer esto, recibiremos cierta información de perfil sobre usted de su proveedor de red social. La información de perfil que recibimos puede variar dependiendo del proveedor de red social concerniente, pero a menudo incluirá su nombre, dirección de correo electrónico, lista de amigos, y foto de perfil, así como otra información que elija hacer pública en dicha plataforma de red social."
+          "text": "Nuestros Servicios te ofrecen la posibilidad de registrarte e iniciar sesión con tu cuenta de Google. Google es el único proveedor de inicio de sesión social que admitimos. Si lo elegís, recibimos tu dirección de correo y la información básica de tu perfil de Google. La usamos solo para crear e identificar tu cuenta."
         },
         {
           "type": "p",
@@ -452,7 +481,7 @@
         },
         {
           "type": "p",
-          "text": "Solo conservaremos su información personal durante el tiempo que sea necesario para los propósitos establecidos en este Aviso de Privacidad, a menos que un período de retención más largo sea requerido o permitido por la ley (como impuestos, contabilidad u otros requisitos legales). Ningún propósito en este aviso requerirá que conservemos su información personal por más tiempo que el período de tiempo en el que los usuarios tienen una cuenta con nosotros."
+          "text": "En la práctica esto significa: la información financiera que registrás se conserva mientras exista tu cuenta, y borrar la cuenta la elimina de nuestra base junto con la cuenta misma. Las grabaciones de voz se borran apenas se transcriben, salvo que actives la opción de conservarlas, en cuyo caso se borran automáticamente a los 30 días de grabadas. Borrar tu cuenta también borra las grabaciones de voz que sigan guardadas, en el momento en que la borrás, sin esperar a que venza ese plazo de 30 días. Una cuenta creada sin correo que no se vuelve a usar se borra a los 30 días. Los archivos que importás se conservan mientras exista la sesión de importación y después se purgan automáticamente.\n\nUna excepción que conviene que sepas: la analítica de uso y los reportes de fallos que guardan PostHog y Sentry no se eliminan al borrar tu cuenta, y el contenido ya enviado al proveedor de IA no se puede recuperar ni retirar. Si querés que eso también se elimine, escribinos a support@savloapp.com y le vamos a pedir a esos proveedores que borren lo que te corresponde."
         },
         {
           "type": "p",
@@ -542,6 +571,14 @@
         {
           "type": "p",
           "text": "Si tiene preguntas o comentarios sobre sus derechos de privacidad, puede enviarnos un correo electrónico a support@savloapp.com."
+        },
+        {
+          "type": "h3",
+          "text": "Brasil (LGPD)"
+        },
+        {
+          "type": "p",
+          "text": "Si estás en Brasil, la Lei Geral de Proteção de Dados (Ley 13.709/2018) te da derecho a confirmar que existe un tratamiento, a acceder a tus datos, a corregirlos, a anonimizar, bloquear o eliminar datos tratados de forma ilícita, innecesaria o excesiva, a la portabilidad, a eliminar los datos tratados en base a tu consentimiento, a saber con quién los compartimos, a saber qué pasa si negás el consentimiento, y a retirarlo. Nuestro encargado de protección de datos (encarregado) responde en support@savloapp.com, y también podés reclamar ante la Autoridade Nacional de Proteção de Dados (ANPD) en gov.br/anpd."
         }
       ]
     },

@@ -18,7 +18,7 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
     locale === "es"
       ? {
           voice: "Voz bilingüe",
-          calm: "Control diario",
+          daily:  "Control diario",
           fund: "Fondo vacaciones",
           today: "+$12 hoy",
           plan: "Presupuesto",
@@ -26,7 +26,7 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
       : locale === "pt"
         ? {
             voice: "Voz em português",
-            calm: "Controle diário",
+            daily:  "Controle diário",
             fund: "Fundo de viagem",
             today: "+$12 hoje",
             plan: "Orçamento",
@@ -34,7 +34,7 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
         : locale === "de"
         ? {
             voice: "Stimme auf Deutsch",
-            calm: "Tägliche Kontrolle",
+            daily:  "Tägliche Kontrolle",
             fund: "Urlaubsfonds",
             today: "+$12 heute",
             plan: "Budget",
@@ -42,14 +42,14 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
         : locale === "fr"
           ? {
               voice: "Voix en français",
-              calm: "Contrôle quotidien",
+              daily:  "Contrôle quotidien",
               fund: "Fonds vacances",
               today: "+$12 aujourd'hui",
               plan: "Budget",
             }
         : {
             voice: "Spanish & English voice",
-            calm: "Daily control",
+            daily:  "Daily control",
             fund: "Vacation fund",
             today: "+$12 today",
             plan: "Budgeting",
@@ -85,7 +85,7 @@ export function PhonePair({ locale = "en" }: { locale?: Locale }) {
           <Dot className="bg-primary" /> {copy.voice}
         </Callout>
         <Callout className="-bottom-2 left-10">
-          {copy.calm}
+          {copy.daily}
         </Callout>
       </div>
 
@@ -288,7 +288,7 @@ function ReflectionScreen() {
           Today's reflection
         </p>
         <h3 className="mt-1 font-serif text-[20px] leading-tight text-foreground">
-          A calm{" "}
+          A clear{" "}
           <em className="font-normal italic text-primary/90">day.</em>
         </h3>
       </div>

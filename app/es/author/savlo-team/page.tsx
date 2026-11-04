@@ -10,7 +10,7 @@ import { absoluteUrl, siteConfig } from "@/lib/site"
 export const metadata: Metadata = {
   title: siteConfig.author.name,
   description:
-    "Notas de finanzas conductuales y presupuesto en calma del equipo que construye Savlo.",
+    "Guías de presupuesto, ahorro y finanzas personales del equipo que construye Savlo.",
   alternates: metadataAlternates("/es/author/savlo-team"),
   openGraph: {
     title: siteConfig.author.name,
@@ -102,7 +102,7 @@ export default function SpanishAuthorPage() {
             {siteConfig.author.name}
           </h1>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Notas de finanzas conductuales y presupuesto en calma del equipo
+            Guías de presupuesto, ahorro y finanzas personales del equipo
             que construye Savlo.
           </p>
         </header>
@@ -115,7 +115,7 @@ export default function SpanishAuthorPage() {
             <li>Presupuestos que reducen evitación financiera.</li>
             <li>Sinking funds y planificación de emergencias.</li>
             <li>Hábitos de registro por voz.</li>
-            <li>Finanzas conductuales para rutinas más calmadas.</li>
+            <li>Finanzas conductuales aplicadas al dinero del día a día.</li>
           </ul>
         </section>
 

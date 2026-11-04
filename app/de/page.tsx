@@ -1,12 +1,7 @@
 import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
-import { Hero } from "@/components/savlo/hero"
-import { ProductOverview } from "@/components/savlo/product-overview"
-import { FeaturesShowcase } from "@/components/savlo/features-showcase"
-import { TrustSection } from "@/components/savlo/trust-section"
-import { BehavioralSection } from "@/components/savlo/behavioral-section"
+import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
-import { CtaSection } from "@/components/savlo/cta-section"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
@@ -38,7 +33,7 @@ const description =
   "Savlo ist eine App fuer die taegliche Finanzkontrolle und -verwaltung in Minuten. Erfassen Sie Ausgaben per Sprache oder Text, organisieren Sie Geld auf unabhaengigen Konten und optimieren Sie Ihr Budget muehelos."
 
 export const metadata: Metadata = {
-  title: "Persoenliche Finanzkontrolle und -verwaltung in Minuten",
+  title: { absolute: "Savlo Budgeting App | Erfasse, spare und plane dein Geld" },
   description,
   keywords: [
     "Budget App",
@@ -105,12 +100,12 @@ export default function GermanHomePage() {
     },
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "@id": softwareId,
       name: siteConfig.name,
       alternateName: siteConfig.shortName,
       applicationCategory: "FinanceApplication",
-      operatingSystem: "iOS, Android",
+      operatingSystem: "Android",
       url: absoluteUrl("/de"),
       description:
         "Savlo ist eine App fuer die taegliche Finanzkontrolle und -verwaltung in Minuten mit Sprach- und Texteingabe, unabhaengigen Konten, Sinking Funds, Tabellenimport und Datenexport.",
@@ -123,13 +118,14 @@ export default function GermanHomePage() {
         "@type": "Offer",
         price: "0",
         priceCurrency: "USD",
+        description: "14 Tage kostenlos testen, danach Monats- oder Jahresabo",
         availability: "https://schema.org/PreOrder",
         url: absoluteUrl("/de"),
       },
       publisher: {
         "@id": organizationId,
       },
-      isAccessibleForFree: true,
+      isAccessibleForFree: false,
       featureList: [
         "Sprach- und Texteingabe",
         "Unabhaengige Konten",
@@ -161,23 +157,12 @@ export default function GermanHomePage() {
     >
       <SiteHeader locale="de" />
       <main>
-        <Hero locale="de" />
-        <SectionDivider />
-        <ProductOverview locale="de" />
-        <SectionDivider />
-        <FeaturesShowcase locale="de" />
-        <SectionDivider />
-        <BehavioralSection locale="de" />
-        <SectionDivider />
-        <TrustSection locale="de" />
-        <SectionDivider />
+        <ProductStory locale="de" />
         <FeaturedReads locale="de" />
         <SectionDivider />
         <FaqSection />
-        <SectionDivider />
-        <CtaSection locale="de" />
       </main>
-      <SiteFooter locale="de" />
+      <SiteFooter locale="de" cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -195,7 +180,7 @@ function FaqSection() {
             Fragen
           </p>
           <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            Ein paar ruhige Antworten, bevor du auf die Warteliste gehst.
+            Ein paar Antworten, bevor du auf die Warteliste gehst.
           </h2>
         </div>
         <dl className="lg:col-span-8">

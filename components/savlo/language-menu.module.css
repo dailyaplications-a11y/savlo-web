@@ -1,0 +1,160 @@
+/*
+ * The header's language picker, minimal. Closed, the control is words, not a
+ * box: the language's flag, its code and a small mint caret, soft until
+ * pointed at. Open, a card exactly as wide as the control is drawn around it
+ * and unrolls downwards from its line, so the list grows out of the control
+ * instead of floating under it: the other languages, flag and code, in short
+ * rows, each under the control's own flag and code.
+ *
+ * Nothing is ever painted gray: not the control, not an option, not under
+ * the pointer and not under a press. An option lights from soft gray to
+ * cream.
+ */
+
+.root {
+  position: relative;
+  --cream: #f7f3ee;
+  --soft: rgba(247, 243, 238, 0.64);
+  --gray: #8fa3b1;
+  --mint: #4caf8a;
+  --out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.button {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 40px;
+  padding: 0 8px 0 10px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--soft);
+  font: 600 13px/1 var(--font-dm-sans), system-ui, sans-serif;
+  cursor: pointer;
+  transition: color 0.2s ease, scale 0.12s ease;
+}
+.button:hover,
+.root[data-open="true"] .button {
+  color: var(--cream);
+}
+.button:active {
+  scale: 0.96;
+}
+.button:focus {
+  outline: none;
+}
+.button:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+.code {
+  letter-spacing: 0.04em;
+}
+.caret {
+  color: var(--mint);
+  transition: transform 0.3s var(--out);
+}
+.root[data-open="true"] .caret {
+  transform: rotate(180deg);
+}
+
+/* ── the card ──────────────────────────────────────────────────── */
+
+/* drawn around the control: its top row is the control's own line */
+.card {
+  position: absolute;
+  z-index: 5;
+  top: -4px;
+  /* exactly the control's width: the list is a column under "EN" */
+  left: -4px;
+  right: -4px;
+  box-sizing: border-box;
+  padding: 48px 4px 4px;
+  border-radius: 14px;
+  background: #0d1b2a;
+  border: 1px solid rgba(247, 243, 238, 0.1);
+  box-shadow: 0 18px 40px -20px rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  /*
+   * Closed it is only the control's row; it unrolls down from there. It grows
+   * its HEIGHT (the list's grid row, 0fr → 1fr), not a clip: the border and
+   * the rounded bottom travel down with it (owner, 2026-11-04: with a
+   * clip-path the card had no bottom edge while it unrolled).
+   */
+  display: grid;
+  grid-template-rows: 0fr;
+  pointer-events: none;
+  transition: grid-template-rows 0.2s cubic-bezier(0.4, 0, 1, 1), opacity 0.1s ease 0.1s;
+}
+.root[data-open="true"] .card {
+  opacity: 1;
+  grid-template-rows: 1fr;
+  pointer-events: auto;
+  transition: grid-template-rows 0.3s var(--out), opacity 0.1s ease;
+}
+
+.list {
+  min-height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list > li {
+  opacity: 0;
+  translate: 0 -4px;
+  transition: opacity 0.1s ease, translate 0.1s ease;
+}
+.root[data-open="true"] .list > li {
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity 0.2s var(--out) calc(40ms + var(--i) * 26ms),
+    translate 0.24s var(--out) calc(40ms + var(--i) * 26ms);
+}
+
+/* flag and code, set exactly under the control's own flag and code */
+.option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 0 0 9px;
+  color: var(--soft);
+  font: 600 13px/1 var(--font-dm-sans), system-ui, sans-serif;
+  white-space: nowrap;
+  transition: color 0.15s ease;
+}
+.option:hover {
+  color: var(--cream);
+}
+
+.flag {
+  flex-shrink: 0;
+  display: inline-flex;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(247, 243, 238, 0.14);
+}
+.flag svg {
+  display: block;
+}
+.option:focus {
+  outline: none;
+}
+.option:focus-visible {
+  color: var(--cream);
+  outline: 2px solid var(--mint);
+  outline-offset: -2px;
+  border-radius: 10px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root *,
+  .card {
+    transition: none !important;
+  }
+}

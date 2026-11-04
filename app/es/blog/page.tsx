@@ -7,7 +7,7 @@ import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
 const blogDescription =
-  "Guías de presupuesto, ahorro y psicología del dinero para personas que quieren una relación más tranquila con sus finanzas."
+  "Guías de presupuesto, ahorro, deudas y psicología del dinero para organizar tus finanzas personales."
 
 export const metadata: Metadata = {
   title: "Blog",

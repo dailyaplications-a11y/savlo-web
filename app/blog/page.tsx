@@ -7,7 +7,7 @@ import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
 const blogDescription =
-  "Budgeting, saving, and money psychology guides for people who want a calmer relationship with their finances."
+  "Budgeting, saving, debt, and money psychology guides for organizing your personal finances."
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Savlo Blog",
     description:
-      "Calm personal finance guides on budgeting, saving, and money psychology.",
+      "Personal finance guides on budgeting, saving, and money psychology.",
     type: "website",
     locale: siteConfig.locale,
     siteName: siteConfig.name,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Savlo Blog",
-    description: "Calm guides on budgeting, saving, and behavioral finance.",
+    description: "Guides on budgeting, saving, and behavioral finance.",
     images: [absoluteUrl(siteConfig.ogImage)],
   },
   alternates: metadataAlternates("/blog"),

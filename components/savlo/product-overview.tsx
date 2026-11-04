@@ -4,7 +4,7 @@ import { Reveal } from "./reveal"
 
 const copy = {
   en: {
-    eyebrow: "Your week, gently summarized",
+    eyebrow: "Your week, summarized",
     heading: "Not a dashboard.",
     emphasis: "A reflection.",
     description:
@@ -30,7 +30,7 @@ const copy = {
     ],
   },
   es: {
-    eyebrow: "Tu semana, resumida con suavidad",
+    eyebrow: "Tu semana, resumida",
     heading: "No es un dashboard.",
     emphasis: "Es una reflexión.",
     description:
@@ -56,7 +56,7 @@ const copy = {
     ],
   },
   pt: {
-    eyebrow: "Sua semana, resumida com leveza",
+    eyebrow: "Sua semana, resumida",
     heading: "Não é um dashboard.",
     emphasis: "É uma reflexão.",
     description:
@@ -83,7 +83,7 @@ const copy = {
   },
 
   de: {
-    eyebrow: "Deine Woche, sanft zusammengefasst",
+    eyebrow: "Deine Woche, zusammengefasst",
     heading: "Kein Dashboard.",
     emphasis: "Eine Reflexion.",
     description:
@@ -109,7 +109,7 @@ const copy = {
     ],
   },
   fr: {
-    eyebrow: "Ta semaine, résumée avec douceur",
+    eyebrow: "Ta semaine, résumée",
     heading: "Pas un dashboard.",
     emphasis: "Une réflexion.",
     description:

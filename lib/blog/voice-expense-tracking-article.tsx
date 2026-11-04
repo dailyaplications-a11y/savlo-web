@@ -408,7 +408,7 @@ export default function VoiceExpenseTrackingArticle() {
         grocery run was maybe $25. Or $40?
       </P>
       <P>
-        Voice logging each stop as you leave the store keeps the data accurate. &ldquo>Dry
+        Voice logging each stop as you leave the store keeps the data accurate. &ldquo;Dry
         cleaner, fourteen dollars.&rdquo; &ldquo;Hardware store, thirty-two dollars.&rdquo;
         &ldquo;Groceries, twenty-seven dollars.&rdquo; &ldquo;Gas, forty-eight dollars.&rdquo;
         Four voice logs, each taking less than five seconds, and your entire afternoon of

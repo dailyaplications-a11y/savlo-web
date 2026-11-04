@@ -13,7 +13,7 @@ const authorPath = "/pt/author/savlo-team"
 export const metadata: Metadata = {
   title: siteConfig.author.name,
   description:
-    "Notas sobre finanças comportamentais e orçamento calmo da equipe que constrói o Savlo.",
+    "Guias de orçamento, poupança e finanças pessoais da equipe que constrói o Savlo.",
   alternates: metadataAlternates(authorPath),
   openGraph: {
     title: siteConfig.author.name,
@@ -105,7 +105,7 @@ export default function PortugueseAuthorPage() {
             {siteConfig.author.name}
           </h1>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Notas sobre finanças comportamentais e orçamento calmo da equipe que
+            Guias de orçamento, poupança e finanças pessoais da equipe que
             constrói o Savlo.
           </p>
         </header>
@@ -118,7 +118,7 @@ export default function PortugueseAuthorPage() {
             <li>Sistemas de orçamento que reduzem a evasão.</li>
             <li>Sinking funds e planejamento de emergência.</li>
             <li>Hábitos de registro por voz.</li>
-            <li>Finanças comportamentais para rotinas mais calmas.</li>
+            <li>Finanças comportamentais aplicadas ao dinheiro do dia a dia.</li>
           </ul>
         </section>
 

@@ -11,7 +11,9 @@
     "start": "next start",
     "start:ci": "next start --hostname 127.0.0.1 --port 3001",
     "lint": "eslint .",
+    "licenses:generate": "node ./scripts/generate-oss-licenses.mjs",
     "test:seo-structure": "node ./scripts/seo-structure-test.mjs",
+    "indexnow": "node ./scripts/indexnow.mjs",
     "seo:audit": "node ./scripts/run-seo-audit.mjs",
     "seo:lighthouse": "node ./scripts/run-seo-audit.mjs --lighthouse-only",
     "seo:screamingfrog": "node ./scripts/run-seo-audit.mjs --screaming-frog-only"
@@ -74,6 +76,8 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.2.6",
     "postcss": "8.5.15",
     "tailwindcss": "^4.2.0",
     "tw-animate-css": "1.3.3",

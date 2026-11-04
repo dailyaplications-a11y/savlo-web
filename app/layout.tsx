@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { DM_Sans, Fraunces } from "next/font/google"
+import { DM_Sans, Fraunces, Inter, Noto_Color_Emoji } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from "@next/third-parties/google"
 import Script from "next/script"
@@ -18,12 +18,33 @@ const fraunces = Fraunces({
   variable: "--font-fraunces",
   display: "optional",
   axes: ["opsz", "SOFT"],
+  // the real italic: the app's titles ("Today", "Budget") are set in it, and
+  // without the file the browser only slants the roman
+  style: ["normal", "italic"],
+})
+
+// The app draws every emoji with Noto Color Emoji; the phone screens of the
+// storyboard do too, so a 🏠 is the app's 🏠 on every system. Not preloaded:
+// the browser fetches only the slices a page uses.
+const notoEmoji = Noto_Color_Emoji({
+  weight: "400",
+  subsets: ["emoji"],
+  variable: "--font-emoji",
+  display: "swap",
+  preload: false,
+})
+
+// Money figures only (the app's rule: a sum is one typeface, Inter).
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "optional",
 })
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Savlo | Calm budgeting for anxious minds",
+    default: "Savlo | Budgeting app and expense tracker",
     template: "%s | Savlo",
   },
   description: siteConfig.description,
@@ -52,7 +73,7 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: "/",
     siteName: siteConfig.name,
-    title: "Savlo | Calm budgeting for anxious minds",
+    title: "Savlo | Budgeting app and expense tracker",
     description: siteConfig.description,
     images: [
       {
@@ -63,7 +84,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Calm budgeting for anxious minds",
+    title: "Savlo | Budgeting app and expense tracker",
     description: siteConfig.description,
     images: [absoluteUrl(siteConfig.ogImage)],
   },
@@ -71,9 +92,17 @@ export const metadata: Metadata = {
     icon: "/savlo-icon.png",
     apple: "/savlo-icon.png",
   },
-  ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION && {
+  // Search Console (Google) and Webmaster Tools (Bing, which ChatGPT search
+  // reads) verify ownership with a meta tag. Each one only renders when its
+  // env var is set in Vercel, so no code change is needed to verify.
+  ...((process.env.NEXT_PUBLIC_GSC_VERIFICATION || process.env.NEXT_PUBLIC_BING_VERIFICATION) && {
     verification: {
-      google: process.env.NEXT_PUBLIC_GSC_VERIFICATION,
+      ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION && {
+        google: process.env.NEXT_PUBLIC_GSC_VERIFICATION,
+      }),
+      ...(process.env.NEXT_PUBLIC_BING_VERIFICATION && {
+        other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION },
+      }),
     },
   }),
 }
@@ -84,7 +113,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${dmSans.variable} ${fraunces.variable} bg-background`}>
+    <html lang="en" suppressHydrationWarning className={`${dmSans.variable} ${fraunces.variable} ${inter.variable} ${notoEmoji.variable} bg-background`}>
       <head>
         <Script id="savlo-html-lang" strategy="beforeInteractive">
           {`(() => {

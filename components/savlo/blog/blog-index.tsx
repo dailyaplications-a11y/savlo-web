@@ -2,16 +2,17 @@
 
 import Link from "next/link"
 import { useMemo, useState, type FormEvent } from "react"
-import {
-  formatBlogDateShort,
-  posts as englishPosts,
-  type BlogCategory,
-} from "@/lib/blog/posts"
-import { blogCategoryLabels } from "@/lib/blog/category-labels"
+import { posts as englishPosts, type BlogCategory } from "@/lib/blog/posts"
 import type { Locale } from "@/lib/i18n"
 import { blogDateLocale } from "@/lib/i18n"
-import { buildMailto, siteConfig } from "@/lib/site"
-import { cn } from "@/lib/utils"
+import { buildMailto } from "@/lib/site"
+
+/*
+ * Blog index: one quiet column, the way the best product blogs do it.
+ * A title, a line under it, and the list — each post is its title in
+ * semibold and the date in gray. No chips, no filters, no cards: the
+ * titles carry the page. The note at the end is the only other thing.
+ */
 
 type BlogIndexPost = {
   slug: string
@@ -27,33 +28,16 @@ type BlogIndexProps = {
   posts?: BlogIndexPost[]
 }
 
-const categoryValues: (BlogCategory | "All")[] = [
-  "All",
-  "Budgeting",
-  "Saving",
-  "Debt",
-  "Money Psychology",
-  "Comparisons",
-  "Goals",
-]
-
 const copy = {
   en: {
-    title: "The Blog",
-    subtitle: "stay updated on calm personal finance",
-    description:
-      "Guides, methods, and reflections on budgeting, saving, and the emotional relationship with money. No flashing red numbers and no guilt-based productivity framing.",
-    updated: "Updated",
-    empty: "No articles in this category yet. Check back soon.",
-    noteTitle: "One note per month, zero noise",
-    noteBody:
-      "If you want future Savlo Journal updates, this form opens your mail app with a prefilled note to the team. No invisible newsletter backend, no silent subscriptions.",
+    title: "Blog",
+    subtitle: "Budgeting, saving, and personal finance.",
+    postsLabel: "Articles",
+    noteTitle: "One note a month, zero noise.",
+    noteBody: "New guides from the blog in your inbox. Nothing else.",
     emailLabel: "Email",
-    placeholder: "you@quietmail.com",
-    button: "Email us",
-    footerText: "If you prefer reading now, start with",
-    footerLink: "How to Make a Budget",
-    footerHref: "/blog/how-to-make-a-budget",
+    placeholder: "you@email.com",
+    button: "Subscribe",
     subject: "Savlo Journal updates",
     bodyLines: (email: string) => [
       "Hi Savlo team,",
@@ -65,45 +49,31 @@ const copy = {
   },
   es: {
     title: "Blog",
-    subtitle: "finanzas personales en calma",
-    description:
-      "Guías, métodos y reflexiones sobre presupuesto, ahorro y la relación emocional con el dinero. Sin números rojos que gritan y sin productividad basada en culpa.",
-    updated: "Actualizado",
-    empty: "Todavía no hay artículos en esta categoría. Vuelve pronto.",
-    noteTitle: "Una nota por mes, cero ruido",
-    noteBody:
-      "Si quieres recibir futuras novedades de Savlo Journal, este formulario abre tu app de mail con una nota prellenada para el equipo. Sin backend invisible de newsletter, sin suscripciones silenciosas.",
-    emailLabel: "Email",
-    placeholder: "tu@email.com",
-    button: "Escribir",
-    footerText: "Si prefieres leer ahora, empieza con",
-    footerLink: "Cómo hacer un presupuesto",
-    footerHref: "/es/blog/how-to-make-a-budget",
+    subtitle: "Presupuesto, ahorro y finanzas personales.",
+    postsLabel: "Artículos",
+    noteTitle: "Una nota por mes, cero ruido.",
+    noteBody: "Lo nuevo del blog en tu correo. Nada más.",
+    emailLabel: "Correo electrónico",
+    placeholder: "tu@correo.com",
+    button: "Suscribirme",
     subject: "Actualizaciones de Savlo Journal",
     bodyLines: (email: string) => [
       "Hola equipo de Savlo,",
       "",
       "Quiero recibir futuras actualizaciones de Savlo Journal.",
-      `Mi email: ${email}`,
+      `Mi correo: ${email}`,
       "Source: blog-journal-es",
     ],
   },
   pt: {
     title: "Blog",
-    subtitle: "finanças pessoais em calma",
-    description:
-      "Guias, métodos e reflexões sobre orçamento, poupança e a relação emocional com o dinheiro. Sem números vermelhos gritando e sem produtividade baseada em culpa.",
-    updated: "Atualizado",
-    empty: "Ainda não há artigos nesta categoria. Volte em breve.",
-    noteTitle: "Uma nota por mês, zero ruído",
-    noteBody:
-      "Se você quiser receber futuras novidades do Savlo Journal, este formulário abre seu app de e-mail com uma nota pré-preenchida para a equipe. Sem backend invisível de newsletter, sem inscrições silenciosas.",
+    subtitle: "Orçamento, poupança e finanças pessoais.",
+    postsLabel: "Artigos",
+    noteTitle: "Uma nota por mês, zero ruído.",
+    noteBody: "As novidades do blog no seu e-mail. Nada mais.",
     emailLabel: "E-mail",
-    placeholder: "voce@calmo.com",
-    button: "Enviar",
-    footerText: "Se preferir ler agora, comece com",
-    footerLink: "Como fazer um orçamento",
-    footerHref: "/pt/blog/how-to-make-a-budget",
+    placeholder: "voce@email.com",
+    button: "Inscrever-me",
     subject: "Atualizações do Savlo Journal",
     bodyLines: (email: string) => [
       "Olá equipe Savlo,",
@@ -115,64 +85,68 @@ const copy = {
   },
   de: {
     title: "Blog",
-    subtitle: "ruhige persoenliche Finanzen",
-    description:
-      "Leitfaeden, Methoden und Reflexionen zu Budget, Sparen und der emotionalen Beziehung zu Geld. Keine blinkenden roten Zahlen und keine Schuld als Produktivitaet.",
-    updated: "Aktualisiert",
-    empty: "Noch keine Artikel in dieser Kategorie. Schau bald wieder vorbei.",
-    noteTitle: "Eine Notiz pro Monat, kein Laerm",
-    noteBody:
-      "Wenn du zukuenftige Savlo Journal-Updates erhalten moechtest, oeffnet dieses Formular deine Mail-App mit einer vorausgefuellten Nachricht an das Team. Kein unsichtbares Newsletter-Backend, kein stilles Abonnement.",
+    subtitle: "Budget, Sparen und persönliche Finanzen.",
+    postsLabel: "Artikel",
+    noteTitle: "Eine Notiz pro Monat, kein Lärm.",
+    noteBody: "Neues aus dem Blog in deinem Postfach. Sonst nichts.",
     emailLabel: "E-Mail",
     placeholder: "du@beispiel.de",
-    button: "Schreiben",
-    footerText: "Wenn du lieber jetzt liest, starte mit",
-    footerLink: "Wie man ein Budget erstellt",
-    footerHref: "/de/blog/how-to-make-a-budget",
+    button: "Abonnieren",
     subject: "Savlo Journal-Updates",
     bodyLines: (email: string) => [
       "Hallo Savlo-Team,",
       "",
-      "Ich moechte kuenftige Savlo Journal-Updates erhalten.",
-      "Meine E-Mail: " + email,
+      "Ich möchte künftige Savlo Journal-Updates erhalten.",
+      `Meine E-Mail: ${email}`,
       "Quelle: blog-journal-de",
     ],
   },
   fr: {
     title: "Blog",
-    subtitle: "finance personnelle en douceur",
-    description:
-      "Guides, méthodes et réflexions sur le budget, l'épargne et la relation émotionnelle à l'argent. Sans chiffres rouges qui crient et sans productivité fondée sur la culpabilité.",
-    updated: "Mis à jour",
-    empty: "Pas encore d'articles dans cette catégorie. Reviens bientôt.",
-    noteTitle: "Une note par mois, zéro bruit",
-    noteBody:
-      "Si tu veux recevoir les futures nouveautés de Savlo Journal, ce formulaire ouvre ton app de mail avec une note préremplie pour l'équipe. Pas de backend invisible de newsletter, pas d'abonnement silencieux.",
+    subtitle: "Budget, épargne et finances personnelles.",
+    postsLabel: "Articles",
+    noteTitle: "Une note par mois, zéro bruit.",
+    noteBody: "Les nouveautés du blog dans ta boîte mail. Rien d'autre.",
     emailLabel: "E-mail",
     placeholder: "toi@exemple.fr",
-    button: "Nous écrire",
-    footerText: "Si tu préfères lire maintenant, commence par",
-    footerLink: "Comment faire un budget",
-    footerHref: "/fr/blog/how-to-make-a-budget",
+    button: "M'abonner",
     subject: "Mises à jour de Savlo Journal",
     bodyLines: (email: string) => [
       "Bonjour l'équipe Savlo,",
       "",
       "Je veux recevoir les futures mises à jour de Savlo Journal.",
-      `Mon e-mail: ${email}`,
+      `Mon e-mail : ${email}`,
       "Source: blog-journal-fr",
     ],
   },
 } as const
 
-function buildCategories(blogPosts: BlogIndexPost[]) {
-  return categoryValues.map((value) => ({
-    value,
-    count:
-      value === "All"
-        ? blogPosts.length
-        : blogPosts.filter((post) => post.category === value).length,
-  }))
+/** "7 jun 2026", "Jun 7, 2026", "7. Juni 2026": the month in words reads faster than 7/6/2026. */
+function formatListDate(iso: string, locale: Locale) {
+  return new Intl.DateTimeFormat(blogDateLocale(locale), {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  }).format(new Date(`${iso}T00:00:00`))
+}
+
+function ArrowRight({ className }: { className?: string }) {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+      className={className}
+    >
+      <path d="M3 8h10M9 4l4 4-4 4" />
+    </svg>
+  )
 }
 
 export function BlogIndex({
@@ -180,17 +154,22 @@ export function BlogIndex({
   posts: blogPosts = englishPosts,
 }: BlogIndexProps) {
   const text = copy[locale]
-  const categories = useMemo(() => buildCategories(blogPosts), [blogPosts])
-  const [active, setActive] = useState<BlogCategory | "All">("All")
   const [email, setEmail] = useState("")
+  const prefix = locale === "en" ? "" : `/${locale}`
 
-  const visible = useMemo(() => {
-    const list =
-      active === "All"
-        ? blogPosts
-        : blogPosts.filter((post) => post.category === active)
-    return [...list].sort((a, b) => (a.date < b.date ? 1 : -1))
-  }, [active, blogPosts])
+  const sorted = useMemo(
+    () =>
+      [...blogPosts].sort((a, b) =>
+        a.date === b.date
+          ? a.dateModified < b.dateModified
+            ? 1
+            : -1
+          : a.date < b.date
+            ? 1
+            : -1,
+      ),
+    [blogPosts],
+  )
 
   function onSubscribe(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
@@ -203,128 +182,80 @@ export function BlogIndex({
   }
 
   return (
-    <section className="mx-auto w-full max-w-3xl px-6 pb-32 pt-32 sm:pt-36">
-      <header className="flex flex-col items-center text-center">
-        <h1 className="font-serif text-5xl font-medium tracking-tight text-foreground sm:text-6xl">
+    <section className="mx-auto w-full max-w-[680px] px-5 pb-28 pt-36 sm:pb-32 sm:pt-44">
+      <header className="flex flex-col items-center gap-3 text-center sm:gap-3.5">
+        <h1 className="font-serif text-[48px] font-medium leading-none tracking-[-0.03em] text-foreground sm:text-[64px]">
           {text.title}
         </h1>
-        <p className="mt-3 text-[15px] text-primary">{text.subtitle}</p>
-        <p className="mt-6 max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground">
-          {text.description}
+        <p className="text-[15px] leading-normal text-muted-foreground sm:text-base">
+          {text.subtitle}
         </p>
       </header>
 
-      <nav
-        aria-label="Categories"
-        className="mt-14 flex flex-wrap items-center justify-center gap-2"
-      >
-        {categories.map((category) => {
-          const isActive = category.value === active
-          return (
-            <button
-              key={category.value}
-              type="button"
-              onClick={() => setActive(category.value)}
-              className={cn(
-                "btn-calm inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-[13px] transition-colors",
-                isActive
-                  ? "border-primary/50 bg-primary/10 text-foreground"
-                  : "border-border bg-surface/50 text-muted-foreground hover:border-primary/30 hover:text-foreground",
-              )}
-              aria-pressed={isActive}
-            >
-              <span>{blogCategoryLabels[locale][category.value]}</span>
-              <span
-                className={cn(
-                  "rounded-full px-1.5 py-0.5 text-[10px] tabular-nums",
-                  isActive
-                    ? "bg-primary/20 text-foreground"
-                    : "bg-muted/40 text-muted-foreground",
-                )}
-              >
-                {category.count}
-              </span>
-            </button>
-          )
-        })}
-      </nav>
-
-      <ol className="mt-16 flex flex-col gap-10">
-        {visible.map((post) => (
-          <li key={post.slug} className="group">
+      <ol aria-label={text.postsLabel} className="mt-10 flex flex-col sm:mt-16">
+        {sorted.map((post) => (
+          <li key={post.slug}>
             <Link
-              href={`${locale === "en" ? "" : `/${locale}`}/blog/${post.slug}`}
-              className="flex flex-col items-center text-center"
+              href={`${prefix}/blog/${post.slug}`}
+              className="group flex items-start justify-between gap-6 rounded-lg py-4 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
             >
-              <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-primary/80">
-                {blogCategoryLabels[locale][post.category]}
-              </p>
-              <h2 className="max-w-2xl text-balance text-lg font-semibold leading-snug text-foreground transition-colors group-hover:text-primary sm:text-xl">
-                {post.title}
-              </h2>
-              <p className="mt-1.5 flex flex-wrap items-center justify-center gap-1.5 text-[12px] font-medium text-primary/80">
-                <span>{siteConfig.author.name}</span>
-                <span aria-hidden>·</span>
-                <time dateTime={post.dateModified}>
-                  {text.updated}{" "}
-                  {formatBlogDateShort(post.dateModified, blogDateLocale(locale))}
+              <span className="flex min-w-0 flex-col gap-1">
+                <span className="text-pretty text-[19px] font-semibold leading-[1.35] tracking-[-0.012em] text-foreground">
+                  {post.title}
+                </span>
+                <time
+                  dateTime={post.date}
+                  className="text-sm leading-[1.4] text-muted-foreground"
+                >
+                  {formatListDate(post.date, locale)}
                 </time>
-              </p>
-              <p className="mt-2 max-w-xl text-pretty text-[14px] leading-relaxed text-muted-foreground">
-                {post.description}
-              </p>
+              </span>
+              <ArrowRight className="mt-[5px] hidden shrink-0 -translate-x-1.5 text-muted-foreground opacity-0 transition-[opacity,transform] duration-300 ease-[cubic-bezier(0.2,0.8,0.2,1)] group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100 motion-reduce:transition-none sm:block" />
             </Link>
           </li>
         ))}
       </ol>
 
-      {visible.length === 0 && (
-        <p className="mt-20 text-center text-sm text-muted-foreground">
-          {text.empty}
-        </p>
-      )}
-
-      <div className="mt-24 flex flex-col items-center gap-4 border-t border-border/60 pt-12 text-center">
-        <h3 className="font-serif text-xl font-medium text-foreground">
-          {text.noteTitle}
-        </h3>
-        <p className="max-w-md text-[14px] leading-relaxed text-muted-foreground">
-          {text.noteBody}
-        </p>
+      <section
+        aria-labelledby="blog-note"
+        className="mt-16 flex flex-col gap-5 border-t border-border pt-10 sm:mt-24 sm:pt-12"
+      >
+        <div className="flex flex-col gap-2">
+          <h2
+            id="blog-note"
+            className="font-serif text-[22px] font-medium leading-tight tracking-[-0.02em] text-foreground sm:text-2xl"
+          >
+            {text.noteTitle}
+          </h2>
+          <p className="text-[15px] leading-[1.55] text-muted-foreground">
+            {text.noteBody}
+          </p>
+        </div>
         <form
-          className="mt-2 flex w-full max-w-md items-center gap-2"
+          className="flex flex-col gap-2 sm:flex-row"
           onSubmit={onSubscribe}
         >
-          <label htmlFor="newsletter" className="sr-only">
+          <label htmlFor="blog-note-email" className="sr-only">
             {text.emailLabel}
           </label>
           <input
-            id="newsletter"
+            id="blog-note-email"
             type="email"
             required
+            autoComplete="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder={text.placeholder}
-            className="min-w-0 flex-1 rounded-full border border-border bg-surface/60 px-4 py-2.5 text-[14px] text-foreground placeholder:text-muted-foreground/70 focus:border-primary/50 focus:outline-none focus:ring-2 focus:ring-ring"
+            className="h-12 min-w-0 flex-1 rounded-full border border-border bg-transparent px-5 text-[15px] text-foreground transition-colors placeholder:text-muted-foreground/80 focus:border-white/20 focus:outline-none"
           />
           <button
             type="submit"
-            className="btn-calm rounded-full bg-primary px-5 py-2.5 text-[14px] font-medium text-primary-foreground hover:bg-primary-hover"
+            className="h-12 shrink-0 rounded-full bg-primary px-[22px] text-[15px] font-semibold text-primary-foreground transition-[background-color,scale] duration-200 hover:bg-[#5cc29b] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-hover active:scale-[0.98]"
           >
             {text.button}
           </button>
         </form>
-        <p className="text-[11px] text-muted-foreground">
-          {text.footerText}{" "}
-          <Link
-            href={text.footerHref}
-            className="underline underline-offset-4 transition-colors hover:text-foreground"
-          >
-            {text.footerLink}
-          </Link>
-          .
-        </p>
-      </div>
+      </section>
     </section>
   )
 }

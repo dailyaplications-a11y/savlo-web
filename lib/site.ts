@@ -14,12 +14,13 @@ export const siteConfig = {
   category: "personal finance",
   ogImage: "/app_screen_today.png",
   supportEmail: "support@savloapp.com",
+  playStoreUrl: "https://play.google.com/store/apps/details?id=com.savlo.app",
   lastUpdated: "2026-06-02",
   author: {
     name: "The Savlo Team",
     url: "/author/savlo-team",
     description:
-      "Behavioral-finance notes and calm budgeting guidance from the team building Savlo.",
+      "Budgeting, saving and personal finance guides from the team building Savlo.",
   },
   keywords: [
     "budgeting app",
@@ -28,9 +29,6 @@ export const siteConfig = {
     "voice expense tracker",
     "behavioral finance app",
     "sinking funds app",
-    "budgeting for anxious minds",
-    "financial anxiety app",
-    "calm budgeting",
     "expense tracker",
     "mint alternative",
     "YNAB alternative",

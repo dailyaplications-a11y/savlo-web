@@ -8,7 +8,7 @@ type Props = {
 }
 
 /**
- * A calm, editorial dashboard mockup.
+ * An editorial dashboard mockup.
  * Inline SVG for the net worth line so it can draw on mount.
  */
 export function DashboardMockup({ className }: Props) {
@@ -68,7 +68,7 @@ export function DashboardMockup({ className }: Props) {
               />
             </p>
             <p className="mt-2 text-xs text-muted-foreground">
-              <span className="text-primary">+ $2,140</span> this month · calm
+              <span className="text-primary">+ $2,140</span> this month · steady
               trend
             </p>
           </div>

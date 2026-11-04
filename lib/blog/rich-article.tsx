@@ -5,11 +5,11 @@ export type RichBlock =
   | { kind: "h2"; id: string; text: string }
   | { kind: "h3"; id: string; text: string }
   | { kind: "p"; text: string }
-  | { kind: "ul"; items: string[] }
-  | { kind: "ol"; items: string[] }
+  | { kind: "ul"; items: readonly string[] }
+  | { kind: "ol"; items: readonly string[] }
   | { kind: "callout"; text: string }
   | { kind: "divider" }
-  | { kind: "faq"; items: Array<{ q: string; a: string }> }
+  | { kind: "faq"; items: ReadonlyArray<{ q: string; a: string }> }
 
 export type RichArticle = {
   slug: string
@@ -22,6 +22,9 @@ export type RichArticle = {
   readingTime: number
   blocks: RichBlock[]
 }
+
+/** What the renderer actually reads: a localized post carries only its blocks. */
+export type RichBody = Pick<RichArticle, "blocks">
 
 const inlineLinkPattern = /\[([^\]]+)\]\(([^)]+)\)/g
 
@@ -53,7 +56,7 @@ function renderInline(text: string, keyPrefix: string): ReactNode[] {
   return out
 }
 
-export function RichArticleContent({ article }: { article: RichArticle }) {
+export function RichArticleContent({ article }: { article: RichBody }) {
   return (
     <>
       {article.blocks.map((block, i) => {

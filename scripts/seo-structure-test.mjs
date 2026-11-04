@@ -178,41 +178,24 @@ check(
     contains("app/sitemap.ts", /localizedPath\(path,\s*["']fr["']\)/),
 )
 
-check(
-  "Spanish home reuses the English landing UI components",
-  contains("app/es/page.tsx", /from "@\/components\/savlo\/hero"/) &&
-    contains("app/es/page.tsx", /<Hero\s+locale="es"\s*\/>/) &&
-    contains("app/es/page.tsx", /<ProductOverview\s+locale="es"\s*\/>/) &&
-    contains("app/es/page.tsx", /<FeaturesShowcase\s+locale="es"\s*\/>/) &&
-    contains("app/es/page.tsx", /<BehavioralSection\s+locale="es"\s*\/>/) &&
-    contains("app/es/page.tsx", /<TrustSection\s+locale="es"\s*\/>/) &&
-    contains("app/es/page.tsx", /<FeaturedReads\s+locale="es"\s*\/>/) &&
-    contains("app/es/page.tsx", /<CtaSection\s+locale="es"\s*\/>/),
-)
-
-check(
-  "German home reuses the English landing UI components",
-  contains("app/de/page.tsx", /from "@\/components\/savlo\/hero"/) &&
-    contains("app/de/page.tsx", /<Hero\s+locale="de"\s*\/>/) &&
-    contains("app/de/page.tsx", /<ProductOverview\s+locale="de"\s*\/>/) &&
-    contains("app/de/page.tsx", /<FeaturesShowcase\s+locale="de"\s*\/>/) &&
-    contains("app/de/page.tsx", /<BehavioralSection\s+locale="de"\s*\/>/) &&
-    contains("app/de/page.tsx", /<TrustSection\s+locale="de"\s*\/>/) &&
-    contains("app/de/page.tsx", /<FeaturedReads\s+locale="de"\s*\/>/) &&
-    contains("app/de/page.tsx", /<CtaSection\s+locale="de"\s*\/>/),
-)
-
-check(
-  "French home reuses the English landing UI components",
-  contains("app/fr/page.tsx", /from "@\/components\/savlo\/hero"/) &&
-    contains("app/fr/page.tsx", /<Hero\s+locale="fr"\s*\/>/) &&
-    contains("app/fr/page.tsx", /<ProductOverview\s+locale="fr"\s*\/>/) &&
-    contains("app/fr/page.tsx", /<FeaturesShowcase\s+locale="fr"\s*\/>/) &&
-    contains("app/fr/page.tsx", /<BehavioralSection\s+locale="fr"\s*\/>/) &&
-    contains("app/fr/page.tsx", /<TrustSection\s+locale="fr"\s*\/>/) &&
-    contains("app/fr/page.tsx", /<FeaturedReads\s+locale="fr"\s*\/>/) &&
-    contains("app/fr/page.tsx", /<CtaSection\s+locale="fr"\s*\/>/),
-)
+// The home is the storyboard (2026-11-02): every locale renders the same
+// ProductStory, then the featured guides, the FAQ and the footer CTA.
+for (const [name, locale] of [
+  ["Spanish", "es"],
+  ["Portuguese", "pt"],
+  ["German", "de"],
+  ["French", "fr"],
+]) {
+  const file = `app/${locale}/page.tsx`
+  check(
+    `${name} home reuses the English landing UI components`,
+    contains(file, /from "@\/components\/savlo\/story\/product-story"/) &&
+      contains(file, new RegExp(`<ProductStory\\s+locale="${locale}"\\s*\\/>`)) &&
+      contains(file, new RegExp(`<FeaturedReads\\s+locale="${locale}"\\s*\\/>`)) &&
+      contains(file, /<FaqSection\s*\/>/) &&
+      contains(file, new RegExp(`<SiteFooter\\s+locale="${locale}"\\s+cta\\s*\\/>`)),
+  )
+}
 
 check(
   "German home metadata includes alternates",

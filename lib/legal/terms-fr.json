@@ -1,36 +1,128 @@
 {
   "title": "Conditions d'utilisation",
   "description": "Consultez les conditions d'utilisation de Savlo et les informations légales de l'application de finances personnelles.",
-  "lastUpdated": "Dernière mise à jour le 24 mai 2026",
+  "lastUpdated": "31 août 2026",
   "tocItems": [
-    { "id": "1-nuestros-servicios", "label": "1. NOS SERVICES" },
-    { "id": "2-derechos-de-propiedad-intelectual", "label": "2. DROITS DE PROPRIÉTÉ INTELLECTUELLE" },
-    { "id": "3-representaciones-de-los-usuarios", "label": "3. DÉCLARATIONS DES UTILISATEURS" },
-    { "id": "4-registro-de-usuario", "label": "4. INSCRIPTION UTILISATEUR" },
-    { "id": "5-compras-y-pagos", "label": "5. ACHATS ET PAIEMENTS" },
-    { "id": "6-suscripciones", "label": "6. ABONNEMENTS" },
-    { "id": "7-software", "label": "7. LOGICIEL" },
-    { "id": "8-actividades-prohibidas", "label": "8. ACTIVITÉS INTERDITES" },
-    { "id": "9-contribuciones-generadas-por-el-usuario", "label": "9. CONTRIBUTIONS GÉNÉRÉES PAR L'UTILISATEUR" },
-    { "id": "10-licencia-de-contribucion", "label": "10. LICENCE DE CONTRIBUTION" },
-    { "id": "11-licencia-de-aplicacion-movil", "label": "11. LICENCE D'APPLICATION MOBILE" },
-    { "id": "12-sitios-web-y-contenido-de-terceros", "label": "12. SITES WEB ET CONTENU DE TIERS" },
-    { "id": "13-gestion-de-servicios", "label": "13. GESTION DES SERVICES" },
-    { "id": "14-politica-de-privacidad", "label": "14. POLITIQUE DE CONFIDENTIALITÉ" },
-    { "id": "15-plazo-y-terminacion", "label": "15. DURÉE ET RÉSILIATION" },
-    { "id": "16-modificaciones-e-interrupciones", "label": "16. MODIFICATIONS ET INTERRUPTIONS" },
-    { "id": "17-ley-aplicable", "label": "17. LOI APPLICABLE" },
-    { "id": "18-resolucion-de-disputas", "label": "18. RÈGLEMENT DES LITIGES" },
-    { "id": "19-correcciones", "label": "19. CORRECTIONS" },
-    { "id": "20-descargo-de-responsabilidad", "label": "20. AVIS DE NON-RESPONSABILITÉ" },
-    { "id": "21-limitaciones-de-responsabilidad", "label": "21. LIMITATIONS DE RESPONSABILITÉ" },
-    { "id": "22-indemnizacion", "label": "22. INDEMNISATION" },
-    { "id": "23-datos-del-usuario", "label": "23. DONNÉES UTILISATEUR" },
-    { "id": "24-comunicaciones-transacciones-y-firmas-electronicas", "label": "24. COMMUNICATIONS, TRANSACTIONS ET SIGNATURES ÉLECTRONIQUES" },
-    { "id": "25-usuarios-y-residentes-de-california", "label": "25. UTILISATEURS ET RÉSIDENTS DE CALIFORNIE" },
-    { "id": "26-varios", "label": "26. DISPOSITIONS DIVERSES" },
-    { "id": "27-decisiones-financieras-del-usuario", "label": "27. DÉCISIONS FINANCIÈRES DE L'UTILISATEUR" },
-    { "id": "28-contactenos", "label": "28. NOUS CONTACTER" }
+    {
+      "id": "1-nuestros-servicios",
+      "label": "1. NOS SERVICES"
+    },
+    {
+      "id": "2-derechos-de-propiedad-intelectual",
+      "label": "2. DROITS DE PROPRIÉTÉ INTELLECTUELLE"
+    },
+    {
+      "id": "3-representaciones-de-los-usuarios",
+      "label": "3. DÉCLARATIONS DES UTILISATEURS"
+    },
+    {
+      "id": "4-registro-de-usuario",
+      "label": "4. INSCRIPTION UTILISATEUR"
+    },
+    {
+      "id": "5-compras-y-pagos",
+      "label": "5. ACHATS ET PAIEMENTS"
+    },
+    {
+      "id": "6-suscripciones",
+      "label": "6. ABONNEMENTS"
+    },
+    {
+      "id": "7-software",
+      "label": "7. LOGICIEL"
+    },
+    {
+      "id": "8-actividades-prohibidas",
+      "label": "8. ACTIVITÉS INTERDITES"
+    },
+    {
+      "id": "9-contribuciones-generadas-por-el-usuario",
+      "label": "9. CONTRIBUTIONS GÉNÉRÉES PAR L'UTILISATEUR"
+    },
+    {
+      "id": "10-licencia-de-contribucion",
+      "label": "10. LICENCE DE CONTRIBUTION"
+    },
+    {
+      "id": "11-licencia-de-aplicacion-movil",
+      "label": "11. LICENCE D'APPLICATION MOBILE"
+    },
+    {
+      "id": "12-sitios-web-y-contenido-de-terceros",
+      "label": "12. SITES WEB ET CONTENU DE TIERS"
+    },
+    {
+      "id": "13-gestion-de-servicios",
+      "label": "13. GESTION DES SERVICES"
+    },
+    {
+      "id": "14-politica-de-privacidad",
+      "label": "14. POLITIQUE DE CONFIDENTIALITÉ"
+    },
+    {
+      "id": "15-plazo-y-terminacion",
+      "label": "15. DURÉE ET RÉSILIATION"
+    },
+    {
+      "id": "16-modificaciones-e-interrupciones",
+      "label": "16. MODIFICATIONS ET INTERRUPTIONS"
+    },
+    {
+      "id": "17-ley-aplicable",
+      "label": "17. LOI APPLICABLE"
+    },
+    {
+      "id": "18-resolucion-de-disputas",
+      "label": "18. RÈGLEMENT DES LITIGES"
+    },
+    {
+      "id": "19-correcciones",
+      "label": "19. CORRECTIONS"
+    },
+    {
+      "id": "20-descargo-de-responsabilidad",
+      "label": "20. AVIS DE NON-RESPONSABILITÉ"
+    },
+    {
+      "id": "21-limitaciones-de-responsabilidad",
+      "label": "21. LIMITATIONS DE RESPONSABILITÉ"
+    },
+    {
+      "id": "22-indemnizacion",
+      "label": "22. INDEMNISATION"
+    },
+    {
+      "id": "23-datos-del-usuario",
+      "label": "23. DONNÉES UTILISATEUR"
+    },
+    {
+      "id": "24-comunicaciones-transacciones-y-firmas-electronicas",
+      "label": "24. COMMUNICATIONS, TRANSACTIONS ET SIGNATURES ÉLECTRONIQUES"
+    },
+    {
+      "id": "25-usuarios-y-residentes-de-california",
+      "label": "25. UTILISATEURS ET RÉSIDENTS DE CALIFORNIE"
+    },
+    {
+      "id": "26-varios",
+      "label": "26. DISPOSITIONS DIVERSES"
+    },
+    {
+      "id": "27-decisiones-financieras-del-usuario",
+      "label": "27. DÉCISIONS FINANCIÈRES DE L'UTILISATEUR"
+    },
+    {
+      "id": "28-contactenos",
+      "label": "28. NOUS CONTACTER"
+    },
+    {
+      "id": "29-consumers-in-the-eea-uk-and-switzerland",
+      "label": "29. CONSOMMATEURS DANS L'EEE, AU ROYAUME-UNI ET EN SUISSE"
+    },
+    {
+      "id": "30-consumers-in-argentina",
+      "label": "30. CONSOMMATEURS EN ARGENTINE"
+    }
   ],
   "sections": [
     {
@@ -206,20 +298,20 @@
         {
           "type": "ul",
           "items": [
-            "Google Play Store / Apple App Store"
+            "Facturation Google Play (Android)"
           ]
         },
         {
           "type": "p",
-          "text": "Vous acceptez de fournir des informations d'achat et de compte actuelles, complètes et exactes pour tous les achats effectués via les Services. De même, vous acceptez de mettre à jour en temps voulu les informations du compte et du paiement, y compris l'adresse courriel, le mode de paiement et la date d'expiration de la carte de paiement, afin que nous puissions compléter vos transactions et vous contacter si nécessaire. La taxe de vente sera ajoutée au prix des achats selon ce que nous jugerons nécessaire. Nous pouvons modifier les prix à tout moment. Tous les paiements seront effectués en dollars américains."
+          "text": "Tous les achats sont traités par Google Play. Vos données de paiement sont gérées par Google et ne sont jamais transmises à Savlo ni conservées par Savlo. Google vous facture dans votre devise locale et applique les taxes dues dans votre pays ; le montant prélevé peut donc différer du prix affiché dans d'autres régions. Nous pouvons modifier les prix à tout moment ; un changement de prix ne s'applique jamais à une période déjà payée."
         },
         {
           "type": "p",
-          "text": "Vous acceptez de payer tous les frais aux prix en vigueur au moment de vos achats et tout frais de livraison applicable, et vous autorisez à facturer ces montants à votre fournisseur de paiement sélectionné lors de votre commande. Nous nous réservons le droit de corriger toute erreur de prix, même si nous avons déjà demandé ou reçu le paiement."
+          "text": "Savlo est un service numérique : il n'y a rien à expédier ni de frais de livraison. Vous acceptez de payer les frais en vigueur pour l'abonnement que vous choisissez, facturés via Google Play. Nous nous réservons le droit de corriger les erreurs de prix, même après qu'un paiement a été demandé ou reçu."
         },
         {
           "type": "p",
-          "text": "Nous nous réservons le droit de refuser toute commande passée via les Services. Nous pouvons, à notre seule discrétion, limiter ou annuler les quantités achetées par personne, par foyer ou par commande. Ces restrictions peuvent inclure les commandes passées par ou sous le même compte client, le même mode de paiement et/ou les commandes utilisant la même adresse de facturation ou de livraison. Nous nous réservons le droit de limiter ou d'interdire les commandes qui, à notre seule discrétion, semblent être passées par des commerçants, revendeurs ou distributeurs."
+          "text": "Nous pouvons refuser ou résilier un abonnement si nous avons des motifs raisonnables de penser qu'il sert à abuser des Services — par exemple pour contourner une limite, revendre l'accès ou attaquer la plateforme. Si nous le faisons sur un abonnement payant actif, nous vous en indiquerons la raison."
         }
       ]
     },
@@ -233,7 +325,7 @@
         },
         {
           "type": "p",
-          "text": "Votre abonnement continuera et sera renouvelé automatiquement à moins qu'il ne soit annulé. Vous acceptez que nous facturions votre mode de paiement de manière récurrente sans nécessiter votre approbation préalable pour chaque facturation récurrente, jusqu'à ce que vous annuliez la commande correspondante. La durée de votre cycle de facturation dépendra du type de plan d'abonnement que vous choisissez lors de votre inscription aux Services."
+          "text": "Votre abonnement se renouvelle automatiquement via Google Play jusqu'à ce que vous l'annuliez. Google prélève le moyen de paiement choisi au début de chaque période. La durée du cycle de facturation dépend de la formule choisie lors de la souscription."
         },
         {
           "type": "h3",
@@ -241,7 +333,7 @@
         },
         {
           "type": "p",
-          "text": "Nous offrons un essai gratuit de 7 jours pour les nouveaux utilisateurs qui s'inscrivent aux Services. La facturation du compte sera effectuée conformément à l'abonnement choisi par l'utilisateur à la fin de la période d'essai gratuit."
+          "text": "Nous pouvons proposer une période d'essai gratuite aux nouveaux utilisateurs. Le cas échéant, sa durée et ses conditions sont affichées dans l'application avant votre confirmation, et ce sont les conditions exactes affichées à ce moment-là qui s'appliquent. Si vous n'annulez pas avant la fin de l'essai, l'abonnement choisi commence à être facturé via Google Play."
         },
         {
           "type": "h3",
@@ -249,7 +341,7 @@
         },
         {
           "type": "p",
-          "text": "Vous pouvez annuler votre abonnement à tout moment en vous connectant à votre compte. L'annulation prendra effet à la fin de la période payée en cours. Si vous avez des questions ou si vous n'êtes pas satisfait de nos Services, veuillez nous envoyer un courriel à support@savloapp.com."
+          "text": "Comme votre abonnement est facturé par Google Play, vous l'annulez dans Google Play, pas dans Savlo : ouvrez l'application Play Store, appuyez sur votre photo de profil, puis sur Paiements et abonnements › Abonnements, sélectionnez Savlo et appuyez sur Résilier l'abonnement. Supprimer l'application Savlo ou votre compte Savlo N'ANNULE PAS l'abonnement. La résiliation prend effet à la fin de la période déjà payée, et vous conservez l'accès jusque-là. Les remboursements sont gérés par Google selon la politique de remboursement de Google Play. Si quelque chose ne va pas ou si vous n'êtes pas satisfait, écrivez-nous à support@savloapp.com et nous vous aiderons."
         },
         {
           "type": "h3",
@@ -592,6 +684,54 @@
         {
           "type": "address",
           "text": "Savlo\nBahía Blanca\nBahía Blanca, Buenos Aires 8000\nArgentine\nsupport@savloapp.com"
+        }
+      ]
+    },
+    {
+      "id": "29-consumers-in-the-eea-uk-and-switzerland",
+      "heading": "29. CONSOMMATEURS DANS L'EEE, AU ROYAUME-UNI ET EN SUISSE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Si vous êtes un consommateur résidant dans l'Espace économique européen, au Royaume-Uni ou en Suisse, la présente section s'applique à vous et prévaut sur toute autre disposition des présentes Conditions qui la contredirait. Rien dans les présentes Conditions ne supprime ni ne limite les droits que la loi de votre pays de résidence vous reconnaît en tant que consommateur, et toute clause ayant cet effet ne vous est pas opposable."
+        },
+        {
+          "type": "p",
+          "text": "Loi applicable et tribunaux. Les sections 17 (LOI APPLICABLE) et 18 (RÈGLEMENT DES LITIGES) ne vous privent pas de la protection des règles impératives de la loi de votre pays de résidence. Vous pouvez nous assigner devant les tribunaux du pays où vous résidez, et nous ne pourrons vous assigner que devant ces mêmes tribunaux. L'arbitrage contraignant, le siège de l'arbitrage et la renonciation aux actions collectives ou représentatives prévus à la section 18 ne vous sont pas applicables ; l'arbitrage ne vous est ouvert que si vous le choisissez après la naissance du litige."
+        },
+        {
+          "type": "p",
+          "text": "Droit de rétractation. Vous disposez de 14 jours à compter de la souscription d'un abonnement pour vous rétracter, sans avoir à motiver votre décision et sans pénalité. Pour l'exercer, écrivez à support@savloapp.com en indiquant clairement que vous vous rétractez ; nous vous le confirmerons et vous rembourserons sous 14 jours par le même moyen de paiement. Si vous nous avez demandé de commencer à fournir le service pendant ce délai et que le service a été intégralement fourni, le droit de rétractation s'éteint ; s'il a été partiellement fourni, vous devez un montant proportionnel à ce qui a été fourni jusqu'à la rétractation. Ce droit est distinct et s'ajoute à la résiliation via Google Play décrite à la section 6."
+        },
+        {
+          "type": "p",
+          "text": "Modifications des présentes conditions. Nous vous informerons avec un préavis raisonnable de toute modification des présentes Conditions qui vous concerne, par e-mail ou dans l'application, et vous pourrez résilier votre abonnement avant sa prise d'effet. La poursuite de l'utilisation ne vaut pas acceptation d'une modification qui ne vous a pas été notifiée."
+        },
+        {
+          "type": "p",
+          "text": "Responsabilité. Rien dans les sections 20 (EXCLUSION DE GARANTIE), 21 (LIMITATIONS DE RESPONSABILITÉ) ou 22 (INDEMNISATION) n'exclut ni ne limite notre responsabilité en cas de décès ou de dommage corporel causé par notre négligence, en cas de dol ou de manœuvre frauduleuse, ni pour tout ce que la loi de votre pays de résidence ne permet pas d'exclure ou de limiter. Votre garantie légale de conformité du service numérique au contrat, et les recours qui l'accompagnent, demeurent intacts."
+        },
+        {
+          "type": "p",
+          "text": "Réclamations. Vous pouvez nous écrire à support@savloapp.com. Vous pouvez également utiliser la plateforme de règlement en ligne des litiges de la Commission européenne à l'adresse ec.europa.eu/consumers/odr."
+        }
+      ]
+    },
+    {
+      "id": "30-consumers-in-argentina",
+      "heading": "30. CONSOMMATEURS EN ARGENTINE",
+      "content": [
+        {
+          "type": "p",
+          "text": "Si vous êtes consommateur en Argentine, la loi 24.240 sur la protection des consommateurs vous est applicable et prévaut sur toute disposition contraire des présentes Conditions. Vous pouvez agir devant les tribunaux de votre propre domicile, et rien ici n'emporte renonciation à ce droit."
+        },
+        {
+          "type": "p",
+          "text": "Droit de rétractation (botón de arrepentimiento). Vous disposez de 10 jours calendaires à compter de la souscription pour vous rétracter, sans frais et sans motif. Notre BOTÓN DE ARREPENTIMIENTO est publié sur la page d'accueil de savloapp.com et ne nécessite aucune inscription préalable."
+        },
+        {
+          "type": "p",
+          "text": "Résiliation (botón de baja). Vous pouvez résilier votre abonnement à tout moment. Notre BOTÓN DE BAJA est publié sur la page d'accueil de savloapp.com ; nous délivrons l'attestation de résiliation dans les 24 heures suivant votre demande. Vous pouvez également résilier directement dans Google Play, comme décrit à la section 6, et supprimer votre compte depuis les Réglages de l'application ou sur savloapp.com/delete-account."
         }
       ]
     }

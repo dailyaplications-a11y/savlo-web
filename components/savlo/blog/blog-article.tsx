@@ -7,7 +7,7 @@ import {
   getRelatedPosts,
   type BlogPost,
 } from "@/lib/blog/posts"
-import { RichArticleContent, type RichArticle } from "@/lib/blog/rich-article"
+import { RichArticleContent, type RichBody } from "@/lib/blog/rich-article"
 import { getGermanPostBySlug } from "@/lib/blog/german-posts"
 import { getFrenchPostBySlug } from "@/lib/blog/french-posts"
 import { getPortuguesePostBySlug } from "@/lib/blog/portuguese-posts"
@@ -24,7 +24,7 @@ type ArticlePost = Omit<BlogPost, "content" | "stats"> & {
     heading: string
     body: string[]
   }[]
-  rich?: RichArticle
+  rich?: RichBody
 }
 
 const labels = {
@@ -34,7 +34,7 @@ const labels = {
     updated: "Updated",
     minRead: "min read",
     authorHref: siteConfig.author.url,
-    authorTagline: "Behavioral finance, written calmly",
+    authorTagline: "Budgeting and personal finance guides",
     share: "Share",
     shareX: "Share on X",
     shareLinkedIn: "Share on LinkedIn",
@@ -54,7 +54,7 @@ const labels = {
     updated: "Actualizado",
     minRead: "min de lectura",
     authorHref: "/es/author/savlo-team",
-    authorTagline: "Finanzas conductuales, escritas con calma",
+    authorTagline: "Guías de presupuesto y finanzas personales",
     share: "Compartir",
     shareX: "Compartir en X",
     shareLinkedIn: "Compartir en LinkedIn",
@@ -74,7 +74,7 @@ const labels = {
     updated: "Atualizado",
     minRead: "min de leitura",
     authorHref: "/pt/author/savlo-team",
-    authorTagline: "Finanças comportamentais, escritas com calma",
+    authorTagline: "Guias de orçamento e finanças pessoais",
     share: "Compartilhar",
     shareX: "Compartilhar no X",
     shareLinkedIn: "Compartilhar no LinkedIn",
@@ -94,7 +94,7 @@ const labels = {
     updated: "Aktualisiert",
     minRead: "min. Lesezeit",
     authorHref: "/de/author/savlo-team",
-    authorTagline: "Verhaltensfinanzen, ruhig geschrieben",
+    authorTagline: "Leitfäden zu Budget und persönlichen Finanzen",
     share: "Teilen",
     shareX: "Auf X teilen",
     shareLinkedIn: "Auf LinkedIn teilen",
@@ -114,7 +114,7 @@ const labels = {
     updated: "Mis à jour",
     minRead: "min de lecture",
     authorHref: "/fr/author/savlo-team",
-    authorTagline: "Finance comportementale, écrite avec calme",
+    authorTagline: "Guides de budget et de finances personnelles",
     share: "Partager",
     shareX: "Partager sur X",
     shareLinkedIn: "Partager sur LinkedIn",

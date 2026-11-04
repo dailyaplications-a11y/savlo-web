@@ -4,7 +4,7 @@ import {
   isValidElement,
   type ReactNode,
 } from "react"
-
+import type { RichBody } from "@/lib/blog/rich-article"
 
 /**
  * Savlo blog — data + content for every post.
@@ -52,6 +52,16 @@ export type BlogPost = {
     paragraphs: number
   }
   content: () => ReactNode
+  /** Localized posts (es, pt) may bring their own short summary, plain sections or rich blocks. */
+  summary?: string[]
+  sections?: { heading: string; body: string[] }[]
+  rich?: RichBody
+}
+
+/** A translated post: it brings its own text, and may lack the English JSX body and stats. */
+export type LocalizedBlogPost = Omit<BlogPost, "content" | "stats"> & {
+  content?: BlogPost["content"]
+  stats?: BlogPost["stats"]
 }
 
 // ---------- Reusable typography helpers ----------
@@ -59,10 +69,10 @@ export type BlogPost = {
 const publicCopyReplacements: Array<[RegExp, string]> = [
   [
     /If Mint(?:'|&apos;)s shutdown left you hesitant to hand over your bank credentials to another app, Savlo was built with exactly that concern in mind\./g,
-    "If Mint's shutdown left you hesitant to jump into another money app, Savlo positions itself as a calmer alternative.",
+    "If Mint's shutdown left you hesitant to jump into another money app, Savlo positions itself as a faster alternative.",
   ],
   [
-    /No bank sync, no ads, no third-party access to your data[\s\S]*?own bank(?:'|&apos;)s CSV\./g,
+    /No bank sync, no ads, and your data is never sold[\s\S]*?own bank(?:'|&apos;)s CSV\./g,
     "The public site highlights voice check-ins, spreadsheet imports, and a lower-pressure budgeting experience.",
   ],
   [
@@ -87,7 +97,7 @@ const publicCopyReplacements: Array<[RegExp, string]> = [
   ],
   [
     /On-device processing means your audio never leaves your phone\./g,
-    "The public site emphasizes faster check-ins, calmer review habits, and less friction than manual expense entry.",
+    "The public site emphasizes faster check-ins, quick daily reviews, and less friction than manual expense entry.",
   ],
   [
     /No bank linking, no ads, no third-party access\./g,
@@ -132,7 +142,13 @@ function sanitizePublicNode(node: ReactNode): ReactNode {
       return node
     }
 
-    return cloneElement(node, undefined, sanitizePublicNode(node.props.children))
+    // Spread the children back as separate arguments: passing them as one
+    // array turns the element's static JSX children into a list that React
+    // asks keys for ("Each child in a list should have a unique key").
+    const children = sanitizePublicNode(node.props.children)
+    return Array.isArray(children)
+      ? cloneElement(node, undefined, ...children)
+      : cloneElement(node, undefined, children)
   }
 
   return node
@@ -231,10 +247,9 @@ function ContentPresupuestoMensual() {
     <>
       <P>
         Hacer un presupuesto mensual no es un castigo. Es, en el fondo, una
-        conversación tranquila con tu yo del mes pasado y con tu yo del mes que
+        conversación honesta con tu yo del mes pasado y con tu yo del mes que
         viene. Esta guía te acompaña paso a paso, sin hojas de cálculo
-        hostiles, sin rachas, sin números rojos que gritan. Solo decisiones
-        calmadas.
+        hostiles, sin rachas, sin números rojos que gritan. Solo decisiones intencionales.
       </P>
       <P>
         Si alguna vez abriste tu app del banco a las 23:47 sintiendo un nudo
@@ -381,7 +396,7 @@ function ContentPresupuestoMensual() {
       <P>
         En una cuenta separada, idealmente en otro banco, con un nombre
         emocional: <em>&ldquo;colchón&rdquo;</em>,{" "}
-        <em>&ldquo;tranquilidad&rdquo;</em>, <em>&ldquo;paz mental&rdquo;</em>.
+        <em>&ldquo;respaldo&rdquo;</em>, <em>&ldquo;paz mental&rdquo;</em>.
         No <em>&ldquo;ahorro 3&rdquo;</em>. El cerebro obedece a las
         etiquetas emocionales.
       </P>
@@ -440,7 +455,7 @@ function ContentPresupuestoMensual() {
       </OL>
 
       <Callout>
-        En Savlo llamamos a este ritual el <em>domingo tranquilo</em>. Diez
+        En Savlo llamamos a este ritual el <em>repaso del domingo</em>. Diez
         minutos, una bebida caliente, sin alarmas rojas. Solo cuidado.
       </Callout>
 
@@ -517,8 +532,7 @@ function ContentPresupuestoMensual() {
         Baja la fricción en categorización y reportes. La mejor es la que
         realmente vas a abrir. Nuestra{" "}
         <A href="/blog/ynab-vs-monarch-vs-savlo">comparativa detallada</A>{" "}
-        puede ayudarte a decidir si vienes de YNAB, Monarch o buscas algo
-        más calmo.
+        puede ayudarte a decidir si vienes de YNAB, Monarch o buscas algo más simple.
       </P>
 
       <H2 id="plantilla">Plantilla inicial: 10 categorías que bastan</H2>
@@ -569,11 +583,10 @@ function ContentPresupuestoMensual() {
         contigo del dinero.
       </P>
 
-      <H2 id="cierre">Cierre: la calma también es un rendimiento</H2>
+      <H2 id="cierre">Cierre: la claridad también es un rendimiento</H2>
       <P>
         Un presupuesto no te hace rico. Te hace dueño. Dueño de tus
-        decisiones, de tu tiempo, de tu atención. Con el tiempo, esa
-        tranquilidad compone intereses propios: dormir mejor, discutir
+        decisiones, de tu tiempo, de tu atención. Con el tiempo, esa claridad compone intereses propios: dormir mejor, discutir
         menos, elegir con más libertad.
       </P>
       <P>
@@ -609,8 +622,7 @@ function ContentHowToMakeABudget() {
   return (
     <>
       <P>
-        Making a monthly budget is not a punishment. At its heart, it is a calm,
-        honest conversation with your past self and your future self. This guide
+        Making a monthly budget is not a punishment. At its heart, it is an honest conversation with your past self and your future self. This guide
         accompanies you step-by-step, without hostile spreadsheets, streaks, or
         guilt-inducing red numbers. Just intentional decisions.
       </P>
@@ -995,7 +1007,7 @@ function ContentHowToMakeABudget() {
         Zero-based budgeting works best for people who like detail, who want
         tight control over their finances, who are working to escape debt
         quickly, or who enjoy the process of building and maintaining a
-        financial plan. If spreadsheets make you feel calm rather than anxious,
+        financial plan. If spreadsheets make you feel in control rather than anxious,
         this might be your method.
       </P>
       <P>
@@ -1374,12 +1386,11 @@ function ContentHowToMakeABudget() {
         apps. Instead of connecting to your bank (which involves sharing your
         credentials with a third-party data aggregator), it lets you log
         expenses with voice input or import them from a CSV file you download
-        yourself. Your data stays on your device. No bank linking, no ads, no
-        third-party access to your financial life.
+        yourself. No bank linking, no ads, and your financial data is never sold.
       </P>
       <P>
-        Savlo is available on Android and coming soon to iOS. It is designed
-        for people who want a calmer, more private budgeting experience —
+        Savlo is built for Android, with iOS on the way. It is designed
+        for people who want a faster, more private budgeting experience —
         particularly those who have avoided budgeting apps in the past because
         of privacy concerns or the anxiety that noisy dashboards create.
       </P>
@@ -1507,8 +1518,8 @@ function ContentHowToMakeABudget() {
       <Divider />
 
       <Callout>
-        <strong>Savlo</strong> is available on Android and coming soon to iOS.
-        It is built for people who want a calmer, more private way to
+        <strong>Savlo</strong> is built for Android, with iOS on the way.
+        It is built for people who want a faster, more private way to
         understand where their money goes — without bank linking, without ads,
         and without judgment. If this guide helped you, the app is the next
         step.
@@ -2152,18 +2163,17 @@ function Content503020Rule() {
         Savlo is designed around the same principles that make the 50/30/20 rule work:
         simplicity, low cognitive load, and compassion. Instead of demanding you categorize
         every transaction into forty sub-categories, Savlo helps you track spending in
-        broad, manageable buckets. Instead of shaming you when you overspend, it provides
-        calm context about where you are relative to your goals.
+        broad, manageable buckets. Instead of shaming you when you overspend, it provides clear context about where you are relative to your goals.
       </P>
       <P>
         Savlo supports the 50/30/20 approach by making it easy to see, at a glance,
         whether your three buckets are in balance. You can log expenses quickly, review
         your spending patterns without judgment, and adjust your allocations as life
-        changes — all in a calm, ad-free environment designed to reduce financial anxiety
+        changes — all in a clean, ad-free environment designed to reduce financial anxiety
         rather than increase it.
       </P>
       <P>
-        Savlo is available on Android and coming soon to iOS.
+        Savlo is built for Android, with iOS on the way.
       </P>
 
       <H2 id="getting-started">Getting started today</H2>
@@ -2273,7 +2283,7 @@ function ContentMintAlternatives() {
       </P>
 
       <P>
-        If you are still looking for a replacement, you are not alone. Millions of former Mint users have spent the past year testing alternatives, switching apps, and rethinking how they want to manage their money. The good news is that the budgeting app market has matured significantly since Mint shut its doors. Today there are genuinely excellent options for almost every type of user — whether you want automatic bank sync and investment tracking, a structured system for changing your financial habits, or a more private and calm approach that does not require handing over your bank credentials.
+        If you are still looking for a replacement, you are not alone. Millions of former Mint users have spent the past year testing alternatives, switching apps, and rethinking how they want to manage their money. The good news is that the budgeting app market has matured significantly since Mint shut its doors. Today there are genuinely excellent options for almost every type of user — whether you want automatic bank sync and investment tracking, a structured system for changing your financial habits, or a more private and simple approach that does not require handing over your bank credentials.
       </P>
 
       <P>
@@ -2328,7 +2338,7 @@ function ContentMintAlternatives() {
 
       <H3 id="savlo">Savlo — the best option if you want privacy and do not want to link your bank</H3>
       <P>
-        Savlo takes a fundamentally different approach to expense tracking. Instead of connecting to your bank, it allows you to log expenses by voice (&ldquo;$42 at the grocery store&rdquo;) or import a CSV directly from your bank. All data stays on your device — no third-party access, no aggregators, no ads. Ever.
+        Savlo takes a fundamentally different approach to expense tracking. Instead of connecting to your bank, it allows you to log expenses by voice (&ldquo;$42 at the grocery store&rdquo;) or import a CSV directly from your bank. No bank aggregators, no ads, and your data is never sold.
       </P>
       <P>
         This approach matters for a reason that goes beyond privacy ideology. When you log an expense yourself — whether by voice or by importing a file — you are making a conscious decision to engage with your spending. You are not passively watching a dashboard update itself. You are participating in the process of tracking your money, which research consistently shows leads to better financial awareness and more intentional spending decisions.
@@ -2337,7 +2347,7 @@ function ContentMintAlternatives() {
         Savlo also includes independent Accounts to organize your money, Funds (<A href="/blog/sinking-funds">sinking funds</A> with custom names for planned expenses), and Streak system that encourages consistency. The app is designed to help you quickly log transactions and keep daily control in minutes.
       </P>
       <P>
-        The app is available on Android and coming soon to iOS. It is the right choice for active daily control and management of your finances in minutes. For more on this approach, see our guide to <A href="/blog/how-to-budget-money">how to budget money</A> without the overwhelm.
+        The app is built for Android, with iOS on the way. It is the right choice for active daily control and management of your finances in minutes. For more on this approach, see our guide to <A href="/blog/how-to-budget-money">how to budget money</A> without the overwhelm.
       </P>
 
       <H3 id="monarch-money">Monarch Money — the best option for automatic sync and net worth tracking</H3>
@@ -2419,8 +2429,8 @@ function ContentMintAlternatives() {
             <td style={{padding: '8px 12px'}}><strong>Savlo</strong></td>
             <td style={{padding: '8px 12px'}}>Free trial + subscription</td>
             <td style={{padding: '8px 12px'}}>No (CSV / voice)</td>
-            <td style={{padding: '8px 12px'}}>Local, no third parties</td>
-            <td style={{padding: '8px 12px'}}>Privacy and calm</td>
+            <td style={{padding: '8px 12px'}}>No bank aggregator; data never sold</td>
+            <td style={{padding: '8px 12px'}}>Privacy and speed</td>
           </tr>
           <tr style={{borderBottom: '1px solid #f3f4f6'}}>
             <td style={{padding: '8px 12px'}}>Monarch Money</td>
@@ -2555,7 +2565,7 @@ function ContentMintAlternatives() {
         Based on those answers, here is the short version:
       </P>
       <UL>
-        <li><strong>Choose Savlo</strong> if privacy matters to you, if linking your bank makes you uncomfortable, or if you want a polished, clear, stress-free, and guilt-free interface to stay aware of your daily spending. The app emphasizes CSV imports, voice logging, and a calmer daily budgeting rhythm. Available on Android and coming soon to iOS.</li>
+        <li><strong>Choose Savlo</strong> if privacy matters to you, if linking your bank makes you uncomfortable, or if you want a polished, clear, stress-free, and guilt-free interface to stay aware of your daily spending. The app emphasizes CSV imports, voice logging, and a quick daily budgeting rhythm. Built for Android, with iOS on the way.</li>
         <li><strong>Choose Monarch Money</strong> if you want a true Mint replacement with automatic sync, visual reporting, and couples budgeting all in one place. It is the most complete all-in-one option for people who want everything Mint offered and more.</li>
         <li><strong>Choose YNAB</strong> if you are determined to change your financial behavior and willing to invest time in learning a new system. The learning curve is real, but so are the results.</li>
         <li><strong>Choose Empower</strong> if you want free portfolio and net worth tracking and do not mind receiving occasional wealth management pitches. Best for people who prioritize investment visibility over budgeting depth.</li>
@@ -2591,12 +2601,12 @@ function ContentMintAlternatives() {
 
       <H3 id="faq-what-is-safest">What is the safest budgeting app for my data?</H3>
       <P>
-        The safest option is an app that keeps your data on your device and never sends it to a server. Savlo is the strongest option here — it uses voice logging and CSV import, with no bank sync and no third-party data sharing. If you prefer bank sync, apps like Monarch and YNAB do not sell your data, but they do use third-party aggregators to access your transactions.
+        The safest option is an app that never asks for your bank credentials and never sells your data. Savlo is built that way — it uses voice logging and CSV import, with no bank sync, no bank aggregators and no ads. If you prefer bank sync, apps like Monarch and YNAB do not sell your data, but they do use third-party aggregators to access your transactions.
       </P>
 
       <H3 id="faq-do-i-need-to-pay">Do I need to pay for a budgeting app?</H3>
       <P>
-        No. Several apps offer free tiers — PocketGuard, Empower, EveryDollar, and Savlo all have free options. However, free tiers typically have limitations such as restricted categories, fewer reports, or no bank sync. If you want the full feature set of any serious budgeting app, expect to pay $10 to $15 a month. As discussed above, the return on that investment — in terms of reduced impulse spending and better financial awareness — usually far exceeds the cost.
+        No. Several apps offer free tiers — PocketGuard, Empower and EveryDollar have free options, and Savlo has a 14-day free trial. However, free tiers typically have limitations such as restricted categories, fewer reports, or no bank sync. If you want the full feature set of any serious budgeting app, expect to pay $10 to $15 a month. As discussed above, the return on that investment — in terms of reduced impulse spending and better financial awareness — usually far exceeds the cost.
       </P>
 
       <H3 id="faq-can-i-use-multiple">Can I use more than one budgeting app?</H3>
@@ -2617,7 +2627,7 @@ function ContentMintAlternatives() {
       <Divider />
 
       <Callout>
-        If Mint&apos;s shutdown left you hesitant to hand over your bank credentials to another app, Savlo was built with exactly that concern in mind. No bank sync, no ads, no third-party access to your data — just a private, calm view of where your money goes, logged by voice or imported from your own bank&apos;s CSV. Available on Android and coming soon to iOS, with a free trial so you can see if the approach fits your life before committing.
+        If Mint&apos;s shutdown left you hesitant to hand over your bank credentials to another app, Savlo was built with exactly that concern in mind. No bank sync, no ads, and your data is never sold — just a private, clear view of where your money goes, logged by voice or imported from your own bank&apos;s CSV. Built for Android, with iOS on the way, and a 14-day free trial so you can see if the approach fits your life before committing.
       </Callout>
     </>
   )
@@ -2784,7 +2794,7 @@ function ContentEmergencyFundVsSinkingFund() {
 
       <P>Jordan&apos;s therapist suggests creating a fund — not with a goal, not with a target, not with any pressure at all. Just a fund. They call it &ldquo;I&apos;m Okay Fund&rdquo; and commit to putting in $25 every week. That&apos;s it. No goal. No deadline. No expectations. Just the act of saving, over and over, as a form of exposure therapy.</P>
 
-      <P>The first few weeks feel pointless. $25 seems like nothing. But after two months, the fund has $200. After six months, it&apos;s over $600. Jordan starts to notice something shifting. The anxiety around money doesn&apos;t disappear, but it dulls. There&apos;s a buffer now — small, but real. The act of saving regularly, without pressure, rewires the association between saving and deprivation. Saving becomes a calm, routine action instead of a source of dread.</P>
+      <P>The first few weeks feel pointless. $25 seems like nothing. But after two months, the fund has $200. After six months, it&apos;s over $600. Jordan starts to notice something shifting. The anxiety around money doesn&apos;t disappear, but it dulls. There&apos;s a buffer now — small, but real. The act of saving regularly, without pressure, rewires the association between saving and deprivation. Saving becomes a simple, routine action instead of a source of dread.</P>
 
       <P>The &ldquo;I&apos;m Okay Fund&rdquo; doesn&apos;t solve Jordan&apos;s money dysmorphia. But it builds a foundation of evidence that contradicts the anxious narrative. The fund exists. It&apos;s growing. Jordan is okay. Sometimes the most powerful thing a fund can do isn&apos;t the money itself — it&apos;s the proof that you&apos;re capable of building something.</P>
 
@@ -2990,7 +3000,7 @@ function ContentWhyTraditionalBudgetsFail() {
       </P>
 
       <P>
-        This is why you can stick to a budget perfectly on a calm Saturday morning but blow through your spending limits on a hectic Wednesday evening. The budget did not change. Your cognitive resources did.
+        This is why you can stick to a budget perfectly on a slow Saturday morning but blow through your spending limits on a hectic Wednesday evening. The budget did not change. Your cognitive resources did.
       </P>
 
       <P>
@@ -3103,7 +3113,7 @@ function ContentWhyTraditionalBudgetsFail() {
       <H3 id="present-bias">Present Bias and the Planning Fallacy</H3>
 
       <P>
-        When you create a budget at the beginning of the month, you are in &ldquo;planner mode.&rdquo; You imagine a calm, disciplined version of yourself who will make thoughtful choices all month. But by the time you are standing in a store with something you want, you are in &ldquo;doer mode&rdquo; — a version of yourself who cares about the present moment, not the plan you made days ago. Budgets are created by planners and executed by doers. These are fundamentally different mental states, and traditional budgets do not account for the gap between them.
+        When you create a budget at the beginning of the month, you are in &ldquo;planner mode.&rdquo; You imagine a focused, disciplined version of yourself who will make thoughtful choices all month. But by the time you are standing in a store with something you want, you are in &ldquo;doer mode&rdquo; — a version of yourself who cares about the present moment, not the plan you made days ago. Budgets are created by planners and executed by doers. These are fundamentally different mental states, and traditional budgets do not account for the gap between them.
       </P>
 
       <H3 id="social-proof">Social Proof and Comparison</H3>
@@ -3128,7 +3138,7 @@ function ContentWhyTraditionalBudgetsFail() {
         Here are five principles that follow directly from what behavioral economics tells us about how humans actually behave with money:
       </P>
 
-      <H3 id="principle-calm-defaults">1. Calm Defaults</H3>
+      <H3 id="principle-simple-defaults">1. Simple Defaults</H3>
 
       <P>
         The most powerful intervention in behavioral design is the default. When something happens automatically, you never have to decide to do it. You never face the hyperbolic discounting trade-off. You never deplete your willpower reserves. It just happens.
@@ -3163,7 +3173,7 @@ function ContentWhyTraditionalBudgetsFail() {
       <H3 id="principle-compassionate-feedback">3. Compassionate Feedback</H3>
 
       <P>
-        Imagine two versions of the same feedback. Version one: a red alert that says &ldquo;You overspent by $47 in Food this month!&rdquo; Version two: a calm note that says &ldquo;Your food spending was a bit higher than usual this month. That is normal for months with holidays or social events. Here is how it compares to the last three months.&rdquo;
+        Imagine two versions of the same feedback. Version one: a red alert that says &ldquo;You overspent by $47 in Food this month!&rdquo; Version two: a neutral note that says &ldquo;Your food spending was a bit higher than usual this month. That is normal for months with holidays or social events. Here is how it compares to the last three months.&rdquo;
       </P>
 
       <P>
@@ -3217,7 +3227,7 @@ function ContentWhyTraditionalBudgetsFail() {
       </P>
 
       <P>
-        Start with daily calming habits to lower your emotional load before you even touch the numbers. This might mean a few minutes of deep breathing in the morning, a short walk before you check your accounts, or journaling about how you feel about money without judgment. These are not distractions from financial management. They are prerequisites for it.
+        Start with small daily habits that lower your emotional load before you even touch the numbers. This might mean a few minutes of deep breathing in the morning, a short walk before you check your accounts, or journaling about how you feel about money without judgment. These are not distractions from financial management. They are prerequisites for it.
       </P>
 
       <P>
@@ -3409,7 +3419,7 @@ function ContentWhyTraditionalBudgetsFail() {
       </P>
 
       <P>
-        Savlo is available on Android and coming soon to iOS. It is designed around the principles we have explored in this article: calm defaults, fewer categories, compassionate feedback, rhythm-based reviews, and celebration of progress. If you are ready to try budgeting again — but differently this time — we are here for that.
+        Savlo is built for Android, with iOS on the way. It is designed around the principles we have explored in this article: simple defaults, fewer categories, compassionate feedback, rhythm-based reviews, and celebration of progress. If you are ready to try budgeting again — but differently this time — we are here for that.
       </P>
 
       <P>
@@ -3451,7 +3461,7 @@ function ContentWhyTraditionalBudgetsFail() {
       <H3 id="faq-savlo-different">How is Savlo different from other budgeting apps?</H3>
 
       <P>
-        Savlo is built around the principle that budgeting tools should work with human cognition, not against it. It uses calm defaults that reduce decision-making, broad categories that minimize cognitive load, and compassionate feedback that avoids triggering shame or anxiety. Instead of demanding constant micro-monitoring, it encourages rhythm-based reviews that fit naturally into your life. And rather than only pointing out where you fell short, it celebrates your progress. Savlo is available on Android and coming soon to iOS.
+        Savlo is built around the principle that budgeting tools should work with human cognition, not against it. It uses simple defaults that reduce decision-making, broad categories that minimize cognitive load, and compassionate feedback that avoids triggering shame or anxiety. Instead of demanding constant micro-monitoring, it encourages rhythm-based reviews that fit naturally into your life. And rather than only pointing out where you fell short, it celebrates your progress. Savlo is built for Android, with iOS on the way.
       </P>
 
       <H3 id="faq-realistic-expectations">What is a realistic expectation for how long it takes to build financial habits?</H3>
@@ -3549,10 +3559,7 @@ function ContentVoiceTracking() {
       </P>
       <P>
         In{" "}
-        <A href="/#product">Savlo</A>, both English and Spanish are supported for voice input.
-        The app processes audio on-device, which means the speech recognition happens locally,
-        the transaction is logged locally, and nothing is transmitted externally. The audio is
-        converted to text and immediately discarded — no recordings are stored.
+        <A href="/#product">Savlo</A>, voice input works in English, Spanish, Portuguese, German and French. The audio is sent securely to Savlo&apos;s servers to be transcribed, and by default the recording is deleted as soon as the text is ready. You can choose to keep recordings for 30 days instead.
       </P>
       <P>
         What makes this different from older voice-assistant approaches is the natural language
@@ -4144,9 +4151,8 @@ function ContentVoiceTracking() {
 
       <Callout>
         Savlo&apos;s voice logging is built for the moment the expense happens — not the moment
-        you get around to recording it. On-device processing keeps your audio private. No bank
-        linking, no ads, no third-party access. Just a fast, private way to know exactly where
-        your money goes. Available on Android and coming soon to iOS.
+        you get around to recording it. Recordings are deleted after transcription by default. No bank linking, no ads, and your data is never sold. Just a fast, private way to know exactly where
+        your money goes. Built for Android, with iOS on the way.
       </Callout>
     </>
   )
@@ -4243,8 +4249,7 @@ function ContentFinancialAnxiety() {
         your brain interprets the headache as evidence that something is wrong,
         which increases the anxiety, which increases the headache. The loop is
         self-reinforcing, and the only way to break it is to address the anxiety
-        at its source: the thought, not the symptom. The body calms down when
-        the mind calms down, and the mind calms down when the uncertainty
+        at its source: the thought, not the symptom. The body settles when the mind settles, and the mind settles when the uncertainty
         decreases. The habits in this guide are designed to decrease the
         uncertainty, which is the upstream fix for the physical symptoms.
       </P>
@@ -4505,8 +4510,7 @@ function ContentFinancialAnxiety() {
         The practical version of this is called co-regulation. You sit in
         the same room while the person opens their banking app. You don't
         look at the screen. You don't comment on the number. You just
-        exist in the space while they do the thing that scares them. Your
-        calm presence lowers their stress response, which makes the looking
+        exist in the space while they do the thing that scares them. Your steady presence lowers their stress response, which makes the looking
         possible, which makes the next looking easier. The co-regulation is
         not a fix. It is a bridge that makes the fix possible.
       </P>
@@ -4628,7 +4632,7 @@ function ContentFinancialAnxiety() {
         with notifications, showing you charts that feel like judgment, and
         making you feel like you are failing. A well-designed app does the
         opposite: it reduces the number of decisions you have to make, it
-        presents information calmly, and it helps you build a routine that
+        presents information plainly, and it helps you build a routine that
         makes looking at your money feel normal. The right app does not
         replace professional help for severe anxiety, but it can be part
         of a plan that reduces the day-to-day load.
@@ -4650,16 +4654,14 @@ function ContentFinancialAnxiety() {
         set a time limit, and focus on how you feel rather than what the other
         person should do. The goal of the conversation is not to solve the
         problem together. The goal is to be known. Once the feeling is shared,
-        the shame loses its power, and the problem-solving becomes possible
-        from a calmer place.
+        the shame loses its power, and the problem-solving becomes possible from a steadier place.
       </P>
       <P>
         <strong>What if my financial anxiety is justified because my finances
         are actually bad?</strong> Even justified anxiety is still anxiety, and
         anxiety does not help you solve financial problems. It makes you avoid
         them. The fact that your finances are difficult makes it more important,
-        not less, to engage with them calmly. The calm is not denial. The calm
-        is the condition under which good decisions are possible. A calm person
+        not less, to engage with them steadily. Steadiness is not denial. It is the condition under which good decisions are possible. A steady person
         with bad finances makes better decisions than an anxious person with bad
         finances, every time.
       </P>
@@ -4675,7 +4677,7 @@ function ContentFinancialAnxiety() {
         is worth exploring in your relationship with money.
       </P>
 
-      <H2 id="conclusion">A calmer relationship with money starts with looking</H2>
+      <H2 id="conclusion">A better relationship with money starts with looking</H2>
       <P>
         Financial anxiety is not a character flaw. It is a stress response to
         uncertainty, and uncertainty decreases when you look. The looking does
@@ -4699,9 +4701,8 @@ function ContentFinancialAnxiety() {
       </P>
       <P>
         If you want a tool that makes the looking easier, Savlo is designed
-        for exactly this: a calm, private, ad-free way to see your money
-        without the overwhelm. It is available on Android and coming soon to
-        iOS. If you want to keep going, the related articles below go deeper
+        for exactly this: a fast, private, ad-free way to see your money
+        without the overwhelm. It is built for Android, with iOS on the way. If you want to keep going, the related articles below go deeper
         into the specific mechanics: the broader{" "}
         <A href="/blog/how-to-budget-money">budgeting philosophy</A>, the
         practical <A href="/blog/sinking-funds">Sinking Fund mechanics</A>,
@@ -4719,7 +4720,7 @@ function ContentSinkingFunds() {
       <P>
         A sinking fund is a savings pot dedicated to an expected, large future expense:
         a holiday, annual car registration, holiday gifts, or home maintenance. It is not an
-        emergency fund; it is calm, deliberate planning.
+        emergency fund; it is deliberate planning.
       </P>
 
       <P>
@@ -5399,7 +5400,7 @@ function ContentSinkingFunds() {
       <P>
         The financial peace that comes from sinking funds is hard to overstate. When
         you know your insurance is covered, your holidays are funded, and your car
-        maintenance is handled, your entire financial life feels calmer. The monthly
+        maintenance is handled, your entire financial life feels more under control. The monthly
         budget is less stressful. The credit card stays in your wallet. The surprise
         expenses stop surprising you.
       </P>
@@ -5415,7 +5416,7 @@ function ContentSinkingFunds() {
         <A href="/blog/50-30-20-rule">50/30/20 rule</A>,{" "}
         <A href="/blog/zero-based-budgeting">zero-based budgeting</A>, and our guide to{" "}
         <A href="/blog/emergency-fund-vs-sinking-fund">emergency funds vs. sinking
-        funds</A>. Savlo is available on Android and coming soon to iOS.
+        funds</A>. Savlo is built for Android, with iOS on the way.
       </P>
     </>
   )
@@ -5484,8 +5485,7 @@ function ContentZeroBasedBudgeting() {
         <li>
           <strong>Age your money.</strong> The longer your money sits in the account before
           you spend it, the more breathing room you have. Over time, zero-based budgeting
-          pushes the gap between earning and spending wider, which is what creates real
-          financial calm. The goal is not to hoard. The goal is to spend money that is at
+          pushes the gap between earning and spending wider, which is what creates real financial stability. The goal is not to hoard. The goal is to spend money that is at
           least a month old, not money that just arrived.
         </li>
       </OL>
@@ -5803,8 +5803,7 @@ function ContentZeroBasedBudgeting() {
         overspend felt like a failure. By the sixth month, an overspend feels like a
         question: which category has surplus this month, and can I move money from there?
         The data has stopped being a verdict and started being a tool. The plan keeps
-        landing at zero. The month keeps continuing. The calm that the system was
-        supposed to produce is starting to actually feel like calm.
+        landing at zero. The month keeps continuing. The control that the system was supposed to produce is starting to actually feel like control.
       </P>
       <P>
         The shift around month six is also when most people start to wonder what
@@ -5977,21 +5976,19 @@ function ContentZeroBasedBudgeting() {
         still be using next month.
       </P>
 
-      <H2 id="conclusion">A calm, complete plan you can come back to</H2>
+      <H2 id="conclusion">A complete plan you can come back to</H2>
       <P>
         Zero-based budgeting is a way to give every dollar a job, embrace the true
         expenses that show up a few times a year, roll with the punches when a category
         goes over, and age your money so the gap between earning and spending widens. The
         method is not for everyone. It rewards people who like structure and consistency,
-        and it is harder to sustain when income is highly irregular. For most people, it
-        becomes the calmest budget they have ever kept, and the easiest one to come back
+        and it is harder to sustain when income is highly irregular. For most people, it becomes the clearest budget they have ever kept, and the easiest one to come back
         to after a bad month.
       </P>
       <P>
         If you want to try the method without committing to a new app, run it on a
         spreadsheet for a month. If you want a tool that respects your privacy, asks for
-        no bank credentials, and works on the same four rules, Savlo is available on
-        Android and coming soon to iOS. It is built around the same principles: assign
+        no bank credentials, and works on the same four rules, Savlo is built for Android, with iOS on the way. It is built around the same principles: assign
         every dollar, embrace the true expenses, roll with the punches, and age your
         money. The rest of this blog goes deeper on the related ideas, from the broader
         <A href="/blog/how-to-budget-money">budgeting philosophy</A> to the practical
@@ -6066,8 +6063,7 @@ function ContentHowToGetOutOfDebt() {
         Understanding this reframes the entire conversation. Debt is not a
         moral failing. It is not proof that you are bad with money. It is a
         financial situation that produces a neurological stress response, and
-        the most effective solutions work with your brain, not against it. A
-        calm, realistic plan that you can follow consistently will always
+        the most effective solutions work with your brain, not against it. A realistic plan that you can follow consistently will always
         outperform a perfect plan that you abandon after three weeks.
       </P>
 
@@ -6078,7 +6074,7 @@ function ContentHowToGetOutOfDebt() {
         The first step toward getting out of debt is knowing exactly what you
         owe. This sounds obvious, but most people in debt have a模糊 sense
         of their total obligations without a clear, written picture. Vagueness
-        breeds anxiety. Specificity breeds calm. You need to move from &ldquo;I
+        breeds anxiety. Specificity breeds control. You need to move from &ldquo;I
         owe a lot&rdquo; to &ldquo;I owe $23,400 across four accounts at these
         interest rates.&rdquo;
       </P>
@@ -6526,8 +6522,7 @@ function ContentHowToGetOutOfDebt() {
         spending limits, and visualize your progress over time.
       </P>
       <P>
-        <A href="/">Savlo</A> is designed with this in mind. It takes a
-        calmer approach to money management, focusing on voice-based
+        <A href="/">Savlo</A> is designed with this in mind. It takes a simpler approach to money management, focusing on voice-based
         expense tracking, sinking funds for planned large expenses, and
         a daily spending guide that tells you exactly how much you can
         spend today without derailing your goals. When you are in debt,
@@ -6547,7 +6542,7 @@ function ContentHowToGetOutOfDebt() {
         <strong>Savlo tip:</strong> When you are paying off debt, your budget
         is not about restricting yourself. It is about giving every dollar a
         job. The discipline is in the allocation, not the deprivation. Savlo
-        is available on Android and coming soon to iOS.
+        is built for Android, with iOS on the way.
       </Callout>
 
       <Divider />
@@ -6858,8 +6853,7 @@ function ContentHowToGetOutOfDebt() {
 
       <Callout>
         Savlo helps you track spending, build sinking funds, and stay
-        focused on your debt payoff plan with a calmer, simpler approach to
-        money management. Available on Android and coming soon to iOS.
+        focused on your debt payoff plan with a faster, simpler approach to money management. Built for Android, with iOS on the way.
       </Callout>
     </>
   )
@@ -6905,11 +6899,11 @@ function ContentMoneyDysmorphia() {
 
       <P>Neuroscientist Sendhil Mullainathan&apos;s research on scarcity has shown something even more unsettling: <strong>financial stress reduces your cognitive bandwidth.</strong> Not metaphorically. Literally. People experiencing financial stress perform worse on cognitive tests — not because they&apos;re less intelligent, but because a significant portion of their mental capacity is being consumed by worry. It&apos;s as if a running program is eating up your RAM, leaving less processing power for everything else.</P>
 
-      <P>This is why advice like &ldquo;just budget better&rdquo; or &ldquo;stop worrying and look at the numbers&rdquo; often fails for people with money dysmorphia. It&apos;s not that they don&apos;t want to. It&apos;s that the act of engaging with financial information triggers a threat response that actively impairs the cognitive resources needed to engage with it calmly. Telling someone with money dysmorphia to &ldquo;just make a budget&rdquo; is like telling someone with a fear of heights to &ldquo;just climb the ladder.&rdquo; The instruction is simple. The neurological barrier is not.</P>
+      <P>This is why advice like &ldquo;just budget better&rdquo; or &ldquo;stop worrying and look at the numbers&rdquo; often fails for people with money dysmorphia. It&apos;s not that they don&apos;t want to. It&apos;s that the act of engaging with financial information triggers a threat response that actively impairs the cognitive resources needed to engage with it clearly. Telling someone with money dysmorphia to &ldquo;just make a budget&rdquo; is like telling someone with a fear of heights to &ldquo;just climb the ladder.&rdquo; The instruction is simple. The neurological barrier is not.</P>
 
       <P>Understanding this reframes the entire conversation. Money dysmorphia isn&apos;t a discipline problem. It&apos;s not a knowledge problem. It&apos;s a <strong>nervous system problem</strong> — and it requires tools and approaches that work <em>with</em> your brain&apos;s threat response rather than against it.</P>
 
-      <P>The research on this is clear. When you&apos;re in a state of financial stress, your ability to plan, delay gratification, and make complex decisions is measurably impaired. You&apos;re not choosing to be bad with money. Your brain is literally running on limited resources. This is why the most effective interventions for money dysmorphia don&apos;t start with spreadsheets. They start with regulation — calming the nervous system so that the rational brain can come back online.</P>
+      <P>The research on this is clear. When you&apos;re in a state of financial stress, your ability to plan, delay gratification, and make complex decisions is measurably impaired. You&apos;re not choosing to be bad with money. Your brain is literally running on limited resources. This is why the most effective interventions for money dysmorphia don&apos;t start with spreadsheets. They start with regulation — settling the nervous system so that the rational brain can come back online.</P>
 
       <Divider />
 
@@ -7036,9 +7030,9 @@ function ContentMoneyDysmorphia() {
 
       <P>But avoidance has a specific, predictable consequence: <strong>it turns vague dread into solidified dread.</strong> When you don&apos;t look, your brain fills in the blanks — and it fills them with the worst-case scenario. The checking account becomes a Schrödinger&apos;s cat situation. Until you look, it&apos;s simultaneously fine and catastrophic, and your nervous system responds to the catastrophic possibility as if it&apos;s the default.</P>
 
-      <P>What actually reduces financial anxiety isn&apos;t avoiding the information. It&apos;s having <em>repeated, low-stakes, calm encounters</em> with it. Every time you look at your balance and the catastrophe doesn&apos;t materialize, your brain updates its threat model slightly. The amygdala starts to learn: this isn&apos;t dangerous. This is just information.</P>
+      <P>What actually reduces financial anxiety isn&apos;t avoiding the information. It&apos;s having <em>repeated, low-stakes encounters</em> with it. Every time you look at your balance and the catastrophe doesn&apos;t materialize, your brain updates its threat model slightly. The amygdala starts to learn: this isn&apos;t dangerous. This is just information.</P>
 
-      <P>This is why the environment matters. A cluttered, confusing banking app with red numbers and alarming labels will trigger the threat response. A calm, clear interface that presents information without judgment creates space for your nervous system to stay regulated. The tool you use to engage with your money isn&apos;t just about functionality — it&apos;s about creating the conditions for a different emotional experience. This is what we built <A href="/#product">Savlo</A> around: a calm space to engage with your money without the threat response hijacking the process.</P>
+      <P>This is why the environment matters. A cluttered, confusing banking app with red numbers and alarming labels will trigger the threat response. A clear interface that presents information without judgment creates space for your nervous system to stay regulated. The tool you use to engage with your money isn&apos;t just about functionality — it&apos;s about creating the conditions for a different emotional experience. This is what we built <A href="/#product">Savlo</A> around: a clear space to engage with your money without the threat response hijacking the process.</P>
 
       <P>The research on exposure therapy supports this approach. Gradual, repeated exposure to a feared stimulus — in this case, financial information — reduces the fear response over time. But the exposure has to happen in a state of relative safety. If every check-in triggers a panic spiral, you&apos;re reinforcing the fear rather than reducing it. The environment, the timing, and the tool all matter. Small, safe, consistent encounters with your money are more effective than occasional deep dives that leave you exhausted and more anxious than before.</P>
 
@@ -7067,8 +7061,8 @@ function ContentMoneyDysmorphia() {
       <P>A few tips for making this work:</P>
 
       <UL>
-        <li>Don&apos;t do it when you&apos;re already stressed. Pick a calm moment — morning coffee, a quiet evening, a lunch break.</li>
-        <li>Use a tool that feels calm. This matters more than you think. A chaotic interface will re-trigger the threat response you&apos;re trying to regulate. We designed <A href="/#product">Savlo</A> specifically for this kind of gentle, non-judgmental financial engagement.</li>
+        <li>Don&apos;t do it when you&apos;re already stressed. Pick a good moment — morning coffee, a quiet evening, a lunch break.</li>
+        <li>Use a tool that feels clear. This matters more than you think. A chaotic interface will re-trigger the threat response you&apos;re trying to regulate. We designed <A href="/#product">Savlo</A> specifically for this kind of gentle, non-judgmental financial engagement.</li>
         <li>Celebrate showing up. Seriously. If you opened the app three days in a row instead of five, that&apos;s a win. The goal is consistency over perfection.</li>
       </UL>
 
@@ -7084,7 +7078,7 @@ function ContentMoneyDysmorphia() {
         <li><strong>Get a clear picture of your actual financial position.</strong> Not the story your anxiety tells you. The real numbers. List your accounts, debts, income, and monthly expenses. For many people with money dysmorphia, there&apos;s a significant gap between their perceived financial reality and their actual one. Closing that gap starts with data, not feelings. If you need a structured approach, our guide on <A href="/blog/how-to-make-a-budget">how to make a budget</A> walks through this step by step.</li>
         <li><strong>Define &ldquo;enough&rdquo; on your own terms.</strong> This is the work that nobody does, and it changes everything. What does a &ldquo;good enough&rdquo; financial life look like for you — not for Instagram, not for your parents, not for the version of you that absorbed someone else&apos;s definition of success? Write it down. Be specific. &ldquo;Enough&rdquo; might be six months of expenses in savings, zero credit card debt, and the ability to take one vacation a year. It might be something completely different. The point is that you decide, and then you measure yourself against <em>your</em> standard, not a manufactured one.</li>
         <li><strong>Audit your information diet.</strong> Unfollow accounts that make you feel financially inadequate. Mute groups where the baseline conversation is anxiety about money. Curate your feed to include realistic, grounded financial perspectives. This isn&apos;t avoidance — it&apos;s selecting accurate information over distorted information. If you&apos;re interested in structural approaches to money management, explore our piece on <A href="/blog/zero-based-budgeting">zero-based budgeting</A> — a method that gives every dollar a purpose without requiring obsession.</li>
-        <li><strong>Build a calm money-checking ritual.</strong> Choose a specific time, a specific frequency, and a specific tool. Check your finances on Tuesday mornings, using a calm interface, for five minutes. Ritual reduces anxiety because it creates predictability. Your brain knows what to expect, which reduces the threat response. Over time, this ritual becomes the new baseline — a calm, regular relationship with your money instead of a panicked, sporadic one.</li>
+        <li><strong>Build a regular money-checking ritual.</strong> Choose a specific time, a specific frequency, and a specific tool. Check your finances on Tuesday mornings, using a clear interface, for five minutes. Ritual reduces anxiety because it creates predictability. Your brain knows what to expect, which reduces the threat response. Over time, this ritual becomes the new baseline — a steady, regular relationship with your money instead of a panicked, sporadic one.</li>
         <li><strong>Separate your financial decisions from your financial feelings.</strong> This is hard, but it&apos;s the core skill. When you feel the urge to check your account for the sixth time today, pause. Ask: &ldquo;Am I looking for information, or am I looking for reassurance?&rdquo; When you feel panic about a purchase, ask: &ldquo;Is this actually a problem, or does it just <em>feel</em> like one?&rdquo; Creating that pause — even a few seconds — between the feeling and the action is where change happens. For help building a sustainable system, our guide on <A href="/blog/sinking-funds">sinking funds</A> shows you how to plan for expenses without the panic cycle.</li>
       </OL>
 
@@ -7098,11 +7092,11 @@ function ContentMoneyDysmorphia() {
 
       <P>Bridging the gap between knowing and feeling requires three things:</P>
 
-      <P><strong>Repeated safe exposure to financial information.</strong> One calm look at your bank balance doesn&apos;t rewire your brain. But a hundred calm looks over three months start to. The repetition is what builds new neural pathways. Each safe encounter updates your brain&apos;s threat model, slowly but measurably. This is why consistency matters more than intensity. A daily thirty-second check-in does more than one annual budget marathon.</P>
+      <P><strong>Repeated safe exposure to financial information.</strong> One look at your bank balance doesn&apos;t rewire your brain. But a hundred uneventful looks over three months start to. The repetition is what builds new neural pathways. Each safe encounter updates your brain&apos;s threat model, slowly but measurably. This is why consistency matters more than intensity. A daily thirty-second check-in does more than one annual budget marathon.</P>
 
       <P><strong>Emotional processing of your money stories.</strong> At some point, you absorbed beliefs about money — from your family, your culture, your experiences. &ldquo;Money is hard.&rdquo; &ldquo;Rich people are greedy.&rdquo; &ldquo;You can never have enough.&rdquo; These beliefs operate below conscious awareness, shaping your emotional responses to financial information. Processing them — through journaling, therapy, or honest conversation — makes them visible. And visible beliefs can be questioned.</P>
 
-      <P><strong>Building new neural pathways through consistent calm engagement.</strong> This is the practical piece. It means using tools that support regulation rather than reactivity. It means checking in with your money when you&apos;re calm, not when you&apos;re spiraling. It means choosing calm over stimulation every time. The tool you use matters here. A feature-rich budgeting app that overwhelms you with charts and alerts might be objectively useful but emotionally counterproductive. A calm, minimal interface that lets you engage at your own pace might do more for your actual relationship with money than any spreadsheet ever could.</P>
+      <P><strong>Building new neural pathways through consistent, low-stakes engagement.</strong> This is the practical piece. It means using tools that support regulation rather than reactivity. It means checking in with your money when you&apos;re steady, not when you&apos;re spiraling. It means choosing clarity over stimulation every time. The tool you use matters here. A feature-rich budgeting app that overwhelms you with charts and alerts might be objectively useful but emotionally counterproductive. A clear, minimal interface that lets you engage at your own pace might do more for your actual relationship with money than any spreadsheet ever could.</P>
 
       <P>This is the gap that most financial advice misses. It assumes the problem is <em>information</em> — that if people just knew what to do, they&apos;d do it. But money dysmorphia isn&apos;t an information problem. It&apos;s a relationship problem. And relationships change through consistent, safe, repeated contact — not through instructions.</P>
 
@@ -7146,8 +7140,8 @@ function ContentMoneyDysmorphia() {
 
       <Callout>
         Money dysmorphia affects millions of people — and naming it is the first step toward
-        changing your relationship with it. Savlo is available on Android and coming soon to iOS.
-        Start building a calmer relationship with your money today.
+        changing your relationship with it. Savlo is built for Android, with iOS on the way.
+        Start building a better relationship with your money today.
       </Callout>
     </>
   )
@@ -7160,7 +7154,7 @@ function ContentYNABMonarchSavlo() {
         Three budgeting apps, three distinct financial philosophies. YNAB wants
         you to assign every single dollar a job before the month begins. Monarch
         Money wants to show you a beautiful dashboard of your entire financial
-        life. Savlo wants you to check in calmly, log a purchase by voice, and
+        life. Savlo wants you to check in quickly, log a purchase by voice, and
         move on with your day without guilt.
       </P>
       <P>
@@ -7515,19 +7509,18 @@ function ContentYNABMonarchSavlo() {
 
       <Divider />
 
-      <H2 id="savlo">Savlo — best for calm spending habits</H2>
+      <H2 id="savlo">Savlo — best for daily spending habits</H2>
       <P>
         Savlo is the youngest of the three apps, and it is built around a
         different question entirely. Where YNAB asks &ldquo;where should every
         dollar go?&rdquo; and Monarch asks &ldquo;what does my financial
         picture look like?&rdquo; Savlo asks &ldquo;how do you{" "}
-        <em>feel</em> about money, and how can we make that feeling
-        calmer?&rdquo; It is a{" "}
+        <em>feel</em> about money, and how can we make that feeling clearer?&rdquo; It is a{" "}
         <A href="/blog/financial-anxiety">financial anxiety</A> tool as much
         as a budgeting tool.
       </P>
 
-      <H3 id="savlo-philosophy">Savlo&apos;s philosophy: calm financial awareness</H3>
+      <H3 id="savlo-philosophy">Savlo&apos;s philosophy: daily financial awareness</H3>
       <P>
         Savlo is built on behavioral psychology research. The core insight is
         that most financial stress does not come from not knowing your numbers.
@@ -7537,17 +7530,14 @@ function ContentYNABMonarchSavlo() {
         problem worse.
       </P>
       <P>
-        Savlo takes the opposite approach. The interface is deliberately calm.
-        There are no red warning numbers. No streaks to maintain. No
-        guilt-inducing notifications. The design philosophy is that you should
+        Savlo takes the opposite approach. The interface is deliberately simple.
+        There are no red warning numbers and no guilt-inducing notifications. A daily streak rewards the habit of logging instead. The design philosophy is that you should
         feel <em>better</em> after opening the app, not worse. If a financial
         tool makes you anxious, you will stop using it. And if you stop using
         it, it cannot help you.
       </P>
       <P>
-        The app uses a local-first data model. Your financial data stays on
-        your device. There is no bank linking, no third-party data aggregation,
-        and no server-side storage of your transactions. For users who are
+        The app never asks for your bank credentials. There is no bank linking and no third-party data aggregation, and your financial data is never sold. For users who are
         privacy-conscious — and after high-profile data breaches and the{" "}
         <A href="/blog/why-traditional-budgets-fail">Mint shutdown</A>, many
         are — this is a meaningful differentiator.
@@ -7566,14 +7556,11 @@ function ContentYNABMonarchSavlo() {
       <P>
         No bank linking is required. This is a deliberate design choice, not
         a limitation. Savlo works by having you log transactions yourself —
-        via voice, manual entry, or CSV import. Your financial data never
-        leaves your device. There is no third-party aggregator to trust, no
-        bank credentials to share, and no data breach risk from Savlo&apos;s
-        servers. For users who are anxious about sharing financial data, this
+        via voice, manual entry, or CSV import. There is no third-party aggregator to trust and no bank credentials to share, so Savlo never holds your bank login. For users who are anxious about sharing financial data, this
         is the most private option available.
       </P>
       <P>
-        The calm UI is genuinely different from other budgeting apps. There
+        The simple UI is genuinely different from other budgeting apps. There
         are no red numbers indicating overspending. No alarm-style
         notifications. No streak counters that make you feel guilty for
         missing a day. The color palette is muted, the language is neutral,
@@ -7598,8 +7585,7 @@ function ContentYNABMonarchSavlo() {
         possible without losing your transaction history.
       </P>
       <P>
-        Works offline. Because data is stored locally, Savlo works without an
-        internet connection. You can log transactions on a plane, in a tunnel,
+        Works offline. Savlo keeps a copy of your data on your phone, so you can keep logging without a connection. You can log transactions on a plane, in a tunnel,
         or in any low-connectivity situation. Your data syncs when you are
         back online. This is a small thing until you need it, and then it is
         a significant advantage.
@@ -7615,8 +7601,7 @@ function ContentYNABMonarchSavlo() {
       <H3 id="savlo-weaknesses">Where Savlo falls short</H3>
       <P>
         Savlo is newer and has a smaller feature set than YNAB or Monarch.
-        There is no investment tracking, no net worth dashboard, and no bank
-        sync. If you want a comprehensive financial picture that includes
+        There is no investment tracking and no bank sync. If you want a comprehensive financial picture that includes
         your brokerage accounts and retirement funds, Savlo is not the right
         tool — at least not yet.
       </P>
@@ -7635,8 +7620,7 @@ function ContentYNABMonarchSavlo() {
         support resources.
       </P>
       <P>
-        iOS availability is coming soon. Savlo is currently available on
-        Android, with iOS support in development. If you are an iPhone user,
+        Savlo is built for Android, with iOS support in development. If you are an iPhone user,
         you will need to wait for the iOS launch to try the app.
       </P>
       <P>
@@ -7649,15 +7633,7 @@ function ContentYNABMonarchSavlo() {
 
       <H3 id="savlo-pricing">Savlo pricing</H3>
       <P>
-        Savlo is free to start, with premium features available at an
-        affordable price point. The free tier includes core expense logging,
-        voice input, and basic categorization. Premium features — like
-        advanced{" "}
-        <A href="/blog/sinking-funds">sinking funds</A>, detailed reports,
-        and expanded CSV import — are available at a lower cost than either
-        YNAB or Monarch. The pricing reflects Savlo&apos;s position as a
-        newer app that is building its user base while keeping the barrier
-        to entry low.
+        Savlo starts with a 14-day free trial with every feature unlocked, then continues as a monthly or annual subscription. There is no free tier: the trial is the full app, including voice input,{" "} <A href="/blog/sinking-funds">sinking funds</A>, reports and CSV import.
       </P>
 
       <Divider />
@@ -7687,25 +7663,20 @@ function ContentYNABMonarchSavlo() {
           <strong>Net worth tracking:</strong> Monarch excels here with
           real-time net worth calculations across all linked accounts. YNAB
           tracks cash flow and budget progress but does not calculate net
-          worth. Savlo focuses on spending awareness and does not track
-          net worth or investments.
+          worth. Savlo shows your net worth across the accounts you add, but does not track investments.
         </li>
         <li>
           <strong>Budgeting method:</strong> YNAB uses strict zero-based
           budgeting where every dollar is pre-assigned. Monarch uses a
           flexible tracking approach with optional budget targets. Savlo
-          uses a calm, behavior-first approach with sinking funds and
+          uses a fast, behavior-first approach with sinking funds and
           spending awareness.
         </li>
         <li>
-          <strong>Privacy:</strong> Savlo is local-first — your data stays
-          on your device with no server-side storage. YNAB and Monarch both
-          store your data on their servers and rely on third-party
-          aggregators for bank connections.
+          <strong>Privacy:</strong> Savlo never asks for bank credentials and does not use bank aggregators. YNAB and Monarch rely on third-party aggregators for bank connections.
         </li>
         <li>
-          <strong>Offline support:</strong> Savlo works fully offline since
-          data is stored locally. YNAB and Monarch require an internet
+          <strong>Offline support:</strong> Savlo keeps working offline and syncs what you log when you reconnect. YNAB and Monarch require an internet
           connection for most functionality, including bank sync and data
           access.
         </li>
@@ -7714,8 +7685,7 @@ function ContentYNABMonarchSavlo() {
           couples experience with shared household views, dual account
           linking, and combined budgets. YNAB supports shared budgets but
           requires both users to engage with the full budgeting system.
-          Savlo supports shared awareness with simpler collaborative
-          features.
+          Savlo is built for one person&apos;s finances and does not have shared household accounts yet.
         </li>
         <li>
           <strong>Investment tracking:</strong> Monarch tracks investment
@@ -7733,7 +7703,7 @@ function ContentYNABMonarchSavlo() {
         <li>
           <strong>Pricing model:</strong> YNAB and Monarch are both
           subscription-based at approximately $15 per month or $100 per
-          year. Savlo is free to start with affordable premium features.
+          year. Savlo has a 14-day free trial, then a monthly or annual subscription.
         </li>
       </UL>
 
@@ -7785,7 +7755,7 @@ function ContentYNABMonarchSavlo() {
         anxiety.
       </P>
       <P>
-        <strong>Best fit: Savlo.</strong> The calm UI, voice logging, and
+        <strong>Best fit: Savlo.</strong> The simple UI, voice logging, and
         absence of shame-based design patterns are specifically built for
         this experience. Savlo is designed to make you feel better after
         opening it, not worse.
@@ -7799,9 +7769,7 @@ function ContentYNABMonarchSavlo() {
         where both people are tracking the same expenses separately.
       </P>
       <P>
-        <strong>Best fit: Monarch Money</strong> for comprehensive shared
-        visibility, or <strong>Savlo</strong> for a simpler, more private
-        approach to shared financial awareness.
+        <strong>Best fit: Monarch Money</strong> for comprehensive shared visibility. Savlo is built for one person&apos;s finances and does not have shared household accounts yet.
       </P>
 
       <H3 id="the-privacy-conscious">The privacy-conscious</H3>
@@ -7812,9 +7780,7 @@ function ContentYNABMonarchSavlo() {
         require you to hand over your bank credentials.
       </P>
       <P>
-        <strong>Best fit: Savlo.</strong> No bank linking, local-first data
-        storage, and no third-party access to your financial information.
-        Your transactions remain private by default.
+        <strong>Best fit: Savlo.</strong> No bank linking, no bank aggregators, and your financial data is never sold.
       </P>
 
       <H3 id="the-data-nerd">The data nerd</H3>
@@ -7840,7 +7806,7 @@ function ContentYNABMonarchSavlo() {
       </P>
       <P>
         <strong>Best fit: Savlo.</strong> The fast onboarding, voice logging,
-        and calm design mean you can be productive within minutes of
+        and simple design mean you can be productive within minutes of
         downloading the app. There is no complex system to learn, no
         daily reconciliation to maintain, and no guilt if you miss a
         day.
@@ -7919,7 +7885,7 @@ function ContentYNABMonarchSavlo() {
       <P>
         If you are moving from YNAB to Savlo, you will lose the granular
         category structure and goal-tracking metadata, but you will gain
-        voice logging, privacy, and a calmer daily experience. If you are
+        voice logging, privacy, and a faster daily experience. If you are
         moving from Monarch to Savlo, you will lose the investment tracking
         and automated bank sync, but you will gain direct control over your
         data and a lower-friction entry point. Every switch involves a
@@ -7953,12 +7919,11 @@ function ContentYNABMonarchSavlo() {
         fall between these two extremes. People who want financial awareness
         without the overhead of a full budgeting system. People who want to
         log a purchase quickly and move on. People who want to feel{" "}
-        <em>calmer</em> about money, not more disciplined.
+        <em>in control</em> of their money, not more disciplined.
       </P>
       <P>
         If you love detailed control, YNAB is excellent. If you want a
-        financial dashboard, Monarch is great. If you want a calm, low-friction
-        way to build better spending habits, Savlo is worth trying. The best
+        financial dashboard, Monarch is great. If you want a fast, low-friction way to build better spending habits, Savlo is worth trying. The best
         app is the one you will actually use three months from now.
       </P>
       <P>
@@ -7972,16 +7937,15 @@ function ContentYNABMonarchSavlo() {
       <P>
         Whatever you choose, the most important step is the one you take
         today. Not the perfect app. Not the perfect system. Just a small,
-        consistent habit that moves you toward clearer, calmer financial
-        awareness. Start with one transaction. One check-in. One moment of
+        consistent habit that moves you toward clearer financial awareness. Start with one transaction. One check-in. One moment of
         honesty about where your money went this week. That is enough.
       </P>
 
       <Divider />
 
       <Callout>
-        <A href="/">Savlo</A> is available on Android and coming soon to iOS.
-        Start with the free tier and see if calm financial awareness works
+        <A href="/">Savlo</A> is built for Android, with iOS on the way.
+        Start with the 14-day free trial and see if daily financial awareness works
         for your brain. No bank linking required.
       </Callout>
     </>
@@ -8018,9 +7982,7 @@ function ContentHowToBudgetMoney() {
         If you have tried budgeting before and quit, the mistake was almost
         certainly not a lack of discipline. The design of most budgeting tools
         fights the way your brain actually works. <A href="/">Savlo</A> is one
-        of the apps that tries to work with you instead of against you. It is
-        available on Android and coming soon to iOS, and the rest of this
-        guide will reference its approach as one example among several. If you
+        of the apps that tries to work with you instead of against you. It is built for Android, with iOS on the way, and the rest of this guide will reference its approach as one example among several. If you
         only have ten minutes, jump to the{" "}
         <A href="#seven-steps">seven-step quick start</A>. If you have
         thirty, read it in order.
@@ -8291,7 +8253,7 @@ function ContentHowToBudgetMoney() {
         How to build your first budget in seven steps
       </H2>
       <P>
-        If you are starting from zero, here is a calm sequence that
+        If you are starting from zero, here is a simple sequence that
         produces a working budget in under an hour. None of these steps
         require an app, though an app will make the next month easier.
       </P>
@@ -8469,7 +8431,7 @@ function ContentHowToBudgetMoney() {
       <P>
         Instead, build a seven-day reset. The day you notice the
         overspend, do not panic and do not try to fix it that night. Wait
-        seven days. Then sit down for twenty minutes, in a calm setting,
+        seven days. Then sit down for twenty minutes, without distractions,
         and ask three questions. What happened? What category absorbed
         the shock? What is the smallest change for next month that would
         have prevented it? Write the answers down. That is the entire
@@ -8649,8 +8611,7 @@ function ContentHowToBudgetMoney() {
           best Mint alternatives in 2025
         </A>{" "}
         roundup will save you a weekend of research. Savlo, for example,
-        is designed to give you daily control and management of your finances in minutes through easy voice or text logging, spreadsheet imports, and independent accounts, rather than continuous bank sync. It is available
-        on Android and coming soon to iOS.
+        is designed to give you daily control and management of your finances in minutes through easy voice or text logging, spreadsheet imports, and independent accounts, rather than continuous bank sync. It is built for Android, with iOS on the way.
       </P>
       <P>
         <A href="/blog/financial-anxiety">Financial anxiety</A> often
@@ -8758,8 +8719,7 @@ function ContentHowToBudgetMoney() {
         <strong>What is the best budgeting app for beginners?</strong>
         <br />
         The one you will still be using in six months. That is almost
-        always the one with the lowest input friction and the calmest
-        design. The{" "}
+        always the one with the lowest input friction and the simplest design. The{" "}
         <A href="/blog/best-mint-alternatives-2025">
           best Mint alternatives
         </A>{" "}
@@ -8768,7 +8728,7 @@ function ContentHowToBudgetMoney() {
 
       <Divider />
 
-      <H2 id="conclusion">A calmer way forward</H2>
+      <H2 id="conclusion">A clearer way forward</H2>
       <P>
         Budgeting is not a personality test. It is a planning practice,
         and like any practice, it rewards small, repeated effort more
@@ -8781,7 +8741,7 @@ function ContentHowToBudgetMoney() {
       </P>
       <P>
         If you want a tool that helps you keep daily control and management of your finances in minutes, <A href="/">Savlo</A> is built around the ideas we
-        covered: voice and text logging, category budgeting, independent accounts to organize your money, Sinking Funds, and a gamified streak system to stay motivated. It is available on Android and coming soon to iOS.
+        covered: voice and text logging, category budgeting, independent accounts to organize your money, Sinking Funds, and a gamified streak system to stay motivated. It is built for Android, with iOS on the way.
         The rest of the blog covers each of these ideas in more depth if
         you want to keep going.
       </P>
@@ -8812,7 +8772,7 @@ function ContentBudgetingOnLowIncome() {
         actually fit a tight budget.
       </P>
       <Callout>
-        Savlo is available on Android and coming soon to iOS. Everything in
+        Savlo is built for Android, with iOS on the way. Everything in
         this guide works in a notebook, a spreadsheet, or a simple app. If
         you want a tool that respects your privacy, asks for no bank
         credentials, and works on tight routines, Savlo was built with
@@ -9249,8 +9209,7 @@ function ContentBudgetingOnLowIncome() {
         elastic, and a small reserve; a simple spreadsheet with three
         columns that updates weekly; or a privacy-first app that lets
         you log expenses by voice, in a few seconds, without linking
-        a bank account. Savlo is built for the third path. It runs
-        on Android today and is coming soon to iOS, and it works
+        a bank account. Savlo is built for the third path. It is built for Android, with iOS on the way, and it works
         without asking for bank credentials, which matters when
         trust is the deciding factor.
       </P>
@@ -9378,7 +9337,7 @@ function ContentBudgetingOnLowIncome() {
         maintenance habit. The job is to keep the small surprises
         from becoming large crises, to keep a sliver of money in
         reserve, and to keep you close enough to the numbers that
-        you can make a calm decision when something breaks. A small,
+        you can make a clear-headed decision when something breaks. A small,
         honest budget that you come back to next Sunday beats a
         perfect one you abandon in three weeks.
       </P>
@@ -9401,12 +9360,10 @@ function ContentBudgetingOnLowIncome() {
         that reality is one of the most useful tools you can build,
         and it is worth the hour it takes to start. If you want a
         tool that respects your privacy, asks for no bank
-        credentials, and works on tight routines, Savlo is
-        available on Android and coming soon to iOS. It is built
+        credentials, and works on tight routines, Savlo is built for Android, with iOS on the way. It is built
         for the kind of budget described in this guide: small,
         honest, and easy to come back to. Everything here works
-        without it. If you want a companion for the routine, Savlo
-        is one of the quietest options on the market.
+        without it. If you want a companion for the routine, Savlo is one of the simplest options on the market.
       </P>
     </>
   )
@@ -9456,7 +9413,7 @@ export const posts: BlogPost[] = [
     slug: "why-traditional-budgets-fail",
     title: "Why Traditional Budgets Fail: The Behavioral Finance Answer",
     description:
-      "Three psychological biases explain why we abandon budgeting apps. Discover how a calm, behavioral design works with your brain instead of relying on pure discipline.",
+      "Three psychological biases explain why we abandon budgeting apps. Discover how a simple, behavioral design works with your brain instead of relying on pure discipline.",
     date: "2026-04-12",
     dateModified: "2026-06-02",
     category: "Money Psychology",
@@ -9491,7 +9448,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "financial-anxiety",
-    title: "Why Money Makes Us Anxious (And 7 Daily Habits to Calm It)",
+    title: "Why Money Makes Us Anxious (And 7 Daily Habits That Help)",
     description:
       "Financial anxiety isnâ€™t just about how much you earn. Learn simple, daily practices to lower your money stress and build a healthier relationship with your finances.",
     date: "2026-04-08",
@@ -9509,7 +9466,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "how-to-budget-money",
-    title: "How to Budget Money: A Calm, Complete Guide for Beginners (and People Who\u2019ve Tried Before)",
+    title: "How to Budget Money: A Complete Guide for Beginners (and People Who\u2019ve Tried Before)",
     description:
       "A clear, judgment-free guide to budgeting for beginners. Learn the four numbers that drive every budget, three styles that actually work, and how to track expenses without burning out.",
     date: "2026-06-07",
@@ -9572,7 +9529,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "how-to-make-a-budget",
-    title: "How to Make a Budget: A Calm, Step-by-Step Guide",
+    title: "How to Make a Budget: A Step-by-Step Guide",
     description:
       "Learn how to build a realistic monthly budget that fits your life. No complicated spreadsheets or guilt, just simple, sustainable steps for financial peace of mind.",
     date: "2026-04-18",
@@ -9632,7 +9589,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: "zero-based-budgeting",
-    title: "Zero-Based Budgeting: A Calm, Modern Take",
+    title: "Zero-Based Budgeting: A Modern Take",
     description:
       "Give every dollar a job before you spend it with zero-based budgeting. Learn how this methodology works, its benefits, and how to start without feeling restricted.",
     date: "2026-04-04",

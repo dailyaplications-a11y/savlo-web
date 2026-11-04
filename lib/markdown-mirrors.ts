@@ -203,7 +203,7 @@ export function buildHomeMarkdownMirror() {
 - Canonical URL: ${absoluteUrl("/")}
 - Mirror URL: ${absoluteUrl("/markdown/home.md")}
 - Product stage: prelaunch marketing site
-- Primary audience: people who want a calmer relationship with money
+- Primary audience: people who want to track and budget their personal finances
 
 ## Primary promise
 
@@ -211,16 +211,16 @@ Understand your money in about one minute a day.
 
 ## What the landing page says Savlo does
 
-- Lets people log spending with quick voice check-ins.
+- Lets people log spending and income by voice or text in seconds.
 - Imports transaction history from CSV and XLSX files.
-- Organizes money into separate Spaces.
+- Organizes money into independent accounts.
 - Helps people plan with Sinking Funds.
-- Shows margin and cash-flow context in a calmer interface.
+- Shows margin and cash-flow context.
 - Lets people export their records.
 
 ## Positioning
 
-Savlo is positioned as a calm budgeting app for anxious minds. The copy emphasizes lower friction, less guilt, fewer harsh alerts, and a behavioral-finance-informed tone.
+Savlo is positioned as a fast budgeting app and expense tracker. The copy emphasizes logging in seconds, a complete picture of spending, and user control.
 
 ## Public-site trust promises
 
@@ -238,8 +238,8 @@ Savlo is positioned as a calm budgeting app for anxious minds. The copy emphasiz
 
 ## SEO focus
 
-- calm budgeting app
-- budgeting for anxious minds
+- budgeting app
+- expense tracker
 - voice expense tracking
 - sinking funds app
 - behavioral finance budgeting

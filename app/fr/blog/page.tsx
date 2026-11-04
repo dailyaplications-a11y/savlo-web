@@ -7,7 +7,7 @@ import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
 const blogDescription =
-  "Guides sur le budget, l'épargne et la psychologie de l'argent pour les personnes qui veulent se sentir plus calmes avec leurs finances."
+  "Guides sur le budget, l'épargne, les dettes et la psychologie de l'argent pour organiser tes finances personnelles."
 
 export const metadata: Metadata = {
   title: "Blog",

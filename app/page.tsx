@@ -1,12 +1,7 @@
 import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
-import { Hero } from "@/components/savlo/hero"
-import { ProductOverview } from "@/components/savlo/product-overview"
-import { FeaturesShowcase } from "@/components/savlo/features-showcase"
-import { TrustSection } from "@/components/savlo/trust-section"
-import { BehavioralSection } from "@/components/savlo/behavioral-section"
+import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
-import { CtaSection } from "@/components/savlo/cta-section"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
@@ -35,12 +30,14 @@ const faqItems = [
 ] as const
 
 export const metadata: Metadata = {
-  title: "Daily personal finance control and management in minutes",
+  // brand first, then what it is and does (under ~60 characters, so search
+  // results show it whole)
+  title: { absolute: "Savlo Budgeting App | Track, Save & Plan Your Money" },
   description: siteConfig.description,
   keywords: [...siteConfig.keywords],
   alternates: metadataAlternates("/"),
   openGraph: {
-    title: "Savlo | Calm budgeting for anxious minds",
+    title: "Savlo | Budgeting app and expense tracker",
     description: siteConfig.description,
     url: "/",
     siteName: siteConfig.name,
@@ -95,12 +92,12 @@ export default function Page() {
     },
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "@id": softwareId,
       name: siteConfig.name,
       alternateName: siteConfig.shortName,
       applicationCategory: "FinanceApplication",
-      operatingSystem: "iOS, Android",
+      operatingSystem: "Android",
       url: siteConfig.url,
       description: siteConfig.longDescription,
       image: absoluteUrl(siteConfig.ogImage),
@@ -112,13 +109,14 @@ export default function Page() {
         "@type": "Offer",
         price: "0",
         priceCurrency: "USD",
+        description: "14-day free trial, then a monthly or annual subscription",
         availability: "https://schema.org/PreOrder",
         url: siteConfig.url,
       },
       publisher: {
         "@id": organizationId,
       },
-      isAccessibleForFree: true,
+      isAccessibleForFree: false,
       featureList: [
         "Voice and text logging",
         "Independent accounts",
@@ -146,23 +144,12 @@ export default function Page() {
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
       <SiteHeader />
       <main>
-        <Hero />
-        <SectionDivider />
-        <ProductOverview />
-        <SectionDivider />
-        <FeaturesShowcase />
-        <SectionDivider />
-        <BehavioralSection />
-        <SectionDivider />
-        <TrustSection />
-        <SectionDivider />
+        <ProductStory />
         <FeaturedReads />
         <SectionDivider />
         <FaqSection />
-        <SectionDivider />
-        <CtaSection />
       </main>
-      <SiteFooter />
+      <SiteFooter cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -180,7 +167,7 @@ function FaqSection() {
             Questions
           </p>
           <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            A few calm answers before you join the waitlist.
+            A few answers before you join the waitlist.
           </h2>
         </div>
         <dl className="lg:col-span-8">

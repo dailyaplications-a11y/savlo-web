@@ -1,0 +1,138 @@
+{
+  "title": "Ajuda",
+  "description": "Como obter ajuda com a Savlo, e respostas ao que mais se pergunta sobre registrar gastos, uso sem conexão, dados, assinaturas e exclusão de conta.",
+  "lastUpdated": "Última atualização 30 de agosto de 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "A Savlo é um aplicativo Android para finanças pessoais. Se algo não funciona ou você não encontra a resposta abaixo, escreva para <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> e uma pessoa vai ler."
+      },
+      {
+        "type": "p",
+        "text": "Ao escrever, contar o modelo do celular, a versão do Android e o que você estava fazendo costuma poupar uma ida e volta inteira."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "recording",
+      "heading": "Registrar o que entra e o que sai",
+      "content": [
+        {
+          "type": "p",
+          "text": "Há três formas e todas terminam no mesmo lugar:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Por voz.</strong> Segure o microfone e fale como falaria em voz alta — \"doze e cinquenta café ontem\". A Savlo extrai o valor, a data e a categoria.",
+            "<strong>Por texto.</strong> O mesmo, digitado. Você pode colocar vários de uma vez, separados por vírgulas.",
+            "<strong>Manualmente.</strong> Você preenche os campos quando quer controle total."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Se errar a categoria, corrija na movimentação — é o mais rápido, e a correção fica."
+        }
+      ]
+    },
+    {
+      "id": "offline",
+      "heading": "Funciona sem conexão?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Sim. Você pode registrar movimentações, ver seus saldos e navegar pelo histórico sem sinal. O que você registra fica guardado no celular e é enviado sozinho assim que houver conexão de novo — não precisa fazer nada."
+        },
+        {
+          "type": "p",
+          "text": "Se algo não puder ser enviado após várias tentativas, a Savlo avisa em vez de perder em silêncio, e permite tentar de novo nas <strong>Configurações</strong>."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Onde ficam meus dados e quem pode vê-los",
+      "content": [
+        {
+          "type": "p",
+          "text": "Suas movimentações ficam em servidores nos Estados Unidos e estão ligadas à sua conta: mais ninguém que use a Savlo pode vê-las."
+        },
+        {
+          "type": "p",
+          "text": "Quando você usa o assistente de IA, sua pergunta e um resumo do seu contexto financeiro são enviados ao Google para poder respondê-la. <a href=\"/pt/privacy\">A Política de Privacidade</a> explica exatamente o que sai, para quem, e uma coisa que vale ler sobre como o Google pode usar isso."
+        },
+        {
+          "type": "p",
+          "text": "Você pode levar tudo quando quiser em <strong>Configurações → Exportar meus dados</strong>, que gera um CSV."
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "heading": "O que o assistente diz é aconselhamento financeiro?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Não. A Savlo é uma ferramenta para ver seu próprio dinheiro com clareza. O assistente lê seus dados e pode errar, então confira qualquer coisa importante antes de agir, e fale com um profissional para decisões que pesam."
+        },
+        {
+          "type": "p",
+          "text": "Você pode usar a Savlo sem a IA: registrar, orçamentos, contas e relatórios funcionam igual."
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "heading": "Assinaturas e pagamentos",
+      "content": [
+        {
+          "type": "p",
+          "text": "As assinaturas são cobradas pelo Google Play, então são gerenciadas e canceladas lá, não dentro da Savlo:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Abra o app da <strong>Play Store</strong>.",
+            "Toque na sua foto de perfil e depois em <strong>Pagamentos e assinaturas → Assinaturas</strong>.",
+            "Escolha <strong>Savlo</strong> e toque em <strong>Cancelar assinatura</strong>."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Excluir o app ou sua conta Savlo NÃO cancela a assinatura. Os reembolsos são tratados pelo Google. Se cobraram algo indevido, escreva para nós mesmo assim e ajudamos a resolver."
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "heading": "Excluir sua conta",
+      "content": [
+        {
+          "type": "p",
+          "text": "Você pode excluir sua conta e seus dados em <strong>Configurações → Conta e perfil → Informações pessoais → Excluir conta</strong>. É imediato e não pode ser desfeito, então exporte seus dados antes se quiser guardá-los."
+        },
+        {
+          "type": "p",
+          "text": "Se você não tem mais o app instalado, <a href=\"/pt/delete-account\">esta página explica como pedir por e-mail</a>."
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Todo o resto",
+      "content": [
+        {
+          "type": "ul",
+          "items": [
+            "<a href=\"/pt/privacy\">Política de Privacidade</a>",
+            "<a href=\"/pt/terms\">Termos de Serviço</a>",
+            "<a href=\"/pt/delete-account\">Excluir sua conta e seus dados</a>",
+            "<a href=\"mailto:support@savloapp.com\">support@savloapp.com</a>"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -108,7 +108,7 @@ export default function SavloTeamAuthorPage() {
             <li>Budgeting systems that reduce avoidance.</li>
             <li>Sinking funds and emergency planning.</li>
             <li>Voice-first expense tracking habits.</li>
-            <li>Behavioral finance for calmer money routines.</li>
+            <li>Behavioral finance applied to everyday money.</li>
           </ul>
         </section>
 

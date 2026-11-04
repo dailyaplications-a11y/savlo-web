@@ -1,0 +1,598 @@
+/*
+ * Motion map of the storyboard
+ *   phone position   .95s  --move   (ease in-out: it travels, then parks)
+ *   phone lean       1.1s  --settle (lands with a hair of overshoot)
+ *   step copy        out .35s, in .55s/.75s after a 120 ms beat
+ *   screens          incoming fades over the outgoing, never through black
+ *   chapter pill     springs to the new tab; the tab itself leans with it
+ * Only transform and opacity animate. Positions arrive as numbers from
+ * product-story.tsx; this file owns how they move.
+ */
+
+.story {
+  --move: cubic-bezier(0.65, 0, 0.25, 1);
+  --out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --settle: cubic-bezier(0.34, 1.2, 0.64, 1);
+  /*
+   * The stage is always the whole window, never capped: on a tall screen or a
+   * zoomed-out page a shorter stage left a strip with the next sections
+   * showing under it before the story was over. The composition keeps its
+   * size and stands in the middle; the extra height is air.
+   */
+  --stage: 100vh;
+
+  position: relative;
+  /* the stage holds for --pinned px, then scrolls away with the page and the
+     next section follows it up from below, under the visitor's own scroll */
+  height: calc(var(--stage) + var(--pinned));
+  background: #0d1b2a;
+  color: #f7f3ee;
+}
+@supports (height: 100svh) {
+  .story {
+    --stage: 100svh;
+  }
+}
+
+.story[data-ready="false"] * {
+  transition: none !important;
+}
+
+.anchor {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
+/* opaque and above what follows (under the header) while it holds */
+.stage {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  height: var(--stage);
+  overflow: hidden;
+  contain: layout paint;
+  background: #0d1b2a;
+}
+
+.exit {
+  position: absolute;
+  inset: 0;
+}
+
+/* ── ambient light ─────────────────────────────────────────────── */
+
+.floorGlow,
+.ring,
+.tint {
+  position: absolute;
+  pointer-events: none;
+  transition: opacity 0.9s ease;
+}
+.floorGlow {
+  left: 50%;
+  bottom: -560px;
+  width: 1500px;
+  height: 1100px;
+  margin-left: -750px;
+  background: radial-gradient(closest-side, rgba(76, 175, 138, 0.26), rgba(17, 64, 62, 0.16) 50%, transparent 78%);
+}
+.ring {
+  left: 50%;
+  border-radius: 50%;
+}
+.ringNear {
+  bottom: -520px;
+  width: 1000px;
+  height: 1000px;
+  margin-left: -500px;
+  border: 1px solid rgba(247, 243, 238, 0.07);
+}
+.ringFar {
+  bottom: -760px;
+  width: 1500px;
+  height: 1500px;
+  margin-left: -750px;
+  border: 1px solid rgba(247, 243, 238, 0.045);
+}
+.story[data-intro="false"] .floorGlow,
+.story[data-intro="false"] .ring {
+  opacity: 0;
+}
+
+.tint {
+  top: calc(50% - 400px);
+  width: 800px;
+  height: 800px;
+  opacity: 0;
+}
+.tint[data-on="true"] {
+  opacity: 1;
+}
+.tintMint {
+  left: calc(50% - 650px);
+  background: radial-gradient(closest-side, rgba(76, 175, 138, 0.2), rgba(76, 175, 138, 0.06) 45%, transparent 75%);
+}
+.tintSteel {
+  left: calc(50% - 130px);
+  background: radial-gradient(closest-side, rgba(143, 163, 177, 0.16), rgba(143, 163, 177, 0.05) 45%, transparent 75%);
+}
+.tintAmber {
+  left: calc(50% - 650px);
+  background: radial-gradient(closest-side, rgba(244, 162, 97, 0.14), rgba(244, 162, 97, 0.04) 45%, transparent 75%);
+}
+
+/* ── intro ─────────────────────────────────────────────────────── */
+
+.intro {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: clamp(120px, 19vh, 188px) 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: opacity 0.6s ease, transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.story[data-intro="false"] .intro {
+  opacity: 0;
+  transform: translate3d(0, -60px, 0);
+  pointer-events: none;
+}
+
+/* the hero arrives on load, before hydration: keyframes, not transitions */
+@keyframes rise {
+  from { opacity: 0; transform: translate3d(0, 18px, 0); }
+  to { opacity: 1; transform: none; }
+}
+.rise1 { animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.05s both; }
+.rise2 { animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.18s both; }
+.rise3 { animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.32s both; }
+
+.eyebrow {
+  margin: 0;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #4caf8a;
+}
+
+/*
+ * The hero says three things and leaves air around each: the title (the
+ * statement, then its turn in mint italics on a line of its own), one line of
+ * what Savlo does, and the way in with the stores beside it. Nothing above the
+ * title: a tag there was one more thing to read before the point.
+ */
+.introTitle {
+  margin: 0;
+  max-width: 980px;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  /* bounded by height too, so a laptop still sees the phone under the hero */
+  font-size: clamp(44px, min(6vw, 9vh), 88px);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  font-weight: 450;
+  text-wrap: balance;
+}
+.introTitle em,
+.stepTitle em {
+  font-style: italic;
+  font-weight: 400;
+  color: #a8d8b9;
+}
+@media (min-width: 640px) {
+  .introTitle em {
+    display: block;
+  }
+}
+
+.introBody {
+  margin: 26px 0 0;
+  max-width: 600px;
+  font-size: clamp(16px, 1.3vw, 19px);
+  line-height: 1.5;
+  color: #a3b2be;
+  text-wrap: pretty;
+}
+
+.introCta {
+  margin-top: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+/* the stores read as a note to the button: two quiet lines at its side */
+.introCta .introStores {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: left;
+}
+.introCta .introStores > [aria-hidden] {
+  display: none;
+}
+
+.getButton {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 10px;
+  height: 56px;
+  padding: 0 24px 0 30px;
+  border-radius: 999px;
+  background: #4caf8a;
+  color: #0d1b2a;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 18px 40px -16px rgba(76, 175, 138, 0.85);
+  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.3s ease;
+}
+.getButton:hover {
+  background: #5cc29b;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 22px 46px -16px rgba(76, 175, 138, 0.95);
+}
+.getButton:active {
+  transform: scale(0.985);
+}
+.getButton:focus-visible {
+  outline: 2px solid #a8d8b9;
+  outline-offset: 3px;
+}
+.getButton svg {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.getButton:hover svg {
+  transform: translateX(3px);
+}
+
+/* ── step copy ─────────────────────────────────────────────────── */
+
+.copy {
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* place with transform, move with translate: the two compose */
+.step {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(calc(-50% - 40px));
+  opacity: 0;
+  translate: 0 28px;
+  pointer-events: none;
+  transition: opacity 0.35s ease, translate 0.5s ease;
+}
+.step[data-state="before"] {
+  translate: 0 -28px;
+}
+.step[data-state="on"] {
+  opacity: 1;
+  translate: 0 0;
+  pointer-events: auto;
+  /* --copy-in: longer when the phone is crossing the stage (product-story.tsx),
+     so the new words appear once it has left their side, not under it */
+  transition: opacity 0.55s ease var(--copy-in, 0.16s), translate 0.8s var(--out) var(--copy-in, 0.16s);
+}
+
+.stepTitle {
+  margin: 16px 0 0;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  /* bounded by height too: a short laptop gets a smaller title, a big
+     monitor a bigger one, beside a device that scales the same way */
+  font-size: clamp(44px, min(4.1vw, 6.4vh), 66px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  font-weight: 450;
+  text-wrap: balance;
+}
+
+.stepBody {
+  margin: 18px 0 0;
+  max-width: 22em;
+  font-size: clamp(17px, 2vh, 20px);
+  line-height: 1.55;
+  color: #9fb0bd;
+  text-wrap: pretty;
+}
+.stepBody[data-align="end"] {
+  margin-left: auto;
+}
+
+/* ── the device ────────────────────────────────────────────────── */
+
+.phonePos {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 618px;
+  margin: -309px 0 0 -150px;
+  transition: transform 0.95s var(--move);
+  will-change: transform;
+}
+/* the first rise from the floor is slower and softer than a walk */
+.story[data-intro="true"] .phonePos {
+  transition: transform 1.4s var(--out);
+}
+
+/* first paint: the phone rises from the floor under the hero */
+@keyframes peek {
+  from { opacity: 0; transform: translate3d(0, 140px, 0); }
+  to { opacity: 1; transform: none; }
+}
+/* zoomed up and scaled back down from product-story.tsx (the supersampling):
+   a fixed box, since `inset: 0` would take the parent's unzoomed size */
+.peek {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 618px;
+  transform-origin: 0 0;
+  animation: peek 1.4s cubic-bezier(0.2, 0.8, 0.2, 1) 0.35s both;
+}
+
+.phoneTilt {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 50%;
+  transition: transform 1.1s var(--settle);
+  will-change: transform;
+}
+
+/* the screens themselves, and their crossfade: screens/app-screens.module.css */
+
+/* ── explore cue ───────────────────────────────────────────────── */
+
+.cueWrap {
+  position: absolute;
+  z-index: 6;
+  left: 0;
+  right: 0;
+  bottom: 22px;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  animation: cueIn 0.8s ease 1.1s both;
+}
+@keyframes cueIn {
+  from { opacity: 0; transform: translate3d(0, 10px, 0); }
+  to { opacity: 1; transform: none; }
+}
+
+.cue {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(13, 23, 37, 0.6);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  color: #c9d3da;
+  font: 700 11.5px/1 var(--font-dm-sans), system-ui, sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.5s ease, color 0.2s ease;
+}
+.cue:hover {
+  color: #f7f3ee;
+}
+.cue:focus-visible {
+  outline: 2px solid #a8d8b9;
+  outline-offset: 2px;
+}
+.story[data-intro="false"] .cue {
+  opacity: 0;
+  pointer-events: none;
+}
+.nudge {
+  animation: nudge 1.8s ease-in-out infinite;
+}
+@keyframes nudge {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
+
+/* ── chapter selector ──────────────────────────────────────────── */
+
+.selector {
+  position: absolute;
+  z-index: 6;
+  left: 0;
+  right: 0;
+  bottom: 26px;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  pointer-events: none;
+  transition: opacity 0.6s ease, transform 0.7s var(--out);
+}
+.story[data-intro="false"] .selector {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+/* no tray behind the tabs: only the pill under the chapter that's on */
+.tabs {
+  position: relative;
+  display: flex;
+  gap: 6px;
+}
+
+.tabPill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 999px;
+  background: #4caf8a;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -2px 0 rgba(13, 27, 42, 0.16),
+    0 14px 30px -12px rgba(76, 175, 138, 0.8);
+  transition: transform 0.6s cubic-bezier(0.34, 1.45, 0.64, 1), width 0.5s cubic-bezier(0.34, 1.3, 0.64, 1);
+}
+
+.tab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  height: 52px;
+  padding: 0 22px 0 18px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(247, 243, 238, 0.62);
+  font: 700 16px/1 var(--font-dm-sans), system-ui, sans-serif;
+  letter-spacing: -0.005em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.6s cubic-bezier(0.34, 1.45, 0.64, 1);
+}
+.tab[data-selected="true"] {
+  color: #0d1b2a;
+}
+.tab:not([data-selected="true"]):hover {
+  color: #f7f3ee;
+}
+.tab:focus-visible {
+  outline: 2px solid #a8d8b9;
+  outline-offset: 3px;
+}
+
+/* ── phones and narrow windows ─────────────────────────────────── */
+
+/* a phone: the title in two lines at most, the button over a centred store note */
+@media (max-width: 559.98px) {
+  .introTitle {
+    font-size: clamp(36px, 10.4vw, 46px);
+  }
+  .introBody {
+    margin-top: 20px;
+  }
+  .introCta {
+    margin-top: 34px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .introCta .introStores {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 959.98px) {
+  .copy {
+    inset: 92px 20px auto;
+    display: grid;
+    text-align: center;
+  }
+  .step {
+    position: relative;
+    top: auto;
+    left: auto;
+    grid-area: 1 / 1;
+    transform: none;
+  }
+  .stepTitle {
+    margin-top: 12px;
+    font-size: clamp(30px, 8.4vw, 40px);
+  }
+  .stepBody,
+  .stepBody[data-align="end"] {
+    margin: 12px auto 0;
+    max-width: 440px;
+    font-size: 15.5px;
+    line-height: 1.5;
+  }
+  .eyebrow {
+    font-size: 11.5px;
+  }
+  .cueWrap {
+    display: none;
+  }
+  .tab {
+    height: 40px;
+    gap: 7px;
+    padding: 0 14px 0 11px;
+    font-size: 14px;
+  }
+  .tab svg {
+    width: 16px;
+    height: 16px;
+  }
+  .selector {
+    bottom: max(18px, env(safe-area-inset-bottom));
+  }
+  /* here the phone runs under the tabs: no tray, the stage just fades to the
+     ground behind them so they read */
+  .selector::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: calc(-1 * max(18px, env(safe-area-inset-bottom)));
+    height: 150px;
+    background: linear-gradient(rgba(13, 27, 42, 0), rgba(13, 27, 42, 0.88) 55%, #0d1b2a);
+    pointer-events: none;
+  }
+}
+
+/* a phone held sideways: the copy on the left half, the device on the right
+   (product-story.tsx sets data-landscape and places the device) */
+.story[data-landscape] .copy {
+  inset: 86px 50% auto 24px;
+  text-align: left;
+}
+.story[data-landscape] .stepTitle {
+  font-size: clamp(26px, 4vw, 34px);
+}
+.story[data-landscape] .stepBody,
+.story[data-landscape] .stepBody[data-align="end"] {
+  margin: 10px 0 0;
+  font-size: 14.5px;
+}
+
+@media (max-width: 380px) {
+  .tab svg {
+    display: none;
+  }
+  .tab {
+    padding: 0 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story *,
+  .story *::before,
+  .story *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "title": "Help",
+  "description": "How to get help with Savlo, plus answers to the questions people ask most about recording expenses, offline use, data, subscriptions and account deletion.",
+  "lastUpdated": "Last updated August 30, 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Savlo is an Android app for personal finances. If something is not working or you cannot find an answer below, write to <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> and a person will read it."
+      },
+      {
+        "type": "p",
+        "text": "When you write, telling us your phone model, your Android version and what you were doing when it happened usually saves a whole round trip."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "recording",
+      "heading": "Recording money in and out",
+      "content": [
+        {
+          "type": "p",
+          "text": "There are three ways, and they all end in the same place:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>By voice.</strong> Hold the microphone and say it the way you would say it out loud — \"twelve fifty coffee yesterday\". Savlo works out the amount, the date and the category.",
+            "<strong>By text.</strong> The same thing, typed. You can put several in one go, separated by commas.",
+            "<strong>By hand.</strong> Fill the fields yourself when you want full control."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If it gets a category wrong, correct it on the movement — that is the fastest way to fix it, and the correction sticks."
+        }
+      ]
+    },
+    {
+      "id": "offline",
+      "heading": "Does it work without a connection?",
+      "content": [
+        {
+          "type": "p",
+          "text": "Yes. You can record movements, look at your balances and browse your history with no signal. What you record is stored on the phone and sent on its own as soon as there is a connection again — you do not have to do anything."
+        },
+        {
+          "type": "p",
+          "text": "If something cannot be sent after several tries, Savlo tells you instead of losing it silently, and lets you retry from <strong>Settings</strong>."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Where is my data and who can see it",
+      "content": [
+        {
+          "type": "p",
+          "text": "Your movements are stored on servers in the United States and are tied to your account: nobody else using Savlo can see them."
+        },
+        {
+          "type": "p",
+          "text": "When you use the AI assistant, your question and a summary of your financial context are sent to Google to be answered. <a href=\"/privacy\">The Privacy Policy</a> explains exactly what goes out, to whom, and one thing worth reading about how Google may use it."
+        },
+        {
+          "type": "p",
+          "text": "You can take everything with you at any time from <strong>Settings → Export my data</strong>, which gives you a CSV."
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "heading": "Is what the assistant says financial advice?",
+      "content": [
+        {
+          "type": "p",
+          "text": "No. Savlo is a tool for seeing your own money clearly. The assistant reads your data and can be wrong, so check anything important before acting on it, and talk to a qualified professional for decisions that matter."
+        },
+        {
+          "type": "p",
+          "text": "You can use Savlo without the AI: recording, budgets, accounts and reports all work without it."
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "heading": "Subscriptions and payments",
+      "content": [
+        {
+          "type": "p",
+          "text": "Subscriptions are billed by Google Play, so you manage and cancel them there, not inside Savlo:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Open the <strong>Play Store</strong> app.",
+            "Tap your profile picture, then <strong>Payments and subscriptions → Subscriptions</strong>.",
+            "Choose <strong>Savlo</strong> and tap <strong>Cancel subscription</strong>."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Deleting the app or your Savlo account does not cancel a subscription. Refunds are handled by Google. If something was charged that should not have been, write to us anyway and we will help you sort it out."
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "heading": "Deleting your account",
+      "content": [
+        {
+          "type": "p",
+          "text": "You can delete your account and its data from <strong>Settings → Account &amp; Profile → Personal Info → Delete account</strong>. It is immediate and cannot be undone, so export your data first if you want to keep it."
+        },
+        {
+          "type": "p",
+          "text": "If you no longer have the app installed, <a href=\"/delete-account\">this page explains how to request it by email</a>."
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "heading": "Everything else",
+      "content": [
+        {
+          "type": "ul",
+          "items": [
+            "<a href=\"/privacy\">Privacy Policy</a>",
+            "<a href=\"/terms\">Terms of Service</a>",
+            "<a href=\"/delete-account\">Deleting your account and data</a>",
+            "<a href=\"mailto:support@savloapp.com\">support@savloapp.com</a>"
+          ]
+        }
+      ]
+    }
+  ]
+}

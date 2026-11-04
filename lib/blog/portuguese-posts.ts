@@ -1,5 +1,5 @@
 ﻿import { posts, type BlogCategory } from "./posts";
-import type { BlogPost } from "./posts";
+import type { LocalizedBlogPost } from "./posts";
 
 const englishPostBySlug = new Map(posts.map((post) => [post.slug, post]));
 
@@ -9,10 +9,10 @@ function fromEnglish(slug: string) {
   return post;
 }
 
-export const portuguesePosts: BlogPost[] = [
+export const portuguesePosts: LocalizedBlogPost[] = [
   {
     slug: "how-to-make-a-budget",
-    title: "Como Fazer um Orçamento: Um Guia Calmo Passo a Passo",
+    title: "Como fazer um orçamento: guia passo a passo",
     description:
       "Aprenda a criar um orçamento mensal realista que se adapte à sua vida. Sem planilhas complicadas ou culpa, apenas etapas simples e sustentáveis para paz financeira.",
     category: fromEnglish("how-to-make-a-budget").category,
@@ -26,7 +26,7 @@ export const portuguesePosts: BlogPost[] = [
       blocks: [
         {
                 "kind": "p",
-                "text": "Fazer um orçamento mensal não é um castigo. No fundo, é uma conversa tranquila e honesta com o seu eu passado e o seu eu futuro. Este guia acompanha você passo a passo, sem planilhas hostis, sequências ou números vermelhos que induzem culpa. Apenas decisões intencionais."
+                "text": "Fazer um orçamento mensal não é um castigo. No fundo, é uma conversa honesta com o seu eu passado e o seu eu futuro. Este guia acompanha você passo a passo, sem planilhas hostis, sequências ou números vermelhos que induzem culpa. Apenas decisões intencionais."
         },
         {
                 "kind": "p",
@@ -349,7 +349,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O orçamento base zero funciona melhor para pessoas que gostam de detalhes, que querem controle rigoroso sobre suas finanças, que estão trabalhando para escapar de dívidas rapidamente ou que gostam do processo de construir e manter um plano financeiro. Se planilhas te fazem sentir calmo em vez de ansioso, este pode ser seu método."
+                "text": "O orçamento base zero funciona melhor para pessoas que gostam de detalhes, que querem controle rigoroso sobre suas finanças, que estão trabalhando para escapar de dívidas rapidamente ou que gostam do processo de construir e manter um plano financeiro. Se planilhas te fazem sentir no controle em vez de ansioso, este pode ser seu método."
         },
         {
                 "kind": "p",
@@ -663,11 +663,11 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Savlo adota uma abordagem diferente da maioria dos aplicativos de orçamento. Em vez de se conectar ao seu banco (o que envolve compartilhar suas credenciais com um agregador de dados de terceiros), permite que você registre gastos com entrada de voz ou importe de um arquivo CSV que você baixa sozinho. Seus dados permanecem em seu dispositivo. Sem vinculação bancária, sem anúncios, sem acesso de terceiros à sua vida financeira."
+                "text": "Savlo adota uma abordagem diferente da maioria dos aplicativos de orçamento. Em vez de se conectar ao seu banco (o que envolve compartilhar suas credenciais com um agregador de dados de terceiros), permite que você registre gastos com entrada de voz ou importe de um arquivo CSV que você baixa sozinho. Sem vinculação bancária, sem anúncios, e seus dados financeiros nunca são vendidos."
         },
         {
                 "kind": "p",
-                "text": "Savlo está disponível no Android e em breve no iOS. É projetado para pessoas que querem uma experiência de orçamento mais calma e privada — particularmente aquelas que evitaram aplicativos de orçamento no passado por preocupações com privacidade ou a ansiedade que painéis barulhentos criam."
+                "text": "Savlo é feito para Android, com iOS a caminho. É projetado para pessoas que querem uma experiência de orçamento mais rápida e privada — particularmente aquelas que evitaram aplicativos de orçamento no passado por preocupações com privacidade ou a ansiedade que painéis barulhentos criam."
         },
         {
                 "id": "a-abordagem-h-brida",
@@ -789,14 +789,14 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "> Savlo está disponível no Android e em breve no iOS. É construído para pessoas que querem uma forma mais calma e privada de entender para onde vai seu dinheiro — sem vinculação bancária, sem anúncios e sem julgamento. Se esta guia te ajudou, o aplicativo é o próximo passo."
+                "text": "> Savlo é feito para Android, com iOS a caminho. É construído para pessoas que querem uma forma mais rápida e privada de entender para onde vai seu dinheiro — sem vinculação bancária, sem anúncios e sem julgamento. Se esta guia te ajudou, o aplicativo é o próximo passo."
         }
 ]
     },
   },
   {
     slug: "budgeting-on-a-low-income",
-    title: "Como Fazer Orçamento Com Pouca Renda: Um Guia Realista Passo a Passo Que Realmente Funciona",
+    title: "Como fazer orçamento com pouca renda: um guia realista passo a passo",
     description:
       "Um guia passo a passo sem julgamentos sobre como fazer orçamento com pouca renda. Aprenda a criar uma pequena reserva, proteger o essencial e parar o descontrole quando o orçamento está apertado.",
     category: fromEnglish("budgeting-on-a-low-income").category,
@@ -818,7 +818,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "> Savlo está disponível no Android e em breve no iOS. Tudo o que se explica neste guia pode ser feito em um caderno, uma planilha ou um aplicativo simples. Se você quer uma ferramenta que respeite sua privacidade, não solicite credenciais bancárias e funcione com rotinas apertadas, Savlo foi criada pensando nisso. Você também pode aplicar cada passo sem ela."
+                "text": "> Savlo é feito para Android, com iOS a caminho. Tudo o que se explica neste guia pode ser feito em um caderno, uma planilha ou um aplicativo simples. Se você quer uma ferramenta que respeite sua privacidade, não solicite credenciais bancárias e funcione com rotinas apertadas, Savlo foi criada pensando nisso. Você também pode aplicar cada passo sem ela."
         },
         {
                 "id": "o-que-realmente-significa-fazer-or-amento-com-baix",
@@ -1066,7 +1066,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A melhor ferramenta é a que você realmente vai usar. Com renda apertada, o custo de uma assinatura raramente é o fator decisivo. O fator decisivo é se a ferramenta respeita seu tempo e sua realidade. Para a maioria das pessoas, a ferramenta certa é uma de três: um papel dividido em não negociável, elástico e uma pequena reserva; uma planilha simples com três colunas que é atualizada semanalmente; ou um aplicativo que priorize a privacidade e permita registrar despesas por voz em poucos segundos, sem vincular uma conta bancária. Savlo é construída para o terceiro caminho. Funciona no Android hoje e em breve no iOS, e funciona sem solicitar credenciais bancárias, o que importa quando a confiança é o fator decisivo."
+                "text": "A melhor ferramenta é a que você realmente vai usar. Com renda apertada, o custo de uma assinatura raramente é o fator decisivo. O fator decisivo é se a ferramenta respeita seu tempo e sua realidade. Para a maioria das pessoas, a ferramenta certa é uma de três: um papel dividido em não negociável, elástico e uma pequena reserva; uma planilha simples com três colunas que é atualizada semanalmente; ou um aplicativo que priorize a privacidade e permita registrar despesas por voz em poucos segundos, sem vincular uma conta bancária. Savlo é construída para o terceiro caminho. É feita para Android, com iOS a caminho, e funciona sem solicitar credenciais bancárias, o que importa quando a confiança é o fator decisivo."
         },
         {
                 "kind": "p",
@@ -1132,7 +1132,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Um orçamento com baixa renda não é uma performance. É um hábito de manutenção. O trabalho é evitar que pequenas surpresas se tornem grandes crises, manter um pouco de dinheiro em reserva e manter você perto o suficiente dos números para tomar uma decisão calma quando algo quebrar. Um orçamento pequeno e honesto ao qual você volta no próximo domingo supera um perfeito que você abandona em três semanas."
+                "text": "Um orçamento com baixa renda não é uma performance. É um hábito de manutenção. O trabalho é evitar que pequenas surpresas se tornem grandes crises, manter um pouco de dinheiro em reserva e manter você perto o suficiente dos números para tomar uma boa decisão quando algo quebrar. Um orçamento pequeno e honesto ao qual você volta no próximo domingo supera um perfeito que você abandona em três semanas."
         },
         {
                 "kind": "p",
@@ -1140,14 +1140,14 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A parte mais difícil de um orçamento com renda apertada não são as contas. É a solidão de fazê-lo. A maioria das conversas sobre orçamento assume uma margem que você não tem e a maioria do conteúdo sobre orçamento é escrito para pessoas que podem absorver uma surpresa. Você não está atrasado e não está fracassando. Você está executando uma versão mais exigente do mesmo exercício, com menos margem de erro e uma margem menor para surpresas. Um orçamento que se adapte a essa realidade é uma das ferramentas mais úteis que você pode construir e vale a hora que leva para começar. Se você quer uma ferramenta que respeite sua privacidade, não solicite credenciais bancárias e funcione com rotinas apertadas, Savlo está disponível no Android e em breve no iOS. Foi criada para o tipo de orçamento descrito neste guia: pequeno, honesto e fácil de voltar. Tudo aqui funciona sem ela. Se você quer um companheiro para a rotina, Savlo é uma das opções mais discretas do mercado."
+                "text": "A parte mais difícil de um orçamento com renda apertada não são as contas. É a solidão de fazê-lo. A maioria das conversas sobre orçamento assume uma margem que você não tem e a maioria do conteúdo sobre orçamento é escrito para pessoas que podem absorver uma surpresa. Você não está atrasado e não está fracassando. Você está executando uma versão mais exigente do mesmo exercício, com menos margem de erro e uma margem menor para surpresas. Um orçamento que se adapte a essa realidade é uma das ferramentas mais úteis que você pode construir e vale a hora que leva para começar. Se você quer uma ferramenta que respeite sua privacidade, não solicite credenciais bancárias e funcione com rotinas apertadas, Savlo é feito para Android, com iOS a caminho. Foi criada para o tipo de orçamento descrito neste guia: pequeno, honesto e fácil de voltar. Tudo aqui funciona sem ela. Se você quer um companheiro para a rotina, Savlo é uma das opções mais simples do mercado."
         }
 ]
     },
   },
   {
     slug: "financial-anxiety",
-    title: "Por Que o Dinheiro Nos Anxia (E 7 Hábitos Diários Para Aliviar)",
+    title: "Por que o dinheiro nos deixa ansiosos (e 7 hábitos diários que ajudam)",
     description:
       "A ansiedade financeira não é apenas sobre quanto você ganha. Aprenda práticas diárias e simples para reduzir o estresse com dinheiro e construir uma relação mais saudável com suas finanças.",
     category: fromEnglish("financial-anxiety").category,
@@ -1170,7 +1170,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A ansiedade financeira não é sobre o número na sua conta. Pessoas com poupanças de seis dígitos podem acordar às 3h da manhã se perguntando se têm o suficiente, e pessoas sem nada podem dormir tranquilamente. A ansiedade vem da lacuna entre o que você tem e o que acredita que precisa, combinada com a sensação de que não tem controle sobre se essa lacuna se fechará. É uma sensação, não uma declaração financeira."
+                "text": "A ansiedade financeira não é sobre o número na sua conta. Pessoas com poupanças de seis dígitos podem acordar às 3h da manhã se perguntando se têm o suficiente, e pessoas sem nada podem dormir bem. A ansiedade vem da lacuna entre o que você tem e o que acredita que precisa, combinada com a sensação de que não tem controle sobre se essa lacuna se fechará. É uma sensação, não uma declaração financeira."
         },
         {
                 "kind": "p",
@@ -1212,7 +1212,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Os sintomas físicos criam um ciclo de retroalimentação. Você sente a dor de cabeça, e seu cérebro interpreta a dor de cabeça como evidência de que algo está errado, o que aumenta a ansiedade, o que aumenta a dor de cabeça. O ciclo se auto-reforça, e a única forma de quebrá-lo é abordar a ansiedade em sua origem: o pensamento, não o sintoma. O corpo se acalma quando a mente se acalma, e a mente se acalma quando a incerteza diminui. Os hábitos deste guia são projetados para diminuir a incerteza, que é a solução de raiz para os sintomas físicos."
+                "text": "Os sintomas físicos criam um ciclo de retroalimentação. Você sente a dor de cabeça, e seu cérebro interpreta a dor de cabeça como evidência de que algo está errado, o que aumenta a ansiedade, o que aumenta a dor de cabeça. O ciclo se auto-reforça, e a única forma de quebrá-lo é abordar a ansiedade em sua origem: o pensamento, não o sintoma. O corpo baixa a guarda quando a mente se organiza, e a mente se organiza quando a incerteza diminui. Os hábitos deste guia são projetados para diminuir a incerteza, que é a solução de raiz para os sintomas físicos."
         },
         {
                 "kind": "p",
@@ -1360,7 +1360,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A versão prática disso é chamada co-regulação. Você se senta na mesma sala enquanto a pessoa abre seu aplicativo bancário. Você não olha para a tela. Você não comenta sobre o número. Você simplesmente existe no espaço enquanto ela faz aquilo que lhe dá medo. Sua presença calma reduz a resposta de estresse dela, o que torna o olhar possível, o que torna a próxima vez mais fácil. A co-regulação não é uma correção. É uma ponte que torna a correção possível."
+                "text": "A versão prática disso é chamada co-regulação. Você se senta na mesma sala enquanto a pessoa abre seu aplicativo bancário. Você não olha para a tela. Você não comenta sobre o número. Você simplesmente existe no espaço enquanto ela faz aquilo que lhe dá medo. Sua presença estável reduz a resposta de estresse dela, o que torna o olhar possível, o que torna a próxima vez mais fácil. A co-regulação não é uma correção. É uma ponte que torna a correção possível."
         },
         {
                 "kind": "p",
@@ -1431,7 +1431,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Um aplicativo de orçamento pode ajudar com a ansiedade financeira? Depende do aplicativo. Alguns aplicativos pioram a ansiedade bombardeando você com notificações, mostrando gráficos que parecem julgamento e fazendo você sentir que está falhando. Um aplicativo bem projetado faz o contrário: reduz o número de decisões que você precisa tomar, apresenta a informação com calma e ajuda a construir uma rotina que faz olhar para seu dinheiro se sentir normal. O aplicativo certo não substitui ajuda profissional para ansiedade severa, mas pode fazer parte de um plano que reduz a carga diária."
+                "text": "Um aplicativo de orçamento pode ajudar com a ansiedade financeira? Depende do aplicativo. Alguns aplicativos pioram a ansiedade bombardeando você com notificações, mostrando gráficos que parecem julgamento e fazendo você sentir que está falhando. Um aplicativo bem projetado faz o contrário: reduz o número de decisões que você precisa tomar, apresenta a informação com clareza e ajuda a construir uma rotina que faz olhar para seu dinheiro se sentir normal. O aplicativo certo não substitui ajuda profissional para ansiedade severa, mas pode fazer parte de um plano que reduz a carga diária."
         },
         {
                 "kind": "p",
@@ -1439,20 +1439,20 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Deveria compartilhar minha ansiedade financeira com meu parceiro? Sim, mas com estrutura. Escolha um momento em que nenhum dos dois esteja estressado, defina um limite de tempo e concentre-se em como você se sente em vez de no que a outra pessoa deveria fazer. O objetivo da conversa não é resolver o problema juntos. O objetivo é ser conhecido. Uma vez que o sentimento é compartilhado, a vergonha perde seu poder, e a resolução de problemas se torna possível de um lugar mais calmo."
+                "text": "Deveria compartilhar minha ansiedade financeira com meu parceiro? Sim, mas com estrutura. Escolha um momento em que nenhum dos dois esteja estressado, defina um limite de tempo e concentre-se em como você se sente em vez de no que a outra pessoa deveria fazer. O objetivo da conversa não é resolver o problema juntos. O objetivo é ser conhecido. Uma vez que o sentimento é compartilhado, a vergonha perde seu poder, e a resolução de problemas se torna possível de um lugar mais estável."
         },
         {
                 "kind": "p",
-                "text": "E se minha ansiedade financeira for justificada porque minhas finanças estão realmente ruins? Mesmo ansiedade justificada ainda é ansiedade, e ansiedade não ajuda você a resolver problemas financeiros. Ela faz você evitá-los. O fato de suas finanças serem difíceis torna mais importante, não menos, interagir com elas calmamente. A calma não é negação. A calma é a condição sob a qual boas decisões são possíveis. Uma pessoa calma com finanças ruins toma melhores decisões do que uma pessoa ansiosa com finanças ruins, sempre."
+                "text": "E se minha ansiedade financeira for justificada porque minhas finanças estão realmente ruins? Mesmo ansiedade justificada ainda é ansiedade, e ansiedade não ajuda você a resolver problemas financeiros. Ela faz você evitá-los. O fato de suas finanças serem difíceis torna mais importante, não menos, interagir com elas com a cabeça no lugar. Clareza não é negação. É a condição sob a qual boas decisões são possíveis. Uma pessoa com a cabeça no lugar e finanças ruins toma melhores decisões do que uma pessoa ansiosa com finanças ruins, sempre."
         },
         {
                 "kind": "p",
                 "text": "É normal sentir ansiedade sobre dinheiro mesmo quando estou indo bem? Sim. A ansiedade financeira não é proporcional à sua situação financeira. É proporcional ao seu relacionamento com a incerteza, seus scripts infantis sobre dinheiro e as comparações que você faz. Pessoas com rendas confortáveis frequentemente se sentem mais ansiosas sobre dinheiro do que pessoas com menos, porque têm mais a perder e decisões mais complexas a tomar. A ansiedade não é um sinal de que algo está errado com suas finanças. É um sinal de que algo vale a pena explorar em seu relacionamento com o dinheiro."
         },
         {
-                "id": "uma-rela-o-mais-calma-com-o-dinheiro-come-a-com-ol",
+                "id": "uma-relacao-melhor-com-o-dinheiro-comeca-com-olhar",
                 "kind": "h2",
-                "text": "Uma relação mais calma com o dinheiro começa com olhar"
+                "text": "Uma relação melhor com o dinheiro começa com olhar"
         },
         {
                 "kind": "p",
@@ -1464,14 +1464,14 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Se você quer uma ferramenta que torna o olhar mais fácil, Savlo foi projetado exatamente para isso: uma forma calma, privada e sem anúncios de ver seu dinheiro sem a sobrecarga. Está disponível no Android e em breve no iOS. Se você quiser continuar aprofundando, os artigos relacionados abaixo aprofundam a mecânica específica: a filosofia orçamentária mais ampla, a mecânica prática de fundos rotativos, e o guia específico da regra 50/30/20 se você quiser um ponto de partida simples."
+                "text": "Se você quer uma ferramenta que torna o olhar mais fácil, Savlo foi projetado exatamente para isso: uma forma rápida, privada e sem anúncios de ver seu dinheiro sem a sobrecarga. É feito para Android, com iOS a caminho. Se você quiser continuar aprofundando, os artigos relacionados abaixo aprofundam a mecânica específica: a filosofia orçamentária mais ampla, a mecânica prática de fundos rotativos, e o guia específico da regra 50/30/20 se você quiser um ponto de partida simples."
         }
 ]
     },
   },
   {
     slug: "sinking-funds",
-    title: "Sinking Funds: O Guia Completo Para Economizar Sem Estresse",
+    title: "Sinking funds: o guia completo para economizar sem estresse",
     description:
       "Um sinking fund transforma grandes despesas futuras previsíveis em pequenas economias mensais. Aprenda a configurar sinking funds para viagens, feriados e manutenção do carro.",
     category: fromEnglish("sinking-funds").category,
@@ -1485,7 +1485,7 @@ export const portuguesePosts: BlogPost[] = [
       blocks: [
         {
                 "kind": "p",
-                "text": "Um fundo de ahorro específico é um fundo de poupança destinado a uma despesa grande e esperada no futuro: umas férias, o registro anual do carro, presentes de Natal ou manutenção da casa. Não é um fundo de emergência; é um planejamento calmo e deliberado."
+                "text": "Um fundo de ahorro específico é um fundo de poupança destinado a uma despesa grande e esperada no futuro: umas férias, o registro anual do carro, presentes de Natal ou manutenção da casa. Não é um fundo de emergência; é um planejamento deliberado."
         },
         {
                 "kind": "p",
@@ -2072,7 +2072,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A paz financeira que vem dos fundos de ahorro específicos é difícil de superestimar. Quando você sabe que seu seguro está coberto, suas férias estão financiadas e sua manutenção do carro está sendo cuidada, toda a sua vida financeira se sente mais calma. O orçamento mensal é menos estressante. O cartão de crédito fica na sua carteira. As despesas inesperadas param de surpreendê-lo."
+                "text": "A paz financeira que vem dos fundos de ahorro específicos é difícil de superestimar. Quando você sabe que seu seguro está coberto, suas férias estão financiadas e sua manutenção do carro está sendo cuidada, toda a sua vida financeira fica mais sob controle. O orçamento mensal é menos estressante. O cartão de crédito fica na sua carteira. As despesas inesperadas param de surpreendê-lo."
         },
         {
                 "kind": "p",
@@ -2080,14 +2080,14 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Para mais guias de planejamento financeiro, explore nossos{\" \"} fundamentos de orçamento, a{\" \"} regra 50/30/20,{\" \"} orçamento baseado em zero e nosso guia sobre{\" \"} fundos de emergência vs. fundos de ahorro específicos. Savlo está disponível no Android e em breve no iOS."
+                "text": "Para mais guias de planejamento financeiro, explore nossos{\" \"} fundamentos de orçamento, a{\" \"} regra 50/30/20,{\" \"} orçamento baseado em zero e nosso guia sobre{\" \"} fundos de emergência vs. fundos de ahorro específicos. Savlo é feito para Android, com iOS a caminho."
         }
 ]
     },
   },
   {
     slug: "zero-based-budgeting",
-    title: "Orçamento Base Zero: Uma Abordagem Calma e Moderna",
+    title: "Orçamento base zero: uma abordagem moderna",
     description:
       "Dê um emprego a cada real antes de gastá-lo com o orçamento base zero. Aprenda como essa metodologia funciona, seus benefícios e como começar sem se sentir restrito.",
     category: fromEnglish("zero-based-budgeting").category,
@@ -2150,7 +2150,7 @@ export const portuguesePosts: BlogPost[] = [
         {
                 "kind": "ul",
                 "items": [
-                        "Envelheça seu dinheiro. Quanto mais tempo seu dinheiro permanece na conta antes de ser gasto, mais espaço de manobra você tem. Com o tempo, a orçamentação de base zero amplia a lacuna entre ganhar e gastar, o que cria uma verdadeira calma financeira. A meta não é acumular. A meta é gastar dinheiro que tem pelo menos um mês de antiguidade, não dinheiro que acabou de chegar."
+                        "Envelheça seu dinheiro. Quanto mais tempo seu dinheiro permanece na conta antes de ser gasto, mais espaço de manobra você tem. Com o tempo, a orçamentação de base zero amplia a lacuna entre ganhar e gastar, o que cria uma verdadeira estabilidade financeira. A meta não é acumular. A meta é gastar dinheiro que tem pelo menos um mês de antiguidade, não dinheiro que acabou de chegar."
                 ]
         },
         {
@@ -2183,7 +2183,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Agora o mês começa. Até o dia 12, os restaurantes foram mais afetados do que o esperado, e há um excesso de $40. O plano não está quebrado. A regra é mover $40 de uma categoria com sobras (o entretenimento teve uma semana tranquila) para os restaurantes. O total permanece em zero. O plano se ajustou. O comportamento mudou. O mês continua."
+                "text": "Agora o mês começa. Até o dia 12, os restaurantes foram mais afetados do que o esperado, e há um excesso de $40. O plano não está quebrado. A regra é mover $40 de uma categoria com sobras (o entretenimento teve uma semana de pouco gasto) para os restaurantes. O total permanece em zero. O plano se ajustou. O comportamento mudou. O mês continua."
         },
         {
                 "id": "construindo-um-or-amento-de-base-zero-que-sobreviv",
@@ -2357,7 +2357,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O primeiro mês com um orçamento de base zero raramente é tranquilo. O plano leva mais tempo para ser construído do que você espera, as categorias não estão totalmente corretas, e os números mudam à medida que o mês avança. O plano deve mudar. O erro é tratar o primeiro mês como um fracasso se ele não chegar a zero no primeiro dia. O primeiro mês realista é mais parecido com um rascunho do que com uma versão final: ele ensina quais devem ser as categorias, quais devem ser os objetivos dos Fundos de Reserva, e como as categorias elásticas realmente se comportam. O segundo mês é quando o plano começa a parecer o que você queria escrever desde o início."
+                "text": "O primeiro mês com um orçamento de base zero raramente é fácil. O plano leva mais tempo para ser construído do que você espera, as categorias não estão totalmente corretas, e os números mudam à medida que o mês avança. O plano deve mudar. O erro é tratar o primeiro mês como um fracasso se ele não chegar a zero no primeiro dia. O primeiro mês realista é mais parecido com um rascunho do que com uma versão final: ele ensina quais devem ser as categorias, quais devem ser os objetivos dos Fundos de Reserva, e como as categorias elásticas realmente se comportam. O segundo mês é quando o plano começa a parecer o que você queria escrever desde o início."
         },
         {
                 "kind": "p",
@@ -2382,7 +2382,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A outra mudança é a relação com o excesso de gasto. Nos primeiros meses, um excesso de gasto se sentia como um fracasso. Pelo sexto mês, um excesso de gasto se sente como uma pergunta: qual categoria tem sobras este mês, e posso mover dinheiro de lá? Os dados deixaram de ser um veredicto e começaram a ser uma ferramenta. O plano continua chegando a zero. O mês continua. A calma que o sistema deveria produzir começa a se sentir realmente como calma."
+                "text": "A outra mudança é a relação com o excesso de gasto. Nos primeiros meses, um excesso de gasto se sentia como um fracasso. Pelo sexto mês, um excesso de gasto se sente como uma pergunta: qual categoria tem sobras este mês, e posso mover dinheiro de lá? Os dados deixaram de ser um veredicto e começaram a ser uma ferramenta. O plano continua chegando a zero. O mês continua. O controle que o sistema deveria produzir começa a se sentir realmente como controle."
         },
         {
                 "kind": "p",
@@ -2485,24 +2485,24 @@ export const portuguesePosts: BlogPost[] = [
                 "text": "Posso usar a orçamentação de base zero sem um aplicativo? Sim. Uma planilha em branco com colunas para categoria, planejado, real, e diferença é suficiente para executar o método. Um caderno de papel também funciona. O aplicativo é útil para o acompanhamento contínuo de gastos pequenos, mas a parte de planejamento da orçamentação de base zero pode ser feita em qualquer lugar, e muitas pessoas mantêm o método completo funcionando em uma única página de um caderno por anos. A ferramenta certa é a que você ainda estará usando no próximo mês."
         },
         {
-                "id": "um-plano-tranquilo-e-completo-ao-qual-voc-pode-vol",
+                "id": "um-plano-completo-ao-qual-voce-pode-voltar",
                 "kind": "h2",
-                "text": "Um plano tranquilo e completo ao qual você pode voltar"
+                "text": "Um plano completo ao qual você pode voltar"
         },
         {
                 "kind": "p",
-                "text": "A orçamentação de base zero é uma forma de dar a cada dólar um trabalho, aceitar os gastos reais que aparecem algumas vezes ao ano, adaptar-se aos golpes quando uma categoria ultrapassa, e envelhecer seu dinheiro para que a lacuna entre ganhar e gastar se amplie. O método não é para todos. Recompensa pessoas que gostam de estrutura e consistência, e é mais difícil de manter quando a renda é altamente irregular. Para a maioria das pessoas, ele se torna o orçamento mais calmo que já mantiveram, e o mais fácil de voltar a usar após um mês ruim."
+                "text": "A orçamentação de base zero é uma forma de dar a cada dólar um trabalho, aceitar os gastos reais que aparecem algumas vezes ao ano, adaptar-se aos golpes quando uma categoria ultrapassa, e envelhecer seu dinheiro para que a lacuna entre ganhar e gastar se amplie. O método não é para todos. Recompensa pessoas que gostam de estrutura e consistência, e é mais difícil de manter quando a renda é altamente irregular. Para a maioria das pessoas, ele se torna o orçamento mais claro que já mantiveram, e o mais fácil de voltar a usar após um mês ruim."
         },
         {
                 "kind": "p",
-                "text": "Se você quiser experimentar o método sem se comprometer com um novo aplicativo, execute-o em uma planilha por um mês. Se você quiser uma ferramenta que respeite sua privacidade, não peça credenciais bancárias, e funcione com as mesmas quatro regras, o Savlo está disponível no Android e em breve no iOS. Ele é construído ao redor dos mesmos princípios: atribuir cada dólar, aceitar os gastos reais, adaptar-se aos golpes, e envelhecer seu dinheiro. O resto deste blog aprofunda as ideias relacionadas, desde a filosofia orçamentária mais ampla até a mecânica prática dos Fundos de Reserva, se você quiser continuar."
+                "text": "Se você quiser experimentar o método sem se comprometer com um novo aplicativo, execute-o em uma planilha por um mês. Se você quiser uma ferramenta que respeite sua privacidade, não peça credenciais bancárias, e funcione com as mesmas quatro regras, o Savlo é feito para Android, com iOS a caminho. Ele é construído ao redor dos mesmos princípios: atribuir cada dólar, aceitar os gastos reais, adaptar-se aos golpes, e envelhecer seu dinheiro. O resto deste blog aprofunda as ideias relacionadas, desde a filosofia orçamentária mais ampla até a mecânica prática dos Fundos de Reserva, se você quiser continuar."
         }
 ]
     },
   },
   {
     slug: "how-to-get-out-of-debt",
-    title: "Como Sair das Dívidas Sem Culpa",
+    title: "Como sair das dívidas sem culpa",
     description:
       "Bola de neve da dívida vs. avalanche de dívida comparados sem julgamentos. Aprenda uma estratégia humana para enfrentar cartões de crédito e empréstimos sem perder a motivação.",
     category: fromEnglish("how-to-get-out-of-debt").category,
@@ -2548,7 +2548,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Entender isso reformula toda a conversa. Dívida não é uma falha moral. Não é prova de que você é ruim com dinheiro. É uma situação financeira que produz uma resposta de estresse neurológico, e as soluções mais eficazes trabalham com o seu cérebro, não contra ele. Um plano calmo e realista que você possa seguir consistentemente sempre superará um plano perfeito que você abandona após três semanas."
+                "text": "Entender isso reformula toda a conversa. Dívida não é uma falha moral. Não é prova de que você é ruim com dinheiro. É uma situação financeira que produz uma resposta de estresse neurológico, e as soluções mais eficazes trabalham com o seu cérebro, não contra ele. Um plano realista que você possa seguir consistentemente sempre superará um plano perfeito que você abandona após três semanas."
         },
         {
                 "kind": "divider"
@@ -2560,7 +2560,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O primeiro passo para sair da dívida é saber exatamente quanto você deve. Isso pode parecer óbvio, mas a maioria das pessoas endividadas tem uma sensação vaga de suas obrigações totais sem um quadro claro e escrito. A vaguidão gera ansiedade. A especificidade gera calma. Você precisa passar de \"eu devo muito\" para \"eu devo US$ 23.400 em quatro contas com estas taxas de juros.\""
+                "text": "O primeiro passo para sair da dívida é saber exatamente quanto você deve. Isso pode parecer óbvio, mas a maioria das pessoas endividadas tem uma sensação vaga de suas obrigações totais sem um quadro claro e escrito. A vaguidão gera ansiedade. A especificidade gera controle. Você precisa passar de \"eu devo muito\" para \"eu devo US$ 23.400 em quatro contas com estas taxas de juros.\""
         },
         {
                 "kind": "p",
@@ -2901,7 +2901,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "[/](Savlo) foi projetado com isso em mente. Ele adota uma abordagem mais calma para o gerenciamento de dinheiro, focando em rastreamento de despesas por voz, fundos para grandes despesas planejadas e um guia diário de gastos que informa exatamente quanto você pode gastar hoje sem desviá-lo de seus metas. Quando você está endividado, esse tipo de clareza em tempo real importa. Você não precisa de uma planilha complexa. Você precisa saber onde está, hoje, agora."
+                "text": "[/](Savlo) foi projetado com isso em mente. Ele adota uma abordagem mais simples para o gerenciamento de dinheiro, focando em rastreamento de despesas por voz, fundos para grandes despesas planejadas e um guia diário de gastos que informa exatamente quanto você pode gastar hoje sem desviá-lo de seus metas. Quando você está endividado, esse tipo de clareza em tempo real importa. Você não precisa de uma planilha complexa. Você precisa saber onde está, hoje, agora."
         },
         {
                 "kind": "p",
@@ -2909,7 +2909,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "> <strong>Dica do Savlo:</strong> Quando você está pagando uma dívida, seu orçamento não é sobre se restringir. É sobre dar a cada dólar um trabalho. A disciplina está na alocação, não na privação. Savlo está disponível no Android e em breve no iOS."
+                "text": "> <strong>Dica do Savlo:</strong> Quando você está pagando uma dívida, seu orçamento não é sobre se restringir. É sobre dar a cada dólar um trabalho. A disciplina está na alocação, não na privação. Savlo é feito para Android, com iOS a caminho."
         },
         {
                 "kind": "divider"
@@ -3197,7 +3197,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "> Savlo ajuda você a rastrear gastos, construir fundos para grandes despesas e se manter focado em seu plano de quitação de dívida com uma abordagem mais calma e simples para gerenciamento de dinheiro. Disponível no Android e em breve no iOS."
+                "text": "> Savlo ajuda você a rastrear gastos, construir fundos para grandes despesas e se manter focado em seu plano de quitação de dívida com uma abordagem mais rápida e simples para gerenciamento de dinheiro. Feito para Android, com iOS a caminho."
         },
         {
                 "kind": "p",
@@ -3208,7 +3208,7 @@ export const portuguesePosts: BlogPost[] = [
   },
   {
     slug: "best-mint-alternatives-2025",
-    title: "Melhores Alternativas ao Mint em 2025 (Agora Que o Mint Acabou)",
+    title: "Melhores alternativas ao Mint em 2025 (agora que o Mint acabou)",
     description:
       "O Mint foi desativado em 2024. Aqui estão as melhores alternativas classificadas por privacidade, preço e facilidade de uso — incluindo apps que não exigem vincular sua conta bancária.",
     category: fromEnglish("best-mint-alternatives-2025").category,
@@ -3226,7 +3226,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Se você ainda está procurando um substituto, não está sozinho. Milhões de ex-usuários do Mint passaram o último ano testando alternativas, trocando de apps e repensando como querem gerenciar seu dinheiro. A boa notícia é que o mercado de apps de orçamento amadureceu significativamente desde que o Mint fechou suas portas. Hoje existem opções genuinamente excelentes para quase todos os tipos de usuários — seja você que quer sincronização automática com o banco e acompanhamento de investimentos, um sistema estruturado para mudar seus hábitos financeiros, ou uma abordagem mais privada e calma que não exige compartilhar suas credenciais bancárias."
+                "text": "Se você ainda está procurando um substituto, não está sozinho. Milhões de ex-usuários do Mint passaram o último ano testando alternativas, trocando de apps e repensando como querem gerenciar seu dinheiro. A boa notícia é que o mercado de apps de orçamento amadureceu significativamente desde que o Mint fechou suas portas. Hoje existem opções genuinamente excelentes para quase todos os tipos de usuários — seja você que quer sincronização automática com o banco e acompanhamento de investimentos, um sistema estruturado para mudar seus hábitos financeiros, ou uma abordagem mais privada e simples que não exige compartilhar suas credenciais bancárias."
         },
         {
                 "kind": "p",
@@ -3343,7 +3343,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O Savlo adota uma abordagem fundamentalmente diferente para o registro de despesas. Em vez de se conectar ao seu banco, ele permite que você registre despesas por voz (\"R$42 no supermercado\") ou importe um CSV diretamente do seu banco. Todos os dados permanecem no seu dispositivo — sem acesso de terceiros, sem agregadores, sem anúncios. Nunca."
+                "text": "O Savlo adota uma abordagem fundamentalmente diferente para o registro de despesas. Em vez de se conectar ao seu banco, ele permite que você registre despesas por voz (\"R$42 no supermercado\") ou importe um CSV diretamente do seu banco. Sem agregadores bancários, sem anúncios, e seus dados nunca são vendidos."
         },
         {
                 "kind": "p",
@@ -3355,7 +3355,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O app está disponível no Android e em breve no iOS. É a escolha certa para te dar o controle diário de suas finanças em minutos, com um design limpo e sem anúncios que elimina a fricção que impede muitas pessoas de olhar seus números. Para mais sobre essa abordagem, veja nosso guia de [como fazer orçamento](/blog/how-to-budget-money) e [ansiedade financeira](/blog/financial-anxiety) sem o excesso."
+                "text": "O app é feito para Android, com iOS a caminho. É a escolha certa para te dar o controle diário de suas finanças em minutos, com um design limpo e sem anúncios que elimina a fricção que impede muitas pessoas de olhar seus números. Para mais sobre essa abordagem, veja nosso guia de [como fazer orçamento](/blog/how-to-budget-money) e [ansiedade financeira](/blog/financial-anxiety) sem o excesso."
         },
         {
                 "id": "monarch-money-a-melhor-op-o-para-sincroniza-o-auto",
@@ -3460,7 +3460,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "<table style={{width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem'}}> <thead> <tr style={{borderBottom: '2px solid #e5e7eb'}}> <th style={{textAlign: 'left', padding: '8px 12px'}}>App</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Preço</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Sincronização Bancária</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Privacidade</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Melhor Para</th> </tr> </thead> <tbody> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}><strong>Savlo</strong></td> <td style={{padding: '8px 12px'}}>Teste gratuito + assinatura</td> <td style={{padding: '8px 12px'}}>Não (CSV / voz)</td> <td style={{padding: '8px 12px'}}>Local, sem terceiros</td> <td style={{padding: '8px 12px'}}>Privacidade e calma</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>Monarch Money</td> <td style={{padding: '8px 12px'}}>$14,99/mês ou $99,99/ano</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Sem anúncios, usa agregador</td> <td style={{padding: '8px 12px'}}>Patrimônio, casais</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>YNAB</td> <td style={{padding: '8px 12px'}}>$14,99/mês ou $109/ano</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Sem anúncios, usa agregador</td> <td style={{padding: '8px 12px'}}>Mudança de comportamento</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>Empower</td> <td style={{padding: '8px 12px'}}>Gratuito (modelo de upsell)</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Upsell de gestão de patrimônio</td> <td style={{padding: '8px 12px'}}>Patrimônio gratuito</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>PocketGuard</td> <td style={{padding: '8px 12px'}}>Gratuito ou $12,99/mês</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Agregador padrão</td> <td style={{padding: '8px 12px'}}>Limite simples de gastos</td> </tr> <tr> <td style={{padding: '8px 12px'}}>EveryDollar</td> <td style={{padding: '8px 12px'}}>Gratuito ou ~$17,99/mês</td> <td style={{padding: '8px 12px'}}>Apenas pago</td> <td style={{padding: '8px 12px'}}>Usa agregador (pago)</td> <td style={{padding: '8px 12px'}}>Zero-based do Ramsey</td> </tr> </tbody> </table>"
+                "text": "<table style={{width: '100%', borderCollapse: 'collapse', fontSize: '0.9rem'}}> <thead> <tr style={{borderBottom: '2px solid #e5e7eb'}}> <th style={{textAlign: 'left', padding: '8px 12px'}}>App</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Preço</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Sincronização Bancária</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Privacidade</th> <th style={{textAlign: 'left', padding: '8px 12px'}}>Melhor Para</th> </tr> </thead> <tbody> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}><strong>Savlo</strong></td> <td style={{padding: '8px 12px'}}>Teste gratuito + assinatura</td> <td style={{padding: '8px 12px'}}>Não (CSV / voz)</td> <td style={{padding: '8px 12px'}}>Sem agregador bancário; dados nunca vendidos</td> <td style={{padding: '8px 12px'}}>Privacidade e rapidez</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>Monarch Money</td> <td style={{padding: '8px 12px'}}>$14,99/mês ou $99,99/ano</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Sem anúncios, usa agregador</td> <td style={{padding: '8px 12px'}}>Patrimônio, casais</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>YNAB</td> <td style={{padding: '8px 12px'}}>$14,99/mês ou $109/ano</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Sem anúncios, usa agregador</td> <td style={{padding: '8px 12px'}}>Mudança de comportamento</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>Empower</td> <td style={{padding: '8px 12px'}}>Gratuito (modelo de upsell)</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Upsell de gestão de patrimônio</td> <td style={{padding: '8px 12px'}}>Patrimônio gratuito</td> </tr> <tr style={{borderBottom: '1px solid #f3f4f6'}}> <td style={{padding: '8px 12px'}}>PocketGuard</td> <td style={{padding: '8px 12px'}}>Gratuito ou $12,99/mês</td> <td style={{padding: '8px 12px'}}>Sim</td> <td style={{padding: '8px 12px'}}>Agregador padrão</td> <td style={{padding: '8px 12px'}}>Limite simples de gastos</td> </tr> <tr> <td style={{padding: '8px 12px'}}>EveryDollar</td> <td style={{padding: '8px 12px'}}>Gratuito ou ~$17,99/mês</td> <td style={{padding: '8px 12px'}}>Apenas pago</td> <td style={{padding: '8px 12px'}}>Usa agregador (pago)</td> <td style={{padding: '8px 12px'}}>Zero-based do Ramsey</td> </tr> </tbody> </table>"
         },
         {
                 "kind": "divider"
@@ -3626,7 +3626,7 @@ export const portuguesePosts: BlogPost[] = [
         {
                 "kind": "ul",
                 "items": [
-                        "<strong>Escolha o Savlo</strong> se privacidade é importante para você, se vincular seu banco o deixa desconfortável, ou se você quer uma interface polida, clara, sem estresse e sem culpa para manter consciência de seus gastos diários. O app enfatiza importações CSV, registro por voz e um ritmo diário de orçamento mais calmo. Disponível no Android e em breve no iOS."
+                        "<strong>Escolha o Savlo</strong> se privacidade é importante para você, se vincular seu banco o deixa desconfortável, ou se você quer uma interface polida, clara, sem estresse e sem culpa para manter consciência de seus gastos diários. O app enfatiza importações CSV, registro por voz e um ritmo diário de orçamento mais ágil. Feito para Android, com iOS a caminho."
                 ]
         },
         {
@@ -3709,7 +3709,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A opção mais segura é um app que mantém seus dados no seu dispositivo e nunca os envia para um servidor. O Savlo é a opção mais forte aqui — ele usa registro por voz e importação CSV, sem sincronização bancária e sem compartilhamento de dados com terceiros. Se você prefere sincronização bancária, apps como Monarch e YNAB não vendem seus dados, mas usam agregadores de terceiros para acessar suas transações."
+                "text": "A opção mais segura é um app que nunca pede suas credenciais bancárias e nunca vende seus dados. O Savlo é feito assim — ele usa registro por voz e importação CSV, sem sincronização bancária, sem agregadores bancários e sem anúncios. Se você prefere sincronização bancária, apps como Monarch e YNAB não vendem seus dados, mas usam agregadores de terceiros para acessar suas transações."
         },
         {
                 "id": "preciso-pagar-por-um-app-de-or-amento",
@@ -3718,7 +3718,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Não. Vários apps oferecem camadas gratuitas — PocketGuard, Empower, EveryDollar e Savlo todos têm opções gratuitas. No entanto, as camadas gratuitas geralmente têm limitações como categorias restritas, menos relatórios ou sem sincronização bancária. Se você quer o conjunto completo de recursos de qualquer app de orçamento sério, espere pagar entre R$50 e R$75 por mês. Como discutido acima, o retorno sobre esse investimento — em termos de redução de gastos impulsivos e melhor consciência financeira — geralmente supera muito o custo."
+                "text": "Não. Vários apps oferecem camadas gratuitas — PocketGuard, Empower e EveryDollar têm opções gratuitas, e o Savlo tem um teste gratuito de 14 dias. No entanto, as camadas gratuitas geralmente têm limitações como categorias restritas, menos relatórios ou sem sincronização bancária. Se você quer o conjunto completo de recursos de qualquer app de orçamento sério, espere pagar entre R$50 e R$75 por mês. Como discutido acima, o retorno sobre esse investimento — em termos de redução de gastos impulsivos e melhor consciência financeira — geralmente supera muito o custo."
         },
         {
                 "id": "posso-usar-mais-de-um-app-de-or-amento",
@@ -3752,14 +3752,14 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "> Se a desativação do Mint deixou você hesitante em compartilhar suas credenciais bancárias com outro app, o Savlo foi construído exatamente com essa preocupação em mente. Sem sincronização bancária, sem anúncios, sem acesso de terceiros aos seus dados — apenas uma visão privada e calma de para onde seu dinheiro vai, registrada por voz ou importada do CSV do seu próprio banco. Disponível no Android e em breve no iOS, com um teste gratuito para que você possa ver se a abordagem se encaixa na sua vida antes de se comprometer."
+                "text": "> Se a desativação do Mint deixou você hesitante em compartilhar suas credenciais bancárias com outro app, o Savlo foi construído exatamente com essa preocupação em mente. Sem sincronização bancária, sem anúncios, e seus dados nunca são vendidos — apenas uma visão privada e clara de para onde seu dinheiro vai, registrada por voz ou importada do CSV do seu próprio banco. Feito para Android, com iOS a caminho, e com um teste gratuito de 14 dias para que você possa ver se a abordagem se encaixa na sua vida antes de se comprometer."
         }
 ]
     },
   },
   {
     slug: "how-to-budget-money",
-    title: "Como Fazer um Orçamento: Um Guia Calmo e Completo Para Iniciantes (E Para Quem Já Tentou Antes)",
+    title: "Como fazer um orçamento: guia completo para iniciantes (e para quem já tentou antes)",
     description:
       "Um guia claro e sem julgamentos sobre como fazer orçamento para iniciantes. Aprenda os quatro números que orientam todo orçamento, três estilos que realmente funcionam e como registrar gastos sem se cansar.",
     category: fromEnglish("how-to-budget-money").category,
@@ -3781,7 +3781,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Se você tentou orçamento antes e desistiu, o erro quase certamente não foi por falta de disciplina. O design da maioria das ferramentas de orçamento luta contra a forma como seu cérebro realmente funciona. Savlo é um dos aplicativos que tenta trabalhar com você em vez de contra você. Está disponível no Android e em breve no iOS, e o resto deste guia fará referência à sua abordagem como um entre vários exemplos. Se você tem apenas dez minutos, pule para o{\" \"} início rápido de sete passos. Se você tem trinta, leia na ordem."
+                "text": "Se você tentou orçamento antes e desistiu, o erro quase certamente não foi por falta de disciplina. O design da maioria das ferramentas de orçamento luta contra a forma como seu cérebro realmente funciona. Savlo é um dos aplicativos que tenta trabalhar com você em vez de contra você. É feito para Android, com iOS a caminho, e o resto deste guia fará referência à sua abordagem como um entre vários exemplos. Se você tem apenas dez minutos, pule para o{\" \"} início rápido de sete passos. Se você tem trinta, leia na ordem."
         },
         {
                 "id": "neste-guia",
@@ -4030,7 +4030,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Se você está começando do zero, aqui há uma sequência calma que produz um orçamento funcional em menos de uma hora. Nenhum desses passos requer um aplicativo, embora um aplicativo torne o próximo mês mais fácil."
+                "text": "Se você está começando do zero, aqui há uma sequência simples que produz um orçamento funcional em menos de uma hora. Nenhum desses passos requer um aplicativo, embora um aplicativo torne o próximo mês mais fácil."
         },
         {
                 "kind": "p",
@@ -4163,7 +4163,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Em vez disso, construa um reinício de sete dias. O dia que você notar o gasto excessivo, não entre em pânico e não tente consertar naquela noite. Espere sete dias. Depois sente-se por vinte minutos, em um ambiente calmo, e faça três perguntas. O que aconteceu? Qual categoria absorveu o impacto? Qual é a mudança menor para o próximo mês que teria impedido isso? Escreva as respostas. Isso é todo o reinício."
+                "text": "Em vez disso, construa um reinício de sete dias. O dia que você notar o gasto excessivo, não entre em pânico e não tente consertar naquela noite. Espere sete dias. Depois sente-se por vinte minutos, sem distrações, e faça três perguntas. O que aconteceu? Qual categoria absorveu o impacto? Qual é a mudança menor para o próximo mês que teria impedido isso? Escreva as respostas. Isso é todo o reinício."
         },
         {
                 "kind": "p",
@@ -4292,7 +4292,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "resumo das melhores alternativas ao Mint em 2025 {\" \"} lhe economizará um fim de semana de pesquisa. Savlo, por exemplo, é projetado para dar a você o controle e a gestão diária de suas finanças em minutos, através de registros fáceis por voz ou texto, importação de planilhas e a organização por contas independentes, em vez de sincronização bancária contínua. Está disponível no Android e em breve no iOS."
+                "text": "resumo das melhores alternativas ao Mint em 2025 {\" \"} lhe economizará um fim de semana de pesquisa. Savlo, por exemplo, é projetado para dar a você o controle e a gestão diária de suas finanças em minutos, através de registros fáceis por voz ou texto, importação de planilhas e a organização por contas independentes, em vez de sincronização bancária contínua. É feito para Android, com iOS a caminho."
         },
         {
                 "kind": "p",
@@ -4387,7 +4387,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O que você ainda estará usando em seis meses. Isso quase sempre é o que tem a menor fricção de entrada e o design mais calmo. O{\" \"}"
+                "text": "O que você ainda estará usando em seis meses. Isso quase sempre é o que tem a menor fricção de entrada e o design mais simples. O{\" \"}"
         },
         {
                 "kind": "p",
@@ -4397,9 +4397,9 @@ export const portuguesePosts: BlogPost[] = [
                 "kind": "divider"
         },
         {
-                "id": "um-caminho-mais-calmo",
+                "id": "um-caminho-mais-claro",
                 "kind": "h2",
-                "text": "Um caminho mais calmo"
+                "text": "Um caminho mais claro"
         },
         {
                 "kind": "p",
@@ -4407,16 +4407,16 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Se você quer uma ferramenta que te ajude a levar o controle e a gestão diária de suas finanças em minutos, Savlo é construído ao redor das ideias que cobrimos: registros rápidos por voz e texto, categorização por categorias, contas independentes para organizar seu dinheiro, sinking funds (fundos acumulativos) e um sistema de sequências (streaks) motivador. Está disponível no Android e em breve no iOS. O resto do blog cobre cada uma dessas ideias em mais profundidade se você quiser continuar."
+                "text": "Se você quer uma ferramenta que te ajude a levar o controle e a gestão diária de suas finanças em minutos, Savlo é construído ao redor das ideias que cobrimos: registros rápidos por voz e texto, categorização por categorias, contas independentes para organizar seu dinheiro, sinking funds (fundos acumulativos) e um sistema de sequências (streaks) motivador. É feito para Android, com iOS a caminho. O resto do blog cobre cada uma dessas ideias em mais profundidade se você quiser continuar."
         }
 ]
     },
   },
   {
     slug: "why-traditional-budgets-fail",
-    title: "Por Que Orcamentos Tradicionais Falham: A Resposta da Finança Comportamental",
+    title: "Por que orçamentos tradicionais falham: a resposta das finanças comportamentais",
     description:
-      "Três vieses psicológicos explicam por que abandonamos apps de orçamento. Descubra como um design comportamental calmo trabalha com o seu cérebro em vez de depender apenas de disciplina.",
+      "Três vieses psicológicos explicam por que abandonamos apps de orçamento. Descubra como um design comportamental simples trabalha com o seu cérebro em vez de depender apenas de disciplina.",
     category: fromEnglish("why-traditional-budgets-fail").category,
     date: fromEnglish("why-traditional-budgets-fail").date,
     dateModified: fromEnglish("why-traditional-budgets-fail").dateModified,
@@ -4571,7 +4571,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "É por isso que você pode seguir um orçamento perfeitamente numa manhã tranquila de sábado mas estourar seus limites de gasto numa noite agitada de quarta-feira. O orçamento não mudou. Seus recursos cognitivos sim."
+                "text": "É por isso que você pode seguir um orçamento perfeitamente numa manhã de sábado sem pressa mas estourar seus limites de gasto numa noite agitada de quarta-feira. O orçamento não mudou. Seus recursos cognitivos sim."
         },
         {
                 "kind": "p",
@@ -4734,7 +4734,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Quando você cria um orçamento no início do mês, está em \"modo planejador\". Você imagina uma versão calma e disciplinada de si mesmo que fará escolhas reflexivas durante todo o mês. Mas quando você está em uma loja com algo que quer, está em \"modo executor\" — uma versão de si que se preocupa com o momento presente, não com o plano que fez dias antes. Orçamentos são criados por planejadores e executados por executores. Estes são estados mentais fundamentalmente diferentes, e orçamentos tradicionais não contam com a lacuna entre eles."
+                "text": "Quando você cria um orçamento no início do mês, está em \"modo planejador\". Você imagina uma versão focada e disciplinada de si mesmo que fará escolhas reflexivas durante todo o mês. Mas quando você está em uma loja com algo que quer, está em \"modo executor\" — uma versão de si que se preocupa com o momento presente, não com o plano que fez dias antes. Orçamentos são criados por planejadores e executados por executores. Estes são estados mentais fundamentalmente diferentes, e orçamentos tradicionais não contam com a lacuna entre eles."
         },
         {
                 "id": "prova-social-e-compara-o",
@@ -4768,9 +4768,9 @@ export const portuguesePosts: BlogPost[] = [
                 "text": "Aqui estão cinco princípios que se seguem diretamente do que a economia comportamental nos diz sobre como os humanos realmente se comportam com dinheiro:"
         },
         {
-                "id": "1-padr-es-calmos",
+                "id": "1-padroes-simples",
                 "kind": "h3",
-                "text": "1. Padrões Calmos"
+                "text": "1. Padrões simples"
         },
         {
                 "kind": "p",
@@ -4812,7 +4812,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Imagine duas versões do mesmo feedback. Versão um: um alerta vermelho dizendo \"Você gastou $47 a mais em Comida este mês!\" Versão dois: uma nota calma dizendo \"Seu gasto com comida foi um pouco maior que o normal este mês. Isso é normal em meses com feriados ou eventos sociais. Veja como se compara com os últimos três meses.\""
+                "text": "Imagine duas versões do mesmo feedback. Versão um: um alerta vermelho dizendo \"Você gastou $47 a mais em Comida este mês!\" Versão dois: uma nota neutra dizendo \"Seu gasto com comida foi um pouco maior que o normal este mês. Isso é normal em meses com feriados ou eventos sociais. Veja como se compara com os últimos três meses.\""
         },
         {
                 "kind": "p",
@@ -4875,7 +4875,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Comece com hábitos diários de calma para reduzir sua carga emocional antes mesmo de tocar os números. Isso pode significar alguns minutos de respiração profunda pela manhã, uma caminhada curta antes de verificar suas contas, ou escrever sobre como você se sente em relação ao dinheiro sem julgamento. Estas não são distrações da gestão financeira. São pré-requisitos para ela."
+                "text": "Comece com pequenos hábitos diários para reduzir sua carga emocional antes mesmo de tocar os números. Isso pode significar alguns minutos de respiração profunda pela manhã, uma caminhada curta antes de verificar suas contas, ou escrever sobre como você se sente em relação ao dinheiro sem julgamento. Estas não são distrações da gestão financeira. São pré-requisitos para ela."
         },
         {
                 "kind": "p",
@@ -5207,7 +5207,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Savlo está disponível no Android e em breve no iOS. É projetado ao redor dos princípios que exploramos neste artigo: padrões calmos, menos categorias, feedback compassivo, revisões baseadas em ritmo e celebração do progresso. Se você está pronto para tentar orçamento de novo — mas diferente desta vez — estamos aqui para isso."
+                "text": "Savlo é feito para Android, com iOS a caminho. É projetado ao redor dos princípios que exploramos neste artigo: padrões simples, menos categorias, feedback compassivo, revisões baseadas em ritmo e celebração do progresso. Se você está pronto para tentar orçamento de novo — mas diferente desta vez — estamos aqui para isso."
         },
         {
                 "kind": "p",
@@ -5270,7 +5270,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Savlo é construído ao redor do princípio de que ferramentas orçamentárias devem funcionar com cognição humana, não contra ela. Usa padrões calmos que reduzem tomada de decisão, categorias amplas que minimizam carga cognitiva e feedback compassivo que evita desencadear vergonha ou ansiedade. Em vez de exigir micro-monitoramento constante, encoraja revisões baseadas em ritmo que se encaixam naturalmente em sua vida. E em vez de apenas apontar onde você falhou, celebra seu progresso. Savlo está disponível no Android e em breve no iOS."
+                "text": "Savlo é construído ao redor do princípio de que ferramentas orçamentárias devem funcionar com cognição humana, não contra ela. Usa padrões simples que reduzem tomada de decisão, categorias amplas que minimizam carga cognitiva e feedback compassivo que evita desencadear vergonha ou ansiedade. Em vez de exigir micro-monitoramento constante, encoraja revisões baseadas em ritmo que se encaixam naturalmente em sua vida. E em vez de apenas apontar onde você falhou, celebra seu progresso. Savlo é feito para Android, com iOS a caminho."
         },
         {
                 "id": "qual-uma-expectativa-realista-de-quanto-tempo-leva",
@@ -5286,7 +5286,7 @@ export const portuguesePosts: BlogPost[] = [
   },
   {
     slug: "50-30-20-rule",
-    title: "A Regra 50/30/20: Como Aplicar Sem Estresse",
+    title: "A regra 50/30/20: como aplicar sem estresse",
     description:
       "A regra de orçamento 50/30/20 explicada com exemplos reais. Aprenda a dividir sua renda entre necessidades, desejos e seu futuro sem se sentir restrito.",
     category: fromEnglish("50-30-20-rule").category,
@@ -6088,15 +6088,15 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Savlo é projetado sob os mesmos princípios que fazem a regra 50/30/20 funcionar: simplicidade, baixa carga cognitiva e compaixão. Em vez de exigir que você categorize cada transação em quarenta subcategorias, Savlo te ajuda a rastrear gastos em categorias amplas e gerenciáveis. Em vez de te envergonhar quando você gasta demais, fornece contexto sereno sobre onde você está em relação às suas metas."
+                "text": "Savlo é projetado sob os mesmos princípios que fazem a regra 50/30/20 funcionar: simplicidade, baixa carga cognitiva e compaixão. Em vez de exigir que você categorize cada transação em quarenta subcategorias, Savlo te ajuda a rastrear gastos em categorias amplas e gerenciáveis. Em vez de te envergonhar quando você gasta demais, fornece contexto claro sobre onde você está em relação às suas metas."
         },
         {
                 "kind": "p",
-                "text": "Savlo suporta a abordagem 50/30/20 facilitando ver, de relance, se suas três categorias estão em equilíbrio. Você pode registrar gastos rapidamente, revisar seus padrões de gasto sem julgamento e ajustar suas alocações conforme a vida muda — tudo em um ambiente calmo e sem anúncios projetado para reduzir a ansiedade financeira em vez de aumentá-la."
+                "text": "Savlo suporta a abordagem 50/30/20 facilitando ver, de relance, se suas três categorias estão em equilíbrio. Você pode registrar gastos rapidamente, revisar seus padrões de gasto sem julgamento e ajustar suas alocações conforme a vida muda — tudo em um ambiente limpo e sem anúncios projetado para reduzir a ansiedade financeira em vez de aumentá-la."
         },
         {
                 "kind": "p",
-                "text": "Savlo está disponível no Android e em breve no iOS."
+                "text": "Savlo é feito para Android, com iOS a caminho."
         },
         {
                 "id": "comece-hoje",
@@ -6206,7 +6206,7 @@ export const portuguesePosts: BlogPost[] = [
   },
   {
     slug: "voice-expense-tracking",
-    title: "Registro de Gastos por Voz: A Forma Mais Rápida de Anotar o Que Você Gasta",
+    title: "Registro de gastos por voz: a forma mais rápida de anotar o que você gasta",
     description:
       "Digitar gastos em um app leva 60 segundos. Dizer em voz alta leva cinco. Veja como funciona o registro de gastos por voz, para quem é indicado e o que procurar em um app.",
     category: fromEnglish("voice-expense-tracking").category,
@@ -6310,7 +6310,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "No Savlo, tanto o inglês quanto o espanhol são suportados para entrada por voz. O app processa o áudio no dispositivo, o que significa que o reconhecimento de fala acontece localmente, a transação é registrada localmente e nada é transmitido externamente. O áudio é convertido em texto e imediatamente descartado — nenhuma gravação é armazenada."
+                "text": "No Savlo, a entrada por voz funciona em português, espanhol, inglês, alemão e francês. O áudio é enviado com segurança aos servidores do Savlo para ser transcrito e, por padrão, a gravação é apagada assim que o texto fica pronto. Se preferir, você pode escolher guardar as gravações por 30 dias."
         },
         {
                 "kind": "p",
@@ -6777,14 +6777,14 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "> O registro por voz do Savlo é construído para o momento em que a despesa acontece — não o momento em que você chega a registrá-lo. O processamento no dispositivo mantém seu áudio privado. Sem vinculação bancária, sem anúncios, sem acesso de terceiros. Apenas uma forma rápida e privada de saber exatamente para onde vai seu dinheiro. Disponível no Android e em breve no iOS."
+                "text": "> O registro por voz do Savlo é construído para o momento em que a despesa acontece — não o momento em que você chega a registrá-lo. Por padrão, as gravações são apagadas depois da transcrição. Sem vinculação bancária, sem anúncios, e seus dados nunca são vendidos. Apenas uma forma rápida e privada de saber exatamente para onde vai seu dinheiro. Feito para Android, com iOS a caminho."
         }
 ]
     },
   },
   {
     slug: "money-dysmorphia",
-    title: "Dismorfia Monetária: Por Que Você se Sente Sem Mesmo Quando Não Está",
+    title: "Dismorfia monetária: por que você se sente sem dinheiro mesmo quando não está",
     description:
       "Dismorfia monetária é se sentir financeiramente quebrado mesmo quando seus números estão bem. Veja o que causa isso, como diferenciar do estresse financeiro real e passos práticos para resolver.",
     category: fromEnglish("money-dysmorphia").category,
@@ -6870,7 +6870,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "É por isso que conselhos como \"simplesmente faça melhor o orçamento\" ou \"pare de se preocupar e olhe os números\" muitas vezes falham para pessoas com dismorfia monetária. Não é que elas não queiram. É que o ato de interagir com informações financeiras desencadeia uma resposta de ameaça que prejudica ativamente os recursos cognitivos necessários para interagir com ela de forma calma. Dizer a alguém com dismorfia monetária para \"simplesmente fazer um orçamento\" é como dizer a alguém com medo de altura para \"simplesmente subir a escada.\" A instrução é simples. A barreira neurológica não é."
+                "text": "É por isso que conselhos como \"simplesmente faça melhor o orçamento\" ou \"pare de se preocupar e olhe os números\" muitas vezes falham para pessoas com dismorfia monetária. Não é que elas não queiram. É que o ato de interagir com informações financeiras desencadeia uma resposta de ameaça que prejudica ativamente os recursos cognitivos necessários para interagir com ela com clareza. Dizer a alguém com dismorfia monetária para \"simplesmente fazer um orçamento\" é como dizer a alguém com medo de altura para \"simplesmente subir a escada.\" A instrução é simples. A barreira neurológica não é."
         },
         {
                 "kind": "p",
@@ -6878,7 +6878,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A pesquisa sobre isso é clara. Quando você está em um estado de estresse financeiro, sua capacidade de planejar, postergar gratificação e tomar decisões complexas está medivelmente prejudicada. Você não está escolhendo ser ruim com dinheiro. Seu cérebro está literalmente funcionando com recursos limitados. É por isso que as intervenções mais eficazes para dismorfia monetária não começam com planilhas. Elas começam com regulação — acalmando o sistema nervioso para que o cérebro racional possa voltar a funcionar."
+                "text": "A pesquisa sobre isso é clara. Quando você está em um estado de estresse financeiro, sua capacidade de planejar, postergar gratificação e tomar decisões complexas está medivelmente prejudicada. Você não está escolhendo ser ruim com dinheiro. Seu cérebro está literalmente funcionando com recursos limitados. É por isso que as intervenções mais eficazes para dismorfia monetária não começam com planilhas. Elas começam com regulação — baixando o alerta do sistema nervoso para que o cérebro racional possa voltar a funcionar."
         },
         {
                 "kind": "divider"
@@ -6895,7 +6895,7 @@ export const portuguesePosts: BlogPost[] = [
         {
                 "kind": "ul",
                 "items": [
-                        "Verificar seu saldo compulsivamente — e depois se sentir pior. Você olha sua conta várias vezes ao dia, não porque está tomando decisões informadas, mas porque está buscando tranquilidade. A tranquilidade nunca vem. Cada verificação reforça a ansiedade em vez de resolvê-la."
+                        "Verificar seu saldo compulsivamente — e depois se sentir pior. Você olha sua conta várias vezes ao dia, não porque está tomando decisões informadas, mas porque está buscando alívio. O alívio nunca vem. Cada verificação reforça a ansiedade em vez de resolvê-la."
                 ]
         },
         {
@@ -7163,11 +7163,11 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O que realmente reduz a ansiedade financeira não é evitar a informação. São encontros repetidos, de baixo risco e calmos com ela. Cada vez que você olha seu saldo e a catástrofe não se materializa, seu cérebro atualiza ligeiramente seu modelo de ameaça. A amígdala começa a aprender: isso não é perigoso. Isso é apenas informação."
+                "text": "O que realmente reduz a ansiedade financeira não é evitar a informação. São encontros repetidos e de baixo risco com ela. Cada vez que você olha seu saldo e a catástrofe não se materializa, seu cérebro atualiza ligeiramente seu modelo de ameaça. A amígdala começa a aprender: isso não é perigoso. Isso é apenas informação."
         },
         {
                 "kind": "p",
-                "text": "É por isso que o ambiente importa. Um aplicativo bancário bagunçado e confuso com números vermelhos e etiquetas alarmantes acionará a resposta de ameaça. Uma interface calma e clara que apresenta informações sem julgamento cria espaço para que seu sistema nervoso permaneça regulado. A ferramenta que você usa para interagir com seu dinheiro não é apenas sobre funcionalidade — é sobre criar as condições para uma experiência emocional diferente. É isso que construímos na Savlo: um espaço calmo para interagir com seu dinheiro sem que a resposta de ameaça sequeire o processo."
+                "text": "É por isso que o ambiente importa. Um aplicativo bancário bagunçado e confuso com números vermelhos e etiquetas alarmantes acionará a resposta de ameaça. Uma interface clara que apresenta informações sem julgamento cria espaço para que seu sistema nervoso permaneça regulado. A ferramenta que você usa para interagir com seu dinheiro não é apenas sobre funcionalidade — é sobre criar as condições para uma experiência emocional diferente. É isso que construímos na Savlo: um espaço claro para interagir com seu dinheiro sem que a resposta de ameaça sequeire o processo."
         },
         {
                 "kind": "p",
@@ -7228,13 +7228,13 @@ export const portuguesePosts: BlogPost[] = [
         {
                 "kind": "ul",
                 "items": [
-                        "Não faça quando já estiver estrescido. Escolha um momento calmo — café da manhã, uma tarde tranquila, uma pausa para almoço."
+                        "Não faça quando já estiver estressado. Escolha um bom momento — café da manhã, uma tarde livre, uma pausa para almoço."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Use uma ferramenta que pareça calma. Isso importa mais do que você pensa. Uma interface caótica reativará a resposta de ameaça que você está tentando regular. Nós projetamos a Savlo especificamente para esse tipo de interação financeira suave e sem julgamento."
+                        "Use uma ferramenta que pareça clara. Isso importa mais do que você pensa. Uma interface caótica reativará a resposta de ameaça que você está tentando regular. Nós projetamos a Savlo especificamente para esse tipo de interação financeira suave e sem julgamento."
                 ]
         },
         {
@@ -7280,13 +7280,13 @@ export const portuguesePosts: BlogPost[] = [
         {
                 "kind": "ul",
                 "items": [
-                        "Construa um ritual tranquilo de verificação de dinheiro. Escolha um horário específico, uma frequência específica e uma ferramenta específica. Verifique suas finanças nas manhãs de terça-feira, usando uma interface calma, por cinco minutos. O ritual reduz a ansiedade porque cria previsibilidade. Seu cérebro sabe o que esperar, o que reduz a resposta de ameaça. Com o tempo, esse ritual se torna o novo padrão — um relacionamento calmo e regular com seu dinheiro em vez de um angustioso e esporádico."
+                        "Construa um ritual fixo de verificação de dinheiro. Escolha um horário específico, uma frequência específica e uma ferramenta específica. Verifique suas finanças nas manhãs de terça-feira, usando uma interface clara, por cinco minutos. O ritual reduz a ansiedade porque cria previsibilidade. Seu cérebro sabe o que esperar, o que reduz a resposta de ameaça. Com o tempo, esse ritual se torna o novo padrão — um relacionamento estável e regular com seu dinheiro em vez de um angustioso e esporádico."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Separe suas decisões financeiras de seus sentimentos financeiros. Isso é difícil, mas é a habilidade central. Quando você sentir a urgência de verificar sua conta pela sexta vez hoje, pausa. Pergunte: \"Estou buscando informação, ou estou buscando tranquilidade?\" Quando você sentir pânico sobre uma compra, pergunte: \"Isso é realmente um problema, ou parece ser um?\" Criar essa pausa — mesmo que de poucos segundos — entre o sentimento e a ação é onde a mudança acontece. Para ajuda construindo um sistema sustentável, nosso guia sobre fundos acumulativos mostra como planejar despesas sem o ciclo de pânico."
+                        "Separe suas decisões financeiras de seus sentimentos financeiros. Isso é difícil, mas é a habilidade central. Quando você sentir a urgência de verificar sua conta pela sexta vez hoje, pausa. Pergunte: \"Estou buscando informação, ou estou buscando alívio?\" Quando você sentir pânico sobre uma compra, pergunte: \"Isso é realmente um problema, ou parece ser um?\" Criar essa pausa — mesmo que de poucos segundos — entre o sentimento e a ação é onde a mudança acontece. Para ajuda construindo um sistema sustentável, nosso guia sobre fundos acumulativos mostra como planejar despesas sem o ciclo de pânico."
                 ]
         },
         {
@@ -7311,7 +7311,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Exposição segura repetida a informações financeiras. Uma olhada calma no seu saldo bancário não recableia seu cérebro. Mas cem olhadas calmas ao longo de três meses começam a fazê-lo. A repetição é o que constrói novos caminhos neurais. Cada encontro seguro atualiza o modelo de ameaça do seu cérebro, lenta mas medivelmente. É por isso que consistência importa mais que intensidade. Uma verificação diária de trinta segundos faz mais do que uma maratona anual de orçamento."
+                "text": "Exposição segura repetida a informações financeiras. Uma olhada no seu saldo bancário não recableia seu cérebro. Mas cem olhadas sem sustos ao longo de três meses começam a fazê-lo. A repetição é o que constrói novos caminhos neurais. Cada encontro seguro atualiza o modelo de ameaça do seu cérebro, lenta mas medivelmente. É por isso que consistência importa mais que intensidade. Uma verificação diária de trinta segundos faz mais do que uma maratona anual de orçamento."
         },
         {
                 "kind": "p",
@@ -7319,7 +7319,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Construir novos caminhos neurais através de um engajamento calmo e constante. Esta é a parte prática. Significa usar ferramentas que apóiem a regulação em vez da reatividade. Significa verificar seu dinheiro quando está calmo, não quando está em espiral. Significa escolher a calma sobre a estimulação cada vez. A ferramenta que você usa importa aqui. Um aplicativo de orçamento repleto de recursos que o sobrecarrega com gráficos e alertas pode ser objetivamente útil, mas emocionalmente contraproducente. Uma interface calma e minimalista que permite interagir em seu próprio ritmo pode fazer mais por seu relacionamento real com o dinheiro do que qualquer planilha."
+                "text": "Construir novos caminhos neurais através de um engajamento constante e de baixo risco. Esta é a parte prática. Significa usar ferramentas que apóiem a regulação em vez da reatividade. Significa verificar seu dinheiro quando está estável, não quando está em espiral. Significa escolher a clareza sobre a estimulação cada vez. A ferramenta que você usa importa aqui. Um aplicativo de orçamento repleto de recursos que o sobrecarrega com gráficos e alertas pode ser objetivamente útil, mas emocionalmente contraproducente. Uma interface clara e minimalista que permite interagir em seu próprio ritmo pode fazer mais por seu relacionamento real com o dinheiro do que qualquer planilha."
         },
         {
                 "kind": "p",
@@ -7417,14 +7417,14 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "> A dismorfia monetária afeta milhões de pessoas — e nomeá-la é o primeiro passo para mudar seu relacionamento com ela. A Savlo está disponível no Android e em breve no iOS. Comece a construir um relacionamento mais calmo com seu dinheiro hoje."
+                "text": "> A dismorfia monetária afeta milhões de pessoas — e nomeá-la é o primeiro passo para mudar seu relacionamento com ela. A Savlo é feito para Android, com iOS a caminho. Comece a construir um relacionamento melhor com seu dinheiro hoje."
         }
 ]
     },
   },
   {
     slug: "ynab-vs-monarch-vs-savlo",
-    title: "YNAB vs Monarch vs Savlo: Uma Comparação Honesta de 2026",
+    title: "YNAB vs Monarch vs Savlo: uma comparação honesta (2026)",
     description:
       "Três apps de finanças pessoais, três filosofias distintas. Compare YNAB, Monarch e Savlo para encontrar o que você realmente vai continuar usando daqui a seis meses.",
     category: fromEnglish("ynab-vs-monarch-vs-savlo").category,
@@ -7681,18 +7681,18 @@ export const portuguesePosts: BlogPost[] = [
                 "kind": "divider"
         },
         {
-                "id": "savlo-melhor-para-h-bitos-de-gasto-calmos",
+                "id": "savlo-melhor-para-habitos-de-gasto-diarios",
                 "kind": "h2",
-                "text": "Savlo — melhor para hábitos de gasto calmos"
+                "text": "Savlo — melhor para hábitos de gasto diários"
         },
         {
                 "kind": "p",
-                "text": "O Savlo é o mais jovem dos três apps, e é construído ao redor de uma pergunta completamente diferente. Onde o YNAB pergunta \"para onde deve ir cada dólar?\" e o Monarch pergunta \"como está meu panorama financeiro?\", o Savlo pergunta \"como você se sente sobre dinheiro, e como podemos fazer que esse sentimento seja mais calmo?\" É uma ferramenta de ansiedade financeira tanto quanto uma ferramenta de orçamento."
+                "text": "O Savlo é o mais jovem dos três apps, e é construído ao redor de uma pergunta completamente diferente. Onde o YNAB pergunta \"para onde deve ir cada dólar?\" e o Monarch pergunta \"como está meu panorama financeiro?\", o Savlo pergunta \"como você se sente sobre dinheiro, e como podemos fazer que esse sentimento seja mais claro?\" É uma ferramenta de ansiedade financeira tanto quanto uma ferramenta de orçamento."
         },
         {
-                "id": "a-filosofia-do-savlo-consci-ncia-financeira-calma",
+                "id": "a-filosofia-do-savlo-consciencia-financeira-diaria",
                 "kind": "h3",
-                "text": "A filosofia do Savlo: consciência financeira calma"
+                "text": "A filosofia do Savlo: consciência financeira diária"
         },
         {
                 "kind": "p",
@@ -7700,11 +7700,11 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O Savlo adota a abordagem oposta. A interface é deliberadamente calma. Não há números de aviso vermelhos. Não há sequências para manter. Não há notificações que induzem culpa. A filosofia de design é que você deve se sentir melhor após abrir o app, não pior. Se uma ferramenta financeira te deixa ansioso, você vai parar de usá-la. E se você parar de usá-la, ela não pode te ajudar."
+                "text": "O Savlo adota a abordagem oposta. A interface é deliberadamente simples. Não há números de aviso vermelhos nem notificações que induzem culpa. Em vez disso, uma sequência diária recompensa o hábito de registrar. A filosofia de design é que você deve se sentir melhor após abrir o app, não pior. Se uma ferramenta financeira te deixa ansioso, você vai parar de usá-la. E se você parar de usá-la, ela não pode te ajudar."
         },
         {
                 "kind": "p",
-                "text": "O app usa um modelo de dados local primeiro. Seus dados financeiros permanecem em seu dispositivo. Não há vinculação bancária, não há agregação de dados de terceiros, e não há armazenamento do lado do servidor de suas transações. Para usuários que são conscientes da privacidade — e após violações de dados de alto perfil e o desligamento do Mint, muitos são — isso é um diferenciador significativo."
+                "text": "O app nunca pede suas credenciais bancárias. Não há vinculação bancária nem agregação de dados de terceiros, e seus dados financeiros nunca são vendidos. Para usuários que são conscientes da privacidade — e após violações de dados de alto perfil e o desligamento do Mint, muitos são — isso é um diferenciador significativo."
         },
         {
                 "id": "o-que-o-savlo-faz-bem",
@@ -7717,11 +7717,11 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Não é necessária vinculação bancária. Esta é uma escolha de design deliberada, não uma limitação. O Savlo funciona fazendo você registrar transações por conta própria — por voz, entrada manual ou importação CSV. Seus dados financeiros nunca saem do seu dispositivo. Não há agregador de terceiros em quem confiar, não há credenciais bancárias para compartilhar, e não há risco de violação de dados dos servidores do Savlo. Para usuários que estão ansiosos em compartilhar dados financeiros, esta é a opção mais privada disponível."
+                "text": "Não é necessária vinculação bancária. Esta é uma escolha de design deliberada, não uma limitação. O Savlo funciona fazendo você registrar transações por conta própria — por voz, entrada manual ou importação CSV. Não há agregador de terceiros em quem confiar nem credenciais bancárias para compartilhar, então o Savlo nunca guarda o acesso ao seu banco. Para usuários que estão ansiosos em compartilhar dados financeiros, esta é a opção mais privada disponível."
         },
         {
                 "kind": "p",
-                "text": "A interface calma é genuinamente diferente de outros apps de orçamento. Não há números vermelhos indicando excesso de gastos. Não há notificações estilo alarme. Não há contadores de sequências que te façam se sentir culpado por faltar um dia. A paleta de cores é discreta, a linguagem é neutra, e a experiência geral é projetada para reduzir em vez de aumentar a ansiedade financeira. Pesquisa sobre dismorphia monetária e estresse financeiro suporta essa abordagem: ferramentas baseadas em vergonha impulsionam evasão, não mudança de comportamento."
+                "text": "A interface simples é genuinamente diferente de outros apps de orçamento. Não há números vermelhos indicando excesso de gastos. Não há notificações estilo alarme. Não há contadores de sequências que te façam se sentir culpado por faltar um dia. A paleta de cores é discreta, a linguagem é neutra, e a experiência geral é projetada para reduzir em vez de aumentar a ansiedade financeira. Pesquisa sobre dismorphia monetária e estresse financeiro suporta essa abordagem: ferramentas baseadas em vergonha impulsionam evasão, não mudança de comportamento."
         },
         {
                 "kind": "p",
@@ -7733,7 +7733,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Funciona offline. Como os dados são armazenados localmente, o Savlo funciona sem uma conexão com a internet. Você pode registrar transações em um avião, em um túnel, ou em qualquer situação de baixa conectividade. Seus dados sincronizam quando você está de volta online. Isso é uma coisa pequena até você precisar, e então é uma vantagem significativa."
+                "text": "Funciona offline. O Savlo guarda uma cópia dos seus dados no seu celular, então você pode continuar registrando sem conexão. Você pode registrar transações em um avião, em um túnel, ou em qualquer situação de baixa conectividade. Seus dados sincronizam quando você está de volta online. Isso é uma coisa pequena até você precisar, e então é uma vantagem significativa."
         },
         {
                 "kind": "p",
@@ -7746,7 +7746,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O Savlo é mais novo e tem um conjunto de recursos menor do que o YNAB ou o Monarch. Não há rastreamento de investimentos, não há painel de patrimônio líquido, e não há sincronização bancária. Se você quer um panorama financeiro completo que inclua suas contas de corretagem e fundos de aposentadoria, o Savlo não é a ferramenta certa — pelo menos ainda não."
+                "text": "O Savlo é mais novo e tem um conjunto de recursos menor do que o YNAB ou o Monarch. Não há rastreamento de investimentos nem sincronização bancária. Se você quer um panorama financeiro completo que inclua suas contas de corretagem e fundos de aposentadoria, o Savlo não é a ferramenta certa — pelo menos ainda não."
         },
         {
                 "kind": "p",
@@ -7758,7 +7758,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "A disponibilidade para iOS vem em breve. O Savlo está atualmente disponível no Android, com suporte para iOS em desenvolvimento. Se você é usuário do iPhone, precisará esperar o lançamento do iOS para experimentar o app."
+                "text": "O Savlo é feito para Android, com suporte para iOS em desenvolvimento. Se você é usuário do iPhone, precisará esperar o lançamento do iOS para experimentar o app."
         },
         {
                 "kind": "p",
@@ -7771,7 +7771,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O Savlo é gratuito para começar, com recursos premium disponíveis a um preço acessível. O nível gratuito inclui registro básico de despesas, entrada de voz e categorização básica. Recursos premium — como fundos de reserva avançados, relatórios detalhados e expansão de importação CSV — estão disponíveis a um custo menor que YNAB ou Monarch. A precificação reflete a posição do Savlo como um app mais novo que está construindo sua base de usuários enquanto mantém a barreira de entrada baixa."
+                "text": "O Savlo começa com um teste gratuito de 14 dias com todos os recursos e depois continua como assinatura mensal ou anual. Não há nível gratuito: o teste é o app completo, com entrada por voz, fundos, relatórios e importação CSV."
         },
         {
                 "kind": "divider"
@@ -7795,23 +7795,23 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "- Rastreamento de patrimônio líquido: O Monarch se destaca aqui com cálculos de patrimônio líquido em tempo real em todas as contas vinculadas. O YNAB rastreia fluxo de caixa e progresso do orçamento mas não calcula patrimônio líquido. O Savlo foca em consciência de gastos e não rastreia patrimônio líquido nem investimentos."
+                "text": "- Rastreamento de patrimônio líquido: O Monarch se destaca aqui com cálculos de patrimônio líquido em tempo real em todas as contas vinculadas. O YNAB rastreia fluxo de caixa e progresso do orçamento mas não calcula patrimônio líquido. O Savlo mostra seu patrimônio líquido com as contas que você adiciona, mas não rastreia investimentos."
         },
         {
                 "kind": "p",
-                "text": "- Método de orçamento: O YNAB usa orçamento de base zero rigoroso onde cada dólar é pré-atribuído. O Monarch usa uma abordagem flexível de rastreamento com alvos de orçamento opcionais. O Savlo usa uma abordagem calma e comportamento-primeiro com fundos de reserva e consciência de gastos."
+                "text": "- Método de orçamento: O YNAB usa orçamento de base zero rigoroso onde cada dólar é pré-atribuído. O Monarch usa uma abordagem flexível de rastreamento com alvos de orçamento opcionais. O Savlo usa uma abordagem rápida e comportamento-primeiro com fundos de reserva e consciência de gastos."
         },
         {
                 "kind": "p",
-                "text": "- Privacidade: O Savlo é local primeiro — seus dados permanecem em seu dispositivo sem armazenamento do lado do servidor. O YNAB e o Monarch ambos armazenam seus dados em seus servidores e dependem de agregadores de terceiros para conexões bancárias."
+                "text": "- Privacidade: O Savlo nunca pede credenciais bancárias e não usa agregadores bancários. O YNAB e o Monarch dependem de agregadores de terceiros para conexões bancárias."
         },
         {
                 "kind": "p",
-                "text": "- Suporte offline: O Savlo funciona completamente offline já que os dados são armazenados localmente. O YNAB e o Monarch requerem uma conexão com a internet para a maioria das funcionalidades, incluindo sincronização bancária e acesso a dados."
+                "text": "- Suporte offline: O Savlo continua funcionando offline e sincroniza o que você registra quando volta a se conectar. O YNAB e o Monarch requerem uma conexão com a internet para a maioria das funcionalidades, incluindo sincronização bancária e acesso a dados."
         },
         {
                 "kind": "p",
-                "text": "- Recursos de casais: O Monarch oferece a experiência de casais mais robusta com visualizações combinadas de lar, vinculação de contas duplas e orçamentos combinados. O YNAB suporta orçamentos compartilhados mas requer que ambos os usuários se engajem com o sistema de orçamento completo. O Savlo suporta consciência compartilhada com recursos colaborativos mais simples."
+                "text": "- Recursos de casais: O Monarch oferece a experiência de casais mais robusta com visualizações combinadas de lar, vinculação de contas duplas e orçamentos combinados. O YNAB suporta orçamentos compartilhados mas requer que ambos os usuários se engajem com o sistema de orçamento completo. O Savlo é feito para as finanças de uma pessoa e ainda não tem contas compartilhadas da casa."
         },
         {
                 "kind": "p",
@@ -7823,7 +7823,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "- Modelo de preços: Tanto o YNAB quanto o Monarch são baseados em assinatura a aproximadamente $15 por mês ou $100 por ano. O Savlo é gratuito para começar com recursos premium acessíveis."
+                "text": "- Modelo de preços: Tanto o YNAB quanto o Monarch são baseados em assinatura a aproximadamente $15 por mês ou $100 por ano. O Savlo tem um teste gratuito de 14 dias e depois uma assinatura mensal ou anual."
         },
         {
                 "kind": "divider"
@@ -7874,7 +7874,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Melhor combinação: Savlo. A interface calma, o registro por voz e a ausência de padrões de design baseados em vergonha são especificamente construídos para essa experiência. O Savlo é projetado para te fazer se sentir melhor após abri-lo, não pior."
+                "text": "Melhor combinação: Savlo. A interface simples, o registro por voz e a ausência de padrões de design baseados em vergonha são especificamente construídos para essa experiência. O Savlo é projetado para te fazer se sentir melhor após abri-lo, não pior."
         },
         {
                 "id": "o-casal",
@@ -7887,7 +7887,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Melhor combinação: Monarch Money para visibilidade compartilhada completa, ou Savlo para uma abordagem mais simples e privada de consciência financeira compartilhada."
+                "text": "Melhor combinação: Monarch Money para visibilidade compartilhada completa. O Savlo é feito para as finanças de uma pessoa e ainda não tem contas compartilhadas da casa."
         },
         {
                 "id": "o-consciente-da-privacidade",
@@ -7900,7 +7900,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Melhor combinação: Savlo. Sem vinculação bancária, armazenamento de dados local primeiro e sem acesso de terceiros a suas informações financeiras. Suas transações permanecem privadas por padrão."
+                "text": "Melhor combinação: Savlo. Sem vinculação bancária, sem agregadores bancários, e seus dados financeiros nunca são vendidos."
         },
         {
                 "id": "o-nerd-dos-dados",
@@ -7926,7 +7926,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Melhor combinação: Savlo. A integração rápida, o registro por voz e o design calmo significam que você pode ser produtivo em minutos de baixar o app. Não há sistema complexo para aprender, não há reconciliação diária para manter, e não há culpa se você faltar um dia."
+                "text": "Melhor combinação: Savlo. A integração rápida, o registro por voz e o design simples significam que você pode ser produtivo em minutos de baixar o app. Não há sistema complexo para aprender, não há reconciliação diária para manter, e não há culpa se você faltar um dia."
         },
         {
                 "kind": "divider"
@@ -7995,7 +7995,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Se você está migrando do YNAB para o Savlo, você perderá a estrutura granular de categorias e os metadados de rastreamento de metas, mas ganhará registro por voz, privacidade e uma experiência diária mais calma. Se você está migrando do Monarch para o Savlo, você perderá o rastreamento de investimentos e a sincronização bancária automatizada, mas ganhará controle direto sobre seus dados e um ponto de entrada de menor atrito. Toda troca envolve um trade-off. A questão é qual trade-off combina com suas prioridades atuais."
+                "text": "Se você está migrando do YNAB para o Savlo, você perderá a estrutura granular de categorias e os metadados de rastreamento de metas, mas ganhará registro por voz, privacidade e uma experiência diária mais rápida. Se você está migrando do Monarch para o Savlo, você perderá o rastreamento de investimentos e a sincronização bancária automatizada, mas ganhará controle direto sobre seus dados e um ponto de entrada de menor atrito. Toda troca envolve um trade-off. A questão é qual trade-off combina com suas prioridades atuais."
         },
         {
                 "kind": "divider"
@@ -8019,11 +8019,11 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O Savlo existe porque acreditamos que há um grande grupo de pessoas que ficam entre esses dois extremos. Pessoas que querem consciência financeira sem a sobrecarga de um sistema de orçamento completo. Pessoas que querem registrar uma compra rapidamente e seguir em frente. Pessoas que querem se sentir mais calmas sobre dinheiro, não mais disciplinadas."
+                "text": "O Savlo existe porque acreditamos que há um grande grupo de pessoas que ficam entre esses dois extremos. Pessoas que querem consciência financeira sem a sobrecarga de um sistema de orçamento completo. Pessoas que querem registrar uma compra rapidamente e seguir em frente. Pessoas que querem sentir que controlam o próprio dinheiro, não ser mais disciplinadas."
         },
         {
                 "kind": "p",
-                "text": "Se você ama controle detalhado, o YNAB é excelente. Se você quer um painel financeiro, o Monarch é ótimo. Se você quer uma maneira calma e de baixo atrito de construir melhores hábitos de gasto, o Savlo vale a pena experimentar. O melhor app é o que você realmente usará daqui a três meses."
+                "text": "Se você ama controle detalhado, o YNAB é excelente. Se você quer um painel financeiro, o Monarch é ótimo. Se você quer uma maneira rápida e de baixo atrito de construir melhores hábitos de gasto, o Savlo vale a pena experimentar. O melhor app é o que você realmente usará daqui a três meses."
         },
         {
                 "kind": "p",
@@ -8031,23 +8031,23 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "O que você escolher, o passo mais importante é o que você dá hoje. Não a app perfeita. Não o sistema perfeito. Apenas um hábito pequeno e consistente que te move em direção a uma consciência financeira mais clara e calma. Comece com uma transação. Uma verificação. Um momento de honestidade sobre para onde foi seu dinheiro esta semana. Isso é suficiente."
+                "text": "O que você escolher, o passo mais importante é o que você dá hoje. Não a app perfeita. Não o sistema perfeito. Apenas um hábito pequeno e consistente que te move em direção a uma consciência financeira mais clara. Comece com uma transação. Uma verificação. Um momento de honestidade sobre para onde foi seu dinheiro esta semana. Isso é suficiente."
         },
         {
                 "kind": "divider"
         },
         {
                 "kind": "p",
-                "text": "> O Savlo está disponível no Android e vem em breve para iOS. Comece com o nível gratuito e veja se a consciência financeira calma funciona para o seu cérebro. Não é necessária vinculação bancária."
+                "text": "> O Savlo é feito para Android, com iOS a caminho. Comece com o teste gratuito de 14 dias e veja se a consciência financeira diária funciona para o seu cérebro. Não é necessária vinculação bancária."
         }
 ]
     },
   },
   {
     slug: "emergency-fund-vs-sinking-fund",
-    title: "Fundo de Emergência vs. Sinking Fund: Qual a Diferença?",
+    title: "Fundo de emergência vs. sinking fund: qual a diferença?",
     description:
-      "Você sabe qual é a diferença entre um fundo de emergência e um sinking fund? Aprenda a separar o inesperado do previsível para economizar com tranquilidade.",
+      "Você sabe qual é a diferença entre um fundo de emergência e um sinking fund? Aprenda a separar o inesperado do previsível para economizar com planejamento.",
     category: fromEnglish("emergency-fund-vs-sinking-fund").category,
     date: fromEnglish("emergency-fund-vs-sinking-fund").date,
     dateModified: fromEnglish("emergency-fund-vs-sinking-fund").dateModified,
@@ -8199,7 +8199,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Algumas pessoas chamam esses de fundos \"para dormir tranquilo à noite\". O dinheiro não está destinado a nada específico, mas saber que existe — separado do seu gasto diário — reduz a ansiedade. Você para de verificar seu saldo bancário com medo. Para de se perguntar se pode pagar o jantar. O fundo sem objetivo é sua rede de segurança, e redes de segurança não precisam estar rotuladas com um propósito específico para fazer seu trabalho."
+                "text": "Algumas pessoas chamam esses de fundos \"para dormir bem à noite\". O dinheiro não está destinado a nada específico, mas saber que existe — separado do seu gasto diário — reduz a ansiedade. Você para de verificar seu saldo bancário com medo. Para de se perguntar se pode pagar o jantar. O fundo sem objetivo é sua rede de segurança, e redes de segurança não precisam estar rotuladas com um propósito específico para fazer seu trabalho."
         },
         {
                 "kind": "p",
@@ -8373,7 +8373,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Ter ambos os tipos de fundos dá a Keisha tranquilidade. O fundo com objetivo cobre os custos conhecidos. O fundo sem objetivo cobre todo o resto. Juntos, eliminam a ansiedade financeira que frequentemente vem com esperar um novo bebê. Keisha não fica acordada à noite se perguntando como vai custear. Os fundos estão fazendo o trabalho."
+                "text": "Ter ambos os tipos de fundos dá a Keisha segurança. O fundo com objetivo cobre os custos conhecidos. O fundo sem objetivo cobre todo o resto. Juntos, eliminam a ansiedade financeira que frequentemente vem com esperar um novo bebê. Keisha não fica acordada à noite se perguntando como vai custear. Os fundos estão fazendo o trabalho."
         },
         {
                 "kind": "p",
@@ -8389,7 +8389,7 @@ export const portuguesePosts: BlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "As primeiras semanas parecem inúteis. $25 parece nada. Mas depois de dois meses, o fundo tem $200. Depois de seis meses, tem mais de $600. Jordan começa a notar algo mudando. A ansiedade em torno do dinheiro não desaparece, mas diminui. Agora há um colchão — pequeno, mas real. O ato de economizar regularmente, sem pressão, reconecta a associação entre economia e privação. Economizar se torna uma ação calma e rotineira em vez de uma fonte de temor."
+                "text": "As primeiras semanas parecem inúteis. $25 parece nada. Mas depois de dois meses, o fundo tem $200. Depois de seis meses, tem mais de $600. Jordan começa a notar algo mudando. A ansiedade em torno do dinheiro não desaparece, mas diminui. Agora há um colchão — pequeno, mas real. O ato de economizar regularmente, sem pressão, reconecta a associação entre economia e privação. Economizar se torna uma ação simples e rotineira em vez de uma fonte de temor."
         },
         {
                 "kind": "p",
@@ -8619,6 +8619,6 @@ export const portuguesePosts: BlogPost[] = [
     },
   }];
 
-export function getPortuguesePostBySlug(slug: string): BlogPost | undefined {
+export function getPortuguesePostBySlug(slug: string): LocalizedBlogPost | undefined {
   return portuguesePosts.find((post) => post.slug === slug);
 }

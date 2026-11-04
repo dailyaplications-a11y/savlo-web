@@ -1,10 +1,7 @@
 import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
-import { Hero } from "@/components/savlo/hero"
-import { HowItWorks } from "@/components/savlo/how-it-works"
-import { FeatureCards } from "@/components/savlo/feature-cards"
+import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
-import { CtaSection } from "@/components/savlo/cta-section"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
@@ -33,7 +30,7 @@ const faqItems = [
 ] as const
 
 export const metadata: Metadata = {
-  title: "Control y manejo diario de finanzas en minutos",
+  title: { absolute: "Savlo Budgeting App | Registra, ahorra y planifica" },
   description:
     "Savlo es una app para el control y manejo diario de tus finanzas en minutos. Registra movimientos por voz o texto rápido, organiza tu dinero en cuentas independientes y optimiza tus gastos sin esfuerzo.",
   keywords: [
@@ -86,12 +83,12 @@ export default function SpanishHomePage() {
     },
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "@id": absoluteUrl("/es#software"),
       name: siteConfig.name,
       alternateName: siteConfig.shortName,
       applicationCategory: "FinanceApplication",
-      operatingSystem: "iOS, Android",
+      operatingSystem: "Android",
       url: absoluteUrl("/es"),
       description:
         "Savlo es una app para el control y manejo diario de finanzas en minutos, con registros por voz y texto rápido, cuentas independientes, Sinking Funds, importaciones de planillas y exportación de datos.",
@@ -105,13 +102,14 @@ export default function SpanishHomePage() {
         "@type": "Offer",
         price: "0",
         priceCurrency: "USD",
+        description: "Prueba gratuita de 14 días; después, suscripción mensual o anual",
         availability: "https://schema.org/PreOrder",
         url: absoluteUrl("/es"),
       },
       publisher: {
         "@id": organizationId,
       },
-      isAccessibleForFree: true,
+      isAccessibleForFree: false,
       featureList: [
         "Registro de movimientos por voz y texto",
         "Cuentas independientes",
@@ -143,18 +141,12 @@ export default function SpanishHomePage() {
     >
       <SiteHeader locale="es" />
       <main>
-        <Hero locale="es" />
-        <HowItWorks locale="es" />
-        <SectionDivider />
-        <FeatureCards locale="es" />
-        <SectionDivider />
+        <ProductStory locale="es" />
         <FeaturedReads locale="es" />
         <SectionDivider />
         <FaqSection />
-        <SectionDivider />
-        <CtaSection locale="es" />
       </main>
-      <SiteFooter locale="es" />
+      <SiteFooter locale="es" cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

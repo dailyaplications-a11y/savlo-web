@@ -7,7 +7,8 @@ interface TocItem {
 }
 
 interface ContentBlock {
-  type: "p" | "h3" | "ul" | "ol"
+  // Comes from JSON, so it arrives as a plain string; unknown types render nothing.
+  type: string
   text?: string
   items?: string[]
 }
@@ -94,7 +95,10 @@ export default function LegalPage({
 }: {
   data: LegalPageData
   locale: Locale
-  type: "terms" | "privacy" | "delete-account"
+  // `attributions` y `help` traen su propia fecha ya redactada en cada idioma,
+  // así que caen en la rama que imprime `lastUpdated` tal cual, igual que terms.
+  // Sólo `privacy` le antepone "Last updated".
+  type: "terms" | "privacy" | "delete-account" | "attributions" | "help"
 }) {
   const homeLabel = breadcrumbLabels[locale]
   const tocItems = data.tocItems || data.toc || []

@@ -157,6 +157,9 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    /* no gray box flashed under a tap or a click, anywhere: a control answers
+       with its own state (color, a press of scale), never the browser's wash */
+    -webkit-tap-highlight-color: transparent;
   }
   html {
     scroll-behavior: smooth;
@@ -170,7 +173,7 @@
   }
 }
 
-/* --- Calm microinteractions --- */
+/* --- Microinteractions --- */
 
 @keyframes fadeUp {
   from {
@@ -278,7 +281,7 @@
   to { transform: rotate(360deg); }
 }
 
-/* Savlo entrance: calm breath — soft 4.5s in/out */
+/* Entrance halo pulse — soft 4.5s in/out */
 @keyframes calmBreath {
   0%, 100% {
     transform: scale(1);
@@ -361,17 +364,10 @@
 .delay-500 { animation-delay: 500ms; }
 .delay-700 { animation-delay: 700ms; }
 
-/* Subtle grain/noise overlay for the dark surface */
-.bg-grain::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.035;
-  mix-blend-mode: overlay;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.8) 1px, transparent 1px);
-  background-size: 3px 3px;
-}
+/* `.bg-grain` used to lay a dotted noise over the page: it lifted everything
+   it covered a shade above the deepNavy of the storyboard's stage (which sits
+   on top of it), so the middle of the home read as a lighter band. The page
+   is one flat deepNavy now; the class is kept as a no-op on the wrappers. */
 
 /* Soft calm button interaction */
 .btn-calm {

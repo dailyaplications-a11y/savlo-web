@@ -1,0 +1,102 @@
+{
+  "title": "Botón de arrepentimiento y botón de baja",
+  "description": "Cómo arrepentirte de una suscripción a Savlo dentro de los 10 días o darla de baja en cualquier momento, sin registrarte ni dar explicaciones. Ley 24.240 y Disposición 954/2025.",
+  "lastUpdated": "Última actualización: 31 de agosto de 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Esta página es el <strong>BOTÓN DE ARREPENTIMIENTO</strong> y el <strong>BOTÓN DE BAJA</strong> de Savlo, en los términos de la Ley 24.240 de Defensa del Consumidor y de la Disposición 954/2025 de la Subsecretaría de Defensa del Consumidor y Lealtad Comercial."
+      },
+      {
+        "type": "p",
+        "text": "<strong>No necesitás registrarte, iniciar sesión ni hacer ningún trámite previo para usarla.</strong> Sólo te vamos a pedir los datos mínimos para confirmar que la solicitud es tuya y encontrar tu suscripción."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "arrepentimiento",
+      "heading": "Botón de arrepentimiento — cancelar dentro de los 10 días",
+      "content": [
+        {
+          "type": "p",
+          "text": "Si contrataste una suscripción a Savlo hace <strong>10 días corridos o menos</strong>, podés arrepentirte sin costo y sin dar ningún motivo. Te devolvemos el importe completo."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Escribinos a <strong>support@savloapp.com</strong> con el asunto <strong>ARREPENTIMIENTO</strong>.",
+            "Incluí el correo electrónico de tu cuenta de Savlo y la fecha aproximada en que contrataste.",
+            "Listo. No hace falta nada más."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Te confirmamos la recepción y te damos una <strong>constancia de la solicitud dentro de las 24 horas</strong>. El reembolso lo procesa Google Play, que es quien cobró la suscripción, por el mismo medio de pago que usaste."
+        },
+        {
+          "type": "p",
+          "text": "El plazo de 10 días corre desde la contratación. Si ya pasó, no perdés nada: podés dar de baja igual, acá abajo."
+        }
+      ]
+    },
+    {
+      "id": "baja",
+      "heading": "Botón de baja — cancelar en cualquier momento",
+      "content": [
+        {
+          "type": "p",
+          "text": "Podés dar de baja tu suscripción cuando quieras, sin explicar por qué. Tenés dos caminos y los dos son válidos."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Camino 1 — pedírnoslo a nosotros.</strong> Escribinos a <strong>support@savloapp.com</strong> con el asunto <strong>BAJA</strong> y el correo de tu cuenta. Te emitimos la <strong>constancia de baja dentro de las 24 horas</strong> de recibida la solicitud."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Camino 2 — hacerlo vos mismo, al instante.</strong> La suscripción la cobra Google Play, así que también podés cancelarla ahí sin pasar por nosotros: abrí Play Store → tu foto de perfil → <em>Pagos y suscripciones</em> → <em>Suscripciones</em> → Savlo → <em>Cancelar suscripción</em>."
+        },
+        {
+          "type": "p",
+          "text": "En los dos casos la baja tiene efecto al final del período que ya pagaste, y hasta ahí seguís teniendo acceso."
+        }
+      ]
+    },
+    {
+      "id": "cuenta",
+      "heading": "Dar de baja no es lo mismo que borrar la cuenta",
+      "content": [
+        {
+          "type": "p",
+          "text": "Son dos cosas distintas y podés hacer una, la otra, o las dos:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Baja de la suscripción</strong>: dejás de pagar. Tu cuenta y tus datos siguen existiendo y podés seguir usando Savlo en su versión gratuita.",
+            "<strong>Eliminación de la cuenta</strong>: se borran tu cuenta y todos tus datos, de forma permanente. Se hace desde <em>Ajustes → Cuenta y perfil → Información personal → Eliminar cuenta</em> en la app, o desde <a href=\"/es/delete-account\">savloapp.com/es/delete-account</a>."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Borrar la app del teléfono no hace ninguna de las dos cosas: la suscripción sigue cobrándose hasta que la des de baja."
+        }
+      ]
+    },
+    {
+      "id": "reclamos",
+      "heading": "Si algo no sale bien",
+      "content": [
+        {
+          "type": "p",
+          "text": "Escribinos a <strong>support@savloapp.com</strong> y lo resolvemos. Si preferís un canal oficial, podés iniciar un reclamo en <strong>Ventanilla Única Federal de Defensa del Consumidor</strong>, en <a href=\"https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario\">argentina.gob.ar/produccion/defensadelconsumidor</a>, o ante la autoridad de defensa del consumidor de tu provincia o municipio."
+        },
+        {
+          "type": "p",
+          "text": "Savlo — Bahía Blanca, Provincia de Buenos Aires (8000), Argentina. support@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

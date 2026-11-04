@@ -1,12 +1,7 @@
 import type { Metadata } from "next"
 import { SiteHeader } from "@/components/savlo/site-header"
-import { Hero } from "@/components/savlo/hero"
-import { ProductOverview } from "@/components/savlo/product-overview"
-import { FeaturesShowcase } from "@/components/savlo/features-showcase"
-import { TrustSection } from "@/components/savlo/trust-section"
-import { BehavioralSection } from "@/components/savlo/behavioral-section"
+import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
-import { CtaSection } from "@/components/savlo/cta-section"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
@@ -35,7 +30,7 @@ const faqItems = [
 ] as const
 
 export const metadata: Metadata = {
-  title: "Controle e gestão diária de finanças em minutos",
+  title: { absolute: "Savlo Budgeting App | Registre, poupe e planeje" },
   description:
     "O Savlo é um app para controle e gestão diária de suas finanças em minutos. Registre movimentos por voz ou texto rápido, organize seu dinheiro em contas independentes e otimize seus gastos sem esforço.",
   keywords: [
@@ -88,12 +83,12 @@ export default function PortugueseHomePage() {
     },
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": ["SoftwareApplication", "MobileApplication"],
       "@id": absoluteUrl("/pt#software"),
       name: siteConfig.name,
       alternateName: siteConfig.shortName,
       applicationCategory: "FinanceApplication",
-      operatingSystem: "iOS, Android",
+      operatingSystem: "Android",
       url: absoluteUrl("/pt"),
       description:
         "O Savlo é um app para controle e gestão diária de finanças em minutos, com registros por voz e texto rápido, contas independentes, Sinking Funds, importação de planilhas e exportação de dados.",
@@ -107,13 +102,14 @@ export default function PortugueseHomePage() {
         "@type": "Offer",
         price: "0",
         priceCurrency: "USD",
+        description: "Teste gratuito de 14 dias; depois, assinatura mensal ou anual",
         availability: "https://schema.org/PreOrder",
         url: absoluteUrl("/pt"),
       },
       publisher: {
         "@id": organizationId,
       },
-      isAccessibleForFree: true,
+      isAccessibleForFree: false,
       featureList: [
         "Registro de movimentos por voz e texto",
         "Contas independentes",
@@ -145,23 +141,12 @@ export default function PortugueseHomePage() {
     >
       <SiteHeader locale="pt" />
       <main>
-        <Hero locale="pt" />
-        <SectionDivider />
-        <ProductOverview locale="pt" />
-        <SectionDivider />
-        <FeaturesShowcase locale="pt" />
-        <SectionDivider />
-        <BehavioralSection locale="pt" />
-        <SectionDivider />
-        <TrustSection locale="pt" />
-        <SectionDivider />
+        <ProductStory locale="pt" />
         <FeaturedReads locale="pt" />
         <SectionDivider />
         <FaqSection />
-        <SectionDivider />
-        <CtaSection locale="pt" />
       </main>
-      <SiteFooter locale="pt" />
+      <SiteFooter locale="pt" cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -179,7 +164,7 @@ function FaqSection() {
             Perguntas
           </p>
           <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            Algumas respostas calmas antes de entrar na lista de espera.
+            Algumas respostas antes de entrar na lista de espera.
           </h2>
         </div>
         <dl className="lg:col-span-8">
