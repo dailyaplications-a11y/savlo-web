@@ -6,11 +6,13 @@ import {
   useLayoutEffect,
   useRef,
   useState,
+  useSyncExternalStore,
   type CSSProperties,
 } from "react"
 import type { Locale } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 import { ArrowRight, GetAppLink, StoreLine, getAppCopy } from "../get-app"
+import { MobileStory } from "./mobile-story"
 import { PhoneFrame } from "./phone-frame"
 import { AppScreen } from "./screens/app-screens"
 import {
@@ -76,7 +78,40 @@ const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v
 type Geo = { vw: number; sh: number; textH: number; introH: number; dpr: number }
 type Tab = { x: number; w: number }
 
+const DESKTOP_QUERY = `(min-width: ${DESKTOP}px)`
+const subscribeDesktop = (onChange: () => void) => {
+  const q = window.matchMedia(DESKTOP_QUERY)
+  q.addEventListener("change", onChange)
+  return () => q.removeEventListener("change", onChange)
+}
+
+/**
+ * The home page's story. From 960 px up, the storyboard; under it (a phone, a
+ * tablet), the same eight screens in still emulators (mobile-story.tsx): the
+ * storyboard wants a wide, steady window it doesn't get there (owner,
+ * 2026-11-05). The server can't know the width, so it sends both and CSS
+ * shows the right one; once hydrated, the other is unmounted, with its
+ * listeners and its screens.
+ */
 export function ProductStory({ locale = "en" }: { locale?: Locale }) {
+  const desktop = useSyncExternalStore<boolean | null>(
+    subscribeDesktop,
+    () => window.matchMedia(DESKTOP_QUERY).matches,
+    () => null,
+  )
+  return (
+    <div id="story-root" className={styles.root}>
+      {desktop !== false ? (
+        <div className={styles.desktopOnly}>
+          <Storyboard locale={locale} />
+        </div>
+      ) : null}
+      {desktop !== true ? <MobileStory locale={locale} /> : null}
+    </div>
+  )
+}
+
+function Storyboard({ locale = "en" }: { locale?: Locale }) {
   const copy = storyCopy[locale] ?? storyCopy.en
   const cta = getAppCopy[locale]
 
@@ -323,6 +358,7 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
     <section
       id="hero"
       ref={sectionRef}
+      data-hero="board"
       aria-labelledby="story-title"
       className={styles.story}
       style={{ "--pinned": `${PINNED}px`, "--copy-in": `${crossing.current.delay}s` } as CSSProperties}

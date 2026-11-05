@@ -1,0 +1,234 @@
+/*
+ * The home page under 960 px: one still emulator per step (mobile-story.tsx).
+ *
+ * Rhythm: a slanted `surface` band behind the top of every phone, its slope
+ * alternating from step to step; the hero's band runs on into the first
+ * phone, which stands half on it, half on the page. Under each phone its
+ * eyebrow, its title and its lines, left-aligned in a column that never grows
+ * past a comfortable measure. Nothing animates.
+ */
+
+.root {
+  /* the phones' scale: measured by mobile-story.tsx, these steps until then */
+  --k: 1;
+  --surface: #132233;
+  --cream: #f7f3ee;
+  --mint: #4caf8a;
+  position: relative;
+  overflow: hidden;
+  background: #0d1b2a;
+  color: var(--cream);
+}
+@media (max-width: 394.98px) { .root { --k: 0.96; } }
+@media (max-width: 374.98px) { .root { --k: 0.9; } }
+@media (max-width: 359.98px) { .root { --k: 0.85; } }
+@media (max-width: 339.98px) { .root { --k: 0.8; } }
+@media (min-width: 600px) { .root { --k: 1.07; } }
+/* from here up the storyboard tells the story */
+@media (min-width: 960px) {
+  .root {
+    display: none;
+  }
+}
+
+.anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
+/* ── hero ──────────────────────────────────────────────────────── */
+
+.hero {
+  box-sizing: border-box;
+  padding: calc(116px + env(safe-area-inset-top, 0px)) 24px 36px;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  max-width: 12ch;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  font-size: clamp(36px, 10.6vw, 58px);
+  font-weight: 450;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.title em,
+.stepTitle em {
+  font-style: italic;
+  font-weight: 400;
+  color: #a8d8b9;
+}
+.title em {
+  display: block;
+}
+
+.body {
+  margin: 18px 0 0;
+  max-width: 32ch;
+  font-size: 16.5px;
+  line-height: 1.5;
+  color: #a3b2be;
+  text-wrap: pretty;
+}
+
+.cta {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+/* the storyboard's own "Get the app" (product-story.module.css .getButton) */
+.getButton {
+  composes: getButton from "./product-story.module.css";
+}
+
+/* ── a step ────────────────────────────────────────────────────── */
+
+.steps {
+  margin: 0;
+  padding: 0 0 104px;
+  list-style: none;
+}
+
+.step {
+  position: relative;
+  padding-top: 72px;
+  /* a phone is a whole app screen: off screen it waits, not painted */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 1080px;
+}
+.step[data-first] {
+  padding-top: 0;
+}
+
+.stage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 44px;
+}
+.step[data-first] .stage {
+  padding-top: 6px;
+}
+
+.band {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  background: var(--surface);
+  clip-path: polygon(0 52px, 100% 0, 100% calc(100% - 52px), 0 100%);
+}
+.step[data-rev] .band {
+  clip-path: polygon(0 0, 100% 52px, 100% 100%, 0 calc(100% - 52px));
+}
+/* the hero's band runs on into the first phone */
+.step[data-first] .band {
+  height: 56%;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 60px), 0 100%);
+}
+
+/* the 300 × 618 device, scaled by --k into a box of its scaled size */
+.phone {
+  position: relative;
+  z-index: 1;
+  width: calc(300px * var(--k));
+  height: calc(618px * var(--k));
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(var(--k));
+  transform-origin: 0 0;
+}
+
+.copy {
+  box-sizing: border-box;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 40px 24px 0;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint);
+}
+
+.stepTitle {
+  margin: 0;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  font-size: clamp(30px, 8.6vw, 42px);
+  font-weight: 450;
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.lines {
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.line {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  column-gap: 14px;
+  align-items: start;
+  font-size: 16.5px;
+  line-height: 1.45;
+  color: #e4e8eb;
+  text-wrap: pretty;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+.glyph {
+  color: var(--mint);
+}
+
+/* a tablet: more air, the same column */
+@media (min-width: 600px) {
+  .hero {
+    padding-top: calc(150px + env(safe-area-inset-top, 0px));
+    padding-bottom: 44px;
+  }
+  .body {
+    font-size: 18px;
+  }
+  .copy {
+    padding: 48px 0 0;
+  }
+  .step {
+    padding-top: 96px;
+    contain-intrinsic-size: auto 1180px;
+  }
+  .step[data-first] {
+    padding-top: 0;
+  }
+}

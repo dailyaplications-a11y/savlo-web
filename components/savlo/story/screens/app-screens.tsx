@@ -1,5 +1,7 @@
 import {
+  createContext,
   memo,
+  useContext,
   useEffect,
   useId,
   useLayoutEffect,
@@ -39,21 +41,31 @@ type Props = {
   locale: Locale
   label: string
   progress?: number
+  /**
+   * Painted once, as its last frame, and never animated: the phone and tablet
+   * page shows every screen in its own still emulator (owner, 2026-11-05).
+   * Pass `progress={1}` with it so a driven screen stands at its final phase.
+   */
+  still?: boolean
 }
+
+/** A still screen's runs are already complete. */
+const StillScreen = createContext(false)
 
 /**
  * A phase's sequence, 0..1 over `ms` from the moment the phase is reached
- * (`on`). Back out of the phase and it waits at 0; with reduced motion it is
- * complete as soon as it starts.
+ * (`on`). Back out of the phase and it waits at 0; with reduced motion, or on
+ * a still screen, it is complete as soon as it starts.
  */
 function useRun(on: boolean, ms: number) {
-  const [k, setK] = useState(0)
+  const still = useContext(StillScreen)
+  const [k, setK] = useState(still && on ? 1 : 0)
   useIsoLayoutEffect(() => {
     if (!on) {
       setK(0)
       return
     }
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (still || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setK(1)
       return
     }
@@ -64,7 +76,7 @@ function useRun(on: boolean, ms: number) {
       if (t < 1) frame = requestAnimationFrame(tick)
     })
     return () => cancelAnimationFrame(frame)
-  }, [on, ms])
+  }, [on, ms, still])
   return k
 }
 
@@ -73,7 +85,7 @@ const runCount = (on: boolean, k: number, count: number) => (on ? Math.min(count
 
 // memo: while the visitor scrolls through a driven step only its progress
 // changes, and only that screen should render again
-export const AppScreen = memo(function AppScreen({ id, state, locale, label, progress = 0 }: Props) {
+export const AppScreen = memo(function AppScreen({ id, state, locale, label, progress = 0, still = false }: Props) {
   const t = screenCopy[locale] ?? screenCopy.en
   const d = screenDates[locale] ?? screenDates.en
   const money = (v: number, compact = false) => formatMoney(locale, v, { compact })
@@ -83,12 +95,15 @@ export const AppScreen = memo(function AppScreen({ id, state, locale, label, pro
     <div
       className={s.screen}
       data-state={state}
+      data-still={still || undefined}
       role="img"
       aria-label={label}
       aria-hidden={state === "on" ? undefined : true}
     >
       <div className={s.device} data-on={state === "on"} aria-hidden>
-        <Screen t={t} d={d} money={money} locale={locale} progress={progress} />
+        <StillScreen.Provider value={still}>
+          <Screen t={t} d={d} money={money} locale={locale} progress={progress} />
+        </StillScreen.Provider>
       </div>
     </div>
   )

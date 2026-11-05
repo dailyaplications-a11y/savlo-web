@@ -9,6 +9,18 @@
  * product-story.tsx; this file owns how they move.
  */
 
+/* ProductStory: the storyboard from 960 px up, still emulators under it.
+   Both arrive from the server; CSS shows one until hydration picks it. */
+.root,
+.desktopOnly {
+  display: contents;
+}
+@media (max-width: 959.98px) {
+  .desktopOnly {
+    display: none;
+  }
+}
+
 .story {
   --move: cubic-bezier(0.65, 0, 0.25, 1);
   --out: cubic-bezier(0.2, 0.8, 0.2, 1);

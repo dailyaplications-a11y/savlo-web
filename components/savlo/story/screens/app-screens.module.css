@@ -53,6 +53,22 @@
     visibility 0s linear 0s;
 }
 
+/* A still screen (the phone and tablet page): its last frame, painted once.
+   Every transition and animation ends where it was going at once; a loop
+   (a glow breathing, an icon turning) rests on its base frame. */
+.screen[data-still] {
+  transition: none;
+}
+.screen[data-still] *,
+.screen[data-still] *::before,
+.screen[data-still] *::after {
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  animation-iteration-count: 1 !important;
+}
+
 .device {
   position: absolute;
   top: 0;

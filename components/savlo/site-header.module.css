@@ -213,131 +213,199 @@
   transform: translateY(-3px) rotate(-45deg);
 }
 
-.sheet {
+/*
+ * The menu of a narrow window (owner, 2026-11-05, after Polarsteps): the
+ * condensed pill unfolds downwards into a card. Its first row stands exactly
+ * where the pill's was (the mark, and a bare cross where the burger was), so
+ * it reads as one object opening; the rows follow it in, 35 ms apart. Closing
+ * folds it back into the pill. Behind it, the page dims under a navy veil.
+ *
+ * Geometry mirrors .bar / .shell condensed: 16 px in and down, 56 tall,
+ * 880 wide at most (12 / 52 under 560 px).
+ */
+.scrim {
   position: fixed;
-  z-index: 99;
+  z-index: 101;
   inset: 0;
-  box-sizing: border-box;
-  padding: 104px 24px calc(28px + env(safe-area-inset-bottom));
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto;
-  background: #0d1b2a;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: rgba(3, 8, 13, 0.64);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  cursor: default;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.22s ease, visibility 0s linear 0.22s;
+  transition: opacity 0.36s cubic-bezier(0.2, 0, 0, 1), visibility 0s linear 0.36s;
 }
-.sheet[data-open="true"] {
+.scrim[data-open="true"] {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.28s ease, visibility 0s;
+  transition: opacity 0.4s cubic-bezier(0.2, 0, 0, 1), visibility 0s;
 }
 
-.sheetLinks {
-  display: flex;
-  flex-direction: column;
+.sheet {
+  --row: 56px;
+  --round: 28px;
+  position: fixed;
+  z-index: 102;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  box-sizing: border-box;
+  max-width: 880px;
+  max-height: calc(100dvh - 32px);
+  margin: 0 auto;
+  padding: 0 0 18px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-radius: var(--round);
+  background: #0d1b2a;
+  border: 1px solid rgba(247, 243, 238, 0.09);
+  box-shadow: 0 32px 80px -24px rgba(0, 0, 0, 0.85), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  /* closed, it is the pill: only its first row, rounded like one */
+  clip-path: inset(0 0 calc(100% - var(--row)) 0 round calc(var(--row) / 2));
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    clip-path 0.36s cubic-bezier(0.3, 0, 0.8, 0.15),
+    opacity 0.16s linear 0.2s,
+    visibility 0s linear 0.36s;
 }
-.sheetLink {
+.sheet[data-open="true"] {
+  clip-path: inset(0 0 0 0 round var(--round));
+  opacity: 1;
+  visibility: visible;
+  transition:
+    clip-path 0.52s cubic-bezier(0.2, 0, 0, 1),
+    opacity 0.12s linear,
+    visibility 0s;
+}
+
+.sheetTop {
+  height: var(--row);
+  box-sizing: border-box;
+  padding: 0 8px 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 64px;
-  border-bottom: 1px solid rgba(247, 243, 238, 0.08);
+  gap: 12px;
+}
+
+/* the close: a bare cross where the burger's lines were, turning into place */
+.sheetClose {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
   color: var(--cream);
-  font-family: var(--font-fraunces), Georgia, serif;
-  font-size: 28px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
+  cursor: pointer;
+  transition: scale 0.15s cubic-bezier(0.2, 0, 0, 1);
+}
+.sheetClose:active {
+  scale: 0.88;
+}
+.sheetClose:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+.sheetClose svg {
+  opacity: 0;
+  transform: rotate(-90deg) scale(0.6);
+  transition: transform 0.24s cubic-bezier(0.2, 0, 0, 1), opacity 0.12s linear;
+}
+.sheet[data-open="true"] .sheetClose svg {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.48s cubic-bezier(0.2, 0, 0, 1) 0.08s, opacity 0.2s linear 0.08s;
+}
+
+/* the rows follow the card in */
+.sheetItem {
   opacity: 0;
   translate: 0 10px;
-  transition: opacity 0.15s ease, translate 0.15s ease;
+  transition: opacity 0.18s linear, translate 0.24s cubic-bezier(0.2, 0, 0, 1);
 }
-.sheetLink svg {
-  color: rgba(247, 243, 238, 0.4);
-}
-.sheet[data-open="true"] .sheetLink {
+.sheet[data-open="true"] .sheetItem {
   opacity: 1;
   translate: 0 0;
   transition:
-    opacity 0.3s ease calc(60ms + var(--i) * 40ms),
-    translate 0.45s var(--ease) calc(60ms + var(--i) * 40ms);
+    opacity 0.36s cubic-bezier(0.2, 0, 0, 1) calc(120ms + var(--i) * 35ms),
+    translate 0.36s cubic-bezier(0.2, 0, 0, 1) calc(120ms + var(--i) * 35ms);
+}
+
+/* "Get the app" (the header's own) on the left, the language on the right */
+.sheetActions {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 14px 0;
+}
+
+.sheetLinks {
+  margin: 12px 0 0;
+  padding: 0 14px;
+  list-style: none;
+}
+.sheetLink {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 18px;
+  column-gap: 14px;
+  align-items: center;
+  min-height: 64px;
+  padding: 8px 4px;
+  border-radius: 14px;
+  color: var(--cream);
+  transition: scale 0.15s cubic-bezier(0.2, 0, 0, 1);
+}
+.sheetLink:active {
+  scale: 0.98;
 }
 .sheetLink:focus-visible {
   outline: 2px solid var(--mint);
-  outline-offset: 2px;
-  border-radius: 6px;
+  outline-offset: 0;
 }
-
-.sheetLang {
-  margin-top: 36px;
-}
-.sheetHeading {
-  margin: 0 0 12px;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #8fa3b1;
-}
-.chips {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 6px;
-}
-.chip {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
+.tile {
+  width: 44px;
   height: 44px;
+  display: grid;
+  place-items: center;
   border-radius: 12px;
-  border: 1px solid rgba(247, 243, 238, 0.08);
-  color: rgba(247, 243, 238, 0.7);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  background: #0d1725;
+  box-shadow: inset 0 0 0 1px rgba(247, 243, 238, 0.08);
 }
-.chip:hover {
-  color: var(--cream);
-  border-color: rgba(247, 243, 238, 0.16);
-}
-.chip[aria-current="true"] {
-  color: var(--cream);
-  font-weight: 600;
-  border-color: rgba(76, 175, 138, 0.55);
-  background: rgba(76, 175, 138, 0.12);
-}
-.chip:focus-visible {
-  outline: 2px solid var(--mint);
-  outline-offset: 2px;
-}
-
-.sheetFoot {
-  margin-top: auto;
-  padding-top: 32px;
+.sheetText {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  gap: 14px;
+  gap: 3px;
+  min-width: 0;
 }
-.sheetCta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 56px;
-  border-radius: 999px;
-  background: var(--mint);
-  color: #0d1b2a;
-  font-size: 16px;
+.sheetLabel {
+  font-size: 18px;
   font-weight: 600;
-  transition: scale 0.12s ease;
+  line-height: 1.25;
+  letter-spacing: -0.005em;
+  overflow-wrap: break-word;
 }
-.sheetCta:active {
-  scale: 0.98;
+.sheetSub {
+  font-size: 11.5px;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8fa3b1;
+  overflow-wrap: break-word;
 }
-.sheetStores {
-  justify-content: center;
+.chevron {
+  color: #5e7385;
 }
 
 @media (max-width: 960px) {
@@ -349,13 +417,29 @@
   }
 }
 @media (min-width: 961px) {
-  .sheet {
+  .sheet,
+  .scrim {
     display: none;
   }
 }
 @media (max-width: 560px) {
   .bar {
     padding: 0 12px;
+  }
+  .sheet {
+    --row: 52px;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    max-height: calc(100dvh - 24px);
+  }
+  .sheetTop {
+    padding: 0 4px 0 16px;
+  }
+  .sheetActions,
+  .sheetLinks {
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .lang {
     display: none;
@@ -385,10 +469,25 @@
   .shell,
   .ctaWrap,
   .link::after,
-  .sheet,
-  .sheetLink,
   .menuTop,
   .menuBottom {
     transition: none !important;
+  }
+  /* the menu only fades: no unfolding, no rows rising, no turning cross */
+  .sheet,
+  .sheet[data-open="true"] {
+    clip-path: none;
+    transition: opacity 0.2s linear, visibility 0s linear 0.2s;
+  }
+  .sheet[data-open="true"] {
+    transition: opacity 0.2s linear, visibility 0s;
+  }
+  .sheetItem,
+  .sheet[data-open="true"] .sheetItem,
+  .sheetClose svg,
+  .sheet[data-open="true"] .sheetClose svg {
+    translate: none;
+    transform: none;
+    transition: opacity 0.2s linear;
   }
 }
