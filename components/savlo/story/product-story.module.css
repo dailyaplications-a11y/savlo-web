@@ -18,8 +18,16 @@
    * zoomed-out page a shorter stage left a strip with the next sections
    * showing under it before the story was over. The composition keeps its
    * size and stands in the middle; the extra height is air.
+   *
+   * On a phone "the whole window" changes as the browser's bar slides away:
+   * the stage takes the LARGE viewport (it fills the screen either way, and
+   * the device runs down to the edge instead of being cut flat over an empty
+   * band), while the composition is laid out for the SMALL one (--seen,
+   * measured by .seen), so nothing in it moves when the bar comes and goes.
+   * The chapter bar is fixed to the real bottom edge.
    */
   --stage: 100vh;
+  --seen: 100vh;
 
   position: relative;
   /* the stage holds for --pinned px, then scrolls away with the page and the
@@ -28,10 +36,21 @@
   background: #0d1b2a;
   color: #f7f3ee;
 }
-@supports (height: 100svh) {
+@supports (height: 100lvh) {
   .story {
-    --stage: 100svh;
+    --stage: 100lvh;
+    --seen: 100svh;
   }
+}
+
+.seen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: var(--seen);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .story[data-ready="false"] * {
@@ -416,9 +435,12 @@
 
 /* ── chapter selector ──────────────────────────────────────────── */
 
+/* fixed to the screen's edge while the stage holds (see product-story.tsx);
+   once it lets go, pinned to the section's foot, where the stage ends, so
+   the bar and its fade ride out with the stage as one piece */
 .selector {
-  position: absolute;
-  z-index: 6;
+  position: fixed;
+  z-index: 11;
   left: 0;
   right: 0;
   bottom: 26px;
@@ -428,12 +450,15 @@
   opacity: 0;
   transform: translate3d(0, 24px, 0);
   pointer-events: none;
-  transition: opacity 0.6s ease, transform 0.7s var(--out);
+  transition: opacity 0.45s ease, transform 0.6s var(--out);
 }
 .story[data-intro="false"] .selector {
   opacity: 1;
   transform: none;
   pointer-events: auto;
+}
+.story[data-past] .selector {
+  position: absolute;
 }
 
 /* no tray behind the tabs: only the pill under the chapter that's on */
@@ -549,8 +574,8 @@
   .selector {
     bottom: max(18px, env(safe-area-inset-bottom));
   }
-  /* here the phone runs under the tabs: no tray, the stage just fades to the
-     ground behind them so they read */
+  /* here the phone runs under the tabs and down to the screen's edge: no
+     tray, the stage just fades to the ground behind them so they read */
   .selector::before {
     content: "";
     position: absolute;

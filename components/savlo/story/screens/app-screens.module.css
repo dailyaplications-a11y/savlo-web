@@ -25,6 +25,9 @@
   position: absolute;
   inset: 0;
   overflow: hidden;
+  /* what changes inside a screen (a word, a row, a counter) is laid out and
+     repainted within it, never past it */
+  contain: strict;
   opacity: 0;
   visibility: hidden;
   transform: translate3d(0, 14px, 0) scale(0.985);
@@ -36,6 +39,9 @@
 .screen[data-state="before"] {
   transform: translate3d(0, -10px, 0) scale(0.985);
 }
+/* visible at once, though still at 0 opacity for its beat: it is painted and
+   rasterised while the outgoing screen fades, so it arrives whole instead of
+   tile by tile as the fade begins */
 .screen[data-state="on"] {
   z-index: 1;
   opacity: 1;
@@ -44,7 +50,7 @@
   transition:
     opacity 0.3s cubic-bezier(0, 0, 0.2, 1) 0.14s,
     transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) 0.14s,
-    visibility 0s linear 0.14s;
+    visibility 0s linear 0s;
 }
 
 .device {
@@ -597,6 +603,11 @@
 }
 .aiTurn {
   animation: aiTurn 16.4s linear infinite;
+}
+/* a loop on a screen that is off would keep the compositor drawing every
+   frame for nothing: it holds still (and keeps its angle) until it's back */
+.device:not([data-on="true"]) :is(.aiTurn, .docSolo) {
+  animation-play-state: paused;
 }
 .aiTurnFast {
   animation: aiTurn 0.7s linear infinite paused;
@@ -2292,8 +2303,20 @@
   right: 19px;
   bottom: 112px;
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(transparent, #000 18px);
-  mask-image: linear-gradient(transparent, #000 18px);
+}
+/* the thread fades out under the top bar: a veil of the canvas's own navy,
+   not a mask (a mask made the box an offscreen layer, redrawn whole on every
+   word the answer wrote) */
+.threadBox::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 18px;
+  background: linear-gradient(#0d1b2a, rgba(13, 27, 42, 0));
+  pointer-events: none;
 }
 .thread {
   padding-top: 14px;
@@ -2897,8 +2920,14 @@
   display: flex;
   flex-direction: column;
   gap: 11.6px;
-  -webkit-mask-image: linear-gradient(#000 82%, transparent 98%);
-  mask-image: linear-gradient(#000 82%, transparent 98%);
+}
+/* the list fades into the canvas: a veil, not a mask (see .threadBox::after) */
+.pills::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(13, 27, 42, 0) 82%, #0d1b2a 98%);
+  pointer-events: none;
 }
 .pill {
   position: relative;
@@ -3453,4 +3482,30 @@
   font-size: 16.5px;
   font-weight: 700;
   color: #f7f3ee;
+}
+
+/* ── phones: the same moves, without blur ──────────────────────── */
+
+/*
+ * A blur that animates is a filter redrawn on every frame, and inside the
+ * tilted device each one is its own offscreen layer: the transcript's words,
+ * every word of Savlo AI's answer, Today behind the "+" sheet. A desktop GPU
+ * keeps up; a phone's fell behind and the screen built itself in pieces. On a
+ * phone (where the device is drawn smaller than its own size and a few px of
+ * blur barely read) the words arrive with the same fade and lift, sharp, and
+ * the sheet's scrim alone dims Today.
+ */
+@media (max-width: 959.98px) {
+  .token,
+  .token[data-in="true"],
+  .entry[data-plus="true"] .entryToday {
+    filter: none;
+  }
+  .aiWord {
+    animation-name: wordInSharp;
+  }
+}
+@keyframes wordInSharp {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

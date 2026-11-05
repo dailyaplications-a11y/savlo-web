@@ -81,7 +81,8 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
   const cta = getAppCopy[locale]
 
   const sectionRef = useRef<HTMLElement>(null)
-  const stageRef = useRef<HTMLDivElement>(null)
+  // 100svh, measured: what is on screen even with the browser's bars out
+  const seenRef = useRef<HTMLSpanElement>(null)
   const introRef = useRef<HTMLElement>(null)
   const textRef = useRef<HTMLDivElement>(null)
   const tabsRef = useRef<HTMLDivElement>(null)
@@ -93,15 +94,26 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
   const [ready, setReady] = useState(false)
   // how far into each driven step the scroll is, 0..1, by step index
   const [driven, setDriven] = useState<Record<number, number>>({})
+  // the stage has let go and is scrolling away with the page
+  const [past, setPast] = useState(false)
 
   const activeRef = useRef(-1)
   const drivenRef = useRef<Record<number, number>>({})
+  const pastRef = useRef(false)
   const lock = useRef<{ until: number; top: number } | null>(null)
 
   const sync = useCallback(() => {
     const section = sectionRef.current
     if (!section) return
     const y = -section.getBoundingClientRect().top
+
+    // the frame the stage starts to leave, the bar trades the screen's edge
+    // for the stage's, where it already stands (no jump)
+    const leaving = y > PINNED
+    if (leaving !== pastRef.current) {
+      pastRef.current = leaving
+      setPast(leaving)
+    }
 
     const held = lock.current
     if (held && (performance.now() > held.until || Math.abs(window.scrollY - held.top) < 3)) {
@@ -124,7 +136,12 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
   }, [])
 
   const measure = useCallback(() => {
-    const sh = stageRef.current?.clientHeight || window.innerHeight
+    // The composition is laid out for the SMALL viewport (browser bars out):
+    // it never moves when a mobile browser hides or shows its bar mid-scroll,
+    // and the stage behind it is tall enough (100lvh) to fill the screen
+    // either way. (It used to be laid out in a 100svh stage, which left an
+    // empty band under it, and cut the phone flat, once the bar went away.)
+    const sh = seenRef.current?.offsetHeight || window.innerHeight
     const vw = document.documentElement.clientWidth || window.innerWidth
     const textH = textRef.current?.offsetHeight || 300
     const introH = introRef.current?.offsetHeight || 640
@@ -176,7 +193,7 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
       measure()
       sync()
     })
-    for (const el of [stageRef.current, textRef.current, introRef.current, tabsRef.current]) {
+    for (const el of [seenRef.current, textRef.current, introRef.current, tabsRef.current]) {
       if (el) ro.observe(el)
     }
     document.fonts?.ready.then(measure).catch(() => {})
@@ -239,7 +256,13 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
   // out SS times bigger (zoom, real layout: text is hinted at that size) and
   // shrunk back with a transform, which is enough for a sharp raster at the
   // screen's density. 2 at least, 3 at most (the texture grows with SS²).
-  const ss = clamp(Math.ceil(dpr * scale - 0.05), 2, 3)
+  // Not on a phone: a tilted layer is never rasterised below the screen's own
+  // density, and there the device is drawn SMALLER than that (scale < 1), so
+  // 1 is already sharp. Zoomed 3× on a 2.75× phone it was a ~2500 × 5200 px
+  // texture per layer: the GPU fell behind, tiles came in black or late, and
+  // every screen visibly built itself piece by piece. A tablet, which draws
+  // the device near full size, gets 2.
+  const ss = mobile ? (scale > 0.9 ? 2 : 1) : clamp(Math.ceil(dpr * scale - 0.05), 2, 3)
   // Under the hero the phone shows whatever the copy leaves free, at least a
   // recognisable slice of the screen and never more than about two fifths of
   // it: the hero reads first, and there is always air between the button and it.
@@ -305,15 +328,17 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
       style={{ "--pinned": `${PINNED}px`, "--copy-in": `${crossing.current.delay}s` } as CSSProperties}
       data-ready={ready}
       data-intro={intro}
+      data-past={past || undefined}
       data-chapter={chapter}
       data-landscape={landscape || undefined}
     >
+      <span ref={seenRef} aria-hidden className={styles.seen} />
       {/* in-page links from the old sections still land in the right place */}
       <span id="philosophy" className={styles.anchor} style={{ top: 0 }} aria-hidden />
       <span id="product" className={styles.anchor} style={{ top: INTRO * STEP + 40 }} aria-hidden />
       <span id="features" className={styles.anchor} style={{ top: INTRO * STEP + 60 }} aria-hidden />
 
-      <div ref={stageRef} className={styles.stage}>
+      <div className={styles.stage}>
         <div className={styles.exit}>
           {/* ambient light: the hero's floor glow, then one tint per chapter */}
           <div aria-hidden className={styles.floorGlow} />
@@ -414,40 +439,46 @@ export function ProductStory({ locale = "en" }: { locale?: Locale }) {
               {copy.intro.cue}
             </button>
           </div>
-
-          <nav className={styles.selector} aria-label={copy.chaptersLabel}>
-            <div ref={tabsRef} className={styles.tabs}>
-              <span
-                aria-hidden
-                className={styles.tabPill}
-                style={
-                  tab
-                    ? { width: tab.w, transform: `translate3d(${tab.x}px, 0, 0) rotate(${CHAPTER_ROT[chapter]}deg)` }
-                    : { opacity: 0 }
-                }
-              />
-              {copy.chapters.map((c, i) => (
-                <button
-                  key={c.label}
-                  ref={(el) => {
-                    tabRefs.current[i] = el
-                  }}
-                  type="button"
-                  className={styles.tab}
-                  data-selected={i === chapter}
-                  aria-current={!intro && i === chapter ? "step" : undefined}
-                  tabIndex={intro ? -1 : 0}
-                  onClick={() => goTo(CHAPTER_START[i])}
-                  style={i === chapter ? { transform: `rotate(${CHAPTER_ROT[chapter]}deg)` } : undefined}
-                >
-                  <ChapterIcon icon={c.icon} />
-                  {c.label}
-                </button>
-              ))}
-            </div>
-          </nav>
         </div>
       </div>
+
+      {/*
+        Outside the stage and fixed to the screen's bottom edge: a mobile
+        browser moves a fixed bar with its own toolbar as it slides, where a
+        bar inside the stage sat as high as the small viewport and left a
+        strip of empty ground under it once the toolbar hid.
+      */}
+      <nav className={styles.selector} aria-label={copy.chaptersLabel} aria-hidden={intro || undefined}>
+        <div ref={tabsRef} className={styles.tabs}>
+          <span
+            aria-hidden
+            className={styles.tabPill}
+            style={
+              tab
+                ? { width: tab.w, transform: `translate3d(${tab.x}px, 0, 0) rotate(${CHAPTER_ROT[chapter]}deg)` }
+                : { opacity: 0 }
+            }
+          />
+          {copy.chapters.map((c, i) => (
+            <button
+              key={c.label}
+              ref={(el) => {
+                tabRefs.current[i] = el
+              }}
+              type="button"
+              className={styles.tab}
+              data-selected={i === chapter}
+              aria-current={!intro && i === chapter ? "step" : undefined}
+              tabIndex={intro ? -1 : 0}
+              onClick={() => goTo(CHAPTER_START[i])}
+              style={i === chapter ? { transform: `rotate(${CHAPTER_ROT[chapter]}deg)` } : undefined}
+            >
+              <ChapterIcon icon={c.icon} />
+              {c.label}
+            </button>
+          ))}
+        </div>
+      </nav>
     </section>
   )
 }
