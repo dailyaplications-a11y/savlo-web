@@ -9,18 +9,19 @@ import styles from "./faq-section.module.css"
  * The home's FAQ, right after the storyboard (owner, 2026-11-05; design:
  * https://claude.ai/artifact/Ekw2q1Jgtmbjbtz2wiDZpA). Clean on purpose: no
  * cards, no dividers, no circles behind the chevron or the step numbers; the
- * rows are separated by air alone. One question open at a time, the history
- * one open at first; tapping the open one closes it.
+ * rows are separated by air alone. One question open at a time, all of them
+ * closed at first (owner, 2026-11-06: none opens by default); tapping the open
+ * one closes it.
  *
  * Every answer stays in the page while closed (folded to zero height and
  * `inert`), so search engines and find-in-page still reach it.
  */
 
-const FIRST_OPEN = 2 // "How do I bring my history over?": the one with steps
+const NONE_OPEN = -1
 
 export function FaqSection({ locale = "en" }: { locale?: Locale }) {
   const copy = faqCopy[locale]
-  const [open, setOpen] = useState(FIRST_OPEN)
+  const [open, setOpen] = useState(NONE_OPEN)
   const uid = useId()
 
   return (
@@ -45,7 +46,7 @@ export function FaqSection({ locale = "en" }: { locale?: Locale }) {
                     className={styles.toggle}
                     aria-expanded={expanded}
                     aria-controls={panelId}
-                    onClick={() => setOpen(expanded ? -1 : i)}
+                    onClick={() => setOpen(expanded ? NONE_OPEN : i)}
                   >
                     <span>{item.q}</span>
                     <svg
