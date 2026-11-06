@@ -1,20 +1,29 @@
 /*
- * Header: open at the top, a slim glass pill once the page moves.
- * Quiet by design: links and the language are words that brighten under the
- * pointer, a one-pixel rule sets the way in apart, and "Get the app" is the
- * only filled thing. Nothing here paints a gray box, on hover or on press.
+ * Header (owner, 2026-11-05, after Polarsteps; design:
+ * https://claude.ai/artifact/LBGmphHg78td89UH9W33Ro). Bare and as wide as the
+ * content at the top; once the page moves it closes, in one movement, into a
+ * 600 px pill of dark glass. The glass is its own layer (::before) that only
+ * fades, so nothing in the bar jumps while it forms. "Get the app" is the only
+ * filled thing; the burger is three bare lines; nothing paints a gray box on
+ * hover or press.
  */
 
-/* (the sheet lives outside the bar, so both carry the palette) */
-.bar,
-.sheet {
-  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
-  --cream: #f7f3ee;
-  --soft: rgba(247, 243, 238, 0.64);
-  --mint: #4caf8a;
-}
-
 .bar {
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --emph: cubic-bezier(0.2, 0, 0, 1);
+  /*
+   * The bar's one movement (owner, 2026-11-05: "de esa calidad", Polarsteps):
+   * one curve and one duration for width, height and place, soft at both
+   * ends. Measured frame by frame, the old ease-out did 60 % of the way in
+   * the first 160 ms and then crawled: a snap, not a glide.
+   */
+  --morph: 0.65s cubic-bezier(0.5, 0, 0.15, 1);
+  --cream: #f7f3ee;
+  --soft: #8fa3b1;
+  --mint: #4caf8a;
+  /* the dark glass, shared by the pill and its menu */
+  --glass-edge: rgba(255, 255, 255, 0.09);
+  --glass-blur: blur(18px) saturate(1.7);
   position: fixed;
   z-index: 100;
   top: 0;
@@ -24,44 +33,78 @@
   pointer-events: none;
 }
 
-.shell {
+/*
+ * The width animates as a real width, measured (--bar-open, site-header.tsx):
+ * with max-width 1180 → 600, a window narrower than 1180 sat still for the
+ * first part of the movement, until the cap came down to it.
+ * Place and height are paired so the bar's centre line never moves
+ * (10 + 64 / 2 = 14 + 56 / 2 = 42): the mark and the buttons glide sideways
+ * only, as in Polarsteps, never up or down.
+ */
+.frame {
   pointer-events: auto;
+  position: relative;
   box-sizing: border-box;
+  width: var(--bar-open, min(1180px, 100%));
+  max-width: 100%;
   margin: 0 auto;
-  max-width: 1240px;
-  height: 72px;
-  padding: 0 8px 0 12px;
+  transform: translate3d(0, 10px, 0);
+  transition:
+    width var(--morph),
+    transform var(--morph);
+}
+.bar[data-condensed="true"] .frame {
+  width: 600px;
+  transform: translate3d(0, 14px, 0);
+}
+
+.shell {
+  position: relative;
+  box-sizing: border-box;
+  height: 64px;
+  padding: 0 4px 0 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  border-radius: 999px;
-  background: rgba(13, 23, 37, 0);
-  border: 1px solid rgba(247, 243, 238, 0);
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  transform: translate3d(0, 12px, 0);
   transition:
-    max-width 0.7s var(--ease),
-    height 0.6s var(--ease),
-    padding 0.6s var(--ease),
-    background-color 0.5s ease,
-    border-color 0.5s ease,
-    box-shadow 0.6s ease,
-    transform 0.6s var(--ease);
+    height var(--morph),
+    padding var(--morph);
 }
 .bar[data-condensed="true"] .shell {
-  max-width: 880px;
   height: 56px;
-  padding: 0 8px 0 20px;
-  background: rgba(13, 23, 37, 0.72);
-  border-color: rgba(247, 243, 238, 0.08);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 16px 40px -20px rgba(0, 0, 0, 0.8);
-  -webkit-backdrop-filter: blur(20px) saturate(1.4);
-  backdrop-filter: blur(20px) saturate(1.4);
-  transform: translate3d(0, 16px, 0);
+  padding: 0 9px 0 16px;
+}
+/* the glass: a layer of its own, fading in as the bar closes */
+.shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01)),
+    rgba(9, 18, 29, 0.82);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-edge);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.11),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 2px rgba(0, 0, 0, 0.25),
+    0 12px 32px -10px rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  pointer-events: none;
+  /* opening back out, the glass dissolves late: the pill stays an object while it widens */
+  transition: opacity 0.4s ease 0.22s;
+}
+.bar[data-condensed="true"] .shell::before {
+  opacity: 1;
+  /* closing, it comes in early: the bar is already glass while it narrows */
+  transition: opacity 0.3s cubic-bezier(0.2, 0, 0, 1);
 }
 
 .brand {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -82,88 +125,52 @@
   line-height: 1;
 }
 
-.links {
-  display: flex;
-  align-items: center;
-  gap: 26px;
-}
-.link {
-  position: relative;
-  padding: 10px 2px;
-  color: var(--soft);
-  font-size: 14px;
-  font-weight: 500;
-  white-space: nowrap;
-  transition: color 0.2s ease;
-}
-.link::after {
-  content: "";
-  position: absolute;
-  left: 2px;
-  right: 2px;
-  bottom: 4px;
-  height: 1.5px;
-  border-radius: 2px;
-  background: var(--mint);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.35s var(--ease);
-}
-.link:hover {
-  color: var(--cream);
-}
-.link:hover::after {
-  transform: scaleX(1);
-}
-.link:focus-visible {
-  outline: 2px solid var(--mint);
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
 .actions {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 6px;
 }
 
-/* "Get the app" makes its own room: the wrapper opens, then the pill shows. */
+
+/* "Get the app" makes its own room as the bar closes: the wrapper opens, then the pill shows */
 .ctaWrap {
   display: flex;
   align-items: center;
-  gap: 6px;
   overflow: hidden;
   max-width: 0;
   opacity: 0;
   visibility: hidden;
-  transition: max-width 0.6s var(--ease), opacity 0.35s ease, visibility 0s linear 0.6s;
+  transition: max-width var(--morph), opacity 0.16s ease, visibility 0s linear 0.65s;
 }
+/* its room opens with the bar's movement; the button itself shows once the room is there */
 .ctaWrap[data-show="true"] {
-  max-width: 200px;
+  max-width: 220px;
   opacity: 1;
   visibility: visible;
-  transition: max-width 0.6s var(--ease), opacity 0.35s ease 0.08s, visibility 0s;
+  transition: max-width var(--morph), opacity 0.3s ease 0.3s, visibility 0s;
 }
-.divider {
-  flex-shrink: 0;
-  width: 1px;
-  height: 20px;
-  margin-right: 2px;
-  background: rgba(247, 243, 238, 0.1);
+/*
+ * Captured on their own in a language change (globals.css): the button
+ * morphs to its new width while its words cross-fade, and the language
+ * control slides to its new place, instead of both jumping.
+ */
+.lang {
+  view-transition-name: site-lang;
 }
-
 .cta {
+  view-transition-name: site-cta;
   display: inline-flex;
   align-items: center;
-  height: 40px;
-  padding: 0 18px;
+  height: 38px;
+  padding: 0 17px;
+  margin: 0 6px 0 4px;
   border-radius: 999px;
   background: var(--mint);
   color: #0d1b2a;
   font-size: 14px;
   font-weight: 600;
-  letter-spacing: -0.005em;
   white-space: nowrap;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 1px 2px rgba(0, 0, 0, 0.25);
   transition: background-color 0.25s ease, scale 0.12s ease;
 }
 .cta:hover {
@@ -177,317 +184,303 @@
   outline-offset: 2px;
 }
 
-/* ── a narrow window: the menu ─────────────────────────────────── */
-
-.menuButton {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
+/* the burger: three bare lines that cross into an × */
+.burger {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
   padding: 0;
   border: 0;
-  border-radius: 999px;
   background: transparent;
   color: var(--cream);
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   transition: scale 0.12s ease;
 }
-.menuButton:active {
-  scale: 0.94;
+.burger:active {
+  scale: 0.92;
 }
-.menuButton:focus-visible {
+.burger:focus-visible {
   outline: 2px solid var(--mint);
   outline-offset: 2px;
+  border-radius: 10px;
 }
-.menuTop,
-.menuBottom {
-  transform-box: fill-box;
-  transform-origin: center;
-  transition: transform 0.35s var(--ease);
+.lineTop,
+.lineMid,
+.lineBottom {
+  transform-box: view-box;
+  transform-origin: 12px 12px;
+  transition: transform 0.4s var(--emph), opacity 0.2s ease;
 }
-.bar[data-menu="true"] .menuTop {
-  transform: translateY(3px) rotate(45deg);
+.bar[data-menu="true"] .lineTop {
+  transform: translateY(5.5px) rotate(45deg);
 }
-.bar[data-menu="true"] .menuBottom {
-  transform: translateY(-3px) rotate(-45deg);
+.bar[data-menu="true"] .lineMid {
+  opacity: 0;
+  transform: scaleX(0.2);
 }
+.bar[data-menu="true"] .lineBottom {
+  transform: translateY(-5.5px) rotate(-45deg);
+}
+
+/* ── the menu ───────────────────────────────────────────────────── */
 
 /*
- * The menu of a narrow window (owner, 2026-11-05, after Polarsteps): the
- * condensed pill unfolds downwards into a card. Its first row stands exactly
- * where the pill's was (the mark, and a bare cross where the burger was), so
- * it reads as one object opening; the rows follow it in, 35 ms apart. Closing
- * folds it back into the pill. Behind it, the page dims under a navy veil.
- *
- * Geometry mirrors .bar / .shell condensed: 16 px in and down, 56 tall,
- * 880 wide at most (12 / 52 under 560 px).
+ * A narrow card of the same glass, hanging from the pill's right edge. It
+ * grows out of its top-right corner; the language, then the rows, follow it
+ * in 40 ms apart, and each row's icon makes its own gesture as it lands.
  */
-.scrim {
-  position: fixed;
-  z-index: 101;
-  inset: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: rgba(3, 8, 13, 0.64);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-  cursor: default;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.36s cubic-bezier(0.2, 0, 0, 1), visibility 0s linear 0.36s;
-}
-.scrim[data-open="true"] {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.4s cubic-bezier(0.2, 0, 0, 1), visibility 0s;
-}
-
-.sheet {
-  --row: 56px;
-  --round: 28px;
-  position: fixed;
-  z-index: 102;
-  top: 16px;
-  left: 16px;
-  right: 16px;
+.menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: 280px;
   box-sizing: border-box;
-  max-width: 880px;
-  max-height: calc(100dvh - 32px);
-  margin: 0 auto;
-  padding: 0 0 18px;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  border-radius: var(--round);
-  background: #0d1b2a;
-  border: 1px solid rgba(247, 243, 238, 0.09);
-  box-shadow: 0 32px 80px -24px rgba(0, 0, 0, 0.85), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
-  /* closed, it is the pill: only its first row, rounded like one */
-  clip-path: inset(0 0 calc(100% - var(--row)) 0 round calc(var(--row) / 2));
+  padding: 10px 8px 8px;
+  border-radius: 20px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01)),
+    rgba(9, 18, 29, 0.92);
+  -webkit-backdrop-filter: blur(22px) saturate(1.7);
+  backdrop-filter: blur(22px) saturate(1.7);
+  border: 1px solid var(--glass-edge);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.25),
+    0 28px 56px -20px rgba(0, 0, 0, 0.7);
+  transform-origin: top right;
   opacity: 0;
+  transform: translate3d(0, -6px, 0) scale(0.96);
   visibility: hidden;
   transition:
-    clip-path 0.36s cubic-bezier(0.3, 0, 0.8, 0.15),
-    opacity 0.16s linear 0.2s,
-    visibility 0s linear 0.36s;
+    opacity 0.18s ease,
+    transform 0.24s var(--emph),
+    visibility 0s linear 0.24s;
 }
-.sheet[data-open="true"] {
-  clip-path: inset(0 0 0 0 round var(--round));
+.menu[data-open="true"] {
   opacity: 1;
+  transform: none;
   visibility: visible;
   transition:
-    clip-path 0.52s cubic-bezier(0.2, 0, 0, 1),
-    opacity 0.12s linear,
+    opacity 0.22s ease,
+    transform 0.42s var(--emph),
     visibility 0s;
 }
 
-.sheetTop {
-  height: var(--row);
-  box-sizing: border-box;
-  padding: 0 8px 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-/* the close: a bare cross where the burger's lines were, turning into place */
-.sheetClose {
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  padding: 0;
-  border: 0;
-  border-radius: 999px;
-  background: transparent;
-  color: var(--cream);
-  cursor: pointer;
-  transition: scale 0.15s cubic-bezier(0.2, 0, 0, 1);
-}
-.sheetClose:active {
-  scale: 0.88;
-}
-.sheetClose:focus-visible {
-  outline: 2px solid var(--mint);
-  outline-offset: 2px;
-}
-.sheetClose svg {
+.menuLang,
+.menuItem {
   opacity: 0;
-  transform: rotate(-90deg) scale(0.6);
-  transition: transform 0.24s cubic-bezier(0.2, 0, 0, 1), opacity 0.12s linear;
+  translate: 0 8px;
+  transition: opacity 0.16s linear, translate 0.2s var(--emph);
 }
-.sheet[data-open="true"] .sheetClose svg {
-  opacity: 1;
-  transform: none;
-  transition: transform 0.48s cubic-bezier(0.2, 0, 0, 1) 0.08s, opacity 0.2s linear 0.08s;
-}
-
-/* the rows follow the card in */
-.sheetItem {
-  opacity: 0;
-  translate: 0 10px;
-  transition: opacity 0.18s linear, translate 0.24s cubic-bezier(0.2, 0, 0, 1);
-}
-.sheet[data-open="true"] .sheetItem {
+.menu[data-open="true"] .menuLang,
+.menu[data-open="true"] .menuItem {
   opacity: 1;
   translate: 0 0;
   transition:
-    opacity 0.36s cubic-bezier(0.2, 0, 0, 1) calc(120ms + var(--i) * 35ms),
-    translate 0.36s cubic-bezier(0.2, 0, 0, 1) calc(120ms + var(--i) * 35ms);
+    opacity 0.32s var(--emph) calc(80ms + var(--i) * 40ms),
+    translate 0.4s var(--emph) calc(80ms + var(--i) * 40ms);
 }
 
-/* "Get the app" (the header's own) on the left, the language on the right */
-.sheetActions {
+/*
+ * The language stays in the bar, where it is, menu open or not (owner,
+ * 2026-11-05). Only a phone, whose bar has no room for it beside "Get the
+ * app", carries it here, centred above a hairline (see the 560 px query).
+ */
+.menuLang {
   position: relative;
   z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 6px 14px 0;
+  display: none;
+  justify-content: center;
+  padding: 0 0 10px;
+  margin: 0 8px 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.sheetLinks {
-  margin: 12px 0 0;
-  padding: 0 14px;
+.menuList {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
-.sheetLink {
-  display: grid;
-  grid-template-columns: 44px minmax(0, 1fr) 18px;
-  column-gap: 14px;
+.menuLink {
+  display: flex;
   align-items: center;
-  min-height: 64px;
-  padding: 8px 4px;
+  gap: 14px;
+  min-height: 60px;
+  padding: 8px 12px;
   border-radius: 14px;
   color: var(--cream);
-  transition: scale 0.15s cubic-bezier(0.2, 0, 0, 1);
+  -webkit-tap-highlight-color: transparent;
+  transition: scale 0.15s var(--emph);
 }
-.sheetLink:active {
+.menuLink:active {
   scale: 0.98;
 }
-.sheetLink:focus-visible {
+.menuLink:focus-visible {
   outline: 2px solid var(--mint);
-  outline-offset: 0;
+  outline-offset: -2px;
 }
-.tile {
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  border-radius: 12px;
-  background: #0d1725;
-  box-shadow: inset 0 0 0 1px rgba(247, 243, 238, 0.08);
-}
-.sheetText {
+.menuText {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
   min-width: 0;
 }
-.sheetLabel {
-  font-size: 18px;
+.menuLabel {
+  font-size: 16px;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.2;
   letter-spacing: -0.005em;
-  overflow-wrap: break-word;
 }
-.sheetSub {
-  font-size: 11.5px;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: 0.08em;
+.menuSub {
+  font-size: 10.5px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: #8fa3b1;
+  color: var(--soft);
   overflow-wrap: break-word;
-}
-.chevron {
-  color: #5e7385;
 }
 
-@media (max-width: 960px) {
-  .links {
-    display: none;
-  }
-  .menuButton {
-    display: flex;
-  }
+/*
+ * The icons: bare Phosphor glyphs, no tile. Each one has a gesture of its
+ * own. The wrapper plays it once as the row lands; the glyph inside plays it
+ * again under the pointer (two elements, so one never restarts the other).
+ */
+.glyph {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  color: var(--cream);
 }
-@media (min-width: 961px) {
-  .sheet,
-  .scrim {
-    display: none;
-  }
+.glyph svg {
+  display: block;
+  transition: color 0.2s ease;
 }
+/* (named per glyph: CSS Modules renames keyframes, but not inside a variable) */
+.menu[data-open="true"] .glyph {
+  animation-duration: 0.7s;
+  animation-timing-function: var(--ease);
+  animation-delay: calc(180ms + var(--i) * 60ms);
+  animation-fill-mode: both;
+}
+.menuLink:hover .glyph svg,
+.menuLink:focus-visible .glyph svg {
+  animation-duration: 0.7s;
+  animation-timing-function: var(--ease);
+  animation-fill-mode: both;
+}
+.menu[data-open="true"] .glyph[data-glyph="product"],
+.menuLink:hover .glyph[data-glyph="product"] svg,
+.menuLink:focus-visible .glyph[data-glyph="product"] svg {
+  animation-name: glyphSway;
+}
+.menu[data-open="true"] .glyph[data-glyph="privacy"],
+.menuLink:hover .glyph[data-glyph="privacy"] svg,
+.menuLink:focus-visible .glyph[data-glyph="privacy"] svg {
+  animation-name: glyphBeat;
+}
+.menu[data-open="true"] .glyph[data-glyph="blog"],
+.menuLink:hover .glyph[data-glyph="blog"] svg,
+.menuLink:focus-visible .glyph[data-glyph="blog"] svg {
+  animation-name: glyphRock;
+}
+.menu[data-open="true"] .glyph[data-glyph="help"],
+.menuLink:hover .glyph[data-glyph="help"] svg,
+.menuLink:focus-visible .glyph[data-glyph="help"] svg {
+  animation-name: glyphHop;
+}
+
+/* the phone sways, as if picked up */
+@keyframes glyphSway {
+  0% { transform: rotate(0); }
+  25% { transform: rotate(-14deg); }
+  50% { transform: rotate(9deg); }
+  75% { transform: rotate(-4deg); }
+  100% { transform: rotate(0); }
+}
+/* the shield beats once */
+@keyframes glyphBeat {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.18); }
+  55% { transform: scale(0.94); }
+  80% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+/* the book rocks open */
+@keyframes glyphRock {
+  0% { transform: translateY(0) rotate(0); }
+  30% { transform: translateY(-3px) rotate(-8deg); }
+  60% { transform: translateY(-1px) rotate(6deg); }
+  100% { transform: translateY(0) rotate(0); }
+}
+/* the question hops */
+@keyframes glyphHop {
+  0% { transform: translateY(0) scale(1, 1); }
+  20% { transform: translateY(1px) scale(1.08, 0.92); }
+  45% { transform: translateY(-6px) scale(0.95, 1.06); }
+  70% { transform: translateY(0) scale(1.04, 0.96); }
+  100% { transform: translateY(0) scale(1, 1); }
+}
+
+/* ── narrow windows ─────────────────────────────────────────────── */
+
 @media (max-width: 560px) {
   .bar {
     padding: 0 12px;
   }
-  .sheet {
-    --row: 52px;
-    top: 12px;
-    left: 12px;
-    right: 12px;
-    max-height: calc(100dvh - 24px);
+  .frame,
+  .bar[data-condensed="true"] .frame {
+    width: 100%;
   }
-  .sheetTop {
-    padding: 0 4px 0 16px;
+  .shell {
+    padding: 0 0 0 4px;
   }
-  .sheetActions,
-  .sheetLinks {
-    padding-left: 12px;
-    padding-right: 12px;
+  .bar[data-condensed="true"] .shell {
+    height: 56px;
+    padding: 0 9px 0 14px;
   }
+  .wordmark {
+    font-size: 21px;
+  }
+  /* the language moves into the menu: the bar keeps the mark, the way in and the burger */
   .lang {
     display: none;
   }
-  .shell {
-    padding: 0 4px 0 12px;
-  }
-  .bar[data-condensed="true"] .shell {
-    height: 52px;
-    padding: 0 4px 0 16px;
-    transform: translate3d(0, 12px, 0);
-  }
-  .wordmark {
-    font-size: 20px;
-  }
-  .divider {
-    display: none;
+  .menuLang {
+    display: flex;
   }
   .cta {
-    height: 38px;
-    padding: 0 14px;
-    font-size: 13.5px;
+    padding: 0 15px;
+  }
+  .menu {
+    width: min(300px, calc(100vw - 24px));
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .frame,
   .shell,
+  .shell::before,
   .ctaWrap,
-  .link::after,
-  .menuTop,
-  .menuBottom {
+  .lineTop,
+  .lineMid,
+  .lineBottom,
+  .menuLang,
+  .menuItem {
     transition: none !important;
   }
-  /* the menu only fades: no unfolding, no rows rising, no turning cross */
-  .sheet,
-  .sheet[data-open="true"] {
-    clip-path: none;
+  .menu,
+  .menu[data-open="true"] {
+    transform: none;
     transition: opacity 0.2s linear, visibility 0s linear 0.2s;
   }
-  .sheet[data-open="true"] {
-    transition: opacity 0.2s linear, visibility 0s;
-  }
-  .sheetItem,
-  .sheet[data-open="true"] .sheetItem,
-  .sheetClose svg,
-  .sheet[data-open="true"] .sheetClose svg {
-    translate: none;
-    transform: none;
-    transition: opacity 0.2s linear;
+  .menu[data-open="true"] .glyph,
+  .menuLink:hover .glyph svg,
+  .menuLink:focus-visible .glyph svg {
+    animation: none !important;
   }
 }

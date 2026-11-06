@@ -33,7 +33,7 @@ const overrides = {
       "Lerne, wie du ein realistisches Monatsbudget aufbaust, deine Ausgaben verstehst und wieder ohne Druck auf dein Geld schaust.",
     keywords: [],
     summary: [
-      "Ein Budget sollte sich nicht wie eine finanzielle Diät anfühlen. Es hilft dir, vor dem Ausgeben zu entscheiden statt danach zu schuetzen.",
+      "Ein Budget sollte sich nicht wie eine finanzielle Diät anfühlen. Es hilft dir, vor dem Ausgeben zu entscheiden statt danach zu schützen.",
       "Am nachhaltigsten wird es mit Netto-Einkommen, wenigen Kategorien, einem Notgroschen und einer kurzen Wochenroutine.",
     ],
     sections: [],
@@ -92,7 +92,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Verhaltensfinanzierungsforschung {\" \"} zeigt, wenn ein System uns beschämt, wir es meiden, hinzusehen. Und wenn wir es meiden hinzusehen, verlieren wir den Überblick über unsere Finanzen. Es ist nicht Faulheit; es ist emotionale Vermeidung. Ein gutes Budget tut das Gegenteil. Es lädt dich zurück ein, auch wenn du die App drei Tage nicht geöffnet hast, ohne dich jemals zu tadeln."
+            "text": "Verhaltensfinanzierungsforschung zeigt, wenn ein System uns beschämt, wir es meiden, hinzusehen. Und wenn wir es meiden hinzusehen, verlieren wir den Überblick über unsere Finanzen. Es ist nicht Faulheit; es ist emotionale Vermeidung. Ein gutes Budget tut das Gegenteil. Es lädt dich zurück ein, auch wenn du die App drei Tage nicht geöffnet hast, ohne dich jemals zu tadeln."
       },
       {
             "kind": "p",
@@ -228,7 +228,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Nutze eine Budget-App. Apps wie{\" \"} Savlo lassen dich Ausgaben manuell erfassen oder aus einer CSV importieren, sodass du die Kontrolle über deine Daten behältst."
+            "text": "- Nutze eine Budget-App. Apps wie Savlo lassen dich Ausgaben manuell erfassen oder aus einer CSV importieren, sodass du die Kontrolle über deine Daten behältst."
       },
       {
             "kind": "p",
@@ -245,7 +245,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ohne einfache Kategorien wird Budgetieren eine endlose Liste von Kategorien, die niemand pflegt. Wir empfehlen, mit einer flexiblen Anpassung der{\" \"} 50/30/20-Regel zu beginnen:"
+            "text": "Ohne einfache Kategorien wird Budgetieren eine endlose Liste von Kategorien, die niemand pflegt. Wir empfehlen, mit einer flexiblen Anpassung der 50/30/20-Regel zu beginnen:"
       },
       {
             "kind": "p",
@@ -257,7 +257,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- 20% Zukunft: Ersparnisse, Investitionen, zusätzliche Schuldtilgungen und Einzahlungen in deinen{\" \"}"
+            "text": "- 20% Zukunft: Ersparnisse, Investitionen, zusätzliche Schuldtilgungen und Einzahlungen in deinen "
       },
       {
             "kind": "p",
@@ -273,7 +273,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "> Savlo-Prinzip: Jedes Budget, das sich nach dem Öffnen schlechter anfühlt, ist schlecht konzipiert. [envelope system](/blog/sinking-funds) Es ist nicht deine Schuld."
+            "text": "> Savlo-Prinzip: Jedes Budget, das sich nach dem Öffnen schlechter anfühlt, ist schlecht konzipiert. [Umschlagmethode](/blog/sinking-funds) Es ist nicht deine Schuld."
       },
       {
             "id": "schritt-3-setze-realistische-ziele-die-du-wirklich",
@@ -290,7 +290,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Ein Notgroschen. Beginne mit 500 $ oder einem Monat Ausgaben, was immer kleiner ist. Das ist dein erster Meilenstein. Sobald du ihn erreichst, ziele auf drei Monate, dann sechs. Für einen tieferen Einblick lies unsere Anleitung zu{\" \"}"
+            "text": "- Ein Notgroschen. Beginne mit 500 $ oder einem Monat Ausgaben, was immer kleiner ist. Das ist dein erster Meilenstein. Sobald du ihn erreichst, ziele auf drei Monate, dann sechs. Für einen tieferen Einblick lies unsere Anleitung zu "
       },
       {
             "kind": "p",
@@ -298,7 +298,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": ". [sinking funds](/blog/sinking-funds)"
+            "text": ". [Sinking Funds](/blog/sinking-funds)"
       },
       {
             "kind": "p",
@@ -328,7 +328,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die{\" \"} 50/30/20-Regel teilt dein Nettoeinkommen in drei Kategorien: fünfzig Prozent für Bedürfnisse, dreißig Prozent für Wünsche und zwanzig Prozent für Ersparnisse und Schuldenrückzahlung. [50/30/20 rule](/blog/50-30-20-rule) Sie wurde von Senatorin Elizabeth Warren in ihrem Buch{\" \"} All Your Worth: The Ultimate Lifetime Money Plan populär gemacht, mitverfasst mit ihrer Tochter Amelia Warren Tyagi."
+            "text": "Die 50/30/20-Regel teilt dein Nettoeinkommen in drei Kategorien: fünfzig Prozent für Bedürfnisse, dreißig Prozent für Wünsche und zwanzig Prozent für Ersparnisse und Schuldenrückzahlung. [50/30/20-Regel](/blog/50-30-20-rule) Sie wurde von Senatorin Elizabeth Warren in ihrem Buch All Your Worth: The Ultimate Lifetime Money Plan populär gemacht, mitverfasst mit ihrer Tochter Amelia Warren Tyagi."
       },
       {
             "kind": "p",
@@ -340,7 +340,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Für eine vollständige Aufschlüsselung dieser Methode — einschließlich des Umgangs mit Situationen, in denen Bedürfnisse 50 Prozent überschreiten, der Anpassung für Paare und häufiger Fehler — siehe unsere vollständige Anleitung zur{\" \"} 50/30/20-Regel."
+            "text": "Für eine vollständige Aufschlüsselung dieser Methode — einschließlich des Umgangs mit Situationen, in denen Bedürfnisse 50 Prozent überschreiten, der Anpassung für Paare und häufiger Fehler — siehe unsere vollständige Anleitung zur 50/30/20-Regel."
       },
       {
             "id": "null-basiertes-budget-maximale-kontrolle",
@@ -349,7 +349,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Bei{\" \"}"
+            "text": "Bei "
       },
       {
             "kind": "p",
@@ -378,7 +378,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Das{\" \"} Umschlagssystem ist die älteste Budgetierungsmethode, die noch weit verbreitet ist, und aus gutem Grund: Es funktioniert. Du gibst Bargeld in physische Umschläge, die mit Ausgabenkategorien beschriftet sind — Lebensmittel, Unterhaltung, Kleidung, persönliche Ausgaben. Wenn ein Umschlag leer ist, hörst du für den Rest des Monats auf, in dieser Kategorie auszugeben."
+            "text": "Das Umschlagssystem ist die älteste Budgetierungsmethode, die noch weit verbreitet ist, und aus gutem Grund: Es funktioniert. Du gibst Bargeld in physische Umschläge, die mit Ausgabenkategorien beschriftet sind — Lebensmittel, Unterhaltung, Kleidung, persönliche Ausgaben. Wenn ein Umschlag leer ist, hörst du für den Rest des Monats auf, in dieser Kategorie auszugeben."
       },
       {
             "kind": "p",
@@ -403,7 +403,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Richte automatische Überweisungen am Zahltag für deinen Notgroschen, deine{\" \"} Rücklagenfonds (Sparkonten für geplante Ausgaben) und langfristige Investitionen ein. Was auf deinem Girokonto übrig bleibt, ist zum Ausgeben ohne Schuldgefühl da. Das ist operative Freiheit, keine Mikromanagement."
+            "text": "Richte automatische Überweisungen am Zahltag für deinen Notgroschen, deine Rücklagenfonds (Sparkonten für geplante Ausgaben) und langfristige Investitionen ein. Was auf deinem Girokonto übrig bleibt, ist zum Ausgeben ohne Schuldgefühl da. Das ist operative Freiheit, keine Mikromanagement."
       },
       {
             "kind": "p",
@@ -520,7 +520,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Dein Bruttogehalt ist nicht dein Einkommen. [financial anxiety](/blog/financial-anxiety) Dein Nettoeinkommen — der Betrag, der tatsächlich auf dein Bankkonto kommt — ist das, womit du kalkulierst. Wenn du mit 5.000 $ budgetierst, aber nur 3.800 $ ankommen, bist du bereits 1.200 $ im Rückstand, bevor der Monat beginnt. Verwende immer die Nettosumme."
+            "text": "Dein Bruttogehalt ist nicht dein Einkommen. [finanzielle Angst](/blog/financial-anxiety) Dein Nettoeinkommen — der Betrag, der tatsächlich auf dein Bankkonto kommt — ist das, womit du kalkulierst. Wenn du mit 5.000 $ budgetierst, aber nur 3.800 $ ankommen, bist du bereits 1.200 $ im Rückstand, bevor der Monat beginnt. Verwende immer die Nettosumme."
       },
       {
             "id": "es-als-alles-oder-nichts-behandeln",
@@ -529,7 +529,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Du hast bei Auswärtsessen zu viel ausgegeben. [Money dysmorphia](/blog/money-dysmorphia) Das Budget ist ruiniert. Du könntest den Monat genauso aufgeben. Dieses Denken ist der Hauptgrund, warum Menschen Budgets aufgeben. Ein Budget ist keine Bestehens-/Nicht-bestehen-Prüfung. Es ist ein Kompass. Wenn du vom Kurs abweichst, korrigierst du. Du wirfst den Kompass nicht ins Meer."
+            "text": "Du hast bei Auswärtsessen zu viel ausgegeben. [Money Dysmorphia](/blog/money-dysmorphia) Das Budget ist ruiniert. Du könntest den Monat genauso aufgeben. Dieses Denken ist der Hauptgrund, warum Menschen Budgets aufgeben. Ein Budget ist keine Bestehens-/Nicht-bestehen-Prüfung. Es ist ein Kompass. Wenn du vom Kurs abweichst, korrigierst du. Du wirfst den Kompass nicht ins Meer."
       },
       {
             "kind": "p",
@@ -576,7 +576,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Das Kernprinzip ist dies: Gib aus basierend auf deinem{\" \"} schlechtesten letzten Monat, nicht deinem Durchschnitt oder besten Monat. Wenn dein Einkommen der letzten sechs Monate 2.800 $, 3.400 $, 4.100 $, 3.200 $, 4.500 $ und 3.000 $ war, ist dein Budget für den nächsten Monat 2.800 $ — die niedrigste Zahl. Jedes Einkommen darüber fließt auf ein Pufferkonto."
+            "text": "Das Kernprinzip ist dies: Gib aus basierend auf deinem schlechtesten letzten Monat, nicht deinem Durchschnitt oder besten Monat. Wenn dein Einkommen der letzten sechs Monate 2.800 $, 3.400 $, 4.100 $, 3.200 $, 4.500 $ und 3.000 $ war, ist dein Budget für den nächsten Monat 2.800 $ — die niedrigste Zahl. Jedes Einkommen darüber fließt auf ein Pufferkonto."
       },
       {
             "kind": "p",
@@ -588,7 +588,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Hier werden auch Tools wie{\" \"} Savlo besonders nützlich. Die Sprachprotokollierung bedeutet, dass du Ausgaben erfassen kannst, wenn sie passieren — ohne am Computer zu warten, um eine Tabellenkalkulation zu aktualisieren. Und da Savlo keine Bankverbindung erfordert, bleiben deine finanziellen Daten privat, was noch wichtiger ist, wenn dein Einkommen unregelmäßig und deine finanzielle Situation sensibel ist."
+            "text": "Hier werden auch Tools wie Savlo besonders nützlich. Die Sprachprotokollierung bedeutet, dass du Ausgaben erfassen kannst, wenn sie passieren — ohne am Computer zu warten, um eine Tabellenkalkulation zu aktualisieren. Und da Savlo keine Bankverbindung erfordert, bleiben deine finanziellen Daten privat, was noch wichtiger ist, wenn dein Einkommen unregelmäßig und deine finanzielle Situation sensibel ist."
       },
       {
             "kind": "divider"
@@ -608,7 +608,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Ein gemeinsames Budget und ein persönliches Taschengeld.{\" \"} Das gemeinsame Budget deckt Miete, Lebensmittel, Nebenkosten, Sparziele und gemeinsame Ausgaben. Jeder Partner erhält ein gleiches persönliches Taschengeld — ohne Fragen — das er/sie ausgeben kann, wie er/sie will. Das eliminiert die Reibung, jede kleine Ausgabe vor einer anderen Person rechtfertigen zu müssen."
+            "text": "- Ein gemeinsames Budget und ein persönliches Taschengeld. Das gemeinsame Budget deckt Miete, Lebensmittel, Nebenkosten, Sparziele und gemeinsame Ausgaben. Jeder Partner erhält ein gleiches persönliches Taschengeld — ohne Fragen — das er/sie ausgeben kann, wie er/sie will. Das eliminiert die Reibung, jede kleine Ausgabe vor einer anderen Person rechtfertigen zu müssen."
       },
       {
             "kind": "p",
@@ -667,11 +667,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Für einen detaillierten Vergleich der besten verfügbaren Optionen siehe unsere Anleitung zu den{\" \"}"
+            "text": "Für einen detaillierten Vergleich der besten verfügbaren Optionen siehe unsere Anleitung zu den "
       },
       {
             "kind": "p",
-            "text": "besten Mint-Alternativen 2025 . Für einen direkten Vergleich der drei Top-Kandidaten siehe unsere{\" \"}"
+            "text": "besten Mint-Alternativen 2025 . Für einen direkten Vergleich der drei Top-Kandidaten siehe unsere "
       },
       {
             "kind": "p",
@@ -745,7 +745,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Nutze die Methode des schlechtesten Monats, die im Abschnitt über unregelmäßiges Einkommen oben beschrieben wurde. Budgetiere basierend auf deinem schlechtesten letzten Monat. Jedes Einkommen darüber fließt auf ein Pufferkonto. Im Laufe der Zeit wächst dieser Puffer groß genug, um einen schlechten Monat ohne Stress zu decken. Für eine tiefere Analyse siehe unsere Anleitung zu{\" \"}"
+            "text": "Nutze die Methode des schlechtesten Monats, die im Abschnitt über unregelmäßiges Einkommen oben beschrieben wurde. Budgetiere basierend auf deinem schlechtesten letzten Monat. Jedes Einkommen darüber fließt auf ein Pufferkonto. Im Laufe der Zeit wächst dieser Puffer groß genug, um einen schlechten Monat ohne Stress zu decken. Für eine tiefere Analyse siehe unsere Anleitung zu "
       },
       {
             "kind": "p",
@@ -758,7 +758,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Baue zuerst einen kleinen Notgroschen auf — 500 $ oder einen Monat Ausgaben. Das verhindert, dass du bei unerwarteten Ereignissen in weitere Schulden gerätst. Danach tilge aggressiv hochverzinsliche Schulden (Kreditkarten, Kurzzeitkredite), während du Mindestzahlungen für alles andere leistest. Sobald die hochverzinslichen Schulden weg sind, leite dieses Geld in einen vollständigen Notgroschen um. Für mehr Details siehe unsere Anleitung zu{\" \"}"
+            "text": "Baue zuerst einen kleinen Notgroschen auf — 500 $ oder einen Monat Ausgaben. Das verhindert, dass du bei unerwarteten Ereignissen in weitere Schulden gerätst. Danach tilge aggressiv hochverzinsliche Schulden (Kreditkarten, Kurzzeitkredite), während du Mindestzahlungen für alles andere leistest. Sobald die hochverzinslichen Schulden weg sind, leite dieses Geld in einen vollständigen Notgroschen um. Für mehr Details siehe unsere Anleitung zu "
       },
       {
             "kind": "p",
@@ -789,7 +789,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ja. Finanzielle Angst entsteht oft aus Unsicherheit — nicht zu wissen, wohin dein Geld fließt, nicht zu wissen, ob du dir etwas leisten kannst, nicht zu wissen, wie viel Schulden du hast. Ein Budget ersetzt Unsicherheit durch Information. Es löst nicht jedes finanzielle Problem, aber es gibt dir ein klares Bild deiner Situation, was der erste Schritt ist, um Kontrolle zu spüren. Für mehr über die Beziehung zwischen Geld und psychischer Gesundheit siehe unsere Anleitung zu{\" \"} finanzieller Angst."
+            "text": "Ja. Finanzielle Angst entsteht oft aus Unsicherheit — nicht zu wissen, wohin dein Geld fließt, nicht zu wissen, ob du dir etwas leisten kannst, nicht zu wissen, wie viel Schulden du hast. Ein Budget ersetzt Unsicherheit durch Information. Es löst nicht jedes finanzielle Problem, aber es gibt dir ein klares Bild deiner Situation, was der erste Schritt ist, um Kontrolle zu spüren. Für mehr über die Beziehung zwischen Geld und psychischer Gesundheit siehe unsere Anleitung zu finanzieller Angst."
       },
       {
             "id": "was-ist-geld-dysmorphie-und-wie-beeinflusst-sie-da",
@@ -813,7 +813,7 @@ const overrides = {
   "50-30-20-rule": {
     title: "Die 50/30/20-Regel: so setzt du sie ohne Stress um",
     description:
-      "Die 50/30/20-Regel erklaert mit einem flexiblen Blick auf Bedürfnisse, Wünsche und die finanzielle Zukunft.",
+      "Die 50/30/20-Regel erklärt mit einem flexiblen Blick auf Bedürfnisse, Wünsche und die finanzielle Zukunft.",
     keywords: [],
     summary: [
       "Die 50/30/20-Regel teilt dein Einkommen in Bedürfnisse, Wünsche und Zukunft auf. Sie ist ein Kompass, kein Urteil.",
@@ -833,7 +833,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Dieser Rahmen existiert und heißt die 50/30/20-Regel. [zero-based budgeting](/blog/zero-based-budgeting) Sie ist einer der beständigsten und zugänglichsten Ansätze für persönliche Finanzen, die je entwickelt wurden. Sie erfordert keinen Finanzabschluss, keine farbcodierte Tabelle und keine täglichen Marathons der Willenskraft. Sie erfordert drei Zahlen und ein grundlegendes Verständnis dafür, wohin dein Geld tatsächlich fließt."
+            "text": "Dieser Rahmen existiert und heißt die 50/30/20-Regel. [nullbasiertes Budgetieren](/blog/zero-based-budgeting) Sie ist einer der beständigsten und zugänglichsten Ansätze für persönliche Finanzen, die je entwickelt wurden. Sie erfordert keinen Finanzabschluss, keine farbcodierte Tabelle und keine täglichen Marathons der Willenskraft. Sie erfordert drei Zahlen und ein grundlegendes Verständnis dafür, wohin dein Geld tatsächlich fließt."
       },
       {
             "kind": "p",
@@ -850,7 +850,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Regel wurde von Senatorin Elizabeth Warren in ihrem Buch{\" \"} All Your Worth: The Ultimate Lifetime Money Plan popularisiert, das sie gemeinsam mit ihrer Tochter Amelia Warren Tyagi verfasste. Warren beobachtete, dass die finanziell stabilsten Familien, die sie untersuchte, sich nicht über jede einzelne Posten im Budget obsessen. Sie hielten drei große Kategorien im Gleichgewicht. Die Details innerhalb jeder Kategorie waren weniger wichtig als das Gesamtverhältnis."
+            "text": "Die Regel wurde von Senatorin Elizabeth Warren in ihrem Buch All Your Worth: The Ultimate Lifetime Money Plan popularisiert, das sie gemeinsam mit ihrer Tochter Amelia Warren Tyagi verfasste. Warren beobachtete, dass die finanziell stabilsten Familien, die sie untersuchte, sich nicht über jede einzelne Posten im Budget obsessen. Sie hielten drei große Kategorien im Gleichgewicht. Die Details innerhalb jeder Kategorie waren weniger wichtig als das Gesamtverhältnis."
       },
       {
             "kind": "p",
@@ -971,7 +971,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn du Freelancer, Gelegenheitsarbeiter oder jemand bist, dessen Einkommen schwankt, erfordert die Berechnung einen zusätzlichen Schritt. Nutze deinen{\" \"} schlechtesten Monat der letzten sechs Monate als Ausgangsbasis für dein Einkommen. Budgetiere ab dieser Zahl. Wenn die Monate besser sind, fließt der Überschuss automatisch in deine Ersparniskategorie."
+            "text": "Wenn du Freelancer, Gelegenheitsarbeiter oder jemand bist, dessen Einkommen schwankt, erfordert die Berechnung einen zusätzlichen Schritt. Nutze deinen schlechtesten Monat der letzten sechs Monate als Ausgangsbasis für dein Einkommen. Budgetiere ab dieser Zahl. Wenn die Monate besser sind, fließt der Überschuss automatisch in deine Ersparniskategorie."
       },
       {
             "kind": "p",
@@ -1067,7 +1067,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der wichtigste Einblick ist: Die Prozentsätze sind ein Kompass, kein Käfig.{\" \"} Wenn deine Bedürfnisse tatsächlich hoch sind, passt du die anderen beiden Kategorien an, anstatt den Rahmen komplett aufzugeben. Die schlechteste Reaktion auf hohe Kosten ist, das Nachverfolgen altogether einzustellen."
+            "text": "Der wichtigste Einblick ist: Die Prozentsätze sind ein Kompass, kein Käfig. Wenn deine Bedürfnisse tatsächlich hoch sind, passt du die anderen beiden Kategorien an, anstatt den Rahmen komplett aufzugeben. Die schlechteste Reaktion auf hohe Kosten ist, das Nachverfolgen altogether einzustellen."
       },
       {
             "id": "die-30-w-nsche-kategorie-erlaubnis-dein-geld-zu-ge",
@@ -1231,11 +1231,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn du noch keinen Notgroschen hast, geht dein zwanzig Prozent hier zuerst hin. [sinking funds and emergency savings](/blog/sinking-funds) Ein Notgroschen ist kein Luxus — er ist das Fundament, das alles andere möglich macht. Ohne ihn schickt dich eine Autoreparatur oder Rechnung in die Schulden, was den Schuldenanteil dieser Kategorie vergrößert, was den Ersparnisanteil verkleinert, was die nächste Katastrophe noch schädlicher macht."
+            "text": "Wenn du noch keinen Notgroschen hast, geht dein zwanzig Prozent hier zuerst hin. [Sinking Funds und Notgroschen](/blog/sinking-funds) Ein Notgroschen ist kein Luxus — er ist das Fundament, das alles andere möglich macht. Ohne ihn schickt dich eine Autoreparatur oder Rechnung in die Schulden, was den Schuldenanteil dieser Kategorie vergrößert, was den Ersparnisanteil verkleinert, was die nächste Katastrophe noch schädlicher macht."
       },
       {
             "kind": "p",
-            "text": "Die Standardempfehlung beträgt drei bis sechs Monate essentieller Ausgaben. Wenn diese Zahl überwältigend erscheint, fang kleiner an. Ein erster Meilenstein von tausend Euro verhindert, dass die meisten finanziellen Notfälle zu Schuldenereignissen werden. Lies mehr über den Aufbau eines Notgroschens in unserem Leitfaden zu{\" \"} Rücklagefonds und Notersparnissen."
+            "text": "Die Standardempfehlung beträgt drei bis sechs Monate essentieller Ausgaben. Wenn diese Zahl überwältigend erscheint, fang kleiner an. Ein erster Meilenstein von tausend Euro verhindert, dass die meisten finanziellen Notfälle zu Schuldenereignissen werden. Lies mehr über den Aufbau eines Notgroschens in unserem Leitfaden zu Rücklagefonds und Notersparnissen."
       },
       {
             "id": "strategische-schuldenr-ckzahlung",
@@ -1313,7 +1313,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die 50/30/20-Regel ist kein „Einmal einstellen und vergessen\"-System. [how to budget money](/blog/how-to-budget-money) Das Leben verändert sich. Du bekommst eine Gehaltserhöhung. Die Miete steigt. Du zahlst eine Kreditkarte ab. Eine neue Ausgabe taucht auf. Die Prozentsätze sollten monatlich überprüft und vierteljährlich angepasst werden. Eine fünfminütige Kontrolle am Ende jedes Monats — sind meine drei Kategorien ungefähr im Gleichgewicht? — verhindert, dass kleine Abweichungen zu großen Problemen werden."
+            "text": "Die 50/30/20-Regel ist kein „Einmal einstellen und vergessen\"-System. [wie man Geld budgetiert](/blog/how-to-budget-money) Das Leben verändert sich. Du bekommst eine Gehaltserhöhung. Die Miete steigt. Du zahlst eine Kreditkarte ab. Eine neue Ausgabe taucht auf. Die Prozentsätze sollten monatlich überprüft und vierteljährlich angepasst werden. Eine fünfminütige Kontrolle am Ende jedes Monats — sind meine drei Kategorien ungefähr im Gleichgewicht? — verhindert, dass kleine Abweichungen zu großen Problemen werden."
       },
       {
             "kind": "p",
@@ -1408,11 +1408,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn finanzieller Stress oder Angst es schwierig macht, deine Zahlen überhaupt anzuschauen, kann der 50/30/20-Rahmen helfen, indem er die Granularität dessen reduziert, was du untersuchen musst. [financial anxiety](/blog/financial-anxiety) Du musst nicht jeden Kassenzettel kategorisieren. Du musst grob wissen, ob deine drei großen Kategorien im Gleichgewicht sind. Diese geringere kognitive Anforderung kann der Unterschied sein, mit deinen Finanzen zu interagieren oder sie vollständig zu vermeiden."
+            "text": "Wenn finanzieller Stress oder Angst es schwierig macht, deine Zahlen überhaupt anzuschauen, kann der 50/30/20-Rahmen helfen, indem er die Granularität dessen reduziert, was du untersuchen musst. [finanzielle Angst](/blog/financial-anxiety) Du musst nicht jeden Kassenzettel kategorisieren. Du musst grob wissen, ob deine drei großen Kategorien im Gleichgewicht sind. Diese geringere kognitive Anforderung kann der Unterschied sein, mit deinen Finanzen zu interagieren oder sie vollständig zu vermeiden."
       },
       {
             "kind": "p",
-            "text": "Unsere tiefere Auseinandersetzung mit{\" \"} finanzieller Angst deckt praktische Strategien zur Reduzierung der emotionalen Belastung bei Finanzüberprüfungen ab."
+            "text": "Unsere tiefere Auseinandersetzung mit finanzieller Angst deckt praktische Strategien zur Reduzierung der emotionalen Belastung bei Finanzüberprüfungen ab."
       },
       {
             "id": "50-30-20-regel-versus-null-basis-budgetierung",
@@ -1421,7 +1421,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Zwei der beliebtesten Budgetierungsrahmen sind die 50/30/20-Regel und die{\" \"} Null-Basis-Budgetierung. Sie lösen unterschiedliche Probleme und passen zu unterschiedlichen Persönlichkeiten."
+            "text": "Zwei der beliebtesten Budgetierungsrahmen sind die 50/30/20-Regel und die Null-Basis-Budgetierung. Sie lösen unterschiedliche Probleme und passen zu unterschiedlichen Persönlichkeiten."
       },
       {
             "kind": "p",
@@ -1493,7 +1493,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "So sieht nachhaltige Budgetierungs-Gewohnheitsbildung aus:. [making a budget you will actually follow](/blog/how-to-make-a-budget)"
+            "text": "So sieht nachhaltige Budgetierungs-Gewohnheitsbildung aus:. [ein Budget, an das du dich wirklich hältst](/blog/how-to-make-a-budget)"
       },
       {
             "kind": "ul",
@@ -1521,7 +1521,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Für mehr über den Aufbau finanzieller Gewohnheiten, die halten, siehe unseren Leitfaden zur{\" \"} Erstellung eines Budgets, das du tatsächlich einhalten wirst."
+            "text": "Für mehr über den Aufbau finanzieller Gewohnheiten, die halten, siehe unseren Leitfaden zur Erstellung eines Budgets, das du tatsächlich einhalten wirst."
       },
       {
             "id": "wie-du-die-50-30-20-regel-an-dein-leben-anpasst",
@@ -1583,7 +1583,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn deine Autoversicherung 1.200 € pro Jahr kostet, bedeutet ein Rücklagefonds von 100 € pro Monat, dass die Rechnung kommt und du sie einfach bezahlst — keine finanzielle Störung, keine Schulden, kein Stress. [sinking funds and planned expenses](/blog/sinking-funds) Lies mehr über die Einrichtung von Rücklagefonds in unserem detaillierten Leitfaden zu{\" \"} Rücklagefonds und geplanten Ausgaben."
+            "text": "Wenn deine Autoversicherung 1.200 € pro Jahr kostet, bedeutet ein Rücklagefonds von 100 € pro Monat, dass die Rechnung kommt und du sie einfach bezahlst — keine finanzielle Störung, keine Schulden, kein Stress. [Sinking Funds und geplante Ausgaben](/blog/sinking-funds) Lies mehr über die Einrichtung von Rücklagefonds in unserem detaillierten Leitfaden zu Rücklagefonds und geplanten Ausgaben."
       },
       {
             "id": "warum-die-50-30-20-regel-l-nger-h-lt-als-tradition",
@@ -1596,11 +1596,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die 50/30/20-Regel hat Erfolg, weil sie für echte Menschen entworfen ist — müde, gestresste, beschäftigte Menschen, die komplexe Entscheidungen in lauter Umgebungen treffen. [why traditional budgets fail](/blog/why-traditional-budgets-fail) Sie erkennt an, dass du nicht jede Transaktion nachverfolgen wirst. Sie akzeptiert, dass deine Ausgaben schwanken werden. Sie baut Spielraum für Vergnügen ein. Und sie bietet einen einfachen, einprägsamen Rahmen, der keine Tabelle zu seiner Aufrechterhaltung benötigt."
+            "text": "Die 50/30/20-Regel hat Erfolg, weil sie für echte Menschen entworfen ist — müde, gestresste, beschäftigte Menschen, die komplexe Entscheidungen in lauter Umgebungen treffen. [warum traditionelle Budgets scheitern](/blog/why-traditional-budgets-fail) Sie erkennt an, dass du nicht jede Transaktion nachverfolgen wirst. Sie akzeptiert, dass deine Ausgaben schwanken werden. Sie baut Spielraum für Vergnügen ein. Und sie bietet einen einfachen, einprägsamen Rahmen, der keine Tabelle zu seiner Aufrechterhaltung benötigt."
       },
       {
             "kind": "p",
-            "text": "Für eine tiefere Auseinandersetzung darüber, warum die meisten Budgetierungsmethoden scheitern — und die dahinterstehende Verhaltenswissenschaft — lies unseren Artikel über{\" \"} warum traditionelle Budgets scheitern."
+            "text": "Für eine tiefere Auseinandersetzung darüber, warum die meisten Budgetierungsmethoden scheitern — und die dahinterstehende Verhaltenswissenschaft — lies unseren Artikel über warum traditionelle Budgets scheitern."
       },
       {
             "id": "wie-savlo-den-50-30-20-ansatz-unterst-tzt",
@@ -1732,17 +1732,17 @@ const overrides = {
   "best-mint-alternatives-2025": {
     title: "Die besten Mint-Alternativen 2025",
     description:
-      "Was nach dem Ende von Mint wichtig ist: Privatsphaere, Preis, Bedienbarkeit und Alternativen ohne zwingende Bankverknuepfung.",
+      "Was nach dem Ende von Mint wichtig ist: Privatsphäre, Preis, Bedienbarkeit und Alternativen ohne zwingende Bankverknüpfung.",
     summary: [
       "Nach Mint suchen viele nach einer App, die Geld nicht in ein weiteres lautes Dashboard verwandelt.",
-      "Die beste Alternative haengt davon ab, was dir wichtiger ist: Automatisierung, Kontrolle, Privatsphaere oder eine schnellere Bedienung.",
+      "Die beste Alternative hängt davon ab, was dir wichtiger ist: Automatisierung, Kontrolle, Privatsphäre oder eine schnellere Bedienung.",
     ],
     sections: [
       {
         heading: "Worauf du zuerst achten solltest",
         body: [
-          "Pruefe, ob die App Bankkonten verknuepfen muss, was mit deinen Daten passiert, was sie nach der Testphase kostet und ob du deine Daten exportieren kannst.",
-          "Auch das Gefuehl der Nutzung zaehlt. Wenn dich eine App nervoes macht, wirst du sie seltener oeffnen, genau dann, wenn du sie am meisten brauchst.",
+          "Prüfe, ob die App Bankkonten verknüpfen muss, was mit deinen Daten passiert, was sie nach der Testphase kostet und ob du deine Daten exportieren kannst.",
+          "Auch das Gefühl der Nutzung zählt. Wenn dich eine App nervös macht, wirst du sie seltener öffnen, genau dann, wenn du sie am meisten brauchst.",
         ],
       },
       {
@@ -1757,11 +1757,11 @@ const overrides = {
   "emergency-fund-vs-sinking-fund": {
     title: "Notgroschen vs. Sinking Fund: worin liegt der Unterschied?",
     description:
-      "Lerne, echte Notfaelle von planbaren Ausgaben zu trennen, damit du mit mehr Klarheit sparen kannst.",
+      "Lerne, echte Notfälle von planbaren Ausgaben zu trennen, damit du mit mehr Klarheit sparen kannst.",
     keywords: [],
     summary: [
-      "Der Notgroschen schuetzt vor dem Unerwarteten. Ein Sinking Fund bereitet grosse Ausgaben vor, die du kommen sehen kannst.",
-      "Wenn du beides trennst, greifst du seltener in die Reserve fuer Urlaub, Geschenke oder Wartung.",
+      "Der Notgroschen schützt vor dem Unerwarteten. Ein Sinking Fund bereitet große Ausgaben vor, die du kommen sehen kannst.",
+      "Wenn du beides trennst, greifst du seltener in die Reserve für Urlaub, Geschenke oder Wartung.",
     ],
     sections: [],
     readingTime: 20,
@@ -1838,11 +1838,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ein Fonds mit Ziel ist genau das, wofür es klingt: Du legst einen Zielbetrag fest, leistest über Zeit Beiträge und beobachtest deinen Fortschritt zu diesem Ziel. [sinking funds](/blog/sinking-funds) Es ist ein Sparziel mit einer Zahl. Wenn das Ziel erreicht ist, wird das Geld für den vorgesehenen Zweck \"freigeschaltet\"."
+            "text": "Ein Fonds mit Ziel ist genau das, wofür es klingt: Du legst einen Zielbetrag fest, leistest über Zeit Beiträge und beobachtest deinen Fortschritt zu diesem Ziel. [Sinking Funds](/blog/sinking-funds) Es ist ein Sparziel mit einer Zahl. Wenn das Ziel erreicht ist, wird das Geld für den vorgesehenen Zweck \"freigeschaltet\"."
       },
       {
             "kind": "p",
-            "text": "Die Kraft zielbasierter Fonds ist die Spezifität. [how to budget money](/blog/how-to-budget-money) [financial anxiety](/blog/financial-anxiety) Du weißt, wofür du sparst, wie viel es kostet und ungefähr, wann du es brauchst. Das schafft eine klare Roadmap. Anstatt vage \"mehr zu versuchen zu sparst\", sparst du $312 pro Monat für einen $2.500-Urlaubsfonds. Die Mathematik ist konkret. Der Zeitplan ist real. Und jeder Beitrag fühlt sich bedeutsam an, weil du den Fortschrittsbalken vor dir siehst."
+            "text": "Die Kraft zielbasierter Fonds ist die Spezifität. [wie man Geld budgetiert](/blog/how-to-budget-money) [finanzielle Angst](/blog/financial-anxiety) Du weißt, wofür du sparst, wie viel es kostet und ungefähr, wann du es brauchst. Das schafft eine klare Roadmap. Anstatt vage \"mehr zu versuchen zu sparst\", sparst du $312 pro Monat für einen $2.500-Urlaubsfonds. Die Mathematik ist konkret. Der Zeitplan ist real. Und jeder Beitrag fühlt sich bedeutsam an, weil du den Fortschrittsbalken vor dir siehst."
       },
       {
             "kind": "p",
@@ -1881,7 +1881,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ein Fonds ohne Ziel ist etwas völlig anderes. [zero-based budgeting](/blog/zero-based-budgeting) Es gibt keinen Zielbetrag. Keine Deadline. Keinen bestimmten Kauf, der damit verbunden ist. Es ist einfach ein Ort, um Geld zu parken, das du jetzt nicht ausgeben willst – oder vielleicht nie. Der Zweck ist nicht, für etwas zu sparen. Der Zweck ist, vor etwas zu sparen: dir selbst."
+            "text": "Ein Fonds ohne Ziel ist etwas völlig anderes. [nullbasiertes Budgetieren](/blog/zero-based-budgeting) Es gibt keinen Zielbetrag. Keine Deadline. Keinen bestimmten Kauf, der damit verbunden ist. Es ist einfach ein Ort, um Geld zu parken, das du jetzt nicht ausgeben willst – oder vielleicht nie. Der Zweck ist nicht, für etwas zu sparen. Der Zweck ist, vor etwas zu sparen: dir selbst."
       },
       {
             "kind": "p",
@@ -1889,7 +1889,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Fonds ohne Ziel funktionieren am besten, wenn du diese zwei Fragen beantworten kannst:. [paycheck-to-paycheck cycle](/blog/budgeting-on-low-income)"
+            "text": "Fonds ohne Ziel funktionieren am besten, wenn du diese zwei Fragen beantworten kannst:. [Kreislauf von Gehalt zu Gehalt](/blog/budgeting-on-a-low-income)"
       },
       {
             "kind": "ul",
@@ -1949,7 +1949,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Schließlich reduzieren Fonds Entscheidungsmüdigkeit. [zero-based budgeting](/blog/zero-based-budgeting) Jeden Tag triffst du Dutzende finanzieller Entscheidungen: Soll ich diesen Kaffee kaufen? Kann ich mir dieses Abo leisten? Ist es in Ordnung, heute Abend auswärts zu essen? Wenn all dein Geld in einem Haufen liegt, erfordert jede einzelne dieser Entscheidungen mentale Berechnung. Du musst den Kauf gegen deinen Gesamtsaldo, deine anstehenden Rechnungen und dein vages Gefühl von \"wie viel sollte ich noch haben?\" abwägen. Das ist erschöpfend. Bei Fonds sind die meisten dieser Entscheidungen bereits getroffen. Dein Ausgabenfonds ist zum Ausgeben da. Dein Sparkonto ist zum Sparen. Du musst nicht entscheiden – du musst nur dem System folgen."
+            "text": "Schließlich reduzieren Fonds Entscheidungsmüdigkeit. [nullbasiertes Budgetieren](/blog/zero-based-budgeting) Jeden Tag triffst du Dutzende finanzieller Entscheidungen: Soll ich diesen Kaffee kaufen? Kann ich mir dieses Abo leisten? Ist es in Ordnung, heute Abend auswärts zu essen? Wenn all dein Geld in einem Haufen liegt, erfordert jede einzelne dieser Entscheidungen mentale Berechnung. Du musst den Kauf gegen deinen Gesamtsaldo, deine anstehenden Rechnungen und dein vages Gefühl von \"wie viel sollte ich noch haben?\" abwägen. Das ist erschöpfend. Bei Fonds sind die meisten dieser Entscheidungen bereits getroffen. Dein Ausgabenfonds ist zum Ausgeben da. Dein Sparkonto ist zum Sparen. Du musst nicht entscheiden – du musst nur dem System folgen."
       },
       {
             "kind": "divider"
@@ -1999,7 +1999,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wie viel solltest du sparen? Der Standardrat sind drei bis sechs Monate Grundausgaben – Miete oder Hypothek, Nebenkosten, Lebensmittel, Transport, Versicherung und Mindestschuldtilgung. [CSV import budgeting](/blog/csv-import-budgeting) Aber der richtige Betrag hängt von deiner Situation ab. Wenn du einen stabilen Job mit guten Leistungen hast, könnten drei Monate reichen. Wenn du selbstständig bist, Angehörige hast oder in einer unsicheren Branche arbeitest, sind sechs Monate oder mehr klüger. Der Schlüssel ist, irgendwo anzufangen. Selbst $500 in einem Notgroschen setzen dich vor die meisten Menschen."
+            "text": "Wie viel solltest du sparen? Der Standardrat sind drei bis sechs Monate Grundausgaben – Miete oder Hypothek, Nebenkosten, Lebensmittel, Transport, Versicherung und Mindestschuldtilgung. Budgetieren mit CSV-Import Aber der richtige Betrag hängt von deiner Situation ab. Wenn du einen stabilen Job mit guten Leistungen hast, könnten drei Monate reichen. Wenn du selbstständig bist, Angehörige hast oder in einer unsicheren Branche arbeitest, sind sechs Monate oder mehr klüger. Der Schlüssel ist, irgendwo anzufangen. Selbst $500 in einem Notgroschen setzen dich vor die meisten Menschen."
       },
       {
             "kind": "p",
@@ -2063,7 +2063,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es gibt kein Ziel. [budgeting on a low income](/blog/budgeting-on-low-income) Es gibt keine Deadline. Der Fonds wächst einfach stetig, Monat für Monat. Wenn seine Bremsen ersetzt werden müssen – $650 – ist das Geld da. Wenn die Klimaanlage im Juli ausfällt – $400 – deckt der Fonds es stressfrei ab. Der Schlüsselgedanke ist, dass Autoreparaturen eigentlich keine Notfälle sind, wenn du sie erwartest. Sie sind unvermeidlich. Ein Fonds verwandelt sie von Krisen in geplante Ausgaben, selbst wenn du den genauen Betrag oder Zeitpunkt nicht vorher weißt."
+            "text": "Es gibt kein Ziel. [Budgetieren mit geringem Einkommen](/blog/budgeting-on-a-low-income) Es gibt keine Deadline. Der Fonds wächst einfach stetig, Monat für Monat. Wenn seine Bremsen ersetzt werden müssen – $650 – ist das Geld da. Wenn die Klimaanlage im Juli ausfällt – $400 – deckt der Fonds es stressfrei ab. Der Schlüsselgedanke ist, dass Autoreparaturen eigentlich keine Notfälle sind, wenn du sie erwartest. Sie sind unvermeidlich. Ein Fonds verwandelt sie von Krisen in geplante Ausgaben, selbst wenn du den genauen Betrag oder Zeitpunkt nicht vorher weißt."
       },
       {
             "kind": "p",
@@ -2149,7 +2149,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ein paar Tipps für den Erfolg:. [why traditional budgets fail](/blog/why-traditional-budgets-fail)"
+            "text": "Ein paar Tipps für den Erfolg:. [warum traditionelle Budgets scheitern](/blog/why-traditional-budgets-fail)"
       },
       {
             "kind": "ul",
@@ -2331,11 +2331,11 @@ const overrides = {
   "why-traditional-budgets-fail": {
     title: "Warum traditionelle Budgets scheitern: die Antwort der Verhaltensfinanzen",
     description:
-      "Drei psychologische Muster erklaeren, warum wir Budget-Apps oft aufgeben. Erfahre, wie ein einfaches, verhaltensbasiertes Design besser mit deinem Kopf arbeitet.",
+      "Drei psychologische Muster erklären, warum wir Budget-Apps oft aufgeben. Erfahre, wie ein einfaches, verhaltensbasiertes Design besser mit deinem Kopf arbeitet.",
     keywords: [],
     summary: [
-      "Viele Budgets scheitern, weil sie wie Strafe wirken. Wenn ein System schaemt, will man es nicht mehr ansehen.",
-      "Ein besseres Design senkt Reibung, spricht freundlich und macht die Rueckkehr nach einem Fehler leicht.",
+      "Viele Budgets scheitern, weil sie wie Strafe wirken. Wenn ein System schämt, will man es nicht mehr ansehen.",
+      "Ein besseres Design senkt Reibung, spricht freundlich und macht die Rückkehr nach einem Fehler leicht.",
     ],
     sections: [],
     readingTime: 20,
@@ -2469,7 +2469,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "In diesem Zustand bist du weniger — nicht mehr — in der Lage, durchdachte Finanzentscheidungen zu treffen. [financial anxiety](/blog/financial-anxiety) Du vermeidest es vielleicht komplett, das Budget zu prüfen — was das Problem verschlimmert. Oder du triffst impulsive Entscheidungen, um dem Unbehagen zu entkommen, wie in einer anderen Kategorie überzubudgetieren, um dich besser zu fühlen. Der Feedback-Mechanismus, auf den Budgets angewiesen sind, um dich auf Kurs zu halten, wird zu dem, was dich vom Kurs abbringt."
+            "text": "In diesem Zustand bist du weniger — nicht mehr — in der Lage, durchdachte Finanzentscheidungen zu treffen. [finanzielle Angst](/blog/financial-anxiety) Du vermeidest es vielleicht komplett, das Budget zu prüfen — was das Problem verschlimmert. Oder du triffst impulsive Entscheidungen, um dem Unbehagen zu entkommen, wie in einer anderen Kategorie überzubudgetieren, um dich besser zu fühlen. Der Feedback-Mechanismus, auf den Budgets angewiesen sind, um dich auf Kurs zu halten, wird zu dem, was dich vom Kurs abbringt."
       },
       {
             "kind": "p",
@@ -2697,7 +2697,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der Kerngedanke ist, dass Standardwerte nicht faul sind. [sinking funds](/blog/sinking-funds) Sie sind strategisch. Jede Entscheidung, die du aus deinem Alltag entfernst, ist eine Entscheidung, die du auf etwas lenken kannst, das dir wirklich wichtig ist."
+            "text": "Der Kerngedanke ist, dass Standardwerte nicht faul sind. [Sinking Funds](/blog/sinking-funds) Sie sind strategisch. Jede Entscheidung, die du aus deinem Alltag entfernst, ist eine Entscheidung, die du auf etwas lenken kannst, das dir wirklich wichtig ist."
       },
       {
             "kind": "p",
@@ -2714,7 +2714,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Du bekommst immer noch die Erkenntnisse, die du brauchst. [how to budget money](/blog/how-to-budget-money) Du siehst, dass deine Lebensmittelausgaben diesen Monat gestiegen sind. Du bemerkst, dass deine persönliche Kategorie Spielraum für Anpassungen hat. Aber du musst dich nicht darum quälen, ob ein bestimmter Kauf in eine Unterkategorie oder eine andere gehört. Die kognitive Einsparung ist erheblich, und der praktische Unterschied in den finanziellen Ergebnissen ist unbedeutend."
+            "text": "Du bekommst immer noch die Erkenntnisse, die du brauchst. [wie man Geld budgetiert](/blog/how-to-budget-money) Du siehst, dass deine Lebensmittelausgaben diesen Monat gestiegen sind. Du bemerkst, dass deine persönliche Kategorie Spielraum für Anpassungen hat. Aber du musst dich nicht darum quälen, ob ein bestimmter Kauf in eine Unterkategorie oder eine andere gehört. Die kognitive Einsparung ist erheblich, und der praktische Unterschied in den finanziellen Ergebnissen ist unbedeutend."
       },
       {
             "kind": "p",
@@ -2790,7 +2790,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Beginne mit kleinen täglichen Gewohnheiten, um deine emotionale Belastung zu senken, bevor du überhaupt die Zahlen berührst. [financial anxiety](/blog/financial-anxiety) Das könnte ein paar Minuten tiefes Atmen am Morgen sein, ein kurzer Spaziergang, bevor du deine Konten überprüfst, oder das Führen eines Tagebuchs über deine Gefühle bezüglich Geld, ohne zu urteilen. Das sind keine Ablenkungen vom Finanzmanagement. Das sind Voraussetzungen dafür."
+            "text": "Beginne mit kleinen täglichen Gewohnheiten, um deine emotionale Belastung zu senken, bevor du überhaupt die Zahlen berührst. [finanzielle Angst](/blog/financial-anxiety) Das könnte ein paar Minuten tiefes Atmen am Morgen sein, ein kurzer Spaziergang, bevor du deine Konten überprüfst, oder das Führen eines Tagebuchs über deine Gefühle bezüglich Geld, ohne zu urteilen. Das sind keine Ablenkungen vom Finanzmanagement. Das sind Voraussetzungen dafür."
       },
       {
             "kind": "p",
@@ -2816,7 +2816,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Das Leben ist unvorhersehbar. [zero-based budgeting](/blog/zero-based-budgeting) Dein Auto geht kaputt. Ein Freund lädt dich zu einer Reise ein. Eine Arztrechnung kommt. Wenn jeder Dollar bereits zugewiesen ist, schaffen diese Störungen Probleme in Kaskaden. Du musst ständig umzuweisen, neu zu verhandeln und abzustimmen — was die Entscheidungsmüdigkeit und Überwachungserschöpfung zurückbringt, die Budgetabbrüche antreiben."
+            "text": "Das Leben ist unvorhersehbar. [nullbasiertes Budgetieren](/blog/zero-based-budgeting) Dein Auto geht kaputt. Ein Freund lädt dich zu einer Reise ein. Eine Arztrechnung kommt. Wenn jeder Dollar bereits zugewiesen ist, schaffen diese Störungen Probleme in Kaskaden. Du musst ständig umzuweisen, neu zu verhandeln und abzustimmen — was die Entscheidungsmüdigkeit und Überwachungserschöpfung zurückbringt, die Budgetabbrüche antreiben."
       },
       {
             "kind": "p",
@@ -2829,7 +2829,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die 50/30/20-Regel teilt dein Nettoeinkommen in drei Eimer: Fünfzig Prozent für Notwendigkeiten, dreißig Prozent für Wünsche und zwanzig Prozent für Ersparnisse. [50/30/20 rule](/blog/50-30-20-rule) Sie ist ansprechend einfach, und Einfachheit ist ein echter Vorteil."
+            "text": "Die 50/30/20-Regel teilt dein Nettoeinkommen in drei Eimer: Fünfzig Prozent für Notwendigkeiten, dreißig Prozent für Wünsche und zwanzig Prozent für Ersparnisse. [50/30/20-Regel](/blog/50-30-20-rule) Sie ist ansprechend einfach, und Einfachheit ist ein echter Vorteil."
       },
       {
             "kind": "p",
@@ -3204,11 +3204,11 @@ const overrides = {
   "voice-expense-tracking": {
     title: "Ausgaben per Sprache erfassen: der schnellste Weg, deine Ausgaben festzuhalten",
     description:
-      "Wie Spracheingabe funktioniert, fuer wen sie gedacht ist und worauf du bei einer App achten solltest.",
+      "Wie Spracheingabe funktioniert, für wen sie gedacht ist und worauf du bei einer App achten solltest.",
     keywords: [],
     summary: [
-      "Jede Ausgabe einzutippen wirkt klein, bis man es taeglich tun muss. Laut zu sprechen senkt die Reibung deutlich.",
-      "Spracheingabe funktioniert besonders gut fuer Alltagskaeufe, Essen, Transport und Ausgaben, die man sonst schnell vergisst.",
+      "Jede Ausgabe einzutippen wirkt klein, bis man es täglich tun muss. Laut zu sprechen senkt die Reibung deutlich.",
+      "Spracheingabe funktioniert besonders gut für Alltagskäufe, Essen, Transport und Ausgaben, die man sonst schnell vergisst.",
     ],
     sections: [],
     readingTime: 20,
@@ -3216,15 +3216,15 @@ const overrides = {
       blocks: [
       {
             "kind": "p",
-            "text": "Sie stehen an der Kasse. Sie haben gerade bezahlt. Sie wissen, dass Sie es eintragen sollten. Aber bis Sie zu Hause sind — oder sogar zurück in Ihrem Auto — ist der Betrag unscharf, der Händlername ist vergangen, und der Moment ist vorbei. Sie sagen sich, Sie werden es später anhand Ihrer Kontoauszüge rekonstruieren. Das werden Sie nicht. Das ist genau die Lücke, die das Sprachausgaben-Tracking schließen soll."
+            "text": "Du stehst an der Kasse. Du hast gerade bezahlt. Du weißt, dass du es eintragen solltest. Aber bis du zu Hause bist — oder sogar zurück in deinem Auto — ist der Betrag unscharf, der Händlername ist vergangen, und der Moment ist vorbei. Du sagst dir, du wirst es später anhand deiner Kontoauszüge rekonstruieren. Das wirst du nicht. Das ist genau die Lücke, die das Sprachausgaben-Tracking schließen soll."
       },
       {
             "kind": "p",
-            "text": "Jede Budgetierungsmethode — ob die 50/30/20-Regel, Nullbased Budgeting oder ein einfaches Umschlagsystem — basiert auf demselben grundlegenden Akt: zu wissen, was Sie ausgegeben haben. [sinking funds](/blog/sinking-funds) [zero-based budgeting](/blog/zero-based-budgeting) [50/30/20 rule](/blog/50-30-20-rule) Nicht ungefähr. Nicht aus dem Gedächtnis. Tatsächlich wissen. Die Lücke zwischen Absicht und Handlung ist dort, wo Budgets sterben, und das Sprach-Tracking schließt diese Lücke mit dem einfachsten Tool, das Sie bereits haben — Ihrer Stimme."
+            "text": "Jede Budgetierungsmethode — ob die 50/30/20-Regel, Nullbased Budgeting oder ein einfaches Umschlagsystem — basiert auf demselben grundlegenden Akt: zu wissen, was du ausgegeben hast. [Sinking Funds](/blog/sinking-funds) [nullbasiertes Budgetieren](/blog/zero-based-budgeting) [50/30/20-Regel](/blog/50-30-20-rule) Nicht ungefähr. Nicht aus dem Gedächtnis. Tatsächlich wissen. Die Lücke zwischen Absicht und Handlung ist dort, wo Budgets sterben, und das Sprach-Tracking schließt diese Lücke mit dem einfachsten Tool, das du bereits hast — deiner Stimme."
       },
       {
             "kind": "p",
-            "text": "Dieser Artikel erklärt, wie das Sprachausgaben-Tracking funktioniert, die Wissenschaft dahinter, warum das laut Aussprechen Ihrer Ausgaben Sie finanziell bewusster macht, wie es sich mit anderen Erfassungsmethoden vergleicht und worauf Sie achten sollten, wenn Sie es ausprobieren möchten. Am Ende haben Sie ein klares Bild, ob dieser Ansatz zur Art und Weise passt, wie Sie tatsächlich leben und ausgeben."
+            "text": "Dieser Artikel erklärt, wie das Sprachausgaben-Tracking funktioniert, die Wissenschaft dahinter, warum das laut Aussprechen deiner Ausgaben dich finanziell bewusster macht, wie es sich mit anderen Erfassungsmethoden vergleicht und worauf du achten solltest, wenn du es ausprobieren möchtest. Am Ende hast du ein klares Bild, ob dieser Ansatz zur Art und Weise passt, wie du tatsächlich lebst und ausgibst."
       },
       {
             "id": "der-wahre-grund-warum-menschen-budgeting-apps-aufg",
@@ -3233,15 +3233,15 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es ist nicht mangelnde Motivation. Die meisten Menschen, die eine Budgeting-App herunterladen, wollen tatsächlich verstehen, wohin ihr Geld geht. Das Problem ist die Reibung — die kleine aber sich aufstauende Kosten, das aufzuhören, was Sie tun, Ihr Handy zu entsperren, eine App zu öffnen, durch drei Bildschirme zu tippen und eine Transaktion manuell einzugeben."
+            "text": "Es ist nicht mangelnde Motivation. Die meisten Menschen, die eine Budgeting-App herunterladen, wollen tatsächlich verstehen, wohin ihr Geld geht. Das Problem ist die Reibung — die kleine aber sich aufstauende Kosten, das aufzuhören, was du tust, dein Handy zu entsperren, eine App zu öffnen, durch drei Bildschirme zu tippen und eine Transaktion manuell einzugeben."
       },
       {
             "kind": "p",
-            "text": "Dieser Prozess dauert zwischen 30 und 60 Sekunden pro Transaktion. Die durchschnittliche Person tätigt 20 bis 30 Käufe pro Woche. Rechnen Sie nach: das sind bis zu 30 Minuten Dateneingabe jede Woche, verteilt auf Momente, in denen Sie beschäftigt, abgelenkt oder bereits mit dem Nächsten beschäftigt sind."
+            "text": "Dieser Prozess dauert zwischen 30 und 60 Sekunden pro Transaktion. Die durchschnittliche Person tätigt 20 bis 30 Käufe pro Woche. Rechne nach: das sind bis zu 30 Minuten Dateneingabe jede Woche, verteilt auf Momente, in denen du beschäftigt, abgelenkt oder bereits mit dem Nächsten beschäftigt bist."
       },
       {
             "kind": "p",
-            "text": "Die meisten Menschen geraten innerhalb einer Woche ins Hintertreffen. Sobald Sie hinterher sind, holt aufzuholen überwältigend an. Also hören Sie auf. Die App wird nicht mehr benutzt. Die Schuld wächst leise. Und irgendwann kommen Sie zu dem Schluss, dass Sie einfach „keine Budgeting-Person\" sind — während der wahre Übeltäter ein Designproblem war, kein Disziplinproblem."
+            "text": "Die meisten Menschen geraten innerhalb einer Woche ins Hintertreffen. Sobald du hinterher bist, fühlt sich das Aufholen überwältigend an. Also hörst du auf. Die App wird nicht mehr benutzt. Die Schuld wächst leise. Und irgendwann kommst du zu dem Schluss, dass du einfach „keine Budgeting-Person\" bist — während der wahre Übeltäter ein Designproblem war, kein Disziplinproblem."
       },
       {
             "kind": "p",
@@ -3258,7 +3258,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Interaktion soll sich so natürlich anfühlen wie laut zu denken. Sie sprechen die Ausgabe, während sie passiert — keine spezielle Syntax, keine Befehlswörter zum Auswendiglernen."
+            "text": "Die Interaktion soll sich so natürlich anfühlen wie laut zu denken. Du sprichst die Ausgabe, während sie passiert — keine spezielle Syntax, keine Befehlswörter zum Auswendiglernen."
       },
       {
             "kind": "p",
@@ -3302,7 +3302,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die App parst den Betrag, den Händler oder Kontext und leitet eine Ausgabenkategorie basierend auf dem, was Sie gesagt haben, ab. Ein einziger Bestätigungstipp lässt Sie den Vorschlag annehmen oder anpassen. Die gesamte Interaktion — vom Sprechen bis zum bestätigten Eintrag — dauert etwa fünf Sekunden."
+            "text": "Die App parst den Betrag, den Händler oder Kontext und leitet eine Ausgabenkategorie basierend auf dem, was du gesagt hast, ab. Ein einziger Bestätigungstipp lässt dich den Vorschlag annehmen oder anpassen. Die gesamte Interaktion — vom Sprechen bis zum bestätigten Eintrag — dauert etwa fünf Sekunden."
       },
       {
             "kind": "p",
@@ -3310,7 +3310,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Was sich von älteren Sprach-Assistenten-Ansätzen unterscheidet, ist das Natural-Language- Parsing. Sie müssen nicht sagen „Ausgabe erfassen: Betrag: Kategorie.\" Sie sprechen einfach so, wie Sie mit einem Freund sprechen würden. „Ich habe gerade fünfzehn Dollar für Mittagessen ausgegeben.\" „Zweiundzwanzig im Eisenwarenladen.\" Das System versteht Kontexthinweise — Händlernamen, Beträge, Kategoriehinweise — und setzt sie zusammen, ohne dass Sie über Formatierung nachdenken müssen."
+            "text": "Was sich von älteren Sprach-Assistenten-Ansätzen unterscheidet, ist das Natural-Language- Parsing. Du musst nicht sagen „Ausgabe erfassen: Betrag: Kategorie.\" Du sprichst einfach so, wie du mit einem Freund sprechen würdest. „Ich habe gerade fünfzehn Dollar für Mittagessen ausgegeben.\" „Zweiundzwanzig im Eisenwarenladen.\" Das System versteht Kontexthinweise — Händlernamen, Beträge, Kategoriehinweise — und setzt sie zusammen, ohne dass du über Formatierung nachdenken musst."
       },
       {
             "id": "die-wissenschaft-dahinter-ausgaben-laut-auszusprec",
@@ -3319,11 +3319,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es gibt einen Grund, warum Sprach-Tracking sich anders anfühlt als einen Betrag in eine Tabellenkalkulation zu tippen oder eine Kategorie in einer App anzutippen. Es ist nicht nur schneller — es verändert die Art, wie Ihr Gehirn die Information verarbeitet. Der Unterschied liegt in der Funktionsweise von Gedächtnis und Kodierung."
+            "text": "Es gibt einen Grund, warum Sprach-Tracking sich anders anfühlt als einen Betrag in eine Tabellenkalkulation zu tippen oder eine Kategorie in einer App anzutippen. Es ist nicht nur schneller — es verändert die Art, wie dein Gehirn die Information verarbeitet. Der Unterschied liegt in der Funktionsweise von Gedächtnis und Kodierung."
       },
       {
             "kind": "p",
-            "text": "Kognitive Psychologen haben das, was sie den „Generationseffekt\" nennen, seit Jahrzehnten erforscht. Die Kernbefunde sind unmissverständlich: Informationen, die Sie aktiv produzieren — Sprechen, Handschreiben, Generieren einer Antwort — erzeugen stärkere Gedächtnisspuren als Informationen, die Sie passiv aufnehmen oder beobachten. Wenn Sie „18.50\" in ein Feld tippen, führen Ihre Finger eine mechanische Aktion aus. Wenn Sie „achtzehn Dollar und fünfzig Cent für Mittagessen\" sagen, konstruiert Ihr Gehirn den Satz, kodiert die Zahl verbal, ordnet sie einem Kontext zu und produziert sie über Ihren Stimmapparat — alles gleichzeitig. Diese multisensorische Kodierung erzeugt eine reichere Gedächtnisspur."
+            "text": "Kognitive Psychologen haben das, was sie den „Generationseffekt\" nennen, seit Jahrzehnten erforscht. Die Kernbefunde sind unmissverständlich: Informationen, die du aktiv produzierst — Sprechen, Handschreiben, Generieren einer Antwort — erzeugen stärkere Gedächtnisspuren als Informationen, die du passiv aufnimmst oder beobachtest. Wenn du „18.50\" in ein Feld tippst, führen deine Finger eine mechanische Aktion aus. Wenn du „achtzehn Dollar und fünfzig Cent für Mittagessen\" sagst, konstruiert dein Gehirn den Satz, kodiert die Zahl verbal, ordnet sie einem Kontext zu und produziert sie über deinen Stimmapparat — alles gleichzeitig. Diese multisensorische Kodierung erzeugt eine reichere Gedächtnisspur."
       },
       {
             "kind": "p",
@@ -3331,7 +3331,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Implikationen für das Ausgaben-Tracking sind erheblich. Wenn Sie „Kaffee, vier Dollar\" laut aussprechen, erfassen Sie nicht nur eine Transaktion — Sie schaffen einen bewussten Moment des Bewusstseins. Die Zahl gelangt in Ihr Arbeitsgedächtnis. Der Kontext (Kaffee) wird dem Betrag zugeordnet. Der Akt des Sprechens erzwingt eine kurze Pause zwischen dem Kauf und der nächsten Aufgabe auf Ihrer Liste."
+            "text": "Die Implikationen für das Ausgaben-Tracking sind erheblich. Wenn du „Kaffee, vier Dollar\" laut aussprichst, erfasst du nicht nur eine Transaktion — du schaffst einen bewussten Moment des Bewusstseins. Die Zahl gelangt in dein Arbeitsgedächtnis. Der Kontext (Kaffee) wird dem Betrag zugeordnet. Der Akt des Sprechens erzwingt eine kurze Pause zwischen dem Kauf und der nächsten Aufgabe auf deiner Liste."
       },
       {
             "kind": "p",
@@ -3339,7 +3339,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Spracherfassung unterbricht dieses Muster. Nicht durch Schuld, nicht durch Warnungen, nicht durch rote Warnbalken — sondern durch den einfachen neurologischen Akt des Sprechens. Wenn Sie den Betrag laut aussprechen, wird er auf eine Weise real, die ein stilles Karten-Tapping nie erreicht. Sie können unbewusst nichts anerkennen, was Sie gerade verbalisiert haben. Das Bewusstsein ist in den Mechanismus eingebaut."
+            "text": "Die Spracherfassung unterbricht dieses Muster. Nicht durch Schuld, nicht durch Warnungen, nicht durch rote Warnbalken — sondern durch den einfachen neurologischen Akt des Sprechens. Wenn du den Betrag laut aussprechst, wird er auf eine Weise real, die ein stilles Karten-Tapping nie erreicht. Du kannst unbewusst nichts anerkennen, was du gerade verbalisiert hast. Das Bewusstsein ist in den Mechanismus eingebaut."
       },
       {
             "kind": "p",
@@ -3347,28 +3347,28 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der Unterschied zwischen Spracherfassung und traditioneller manueller Eingabe ist, dass die Spracherfassung dieses Bewusstsein ohne die Reibung schafft, die die manuelle Eingabe untragbar macht. Sie erhalten den psychologischen Nutzen der bewussten Wahrnehmung zu einem Bruchteil der kognitiven Kosten. Diese Kombination — niedrige Reibung plus hohes Bewusstsein — ist das, was das Sprach-Tracking im Vergleich zu anderen Methoden einzigartig effektiv macht."
+            "text": "Der Unterschied zwischen Spracherfassung und traditioneller manueller Eingabe ist, dass die Spracherfassung dieses Bewusstsein ohne die Reibung schafft, die die manuelle Eingabe untragbar macht. Du erhältst den psychologischen Nutzen der bewussten Wahrnehmung zu einem Bruchteil der kognitiven Kosten. Diese Kombination — niedrige Reibung plus hohes Bewusstsein — ist das, was das Sprach-Tracking im Vergleich zu anderen Methoden einzigartig effektiv macht."
       },
       {
             "id": "die-datenschutzfrage-und-warum-sie-wichtiger-ist-a",
             "kind": "h2",
-            "text": "Die Datenschutzfrage — und warum sie wichtiger ist, als Sie denken"
+            "text": "Die Datenschutzfrage — und warum sie wichtiger ist, als du denkst"
       },
       {
             "kind": "p",
-            "text": "Sprachdaten gehören zu den sensibelsten Daten, die Sie generieren können. Der Inhalt dessen, was Sie sagen, ist die eine Sache; die Muster, wann Sie es sagen, wo Sie sind und was Sie kaufen, bilden ein erstaunlich detailliertes Verhaltensprofil."
+            "text": "Sprachdaten gehören zu den sensibelsten Daten, die du generieren kannst. Der Inhalt dessen, was du sagst, ist die eine Sache; die Muster, wann du es sagst, wo du bist und was du kaufst, bilden ein erstaunlich detailliertes Verhaltensprofil."
       },
       {
             "kind": "p",
-            "text": "Viele sprachaktiviertn Apps — Budgeting oder anderweitig — senden Audio an Cloud-Server zur Verarbeitung. Dies wird normalerweise irgendwo in der Datenschutzrichtlinie offengelegt, in einer Sprache, die die meisten Menschen nicht lesen. Die praktische Implikation: Ihre Sprachaufnahmen und die darin eingebetteten Transaktionsdaten werden auf einer Infrastruktur gespeichert, die Sie nicht kontrollieren, oft für Modelltraining oder Serviceverbesserungen aufbewahrt."
+            "text": "Viele sprachaktivierten Apps — Budgeting oder anderweitig — senden Audio an Cloud-Server zur Verarbeitung. Dies wird normalerweise irgendwo in der Datenschutzrichtlinie offengelegt, in einer Sprache, die die meisten Menschen nicht lesen. Die praktische Implikation: Deine Sprachaufnahmen und die darin eingebetteten Transaktionsdaten werden auf einer Infrastruktur gespeichert, die du nicht kontrollierst, oft für Modelltraining oder Serviceverbesserungen aufbewahrt."
       },
       {
             "kind": "p",
-            "text": "Die Verarbeitung auf dem Gerät hält das Audio auf Ihrem Gerät — die Spracherkennung findet lokal statt, die Transaktion wird lokal erfasst und nichts wird nach außen übertragen. Bei der Bewertung jeder sprachaktiven Finanz-App ist der Ausdruck „Audio- verarbeitung auf dem Gerät\" in der Datenschutzrichtlinie die Phrase, auf die Sie achten sollten. Diese Details sind viel wichtiger als die Marketing-Schlagzeile."
+            "text": "Die Verarbeitung auf dem Gerät hält das Audio auf deinem Gerät — die Spracherkennung findet lokal statt, die Transaktion wird lokal erfasst und nichts wird nach außen übertragen. Bei der Bewertung jeder sprachaktiven Finanz-App ist der Ausdruck „Audio- verarbeitung auf dem Gerät\" in der Datenschutzrichtlinie die Phrase, auf die du achten solltest. Diese Details sind viel wichtiger als die Marketing-Schlagzeile."
       },
       {
             "kind": "p",
-            "text": "Dies ist besonders für Finanz-Apps wichtig, da jede Transaktion, die Sie erfassen, ein Datenpunkt über Ihr Einkommensniveau, Ihren Lebensstil, Ihre Gesundheit, Beziehungen und Gewohnheiten ist. Ein Kaffeekauf um 7 Uhr morgens erzählt eine Geschichte über Ihre Morgenroutine. Ein Apothekenbesuch erzählt eine Geschichte über Ihre Gesundheit. Ein Restaurant am Dienstagabend erzählt eine Geschichte über Ihr soziales Leben. Über Wochen und Monate aggregiert, bilden diese Datenpunkte ein Porträt Ihres Alltagslebens, das bemerkenswert intim ist — und Sie sollten die einzige Person sein, die darauf Zugriff hat."
+            "text": "Dies ist besonders für Finanz-Apps wichtig, da jede Transaktion, die du erfasst, ein Datenpunkt über dein Einkommensniveau, deinen Lebensstil, deine Gesundheit, Beziehungen und Gewohnheiten ist. Ein Kaffeekauf um 7 Uhr morgens erzählt eine Geschichte über deine Morgenroutine. Ein Apothekenbesuch erzählt eine Geschichte über deine Gesundheit. Ein Restaurant am Dienstagabend erzählt eine Geschichte über dein soziales Leben. Über Wochen und Monate aggregiert, bilden diese Datenpunkte ein Porträt deines Alltagslebens, das bemerkenswert intim ist — und du solltest die einzige Person sein, die darauf Zugriff hat."
       },
       {
             "id": "sprach-tracking-vs-andere-erfassungsmethoden",
@@ -3377,7 +3377,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es gibt vier grundlegende Arten, eine Ausgabe im Moment zu erfassen. Jede hat unterschiedliche Kompromisse bei Geschwindigkeit, Genauigkeit, Datenschutz und Abdeckung. Das Verständnis dieser Kompromisse hilft Ihnen, den richtigen Ansatz für Ihre Situation zu wählen — oder Methoden zu kombinieren, um die besten Ergebnisse zu erzielen."
+            "text": "Es gibt vier grundlegende Arten, eine Ausgabe im Moment zu erfassen. Jede hat unterschiedliche Kompromisse bei Geschwindigkeit, Genauigkeit, Datenschutz und Abdeckung. Das Verständnis dieser Kompromisse hilft dir, den richtigen Ansatz für deine Situation zu wählen — oder Methoden zu kombinieren, um die besten Ergebnisse zu erzielen."
       },
       {
             "id": "methodenvergleich",
@@ -3386,23 +3386,23 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Spracherfassung: Sie sprechen die Ausgabe laut aus und die App parst den Betrag, den Händler und die Kategorie. Geschwindigkeit: 4–6 Sekunden. Genauigkeit: hoch zum Zeitpunkt der Erfassung, da Sie berichten, was gerade passiert ist. Datenschutz: ausgezeichnet bei Geräteverarbeitung. Abdeckung: erfasst alles, einschließlich Bargeld- transaktionen. Reibung: minimal — ein Satz, ein Tipp. Offline: funktioniert ohne Internetverbindung."
+            "text": "- Spracherfassung: Du sprichst die Ausgabe laut aus und die App parst den Betrag, den Händler und die Kategorie. Geschwindigkeit: 4–6 Sekunden. Genauigkeit: hoch zum Zeitpunkt der Erfassung, da du berichtest, was gerade passiert ist. Datenschutz: ausgezeichnet bei Geräteverarbeitung. Abdeckung: erfasst alles, einschließlich Bargeld- transaktionen. Reibung: minimal — ein Satz, ein Tipp. Offline: funktioniert ohne Internetverbindung."
       },
       {
             "kind": "p",
-            "text": "- Beleg-Scannen / OCR: Sie fotografieren einen Beleg und die App extrahiert den Text. Geschwindigkeit: 10–20 Sekunden (Beleg finden, Kamera ausrichten, auf Verarbeitung warten). Genauigkeit: hängt von der Belegqualität ab — Thermopapier verblassen, zerknitterte Belege scheitern und viele kleine Anbieter geben keine Belege. Datenschutz: variiert — einige Apps senden Bilder an Cloud-Server zur OCR-Verarbeitung. Abdeckung: funktioniert nur, wenn Sie einen Beleg erhalten und aufbewahren. Reibung: moderat. Offline: begrenzt."
+            "text": "- Beleg-Scannen / OCR: Du fotografierst einen Beleg und die App extrahiert den Text. Geschwindigkeit: 10–20 Sekunden (Beleg finden, Kamera ausrichten, auf Verarbeitung warten). Genauigkeit: hängt von der Belegqualität ab — Thermopapier verblasst, zerknitterte Belege scheitern und viele kleine Anbieter geben keine Belege. Datenschutz: variiert — einige Apps senden Bilder an Cloud-Server zur OCR-Verarbeitung. Abdeckung: funktioniert nur, wenn du einen Beleg erhältst und aufbewahrst. Reibung: moderat. Offline: begrenzt."
       },
       {
             "kind": "p",
-            "text": "- Manuelle Eingabe: Sie tippen den Betrag, wählen eine Kategorie und fügen optional Notizen hinzu. Geschwindigkeit: 30–60 Sekunden. Genauigkeit: hängt davon ab, wie kürzlich Sie den Kauf getätigt haben — das Gedächtnis degradiert schnell. Datenschutz: normalerweise gut, da keine Audiodateien oder Bilder involviert sind. Abdeckung: funktioniert für alles, aber nur, wenn Sie daran denken, es zu tun. Reibung: hoch — das ist die Methode, die die meisten Menschen aufgeben. Offline: funktioniert."
+            "text": "- Manuelle Eingabe: Du tippst den Betrag, wählst eine Kategorie und fügst optional Notizen hinzu. Geschwindigkeit: 30–60 Sekunden. Genauigkeit: hängt davon ab, wie kürzlich du den Kauf getätigt hast — das Gedächtnis degradiert schnell. Datenschutz: normalerweise gut, da keine Audiodateien oder Bilder involviert sind. Abdeckung: funktioniert für alles, aber nur, wenn du daran denkst, es zu tun. Reibung: hoch — das ist die Methode, die die meisten Menschen aufgeben. Offline: funktioniert."
       },
       {
             "kind": "p",
-            "text": "- Bank-Sync / automatischer Import: Die App verbindet sich mit Ihrer Bank und importiert Transaktionen automatisch. Geschwindigkeit: passiv — kein Aufwand nach der Einrichtung. Genauigkeit: hoch für verknüpfte Konten. Datenschutz: erfordert das Teilen von Bankzugangsdaten mit einem Drittanbieter-Aggregator. Abdeckung: erfasst nur Transaktionen, die durch verknüpfte Konten fließen — kein Bargeld, keine gemeinsamen Ausgaben, keine Karten, die Sie nicht verknüpft haben. Reibung: null nach der Einrichtung, aber die Einrichtung selbst kann komplex sein. Offline: funktioniert nicht."
+            "text": "- Bank-Sync / automatischer Import: Die App verbindet sich mit deiner Bank und importiert Transaktionen automatisch. Geschwindigkeit: passiv — kein Aufwand nach der Einrichtung. Genauigkeit: hoch für verknüpfte Konten. Datenschutz: erfordert das Teilen von Bankzugangsdaten mit einem Drittanbieter-Aggregator. Abdeckung: erfasst nur Transaktionen, die durch verknüpfte Konten fließen — kein Bargeld, keine gemeinsamen Ausgaben, keine Karten, die du nicht verknüpft hast. Reibung: null nach der Einrichtung, aber die Einrichtung selbst kann komplex sein. Offline: funktioniert nicht."
       },
       {
             "kind": "p",
-            "text": "Die Spracherfassung gewinnt bei der Kombination aus Geschwindigkeit, Datenschutz und Bargeldabdeckung. Es ist die einzige Methode, die gleichzeitig schnell genug ist, im Moment zu verwenden, privat genug, um Ihre Daten auf Ihrem Gerät zu halten, und flexibel genug, um Bargeldkäufe zu erfassen, die kein Bank-Sync jemals sehen wird. Der Kompromiss ist, dass es Ihre aktive Beteiligung erfordert — Sie müssen tatsächlich etwas sagen. Aber diese aktive Beteiligung ist auch das, was den Bewusstseinsnutzen schafft, der das Sprach-Tracking zu mehr als nur einem Dateneingabe-Shortcut macht."
+            "text": "Die Spracherfassung gewinnt bei der Kombination aus Geschwindigkeit, Datenschutz und Bargeldabdeckung. Es ist die einzige Methode, die gleichzeitig schnell genug ist, im Moment zu verwenden, privat genug, um deine Daten auf deinem Gerät zu halten, und flexibel genug, um Bargeldkäufe zu erfassen, die kein Bank-Sync jemals sehen wird. Der Kompromiss ist, dass es deine aktive Beteiligung erfordert — du musst tatsächlich etwas sagen. Aber diese aktive Beteiligung ist auch das, was den Bewusstseinsnutzen schafft, der das Sprach-Tracking zu mehr als nur einem Dateneingabe-Shortcut macht."
       },
       {
             "id": "wer-am-meisten-vom-sprach-tracking-profitiert",
@@ -3415,7 +3415,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Eltern bei der Abholung von der Schule, die gerade einkaufen waren und die Hände voll haben, bevor das Auto überhaupt geparkt ist. Sie jonglieren Taschen, Kinder und ein Dutzend mentale Aufgabenlisten. Das Handy herauszuholen, um „Einkäufe, 47 Dollar\" einzutippen, ist nicht machbar. Es in Ihr Handy zu sagen, während Sie den Kofferraum beladen, dauert zwei Sekunden."
+            "text": "- Eltern bei der Abholung von der Schule, die gerade einkaufen waren und die Hände voll haben, bevor das Auto überhaupt geparkt ist. Du jonglierst Taschen, Kinder und ein Dutzend mentale Aufgabenlisten. Das Handy herauszuholen, um „Einkäufe, 47 Dollar\" einzutippen, ist nicht machbar. Es in dein Handy zu sagen, während du den Kofferraum belädst, dauert zwei Sekunden."
       },
       {
             "kind": "p",
@@ -3427,11 +3427,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Pendler, die in den wenigen Sekunden zwischen dem Karten-Tappen und dem Einsteigen in den Zug einen Kaffee oder eine Fahrkarte erfassen können. Das Fenster ist winzig — vielleicht fünf Sekunden zwischen der Transaktion und der nächsten Sache, die Ihre Aufmerksamkeit erfordert. Die Stimme passt in dieses Fenster. Die manuelle Eingabe nicht."
+            "text": "- Pendler, die in den wenigen Sekunden zwischen dem Karten-Tappen und dem Einsteigen in den Zug einen Kaffee oder eine Fahrkarte erfassen können. Das Fenster ist winzig — vielleicht fünf Sekunden zwischen der Transaktion und der nächsten Sache, die deine Aufmerksamkeit erfordert. Die Stimme passt in dieses Fenster. Die manuelle Eingabe nicht."
       },
       {
             "kind": "p",
-            "text": "- Jeder, der drei oder mehr Budgeting-Apps aufgegeben hat und vermutet, dass das Problem die Reibung ist, nicht die Motivation. Wenn Sie Tabellenkalkulationen, manuelle Tracker und Bank-Sync-Tools ausprobiert haben und die Gewohnheit immer noch nicht beibehalten können, liegt das Problem nicht am Engagement. Es ist, dass jede Methode, die Sie ausprobiert haben, mehr Aufwand erfordert, als Sie nachhaltig leisten können. Das Sprach-Tracking ändert die Gleichung."
+            "text": "- Jeder, der drei oder mehr Budgeting-Apps aufgegeben hat und vermutet, dass das Problem die Reibung ist, nicht die Motivation. Wenn du Tabellenkalkulationen, manuelle Tracker und Bank-Sync-Tools ausprobiert hast und die Gewohnheit immer noch nicht beibehalten kannst, liegt das Problem nicht am Engagement. Es ist, dass jede Methode, die du ausprobiert hast, mehr Aufwand erfordert, als du nachhaltig leisten kannst. Das Sprach-Tracking ändert die Gleichung."
       },
       {
             "id": "realit-tsnahe-szenarien-in-denen-das-sprach-tracki",
@@ -3449,11 +3449,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es ist Samstagmorgen. Sie laufen durch einen Bauernmarkt, kaufen Gemüse von drei verschiedenen Händlern, holen einen Kaffee von einem mobilen Stand und kaufen handwerkliches Brot von einem Stand, der nur Bargeld akzeptiert. Keiner dieser Händler gibt Belege. Keiner davon wird auf Ihrem Kontoauszug erscheinen. Wenn Sie nach Hause kommen, erinnern Sie sich an „ein paar Sachen vom Markt\", aber nicht an die einzelnen Beträge."
+            "text": "Es ist Samstagmorgen. Du läufst durch einen Bauernmarkt, kaufst Gemüse von drei verschiedenen Händlern, holst einen Kaffee von einem mobilen Stand und kaufst handwerkliches Brot von einem Stand, der nur Bargeld akzeptiert. Keiner dieser Händler gibt Belege. Keiner davon wird auf deinem Kontoauszug erscheinen. Wenn du nach Hause kommst, erinnerst du dich an „ein paar Sachen vom Markt\", aber nicht an die einzelnen Beträge."
       },
       {
             "kind": "p",
-            "text": "Mit dem Sprach-Tracking erfassen Sie jeden Kauf im Moment. „Tomaten, acht Dollar.\" „Kaffee, fünf Dollar.\" „Brot, sechs Dollar.\" Wenn Sie zurück im Auto sind, haben Sie einen vollständigen Rekord Ihrer Marktausgaben — genau, kategorisiert und in Echtzeit erfasst. Das sind 19 Dollar an Ausgaben, die für jedes Budgetierungssystem sonst unsichtbar wären."
+            "text": "Mit dem Sprach-Tracking erfasst du jeden Kauf im Moment. „Tomaten, acht Dollar.\" „Kaffee, fünf Dollar.\" „Brot, sechs Dollar.\" Wenn du zurück im Auto bist, hast du einen vollständigen Rekord deiner Marktausgaben — genau, kategorisiert und in Echtzeit erfasst. Das sind 19 Dollar an Ausgaben, die für jedes Budgetierungssystem sonst unsichtbar wären."
       },
       {
             "id": "das-abendessen-mit-freunden-teilen",
@@ -3462,11 +3462,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Sie sind mit drei Freunden beim Abendessen. Die Rechnung kommt, Sie teilen sie zu viert und überweisen Ihren Anteil per Venmo. Die Transaktion ist leicht zu vergessen, weil sie sich nicht wie ein traditioneller Kauf anfühlt — kein Beleg im Geldbeutel, keine Kartenbelastung, die heraussticht. Aber es ist immer noch eine Ausgabe und zählt immer noch gegen Ihr Budget."
+            "text": "Du bist mit drei Freunden beim Abendessen. Die Rechnung kommt, du teilst sie zu viert und überweist deinen Anteil per Venmo. Die Transaktion ist leicht zu vergessen, weil sie sich nicht wie ein traditioneller Kauf anfühlt — kein Beleg im Geldbeutel, keine Kartenbelastung, die heraussticht. Aber es ist immer noch eine Ausgabe und zählt immer noch gegen dein Budget."
       },
       {
             "kind": "p",
-            "text": "Ein schneller Sprach-Eintrag — „Abendessen mit Freunden, fünfunddreißig Dollar\" — erfasst es, bevor der Abend weitergeht. Sie müssen es später nicht in Erinnerung behalten. Sie müssen nicht in der Venmo-Historie suchen. Es ist erfasst, kategorisiert und erledigt."
+            "text": "Ein schneller Sprach-Eintrag — „Abendessen mit Freunden, fünfunddreißig Dollar\" — erfasst es, bevor der Abend weitergeht. Du musst es später nicht in Erinnerung behalten. Du musst nicht in der Venmo-Historie suchen. Es ist erfasst, kategorisiert und erledigt."
       },
       {
             "id": "impulskauf-in-einer-apotheke",
@@ -3475,11 +3475,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Sie sind für Zahnpasta hineingegangen und mit Zahnpasta, einem Snack, einer Zeitschrift und einer Reisegröße-Lotion herausgekommen, die Sie definitiv nicht kaufen wollten. Der Gesamtbetrag war 24 Dollar, und wenn Sie das Auto erreichen, lässt Sie die Schuld schon das ganze Vergessen wollen."
+            "text": "Du bist für Zahnpasta hineingegangen und mit Zahnpasta, einem Snack, einer Zeitschrift und einer Reisegröße-Lotion herausgekommen, die du definitiv nicht kaufen wolltest. Der Gesamtbetrag war 24 Dollar, und wenn du das Auto erreichst, lässt dich die Schuld schon das ganze Vergessen wollen."
       },
       {
             "kind": "p",
-            "text": "Das ist genau der Moment, in dem das Sprach-Tracking seinen Nutzen beweist. Der Moment der ehrlichen Wahrnehmung — „Apotheke, vierundzwanzig Dollar\" zu sagen — geht nicht um Bestrafung. Es geht um Genauigkeit. Impulskaufe sind die Ausgaben, die am wahrscheinlichsten übersprungen, minimiert oder vergessen werden, wenn Sie Ihre Ausgaben später rekonstruieren. Sie im Moment zu erfassen gibt Ihnen das wahre Bild, das ist das einzige Bild, das Ihnen hilft, bessere Entscheidungen zu treffen."
+            "text": "Das ist genau der Moment, in dem das Sprach-Tracking seinen Nutzen beweist. Der Moment der ehrlichen Wahrnehmung — „Apotheke, vierundzwanzig Dollar\" zu sagen — geht nicht um Bestrafung. Es geht um Genauigkeit. Impulskäufe sind die Ausgaben, die am wahrscheinlichsten übersprungen, minimiert oder vergessen werden, wenn du deine Ausgaben später rekonstruierst. Sie im Moment zu erfassen gibt dir das wahre Bild, das ist das einzige Bild, das dir hilft, bessere Entscheidungen zu treffen."
       },
       {
             "id": "mehrere-besorgungen-an-einem-nachmittag",
@@ -3488,11 +3488,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Samstagnachmittag: Sie besuchen die Reinigung, das Eisenwarengeschäft, einen schnellen Einkauf und die Tankstelle. Vier Stopps, vier Transaktionen, vier Möglichkeiten, die Details zu vergessen. Wenn Sie nach Hause kommen, erinnern Sie sich an „ein Haufen Besorgungen\", aber nicht an die einzelnen Beträge. Das Eisenwarengeschäft war wahrscheinlich 30 Dollar. Oder waren es 45? Der Einkauf war vielleicht 25 Dollar. Oder 40?"
+            "text": "Samstagnachmittag: Du besuchst die Reinigung, das Eisenwarengeschäft, einen schnellen Einkauf und die Tankstelle. Vier Stopps, vier Transaktionen, vier Möglichkeiten, die Details zu vergessen. Wenn du nach Hause kommst, erinnerst du dich an „ein Haufen Besorgungen\", aber nicht an die einzelnen Beträge. Das Eisenwarengeschäft war wahrscheinlich 30 Dollar. Oder waren es 45? Der Einkauf war vielleicht 25 Dollar. Oder 40?"
       },
       {
             "kind": "p",
-            "text": "Jeden Stopp beim Verlassen des Ladens laut zu erfassen, hält die Daten genau. „Reinigung, vierzehn Dollar.\" „Eisenwarengeschäft, zweiunddreißig Dollar.\" „Einkäufe, siebenundzwanzig Dollar.\" „Benzin, achtundvierzig Dollar.\" Vier Sprach-Einträge, jeder weniger als fünf Sekunden, und Ihr ganzer Nachmittag der Besorgungen ist präzise erfasst."
+            "text": "Jeden Stopp beim Verlassen des Ladens laut zu erfassen, hält die Daten genau. „Reinigung, vierzehn Dollar.\" „Eisenwarengeschäft, zweiunddreißig Dollar.\" „Einkäufe, siebenundzwanzig Dollar.\" „Benzin, achtundvierzig Dollar.\" Vier Sprach-Einträge, jeder weniger als fünf Sekunden, und dein ganzer Nachmittag der Besorgungen ist präzise erfasst."
       },
       {
             "id": "im-ausland-reisen",
@@ -3501,11 +3501,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Sie sind in einem Land, in dem Sie den Beleg nicht lesen können, die Währungsumrechnung verwirrend ist und die lokalen Händler nicht dasselbe Zahlungssystem verwenden, an das Sie gewöhnt sind. Das Beleg-Scannen ist nutzlos — das OCR kann fremden Text und unvertraute Formate nicht parsen. Bank-Sync hilft nicht, weil die Transaktionen in einer anderen Währung sind und möglicherweise erst nach Tagen erscheinen."
+            "text": "Du bist in einem Land, in dem du den Beleg nicht lesen kannst, die Währungsumrechnung verwirrend ist und die lokalen Händler nicht dasselbe Zahlungssystem verwenden, an das du gewöhnt bist. Das Beleg-Scannen ist nutzlos — das OCR kann fremden Text und unvertraute Formate nicht parsen. Bank-Sync hilft nicht, weil die Transaktionen in einer anderen Währung sind und möglicherweise erst nach Tagen erscheinen."
       },
       {
             "kind": "p",
-            "text": "Das Sprach-Tracking funktioniert, weil Sie der Sensor sind. Sie haben den Preis gesehen, den Betrag bezahlt und können ihn in Ihrer eigenen Sprache laut aussprechen. „Mittagessen, fünfzehn Euro.\" „Taxi, achthundert Pesos.\" Sie erfassen die Ausgabe im Moment, mit Ihren eigenen Worten, unabhängig davon, was der Beleg sagt oder ob Sie überhaupt einen bekommen haben."
+            "text": "Das Sprach-Tracking funktioniert, weil du der Sensor bist. Du hast den Preis gesehen, den Betrag bezahlt und kannst ihn in deiner eigenen Sprache laut aussprechen. „Mittagessen, fünfzehn Euro.\" „Taxi, achthundert Pesos.\" Du erfasst die Ausgabe im Moment, mit deinen eigenen Worten, unabhängig davon, was der Beleg sagt oder ob du überhaupt einen bekommen hast."
       },
       {
             "id": "verbessert-das-sprach-tracking-tats-chlich-das-bud",
@@ -3514,11 +3514,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Verhaltenswissenschaft hier ist ziemlich konsistent: Je kürzer die Schleife zwischen Verhalten und Feedback, desto wahrscheinlicher ändert sich das Verhalten. Eine Transaktion im Moment zu erfassen, ist fundamental anders, als Ihre Woche anhand eines Kontoauszugs am Sonntagabend zu rekonstruieren."
+            "text": "Die Verhaltenswissenschaft hier ist ziemlich konsistent: Je kürzer die Schleife zwischen Verhalten und Feedback, desto wahrscheinlicher ändert sich das Verhalten. Eine Transaktion im Moment zu erfassen, ist fundamental anders, als deine Woche anhand eines Kontoauszugs am Sonntagabend zu rekonstruieren."
       },
       {
             "kind": "p",
-            "text": "Die Echtzeit-Erfassung erfasst genaue Daten. Die gedächtnisbasierte Erfassung — Ihre Ausgaben anhand von Belegen, Benachrichtigungen oder Erinnerung zu rekonstruieren — unterliegt Rundung, Auslassung und motiviertem Vergessen. Studien zum Selbstmonitoring-Verhalten zeigen konstant, dass die Unmittelbarkeit der größte Prädiktor für Erfassungsgenauigkeit ist."
+            "text": "Die Echtzeit-Erfassung erfasst genaue Daten. Die gedächtnisbasierte Erfassung — deine Ausgaben anhand von Belegen, Benachrichtigungen oder Erinnerung zu rekonstruieren — unterliegt Rundung, Auslassung und motiviertem Vergessen. Studien zum Selbstmonitoring-Verhalten zeigen konstant, dass die Unmittelbarkeit der größte Prädiktor für Erfassungsgenauigkeit ist."
       },
       {
             "kind": "p",
@@ -3544,15 +3544,15 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "In den ersten drei Tagen ist Ihr einziges Ziel, drei Dinge pro Tag zu erfassen. Das ist alles. Ein Kaffee, ein Mittagessen, eine Fahrkarte. Es spielt keine Rolle, wenn Sie andere Käufe verpassen. Das Ziel ist nicht Vollständigkeit — es ist, den Auslöser zu etablieren. Sie wollen, dass Ihr Gehirn anfängt, den Moment der Zahlung mit dem Akt des Sprechens zu verknüpfen. Die Dreier-Beschränkung hält die Aufgabe klein genug, damit sie sich nicht anfühlt wie eine Pflicht."
+            "text": "In den ersten drei Tagen ist dein einziges Ziel, drei Dinge pro Tag zu erfassen. Das ist alles. Ein Kaffee, ein Mittagessen, eine Fahrkarte. Es spielt keine Rolle, wenn du andere Käufe verpasst. Das Ziel ist nicht Vollständigkeit — es ist, den Auslöser zu etablieren. Du willst, dass dein Gehirn anfängt, den Moment der Zahlung mit dem Akt des Sprechens zu verknüpfen. Die Dreier-Beschränkung hält die Aufgabe klein genug, damit sie sich nicht anfühlt wie eine Pflicht."
       },
       {
             "kind": "p",
-            "text": "Ab Tag vier bis sieben, versuchen Sie alles zu erfassen — aber halten Sie jeden Eintrag in einem Satz. Überdenken Sie es nicht. Fügen Sie keine ausgefeilten Notizen hinzu. Nur der Betrag und der Kontext. „Kaffee, vier Dollar.\" „Mittagessen, zwölf Dollar.\" „Einkäufe, dreiundfünfzig Dollar.\" Kurz und erledigt."
+            "text": "Ab Tag vier bis sieben, versuche alles zu erfassen — aber halte jeden Eintrag in einem Satz. Überdenke es nicht. Füge keine ausgefeilten Notizen hinzu. Nur der Betrag und der Kontext. „Kaffee, vier Dollar.\" „Mittagessen, zwölf Dollar.\" „Einkäufe, dreiundfünfzig Dollar.\" Kurz und erledigt."
       },
       {
             "kind": "p",
-            "text": "Der Hupt-Tipp für Woche eins: Erfassen Sie im Moment. Bündeln Sie nicht. Speichern Sie nicht für später. Sagen Sie sich nicht, Sie werden fünf auf einmal machen, wenn Sie nach Hause kommen. Die Gewohnheit bildet sich im Moment der Transaktion — dort wird der neuronale Pfad gebaut. Bündeln besiegt den Zweck."
+            "text": "Der Hupt-Tipp für Woche eins: Erfasse im Moment. Bündle nicht. Speichere nicht für später. Sag dir nicht, du wirst fünf auf einmal machen, wenn du nach Hause kommst. Die Gewohnheit bildet sich im Moment der Transaktion — dort wird der neuronale Pfad gebaut. Bündeln besiegt den Zweck."
       },
       {
             "id": "woche-2-kategorien-hinzuf-gen-tage-8-14",
@@ -3561,11 +3561,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Jetzt, da sich der grundlegende Auslöser bildet, fügen Sie Kontextkategorien hinzu. [how to budget money](/blog/how-to-budget-money) Anstatt nur „zwölf Dollar\", sagen Sie „Mittagessen, zwölf Dollar\" oder „Einkäufe, dreiundfünfzig Dollar.\" Die Kategorie hilft der App, Ihre Muster zu lernen, und hilft Ihnen zu sehen, wohin Ihr Geld geht, über den Gesamtbetrag hinaus."
+            "text": "Jetzt, da sich der grundlegende Auslöser bildet, füge Kontextkategorien hinzu. [wie man Geld budgetiert](/blog/how-to-budget-money) Anstatt nur „zwölf Dollar\", sage „Mittagessen, zwölf Dollar\" oder „Einkäufe, dreiundfünfzig Dollar.\" Die Kategorie hilft der App, deine Muster zu lernen, und hilft dir zu sehen, wohin dein Geld geht, über den Gesamtbetrag hinaus."
       },
       {
             "kind": "p",
-            "text": "Halten Sie die Kategorien einfach. Drei bis fünf sind in dieser Phase ausreichend: Essen, Transport, Einkäufe, Rechnungen und vielleicht Unterhaltung. Sie können später immer verfeinern. Das Ziel in Woche zwei ist Konstanz, nicht Präzision."
+            "text": "Halte die Kategorien einfach. Drei bis fünf sind in dieser Phase ausreichend: Essen, Transport, Einkäufe, Rechnungen und vielleicht Unterhaltung. Du kannst später immer verfeinern. Das Ziel in Woche zwei ist Konstanz, nicht Präzision."
       },
       {
             "id": "woche-3-muster-berpr-fen-tage-15-21",
@@ -3574,11 +3574,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Bis jetzt haben Sie zwei Wochen Daten. Nehmen Sie sich zehn Minuten, um sie anzusehen. Wohin geht der größte Teil Ihres Geldes? Gibt es Kategorien, die Sie überraschen? Gibt es einen Wochentag, an dem Sie deutlich mehr ausgeben? Diese ist die Woche, in der das Erfassen beginnt, zu Einblick zu werden."
+            "text": "Bis jetzt hast du zwei Wochen Daten. Nimm dir zehn Minuten, um sie anzusehen. Wohin geht der größte Teil deines Geldes? Gibt es Kategorien, die dich überraschen? Gibt es einen Wochentag, an dem du deutlich mehr ausgibst? Das ist die Woche, in der das Erfassen beginnt, zu Einblick zu werden."
       },
       {
             "kind": "p",
-            "text": "Urteilen Sie die Daten nicht. Schauen Sie sie sich nur an. Die Beobachtung selbst ist es, die den Wandel schafft. Wenn Sie sehen, dass Sie 67 Dollar für Essenslieferung in einer Woche ausgegeben haben, brauchen Sie keine App, um Ihnen zu sagen, dass das zu viel ist. Die Zahl spricht für sich."
+            "text": "Urteile nicht über die Daten. Schau sie dir nur an. Die Beobachtung selbst ist es, die den Wandel schafft. Wenn du siehst, dass du 67 Dollar für Essenslieferung in einer Woche ausgegeben hast, brauchst du keine App, um dir zu sagen, dass das zu viel ist. Die Zahl spricht für sich."
       },
       {
             "id": "woche-4-anpassen-und-festigen-tage-22-30",
@@ -3587,15 +3587,15 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Nutzen Sie, was Sie in Woche drei gelernt haben, um eine kleine Anpassung vorzunehmen. Vielleicht setzen Sie eine lockere Obergrenze für Auswärtsessen. Vielleicht entscheiden Sie sich, mittwochs und freitags das Mittagessen mitzubringen, anstatt es zu kaufen. Die Anpassung sollte klein genug sein, damit sie sich nicht anfühlt wie ein Opfer. Das Ziel ist, sich selbst zu beweisen, dass die Daten zu Handlung führen — und dass die Handlung nachhaltig ist."
+            "text": "Nutze, was du in Woche drei gelernt hast, um eine kleine Anpassung vorzunehmen. Vielleicht setzt du eine lockere Obergrenze für Auswärtsessen. Vielleicht entscheidest du dich, mittwochs und freitags das Mittagessen mitzubringen, anstatt es zu kaufen. Die Anpassung sollte klein genug sein, damit sie sich nicht anfühlt wie ein Opfer. Das Ziel ist, dir selbst zu beweisen, dass die Daten zu Handlung führen — und dass die Handlung nachhaltig ist."
       },
       {
             "kind": "p",
-            "text": "Am Tag 30 sollte sich die Spracherfassungs-Gewohnheit automatisch anfühlen. Sie sollten sich nicht daran erinnern müssen, sie zu tun. Der Auslöser (Zahlung) und die Antwort (den Betrag aussprechen) sind verknüpft. Das ist die Gewohnheitsschleife, und sie ist die Grundlage, auf der jede andere Budgetierungsstrategie aufbaut."
+            "text": "Am Tag 30 sollte sich die Spracherfassungs-Gewohnheit automatisch anfühlen. Du solltest dich nicht daran erinnern müssen, sie zu tun. Der Auslöser (Zahlung) und die Antwort (den Betrag aussprechen) sind verknüpft. Das ist die Gewohnheitsschleife, und sie ist die Grundlage, auf der jede andere Budgetierungsstrategie aufbaut."
       },
       {
             "kind": "p",
-            "text": "In Savlo wird dieser 30-Tage-Bogen vom Design der App unterstützt. Weniger Bildschirme, schnellere Einträge und ein tägliches Check-in, das Ihnen sagt, wo Sie stehen, ohne tief in Transaktionen eintauchen zu müssen."
+            "text": "In Savlo wird dieser 30-Tage-Bogen vom Design der App unterstützt. Weniger Bildschirme, schnellere Einträge und ein tägliches Check-in, das dir sagt, wo du stehst, ohne tief in Transaktionen eintauchen zu müssen."
       },
       {
             "id": "sprach-tracking-vs-automatischer-bank-sync-was-ist",
@@ -3608,20 +3608,20 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der automatische Bank-Sync zeigt Ihnen, was bereits passiert ist — typischerweise mit 1 bis 3 Tagen Verzögerung, nachdem Transaktionen ausgeglichen und gebucht wurden. Er ist umfassend und passiv, was ihn leicht macht, konsequent zu verwenden. Aber er erfordert das Teilen Ihrer Bankzugangsdaten mit einem Drittanbieter-Aggregator und erfasst nichts, was nicht durch Ihre verknüpften Konten fließt: kein Bargeld, keine gemeinsamen Ausgaben, keine Transaktionen mit Karten, die Sie nicht verknüpft haben."
+            "text": "Der automatische Bank-Sync zeigt dir, was bereits passiert ist — typischerweise mit 1 bis 3 Tagen Verzögerung, nachdem Transaktionen ausgeglichen und gebucht wurden. Er ist umfassend und passiv, was ihn leicht macht, konsequent zu verwenden. Aber er erfordert das Teilen deiner Bankzugangsdaten mit einem Drittanbieter-Aggregator und erfasst nichts, was nicht durch deine verknüpften Konten fließt: kein Bargeld, keine gemeinsamen Ausgaben, keine Transaktionen mit Karten, die du nicht verknüpft hast."
       },
       {
             "kind": "p",
-            "text": "Das Sprach-Tracking macht Sie bewusst, während die Ausgabe passiert — in Echtzeit, am Kaufpunkt. Es erfordert Ihre aktive Eingabe, was bedeutet, dass es nur funktioniert, wenn Sie es tatsächlich tun. Aber wenn Sie es tun, sind die Daten sofortig, vollständig und vollkommen privat."
+            "text": "Das Sprach-Tracking macht dich bewusst, während die Ausgabe passiert — in Echtzeit, am Kaufpunkt. Es erfordert deine aktive Eingabe, was bedeutet, dass es nur funktioniert, wenn du es tatsächlich tust. Aber wenn du es tust, sind die Daten sofortig, vollständig und vollkommen privat."
       },
       {
             "kind": "p",
-            "text": "Für die meisten Menschen ist die praktischste Konfiguration eine Kombination beider Ansätze: Stimme für tägliche Käufe im Moment und monatlicher CSV-Import von Ihrer Bank für eine vollständige Überprüfung. Sie erhalten Echtzeit-Bewusstsein, ohne das Sicherheitsnetz einer vollständigen Transaktionshistorie zu opfern. Wenn Sie erkunden, wie Sie das einrichten, durchläuft unser Leitfaden zum Budgetieren den vollständigen Workflow."
+            "text": "Für die meisten Menschen ist die praktischste Konfiguration eine Kombination beider Ansätze: Stimme für tägliche Käufe im Moment und monatlicher CSV-Import von deiner Bank für eine vollständige Überprüfung. Du erhältst Echtzeit-Bewusstsein, ohne das Sicherheitsnetz einer vollständigen Transaktionshistorie zu opfern. Wenn du erkundest, wie du das einrichtest, durchläuft unser Leitfaden zum Budgetieren den vollständigen Workflow."
       },
       {
-            "id": "worauf-sie-in-einer-sprachausgaben-tracker-app-ach",
+            "id": "worauf-du-in-einer-sprachausgaben-tracker-app-acht",
             "kind": "h2",
-            "text": "Worauf Sie in einer Sprachausgaben-Tracker-App achten sollten"
+            "text": "Worauf du in einer Sprachausgaben-Tracker-App achten solltest"
       },
       {
             "kind": "p",
@@ -3629,23 +3629,23 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Audio-Verarbeitung auf dem Gerät. Wenn dies nicht explizit angegeben ist, nehmen Sie an, dass Audio an die Cloud gesendet wird. Lesen Sie die Datenschutz- richtlinie. Der Ausdruck, auf den Sie achten sollten, ist „Geräteverarbeitung\" oder „Audio wird lokal verarbeitet.\""
+            "text": "- Audio-Verarbeitung auf dem Gerät. Wenn dies nicht explizit angegeben ist, nimm an, dass Audio an die Cloud gesendet wird. Lies die Datenschutz- richtlinie. Der Ausdruck, auf den du achten solltest, ist „Geräteverarbeitung\" oder „Audio wird lokal verarbeitet.\""
       },
       {
             "kind": "p",
-            "text": "- Natural-Language-Parsing. Sie sollten normal sprechen können, nicht ein Befehlsformat wie „erfassen Doppelpunkt Betrag Doppelpunkt Kategorie\" auswendig lernen. Wenn die App spezifische Syntax erfordert, verschwindet der Reibungsnutzen."
+            "text": "- Natural-Language-Parsing. Du solltest normal sprechen können, nicht ein Befehlsformat wie „erfassen Doppelpunkt Betrag Doppelpunkt Kategorie\" auswendig lernen. Wenn die App spezifische Syntax erfordert, verschwindet der Reibungsnutzen."
       },
       {
             "kind": "p",
-            "text": "- Ein-Tipp-Bestätigung. Wenn es drei Bildschirme braucht, um eine erfasste Transaktion zu bestätigen, verschwindet der Reibungsnutzen schnell. Suchen Sie nach einem einzelnen Tipp zum Annehmen oder Anpassen."
+            "text": "- Ein-Tipp-Bestätigung. Wenn es drei Bildschirme braucht, um eine erfasste Transaktion zu bestätigen, verschwindet der Reibungsnutzen schnell. Suche nach einem einzelnen Tipp zum Annehmen oder Anpassen."
       },
       {
             "kind": "p",
-            "text": "- Offline-Funktionalität. Die Spracherfassung sollte ohne Internetverbindung funktionieren — Sie sind oft in einem Laden, Parkplatz oder U-Bahn-Steig, wo die Konnektivität unzuverlässig ist."
+            "text": "- Offline-Funktionalität. Die Spracherfassung sollte ohne Internetverbindung funktionieren — du bist oft in einem Laden, Parkplatz oder U-Bahn-Steig, wo die Konnektivität unzuverlässig ist."
       },
       {
             "kind": "p",
-            "text": "- Kategorielernen. [how to budget money](/blog/how-to-budget-money) Die App sollte besser darin werden, Kategorien aus Ihren Sprachmustern zu schließen, je länger Sie sie verwenden, und den Korrekturbedarf reduzieren. Wenn Sie immer „Kaffee\" sagen und sie immer „Essen & Trinken\" vorschlägt, lernt sie. Wenn Sie jedes Mal neu kategorisieren müssen, nicht."
+            "text": "- Kategorielernen. [wie man Geld budgetiert](/blog/how-to-budget-money) Die App sollte besser darin werden, Kategorien aus deinen Sprachmustern zu schließen, je länger du sie verwendest, und den Korrekturbedarf reduzieren. Wenn du immer „Kaffee\" sagst und sie immer „Essen & Trinken\" vorschlägt, lernt sie. Wenn du jedes Mal neu kategorisieren musst, nicht."
       },
       {
             "id": "h-ufige-fehler-beim-sprachausgaben-tracking-und-wi",
@@ -3663,11 +3663,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Das ist der häufigste Fehlermodus. Sie tätigen fünf Käufe tagsüber und sagen sich, Sie werden sie alle vor dem Schlafengehen erfassen. Zur Schlafenszeit haben Sie mindestens zwei Beträge vergessen, können sich nicht an die Händlernamen erinnern und sind nicht sicher, welche Karte Sie verwendet haben. Die Daten, die Sie am Ende des Tages erfassen, sind nicht besser als eine Vermutung."
+            "text": "Das ist der häufigste Fehlermodus. Du tätigst fünf Käufe tagsüber und sagst dir, du wirst sie alle vor dem Schlafengehen erfassen. Zur Schlafenszeit hast du mindestens zwei Beträge vergessen, kannst dich nicht an die Händlernamen erinnern und bist nicht sicher, welche Karte du verwendet hast. Die Daten, die du am Ende des Tages erfasst, sind nicht besser als eine Vermutung."
       },
       {
             "kind": "p",
-            "text": "Die Lösung ist einfach: Erfassen Sie im Moment. Jedes Mal. Die fünf Sekunden, die es dauert, die Ausgabe auszusprechen, sind immer weniger als der Aufwand, sie später zu rekonstruieren. Wenn Sie feststellen, dass Sie vergessen, stellen Sie eine Handy-Erinnerung für die erste Woche ein, bis der Auslöser automatisch wird."
+            "text": "Die Lösung ist einfach: Erfasse im Moment. Jedes Mal. Die fünf Sekunden, die es dauert, die Ausgabe auszusprechen, sind immer weniger als der Aufwand, sie später zu rekonstruieren. Wenn du feststellst, dass du vergisst, stelle eine Handy-Erinnerung für die erste Woche ein, bis der Auslöser automatisch wird."
       },
       {
             "id": "berkategorisierung",
@@ -3676,11 +3676,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Manche Menschen erstellen am ersten Tag fünfzehn Kategorien: „Einkäufe — Obst & Gemüse,\" „Einkäufe — Milchprodukte,\" „Einkäufe — Snacks,\" „Restaurants — Tischservice,\" „Restaurants — schnelle Küche,\" „Restaurants — Lieferservice.\" Am Tag drei fühlt sich die Kategorienauswahl an wie eine Multiple-Choice-Prüfung, und Sie hören komplett auf zu erfassen."
+            "text": "Manche Menschen erstellen am ersten Tag fünfzehn Kategorien: „Einkäufe — Obst & Gemüse,\" „Einkäufe — Milchprodukte,\" „Einkäufe — Snacks,\" „Restaurants — Tischservice,\" „Restaurants — schnelle Küche,\" „Restaurants — Lieferservice.\" Am Tag drei fühlt sich die Kategorienauswahl an wie eine Multiple-Choice-Prüfung, und du hörst komplett auf zu erfassen."
       },
       {
             "kind": "p",
-            "text": "Beginnen Sie mit drei bis fünf breiten Kategorien. Essen, Transport, Einkäufe, Rechnungen, Spaß. Das ist genug, um Muster zu sehen. Sie können später immer Kategorien aufteilen, wenn die Gewohnheit gefestigt ist und Sie einen echten Bedarf an mehr Granularität haben. Vorzeitige Präzision tötet den Schwung."
+            "text": "Beginne mit drei bis fünf breiten Kategorien. Essen, Transport, Einkäufe, Rechnungen, Spaß. Das ist genug, um Muster zu sehen. Du kannst später immer Kategorien aufteilen, wenn die Gewohnheit gefestigt ist und du einen echten Bedarf an mehr Granularität hast. Vorzeitige Präzision tötet den Schwung."
       },
       {
             "id": "perfekt-sein-wollen",
@@ -3689,11 +3689,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Sie haben einen Kauf verpasst. Vergessen, das Mittagessen zu erfassen. Zwei Tage vergehen lassen, ohne die App zu öffnen. Die Versuchung ist zu dem Schluss zu kommen, dass das System nicht funktioniert und es komplett aufzugeben."
+            "text": "Du hast einen Kauf verpasst. Vergessen, das Mittagessen zu erfassen. Zwei Tage vergehen lassen, ohne die App zu öffnen. Die Versuchung ist zu dem Schluss zu kommen, dass das System nicht funktioniert und es komplett aufzugeben."
       },
       {
             "kind": "p",
-            "text": "Ein verpasster Eintrag ist unwichtig. Zwei verpasste Tage sind unwichtig. Was zählt, ist das Gesamtmuster. Ein Budget, dem Sie mit 70% Genauigkeit drei Monate folgen, gibt Ihnen unendlich nützlichere Daten als ein Budget, dem Sie zwei Wochen mit 100% gefolgt sind, bevor Sie aufgegeben haben. Unvollkommene Konstanz schlägt perfekte Einhaltung jedes Mal."
+            "text": "Ein verpasster Eintrag ist unwichtig. Zwei verpasste Tage sind unwichtig. Was zählt, ist das Gesamtmuster. Ein Budget, dem du mit 70% Genauigkeit drei Monate folgst, gibt dir unendlich nützlichere Daten als ein Budget, dem du zwei Wochen mit 100% gefolgt bist, bevor du aufgegeben hast. Unvollkommene Konstanz schlägt perfekte Einhaltung jedes Mal."
       },
       {
             "id": "die-daten-nicht-berpr-fen",
@@ -3702,11 +3702,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ausgaben zu erfassen, ohne sie sich je anzusehen, ist wie die Temperatur zu messen und das Thermometer nie abzulesen. Das Erfassen ist nicht der Punkt — das Bewusstsein ist es. Wenn Sie jeden Tag erfassen, aber Ihre Ausgabenmuster nie überprüfen, machen Sie Dateneingabe, kein Budgeting."
+            "text": "Ausgaben zu erfassen, ohne sie sich je anzusehen, ist wie die Temperatur zu messen und das Thermometer nie abzulesen. Das Erfassen ist nicht der Punkt — das Bewusstsein ist es. Wenn du jeden Tag erfasst, aber deine Ausgabenmuster nie überprüfst, machst du Dateneingabe, kein Budgeting."
       },
       {
             "kind": "p",
-            "text": "Richten Sie eine wöchentliche Überprüfung ein. Zehn Minuten. Schauen Sie, wohin Ihr Geld gegangen ist. Beachten Sie die Kategorien, die höher als erwartet sind. Feiern Sie die, die niedriger sind. Nehmen Sie bei Bedarf eine kleine Anpassung vor. Die Überprüfung ist dort, wo der Wert liegt. Ohne sie ist die Spracherfassung nur ein schickes Notiz- aufschreibeverfahren."
+            "text": "Richte eine wöchentliche Überprüfung ein. Zehn Minuten. Schaue, wohin dein Geld gegangen ist. Beachte die Kategorien, die höher als erwartet sind. Feiere die, die niedriger sind. Nimm bei Bedarf eine kleine Anpassung vor. Die Überprüfung ist dort, wo der Wert liegt. Ohne sie ist die Spracherfassung nur ein schickes Notiz- aufschreibeverfahren."
       },
       {
             "id": "die-stimme-f-r-alles-verwenden",
@@ -3715,11 +3715,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Das Sprach-Tracking zeichnet sich bei der Erfassung variabler, täglicher Ausgaben aus — der Kaffee, die Einkäufe, das Benzin, der Uber. Es ist weniger nützlich für wiederkehrende feste Ausgaben wie Miete, Abonnements oder Kreditraten. Das sind Beträge, die Sie kennen, die jeden Monat am selben Datum passieren und jedes Mal per Sprache zu erfassen redundant ist."
+            "text": "Das Sprach-Tracking zeichnet sich bei der Erfassung variabler, täglicher Ausgaben aus — der Kaffee, die Einkäufe, das Benzin, der Uber. Es ist weniger nützlich für wiederkehrende feste Ausgaben wie Miete, Abonnements oder Kreditraten. Das sind Beträge, die du kennst, die jeden Monat am selben Datum passieren und jedes Mal per Sprache zu erfassen redundant ist."
       },
       {
             "kind": "p",
-            "text": "Erfassen Sie wiederkehrende Ausgaben einmal. Richten Sie sie als automatische Einträge oder Erinnerungen ein. Reservieren Sie das Sprach-Tracking für die Ausgaben, die sich ändern — die, bei denen der Betrag, der Händler oder die Kategorie jedes Mal anders ist. Dort schaffen Schnelligkeit und Flexibilität der Spracherfassung den größten Wert."
+            "text": "Erfasse wiederkehrende Ausgaben einmal. Richte sie als automatische Einträge oder Erinnerungen ein. Reserviere das Sprach-Tracking für die Ausgaben, die sich ändern — die, bei denen der Betrag, der Händler oder die Kategorie jedes Mal anders ist. Dort schaffen Schnelligkeit und Flexibilität der Spracherfassung den größten Wert."
       },
       {
             "id": "mit-dem-sprachausgaben-tracking-in-savlo-starten",
@@ -3728,19 +3728,19 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Einrichtung dauert etwa fünf Minuten. Laden Sie die App herunter, erstellen Sie Ihre Ausgabenkategorien — beginnen Sie mit drei oder vier breiten Kategorien, anstatt zu versuchen, jeden möglichen Transaktionstyp ab Tag eins abzubilden. Weniger Kategorien bedeuten weniger Reibung bei jedem Eintrag."
+            "text": "Die Einrichtung dauert etwa fünf Minuten. Lade die App herunter, erstelle deine Ausgabenkategorien — beginne mit drei oder vier breiten Kategorien, anstatt zu versuchen, jeden möglichen Transaktionstyp ab Tag eins abzubilden. Weniger Kategorien bedeuten weniger Reibung bei jedem Eintrag."
       },
       {
             "kind": "p",
-            "text": "In den ersten sieben Tagen erfassen Sie jeden Kauf per Sprache im Moment, in dem er passiert. Warten Sie nicht, bis Sie nach Hause kommen. Bündeln Sie sie nicht am Ende des Tages. Die Gewohnheit bildet sich in der ersten Woche, wenn Sie es in Echtzeit tun — und bildet sich größtenteils nicht, wenn Sie es nicht tun."
+            "text": "In den ersten sieben Tagen erfasst du jeden Kauf per Sprache im Moment, in dem er passiert. Warte nicht, bis du nach Hause kommst. Bündle sie nicht am Ende des Tages. Die Gewohnheit bildet sich in der ersten Woche, wenn du es in Echtzeit tust — und bildet sich größtenteils nicht, wenn du es nicht tust."
       },
       {
             "kind": "p",
-            "text": "Nach 30 Tagen haben Sie ein vollständiges, genaues Bild davon, wohin Ihr Geld tatsächlich geht — keine rekonstruierte Annäherung. Dann beginnen die Daten, tatsächlich nützlich zu werden, um Entscheidungen über Reservefonds zu treffen, Ihr Nullbased-Budget anzupassen, oder einfach den Unterschied zwischen dem, was Sie glauben auszugeben, und dem, was Sie tatsächlich ausgeben, zu verstehen."
+            "text": "Nach 30 Tagen hast du ein vollständiges, genaues Bild davon, wohin dein Geld tatsächlich geht — keine rekonstruierte Annäherung. Dann beginnen die Daten, tatsächlich nützlich zu werden, um Entscheidungen über Reservefonds zu treffen, dein Nullbased-Budget anzupassen, oder einfach den Unterschied zwischen dem, was du auszugeben glaubst, und dem, was du tatsächlich ausgibst, zu verstehen."
       },
       {
             "kind": "p",
-            "text": "Wenn Sie neu im Budgetieren sind, beginnen Sie mit unserem Leitfaden zum Budgetieren, bevor Sie in das Sprach-Tracking eintauchen. Das Verständnis des Rahmens gibt den Daten einen Ort, dorthin zu gehen."
+            "text": "Wenn du neu im Budgetieren bist, beginne mit unserem Leitfaden zum Budgetieren, bevor du in das Sprach-Tracking eintauchst. Das Verständnis des Rahmens gibt den Daten einen Ort, dorthin zu gehen."
       },
       {
             "id": "das-sprach-tracking-ist-kein-allheilmittel-aber-es",
@@ -3749,7 +3749,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es ist ehrlich wert, darüber zu sein, was das Sprach-Tracking nicht kann. Es wird keine Budgetierungsstrategie für Sie erstellen. Es wird Ihnen nicht sagen, wie viel Sie sparen sollen, wie viel Schuld Sie abbezahlen sollen oder ob Ihre Ausgaben mit Ihren Werten übereinstimmen. Es wird die Arbeit nicht ersetzen, zu entscheiden, was Ihnen wichtig ist, und ein System zu bauen, das diese Prioritäten widerspiegelt."
+            "text": "Es ist ehrlich wert, darüber zu sein, was das Sprach-Tracking nicht kann. Es wird keine Budgetierungsstrategie für dich erstellen. Es wird dir nicht sagen, wie viel du sparen sollst, wie viel Schuld du abbezahlen sollst oder ob deine Ausgaben mit deinen Werten übereinstimmen. Es wird die Arbeit nicht ersetzen, zu entscheiden, was dir wichtig ist, und ein System zu bauen, das diese Prioritäten widerspiegelt."
       },
       {
             "kind": "p",
@@ -3757,23 +3757,23 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Und es erfordert Konstanz. Wie jede Tracking-Methode funktioniert es nur, wenn Sie es tatsächlich tun. Der Unterschied ist, dass die Konstanz leichter zu halten ist, weil der Aufwand geringer ist. Aber „leichter\" ist nicht „mühelos.\" Sie müssen immer noch sprechen. Sie müssen immer noch bestätigen. Sie müssen immer noch auftauchen."
+            "text": "Und es erfordert Konstanz. Wie jede Tracking-Methode funktioniert es nur, wenn du es tatsächlich tust. Der Unterschied ist, dass die Konstanz leichter zu halten ist, weil der Aufwand geringer ist. Aber „leichter\" ist nicht „mühelos.\" Du musst immer noch sprechen. Du musst immer noch bestätigen. Du musst immer noch auftauchen."
       },
       {
             "kind": "p",
-            "text": "Aber für das spezifische Problem, das die meisten Menschen vom Budgetieren abhält — „Ich weiß, ich sollte meine Ausgaben tracken, aber ich tue es nicht, weil es zu viel Arbeit ist\" — ist das Sprach-Tracking die Lösung mit der geringsten Reibung. Es trifft Sie genau dort, wo die Absicht-Handlungs-Lücke lebt: im Moment des Kaufs, wenn Sie bereit sind, etwas Kleines zu tun, aber nicht etwas Großes."
+            "text": "Aber für das spezifische Problem, das die meisten Menschen vom Budgetieren abhält — „Ich weiß, ich sollte meine Ausgaben tracken, aber ich tue es nicht, weil es zu viel Arbeit ist\" — ist das Sprach-Tracking die Lösung mit der geringsten Reibung. Es trifft dich genau dort, wo die Absicht-Handlungs-Lücke lebt: im Moment des Kaufs, wenn du bereit bist, etwas Kleines zu tun, aber nicht etwas Großes."
       },
       {
             "kind": "p",
-            "text": "Die Lücke zwischen Absicht und Handlung ist dort, wo Budgets sterben. Sie haben die Absicht zu tracken. Sie haben die Absicht zu verstehen, wohin Ihr Geld geht. Sie haben die Absicht, bessere Gewohnheiten zu bauen. Aber die Reibung, es zu tun — das Tippen, das Antippen, das Erinnern — hindert die Absicht daran, Verhalten zu werden. Das Sprach- Tracking schließt diese Lücke mit der einfachsten Eingabe, die Sie liefern können: ein paar Worte, die laut ausgesprochen werden."
+            "text": "Die Lücke zwischen Absicht und Handlung ist dort, wo Budgets sterben. Du hast die Absicht zu tracken. Du hast die Absicht zu verstehen, wohin dein Geld geht. Du hast die Absicht, bessere Gewohnheiten zu bauen. Aber die Reibung, es zu tun — das Tippen, das Antippen, das Erinnern — hindert die Absicht daran, Verhalten zu werden. Das Sprach- Tracking schließt diese Lücke mit der einfachsten Eingabe, die du liefern kannst: ein paar Worte, die laut ausgesprochen werden."
       },
       {
             "kind": "p",
-            "text": "Wenn Sie vorher Budgetieren ausprobiert haben und es nicht geblieben ist, war das Problem wahrscheinlich nicht die Motivation. Es war die Reibung. Das Sprach-Tracking entfernt die Reibung. Was Sie mit der Klarheit, die folgt, tun, liegt an Ihnen — aber jetzt haben Sie zumindest die Daten, um informierte Entscheidungen zu treffen, anstatt zu raten."
+            "text": "Wenn du vorher Budgetieren ausprobiert hast und es nicht geblieben ist, war das Problem wahrscheinlich nicht die Motivation. Es war die Reibung. Das Sprach-Tracking entfernt die Reibung. Was du mit der Klarheit, die folgt, tust, liegt an dir — aber jetzt hast du zumindest die Daten, um informierte Entscheidungen zu treffen, anstatt zu raten."
       },
       {
             "kind": "p",
-            "text": "> Savlos Spracherfassung ist für den Moment gebaut, in dem die Ausgabe passiert — nicht den Moment, in dem Sie sie erfassen. Die Aufnahmen werden standardmäßig nach der Transkription gelöscht. Kein Bank-Linking, keine Werbung, und deine Daten werden nie verkauft. Nur ein schneller, privater Weg, genau zu wissen, wohin Ihr Geld geht. Für Android gebaut, iOS folgt."
+            "text": "> Savlos Spracherfassung ist für den Moment gebaut, in dem die Ausgabe passiert — nicht den Moment, in dem du sie erfasst. Die Aufnahmen werden standardmäßig nach der Transkription gelöscht. Kein Bank-Linking, keine Werbung, und deine Daten werden nie verkauft. Nur ein schneller, privater Weg, genau zu wissen, wohin dein Geld geht. Für Android gebaut, iOS folgt."
       }
 ]
     },
@@ -3781,11 +3781,11 @@ const overrides = {
   "financial-anxiety": {
     title: "Finanzielle Angst: tägliche Gewohnheiten für einen besseren Umgang mit Geld",
     description:
-      "Finanzielle Angst haengt nicht nur davon ab, wie viel du verdienst. Lerne kleine, taegliche Praktiken, die den Druck senken.",
+      "Finanzielle Angst hängt nicht nur davon ab, wie viel du verdienst. Lerne kleine, tägliche Praktiken, die den Druck senken.",
     keywords: [],
     summary: [
-      "Finanzielle Angst mischt Zahlen, Erinnerungen, Vergleich und Angst. Sie laesst sich nicht mit einer Tabelle loesen.",
-      "Kleine Rituale helfen: zu einer festen Zeit auf das Geld schauen, Freundlich-kategorien nutzen und Entscheidungen von Gefuehlen trennen.",
+      "Finanzielle Angst mischt Zahlen, Erinnerungen, Vergleich und Angst. Sie lässt sich nicht mit einer Tabelle lösen.",
+      "Kleine Rituale helfen: zu einer festen Zeit auf das Geld schauen, Freundlich-kategorien nutzen und Entscheidungen von Gefühlen trennen.",
     ],
     sections: [],
     readingTime: 20,
@@ -4005,7 +4005,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Everyone says: build an emergency fund. Three to six months of expenses. That is the magic number. If you have it, you are safe. If you don't, you should feel anxious. The advice is well-meaning, but it often makes the anxiety worse, because it creates a new number to obsess over and a new way to feel like you are failing. You already have the rent number, the credit card number, and the savings number. Now you have the emergency fund number too, and it is usually the one that feels the furthest away."
+            "text": "Alle sagen: Bau dir einen Notgroschen auf. Drei bis sechs Monatsausgaben. Das ist die magische Zahl. Wenn du sie hast, bist du sicher. Wenn nicht, solltest du dir Sorgen machen. Der Rat ist gut gemeint, macht die Angst aber oft schlimmer, weil er eine neue Zahl schafft, auf die man fixiert ist, und einen neuen Weg, sich wie ein Versager zu fühlen. Du hast schon die Zahl für die Miete, die Zahl der Kreditkarte und die Zahl auf dem Sparkonto. Jetzt kommt noch die Zahl für den Notgroschen dazu, und meistens ist sie die, die am weitesten entfernt wirkt."
       },
       {
             "kind": "p",
@@ -4096,7 +4096,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn du ein Werkzeug suchst, das das Schauen leichter macht, wurde Savlo genau dafür entwickelt: eine schnelle, private, werbefreie Möglichkeit, dein Geld ohne Überforderung zu sehen. [the 50/30/20 rule](/blog/50-30-20-rule) [Sinking Fund mechanics](/blog/sinking-funds) [budgeting philosophy](/blog/how-to-budget-money) Es ist für Android gebaut, iOS folgt. Wenn du weitermachen möchtest, gehen die folgenden verwandten Artikel tiefer in die spezifischen Mechaniken ein: die breitere Budgetierungsphilosophie, die praktischen Mechaniken des Sinking Funds und der spezifische Leitfaden zur 50/30/20-Regel, wenn du einen einfachen Ausgangspunkt suchst."
+            "text": "Wenn du ein Werkzeug suchst, das das Schauen leichter macht, wurde Savlo genau dafür entwickelt: eine schnelle, private, werbefreie Möglichkeit, dein Geld ohne Überforderung zu sehen. [die 50/30/20-Regel](/blog/50-30-20-rule) [Funktionsweise von Sinking Funds](/blog/sinking-funds) [Budget-Philosophie](/blog/how-to-budget-money) Es ist für Android gebaut, iOS folgt. Wenn du weitermachen möchtest, gehen die folgenden verwandten Artikel tiefer in die spezifischen Mechaniken ein: die breitere Budgetierungsphilosophie, die praktischen Mechaniken des Sinking Funds und der spezifische Leitfaden zur 50/30/20-Regel, wenn du einen einfachen Ausgangspunkt suchst."
       }
 ]
     },
@@ -4104,10 +4104,10 @@ const overrides = {
   "sinking-funds": {
     title: "Sinking Funds: der komplette Leitfaden zum Sparen für geplante Ausgaben",
     description:
-      "Ein Sinking Fund verwandelt grosse, planbare Ausgaben in kleine monatliche Ruecklagen. Lerne, wie du Fonds fuer Reisen, Feiertage und Autowartung anlegst.",
+      "Ein Sinking Fund verwandelt große, planbare Ausgaben in kleine monatliche Rücklagen. Lerne, wie du Fonds für Reisen, Feiertage und Autowartung anlegst.",
     keywords: [],
     summary: [
-      "Ein Sinking Fund macht grosse, absehbare Ausgaben kleiner und planbarer.",
+      "Ein Sinking Fund macht große, absehbare Ausgaben kleiner und planbarer.",
       "Wenn du jeden Fonds klar benennst, wird Sparen weniger abstrakt und deutlich leichter durchzuhalten.",
     ],
     sections: [],
@@ -4410,7 +4410,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Dein Notgroschen muss für echte Überraschungen unberührt bleiben. [emergency fund](/blog/emergency-fund-vs-sinking-fund) Wenn du ihn für eine geplante Reise ausgibst, bist du vollständig exponiert, wenn ein echter Notfall eintritt. Halte deine geplanten Ausgaben und dein Sicherheitsnetz getrennt."
+            "text": "Dein Notgroschen muss für echte Überraschungen unberührt bleiben. [Notgroschen](/blog/emergency-fund-vs-sinking-fund) Wenn du ihn für eine geplante Reise ausgibst, bist du vollständig exponiert, wenn ein echter Notfall eintritt. Halte deine geplanten Ausgaben und dein Sicherheitsnetz getrennt."
       },
       {
             "kind": "p",
@@ -4593,7 +4593,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wie unterscheidet sich eine Rücklage von einem Notgroschen? Ein Notgroschen ist für echte Notfälle: Jobverlust, medizinische Krisen, unerwartete Notfälle. [emergency fund vs. sinking fund](/blog/emergency-fund-vs-sinking-fund) Eine Rücklage ist für geplante Ausgaben, von denen du weißt, dass sie kommen. Die wesentliche Unterscheidung ist die Vorhersehbarkeit. Wenn du sie in einen Kalender eintragen kannst, gehört sie in eine Rücklage. Wenn sie dich überraschen würde, gehört sie in einen Notgroschen. Für einen detaillierten Vergleich lies unser Notgroschen-vs-Rücklagen-Guide."
+            "text": "Wie unterscheidet sich eine Rücklage von einem Notgroschen? Ein Notgroschen ist für echte Notfälle: Jobverlust, medizinische Krisen, unerwartete Notfälle. [Notgroschen vs. Sinking Fund](/blog/emergency-fund-vs-sinking-fund) Eine Rücklage ist für geplante Ausgaben, von denen du weißt, dass sie kommen. Die wesentliche Unterscheidung ist die Vorhersehbarkeit. Wenn du sie in einen Kalender eintragen kannst, gehört sie in eine Rücklage. Wenn sie dich überraschen würde, gehört sie in einen Notgroschen. Für einen detaillierten Vergleich lies unser Notgroschen-vs-Rücklagen-Guide."
       },
       {
             "kind": "p",
@@ -4601,11 +4601,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Kann ich Rücklagen verwenden, während ich Schulden abzahle? Ja. [how to get out of debt](/blog/how-to-get-out-of-debt) Rücklagen schützen tatsächlich deinen Schuldenabbau-Fortschritt, indem sie verhindern, dass sich neue Schulden ansammeln. Wenn eine geplante Ausgabe kommt und du eine Rücklage dafür hast, bezahlst du bar, anstatt deinen Kreditkartensaldo zu erhöhen. Selbst ein kleiner monatlicher Beitrag zu einer Rücklage während des Schuldenabbaus kann dich vor kostspieligen Zinskosten bewahren. Lies unser Guide zu wie du aus Schulden kommst für weitere Strategien."
+            "text": "Kann ich Rücklagen verwenden, während ich Schulden abzahle? Ja. [wie man aus Schulden herauskommt](/blog/how-to-get-out-of-debt) Rücklagen schützen tatsächlich deinen Schuldenabbau-Fortschritt, indem sie verhindern, dass sich neue Schulden ansammeln. Wenn eine geplante Ausgabe kommt und du eine Rücklage dafür hast, bezahlst du bar, anstatt deinen Kreditkartensaldo zu erhöhen. Selbst ein kleiner monatlicher Beitrag zu einer Rücklage während des Schuldenabbaus kann dich vor kostspieligen Zinskosten bewahren. Lies unser Guide zu wie du aus Schulden kommst für weitere Strategien."
       },
       {
             "kind": "p",
-            "text": "Was, wenn ich mir eine Rücklage nicht leisten kann? Beginne mit dem kleinsten Betrag, den du schaffst. [how to budget money](/blog/how-to-budget-money) Selbst 10 oder 20 Dollar pro Monat bauen die Gewohnheit auf und schaffen ein kleines Polster. Wenn dein Einkommen steigt oder deine Ausgaben sinken, erhöhe den Beitrag. Die Gewohnheit ist in den frühen Monaten wichtiger als der Betrag. Für Tipps, wie du ein Budget erstellst, das Platz für Ersparnisse lässt, lies unser Budgetierungs-Guide."
+            "text": "Was, wenn ich mir eine Rücklage nicht leisten kann? Beginne mit dem kleinsten Betrag, den du schaffst. [wie man Geld budgetiert](/blog/how-to-budget-money) Selbst 10 oder 20 Dollar pro Monat bauen die Gewohnheit auf und schaffen ein kleines Polster. Wenn dein Einkommen steigt oder deine Ausgaben sinken, erhöhe den Beitrag. Die Gewohnheit ist in den frühen Monaten wichtiger als der Betrag. Für Tipps, wie du ein Budget erstellst, das Platz für Ersparnisse lässt, lies unser Budgetierungs-Guide."
       },
       {
             "kind": "p",
@@ -4617,7 +4617,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Funktionieren Rücklagen mit dem 50/30/20-Budget? Ja. [50/30/20 budget](/blog/50-30-20-rule) Rücklagen passen natürlich in den 20 Prozent Sparanteil eines 50/30/20-Budgets. Du kannst auch Rücklagenbeiträge aus der 30 Prozent Wünsche-Kategorie zuweisen, wenn die Ausgaben lebensstilbezogen sind, wie Urlaub oder Tech-Upgrades. Der Schlüssel ist sicherzustellen, dass Rücklagen Teil deines Budgetplans sind, nicht eine Nachgedanke."
+            "text": "Funktionieren Rücklagen mit dem 50/30/20-Budget? Ja. [50/30/20-Budget](/blog/50-30-20-rule) Rücklagen passen natürlich in den 20 Prozent Sparanteil eines 50/30/20-Budgets. Du kannst auch Rücklagenbeiträge aus der 30 Prozent Wünsche-Kategorie zuweisen, wenn die Ausgaben lebensstilbezogen sind, wie Urlaub oder Tech-Upgrades. Der Schlüssel ist sicherzustellen, dass Rücklagen Teil deines Budgetplans sind, nicht eine Nachgedanke."
       },
       {
             "id": "beginne-heute-mit-deiner-ersten-r-cklage",
@@ -4638,7 +4638,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Für weitere Finanzplanungs-Ratgeber, erkunde unsere Budget-Grundlagen, die 50/30/20-Regel, nullbasierte Budgetierung und unseren Leitfaden zu Notgroschen vs. [zero-based budgeting](/blog/zero-based-budgeting) [50/30/20 rule](/blog/50-30-20-rule) [budgeting basics](/blog/how-to-budget-money) Rücklagen. Savlo ist für Android gebaut, iOS folgt."
+            "text": "Für weitere Finanzplanungs-Ratgeber, erkunde unsere Budget-Grundlagen, die 50/30/20-Regel, nullbasierte Budgetierung und unseren Leitfaden zu Notgroschen vs. [nullbasiertes Budgetieren](/blog/zero-based-budgeting) [50/30/20-Regel](/blog/50-30-20-rule) [Budget-Grundlagen](/blog/how-to-budget-money) Rücklagen. Savlo ist für Android gebaut, iOS folgt."
       }
 ]
     },
@@ -4646,7 +4646,7 @@ const overrides = {
   "zero-based-budgeting": {
     title: "Nullbasiertes Budgetieren: ein moderner Ansatz",
     description:
-      "Gib jedem Euro vor dem Ausgeben einen Auftrag. So funktioniert Nullbudgetieren, welche Vorteile es hat und wie du anfängst, ohne dich eingeengt zu fuehlen.",
+      "Gib jedem Euro vor dem Ausgeben einen Auftrag. So funktioniert Nullbudgetieren, welche Vorteile es hat und wie du anfängst, ohne dich eingeengt zu fühlen.",
     keywords: [],
     summary: [
       "Beim nullbasierten Budgetieren bekommt jeder Euro vor dem Ausgeben eine Aufgabe. So bleibt am Ende nichts vage 'irgendwo' liegen.",
@@ -4675,7 +4675,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Das System wurde in der Welt der persönlichen Finanzen von YNAB (You Need A Budget) populär gemacht und hat seine Wurzeln in der Unternehmensbuchhaltung der 1970er Jahre. [50/30/20 guide](/blog/50-30-20-rule) [how to budget money](/blog/how-to-budget-money) Die persönliche Version ist viel leichter als die Unternehmensversion, aber das Prinzip ist dasselbe: Jede Geldeinheit ist eine Ressource, und Ressourcen sind am nützlichsten, wenn sie mit Absicht zugewiesen werden. Du kannst mehr über die breitere Philosophie in unserem Leitfaden zur Geldplanung lesen und sie mit dem einfacheren prozentbasierten Ansatz im 50/30/20-Leitfaden vergleichen."
+            "text": "Das System wurde in der Welt der persönlichen Finanzen von YNAB (You Need A Budget) populär gemacht und hat seine Wurzeln in der Unternehmensbuchhaltung der 1970er Jahre. [Leitfaden zur 50/30/20-Regel](/blog/50-30-20-rule) [wie man Geld budgetiert](/blog/how-to-budget-money) Die persönliche Version ist viel leichter als die Unternehmensversion, aber das Prinzip ist dasselbe: Jede Geldeinheit ist eine Ressource, und Ressourcen sind am nützlichsten, wenn sie mit Absicht zugewiesen werden. Du kannst mehr über die breitere Philosophie in unserem Leitfaden zur Geldplanung lesen und sie mit dem einfacheren prozentbasierten Ansatz im 50/30/20-Leitfaden vergleichen."
       },
       {
             "id": "die-vier-regeln-der-nullbudgetierung",
@@ -4827,7 +4827,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Sinking Funds sind die geheime Waffe der Nullbudgetierung. [deeper guide on Sinking Funds](/blog/sinking-funds) Die meisten Menschen betrachten ein Budget als ein Werkzeug für die nächsten dreißig Tage: Wie viel für die Miete, wie viel für Lebensmittel, wie viel für Transport. Ein Sinking Fund ist ein Werkzeug für die nächsten zwölf Monat: Er verwandelt unregelmäßige, vorhersagbare Ausgaben in kleine monatliche Beiträge, sodass die Aufhört, eine Überraschung zu sein, und zu einer Budgetzeile wird."
+            "text": "Sinking Funds sind die geheime Waffe der Nullbudgetierung. [ausführlichen Leitfaden zu Sinking Funds](/blog/sinking-funds) Die meisten Menschen betrachten ein Budget als ein Werkzeug für die nächsten dreißig Tage: Wie viel für die Miete, wie viel für Lebensmittel, wie viel für Transport. Ein Sinking Fund ist ein Werkzeug für die nächsten zwölf Monat: Er verwandelt unregelmäßige, vorhersagbare Ausgaben in kleine monatliche Beiträge, sodass die Aufhört, eine Überraschung zu sein, und zu einer Budgetzeile wird."
       },
       {
             "kind": "p",
@@ -5052,7 +5052,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wenn du die Methode ausprobieren möchtest, ohne dich auf eine neue App festzulegen, führe sie einen Monat lang in einer Tabelle aus. [mechanics](/blog/sinking-funds) [budgeting philosophy](/blog/how-to-budget-money) Wenn du ein Tool möchtest, das deine Privatsphäre respektiert, keine Bankdaten abfragt und mit denselben vier Regeln funktioniert, ist Savlo für Android gebaut, iOS folgt. Es basiert auf denselben Prinzipien: Jeden Dollar zuweisen, die wahren Ausgaben akzeptieren, mit den Schlägen durchschlagen und dein Geld altern lassen. Der Rest dieses Blogs geht tiefer auf die verwandten Konzepte ein, von der breiteren Budgetierungsphilosophie bis zur praktischen Sinking-Fund-Mechanik, wenn du weitermachen möchtest."
+            "text": "Wenn du die Methode ausprobieren möchtest, ohne dich auf eine neue App festzulegen, führe sie einen Monat lang in einer Tabelle aus. [Funktionsweise](/blog/sinking-funds) [Budget-Philosophie](/blog/how-to-budget-money) Wenn du ein Tool möchtest, das deine Privatsphäre respektiert, keine Bankdaten abfragt und mit denselben vier Regeln funktioniert, ist Savlo für Android gebaut, iOS folgt. Es basiert auf denselben Prinzipien: Jeden Dollar zuweisen, die wahren Ausgaben akzeptieren, mit den Schlägen durchschlagen und dein Geld altern lassen. Der Rest dieses Blogs geht tiefer auf die verwandten Konzepte ein, von der breiteren Budgetierungsphilosophie bis zur praktischen Sinking-Fund-Mechanik, wenn du weitermachen möchtest."
       }
 ]
     },
@@ -5062,22 +5062,22 @@ const overrides = {
     description:
       "Schulden-Schneeball gegen Schulden-Avalanche, ohne Urteil. Lerne eine menschliche Strategie, um Kreditkarten und Kredite motiviert abzubauen.",
     summary: [
-      "Schuldenabbau braucht Zahlen, aber auch Motivation. Die beste Methode ist die, die du an einem mue­den Tag noch durchhalten kannst.",
+      "Schuldenabbau braucht Zahlen, aber auch Motivation. Die beste Methode ist die, die du an einem müden Tag noch durchhalten kannst.",
       "Die Avalanche spart mehr Zinsen; der Schneeball gibt oft schneller psychologische Erfolge.",
     ],
     sections: [
       {
         heading: "Sortiere deine Schulden",
         body: [
-          "Schreibe Saldo, Zinssatz, Mindestzahlung und Faelligkeit auf. Schuetze zuerst die Mindestzahlungen, damit keine Zusatzkosten entstehen.",
-          "Dann waehlst du die Strategie: hoechster Zinssatz fuer Effizienz oder kleinster Saldo fuer mehr Motivation.",
+          "Schreibe Saldo, Zinssatz, Mindestzahlung und Fälligkeit auf. Schütze zuerst die Mindestzahlungen, damit keine Zusatzkosten entstehen.",
+          "Dann wählst du die Strategie: höchster Zinssatz für Effizienz oder kleinster Saldo für mehr Motivation.",
         ],
       },
       {
         heading: "Baue einen kleinen Puffer auf",
         body: [
           "Ein Schuldenplan ohne kleinen Notgroschen bricht oft beim ersten unvorhergesehenen Ereignis zusammen.",
-          "Schon ein kleiner Puffer hilft, nicht bei jeder ploetzlichen Ausgabe wieder zur Karte zu greifen.",
+          "Schon ein kleiner Puffer hilft, nicht bei jeder plötzlichen Ausgabe wieder zur Karte zu greifen.",
         ],
       },
     ],
@@ -5085,10 +5085,10 @@ const overrides = {
   "money-dysmorphia": {
     title: "Money Dysmorphia: warum du dich pleite fühlst, obwohl du es nicht bist",
     description:
-      "Money Dysmorphie beschreibt das Gefuehl, finanziell leer zu sein, obwohl die Zahlen okay sind. Hier ist, was dahintersteckt und wie du es entwirren kannst.",
+      "Money Dysmorphie beschreibt das Gefühl, finanziell leer zu sein, obwohl die Zahlen okay sind. Hier ist, was dahintersteckt und wie du es entwirren kannst.",
     keywords: [],
     summary: [
-      "Money Dysmorphie beschreibt die Luecke zwischen deiner finanziellen Realitaet und dem Gefuehl, das diese Realitaet ausloest.",
+      "Money Dysmorphie beschreibt die Lücke zwischen deiner finanziellen Realität und dem Gefühl, das diese Realität auslöst.",
       "Sie kann durch sozialen Vergleich, Familiengeschichte, finanzielle Erfahrungen oder immer wieder verrutschende Ziele entstehen.",
     ],
     sections: [],
@@ -5129,7 +5129,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es ist wichtig, Geld-Dysmorphie von anderen finanziellen Erfahrungen zu unterscheiden. [financial anxiety](/blog/financial-anxiety) Es ist nicht dasselbe wie finanzielle Angst, die eine rationale Reaktion auf tatsächlich prekäre Umstände sein kann. Es ist nicht dasselbe wie finanzielles Trauma, das auf bestimmte Ereignisse oder Umstände zurückgeht. Und es ist definitiv nicht dasselbe wie einfach „schlecht mit Geld zu sein\". Geld-Dysmorphie bezieht sich spezifisch auf die Verzerrung — die Diskrepanz zwischen Fakten und Gefühlen."
+            "text": "Es ist wichtig, Geld-Dysmorphie von anderen finanziellen Erfahrungen zu unterscheiden. [finanzielle Angst](/blog/financial-anxiety) Es ist nicht dasselbe wie finanzielle Angst, die eine rationale Reaktion auf tatsächlich prekäre Umstände sein kann. Es ist nicht dasselbe wie finanzielles Trauma, das auf bestimmte Ereignisse oder Umstände zurückgeht. Und es ist definitiv nicht dasselbe wie einfach „schlecht mit Geld zu sein\". Geld-Dysmorphie bezieht sich spezifisch auf die Verzerrung — die Diskrepanz zwischen Fakten und Gefühlen."
       },
       {
             "kind": "p",
@@ -5262,7 +5262,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Für eine tiefere Auseinandersetzung darüber, wie finanzielle Ereignisse langfristige emotionale Muster prägen können, lies unseren Leitfaden zum Verstehen finanzieller Angst. [understanding financial anxiety](/blog/financial-anxiety)"
+            "text": "Für eine tiefere Auseinandersetzung darüber, wie finanzielle Ereignisse langfristige emotionale Muster prägen können, lies unseren Leitfaden zum Verstehen finanzieller Angst. [finanzielle Angst verstehen](/blog/financial-anxiety)"
       },
       {
             "id": "sozialer-medienvergleich",
@@ -5556,7 +5556,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die 30-Tage-Herausforderung geht darum, Toleranz gegenüber Exposition aufzubauen. [Sinking funds](/blog/sinking-funds) [monthly budget](/blog/how-to-make-a-budget) [zero-based budget](/blog/zero-based-budgeting) [50/30/20 rule](/blog/50-30-20-rule) Diese nächsten Schritte gehen tiefer — in die tatsächliche Entscheidungsfindung und emotionale Verarbeitung, die Geld-Dysmorphie verzerrt. Es geht nicht um Perfektion. Es geht darum, einen neuen Standard aufzubauen — einen, der in der Realität verankert ist, nicht in Angst."
+            "text": "Die 30-Tage-Herausforderung geht darum, Toleranz gegenüber Exposition aufzubauen. [Sinking Funds](/blog/sinking-funds) [Monatsbudget](/blog/how-to-make-a-budget) [nullbasiertes Budget](/blog/zero-based-budgeting) [50/30/20-Regel](/blog/50-30-20-rule) Diese nächsten Schritte gehen tiefer — in die tatsächliche Entscheidungsfindung und emotionale Verarbeitung, die Geld-Dysmorphie verzerrt. Es geht nicht um Perfektion. Es geht darum, einen neuen Standard aufzubauen — einen, der in der Realität verankert ist, nicht in Angst."
       },
       {
             "kind": "ul",
@@ -5598,7 +5598,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Hier ist das Paradoxon, das fast jeden mit Geld-Dysmorphie frustriert: Du kannst wissen, dass deine Finanzen in Ordnung sind, und trotzdem fühlen, als wären sie es nicht. [weekly money check-in](/blog/how-to-budget-money) Du kannst in eine Tabellenkalkulation schauen, die dir zeigt, dass du 80 % deiner Altersgruppe voraus bist, und trotzdem ein Loch im Magen spüren. Wissen löst das Gefühl nicht auf."
+            "text": "Hier ist das Paradoxon, das fast jeden mit Geld-Dysmorphie frustriert: Du kannst wissen, dass deine Finanzen in Ordnung sind, und trotzdem fühlen, als wären sie es nicht. [wöchentlicher Geld-Check](/blog/how-to-budget-money) Du kannst in eine Tabellenkalkulation schauen, die dir zeigt, dass du 80 % deiner Altersgruppe voraus bist, und trotzdem ein Loch im Magen spüren. Wissen löst das Gefühl nicht auf."
       },
       {
             "kind": "p",
@@ -5606,11 +5606,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Kluft zwischen Wissen und Fühlen zu überbrücken, erfordert drei Dinge:. [sinking funds and emergency savings](/blog/sinking-funds)"
+            "text": "Die Kluft zwischen Wissen und Fühlen zu überbrücken, erfordert drei Dinge:. [Sinking Funds und Notgroschen](/blog/sinking-funds)"
       },
       {
             "kind": "p",
-            "text": "Wiederholte sichere Exposition gegenüber finanziellen Informationen. [healthy pattern](/blog/money-dysmorphia) Ein einziger Blick auf deinen Bankkontoauszug verändert dein Gehirn nicht. Aber hundert ereignislose Blicke über drei Monate beginnen es zu tun. Die Wiederholung ist es, die neue neuronale Pfade aufbaut. Jede sichere Begegnung aktualisiert das Bedrohungsmodell deines Gehirns, langsam, aber messbar. Deshalb ist Konstanz wichtiger als Intensität. Eine tägliche dreißigsekündige Überprüfung bewirkt mehr als ein jährlicher Marathon-Haushaltstag."
+            "text": "Wiederholte sichere Exposition gegenüber finanziellen Informationen. [gesundes Muster](/blog/money-dysmorphia) Ein einziger Blick auf deinen Bankkontoauszug verändert dein Gehirn nicht. Aber hundert ereignislose Blicke über drei Monate beginnen es zu tun. Die Wiederholung ist es, die neue neuronale Pfade aufbaut. Jede sichere Begegnung aktualisiert das Bedrohungsmodell deines Gehirns, langsam, aber messbar. Deshalb ist Konstanz wichtiger als Intensität. Eine tägliche dreißigsekündige Überprüfung bewirkt mehr als ein jährlicher Marathon-Haushaltstag."
       },
       {
             "kind": "p",
@@ -5638,7 +5638,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Anzeichen dafür, dass finanzielles Trauma eine Rolle spielen könnte, sind:. [simple monthly budget](/blog/how-to-make-a-budget)"
+            "text": "Anzeichen dafür, dass finanzielles Trauma eine Rolle spielen könnte, sind:. [einfaches Monatsbudget](/blog/how-to-make-a-budget)"
       },
       {
             "kind": "ul",
@@ -5676,7 +5676,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Du kannst auch unsere weiteren Artikel zu finanzieller Angst und warum traditionelle Haushalte scheitern erkunden — beide untersuchen, warum Standard-Finanzberatung die emotionale Dimension oft völlig ignoriert. [why traditional budgets fail](/blog/why-traditional-budgets-fail) [financial anxiety](/blog/financial-anxiety) [balance transfer](/blog/best-mint-alternatives-2025) Je mehr du darüber verstehst, wie dein Gehirn Geld verarbeitet, desto besser bist du darauf vorbereitet, damit zu arbeiten, statt dagegen."
+            "text": "Du kannst auch unsere weiteren Artikel zu finanzieller Angst und warum traditionelle Haushalte scheitern erkunden — beide untersuchen, warum Standard-Finanzberatung die emotionale Dimension oft völlig ignoriert. [warum traditionelle Budgets scheitern](/blog/why-traditional-budgets-fail) [finanzielle Angst](/blog/financial-anxiety) [Saldoübertragung](/blog/best-mint-alternatives-2025) Je mehr du darüber verstehst, wie dein Gehirn Geld verarbeitet, desto besser bist du darauf vorbereitet, damit zu arbeiten, statt dagegen."
       },
       {
             "kind": "p",
@@ -5700,11 +5700,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der Schamkreis ist Teil des Problems, nicht der Lösung. [budgeting system](/blog/how-to-budget-money) Wenn du glaubst, du solltest „besser darin sein\", meidest du die Auseinandersetzung mit deinen Finanzen — was die Dysmorphie verschlimmert — was den Glauben verstärkt, dass du schlecht mit Geld bist. Diesen Kreis zu durchbrechen, beginnt mit Selbstmitgefühl, nicht Selbstkritik. Du würdest einem Freund mit einer Phobie nicht sagen, er solle einfach darüber hinwegkommen. Du würdest ihm sagen, dass seine Angst real ist, gültig ist, und dass es effektive Wege gibt, damit umzugehen. Du verdienst dieselbe Gnade."
+            "text": "Der Schamkreis ist Teil des Problems, nicht der Lösung. [Budget-System](/blog/how-to-budget-money) Wenn du glaubst, du solltest „besser darin sein\", meidest du die Auseinandersetzung mit deinen Finanzen — was die Dysmorphie verschlimmert — was den Glauben verstärkt, dass du schlecht mit Geld bist. Diesen Kreis zu durchbrechen, beginnt mit Selbstmitgefühl, nicht Selbstkritik. Du würdest einem Freund mit einer Phobie nicht sagen, er solle einfach darüber hinwegkommen. Du würdest ihm sagen, dass seine Angst real ist, gültig ist, und dass es effektive Wege gibt, damit umzugehen. Du verdienst dieselbe Gnade."
       },
       {
             "kind": "p",
-            "text": "Geld-Dysmorphie ist keine Schwäche. [emergency savings and debt payoff](/blog/sinking-funds) Es ist keine Verantwortungslosigkeit. Es ist kein Charakterfehler. Es ist ein vorhersehbares, gut dokumentiertes Muster — und die Tatsache, dass du es benennen kannst, setzt dich vor die meisten Menschen, die immer noch im Kreislauf aus Scham und Vermeidung gefangen sind."
+            "text": "Geld-Dysmorphie ist keine Schwäche. [Notgroschen und Schuldentilgung](/blog/sinking-funds) Es ist keine Verantwortungslosigkeit. Es ist kein Charakterfehler. Es ist ein vorhersehbares, gut dokumentiertes Muster — und die Tatsache, dass du es benennen kannst, setzt dich vor die meisten Menschen, die immer noch im Kreislauf aus Scham und Vermeidung gefangen sind."
       },
       {
             "kind": "p",
@@ -5727,8 +5727,8 @@ const overrides = {
       "Drei Personal-Finance-Apps, drei unterschiedliche Philosophien. Vergleiche YNAB, Monarch und Savlo und finde die App, die du auch in sechs Monaten noch nutzt.",
     keywords: [],
     summary: [
-      "YNAB, Monarch und Savlo loesen nicht genau dasselbe emotionale Problem. Wer nur Features vergleicht, kann sich leicht verheddern.",
-      "Die nuetzliche Frage ist: Welche Art Beziehung willst du zu deinem Geld haben?",
+      "YNAB, Monarch und Savlo lösen nicht genau dasselbe emotionale Problem. Wer nur Features vergleicht, kann sich leicht verheddern.",
+      "Die nützliche Frage ist: Welche Art Beziehung willst du zu deinem Geld haben?",
     ],
     sections: [],
     readingTime: 20,
@@ -5753,7 +5753,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Dieser Vergleich ist meinungsstark. [sinking fund](/blog/sinking-funds) Wir sind nicht neutral. Wir haben Savlo gebaut, weil wir glauben, dass die meisten Budgetierungswerkzeuge mehr Angst verursachen als sie verhindern. Wir haben alle drei Apps intensiv genutzt und werden Anerkennung geben, wo sie gebührt. So haben wir die Bewertung strukturiert."
+            "text": "Dieser Vergleich ist meinungsstark. [Sinking Fund](/blog/sinking-funds) Wir sind nicht neutral. Wir haben Savlo gebaut, weil wir glauben, dass die meisten Budgetierungswerkzeuge mehr Angst verursachen als sie verhindern. Wir haben alle drei Apps intensiv genutzt und werden Anerkennung geben, wo sie gebührt. So haben wir die Bewertung strukturiert."
       },
       {
             "kind": "p",
@@ -5761,7 +5761,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Lernkurve und Einarbeitung. [zero-based budgeting](/blog/zero-based-budgeting) Wie lange dauert es vom Download bis zur ersten nützlichen Erkenntnis? Eine leistungsstarke App, die du nie lernst, ist schlechter als eine einfache App, die du täglich nutzt."
+            "text": "- Lernkurve und Einarbeitung. [nullbasiertes Budgetieren](/blog/zero-based-budgeting) Wie lange dauert es vom Download bis zur ersten nützlichen Erkenntnis? Eine leistungsstarke App, die du nie lernst, ist schlechter als eine einfache App, die du täglich nutzt."
       },
       {
             "kind": "p",
@@ -5781,7 +5781,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ein Hinweis zur Transparenz: Wir sind das Team hinter Savlo. [zero-based budgeting](/blog/zero-based-budgeting) Wir haben es gebaut, weil wir keine App finden konnten, die Null-Budgetierungsprinzipien so umsetzt, dass es sich nicht wie ein Zweitjob anfühlt. Wir werden ehrlich sein, wo Savlo zu kurz kommt, weil ein Vergleichsartikel, der nur eine App lobt, niemandem nützlich ist."
+            "text": "Ein Hinweis zur Transparenz: Wir sind das Team hinter Savlo. [nullbasiertes Budgetieren](/blog/zero-based-budgeting) Wir haben es gebaut, weil wir keine App finden konnten, die Null-Budgetierungsprinzipien so umsetzt, dass es sich nicht wie ein Zweitjob anfühlt. Wir werden ehrlich sein, wo Savlo zu kurz kommt, weil ein Vergleichsartikel, der nur eine App lobt, niemandem nützlich ist."
       },
       {
             "kind": "divider"
@@ -5889,7 +5889,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Monarch Money wurde als spiritueller Nachfolger von Mint gestartet, und das sieht man. [Mint&apos;s shutdown](/blog/why-traditional-budgets-fail) Wo Mint ein kostenloser, werbefinanzierter Ausgaben-Tracker war, ist Monarch ein poliertes, abonnementbasiertes Finanz-Dashboard. Es verbindet sich mit praktisch jeder Finanzinstitution, zieht alle deine Konten ein und zeigt sie in einer sauberen, schönen Oberfläche. Wenn dein primäres Bedürfnis Sichtbarkeit in dein gesamtes Finanzbild ist — Girokonto, Sparkonto, Kreditkarten, Investitionen, Kredite — ist Monarch die stärkste Option verfügbar."
+            "text": "Monarch Money wurde als spiritueller Nachfolger von Mint gestartet, und das sieht man. [Aus von Mint](/blog/why-traditional-budgets-fail) Wo Mint ein kostenloser, werbefinanzierter Ausgaben-Tracker war, ist Monarch ein poliertes, abonnementbasiertes Finanz-Dashboard. Es verbindet sich mit praktisch jeder Finanzinstitution, zieht alle deine Konten ein und zeigt sie in einer sauberen, schönen Oberfläche. Wenn dein primäres Bedürfnis Sichtbarkeit in dein gesamtes Finanzbild ist — Girokonto, Sparkonto, Kreditkarten, Investitionen, Kredite — ist Monarch die stärkste Option verfügbar."
       },
       {
             "id": "monarchs-philosophie-finanzielle-sichtbarkeit",
@@ -5956,7 +5956,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Abonnementkosten summieren sich. [Mint shutdown](/blog/why-traditional-budgets-fail) Bei etwa $15 pro Monat oder $100 pro Jahr ist Monarch ähnlich wie YNAB bepreist. Für ein Werkzeug, das hauptsächlich ein schreibgeschütztes Dashboard von Daten ist, die deine Bank bereits hat, bezweifeln einige Nutzer, ob der Preis gerechtfertigt ist."
+            "text": "Die Abonnementkosten summieren sich. [Aus von Mint](/blog/why-traditional-budgets-fail) Bei etwa $15 pro Monat oder $100 pro Jahr ist Monarch ähnlich wie YNAB bepreist. Für ein Werkzeug, das hauptsächlich ein schreibgeschütztes Dashboard von Daten ist, die deine Bank bereits hat, bezweifeln einige Nutzer, ob der Preis gerechtfertigt ist."
       },
       {
             "kind": "p",
@@ -5973,7 +5973,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Monarch kostet etwa $14.99 pro Monat oder $99.99 pro Jahr, wenn jährlich bezahlt. [money dysmorphia](/blog/money-dysmorphia) Es gibt eine kostenlose Testphase, die kürzer ist als YNABs. Die Preispositionierung spiegelt Monarchs Positionierung als Premium-Finanz-Dashboard wider. Für Nutzer, die Anlageverfolgung, Paarfunktionen und Berichterstattung aktiv nutzen, ist der Preis angemessen. Für Nutzer, die hauptsächlich einen Ausgaben-Tracker wollen, mag er hoch erscheinen."
+            "text": "Monarch kostet etwa $14.99 pro Monat oder $99.99 pro Jahr, wenn jährlich bezahlt. [Money Dysmorphia](/blog/money-dysmorphia) Es gibt eine kostenlose Testphase, die kürzer ist als YNABs. Die Preispositionierung spiegelt Monarchs Positionierung als Premium-Finanz-Dashboard wider. Für Nutzer, die Anlageverfolgung, Paarfunktionen und Berichterstattung aktiv nutzen, ist der Preis angemessen. Für Nutzer, die hauptsächlich einen Ausgaben-Tracker wollen, mag er hoch erscheinen."
       },
       {
             "kind": "divider"
@@ -5985,7 +5985,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Savlo ist die jüngste der drei Apps und ist um eine völlig andere Frage herum gebaut. [financial anxiety](/blog/financial-anxiety) Wo YNAB fragt „Wohin soll jeder Dollar gehen?\" und Monarch fragt „Wie sieht mein Finanz- bild aus?\", fragt Savlo „Wie fühlst du dich über Geld, und wie können wir dieses Gefühl klarer machen?\" Es ist ein Werkzeug zur Finanzangst genauso wie ein Budgetierungswerkzeug."
+            "text": "Savlo ist die jüngste der drei Apps und ist um eine völlig andere Frage herum gebaut. [finanzielle Angst](/blog/financial-anxiety) Wo YNAB fragt „Wohin soll jeder Dollar gehen?\" und Monarch fragt „Wie sieht mein Finanz- bild aus?\", fragt Savlo „Wie fühlst du dich über Geld, und wie können wir dieses Gefühl klarer machen?\" Es ist ein Werkzeug zur Finanzangst genauso wie ein Budgetierungswerkzeug."
       },
       {
             "id": "savlos-philosophie-taegliches-finanzbewusstsein",
@@ -6069,7 +6069,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Savlo startet mit einer 14-tägigen kostenlosen Testphase mit allen Funktionen und läuft danach als Monats- oder Jahresabo weiter. [sinking funds](/blog/sinking-funds) Eine kostenlose Stufe gibt es nicht: Die Testphase ist die vollständige App, mit Spracheingabe, Sinking Funds, Berichten und CSV-Import."
+            "text": "Savlo startet mit einer 14-tägigen kostenlosen Testphase mit allen Funktionen und läuft danach als Monats- oder Jahresabo weiter. [Sinking Funds](/blog/sinking-funds) Eine kostenlose Stufe gibt es nicht: Die Testphase ist die vollständige App, mit Spracheingabe, Sinking Funds, Berichten und CSV-Import."
       },
       {
             "kind": "divider"
@@ -6344,11 +6344,11 @@ const overrides = {
   "how-to-budget-money": {
     title: "Wie man Geld budgetiert: ein vollständiger Leitfaden für Anfänger",
     description:
-      "Ein klarer, vorurteilsfreier Leitfaden zum Budgetieren fuer Anfaenger. Lerne die vier Zahlen, die jedes Budget bewegen, drei Stile, die wirklich funktionieren, und wie du Ausgaben erfasst, ohne dich zu ueberlasten.",
+      "Ein klarer, vorurteilsfreier Leitfaden zum Budgetieren für Anfänger. Lerne die vier Zahlen, die jedes Budget bewegen, drei Stile, die wirklich funktionieren, und wie du Ausgaben erfasst, ohne dich zu überlasten.",
     keywords: [],
     summary: [
-      "Budgetieren ist keine Strafe und kein Willenstest. Es ist ein kurzer Plan, den du mit dir selbst schliesst, bevor du ausgibst, und der Unterschied zwischen Autofahren mit Karte und nur mit Rueckspiegel.",
-      "Dieser Leitfaden geht der Reihe nach durch, wie du Geld denkst, ohne zurueckzuschrecken, wie du ein Budget baust, das du wirklich haeltst, wie du Ausgaben erfasst, ohne dass der Tag davon vereinnahmt wird, und wie du dich erholst, wenn das Leben den Plan bricht.",
+      "Budgetieren ist keine Strafe und kein Willenstest. Es ist ein kurzer Plan, den du mit dir selbst schließt, bevor du ausgibst, und der Unterschied zwischen Autofahren mit Karte und nur mit Rückspiegel.",
+      "Dieser Leitfaden geht der Reihe nach durch, wie du Geld denkst, ohne zurückzuschrecken, wie du ein Budget baust, das du wirklich hältst, wie du Ausgaben erfasst, ohne dass der Tag davon vereinnahmt wird, und wie du dich erholst, wenn das Leben den Plan bricht.",
     ],
     sections: [],
     readingTime: 20,
@@ -6356,15 +6356,15 @@ const overrides = {
       blocks: [
       {
             "kind": "p",
-            "text": "Wenn Sie jemals abends Ihre Banking-App geöffnet haben und Ihnen das Magenrium heruntergefallen ist, ist diese Anleitung für Sie. Budgeting wurde den meisten von uns als Disziplinproblem verkauft: eine Frage der Willenskraft, eine Serie, die man aufrechterhalten muss, eine Zahl, die man schlagen muss. Die Realität ist sanfter und viel nützlicher. Ein Budget ist ein Plan, den Sie machen, bevor Sie ausgeben, nicht ein Urteil, das Sie danach fällen. Es ist der Unterschied zwischen Fahren mit einer Karte und Fahren while man in den Rückspiegel starrt."
+            "text": "Wenn du jemals abends deine Banking-App geöffnet hast und dir dabei mulmig geworden ist, ist diese Anleitung für dich. Budgeting wurde den meisten von uns als Disziplinproblem verkauft: eine Frage der Willenskraft, eine Serie, die man aufrechterhalten muss, eine Zahl, die man schlagen muss. Die Realität ist sanfter und viel nützlicher. Ein Budget ist ein Plan, den du machst, bevor du ausgibst, nicht ein Urteil, das du danach fällst. Es ist der Unterschied zwischen Fahren mit einer Karte und Fahren, während man in den Rückspiegel starrt."
       },
       {
             "kind": "p",
-            "text": "Dies ist bewusst eine lange Anleitung. Es gibt keinen einzelnen Trick, der Geld für den Rest Ihres Lebens handhabbar macht. Es gibt eine kleine Handvoll Gewohnheiten, die oft wiederholt werden und sich multiplizieren. Das Ziel dieses Artikels ist es, Sie Schritt für Schritt durchzuführen: wie man über Geld nachdenkt, ohne wegzuschauen, wie man ein Budget aufbaut, das man tatsächlich einhalten kann, wie man Ausgaben verfolgt, ohne dass es Ihren Tag verschlingt, und wie man sich erholt, wenn das Leben den Plan durchkreuzt. Wir verweisen auf Verhaltensforschung, wo sie hilft, und halten die Beispiele in realen monatlichen Situationen: Miete, Lebensmittel, Schuldenzahlungen, eine dringende Autoreparatur, die Hochzeit eines Freundes."
+            "text": "Dies ist bewusst eine lange Anleitung. Es gibt keinen einzelnen Trick, der Geld für den Rest deines Lebens handhabbar macht. Es gibt eine kleine Handvoll Gewohnheiten, die oft wiederholt werden und sich multiplizieren. Das Ziel dieses Artikels ist es, dich Schritt für Schritt hindurchzuführen: wie man über Geld nachdenkt, ohne wegzuschauen, wie man ein Budget aufbaut, das man tatsächlich einhalten kann, wie man Ausgaben verfolgt, ohne dass es deinen Tag verschlingt, und wie man sich erholt, wenn das Leben den Plan durchkreuzt. Wir verweisen auf Verhaltensforschung, wo sie hilft, und halten die Beispiele in realen monatlichen Situationen: Miete, Lebensmittel, Schuldenzahlungen, eine dringende Autoreparatur, die Hochzeit eines Freundes."
       },
       {
             "kind": "p",
-            "text": "Wenn Sie bereits versucht haben, ein Budget zu erstellen, und aufgegeben haben, war der Fehler fast sicher nicht mangelnde Disziplin. Das Design der meisten Budget-Tools kämpft gegen die Art, wie Ihr Gehirn tatsächlich funktioniert. Savlo ist eine der Apps, die versucht, mit Ihnen zusammenzuarbeiten, statt gegen Sie. Es ist für Android gebaut, iOS folgt, und der Rest dieser Anleitung wird seinen Ansatz als eines von mehreren Beispielen referenzieren. Wenn Sie nur zehn Minuten haben, springen Sie zum{\" \"} schnellen Start in sieben Schritten. Wenn Sie dreißig Minuten haben, lesen Sie in der Reihenfolge."
+            "text": "Wenn du bereits versucht hast, ein Budget zu erstellen, und aufgegeben hast, war der Fehler fast sicher nicht mangelnde Disziplin. Das Design der meisten Budget-Tools kämpft gegen die Art, wie dein Gehirn tatsächlich funktioniert. Savlo ist eine der Apps, die versucht, mit dir zusammenzuarbeiten, statt gegen dich. Es ist für Android gebaut, iOS folgt, und der Rest dieser Anleitung wird seinen Ansatz als eines von mehreren Beispielen referenzieren. Wenn du nur zehn Minuten hast, springe zum schnellen Start in sieben Schritten. Wenn du dreißig Minuten hast, lies in der Reihenfolge."
       },
       {
             "id": "in-dieser-anleitung",
@@ -6387,7 +6387,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die drei Budgetierungsstile, die tatsächlich funktionieren. [money dysmorphia](/blog/money-dysmorphia)"
+            "text": "Die drei Budgetierungsstile, die tatsächlich funktionieren. [Money Dysmorphia](/blog/money-dysmorphia)"
       },
       {
             "kind": "p",
@@ -6395,7 +6395,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wie Sie Ihr erstes Budget in sieben Schritten aufbauen"
+            "text": "Wie du dein erstes Budget in sieben Schritten aufbaust"
       },
       {
             "kind": "p",
@@ -6403,7 +6403,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wie Sie Ausgaben verfolgen, ohne auszubrennen"
+            "text": "Wie du Ausgaben verfolgst, ohne auszubrennen"
       },
       {
             "kind": "p",
@@ -6415,7 +6415,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der 7-Tage-Reset, wenn Sie das Budget sprengen"
+            "text": "Der 7-Tage-Reset, wenn du das Budget sprengst"
       },
       {
             "kind": "p",
@@ -6423,7 +6423,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Notgroschen vs. Rücklaufschuld-Depots"
+            "text": "Notgroschen vs. Sinking Funds"
       },
       {
             "kind": "p",
@@ -6449,7 +6449,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "-. [Zero-based budgeting](/blog/zero-based-budgeting)"
+            "text": "-. [Nullbasiertes Budgetieren](/blog/zero-based-budgeting)"
       },
       {
             "kind": "p",
@@ -6469,15 +6469,15 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die meisten Budgets scheitern aus einem von drei Gründen. Sie versuchen, jeden Cent zu verfolgen, was erschöpfend ist. Sie basieren auf Bruttoeinkommen statt Nettoeinkommen, was die Zahlen unmöglich erscheinen lässt. Oder sie werden nur am Ende des Monats überprüft, wenn der Zug schon abgefahren ist. Keine dieser Probleme betrifft Sie. Es geht um das Design des Systems. Wir behandeln alle drei später in dieser Anleitung ausführlich."
+            "text": "Die meisten Budgets scheitern aus einem von drei Gründen. Sie versuchen, jeden Cent zu verfolgen, was erschöpfend ist. Sie basieren auf Bruttoeinkommen statt Nettoeinkommen, was die Zahlen unmöglich erscheinen lässt. Oder sie werden nur am Ende des Monats überprüft, wenn der Zug schon abgefahren ist. Keines dieser Probleme betrifft dich. Es geht um das Design des Systems. Wir behandeln alle drei später in dieser Anleitung ausführlich."
       },
       {
             "kind": "p",
-            "text": "Ein nützliches Budget ist ein Werkzeug, kein Urteil. Es sagt Ihnen im Voraus, ob die nächste Entscheidung erschwinglich ist und mit dem übereinstimmt, was Sie letzten Monat gesagt haben, dass Ihnen wichtig ist. Wenn die Antwort Nein ist, macht das Budget seine Arbeit, indem es das sagt. Wenn die Antwort Ja ist, macht das Budget seine Arbeit, indem es Ihnen die Erlaubnis gibt. Die meisten Menschen, die sich ständig Sorgen um Geld machen, geben tatsächlich nicht zu viel aus. Sie geben ohne Rahmen aus, und die Unsicherheit ist die Quelle des Stresses. Der Plan beseitigt die Unsicherheit, nicht das Geld."
+            "text": "Ein nützliches Budget ist ein Werkzeug, kein Urteil. Es sagt dir im Voraus, ob die nächste Entscheidung erschwinglich ist und mit dem übereinstimmt, was du letzten Monat gesagt hast, dass dir wichtig ist. Wenn die Antwort Nein ist, macht das Budget seine Arbeit, indem es das sagt. Wenn die Antwort Ja ist, macht das Budget seine Arbeit, indem es dir die Erlaubnis gibt. Die meisten Menschen, die sich ständig Sorgen um Geld machen, geben tatsächlich nicht zu viel aus. Sie geben ohne Rahmen aus, und die Unsicherheit ist die Quelle des Stresses. Der Plan beseitigt die Unsicherheit, nicht das Geld."
       },
       {
             "kind": "p",
-            "text": "Es gibt ein verwandtes Konzept aus der Verhaltensökonomie namens{\" \"} Geld-Dysmorphie: sich pleite fühlen, selbst wenn Ihre Konten das Gegenteil besagen. Es ist häufiger, als die Finanzindustrie zugibt, und eines der Gegenmittel ist, Ihren Plan sichtbar zu machen. Ein Budget, selbst ein einfaches, macht den Plan sichtbar."
+            "text": "Es gibt ein verwandtes Konzept aus der Verhaltensökonomie namens Geld-Dysmorphie: sich pleite fühlen, selbst wenn deine Konten das Gegenteil besagen. Es ist häufiger, als die Finanzindustrie zugibt, und eines der Gegenmittel ist, deinen Plan sichtbar zu machen. Ein Budget, selbst ein einfaches, macht den Plan sichtbar."
       },
       {
             "kind": "divider"
@@ -6488,7 +6488,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Jedes Budget, von der aufwendigsten Tabellenkalkulation bis zur einfachsten Notiz auf dem Handy, basiert auf denselben vier Zahlen. Wenn Sie diese vier Zahlen für Ihr eigenes Leben identifizieren können, wissen Sie bereits mehr über Ihr Geld als die meisten Menschen jemals herausfinden. Die Reihenfolge ist weniger wichtig als die Genauigkeit."
+            "text": "Jedes Budget, von der aufwendigsten Tabellenkalkulation bis zur einfachsten Notiz auf dem Handy, basiert auf denselben vier Zahlen. Wenn du diese vier Zahlen für dein eigenes Leben identifizieren kannst, weißt du bereits mehr über dein Geld als die meisten Menschen jemals herausfinden. Die Reihenfolge ist weniger wichtig als die Genauigkeit."
       },
       {
             "id": "1-einkommen-netto-nicht-brutto",
@@ -6497,11 +6497,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Budgetieren Sie immer mit dem Geld, das tatsächlich auf Ihr Konto eingeht, nicht mit der Nummer auf Ihrem Gehaltsbrief. Steuern, Sozialversicherung, Gesundheitsvorsorge, Rentenbeiträge und alle anderen automatischen Abzüge passieren, bevor Sie das Geld jemals sehen. Der häufigste Budgetierungsfehler ist es, mit der Bruttoprimer zu planen und sich dann wie ein Versager zu fühlen, wenn die Realität 25 bis 35 Prozent kleiner ausfällt. Planen Sie mit dem Netto, und der Plan überlebt den Kontakt mit der Realität."
+            "text": "Budgetiere immer mit dem Geld, das tatsächlich auf dein Konto eingeht, nicht mit der Nummer auf deinem Gehaltsbrief. Steuern, Sozialversicherung, Gesundheitsvorsorge, Rentenbeiträge und alle anderen automatischen Abzüge passieren, bevor du das Geld jemals siehst. Der häufigste Budgetierungsfehler ist es, mit der Bruttozahl zu planen und sich dann wie ein Versager zu fühlen, wenn die Realität 25 bis 35 Prozent kleiner ausfällt. Plane mit dem Netto, und der Plan überlebt den Kontakt mit der Realität."
       },
       {
             "kind": "p",
-            "text": "Wenn Sie freiberuflich tätig sind, Gelegenheitsarbeiter oder auf Provision arbeiten, ist Ihr Nettoeinkommen variabel. In diesem Fall ist der{\" \"} Abschnitt über unregelmäßiges Einkommen später in dieser Anleitung der wichtigste für Sie. Die kurze Version: verwenden Sie den niedrigsten zuverlässigen Monat als Basis, behandeln Sie höhere Monate als Bonus und lassen Sie Ihr Budget atmen."
+            "text": "Wenn du freiberuflich tätig bist, Gelegenheitsarbeiter bist oder auf Provision arbeitest, ist dein Nettoeinkommen variabel. In diesem Fall ist der Abschnitt über unregelmäßiges Einkommen später in dieser Anleitung der wichtigste für dich. Die kurze Version: verwende den niedrigsten zuverlässigen Monat als Basis, behandle höhere Monate als Bonus und lass dein Budget atmen."
       },
       {
             "id": "2-feste-ausgaben",
@@ -6510,11 +6510,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Feste Ausgaben sind die Rechnungen, die jeden Monat in ungefähr derselben Höhe ankommen. Miete oder Hypothek, Internet, Handy, Versicherungen, Mindestschuldenzahlungen, Abonnements und ähnliche Posten. Sie sind der einfachste Teil eines Budgets, weil sie vorhersehbar sind. Schreiben Sie sie in eine einzige Spalte und addieren Sie sie. Diese Summe ist das Minimum, das Sie sich selbst jeden Monat schulden, bevor Sie irgendetwas anderes tun."
+            "text": "Feste Ausgaben sind die Rechnungen, die jeden Monat in ungefähr derselben Höhe ankommen. Miete oder Hypothek, Internet, Handy, Versicherungen, Mindestschuldenzahlungen, Abonnements und ähnliche Posten. Sie sind der einfachste Teil eines Budgets, weil sie vorhersehbar sind. Schreibe sie in eine einzige Spalte und addiere sie. Diese Summe ist das Minimum, das du dir selbst jeden Monat schuldest, bevor du irgendetwas anderes tust."
       },
       {
             "kind": "p",
-            "text": "Eine Falle: Abonnements vermehren sich leise. Der durchschnittliche Erwachsene unterschätzt seine monatlichen Abonnementsausgaben in informellen Umfragen um 30 bis 50 Prozent. Nehmen Sie sich diese Woche zehn Minuten und schauen Sie sich die automatischen Abbuchungen auf Ihrem Kontoauszug an. Kündigen Sie alles, was Sie in den letzten 30 Tagen nicht benutzt haben. Die Ersparnisse sind in der Regel größer als die Stunde, die Sie mit dem Audit verbringen, und sie multiplizieren sich jeden Monat danach."
+            "text": "Eine Falle: Abonnements vermehren sich leise. Der durchschnittliche Erwachsene unterschätzt seine monatlichen Abonnementsausgaben in informellen Umfragen um 30 bis 50 Prozent. Nimm dir diese Woche zehn Minuten und schau dir die automatischen Abbuchungen auf deinem Kontoauszug an. Kündige alles, was du in den letzten 30 Tagen nicht benutzt hast. Die Ersparnisse sind in der Regel größer als die Stunde, die du mit dem Audit verbringst, und sie multiplizieren sich jeden Monat danach."
       },
       {
             "id": "3-variable-ausgaben",
@@ -6527,28 +6527,28 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Ein nützlicher Trick ist es, eine einzige großzügige Obergrenze für die variable Spalte festzulegen, anstatt jede Unterkategorie zu mikromanagen. Wenn Ihre variablen Ausgaben der letzten drei Monate durchschnittlich 650 Dollar betrugen, setzen Sie das Budget auf 700 Dollar, geben Sie sich einen kleinen Puffer und hören Sie dort auf. Jeden Kaffee zu verfolgen ist erschöpfend und ändert selten das Verhalten. Das Ziel ist Bewusstsein, nicht Überwachung. Wir behandeln die Verfolgung im Detail im{\" \"} nächsten Hauptabschnitt."
+            "text": "Ein nützlicher Trick ist es, eine einzige großzügige Obergrenze für die variable Spalte festzulegen, anstatt jede Unterkategorie zu mikromanagen. Wenn deine variablen Ausgaben der letzten drei Monate durchschnittlich 650 Dollar betrugen, setze das Budget auf 700 Dollar, gib dir einen kleinen Puffer und hör dort auf. Jeden Kaffee zu verfolgen ist erschöpfend und ändert selten das Verhalten. Das Ziel ist Bewusstsein, nicht Überwachung. Wir behandeln die Verfolgung im Detail im nächsten Hauptabschnitt."
       },
       {
-            "id": "4-ihre-sparquote",
+            "id": "4-deine-sparquote",
             "kind": "h3",
-            "text": "4. Ihre Sparquote"
+            "text": "4. Deine Sparquote"
       },
       {
             "kind": "p",
-            "text": "Die Sparquote ist der Prozentsatz des Nettoeinkommens, den Sie behalten, anstatt auszugeben. Sie ist die vorhersagestärkste Zahl in den persönlichen Finanzen. Zwei Haushalte mit identischem Einkommen können radikal unterschiedliche Langzeitergebnisse haben, und die Sparquote erklärt fast die gesamte Lücke."
+            "text": "Die Sparquote ist der Prozentsatz des Nettoeinkommens, den du behältst, anstatt auszugeben. Sie ist die vorhersagestärkste Zahl in den persönlichen Finanzen. Zwei Haushalte mit identischem Einkommen können radikal unterschiedliche Langzeitergebnisse haben, und die Sparquote erklärt fast die gesamte Lücke."
       },
       {
             "kind": "p",
-            "text": "Ein vernünftiger Ausgangspunkt für die meisten Menschen sind 10 bis 20 Prozent des Nettoeinkommens, wobei der Rest zwischen festen und variablen Ausgaben aufgeteilt wird. [50/30/20 rule](/blog/50-30-20-rule) Wenn Sie jetzt nicht 10 Prozent sparen können, sparen Sie einen Prozent. Der Prozentsatz ist weniger wichtig als die Gewohnheit. Sobald die Gewohnheit existiert, neigt der Prozentsatz dazu, von selbst zu wachsen. Wir besprechen dies in der{\" \"} 50/30/20-Regel-Anleitung, die eines der einfachsten Frameworks ist, um Nettoeinkommen in eine funktionierende Allokation zu übersetzen."
+            "text": "Ein vernünftiger Ausgangspunkt für die meisten Menschen sind 10 bis 20 Prozent des Nettoeinkommens, wobei der Rest zwischen festen und variablen Ausgaben aufgeteilt wird. [50/30/20-Regel](/blog/50-30-20-rule) Wenn du jetzt nicht 10 Prozent sparen kannst, spare einen Prozent. Der Prozentsatz ist weniger wichtig als die Gewohnheit. Sobald die Gewohnheit existiert, neigt der Prozentsatz dazu, von selbst zu wachsen. Wir besprechen dies in der 50/30/20-Regel-Anleitung, die eines der einfachsten Frameworks ist, um Nettoeinkommen in eine funktionierende Allokation zu übersetzen."
       },
       {
             "kind": "p",
-            "text": "Wohin Sie die Ersparnisse stecken, ist auch wichtig. Der Unterschied zwischen einem{\" \"}"
+            "text": "Wohin du die Ersparnisse steckst, ist auch wichtig. Der Unterschied zwischen einem "
       },
       {
             "kind": "p",
-            "text": "Notgroschen {\" \"} und einem Rücklaufschuld-Depot ist Thema seines eigenen Abschnitts weiter unten, aber die kurze Version lautet: Schützen Sie sich vor dem Unvorhersehbaren, dann finanzieren Sie das Vorhersehbare im Voraus."
+            "text": "Notgroschen und einem Sinking Fund ist Thema seines eigenen Abschnitts weiter unten, aber die kurze Version lautet: Schütze dich vor dem Unvorhersehbaren, dann finanziere das Vorhersehbare im Voraus."
       },
       {
             "kind": "divider"
@@ -6559,7 +6559,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Es mangelt nicht an Budgetierungsmethoden. Die meisten sind Variationen einiger Kernideen. Statt ein System auswendig zu lernen, wählen Sie dasjenige, das zu der Art passt, wie Ihr Gehirn Geld bereits kategorisiert, und hören Sie auf, von dort zu optimieren. Die drei folgenden Stile decken ungefähr 90 Prozent der persönlichen Finanzberatung ab, die im realen Leben tatsächlich funktioniert."
+            "text": "Es mangelt nicht an Budgetierungsmethoden. Die meisten sind Variationen einiger Kernideen. Statt ein System auswendig zu lernen, wähle dasjenige, das zu der Art passt, wie dein Gehirn Geld bereits kategorisiert, und höre auf, von dort zu optimieren. Die drei folgenden Stile decken ungefähr 90 Prozent der persönlichen Finanzberatung ab, die im realen Leben tatsächlich funktioniert."
       },
       {
             "id": "stil-1-die-50-30-20-regel",
@@ -6568,11 +6568,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die 50/30/20-Regel teilt Ihr Nettoeinkommen in drei Kategorien: 50 Prozent für Bedürfnisse, 30 Prozent für Wünsche und 20 Prozent für Ersparnisse und Schulden über den Mindestzahlungen hinaus. [emergency fund](/blog/emergency-fund-vs-sinking-fund) Es ist das einfachste Framework, das immer noch den Unterschied zwischen essentiellen und diskretionären Ausgaben respektiert."
+            "text": "Die 50/30/20-Regel teilt dein Nettoeinkommen in drei Kategorien: 50 Prozent für Bedürfnisse, 30 Prozent für Wünsche und 20 Prozent für Ersparnisse und Schulden über den Mindestzahlungen hinaus. [Notgroschen](/blog/emergency-fund-vs-sinking-fund) Es ist das einfachste Framework, das immer noch den Unterschied zwischen essentiellen und diskretionären Ausgaben respektiert."
       },
       {
             "kind": "p",
-            "text": "Stärken: leicht zu merken, kaum Einrichtung, gut für Menschen, die Kategorien hassen. [Sinking Fund](/blog/sinking-funds) Einschränkungen: Es ist eine Richtlinie, keine Formel. Wenn Sie in einer teuren Stadt leben, muss Ihre \"Bedürfnisse\"-Kategorie möglicherweise 55 oder 60 Prozent betragen. Das ist kein Scheitern; das ist die Realität Ihrer Lebenshaltungskosten."
+            "text": "Stärken: leicht zu merken, kaum Einrichtung, gut für Menschen, die Kategorien hassen. [Sinking Fund](/blog/sinking-funds) Einschränkungen: Es ist eine Richtlinie, keine Formel. Wenn du in einer teuren Stadt lebst, muss deine \"Bedürfnisse\"-Kategorie möglicherweise 55 oder 60 Prozent betragen. Das ist kein Scheitern; das ist die Realität deiner Lebenshaltungskosten."
       },
       {
             "id": "stil-2-nullbasiertes-budgeting",
@@ -6581,11 +6581,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Nullbasiertes Budgeting{\" \"} weist jedem Dollar Einkommen einen Zweck zu, bevor der Monat beginnt. Einnahmen minus Ausgaben gleich Null. Nichts treibt irgendwo herum. Dies ist der Ansatz, der durch YNAB populär wurde, und er funktioniert gut für Menschen, die Präzision mögen und das Gefühl nicht mögen, wie Geld \"verdunstet\"."
+            "text": "Nullbasiertes Budgeting weist jedem Dollar Einkommen einen Zweck zu, bevor der Monat beginnt. Einnahmen minus Ausgaben gleich Null. Nichts treibt irgendwo herum. Dies ist der Ansatz, der durch YNAB populär wurde, und er funktioniert gut für Menschen, die Präzision mögen und das Gefühl nicht mögen, wie Geld \"verdunstet\"."
       },
       {
             "kind": "p",
-            "text": "Stärken: zwingt zur Priorisierung, deckt Verschwendung auf, macht Kompromisse explizit. Einschränkungen: erfordert mehr Einrichtung, mehr Verfolgung und Bereitschaft, häufig kleine Entscheidungen zu treffen. Wenn Sie jemand sind, dem ständige Kategorisierung sauer aufstößt, kann nullbasiertes Budgeting sich wie eine Teilzeitstelle anfühlen."
+            "text": "Stärken: zwingt zur Priorisierung, deckt Verschwendung auf, macht Kompromisse explizit. Einschränkungen: erfordert mehr Einrichtung, mehr Verfolgung und Bereitschaft, häufig kleine Entscheidungen zu treffen. Wenn du jemand bist, dem ständige Kategorisierung sauer aufstößt, kann nullbasiertes Budgeting sich wie eine Teilzeitstelle anfühlen."
       },
       {
             "id": "stil-3-umschlag-konten-methode",
@@ -6598,18 +6598,18 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Stärken: extrem visuell, schwer, versehentlich zu viel auszugeben, gut für Menschen, die in bestimmten Kategorien zu viel ausgeben (Lebensmittel, Gastronomie, Einkaufen). Einschränkungen: weniger nützlich für unregelmäßige Ausgaben, es sei denn, sie werden mit Rücklaufschuld-Depots kombiniert, weshalb die meisten Praktiker die Umschlagmethode schließlich mit einem der anderen beiden Stile verbinden."
+            "text": "Stärken: extrem visuell, schwer, versehentlich zu viel auszugeben, gut für Menschen, die in bestimmten Kategorien zu viel ausgeben (Lebensmittel, Gastronomie, Einkaufen). Einschränkungen: weniger nützlich für unregelmäßige Ausgaben, es sei denn, sie werden mit Sinking Funds kombiniert, weshalb die meisten Praktiker die Umschlagmethode schließlich mit einem der anderen beiden Stile verbinden."
       },
       {
             "kind": "p",
-            "text": "Alle drei Stile funktionieren. Der Beste ist der, den Sie in sechs Monaten noch verwenden. Das ist fast immer der einfachste, den Sie in den nächsten zehn Minuten beginnen können."
+            "text": "Alle drei Stile funktionieren. Der Beste ist der, den du in sechs Monaten noch verwendest. Das ist fast immer der einfachste, den du in den nächsten zehn Minuten beginnen kannst."
       },
       {
             "kind": "divider"
       },
       {
             "kind": "p",
-            "text": "## Wie Sie Ihr erstes Budget in sieben Schritten aufbauen"
+            "text": "## Wie du dein erstes Budget in sieben Schritten aufbaust"
       },
       {
             "kind": "p",
@@ -6617,35 +6617,35 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Schreiben Sie Ihre Nettoeinkommen der letzten drei Monate auf. Verwenden Sie den niedrigsten der drei als Basis für den nächsten Monat."
+            "text": "- Schreibe deine Nettoeinkommen der letzten drei Monate auf. Verwende den niedrigsten der drei als Basis für den nächsten Monat."
       },
       {
             "kind": "p",
-            "text": "- Schreiben Sie Ihre festen Ausgaben auf. Miete, Nebenkosten, Versicherungen, Mindestschuldenzahlungen, Abonnements. Addieren Sie sie."
+            "text": "- Schreibe deine festen Ausgaben auf. Miete, Nebenkosten, Versicherungen, Mindestschuldenzahlungen, Abonnements. Addiere sie."
       },
       {
             "kind": "p",
-            "text": "- Schätzen Sie Ihre variablen Ausgaben. Verwenden Sie den Durchschnitt der letzten drei Monate und addieren Sie 5 bis 10 Prozent als Puffer."
+            "text": "- Schätze deine variablen Ausgaben. Verwende den Durchschnitt der letzten drei Monate und addiere 5 bis 10 Prozent als Puffer."
       },
       {
             "kind": "p",
-            "text": "- Subtrahieren Sie Feste plus Variable vom Nettoeinkommen.{\" \"} Was übrig bleibt, ist Ihre Anfangssparquote. [Financial anxiety](/blog/financial-anxiety)"
+            "text": "- Subtrahiere Feste plus Variable vom Nettoeinkommen. Was übrig bleibt, ist deine Anfangssparquote. [Finanzielle Angst](/blog/financial-anxiety)"
       },
       {
             "kind": "p",
-            "text": "- Entscheiden Sie, wohin das Übrige geht. Ein Notgroschen, ein Rücklaufschuld-Depot, Mindestschulden über die Mindestzahlungen hinaus, Ruhestand oder eine Mischung. Wählen Sie eines zum Anfang."
+            "text": "- Entscheide, wohin das Übrige geht. Ein Notgroschen, ein Sinking Fund, Mindestschulden über die Mindestzahlungen hinaus, Ruhestand oder eine Mischung. Wähle eines zum Anfang."
       },
       {
             "kind": "p",
-            "text": "- Legen Sie einen einzigen Überprüfungstermin fest. Die meisten erfolgreichen Budgets werden einmal pro Woche für zehn Minuten überprüft, nicht jeden Tag. Tragen Sie es in den Kalender ein."
+            "text": "- Lege einen einzigen Überprüfungstermin fest. Die meisten erfolgreichen Budgets werden einmal pro Woche für zehn Minuten überprüft, nicht jeden Tag. Trag es in den Kalender ein."
       },
       {
             "kind": "p",
-            "text": "- Akzeptieren Sie, dass der erste Monat unvollkommen sein wird. Das Ziel des ersten Monats ist es, den Rhythmus zu lernen, nicht zu optimieren. Der Rhythmus ist es, der sich multipliziert."
+            "text": "- Akzeptiere, dass der erste Monat unvollkommen sein wird. Das Ziel des ersten Monats ist es, den Rhythmus zu lernen, nicht zu optimieren. Der Rhythmus ist es, der sich multipliziert."
       },
       {
             "kind": "p",
-            "text": "Wenn sich ein Schritt überwältigend anfühlt, tun Sie nur diesen Schritt. Der häufigste Budgetierungsfehler ist es, all dies an einem Samstagnachmittag zu versuchen und das Projekt dann bis Mittwoch aufzugeben. Kleine, aufeinanderfolgende Schritte sind dramatisch effektiver."
+            "text": "Wenn sich ein Schritt überwältigend anfühlt, tu nur diesen Schritt. Der häufigste Budgetierungsfehler ist es, all dies an einem Samstagnachmittag zu versuchen und das Projekt dann bis Mittwoch aufzugeben. Kleine, aufeinanderfolgende Schritte sind dramatisch effektiver."
       },
       {
             "kind": "p",
@@ -6656,7 +6656,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "## Wie Sie Ausgaben verfolgen, ohne auszubrennen"
+            "text": "## Wie du Ausgaben verfolgst, ohne auszubrennen"
       },
       {
             "kind": "p",
@@ -6664,7 +6664,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Moderne Apps bieten Ihnen drei Hauptwege, eine Transaktion zu erfassen: Sprache, manuell und CSV-Import. Jeder hat seinen Platz. Die richtige Antwort ist in der Regel eine Mischung."
+            "text": "Moderne Apps bieten dir drei Hauptwege, eine Transaktion zu erfassen: Sprache, manuell und CSV-Import. Jeder hat seinen Platz. Die richtige Antwort ist in der Regel eine Mischung."
       },
       {
             "id": "sprachprotokollierung",
@@ -6673,11 +6673,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Sprachprotokollierung ist der schnellste Weg, eine Ausgabe im Moment zu erfassen, in dem Sie sie tätigen. Sie sprechen einen kurzen Satz laut aus, die App transkribiert ihn und eine Transaktion wird erstellt. Sie beseitigt die Reibung, das Handy herauszuholen, eine App zu öffnen und Zahlen einzutippen. Diese Reibung ist der Hauptgrund, warum die meisten manuellen Protokolle nach einer Woche sterben."
+            "text": "Sprachprotokollierung ist der schnellste Weg, eine Ausgabe im Moment zu erfassen, in dem du sie tätigst. Du sprichst einen kurzen Satz laut aus, die App transkribiert ihn und eine Transaktion wird erstellt. Sie beseitigt die Reibung, das Handy herauszuholen, eine App zu öffnen und Zahlen einzutippen. Diese Reibung ist der Hauptgrund, warum die meisten manuellen Protokolle nach einer Woche sterben."
       },
       {
             "kind": "p",
-            "text": "Unsere Anleitung zur Sprachausgabenverfolgung {\" \"} beschreibt, wie die Technologie funktioniert und worauf man in einer Sprachfunktion achten sollte. Die kurze Version: Ein gutes Sprachsystem ist schnell genug, um sich beiläufig anzufühlen, genau genug, um in den meisten Fällen keine Bearbeitung zu erfordern, und ehrlich darüber, ob Ihre Audiodaten lokal verarbeitet oder an einen Server gesendet werden. Savlo ist eine der Apps, die um Sprache als primäre Eingabe herum gebaut sind, neben manuellen und CSV-Optionen."
+            "text": "Unsere Anleitung zur Sprachausgabenverfolgung beschreibt, wie die Technologie funktioniert und worauf man in einer Sprachfunktion achten sollte. Die kurze Version: Ein gutes Sprachsystem ist schnell genug, um sich beiläufig anzufühlen, genau genug, um in den meisten Fällen keine Bearbeitung zu erfordern, und ehrlich darüber, ob deine Audiodaten lokal verarbeitet oder an einen Server gesendet werden. Savlo ist eine der Apps, die um Sprache als primäre Eingabe herum gebaut sind, neben manuellen und CSV-Optionen."
       },
       {
             "id": "manuelle-eingabe",
@@ -6686,32 +6686,32 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Manuelle Eingabe ist die Fallback-Option. Sie ist langsamer und erfordert mehr Willenskraft, was genau der Grund ist, warum sie für die meisten Menschen nicht die einzige Option sein kann. Verwenden Sie sie für Ausgaben, die eine Notiz, ein Foto oder eine benutzerdefinierte Kategorie benötigen. Das{\" \"}"
+            "text": "Manuelle Eingabe ist die Fallback-Option. Sie ist langsamer und erfordert mehr Willenskraft, was genau der Grund ist, warum sie für die meisten Menschen nicht die einzige Option sein kann. Verwende sie für Ausgaben, die eine Notiz, ein Foto oder eine benutzerdefinierte Kategorie benötigen. Das "
       },
       {
             "kind": "p",
-            "text": "Ranking der besten Mint-Alternativen {\" \"} vergleicht, wie die besten Apps die manuelle Option im Jahr 2025 handhaben."
+            "text": "Ranking der besten Mint-Alternativen vergleicht, wie die besten Apps die manuelle Option im Jahr 2025 handhaben."
       },
       {
             "id": "csv-import-von-ihrer-bank",
             "kind": "h3",
-            "text": "CSV-Import von Ihrer Bank"
+            "text": "CSV-Import von deiner Bank"
       },
       {
             "kind": "p",
-            "text": "CSV-Import sitzt zwischen Sprache und vollständiger Bankverknüpfung. Sie melden sich auf der Website Ihrer Bank an, laden einen CSV-Export Ihrer letzten Transaktionen herunter und laden ihn in die App hoch. Kein Drittanbieter-Aggregator greift auf Ihre Anmeldedaten zu. Keine kontinuierliche Synchronisation bedeutet keine leise Datenteilung. Das Ergebnis ist ein vollständigeres Protokoll mit weniger Aufwand als die manuelle Eingabe und mehr Datenschutz als die automatische Banksynchronisation."
+            "text": "CSV-Import sitzt zwischen Sprache und vollständiger Bankverknüpfung. Du meldest dich auf der Website deiner Bank an, lädst einen CSV-Export deiner letzten Transaktionen herunter und lädst ihn in die App hoch. Kein Drittanbieter-Aggregator greift auf deine Anmeldedaten zu. Keine kontinuierliche Synchronisation bedeutet keine leise Datenteilung. Das Ergebnis ist ein vollständigeres Protokoll mit weniger Aufwand als die manuelle Eingabe und mehr Datenschutz als die automatische Banksynchronisation."
       },
       {
             "kind": "p",
-            "text": "Dies ist der Standardansatz von Savlo, und es ist einer der Gründe, warum die App zu Menschen passt, die Mint aus Datenschutzgründen verlassen haben. Sie können mehr darüber erfahren, warum Datenschutz in persönlichen Finanzen wichtig ist, in der{\" \"}"
+            "text": "Dies ist der Standardansatz von Savlo, und es ist einer der Gründe, warum die App zu Menschen passt, die Mint aus Datenschutzgründen verlassen haben. Du kannst mehr darüber erfahren, warum Datenschutz in persönlichen Finanzen wichtig ist, in der "
       },
       {
             "kind": "p",
-            "text": "Anleitung, warum traditionelle Budgets scheitern {\" \"} . Die Kurzfassung: Wenn Sie Ihre Bank verknüpfen, durchläuft Ihr Transaktionsverlauf normalerweise einen Datenaggregator, und dieser Aggregator hat seine eigene Datenschutzrichtlinie, die Sie nicht kontrollieren."
+            "text": "Anleitung, warum traditionelle Budgets scheitern . Die Kurzfassung: Wenn du deine Bank verknüpfst, durchläuft dein Transaktionsverlauf normalerweise einen Datenaggregator, und dieser Aggregator hat seine eigene Datenschutzrichtlinie, die du nicht kontrollierst."
       },
       {
             "kind": "p",
-            "text": "Das beste Verfolgungssystem ist das, das Ihnen ein hinreichend vollständiges Bild in weniger als zehn Minuten pro Woche gibt. alles andere ist Dekoration."
+            "text": "Das beste Verfolgungssystem ist das, das dir ein hinreichend vollständiges Bild in weniger als zehn Minuten pro Woche gibt. Alles andere ist Dekoration."
       },
       {
             "kind": "divider"
@@ -6727,26 +6727,26 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der sauberste Ansatz ist es, gegen das{\" \"} niedrigste zuverlässige Monat der letzten sechs bis zwölf Monate zu budgetieren, nicht den Durchschnitt. Verwenden Sie diese niedrigere Zahl als Ihre Basis. Wenn höhere Monate ankommen, behandeln Sie den Unterschied als einen Glücksfall, der direkt in Ersparnisse oder Schuldenzahlungen fließt, nicht in Lifestyle- Inflation. Diese einfache Regel verhindert die häufigste Falle bei unregelmäßigem Einkommen: ein großer Monat, gefolgt von einem verzweifelten."
+            "text": "Der sauberste Ansatz ist es, gegen das niedrigste zuverlässige Monat der letzten sechs bis zwölf Monate zu budgetieren, nicht den Durchschnitt. Verwende diese niedrigere Zahl als deine Basis. Wenn höhere Monate ankommen, behandle den Unterschied als einen Glücksfall, der direkt in Ersparnisse oder Schuldenzahlungen fließt, nicht in Lifestyle- Inflation. Diese einfache Regel verhindert die häufigste Falle bei unregelmäßigem Einkommen: ein großer Monat, gefolgt von einem verzweifelten."
       },
       {
             "kind": "p",
-            "text": "Ein praktisches Add-on ist ein Pufferkonto. Überweisen Sie ein bis zwei Monate fester Ausgaben auf ein separates, reibungsarmes Konto. Wenn ein kleinerer Monat kommt, deckt der Puffer ihn ab. Wenn ein größerer Monat kommt, füllen Sie den Puffer auf. Der Puffer ist das Äquivalent dazu, dass ein Unternehmen sein persönliches Einkommen als variablen Einnahmestrom behandelt, und es ist eine der wenigen Budgetierungstechniken, die mit dem Karrierewachstum skaliert."
+            "text": "Ein praktisches Add-on ist ein Pufferkonto. Überweise ein bis zwei Monate fester Ausgaben auf ein separates, reibungsarmes Konto. Wenn ein kleinerer Monat kommt, deckt der Puffer ihn ab. Wenn ein größerer Monat kommt, fülle den Puffer auf. Der Puffer ist das Äquivalent dazu, dass ein Unternehmen sein persönliches Einkommen als variablen Einnahmestrom behandelt, und es ist eine der wenigen Budgetierungstechniken, die mit dem Karrierewachstum skaliert."
       },
       {
             "kind": "divider"
       },
       {
             "kind": "p",
-            "text": "## Der 7-Tage-Reset: Was zu tun ist, wenn Sie das Budget sprengen"
+            "text": "## Der 7-Tage-Reset: Was zu tun ist, wenn du das Budget sprengst"
       },
       {
             "kind": "p",
-            "text": "Sie werden das Budget sprechen. Nicht einmal; mehrmals im Jahr. Der Wagen braucht Reifen. Ein Freund wird in einer anderen Stadt heiraten. Eine Arztrechnung kommt. Dies als persönliche Fehler zu behandeln, ist der schnellste Weg, das Budgetieren entirely aufzugeben, und die Aufgabe kommt in der Regel mit einer Rückkehr zur ängstlichen, vagen Beziehung zum Geld, der Sie zu entkommen versuchten."
+            "text": "Du wirst das Budget sprengen. Nicht einmal; mehrmals im Jahr. Der Wagen braucht Reifen. Ein Freund wird in einer anderen Stadt heiraten. Eine Arztrechnung kommt. Dies als persönliche Fehler zu behandeln, ist der schnellste Weg, das Budgetieren ganz aufzugeben, und die Aufgabe kommt in der Regel mit einer Rückkehr zur ängstlichen, vagen Beziehung zum Geld, der du zu entkommen versuchtest."
       },
       {
             "kind": "p",
-            "text": "Bauen Sie stattdessen einen 7-Tage-Reset auf. Am Tag, an dem Sie den Überkonsum bemerken, geraten Sie nicht in Panik und versuchen Sie nicht, es sofort zu reparieren. Warte sieben Tage. Setz dich dann zwanzig Minuten lang ohne Ablenkung hin und stell dir drei Fragen: Was ist passiert? Welche Kategorie hat den Schock absorbiert? Was ist die kleinste Änderung für nächsten Monat, die es verhindert hätte? Schreiben Sie die Antworten auf. Das ist der gesamte Reset."
+            "text": "Baue stattdessen einen 7-Tage-Reset auf. Am Tag, an dem du den Überkonsum bemerkst, gerate nicht in Panik und versuche nicht, es sofort zu reparieren. Warte sieben Tage. Setz dich dann zwanzig Minuten lang ohne Ablenkung hin und stell dir drei Fragen: Was ist passiert? Welche Kategorie hat den Schock absorbiert? Was ist die kleinste Änderung für nächsten Monat, die es verhindert hätte? Schreibe die Antworten auf. Das ist der gesamte Reset."
       },
       {
             "kind": "p",
@@ -6757,23 +6757,23 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "## Notgroschen vs. Rücklaufschuld-Depots"
+            "text": "## Notgroschen vs. Sinking Funds"
       },
       {
             "kind": "p",
-            "text": "Zwei Ersparniskategorien tauchen in jedem funktionierenden persönlichen Finanzsystem auf: der Notgroschen und die Rücklaufschuld-Depots. Sie sind nicht dasselbe, und sie zu verwechseln ist einer der häufigsten Budgetierungsfehler."
+            "text": "Zwei Ersparniskategorien tauchen in jedem funktionierenden persönlichen Finanzsystem auf: der Notgroschen und die Sinking Funds. Sie sind nicht dasselbe, und sie zu verwechseln ist einer der häufigsten Budgetierungsfehler."
       },
       {
             "kind": "p",
-            "text": "Ein Notgroschen{\" \"} ist für das Unvorhersehbare: Jobverlust, medizinisches Ereignis, dringende Hausreparatur. Die Zielgröße sind in der Regel drei bis sechs Monate fester Ausgaben, die auf einem hochliquiden Konto gehalten werden, das Sie nicht anrühren, es sei denn, die Situation ist tatsächlich ein Notfall."
+            "text": "Ein Notgroschen ist für das Unvorhersehbare: Jobverlust, medizinisches Ereignis, dringende Hausreparatur. Die Zielgröße sind in der Regel drei bis sechs Monate fester Ausgaben, die auf einem hochliquiden Konto gehalten werden, das du nicht anrührst, es sei denn, die Situation ist tatsächlich ein Notfall."
       },
       {
             "kind": "p",
-            "text": "Ein Rücklaufschuld-Depot ist für das Vorhersehbare: jährliche Versicherung, Urlaubsgeschenke, eine bekannte Krankenkassenquote, eine geplante Reise. Das sind große Ausgaben, die nach einem bekannten Zeitplan ankommen. Ein wenig jeden Monat zu sparen, verwandelt sie von Schocks in routinemäßige Beiträge. Der mentale Unterschied ist enorm: ein Urlaub, für den man gespart hat, fühlt sich sehr anders an als ein Urlaub, den man auf die Kreditkarte gebucht hat."
+            "text": "Ein Sinking Fund ist für das Vorhersehbare: jährliche Versicherung, Urlaubsgeschenke, eine bekannte Krankenkassenquote, eine geplante Reise. Das sind große Ausgaben, die nach einem bekannten Zeitplan ankommen. Ein wenig jeden Monat zu sparen, verwandelt sie von Schocks in routinemäßige Beiträge. Der mentale Unterschied ist enorm: ein Urlaub, für den man gespart hat, fühlt sich sehr anders an als ein Urlaub, den man auf die Kreditkarte gebucht hat."
       },
       {
             "kind": "p",
-            "text": "> Faustregel: Sobald Sie einen Monat Ausgaben in bar haben, beginnen Sie aufzuteilen. Bauen Sie den Notgroschen weiter auf, bis Sie drei Monate erreichen, und verschieben Sie dann den größten Teil der neuen Ersparnisse in benannte Rücklaufschuld-Depots für die nächsten vorhersehbaren Ausgaben in Ihrem Kalender."
+            "text": "> Faustregel: Sobald du einen Monat Ausgaben in bar hast, beginne aufzuteilen. Baue den Notgroschen weiter auf, bis du drei Monate erreichst, und verschiebe dann den größten Teil der neuen Ersparnisse in benannte Sinking Funds für die nächsten vorhersehbaren Ausgaben in deinem Kalender."
       },
       {
             "kind": "divider"
@@ -6792,19 +6792,19 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Gegenwartsvorliebe. Das zukünftige Ich ist leichter zu enttäuschen als das gegenwärtige Ich, also verschieben wir das Sparen. Die Lösung ist Automatisierung. Stellen Sie die Ersparnisse so ein, dass sie am Tag nach dem Gehaltseingang überwiesen werden, in einem Betrag, über den Sie nicht nachdenken müssen, und das gegenwärtige Ich bemerkt es selten."
+            "text": "Gegenwartsvorliebe. Das zukünftige Ich ist leichter zu enttäuschen als das gegenwärtige Ich, also verschieben wir das Sparen. Die Lösung ist Automatisierung. Stelle die Ersparnisse so ein, dass sie am Tag nach dem Gehaltseingang überwiesen werden, in einem Betrag, über den du nicht nachdenken musst, und das gegenwärtige Ich bemerkt es selten."
       },
       {
             "kind": "p",
-            "text": "Verankerung. Der erste Preis, den Sie sehen, wird der Referenzpunkt. Angebotspreise, durchgestrichene Originalpreise und \"Premium\"-Rahmen sind alles Verankerungen. Die Lösung ist, im Voraus zu entscheiden, wie viel etwas Ihnen wert ist, und sich von Preisen über dieser Linie zu verabschieden, unabhängig vom Rabatt."
+            "text": "Verankerung. Der erste Preis, den du siehst, wird der Referenzpunkt. Angebotspreise, durchgestrichene Originalpreise und \"Premium\"-Rahmen sind alles Verankerungen. Die Lösung ist, im Voraus zu entscheiden, wie viel etwas dir wert ist, und dich von Preisen über dieser Linie zu verabschieden, unabhängig vom Rabatt."
       },
       {
             "kind": "p",
-            "text": "Diese Verzerrungen sind der Grund, warum traditionelle Budgets scheitern und warum ein sanfterer Designansatz langfristig tendenziell gewinnt. Das vollständige Argument finden Sie in der{\" \"}"
+            "text": "Diese Verzerrungen sind der Grund, warum traditionelle Budgets scheitern und warum ein sanfterer Designansatz langfristig tendenziell gewinnt. Das vollständige Argument findest du in der "
       },
       {
             "kind": "p",
-            "text": "Anleitung, warum traditionelle Budgets scheitern {\" \"} , aber die kurze Version lautet: Wenn das Werkzeug gegen Ihr Gehirn kämpft, wird das Werkzeug verlieren. Wenn das Werkzeug mit Ihrem Gehirn zusammenarbeitet, wird das Werkzeug sich multiplizieren."
+            "text": "Anleitung, warum traditionelle Budgets scheitern , aber die kurze Version lautet: Wenn das Werkzeug gegen dein Gehirn kämpft, wird das Werkzeug verlieren. Wenn das Werkzeug mit deinem Gehirn zusammenarbeitet, wird das Werkzeug sich multiplizieren."
       },
       {
             "kind": "divider"
@@ -6819,35 +6819,35 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Budgetieren mit Brutto statt Netto. Der häufigste Anfängerfehler. Planen Sie mit der Zahl, die tatsächlich auf Ihr Konto eingeht."
+            "text": "- Budgetieren mit Brutto statt Netto. Der häufigste Anfängerfehler. Plane mit der Zahl, die tatsächlich auf dein Konto eingeht."
       },
       {
             "kind": "p",
-            "text": "- Zu viele Kategorien. Mehr als zehn Kategorien erzeugen Entscheidungsmüdigkeit. Beginnen Sie mit fünf oder sechs und lassen Sie Details später kommen."
+            "text": "- Zu viele Kategorien. Mehr als zehn Kategorien erzeugen Entscheidungsmüdigkeit. Beginne mit fünf oder sechs und lass Details später kommen."
       },
       {
             "kind": "p",
-            "text": "- Jeden Cent verfolgen. Erschöpfend und selten nützlich. Verfolgen Sie die wichtigen Kategorien und lassen Sie die kleinen runden."
+            "text": "- Jeden Cent verfolgen. Erschöpfend und selten nützlich. Verfolge die wichtigen Kategorien und lass die kleinen runden."
       },
       {
             "kind": "p",
-            "text": "- Kein Überprüfungsrhythmus. Ein Budget, das nie überprüft wird, ist ein Wunsch. Setzen Sie ein wöchentliches, zehnminütiges Zeitfenster und schützen Sie es."
+            "text": "- Kein Überprüfungsrhythmus. Ein Budget, das nie überprüft wird, ist ein Wunsch. Setze ein wöchentliches, zehnminütiges Zeitfenster und schütze es."
       },
       {
             "kind": "p",
-            "text": "- Aufgeben in einem schlechten Monat. Ein schlechter Monat sind Daten, nicht Scheitern. Führen Sie den 7-Tage-Reset durch und fahren Sie fort."
+            "text": "- Aufgeben in einem schlechten Monat. Ein schlechter Monat sind Daten, nicht Scheitern. Führe den 7-Tage-Reset durch und fahre fort."
       },
       {
             "kind": "p",
-            "text": "- Sparen, was übrig bleibt. Es wird nie etwas übrig bleiben. Sparen Sie zuerst, geben Sie den Rest aus."
+            "text": "- Sparen, was übrig bleibt. Es wird nie etwas übrig bleiben. Spare zuerst, gib den Rest aus."
       },
       {
             "kind": "p",
-            "text": "- Notgroschen und Rücklaufschuld-Depots verwechseln. Sie dienen unterschiedlichen Zwecken. Mischung produziert sowohl eine unterfinanzierte Notreserve als auch einen endlosen Zyklus finanzieller Überraschungen."
+            "text": "- Notgroschen und Sinking Funds verwechseln. Sie dienen unterschiedlichen Zwecken. Mischung produziert sowohl eine unterfinanzierte Notreserve als auch einen endlosen Zyklus finanzieller Überraschungen."
       },
       {
             "kind": "p",
-            "text": "- Die Vergangenheit bestrafen, statt die Zukunft zu gestalten.{\" \"} Schuld multipliziert sich nicht. Ein einfacheres System schon. Tauschen Sie Scham gegen Iteration."
+            "text": "- Die Vergangenheit bestrafen, statt die Zukunft zu gestalten. Schuld multipliziert sich nicht. Ein einfacheres System schon. Tausche Scham gegen Iteration."
       },
       {
             "kind": "divider"
@@ -6859,27 +6859,27 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Das richtige Werkzeug ist das, das Sie in sechs Monaten noch verwenden. Das ist manchmal ein Notizbuch. Manchmal eine benutzerdefinierte Tabellenkalkulation. Manchmal eine App. Das Werkzeug ist weniger wichtig als der Rhythmus, den Sie darum herum aufbauen."
+            "text": "Das richtige Werkzeug ist das, das du in sechs Monaten noch verwendest. Das ist manchmal ein Notizbuch. Manchmal eine benutzerdefinierte Tabellenkalkulation. Manchmal eine App. Das Werkzeug ist weniger wichtig als der Rhythmus, den du darum herum aufbaust."
       },
       {
             "kind": "p",
-            "text": "Stift und Papier erzwingen eine Langsamkeit, die manche Menschen als therapeutisch empfinden. Es ist auch die privatste Option, da nichts Ihre Hände verlässt. Der Nachteil ist, dass Aggregation und Berichterstattung manuell sind, was für jeden, der mehr als eine Handvoll Kategorien verfolgt, schnell langweilig wird."
+            "text": "Stift und Papier erzwingen eine Langsamkeit, die manche Menschen als therapeutisch empfinden. Es ist auch die privatste Option, da nichts deine Hände verlässt. Der Nachteil ist, dass Aggregation und Berichterstattung manuell sind, was für jeden, der mehr als eine Handvoll Kategorien verfolgt, schnell langweilig wird."
       },
       {
             "kind": "p",
-            "text": "Tabellenkalkulationen geben Ihnen totale Kontrolle und null Datenschutzverlust, auf Kosten Ihrer Zeit. Sie sind die richtige Antwort für Menschen, die Modellieren mögen und die Zahlen im Detail verstehen wollen. Sie sind die falsche Antwort für Menschen, die nur wissen wollen, ob sie sich das Abendessen am Freitag leisten können."
+            "text": "Tabellenkalkulationen geben dir totale Kontrolle und null Datenschutzverlust, auf Kosten deiner Zeit. Sie sind die richtige Antwort für Menschen, die Modellieren mögen und die Zahlen im Detail verstehen wollen. Sie sind die falsche Antwort für Menschen, die nur wissen wollen, ob sie sich das Abendessen am Freitag leisten können."
       },
       {
             "kind": "p",
-            "text": "Apps decken das Spektrum von vollständiger Automatisierung (Bankverknüpfung) bis rein manuell ab. Die richtige App hängt von Ihrer Beziehung zum Datenschutz, Ihrer Toleranz für Eingabereibung und davon ab, wie sichtbar Sie die Ausgaben haben wollen. Wenn Sie Mint aus Datenschutzgründen verlassen haben, spart Ihnen das{\" \"}"
+            "text": "Apps decken das Spektrum von vollständiger Automatisierung (Bankverknüpfung) bis rein manuell ab. Die richtige App hängt von deiner Beziehung zum Datenschutz, deiner Toleranz für Eingabereibung und davon ab, wie sichtbar du die Ausgaben haben willst. Wenn du Mint aus Datenschutzgründen verlassen hast, spart dir das "
       },
       {
             "kind": "p",
-            "text": "Ranking der besten Mint-Alternativen 2025 {\" \"} ein Wochenende Recherche. Savlo zum Beispiel ist darauf ausgelegt, Ihnen in wenigen Minuten die tägliche Kontrolle und Verwaltung Ihrer Finanzen zu ermöglichen – durch einfache Sprach- oder Texteingabe, Tabellenkalkulations-Imports und unabhängige Konten, anstatt kontinuierlicher Banksynchronisation. Es ist für Android gebaut, iOS folgt."
+            "text": "Ranking der besten Mint-Alternativen 2025 ein Wochenende Recherche. Savlo zum Beispiel ist darauf ausgelegt, dir in wenigen Minuten die tägliche Kontrolle und Verwaltung deiner Finanzen zu ermöglichen – durch einfache Sprach- oder Texteingabe, Tabellenkalkulations-Imports und unabhängige Konten, anstatt kontinuierlicher Banksynchronisation. Es ist für Android gebaut, iOS folgt."
       },
       {
             "kind": "p",
-            "text": "Finanzielle Angst treibt oft die Werkzeugwahl mehr als Logik an. Wenn eine bestimmte App Sie beobachtet, urteilt oder überwältigt fühlen lässt, wechseln Sie. Der Zweck eines Budgetierungstools ist es, die Beziehung zum Geld menschlicher zu machen, nicht weniger."
+            "text": "Finanzielle Angst treibt oft die Werkzeugwahl mehr als Logik an. Wenn eine bestimmte App dich beobachtet, verurteilt oder überwältigt fühlen lässt, wechsle. Der Zweck eines Budgetierungstools ist es, die Beziehung zum Geld menschlicher zu machen, nicht weniger."
       },
       {
             "kind": "divider"
@@ -6894,11 +6894,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Drei Designentscheidungen helfen. Erstens, automatisieren Sie alles, was automatisiert werden kann: Sparüberweisungen, Rechnungszahlung, Abonnementverfolgung. Je weniger Entscheidungen Sie treffen müssen, desto weniger Entscheidungen können schiefgehen. Zweitens, verkleinern Sie die Überprüfung zu einem Ritual, das Sie wirklich genießen: ein Sonntagmorgenkaffee, ein kurzer Spaziergang, ein fünminütiges Sprachmemo. Drittens, gestalten Sie für das Scheitern. Erwarten Sie einen schlechten Monat, benennen Sie den Reset im Voraus und machen Sie die Erholung automatisch statt heldenhaft."
+            "text": "Drei Designentscheidungen helfen. Erstens, automatisiere alles, was automatisiert werden kann: Sparüberweisungen, Rechnungszahlung, Abonnementverfolgung. Je weniger Entscheidungen du treffen musst, desto weniger Entscheidungen können schiefgehen. Zweitens, verkleinere die Überprüfung zu einem Ritual, das du wirklich genießt: ein Sonntagmorgenkaffee, ein kurzer Spaziergang, ein fünfminütiges Sprachmemo. Drittens, gestalte für das Scheitern. Erwarte einen schlechten Monat, benenne den Reset im Voraus und mach die Erholung automatisch statt heldenhaft."
       },
       {
             "kind": "p",
-            "text": "Wenn das System während eines schlechten Monats zusammenhält, beginnt sich die Beziehung zum Geld zu ändern. Sie hören auf, Budgets als Test Ihres Charakters zu sehen und fangen an, sie als Infrastruktur zu sehen. Die Veränderung ist klein und leise, und es ist das, was sich tatsächlich multipliziert."
+            "text": "Wenn das System während eines schlechten Monats zusammenhält, beginnt sich die Beziehung zum Geld zu ändern. Du hörst auf, Budgets als Test deines Charakters zu sehen und fängst an, sie als Infrastruktur zu sehen. Die Veränderung ist klein und leise, und es ist das, was sich tatsächlich multipliziert."
       },
       {
             "kind": "divider"
@@ -6922,7 +6922,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Für die meisten Menschen sind 10 bis 20 Prozent des Nettoeinkommens ein vernünftiges Ziel. Wenn das jetzt nicht möglich ist, sparen Sie einen Prozent. Der Prozentsatz ist weniger wichtig als die Konstanz. Sobald die Gewohnheit etabliert ist, neigt der Prozentsatz dazu, von selbst zu wachsen."
+            "text": "Für die meisten Menschen sind 10 bis 20 Prozent des Nettoeinkommens ein vernünftiges Ziel. Wenn das jetzt nicht möglich ist, spare einen Prozent. Der Prozentsatz ist weniger wichtig als die Konstanz. Sobald die Gewohnheit etabliert ist, neigt der Prozentsatz dazu, von selbst zu wachsen."
       },
       {
             "kind": "p",
@@ -6938,7 +6938,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Nur wenn Sie mit der Datenschutzrichtlinie des Datenaggregators einverstanden sind. Die Bankverknüpfung ist bequem, leitet aber Ihren Transaktionsverlauf über Dritte weiter. CSV-Import und Sprachprotokollierung sind die zwei hauptsächlichen datenschutzfreundlichen Alternativen und für die meisten Menschen ausreichend gut."
+            "text": "Nur wenn du mit der Datenschutzrichtlinie des Datenaggregators einverstanden bist. Die Bankverknüpfung ist bequem, leitet aber deinen Transaktionsverlauf über Dritte weiter. CSV-Import und Sprachprotokollierung sind die zwei hauptsächlichen datenschutzfreundlichen Alternativen und für die meisten Menschen ausreichend gut."
       },
       {
             "kind": "p",
@@ -6946,15 +6946,15 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Der erste Entwurf dauert weniger als eine Stunde, wenn Sie drei Monate Kontoauszüge haben. Die Version, die Sie tatsächlich verwenden, erfordert einen vollständigen Monat der Iteration. Planen Sie für die Iteration, nicht den ersten Entwurf."
+            "text": "Der erste Entwurf dauert weniger als eine Stunde, wenn du drei Monate Kontoauszüge hast. Die Version, die du tatsächlich verwendest, erfordert einen vollständigen Monat der Iteration. Plane für die Iteration, nicht den ersten Entwurf."
       },
       {
             "kind": "p",
-            "text": "Was ist der Unterschied zwischen einem Notgroschen und einem Rücklaufschuld-Depot?"
+            "text": "Was ist der Unterschied zwischen einem Notgroschen und einem Sinking Fund?"
       },
       {
             "kind": "p",
-            "text": "Ein Notgroschen deckt das Unvorhersehbare: Jobverlust, dringende Reparatur, medizinisches Ereignis. Ein Rücklaufschuld-Depot deckt das Vorhersehbare: jährliche Versicherung, Urlaub, geplante Reisen. Das erste schützt Sie; das zweite verhindert Überraschungen. In der Regel brauchen Sie beides."
+            "text": "Ein Notgroschen deckt das Unvorhersehbare: Jobverlust, dringende Reparatur, medizinisches Ereignis. Ein Sinking Fund deckt das Vorhersehbare: jährliche Versicherung, Urlaub, geplante Reisen. Das erste schützt dich; das zweite verhindert Überraschungen. In der Regel brauchst du beides."
       },
       {
             "kind": "p",
@@ -6962,7 +6962,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Beginnen Sie mit einer einwöchigen Prüfung jeder Ausgabe, nicht um sich selbst zu urteilen, sondern um die zwei oder drei Posten zu finden, die leise ein Drittel des Gesamtbetrags ausmachen. Kürzen oder reduzieren Sie diese. Verschieben Sie die Ersparnisse auf ein kleines Pufferkonto. Wiederholen Sie es nächsten Monat. Die Multiplikation ist schneller, als es aussieht."
+            "text": "Beginne mit einer einwöchigen Prüfung jeder Ausgabe, nicht um dich selbst zu verurteilen, sondern um die zwei oder drei Posten zu finden, die leise ein Drittel des Gesamtbetrags ausmachen. Kürze oder reduziere diese. Verschiebe die Ersparnisse auf ein kleines Pufferkonto. Wiederhole es nächsten Monat. Die Multiplikation ist schneller, als es aussieht."
       },
       {
             "kind": "p",
@@ -6970,11 +6970,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die, die Sie in sechs Monaten noch verwenden. Das ist fast immer die mit der geringsten Eingabereibung und dem einfachsten Design. Das{\" \"}"
+            "text": "Die, die du in sechs Monaten noch verwendest. Das ist fast immer die mit der geringsten Eingabereibung und dem einfachsten Design. Das "
       },
       {
             "kind": "p",
-            "text": "Ranking der besten Mint-Alternativen {\" \"} vergleicht die stärksten Optionen im Jahr 2026."
+            "text": "Ranking der besten Mint-Alternativen vergleicht die stärksten Optionen im Jahr 2026."
       },
       {
             "kind": "divider"
@@ -6986,11 +6986,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Budgetieren ist kein Persönlichkeitstest. Es ist eine Planungspraxis, und wie jede Praxis belohnt sie kleine, wiederholte Anstrengung mehr als heldenhaften Willen. Wählen Sie die einfachste Version des obigen Systems, geben Sie ihm einen realen Monat und führen Sie den 7-Tage-Reset beim ersten Überschreiten durch. Die Zahl auf dem Bildschirm am Jahresende wird der Beweis sein, aber die dauerhaftere Veränderung ist die, die Sie in Ihrem Körper spüren: weniger Zurückschrecken, mehr Handlungsfähigkeit und eine Beziehung zum Geld, die menschlich genug ist, um zu bestehen."
+            "text": "Budgetieren ist kein Persönlichkeitstest. Es ist eine Planungspraxis, und wie jede Praxis belohnt sie kleine, wiederholte Anstrengung mehr als heldenhaften Willen. Wähle die einfachste Version des obigen Systems, gib ihm einen realen Monat und führe den 7-Tage-Reset beim ersten Überschreiten durch. Die Zahl auf dem Bildschirm am Jahresende wird der Beweis sein, aber die dauerhaftere Veränderung ist die, die du in deinem Körper spürst: weniger Zurückschrecken, mehr Handlungsfähigkeit und eine Beziehung zum Geld, die menschlich genug ist, um zu bestehen."
       },
       {
             "kind": "p",
-            "text": "Wenn Sie ein Werkzeug suchen, das Ihnen hilft, die tägliche Kontrolle und Verwaltung Ihrer Finanzen in wenigen Minuten zu behalten, ist Savlo um die Ideen herum aufgebaut, die wir besprochen haben: einfache Sprach- und Texteingabe, Budgetierung nach Kategorien, unabhängige Konten zur Organisation Ihres Geldes, Sinking Funds (Rücklaufschuld-Depots) und ein motivierendes Streak-System. Es ist für Android gebaut, iOS folgt. Der Rest des Blogs behandelt jede dieser Ideen ausführlicher, wenn Sie weitermachen möchten."
+            "text": "Wenn du ein Werkzeug suchst, das dir hilft, die tägliche Kontrolle und Verwaltung deiner Finanzen in wenigen Minuten zu behalten, ist Savlo um die Ideen herum aufgebaut, die wir besprochen haben: einfache Sprach- und Texteingabe, Budgetierung nach Kategorien, unabhängige Konten zur Organisation deines Geldes, Sinking Funds (Rücklagen) und ein motivierendes Streak-System. Es ist für Android gebaut, iOS folgt. Der Rest des Blogs behandelt jede dieser Ideen ausführlicher, wenn du weitermachen möchtest."
       }
 ]
     },
@@ -6998,7 +6998,7 @@ const overrides = {
   "budgeting-on-a-low-income": {
     title: "Budgetieren mit geringem Einkommen: ein realistischer Schritt-für-Schritt-Leitfaden",
     description:
-      "Ein vorurteilsfreier Schritt-fuer-Schritt-Leitfaden zum Budgetieren mit geringem Einkommen. Lerne, einen kleinen Puffer aufzubauen, die Fixpunkte abzusichern und die Blutung zu stoppen, wenn die Rechnungen nicht aufgehen.",
+      "Ein vorurteilsfreier Schritt-für-Schritt-Leitfaden zum Budgetieren mit geringem Einkommen. Lerne, einen kleinen Puffer aufzubauen, die Fixpunkte abzusichern und die Blutung zu stoppen, wenn die Rechnungen nicht aufgehen.",
     keywords: [
       "budgetieren mit geringem Einkommen",
       "budget mit wenig geld",
@@ -7009,12 +7009,12 @@ const overrides = {
       "enges budget",
       "budget mit kleinem einkommen",
       "keine sparmarge",
-      "ueberleben mit geringem einkommen",
+      "überleben mit geringem einkommen",
       "geld bei engem budget",
     ],
     summary: [
-      "Budgetieren mit geringem Einkommen hat sein eigenes Handwerk. Die meisten Ratschlaege setzen eine Marge voraus, die nicht immer da ist, und klingen dann wie eine geschlossene Tuer.",
-      "Dieser Leitfaden schlaegt sieben realistische, schuldfreie Schritte vor, um das Vorhandene zu pflegen, den kleinsten moeglichen Puffer aufzubauen und die Blutung zu stoppen, wenn die Rechnungen nicht aufgehen.",
+      "Budgetieren mit geringem Einkommen hat sein eigenes Handwerk. Die meisten Ratschläge setzen eine Marge voraus, die nicht immer da ist, und klingen dann wie eine geschlossene Tür.",
+      "Dieser Leitfaden schlägt sieben realistische, schuldfreie Schritte vor, um das Vorhandene zu pflegen, den kleinsten möglichen Puffer aufzubauen und die Blutung zu stoppen, wenn die Rechnungen nicht aufgehen.",
     ],
     sections: [],
     readingTime: 20,
@@ -7087,11 +7087,11 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Was sich ändert, wenn das Geld knapp ist, ist die Prioritätenreihenfolge. Anstatt „spare zuerst, dann der Rest\", wird die Reihenfolge „Nicht- Verhandelbares zuerst, dann kleine Reserven, dann diskretionäre Ausgaben.\" Diese Prioritätenreihenfolge ist der Rückgrat der sieben Schritte unten. Du kannst mehr über die vier Zahlen in der umfassenderen Anleitung{\" \"}"
+            "text": "Was sich ändert, wenn das Geld knapp ist, ist die Prioritätenreihenfolge. Anstatt „spare zuerst, dann der Rest\", wird die Reihenfolge „Nicht- Verhandelbares zuerst, dann kleine Reserven, dann diskretionäre Ausgaben.\" Diese Prioritätenreihenfolge ist der Rückgrat der sieben Schritte unten. Du kannst mehr über die vier Zahlen in der umfassenderen Anleitung "
       },
       {
             "kind": "p",
-            "text": "如何 einen Haushaltsplan zu erstellen {\" \"}; lesen; diese Version stimmt sie einfach auf enge Monate ab."
+            "text": "如何 einen Haushaltsplan zu erstellen ; lesen; diese Version stimmt sie einfach auf enge Monate ab."
       },
       {
             "id": "sieben-schritte-um-mit-niedrigem-einkommen-zu-budg",
@@ -7162,7 +7162,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Sinking Funds klingen wie ein Luxus, aber bei knappem Einkommen sind sie eine Überlebensfertigkeit. [Sinking Funds guide](/blog/sinking-funds) Ein Sinking Fund ist eine kleine Reserve, die du für eine bekannte zukünftige Ausgabe aufbaust: eine jährliche Versicherungsprämie, ein Schulmaterial-Einkauf, ein Weihnachtsgeschenk, eine Autoprüfung. Die meisten jährlichen Ausgaben liegen zwischen $50 und $500. Teile diese Zahl durch zwölf und lege diesen kleinen Betrag jeden Monat beiseite. Wenn die Ausgabe kommt, ist das Geld schon da. Wenn du eine ausführlichere Erklärung willst, geht der{\" \"} Sinking Funds-Leitfaden{\" \"} die Rechnung durch. Bei knappem Einkommen ist die Regel einfach: $5 pro Woche für eine vorhersehbare Ausgabe reichen zum Starten."
+            "text": "Sinking Funds klingen wie ein Luxus, aber bei knappem Einkommen sind sie eine Überlebensfertigkeit. [Leitfaden zu Sinking Funds](/blog/sinking-funds) Ein Sinking Fund ist eine kleine Reserve, die du für eine bekannte zukünftige Ausgabe aufbaust: eine jährliche Versicherungsprämie, ein Schulmaterial-Einkauf, ein Weihnachtsgeschenk, eine Autoprüfung. Die meisten jährlichen Ausgaben liegen zwischen $50 und $500. Teile diese Zahl durch zwölf und lege diesen kleinen Betrag jeden Monat beiseite. Wenn die Ausgabe kommt, ist das Geld schon da. Wenn du eine ausführlichere Erklärung willst, geht der Sinking Funds-Leitfaden die Rechnung durch. Bei knappem Einkommen ist die Regel einfach: $5 pro Woche für eine vorhersehbare Ausgabe reichen zum Starten."
       },
       {
             "id": "schritt-7-schichte-kleine-einkommenssteigerungen-e",
@@ -7171,7 +7171,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Budgetieren mit niedrigem Einkommen stößt irgendwann an eine Mauer. [financial anxiety](/blog/financial-anxiety) Die Mauer ist das Einkommen. Elastisches Geld zu streichen hat eine Untergrenze, und sobald du sie erreichst, hilft keine Tabellenkalkulation. Der nächste Schritt ist, Einkommen hinzuzufügen, nicht Ausgaben zu streichen. Kleine Einkommenssteigerungen bedeuten nicht, deinen Tagesjob hinzuschmeißen. Es geht darum, diesen Monat zwanzig Dollar in die Tasche zu stecken, mit etwas, das du bereits kannst: Etwas verkaufen, eine Schicht übernehmen, Freelance-Schreiben, Gassi gehen, einen kleinen Dienst für einen Nachbarn leisten. Liste drei Dinge auf, die du in den nächsten zwei Wochen tun könntest, die $20 bis $100 zu deinem Einkommen hinzufügen würden. Mach eine davon nächste Woche. Staple die Erfolge. Die Verzinsung kleiner Beträge ist es, was einen engen Haushaltsplan in einen lebbaren verwandelt."
+            "text": "Budgetieren mit niedrigem Einkommen stößt irgendwann an eine Mauer. [finanzielle Angst](/blog/financial-anxiety) Die Mauer ist das Einkommen. Elastisches Geld zu streichen hat eine Untergrenze, und sobald du sie erreichst, hilft keine Tabellenkalkulation. Der nächste Schritt ist, Einkommen hinzuzufügen, nicht Ausgaben zu streichen. Kleine Einkommenssteigerungen bedeuten nicht, deinen Tagesjob hinzuschmeißen. Es geht darum, diesen Monat zwanzig Dollar in die Tasche zu stecken, mit etwas, das du bereits kannst: Etwas verkaufen, eine Schicht übernehmen, Freelance-Schreiben, Gassi gehen, einen kleinen Dienst für einen Nachbarn leisten. Liste drei Dinge auf, die du in den nächsten zwei Wochen tun könntest, die $20 bis $100 zu deinem Einkommen hinzufügen würden. Mach eine davon nächste Woche. Staple die Erfolge. Die Verzinsung kleiner Beträge ist es, was einen engen Haushaltsplan in einen lebbaren verwandelt."
       },
       {
             "kind": "p",
@@ -7192,7 +7192,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Die Heilung ist nicht Motivation. Die Heilung ist Kleinteiligkeit. Öffne die App für dreißig Sekunden und schau auf den Kontostand. Schließe die App. Das ist eine vollständige Haushaltsplan-Interaktion für einen knappen Tag. Am nächsten Tag mach dasselbe. Am Tag danach schau auch eine Rechnung an. In einer Woche hast du viermal auf die Zahlen geschaut und die Scham hat den größten Teil ihrer Kraft verloren. Die längere Version dieser Idee findest du im{\" \"} Leitfaden zur finanziellen Angst, der tiefer in die Wissenschaft der Vermeidung und was hilft, eingeht."
+            "text": "Die Heilung ist nicht Motivation. Die Heilung ist Kleinteiligkeit. Öffne die App für dreißig Sekunden und schau auf den Kontostand. Schließe die App. Das ist eine vollständige Haushaltsplan-Interaktion für einen knappen Tag. Am nächsten Tag mach dasselbe. Am Tag danach schau auch eine Rechnung an. In einer Woche hast du viermal auf die Zahlen geschaut und die Scham hat den größten Teil ihrer Kraft verloren. Die längere Version dieser Idee findest du im Leitfaden zur finanziellen Angst, der tiefer in die Wissenschaft der Vermeidung und was hilft, eingeht."
       },
       {
             "id": "ein-durchgerechnetes-beispiel-der-monat-mit-1-250",
@@ -7257,7 +7257,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "- Versuchen, alle Schulden auf einmal zu bezahlen. [money dysmorphia](/blog/money-dysmorphia) Bei knappem Einkommen ist es dasselbe, extra auf fünf Schulden gleichzeitig zu zahlen wie auf keine. Bezahle das Minimum auf alle, um Kredit und Verstand zu schützen, dann lege jeden übrigen Dollar auf das kleinste Guthaben. Die Rechnung steht im{\" \"} Schulden-Tilgungs-Leitfaden, und die Reihenfolge ist noch wichtiger, wenn das Einkommen knapp ist."
+            "text": "- Versuchen, alle Schulden auf einmal zu bezahlen. [Money Dysmorphia](/blog/money-dysmorphia) Bei knappem Einkommen ist es dasselbe, extra auf fünf Schulden gleichzeitig zu zahlen wie auf keine. Bezahle das Minimum auf alle, um Kredit und Verstand zu schützen, dann lege jeden übrigen Dollar auf das kleinste Guthaben. Die Rechnung steht im Schulden-Tilgungs-Leitfaden, und die Reihenfolge ist noch wichtiger, wenn das Einkommen knapp ist."
       },
       {
             "kind": "p",
@@ -7323,7 +7323,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wie höre ich auf, mich für meine Ausgaben zu schämen? Die Scham lebt normalerweise in der Vermeidung. Öffne die App für dreißig Sekunden. Schau auf den Kontostand. Schließe die App. Mach das eine Woche lang. Die Scham verliert den größten Teil ihrer Kraft, im Moment, in dem das Anschauen zur Gewohnheit wird. Du kannst mehr darüber im{\" \"} Artikel zur Geld-Dysmorphie lesen, der tiefer in die emotionale Seite eingeht."
+            "text": "Wie höre ich auf, mich für meine Ausgaben zu schämen? Die Scham lebt normalerweise in der Vermeidung. Öffne die App für dreißig Sekunden. Schau auf den Kontostand. Schließe die App. Mach das eine Woche lang. Die Scham verliert den größten Teil ihrer Kraft, im Moment, in dem das Anschauen zur Gewohnheit wird. Du kannst mehr darüber im Artikel zur Geld-Dysmorphie lesen, der tiefer in die emotionale Seite eingeht."
       },
       {
             "kind": "p",
@@ -7331,7 +7331,7 @@ const overrides = {
       },
       {
             "kind": "p",
-            "text": "Wie budgetiere ich, wenn ich neben niedrigem Einkommen noch Schulden habe? Bezahle das Minimum auf jede Schulde, um die Konten aktuell zu halten, dann lege jeden übrigen Dollar auf das kleinste Guthaben. Wenn das kleinste Guthaben weg ist, schiebe diese Zahlung auf die nächste. Die Mechanik ist dieselbe wie im{\" \"} Schulden-Tilgungs-Leitfaden, und die Prioritätenreihenfolge ist noch wichtiger, wenn das Einkommen knapp ist."
+            "text": "Wie budgetiere ich, wenn ich neben niedrigem Einkommen noch Schulden habe? Bezahle das Minimum auf jede Schulde, um die Konten aktuell zu halten, dann lege jeden übrigen Dollar auf das kleinste Guthaben. Wenn das kleinste Guthaben weg ist, schiebe diese Zahlung auf die nächste. Die Mechanik ist dieselbe wie im Schulden-Tilgungs-Leitfaden, und die Prioritätenreihenfolge ist noch wichtiger, wenn das Einkommen knapp ist."
       },
       {
             "kind": "p",

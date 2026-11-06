@@ -1,22 +1,21 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { SiteFooter } from "@/components/savlo/site-footer"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { formatBlogDateShort } from "@/lib/blog/posts"
 import { blogCategoryLabel } from "@/lib/blog/category-labels"
 import { portuguesePosts } from "@/lib/blog/portuguese-posts"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, authorName, siteConfig } from "@/lib/site"
 
 const authorPath = "/pt/author/savlo-team"
 
 export const metadata: Metadata = {
-  title: siteConfig.author.name,
+  title: authorName("pt"),
   description:
     "Guias de orçamento, poupança e finanças pessoais da equipe que constrói o Savlo.",
   alternates: metadataAlternates(authorPath),
   openGraph: {
-    title: siteConfig.author.name,
+    title: authorName("pt"),
     description:
       "Guias sobre orçamento, poupança, ansiedade financeira e sinking funds.",
     type: "profile",
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.author.name,
+    title: authorName("pt"),
     description:
       "Guias sobre orçamento, poupança e psicologia do dinheiro.",
     images: [absoluteUrl(siteConfig.ogImage)],
@@ -46,13 +45,13 @@ export default function PortugueseAuthorPage() {
     "@type": "ProfilePage",
     "@id": `${absoluteUrl(authorPath)}#profile`,
     url: absoluteUrl(authorPath),
-    name: siteConfig.author.name,
+    name: authorName("pt"),
     description: metadata.description,
     inLanguage: "pt-BR",
     mainEntity: {
       "@type": "Organization",
       "@id": absoluteUrl("/#organization"),
-      name: siteConfig.author.name,
+      name: authorName("pt"),
       url: absoluteUrl(authorPath),
       email: siteConfig.supportEmail,
       image: absoluteUrl("/savlo-icon.png"),
@@ -71,7 +70,6 @@ export default function PortugueseAuthorPage() {
       lang="pt-BR"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="pt" />
       <main className="mx-auto w-full max-w-3xl px-6 pb-24 pt-32 sm:pt-36">
         <nav
           aria-label="Breadcrumb"
@@ -93,7 +91,7 @@ export default function PortugueseAuthorPage() {
               </Link>
             </li>
             <li aria-hidden>·</li>
-            <li className="text-foreground/80">{siteConfig.author.name}</li>
+            <li className="text-foreground/80">{authorName("pt")}</li>
           </ol>
         </nav>
 
@@ -102,7 +100,7 @@ export default function PortugueseAuthorPage() {
             Autor
           </p>
           <h1 className="mt-4 text-balance font-serif text-5xl font-medium leading-[1.04] tracking-tight text-foreground sm:text-6xl">
-            {siteConfig.author.name}
+            {authorName("pt")}
           </h1>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
             Guias de orçamento, poupança e finanças pessoais da equipe que

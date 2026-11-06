@@ -1,16 +1,16 @@
 {
   "title": "Hilfe",
-  "description": "Wie Sie Hilfe zu Savlo bekommen, und Antworten auf die häufigsten Fragen zu Ausgaben erfassen, Offline-Nutzung, Daten, Abos und Kontolöschung.",
+  "description": "Wie du Hilfe zu Savlo bekommst, und Antworten auf die häufigsten Fragen zu Ausgaben erfassen, Offline-Nutzung, Daten, Abos und Kontolöschung.",
   "lastUpdated": "Letzte Aktualisierung 30. August 2026",
   "intro": {
     "content": [
       {
         "type": "p",
-        "text": "Savlo ist eine Android-App für persönliche Finanzen. Wenn etwas nicht funktioniert oder Sie unten keine Antwort finden, schreiben Sie an <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> — es liest ein Mensch."
+        "text": "Savlo ist eine Android-App für persönliche Finanzen. Wenn etwas nicht funktioniert oder du unten keine Antwort findest, schreibe an <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> — es liest ein Mensch."
       },
       {
         "type": "p",
-        "text": "Wenn Sie schreiben: Modell des Telefons, Android-Version und was Sie gerade getan haben, sparen meist eine ganze Rückfrage."
+        "text": "Wenn du schreibst: Modell des Telefons, Android-Version und was du gerade getan hast, sparen meist eine ganze Rückfrage."
       }
     ]
   },
@@ -26,14 +26,14 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Per Sprache.</strong> Halten Sie das Mikrofon gedrückt und sagen Sie es so, wie Sie es laut sagen würden — \"zwölf fünfzig Kaffee gestern\". Savlo erkennt Betrag, Datum und Kategorie.",
-            "<strong>Per Text.</strong> Dasselbe, getippt. Sie können mehrere auf einmal eingeben, durch Kommas getrennt.",
-            "<strong>Von Hand.</strong> Sie füllen die Felder selbst aus, wenn Sie volle Kontrolle wollen."
+            "<strong>Per Sprache.</strong> Halte das Mikrofon gedrückt und sag es so, wie du es laut sagen würdest — \"zwölf fünfzig Kaffee gestern\". Savlo erkennt Betrag, Datum und Kategorie.",
+            "<strong>Per Text.</strong> Dasselbe, getippt. Du kannst mehrere auf einmal eingeben, durch Kommas getrennt.",
+            "<strong>Von Hand.</strong> Du füllst die Felder selbst aus, wenn du volle Kontrolle willst."
           ]
         },
         {
           "type": "p",
-          "text": "Wenn die Kategorie falsch ist, korrigieren Sie sie direkt an der Buchung — das ist am schnellsten, und die Korrektur bleibt."
+          "text": "Wenn die Kategorie falsch ist, korrigiere sie direkt an der Bewegung — das ist am schnellsten, und die Korrektur bleibt."
         }
       ]
     },
@@ -43,11 +43,11 @@
       "content": [
         {
           "type": "p",
-          "text": "Ja. Sie können Buchungen erfassen, Ihre Salden ansehen und Ihren Verlauf durchgehen, auch ohne Empfang. Was Sie erfassen, wird auf dem Telefon gespeichert und von selbst gesendet, sobald wieder eine Verbindung besteht — Sie müssen nichts tun."
+          "text": "Ja. Du kannst Bewegungen erfassen, deine Salden ansehen und deinen Verlauf durchgehen, auch ohne Empfang. Was du erfasst, wird auf dem Telefon gespeichert und von selbst gesendet, sobald wieder eine Verbindung besteht — du musst nichts tun."
         },
         {
           "type": "p",
-          "text": "Wenn sich etwas nach mehreren Versuchen nicht senden lässt, sagt Savlo es Ihnen, statt es stillschweigend zu verlieren, und lässt Sie es in den <strong>Einstellungen</strong> erneut versuchen."
+          "text": "Wenn sich etwas nach mehreren Versuchen nicht senden lässt, sagt Savlo es dir, statt es stillschweigend zu verlieren, und lässt es dich in den <strong>Einstellungen</strong> erneut versuchen."
         }
       ]
     },
@@ -57,15 +57,15 @@
       "content": [
         {
           "type": "p",
-          "text": "Ihre Buchungen liegen auf Servern in den USA und sind an Ihr Konto gebunden: niemand sonst, der Savlo nutzt, kann sie sehen."
+          "text": "Deine Bewegungen liegen auf Servern in den USA und sind an dein Konto gebunden: niemand sonst, der Savlo nutzt, kann sie sehen."
         },
         {
           "type": "p",
-          "text": "Wenn Sie den KI-Assistenten nutzen, werden Ihre Frage und eine Zusammenfassung Ihres finanziellen Kontexts zur Beantwortung an Google gesendet. <a href=\"/de/privacy\">Die Datenschutzerklärung</a> erklärt genau, was hinausgeht, an wen, und einen Punkt, den man dazu lesen sollte: wie Google es verwenden darf."
+          "text": "Wenn du den KI-Assistenten nutzt, werden deine Frage und eine Zusammenfassung deines finanziellen Kontexts zur Beantwortung an Google gesendet. <a href=\"/de/privacy\">Die Datenschutzerklärung</a> erklärt genau, was hinausgeht, an wen, und einen Punkt, den man dazu lesen sollte: wie Google es verwenden darf."
         },
         {
           "type": "p",
-          "text": "Sie können jederzeit alles mitnehmen über <strong>Einstellungen → Meine Daten exportieren</strong>; Sie erhalten eine CSV-Datei."
+          "text": "Du kannst jederzeit alles mitnehmen über <strong>Einstellungen → Meine Daten exportieren</strong>; du erhältst eine CSV-Datei."
         }
       ]
     },
@@ -75,11 +75,11 @@
       "content": [
         {
           "type": "p",
-          "text": "Nein. Savlo ist ein Werkzeug, um das eigene Geld klar zu sehen. Der Assistent liest Ihre Daten und kann sich irren; prüfen Sie deshalb alles Wichtige, bevor Sie danach handeln, und sprechen Sie bei bedeutenden Entscheidungen mit einer qualifizierten Fachperson."
+          "text": "Nein. Savlo ist ein Werkzeug, um das eigene Geld klar zu sehen. Der Assistent liest deine Daten und kann sich irren; prüfe deshalb alles Wichtige, bevor du danach handelst, und sprich bei bedeutenden Entscheidungen mit einer qualifizierten Fachperson."
         },
         {
           "type": "p",
-          "text": "Sie können Savlo auch ohne KI nutzen: Erfassen, Budgets, Konten und Berichte funktionieren genauso."
+          "text": "Du kannst Savlo auch ohne KI nutzen: Erfassen, Budgets, Konten und Berichte funktionieren genauso."
         }
       ]
     },
@@ -89,19 +89,19 @@
       "content": [
         {
           "type": "p",
-          "text": "Abos werden über Google Play abgerechnet, also verwalten und kündigen Sie sie dort, nicht in Savlo:"
+          "text": "Abos werden über Google Play abgerechnet, also verwalte und kündige sie dort, nicht in Savlo:"
         },
         {
           "type": "ol",
           "items": [
-            "Öffnen Sie die <strong>Play Store</strong>-App.",
-            "Tippen Sie auf Ihr Profilbild, dann auf <strong>Zahlungen und Abos → Abos</strong>.",
-            "Wählen Sie <strong>Savlo</strong> und tippen Sie auf <strong>Abo kündigen</strong>."
+            "Öffne die <strong>Play Store</strong>-App.",
+            "Tippe auf dein Profilbild, dann auf <strong>Zahlungen und Abos → Abos</strong>.",
+            "Wähle <strong>Savlo</strong> und tippe auf <strong>Abo kündigen</strong>."
           ]
         },
         {
           "type": "p",
-          "text": "Das Löschen der App oder Ihres Savlo-Kontos kündigt das Abo NICHT. Erstattungen wickelt Google ab. Wenn etwas zu Unrecht abgebucht wurde, schreiben Sie uns trotzdem, wir helfen Ihnen weiter."
+          "text": "Das Löschen der App oder deines Savlo-Kontos kündigt das Abo NICHT. Erstattungen wickelt Google ab. Wenn etwas zu Unrecht abgebucht wurde, schreibe uns trotzdem, wir helfen dir weiter."
         }
       ]
     },
@@ -111,11 +111,11 @@
       "content": [
         {
           "type": "p",
-          "text": "Sie können Ihr Konto und dessen Daten löschen über <strong>Einstellungen → Konto und Profil → Persönliche Daten → Konto löschen</strong>. Das geschieht sofort und lässt sich nicht rückgängig machen; exportieren Sie Ihre Daten vorher, wenn Sie sie behalten wollen."
+          "text": "Du kannst dein Konto und dessen Daten löschen über <strong>Einstellungen → Konto und Profil → Persönliche Daten → Konto löschen</strong>. Das geschieht sofort und lässt sich nicht rückgängig machen; exportiere deine Daten vorher, wenn du sie behalten willst."
         },
         {
           "type": "p",
-          "text": "Wenn die App nicht mehr installiert ist, <a href=\"/de/delete-account\">erklärt diese Seite, wie Sie die Löschung per E-Mail anfordern</a>."
+          "text": "Wenn die App nicht mehr installiert ist, <a href=\"/de/delete-account\">erklärt diese Seite, wie du die Löschung per E-Mail anforderst</a>."
         }
       ]
     },

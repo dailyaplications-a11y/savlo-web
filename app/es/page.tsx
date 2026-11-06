@@ -1,33 +1,11 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
+import { FaqSection } from "@/components/savlo/faq/faq-section"
+import { faqStructuredData } from "@/components/savlo/faq/faq-copy"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
-
-const faqItems = [
-  {
-    question: "¿Savlo ya está disponible?",
-    answer:
-      "Sí. Savlo está disponible en Android desde Google Play. La versión de iOS está en desarrollo y llegará próximamente a la App Store.",
-  },
-  {
-    question: "¿Savlo obliga a conectar el banco?",
-    answer:
-      "El sitio público de Savlo enfatiza registros fáciles por voz o texto, importaciones CSV/XLSX y registros controlados por la persona usuaria, no una conexión bancaria obligatoria.",
-  },
-  {
-    question: "¿Para quién está pensada la app?",
-    answer:
-      "Savlo está pensada para personas que buscan un control activo de su dinero de forma rápida y flexible en su rutina diaria, sin las complicaciones ni la rigidez de las herramientas tradicionales.",
-  },
-  {
-    question: "¿Savlo sirve para sinking funds?",
-    answer:
-      "Sí. Savlo presenta los Sinking Funds como una forma central de apartar dinero de forma intencional para gastos previsibles directamente dentro de tus cuentas.",
-  },
-] as const
 
 export const metadata: Metadata = {
   title: { absolute: "Savlo Budgeting App | Registra, ahorra y planifica" },
@@ -123,14 +101,7 @@ export default function SpanishHomePage() {
       "@type": "FAQPage",
       "@id": absoluteUrl("/es#faq"),
       inLanguage: "es",
-      mainEntity: faqItems.map((item) => ({
-        "@type": "Question",
-        name: item.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: item.answer,
-        },
-      })),
+      mainEntity: faqStructuredData("es"),
     },
   ]
 
@@ -139,58 +110,16 @@ export default function SpanishHomePage() {
       lang="es"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="es" />
       <main>
         <ProductStory locale="es" />
+        <FaqSection locale="es" />
         <FeaturedReads locale="es" />
-        <SectionDivider />
-        <FaqSection />
       </main>
       <SiteFooter locale="es" cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-    </div>
-  )
-}
-
-function FaqSection() {
-  return (
-    <section id="faq" className="relative py-24 sm:py-32">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-12">
-        <div className="lg:col-span-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary/80">
-            Preguntas
-          </p>
-          <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            Respuestas rápidas antes de descargar.
-          </h2>
-        </div>
-        <dl className="lg:col-span-8">
-          {faqItems.map((item) => (
-            <div
-              key={item.question}
-              className="border-b border-border/70 py-6 first:border-t"
-            >
-              <dt className="text-base font-semibold text-foreground">
-                {item.question}
-              </dt>
-              <dd className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-                {item.answer}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </div>
-    </section>
-  )
-}
-
-function SectionDivider() {
-  return (
-    <div aria-hidden className="mx-auto max-w-6xl px-6">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent" />
     </div>
   )
 }

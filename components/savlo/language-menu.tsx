@@ -1,8 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { useEffect, useId, useRef, useState, type CSSProperties, type KeyboardEvent } from "react"
+import { usePathname, useRouter } from "next/navigation"
+import { useEffect, useId, useRef, useState, type CSSProperties, type KeyboardEvent, type MouseEvent } from "react"
 import { localeLabels, supportedLocales, switchLocalizedPath, type Locale } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 import styles from "./language-menu.module.css"
@@ -23,6 +23,43 @@ const heading: Record<Locale, string> = {
   fr: "Langue",
 }
 
+type ViewTransitionDocument = Document & { startViewTransition?: (update: () => Promise<void>) => unknown }
+
+/*
+ * Changing the language is the same page in another language, so it moves
+ * nothing but the words (owner, 2026-11-05: "que todas sean fluidas al
+ * máximo"). The visitor keeps their place (no scroll to the top: the bar
+ * stays as it was), and where the browser has View Transitions the two
+ * languages cross-fade while the bar's button and language control morph to
+ * their new widths (globals.css, `site-cta` / `site-lang`). Measured before:
+ * the page jumped to the top, went black and came back, and "Descarga la app"
+ * became "App laden" in one frame. Without View Transitions, or with reduced
+ * motion, the link simply navigates (still keeping the place).
+ * Returns true when it took the click over.
+ */
+function crossfadeTo(e: MouseEvent<HTMLAnchorElement>, href: string, push: (href: string) => void) {
+  const doc = document as ViewTransitionDocument
+  if (!doc.startViewTransition || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return false
+  if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return false
+  e.preventDefault()
+  const target = new URL(href, window.location.href).pathname
+  doc.startViewTransition(
+    () =>
+      new Promise<void>((resolve) => {
+        push(href)
+        const started = performance.now()
+        // the router writes the new address as it commits the new page: from
+        // then the new language is in the document, ready to be captured
+        const check = () => {
+          if (window.location.pathname === target || performance.now() - started > 2500) resolve()
+          else window.setTimeout(check, 16)
+        }
+        check()
+      }),
+  )
+  return true
+}
+
 /**
  * The language picker in the header, minimal: a quiet control (globe, the
  * code, a small mint caret) whose card unrolls out of it, exactly as wide.
@@ -33,6 +70,7 @@ const heading: Record<Locale, string> = {
 export function LanguageMenu({ locale, className }: { locale: Locale; className?: string }) {
   const [open, setOpen] = useState(false)
   const pathname = usePathname() ?? "/"
+  const router = useRouter()
   const rootRef = useRef<HTMLDivElement>(null)
   const buttonRef = useRef<HTMLButtonElement>(null)
   const listId = useId()
@@ -113,12 +151,19 @@ export function LanguageMenu({ locale, className }: { locale: Locale; className?
                 <Link
                   data-option
                   href={switchLocalizedPath(pathname, candidate)}
+                  scroll={false}
                   hrefLang={candidate}
                   lang={candidate}
                   className={styles.option}
                   aria-label={localeLabels[candidate]}
                   title={localeLabels[candidate]}
-                  onClick={() => setOpen(false)}
+                  onClick={(e) => {
+                    // remembered, so the English pages stop sending this
+                    // visitor to their browser's language (proxy.ts)
+                    document.cookie = `savlo-locale=${candidate}; path=/; max-age=31536000; samesite=lax`
+                    setOpen(false)
+                    crossfadeTo(e, switchLocalizedPath(pathname, candidate), (href) => router.push(href, { scroll: false }))
+                  }}
                 >
                   <LanguageFlag locale={candidate} />
                   <span className={styles.code}>{candidate.toUpperCase()}</span>

@@ -179,7 +179,8 @@ check(
 )
 
 // The home is the storyboard (2026-11-02): every locale renders the same
-// ProductStory, then the featured guides, the FAQ and the footer CTA.
+// ProductStory, then the FAQ (right after it since 2026-11-05), the featured
+// guides and the footer CTA.
 for (const [name, locale] of [
   ["Spanish", "es"],
   ["Portuguese", "pt"],
@@ -192,7 +193,7 @@ for (const [name, locale] of [
     contains(file, /from "@\/components\/savlo\/story\/product-story"/) &&
       contains(file, new RegExp(`<ProductStory\\s+locale="${locale}"\\s*\\/>`)) &&
       contains(file, new RegExp(`<FeaturedReads\\s+locale="${locale}"\\s*\\/>`)) &&
-      contains(file, /<FaqSection\s*\/>/) &&
+      contains(file, new RegExp(`<FaqSection\\s+locale="${locale}"\\s*\\/>`)) &&
       contains(file, new RegExp(`<SiteFooter\\s+locale="${locale}"\\s+cta\\s*\\/>`)),
   )
 }

@@ -1,16 +1,16 @@
 {
   "title": "Konto löschen",
-  "description": "So löschen Sie Ihr Savlo-Konto und die damit verbundenen personenbezogenen Daten dauerhaft — in der App oder auf Anfrage.",
+  "description": "So löschst du dein Savlo-Konto und die damit verbundenen personenbezogenen Daten dauerhaft — in der App oder auf Anfrage.",
   "lastUpdated": "Zuletzt aktualisiert am 9. August 2026",
   "intro": {
     "content": [
       {
         "type": "p",
-        "text": "Diese Seite erklärt, wie Sie Ihr **Savlo**-Konto (Entwickler: Savlo, Paket <code>com.savlo.app</code>) und die damit verbundenen personenbezogenen Daten dauerhaft löschen. Es gibt zwei Wege: direkt in der App oder per Anfrage an uns."
+        "text": "Diese Seite erklärt, wie du dein **Savlo**-Konto (Entwickler: Savlo, Paket <code>com.savlo.app</code>) und die damit verbundenen personenbezogenen Daten dauerhaft löschst. Es gibt zwei Wege: direkt in der App oder per Anfrage an uns."
       },
       {
         "type": "p",
-        "text": "Savlo ist ausschließlich eine mobile App — es gibt keine Web-Version, auf dieser Website können Sie sich also nirgends anmelden. Deshalb werden Anfragen ohne die App per E-Mail bearbeitet."
+        "text": "Savlo ist ausschließlich eine mobile App — es gibt keine Web-Version, auf dieser Website kannst du dich also nirgends anmelden. Deshalb werden Anfragen ohne die App per E-Mail bearbeitet."
       }
     ]
   },
@@ -21,24 +21,24 @@
       "content": [
         {
           "type": "p",
-          "text": "Das ist der schnellste Weg und wirkt sofort. Wenn Sie Savlo noch installiert haben:"
+          "text": "Das ist der schnellste Weg und wirkt sofort. Wenn du Savlo noch installiert hast:"
         },
         {
           "type": "ol",
           "items": [
-            "Öffnen Sie Savlo und gehen Sie zu <strong>Einstellungen</strong>.",
-            "Tippen Sie auf <strong>Konto und Profil → Persönliche Daten</strong>.",
-            "Tippen Sie auf <strong>Konto löschen</strong>.",
-            "Bestätigen Sie die beiden Warnhinweise."
+            "Öffne Savlo und geh zu <strong>Einstellungen</strong>.",
+            "Tippe auf <strong>Konto und Profil → Persönliche Daten</strong>.",
+            "Tippe auf <strong>Konto löschen</strong>.",
+            "Bestätige die beiden Warnhinweise."
           ]
         },
         {
           "type": "p",
-          "text": "Ihr Konto und Ihre Daten werden sofort gelöscht und Ihre Sitzung wird auf allen Geräten beendet. **Dies kann nicht rückgängig gemacht werden.**"
+          "text": "Dein Konto und deine Daten werden sofort gelöscht und deine Sitzung wird auf allen Geräten beendet. **Dies kann nicht rückgängig gemacht werden.**"
         },
         {
           "type": "p",
-          "text": "Wenn Sie vorher eine Kopie Ihrer Aufzeichnungen behalten möchten, nutzen Sie <strong>Einstellungen → Meine Daten exportieren</strong>, bevor Sie löschen."
+          "text": "Wenn du vorher eine Kopie deiner Aufzeichnungen behalten möchtest, nutze <strong>Einstellungen → Meine Daten exportieren</strong>, bevor du löschst."
         }
       ]
     },
@@ -48,7 +48,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Wenn Sie Savlo bereits deinstalliert haben oder nicht mehr auf Ihr Konto zugreifen können, schreiben Sie uns und wir löschen es für Sie:"
+          "text": "Wenn du Savlo bereits deinstalliert hast oder nicht mehr auf dein Konto zugreifen kannst, schreibe uns und wir löschen es für dich:"
         },
         {
           "type": "p",
@@ -56,7 +56,7 @@
         },
         {
           "type": "p",
-          "text": "Senden Sie die Anfrage <strong>von der im Konto registrierten E-Mail-Adresse</strong> (wenn Sie sich mit Google registriert haben, verwenden Sie dieselbe Google-Adresse). Das dient uns als Verifizierung. Schreiben Sie von einer anderen Adresse, bitten wir Sie vor jeder Löschung um einen Eigentumsnachweis — eine unverifizierte Löschanfrage von einer fremden Person wäre selbst ein Sicherheitsproblem."
+          "text": "Sende die Anfrage <strong>von der im Konto registrierten E-Mail-Adresse</strong> (wenn du dich mit Google registriert hast, verwende dieselbe Google-Adresse). Das dient uns als Verifizierung. Schreibst du von einer anderen Adresse, bitten wir dich vor jeder Löschung um einen Eigentumsnachweis — eine unverifizierte Löschanfrage von einer fremden Person wäre selbst ein Sicherheitsproblem."
         }
       ]
     },
@@ -66,12 +66,12 @@
       "content": [
         {
           "type": "p",
-          "text": "Mit dem Konto werden Ihre Zugangsdaten und in der Folge alles daran Gebundene gelöscht:"
+          "text": "Mit dem Konto werden deine Zugangsdaten und in der Folge alles daran Gebundene gelöscht:"
         },
         {
           "type": "ul",
           "items": [
-            "Ihr Profil, Ihre E-Mail-Adresse und die App-Einstellungen",
+            "Dein Profil, deine E-Mail-Adresse und die App-Einstellungen",
             "Alle Bewegungen: Ausgaben, Einnahmen, Überweisungen und Rücklagen",
             "Konten, Salden, Sparfonds und deren Einzahlungen",
             "Budgets, Kategorien und Sparziele",
@@ -95,9 +95,9 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Verschlüsselte Backups.</strong> Ihre Daten können bis zu <strong>30 Tage</strong> nach der Löschung in unseren Datenbank-Backups verbleiben — isoliert von jeder weiteren Verarbeitung —, bis diese Backups rotieren.",
-            "<strong>Analyse- und Absturzberichte.</strong> Diagnoseereignisse (Sentry, PostHog) werden innerhalb von <strong>30 Tagen</strong> nach Ihrer Anfrage gelöscht oder von jeder Kennung befreit.",
-            "<strong>Abrechnungs- und Steuerunterlagen.</strong> Falls Sie ein Abonnement gekauft haben, werden die Transaktionsbelege so lange aufbewahrt, wie es das Steuer- und Handelsrecht verlangt. Sie enthalten den Kauf, nicht Ihre Finanzdaten."
+            "<strong>Verschlüsselte Backups.</strong> Deine Daten können bis zu <strong>30 Tage</strong> nach der Löschung in unseren Datenbank-Backups verbleiben — isoliert von jeder weiteren Verarbeitung —, bis diese Backups rotieren.",
+            "<strong>Analyse- und Absturzberichte.</strong> Diagnoseereignisse (Sentry, PostHog) werden innerhalb von <strong>30 Tagen</strong> nach deiner Anfrage gelöscht oder von jeder Kennung befreit.",
+            "<strong>Abrechnungs- und Steuerunterlagen.</strong> Falls du ein Abonnement gekauft hast, werden die Transaktionsbelege so lange aufbewahrt, wie es das Steuer- und Handelsrecht verlangt. Sie enthalten den Kauf, nicht deine Finanzdaten."
           ]
         }
       ]
@@ -121,7 +121,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Das Löschen Ihres Savlo-Kontos kündigt ein kostenpflichtiges Abonnement **nicht** automatisch. Abonnements werden von Google Play abgerechnet, Sie müssen es also auch dort kündigen: <strong>Play Store → Ihr Profil → Zahlungen und Abos → Abos → Savlo → Kündigen</strong>. Tun Sie das vor der Kontolöschung, damit Ihnen nichts erneut berechnet wird."
+          "text": "Das Löschen deines Savlo-Kontos kündigt ein kostenpflichtiges Abonnement **nicht** automatisch. Abonnements werden von Google Play abgerechnet, du musst es also auch dort kündigen: <strong>Play Store → dein Profil → Zahlungen und Abos → Abos → Savlo → Kündigen</strong>. Tu das vor der Kontolöschung, damit dir nichts erneut berechnet wird."
         }
       ]
     },
@@ -131,7 +131,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Schreiben Sie an <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. Den vollständigen Überblick darüber, was wir erheben und warum, finden Sie in unserer <a class=\"text-primary underline\" href=\"/de/privacy\">Datenschutzrichtlinie</a>."
+          "text": "Schreibe an <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. Den vollständigen Überblick darüber, was wir erheben und warum, findest du in unserer <a class=\"text-primary underline\" href=\"/de/privacy\">Datenschutzrichtlinie</a>."
         }
       ]
     }

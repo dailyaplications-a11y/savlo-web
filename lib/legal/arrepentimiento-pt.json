@@ -1,0 +1,106 @@
+{
+  "title": "Botão de arrependimento e botão de cancelamento",
+  "description": "Como se arrepender de uma assinatura do Savlo em até 10 dias ou cancelá-la a qualquer momento, sem entrar na conta nem dar explicações. Lei argentina 24.240 e Disposição 954/2025.",
+  "lastUpdated": "Última atualização: 5 de novembro de 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Esta página é o <strong>BOTÓN DE ARREPENTIMIENTO</strong> (botão de arrependimento) e o <strong>BOTÓN DE BAJA</strong> (botão de cancelamento) do Savlo, nos termos da Lei de Defesa do Consumidor 24.240 da Argentina e da Disposição 954/2025 da Subsecretaria de Defesa do Consumidor e Lealdade Comercial."
+      },
+      {
+        "type": "p",
+        "text": "Esta é uma tradução para a sua comodidade. A versão que vale legalmente é a em espanhol, em <a href=\"/es/arrepentimiento\">savloapp.com/es/arrepentimiento</a>. As duas funcionam do mesmo jeito: você pode usar qualquer uma."
+      },
+      {
+        "type": "p",
+        "text": "<strong>Você não precisa se cadastrar, entrar na conta nem fazer nenhum trâmite prévio para usá-la.</strong> Só vamos pedir os dados mínimos para confirmar que a solicitação é sua e encontrar a sua assinatura."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "arrepentimiento",
+      "heading": "Botão de arrependimento — cancelar em até 10 dias",
+      "content": [
+        {
+          "type": "p",
+          "text": "Se você contratou uma assinatura do Savlo há <strong>10 dias corridos ou menos</strong>, pode se arrepender sem custo e sem dar nenhum motivo. Devolvemos o valor integral."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Escreva para <strong>support@savloapp.com</strong> com o assunto <strong>ARREPENTIMIENTO</strong> (arrependimento).",
+            "Inclua o e-mail da sua conta do Savlo e a data aproximada em que você contratou.",
+            "Pronto. Não precisa de mais nada."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Confirmamos o recebimento e enviamos um <strong>comprovante da solicitação em até 24 horas</strong>. O reembolso é processado pelo Google Play, que cobrou a assinatura, pelo mesmo meio de pagamento que você usou."
+        },
+        {
+          "type": "p",
+          "text": "O prazo de 10 dias conta a partir da contratação. Se já passou, você não perde nada: pode cancelar do mesmo jeito, logo abaixo."
+        }
+      ]
+    },
+    {
+      "id": "baja",
+      "heading": "Botão de cancelamento — cancelar a qualquer momento",
+      "content": [
+        {
+          "type": "p",
+          "text": "Você pode cancelar a sua assinatura quando quiser, sem explicar por quê. Há dois caminhos, e os dois são válidos."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Caminho 1 — pedir para nós.</strong> Escreva para <strong>support@savloapp.com</strong> com o assunto <strong>BAJA</strong> (cancelamento) e o e-mail da sua conta. Enviamos o <strong>comprovante de cancelamento em até 24 horas</strong> após recebermos a solicitação."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Caminho 2 — fazer você mesmo, na hora.</strong> Quem cobra a assinatura é o Google Play, então você também pode cancelá-la lá sem passar por nós: abra a Play Store → sua foto de perfil → <em>Pagamentos e assinaturas</em> → <em>Assinaturas</em> → Savlo → <em>Cancelar assinatura</em>."
+        },
+        {
+          "type": "p",
+          "text": "Nos dois casos, o cancelamento vale no fim do período que você já pagou, e até lá você continua com acesso."
+        }
+      ]
+    },
+    {
+      "id": "cuenta",
+      "heading": "Cancelar não é o mesmo que excluir a conta",
+      "content": [
+        {
+          "type": "p",
+          "text": "São duas coisas diferentes, e você pode fazer uma, a outra ou as duas:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Cancelar a assinatura</strong>: você deixa de pagar. A sua conta e os seus dados continuam existindo, e você pode assinar de novo quando quiser.",
+            "<strong>Excluir a conta</strong>: a sua conta e todos os seus dados são apagados, de forma permanente. Isso é feito em <em>Ajustes → Conta e perfil → Informações pessoais → Excluir conta</em> no app, ou em <a href=\"/pt/delete-account\">savloapp.com/pt/delete-account</a>."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Apagar o app do celular não faz nenhuma das duas coisas: a assinatura continua sendo cobrada até você cancelá-la."
+        }
+      ]
+    },
+    {
+      "id": "reclamos",
+      "heading": "Se algo não der certo",
+      "content": [
+        {
+          "type": "p",
+          "text": "Escreva para <strong>support@savloapp.com</strong> e resolvemos. Se preferir um canal oficial, você pode abrir uma reclamação na <strong>Ventanilla Única Federal de Defensa del Consumidor</strong> da Argentina, em <a href=\"https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario\">argentina.gob.ar/produccion/defensadelconsumidor</a>, ou na autoridade de defesa do consumidor da sua província ou município."
+        },
+        {
+          "type": "p",
+          "text": "Savlo — Bahía Blanca, Província de Buenos Aires (8000), Argentina. support@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

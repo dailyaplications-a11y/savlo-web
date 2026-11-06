@@ -35,6 +35,7 @@ const labels = {
     minRead: "min read",
     authorHref: siteConfig.author.url,
     authorTagline: "Budgeting and personal finance guides",
+    authorName: "The Savlo Team",
     share: "Share",
     shareX: "Share on X",
     shareLinkedIn: "Share on LinkedIn",
@@ -55,6 +56,7 @@ const labels = {
     minRead: "min de lectura",
     authorHref: "/es/author/savlo-team",
     authorTagline: "Guías de presupuesto y finanzas personales",
+    authorName: "El equipo de Savlo",
     share: "Compartir",
     shareX: "Compartir en X",
     shareLinkedIn: "Compartir en LinkedIn",
@@ -75,6 +77,7 @@ const labels = {
     minRead: "min de leitura",
     authorHref: "/pt/author/savlo-team",
     authorTagline: "Guias de orçamento e finanças pessoais",
+    authorName: "Equipe Savlo",
     share: "Compartilhar",
     shareX: "Compartilhar no X",
     shareLinkedIn: "Compartilhar no LinkedIn",
@@ -95,12 +98,13 @@ const labels = {
     minRead: "min. Lesezeit",
     authorHref: "/de/author/savlo-team",
     authorTagline: "Leitfäden zu Budget und persönlichen Finanzen",
+    authorName: "Das Savlo-Team",
     share: "Teilen",
     shareX: "Auf X teilen",
     shareLinkedIn: "Auf LinkedIn teilen",
-    stats: ["Woerter", "Zeichen", "Saetze", "Absatze"],
-    relatedGuides: "Verwandte Leitfaeden",
-    backToBlog: "Zurueck zum Blog",
+    stats: ["Wörter", "Zeichen", "Sätze", "Absätze"],
+    relatedGuides: "Verwandte Leitfäden",
+    backToBlog: "Zurück zum Blog",
     keepReading: "Weiterlesen",
     moreIn: "Mehr Artikel in",
     homeHref: "/de",
@@ -115,6 +119,7 @@ const labels = {
     minRead: "min de lecture",
     authorHref: "/fr/author/savlo-team",
     authorTagline: "Guides de budget et de finances personnelles",
+    authorName: "L’équipe Savlo",
     share: "Partager",
     shareX: "Partager sur X",
     shareLinkedIn: "Partager sur LinkedIn",
@@ -218,7 +223,7 @@ export function BlogArticle({
               href={text.authorHref}
               className="text-[13px] font-medium text-foreground transition-colors hover:text-primary"
             >
-              {siteConfig.author.name}
+              {text.authorName}
             </Link>
             <span className="text-[12px] text-muted-foreground">
               {text.authorTagline}
@@ -265,7 +270,7 @@ export function BlogArticle({
         {Content ? (
           <Content />
         ) : post.rich ? (
-          <RichArticleContent article={post.rich} />
+          <RichArticleContent article={post.rich} locale={locale} />
         ) : (
           <GeneratedArticleContent post={post} />
         )}

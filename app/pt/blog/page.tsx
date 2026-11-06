@@ -1,10 +1,9 @@
 import type { Metadata } from "next"
 import { BlogIndex } from "@/components/savlo/blog/blog-index"
 import { SiteFooter } from "@/components/savlo/site-footer"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { portuguesePosts } from "@/lib/blog/portuguese-posts"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, authorName, siteConfig } from "@/lib/site"
 
 const blogDescription =
   "Guias de orçamento, poupança, dívidas e psicologia do dinheiro para organizar suas finanças pessoais."
@@ -74,7 +73,7 @@ export default function PortugueseBlogPage() {
       inLanguage: "pt-BR",
       author: {
         "@type": "Organization",
-        name: siteConfig.author.name,
+        name: authorName("pt"),
         url: absoluteUrl("/pt/author/savlo-team"),
       },
     })),
@@ -85,7 +84,6 @@ export default function PortugueseBlogPage() {
       lang="pt-BR"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="pt" />
       <main>
         <BlogIndex locale="pt" posts={portuguesePosts} />
       </main>

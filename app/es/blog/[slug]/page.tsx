@@ -2,13 +2,12 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { BlogArticle } from "@/components/savlo/blog/blog-article"
 import { SiteFooter } from "@/components/savlo/site-footer"
-import { SiteHeader } from "@/components/savlo/site-header"
 import {
   getSpanishPostBySlug,
   spanishPosts,
 } from "@/lib/blog/spanish-posts"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, authorName, siteConfig } from "@/lib/site"
 
 type PageProps = {
   params: Promise<{ slug: string }>
@@ -46,7 +45,7 @@ export async function generateMetadata({
       siteName: siteConfig.name,
       publishedTime: new Date(`${post.date}T00:00:00Z`).toISOString(),
       modifiedTime: new Date(`${post.dateModified}T00:00:00Z`).toISOString(),
-      authors: [siteConfig.author.name],
+      authors: [authorName("es")],
       tags: post.keywords,
       url,
       images: [
@@ -91,7 +90,7 @@ export default async function SpanishBlogArticlePage({ params }: PageProps) {
       image: [absoluteUrl(siteConfig.ogImage)],
       author: {
         "@type": "Organization",
-        name: siteConfig.author.name,
+        name: authorName("es"),
         url: absoluteUrl("/es/author/savlo-team"),
       },
       publisher: {
@@ -148,7 +147,6 @@ export default async function SpanishBlogArticlePage({ params }: PageProps) {
       lang="es"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="es" />
       <main>
         <BlogArticle post={post} locale="es" />
       </main>

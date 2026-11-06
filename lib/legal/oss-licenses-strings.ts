@@ -70,9 +70,9 @@ const strings: Record<Locale, OssLicensesStrings> = {
     footerGenerated:
       "Generada el {date} desde el propio build de la app. Esos mismos avisos viajan dentro del paquete de la app.",
     footerMpl:
-      "dbus, gtk, nm y los certificados raíz de respaldo del SDK de Dart están bajo la Mozilla Public License 2.0 y se distribuyen sin modificar; escribinos a support@savloapp.com por su código fuente.",
+      "dbus, gtk, nm y los certificados raíz de respaldo del SDK de Dart están bajo la Mozilla Public License 2.0 y se distribuyen sin modificar; escríbenos a support@savloapp.com por su código fuente.",
     footerNote:
-      "¿Falta una atribución o está mal acreditada? Escribinos a support@savloapp.com y lo corregimos.",
+      "¿Falta una atribución o está mal acreditada? Escríbenos a support@savloapp.com y lo corregimos.",
   },
   pt: {
     title: "Licenças de código aberto",
@@ -118,9 +118,9 @@ const strings: Record<Locale, OssLicensesStrings> = {
     footerGenerated:
       "Am {date} aus dem App-Build selbst erzeugt. Dieselben Hinweise liegen im App-Paket selbst.",
     footerMpl:
-      "dbus, gtk, nm und die Fallback-Wurzelzertifikate des Dart-SDK stehen unter der Mozilla Public License 2.0 und werden unverändert ausgeliefert; für den Quellcode schreiben Sie an support@savloapp.com.",
+      "dbus, gtk, nm und die Fallback-Wurzelzertifikate des Dart-SDK stehen unter der Mozilla Public License 2.0 und werden unverändert ausgeliefert; für den Quellcode schreib an support@savloapp.com.",
     footerNote:
-      "Fehlt eine Nennung oder ist sie falsch? Schreiben Sie an support@savloapp.com, wir korrigieren das.",
+      "Fehlt eine Nennung oder ist sie falsch? Schreib an support@savloapp.com, wir korrigieren das.",
   },
   fr: {
     title: "Licences open source",

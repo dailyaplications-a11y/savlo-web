@@ -17,7 +17,8 @@ export function PhoneFrame({
   statusBar?: boolean
 }) {
   return (
-    <div className={cn(styles.rim, className)}>
+    // the device is a picture: a browser translator must not touch it
+    <div className={cn(styles.rim, className)} translate="no">
       <span aria-hidden className={cn(styles.key, styles.keyAction)} />
       <span aria-hidden className={cn(styles.key, styles.keyUp)} />
       <span aria-hidden className={cn(styles.key, styles.keyDown)} />

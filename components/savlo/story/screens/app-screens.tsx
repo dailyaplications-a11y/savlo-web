@@ -96,6 +96,9 @@ export const AppScreen = memo(function AppScreen({ id, state, locale, label, pro
       className={s.screen}
       data-state={state}
       data-still={still || undefined}
+      // a picture of the app, in the page's language already: a browser
+      // translator must not rewrite it (it turned "USD" into a sentence)
+      translate="no"
       role="img"
       aria-label={label}
       aria-hidden={state === "on" ? undefined : true}
@@ -226,7 +229,9 @@ function NavBar({ t, active }: { t: ScreenCopy; active: "today" | "budget" }) {
  * move: the finger lands, presses, and what it pressed answers). The words
  * are heard at once, on their own clock, when their phase comes.
  */
-const VOICE = { plus: 0.1, pick: 0.26, listen: 0.4, words: 0.5, analyze: 0.64, editor: 0.78 }
+// over a 4-step span (3200 px): the "+" ~190 px in, as before, then ~450–510 px
+// a phase, so one swipe moves the flow one phase, not through all of it
+const VOICE = { plus: 0.06, pick: 0.2, listen: 0.34, words: 0.48, analyze: 0.64, editor: 0.8 }
 const VOICE_WORDS_MS = 1500
 // the quick-entry wave: seven bars, each at its share of the wave's height
 const ENTRY_WAVE = [0.45, 0.8, 1, 0.6, 0.9, 0.5, 0.7]
@@ -497,7 +502,9 @@ function VoiceEditor({ t }: { t: ScreenCopy }) {
  * The scroll brings each screen; the findings, the rows and the rules play at
  * once on their own clocks (IMPORT_RUN, ms).
  */
-const IMPORT = { tap: 0.08, reading: 0.14, importing: 0.4, imported: 0.58, recurring: 0.72 }
+// over a 3.4-step span (2720 px), as voice: the tap ~190 px in, then ~475 px a
+// phase, and the recurring found hold ~625 px before Today
+const IMPORT = { tap: 0.07, reading: 0.245, importing: 0.42, imported: 0.595, recurring: 0.77 }
 const IMPORT_RUN = { checks: 1600, rows: 1800, rules: 1400 }
 const IMPORT_ROWS = 660
 const IMPORT_FILE = "movements-2025-2026.csv"
@@ -1179,24 +1186,30 @@ function Reports({ t, money, locale }: Ctx) {
  * as a bubble, the thread takes its title, "Savlo AI" checks your data, the
  * answer streams word by word (figures in bold) and a chart card closes it,
  * with the actions and "Deepen" below. Like the app, the thread scrolls to
- * keep the newest line in view. The typing and the stream play at once on
- * their own clocks (CHAT_RUN, ms) when the scroll reaches them.
+ * keep the newest line in view. The scroll only reaches two phases, the
+ * question typed and the question sent; the typing plays on its own clock
+ * (CHAT_RUN.type), and so does the whole reply once the question is sent
+ * (CHAT_REPLY): "checking", the stream, the card, the actions. The visitor
+ * watches the answer arrive, never scrolls it out word by word (owner,
+ * 2026-11-05).
  */
 // the reply ("Savlo AI" and its status line) arrives with the sent question
-const CHAT = { type: 0.08, sent: 0.3, stream: 0.42, card: 0.64, done: 0.8 }
-const CHAT_RUN = { type: 1100, stream: 1800 }
+const CHAT = { type: 0.08, sent: 0.3 }
+const CHAT_RUN = { type: 1100 }
+/** The reply's clock, ms from the question sent; the card waits for the last word, the actions for its bars. */
+const CHAT_REPLY = { think: 900, stream: 1800, card: 2900, done: 4100 }
 
 function Assistant({ t, money, progress }: Ctx) {
   const c = t.ai.chat
   const typing = progress >= CHAT.type
   const sent = progress >= CHAT.sent
-  const streaming = progress >= CHAT.stream
-  const card = progress >= CHAT.card
-  const done = progress >= CHAT.done
   const keys = useRun(typing, CHAT_RUN.type)
-  const flow = useRun(streaming, CHAT_RUN.stream)
+  const reply = useRun(sent, CHAT_REPLY.done) * CHAT_REPLY.done // ms into the reply
+  const card = sent && reply >= CHAT_REPLY.card
+  const done = sent && reply >= CHAT_REPLY.done
   const words = answerWords(c.answer)
   const typed = sent ? c.question.length : Math.round(keys * c.question.length)
+  const flow = Math.min(1, Math.max(0, (reply - CHAT_REPLY.think) / CHAT_REPLY.stream))
   const streamed = card ? words.length : Math.round(flow * words.length)
   const thinking = sent && streamed === 0
 

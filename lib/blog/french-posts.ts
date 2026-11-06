@@ -98,7 +98,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La recherche en finance comportementale {\" \"} montre que quand un système nous humilie, nous évitons de le regarder. Et quand nous évitons de regarder, nous perdons le contrôle de nos finances. Ce n'est pas de la paresse ; c'est de l'évitement émotionnel. Un bon budget fait le contraire. Il t'invite à revenir, même quand tu n'as pas ouvert l'application depuis trois jours, sans jamais te réprimander."
+                "text": "La recherche en finance comportementale montre que quand un système nous humilie, nous évitons de le regarder. Et quand nous évitons de regarder, nous perdons le contrôle de nos finances. Ce n'est pas de la paresse ; c'est de l'évitement émotionnel. Un bon budget fait le contraire. Il t'invite à revenir, même quand tu n'as pas ouvert l'application depuis trois jours, sans jamais te réprimander."
         },
         {
                 "kind": "p",
@@ -146,7 +146,7 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Toi et ton partenaire disputez à propos d'argent mais aucun de vous ne peut pointer vers des chiffres précis."
+                        "Tu te disputes avec ton partenaire à propos d'argent, mais ni l'un ni l'autre ne peut pointer vers des chiffres précis."
                 ]
         },
         {
@@ -234,7 +234,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Utilise une application de budget. Des apps comme{\" \"} Savlo te permettent d'enregistrer les dépenses manuellement ou d'importer depuis un CSV, pour que tu gardes le contrôle de tes données."
+                "text": "- Utilise une application de budget. Des apps comme Savlo te permettent d'enregistrer les dépenses manuellement ou d'importer depuis un CSV, pour que tu gardes le contrôle de tes données."
         },
         {
                 "kind": "p",
@@ -251,7 +251,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Sans catégories simples, budgétiser devient une liste infinie de catégories que personne n'entretient. Nous recommandons de commencer avec une adaptation flexible de la{\" \"} règle 50/30/20 :"
+                "text": "Sans catégories simples, budgétiser devient une liste infinie de catégories que personne n'entretient. Nous recommandons de commencer avec une adaptation flexible de la règle 50/30/20 :"
         },
         {
                 "kind": "p",
@@ -263,7 +263,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- 20% Futur : Épargne, investissements, paiements supplémentaires de dette et cotisations à ton{\" \"}"
+                "text": "- 20% Futur : Épargne, investissements, paiements supplémentaires de dette et cotisations à ton "
         },
         {
                 "kind": "p",
@@ -296,7 +296,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Un coussin de sécurité. Commence avec 500 $ ou un mois de dépenses, ce qui est le plus petit. C'est ton premier jalon. Une fois que tu l'atteins, vise trois mois, puis six. Pour un aperçu plus approfondi, lis notre guide sur{\" \"}"
+                "text": "- Un coussin de sécurité. Commence avec 500 $ ou un mois de dépenses, ce qui est le plus petit. C'est ton premier jalon. Une fois que tu l'atteins, vise trois mois, puis six. Pour un aperçu plus approfondi, lis notre guide sur "
         },
         {
                 "kind": "p",
@@ -334,7 +334,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La{\" \"} règle 50/30/20 divise ton revenu après impôts en trois catégories : cinquante pour cent pour les besoins, trente pour cent pour les envies et vingt pour cent pour l'épargne et le remboursement des dettes. Elle a été popularisée par la sénatrice Elizabeth Warren dans son livre{\" \"} All Your Worth: The Ultimate Lifetime Money Plan, co-écrit avec sa fille Amelia Warren Tyagi."
+                "text": "La règle 50/30/20 divise ton revenu après impôts en trois catégories : cinquante pour cent pour les besoins, trente pour cent pour les envies et vingt pour cent pour l'épargne et le remboursement des dettes. Elle a été popularisée par la sénatrice Elizabeth Warren dans son livre All Your Worth: The Ultimate Lifetime Money Plan, co-écrit avec sa fille Amelia Warren Tyagi."
         },
         {
                 "kind": "p",
@@ -346,7 +346,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour un décomplet complet de cette méthode — y compris comment gérer les situations où les besoins dépassent 50 pour cent, comment l'adapter pour les couples et les erreurs courantes à éviter — consulte notre guide complet sur la{\" \"} règle 50/30/20."
+                "text": "Pour un décomplet complet de cette méthode — y compris comment gérer les situations où les besoins dépassent 50 pour cent, comment l'adapter pour les couples et les erreurs courantes à éviter — consulte notre guide complet sur la règle 50/30/20."
         },
         {
                 "id": "budget-base-z-ro-contr-le-maximum",
@@ -355,7 +355,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Avec{\" \"}"
+                "text": "Avec "
         },
         {
                 "kind": "p",
@@ -384,7 +384,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le{\" \"} système d'enveloppes est la méthode de budgétisation la plus ancienne encore largement utilisée, et pour une bonne raison : ça fonctionne. Tu affectes du cash à des enveloppes physiques étiquetées avec des catégories de dépenses — courses, divertissement, vêtements, dépenses personnelles. Quand une enveloppe est vide, tu arrêtes de dépenser dans cette catégorie pour le reste du mois."
+                "text": "Le système d'enveloppes est la méthode de budgétisation la plus ancienne encore largement utilisée, et pour une bonne raison : ça fonctionne. Tu affectes du cash à des enveloppes physiques étiquetées avec des catégories de dépenses — courses, divertissement, vêtements, dépenses personnelles. Quand une enveloppe est vide, tu arrêtes de dépenser dans cette catégorie pour le reste du mois."
         },
         {
                 "kind": "p",
@@ -409,7 +409,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Configure des virements automatiques le jour de paie pour ton fonds d'urgence, tes{\" \"} fonds de prévoyance (comptes d'épargne pour des dépenses planifiées spécifiques) et les investissements à long terme. Ce qui reste sur ton compte courant est à toi pour dépenser sans culpabilité. C'est la liberté opérationnelle, pas le micro-management."
+                "text": "Configure des virements automatiques le jour de paie pour ton fonds d'urgence, tes fonds de prévoyance (comptes d'épargne pour des dépenses planifiées spécifiques) et les investissements à long terme. Ce qui reste sur ton compte courant est à toi pour dépenser sans culpabilité. C'est la liberté opérationnelle, pas le micro-management."
         },
         {
                 "kind": "p",
@@ -582,7 +582,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le principe central est le suivant : dépense en fonction de ton{\" \"} mois le plus faible récent, pas ta moyenne ou ton meilleur mois. Si ton revenu des six derniers mois était de 2 800 $, 3 400 $, 4 100 $, 3 200 $, 4 500 $ et 3 000 $, ton budget pour le mois prochain est de 2 800 $ — le chiffre le plus bas. Tout revenu au-dessus va dans un compte tampon."
+                "text": "Le principe central est le suivant : dépense en fonction de ton mois le plus faible récent, pas ta moyenne ou ton meilleur mois. Si ton revenu des six derniers mois était de 2 800 $, 3 400 $, 4 100 $, 3 200 $, 4 500 $ et 3 000 $, ton budget pour le mois prochain est de 2 800 $ — le chiffre le plus bas. Tout revenu au-dessus va dans un compte tampon."
         },
         {
                 "kind": "p",
@@ -594,7 +594,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "C'est aussi là que des outils comme{\" \"} Savlo deviennent particulièrement utiles. L'enregistrement vocal signifie que tu peux saisir des dépenses immédiatement quand elles se produisent — sans attendre d'être à un ordinateur pour mettre à jour un tableur. Et comme Savlo ne nécessite pas de connexion bancaire, tes données financières restent privées, ce qui est encore plus important quand ton revenu est irrégulier et ta situation financière est sensible."
+                "text": "C'est aussi là que des outils comme Savlo deviennent particulièrement utiles. L'enregistrement vocal signifie que tu peux saisir des dépenses immédiatement quand elles se produisent — sans attendre d'être à un ordinateur pour mettre à jour un tableur. Et comme Savlo ne nécessite pas de connexion bancaire, tes données financières restent privées, ce qui est encore plus important quand ton revenu est irrégulier et ta situation financière est sensible."
         },
         {
                 "kind": "divider"
@@ -614,7 +614,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Un budget partagée et une allocation personnelle.{\" \"} Le budget partagé couvre le loyer, les courses, les services publics, les objectifs d'épargne et les dépenses partagées. Chaque partenaire reçoit une allocation personnelle égale — sans questions — qu'il peut dépenser comme il veut. Cela élimine la friction de justifier chaque petit achat à quelqu'un d'autre."
+                "text": "- Un budget partagée et une allocation personnelle. Le budget partagé couvre le loyer, les courses, les services publics, les objectifs d'épargne et les dépenses partagées. Chaque partenaire reçoit une allocation personnelle égale — sans questions — qu'il peut dépenser comme il veut. Cela élimine la friction de justifier chaque petit achat à quelqu'un d'autre."
         },
         {
                 "kind": "p",
@@ -673,11 +673,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour une comparaison détaillée des meilleures options disponibles maintenant, consulte notre guide sur les{\" \"}"
+                "text": "Pour une comparaison détaillée des meilleures options disponibles maintenant, consulte notre guide sur les "
         },
         {
                 "kind": "p",
-                "text": "meilleures alternatives à Mint en 2025 . Pour une comparaison directe des trois meilleurs candidats, consulte notre{\" \"}"
+                "text": "meilleures alternatives à Mint en 2025 . Pour une comparaison directe des trois meilleurs candidats, consulte notre "
         },
         {
                 "kind": "p",
@@ -751,7 +751,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Utilise la méthode du mois le plus faible décrite dans la section sur le revenu irrégulier ci-dessus. Budgétise en fonction de ton pire mois récent. Tout revenu au-dessus de cela va dans un compte tampon. Avec le temps, ce tampon grandit assez pour couvrir un mauvais mois sans stress. Pour une analyse plus approfondie, consulte notre guide sur{\" \"}"
+                "text": "Utilise la méthode du mois le plus faible décrite dans la section sur le revenu irrégulier ci-dessus. Budgétise en fonction de ton pire mois récent. Tout revenu au-dessus de cela va dans un compte tampon. Avec le temps, ce tampon grandit assez pour couvrir un mauvais mois sans stress. Pour une analyse plus approfondie, consulte notre guide sur "
         },
         {
                 "kind": "p",
@@ -764,7 +764,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Construis d'abord un petit fonds d'urgence — 500 $ ou un mois de dépenses. Cela t'empêche de contracter davantage de dettes quand quelque chose d'inattendu se produit. Ensuite, rembourse agressivement les dettes à haut intérêt (cartes de crédit, prêts à courte durée) tout en faisant les paiements minimums sur tout le reste. Une fois les dettes à haut intérêt éliminées, redirige cet argent vers un fonds d'urgence complet. Pour plus de détails, consulte notre guide sur{\" \"}"
+                "text": "Construis d'abord un petit fonds d'urgence — 500 $ ou un mois de dépenses. Cela t'empêche de contracter davantage de dettes quand quelque chose d'inattendu se produit. Ensuite, rembourse agressivement les dettes à haut intérêt (cartes de crédit, prêts à courte durée) tout en faisant les paiements minimums sur tout le reste. Une fois les dettes à haut intérêt éliminées, redirige cet argent vers un fonds d'urgence complet. Pour plus de détails, consulte notre guide sur "
         },
         {
                 "kind": "p",
@@ -786,7 +786,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Commence par partager tes propres chiffres, pas en critiquant les siens. La vulnérabilité est plus persuasive que l'autorité. Montre-lui ton revenu, tes dépenses et l'écart entre ce que tu attendais et ce qui s'est réellement passé. La plupart des partenaires répondent aux données, pas à un sermon. Puis construisez le budget ensemble. Pour plus à ce sujet, consulte la section sur le budget en couple ci- dessus."
+                "text": "Commence par partager tes propres chiffres, pas en critiquant les siens. La vulnérabilité est plus persuasive que l'autorité. Montre-lui ton revenu, tes dépenses et l'écart entre ce que tu attendais et ce qui s'est réellement passé. La plupart des partenaires répondent aux données, pas à un sermon. Puis construis le budget ensemble. Pour plus à ce sujet, consulte la section sur le budget en couple ci- dessus."
         },
         {
                 "id": "la-budg-tisation-peut-elle-aider-avec-l-anxi-t-fin",
@@ -795,7 +795,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Oui. L'anxiété financière découle souvent de l'incertitude — ne pas savoir où va ton argent, ne pas savoir si tu peux te permettre quelque chose, ne pas savoir combien de dettes tu as. Un budget remplace l'incertitude par l'information. Il ne résout pas tous les problèmes financiers, mais il te donne une image claire de ta situation, ce qui est le premier pas pour se sentir en contrôle. Pour plus sur la relation entre l'argent et la santé mentale, consulte notre guide sur{\" \"} l'anxiété financière."
+                "text": "Oui. L'anxiété financière découle souvent de l'incertitude — ne pas savoir où va ton argent, ne pas savoir si tu peux te permettre quelque chose, ne pas savoir combien de dettes tu as. Un budget remplace l'incertitude par l'information. Il ne résout pas tous les problèmes financiers, mais il te donne une image claire de ta situation, ce qui est le premier pas pour se sentir en contrôle. Pour plus sur la relation entre l'argent et la santé mentale, consulte notre guide sur l'anxiété financière."
         },
         {
                 "id": "qu-est-ce-que-la-dysmorphie-mon-taire-et-comment-a",
@@ -862,7 +862,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La règle a été popularisée par la sénatrice Elizabeth Warren dans son livre{\" \"} All Your Worth: The Ultimate Lifetime Money Plan, coécrit avec sa fille Amelia Warren Tyagi. Warren a observé que les familles financièrement les plus stables qu'elle a étudiées ne s'obsessionnaient pas avec chaque poste budgétaire. Elles maintenaient trois grandes catégories en équilibre. Les détails au sein de chaque catégorie comptaient moins que le ratio global."
+                "text": "La règle a été popularisée par la sénatrice Elizabeth Warren dans son livre All Your Worth: The Ultimate Lifetime Money Plan, coécrit avec sa fille Amelia Warren Tyagi. Warren a observé que les familles financièrement les plus stables qu'elle a étudiées ne s'obsessionnaient pas avec chaque poste budgétaire. Elles maintenaient trois grandes catégories en équilibre. Les détails au sein de chaque catégorie comptaient moins que le ratio global."
         },
         {
                 "kind": "p",
@@ -983,7 +983,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si tu es freelance, travailleur indépendant, ou toute personne dont les revenus fluctuent, le calcul nécessite une étape supplémentaire. Utilise ton{\" \"} mois le moins rémunérateur des six derniers mois comme base de revenus. Budgette à partir de ce chiffre. Quand les mois sont meilleurs, l'excédent se déverse automatiquement dans ta catégorie d'épargne."
+                "text": "Si tu es freelance, travailleur indépendant, ou toute personne dont les revenus fluctuent, le calcul nécessite une étape supplémentaire. Utilise ton mois le moins rémunérateur des six derniers mois comme base de revenus. Budgette à partir de ce chiffre. Quand les mois sont meilleurs, l'excédent se déverse automatiquement dans ta catégorie d'épargne."
         },
         {
                 "kind": "p",
@@ -1079,7 +1079,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'idée clé est celle-ci : les pourcentages sont une boussole, pas une cage.{\" \"} Si tes besoins sont réellement élevés, tu ajustes les deux autres catégories plutôt que d'abandonner le cadre complètement. La pire réponse à des coûts élevés est d'arrêter de suivre complètement."
+                "text": "L'idée clé est celle-ci : les pourcentages sont une boussole, pas une cage. Si tes besoins sont réellement élevés, tu ajustes les deux autres catégories plutôt que d'abandonner le cadre complètement. La pire réponse à des coûts élevés est d'arrêter de suivre complètement."
         },
         {
                 "id": "la-cat-gorie-30-envies-la-permission-de-profiter-d",
@@ -1247,7 +1247,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La recommandation standard est de trois à six mois de dépenses essentielles. Si ce chiffre semble accablant, commence plus petit. Un premier palier de mille euros empêche la majorité des urgences financières de devenir des événements de dette. En savoir plus sur la constitution d'un fonds d'urgence dans notre guide sur{\" \"} les fonds de réserve et l'épargne d'urgence."
+                "text": "La recommandation standard est de trois à six mois de dépenses essentielles. Si ce chiffre semble accablant, commence plus petit. Un premier palier de mille euros empêche la majorité des urgences financières de devenir des événements de dette. En savoir plus sur la constitution d'un fonds d'urgence dans notre guide sur les fonds de réserve et l'épargne d'urgence."
         },
         {
                 "id": "rembourser-strat-giquement-les-dettes",
@@ -1424,7 +1424,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Notre exploration plus approfondie de{\" \"} l'anxiété financière couvre des stratégies pratiques pour réduire la charge émotionnelle des revues financières."
+                "text": "Notre exploration plus approfondie de l'anxiété financière couvre des stratégies pratiques pour réduire la charge émotionnelle des revues financières."
         },
         {
                 "id": "r-gle-50-30-20-versus-budg-tisation-base-z-ro",
@@ -1433,7 +1433,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Deux des cadres budgétaires les plus populaires sont la règle 50/30/20 et la{\" \"} budgétisation à base zéro. Ils résolvent des problèmes différents et conviennent à des personnalités différentes."
+                "text": "Deux des cadres budgétaires les plus populaires sont la règle 50/30/20 et la budgétisation à base zéro. Ils résolvent des problèmes différents et conviennent à des personnalités différentes."
         },
         {
                 "kind": "p",
@@ -1533,7 +1533,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour en savoir plus sur la construction d'habitudes financières durables, consulte notre guide sur{\" \"} comment faire un budget que tu suivras réellement."
+                "text": "Pour en savoir plus sur la construction d'habitudes financières durables, consulte notre guide sur comment faire un budget que tu suivras réellement."
         },
         {
                 "id": "comment-adapter-la-r-gle-50-30-20-ta-vie",
@@ -1595,7 +1595,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si ton assurance auto coûte 1 200 € par an, un fonds de réserve de 100 € par mois signifie que la facture arrive et tu la paies simplement — pas de perturbation financière, pas de dette, pas de stress. En savoir plus sur la mise en place de fonds de réserve dans notre guide détaillé sur{\" \"} les fonds de réserve et les dépenses prévues."
+                "text": "Si ton assurance auto coûte 1 200 € par an, un fonds de réserve de 100 € par mois signifie que la facture arrive et tu la paies simplement — pas de perturbation financière, pas de dette, pas de stress. En savoir plus sur la mise en place de fonds de réserve dans notre guide détaillé sur les fonds de réserve et les dépenses prévues."
         },
         {
                 "id": "pourquoi-la-r-gle-50-30-20-survit-plus-longtemps-q",
@@ -1612,7 +1612,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour une exploration plus approfondie de pourquoi la plupart des méthodes budgétaires échouent — et la science comportementale derrière cela — lis notre article sur{\" \"} pourquoi les budgets traditionnels échouent."
+                "text": "Pour une exploration plus approfondie de pourquoi la plupart des méthodes budgétaires échouent — et la science comportementale derrière cela — lis notre article sur pourquoi les budgets traditionnels échouent."
         },
         {
                 "id": "comment-savlo-soutient-l-approche-50-30-20",
@@ -1727,7 +1727,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Applique les pourcentages à votre revenu net combiné du ménage. Asseyez-vous ensemble et catégorisez vos dépenses partagées : logement, charges, courses et transport vont dans les besoins. Les dépenses discrétionnaires individuelles — les envies personnelles de chaque partenaire — vont dans les envies. L'épargne conjointe et les remboursements de dettes vont dans la catégorie vingt pour cent. La clé est de se mettre d'accor sur ce qui compte comme besoin ou envie, ce qui nécessite une conversation honnête. Beaucoup de couples trouvent que le cadre lui-même facilite cette conversation, parce qu'il fournit un vocabulaire commun pour parler d'argent sans blâme."
+                "text": "Applique les pourcentages à ton revenu net combiné du ménage. Assieds-toi avec ton partenaire pour classer ensemble les dépenses partagées : logement, charges, courses et transport vont dans les besoins. Les dépenses discrétionnaires individuelles — les envies personnelles de chaque partenaire — vont dans les envies. L'épargne conjointe et les remboursements de dettes vont dans la catégorie vingt pour cent. La clé est de se mettre d'accor sur ce qui compte comme besoin ou envie, ce qui nécessite une conversation honnête. Beaucoup de couples trouvent que le cadre lui-même facilite cette conversation, parce qu'il fournit un vocabulaire commun pour parler d'argent sans blâme."
         },
         {
                 "id": "combien-de-temps-dois-je-essayer-la-r-gle-50-30-20",
@@ -3258,15 +3258,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous êtes à la caisse. Vous venez de payer. Vous savez que vous devriez l'enregistrer. Mais quand vous rentrez à la maison — ou même dans votre voiture — le montant est flou, le nom du commerçant a disparu, et le moment est passé. Vous vous dites que vous le reconstruirez plus tard à partir de votre relevé bancaire. Vous ne le ferez pas. C'est exactement la lacune que le suivi des dépenses par voix est conçu pour combler."
+                "text": "Tu es à la caisse. Tu viens de payer. Tu sais que tu devrais l'enregistrer. Mais quand tu rentres à la maison — ou même dans ta voiture — le montant est flou, le nom du commerçant a disparu, et le moment est passé. Tu te dis que tu le reconstruiras plus tard à partir de ton relevé bancaire. Tu ne le feras pas. C'est exactement la lacune que le suivi des dépenses par voix est conçu pour combler."
         },
         {
                 "kind": "p",
-                "text": "Toute méthode de budgétisation — que ce soit la règle 50/30/20, le budget à base zéro ou un simple système d'enveloppes — repose sur le même acte fondamental : savoir ce que vous avez dépensé. Pas approximativement. Pas de mémoire. Vraiment savoir. L'écart entre l'intention et l'action est là où les budgets meurent, et le suivi vocal comble cet écart avec l'outil le plus simple que vous avez déjà — votre voix."
+                "text": "Toute méthode de budgétisation — que ce soit la règle 50/30/20, le budget à base zéro ou un simple système d'enveloppes — repose sur le même acte fondamental : savoir ce que tu as dépensé. Pas approximativement. Pas de mémoire. Vraiment savoir. L'écart entre l'intention et l'action est là où les budgets meurent, et le suivi vocal comble cet écart avec l'outil le plus simple que tu as déjà — ta voix."
         },
         {
                 "kind": "p",
-                "text": "Cet article explique comment fonctionne le suivi des dépenses par voix, la science derrière le fait de dire vos dépenses à voix haute vous rend plus conscient financièrement, comment il se compare à d'autres méthodes de captation des dépenses et quoi rechercher si vous décidez de l'essayer. À la fin, vous aurez une image claire de si cette approche correspond à la façon dont vous vivez et dépensez réellement."
+                "text": "Cet article explique comment fonctionne le suivi des dépenses par voix, la science derrière le fait de dire tes dépenses à voix haute te rend plus conscient financièrement, comment il se compare à d'autres méthodes de captation des dépenses et quoi rechercher si tu décides de l'essayer. À la fin, tu auras une image claire de si cette approche correspond à la façon dont tu vis et dépenses réellement."
         },
         {
                 "id": "la-vraie-raison-pour-laquelle-les-gens-abandonnent",
@@ -3279,11 +3279,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Ce processus prend entre 30 et 60 secondes par transaction. La personne moyenne effectue entre 20 et 30 achats par semaine. Faites le calcul : ce sont jusqu'à 30 minutes de saisie de données chaque semaine, réparties sur des moments où vous êtes occupé, distrait ou déjà passé à la chose suivante."
+                "text": "Ce processus prend entre 30 et 60 secondes par transaction. La personne moyenne effectue entre 20 et 30 achats par semaine. Fais le calcul : ce sont jusqu'à 30 minutes de saisie de données chaque semaine, réparties sur des moments où tu es occupé, distrait ou déjà passé à la chose suivante."
         },
         {
                 "kind": "p",
-                "text": "La plupart des personnes prennent du retard en moins d'une semaine. Une fois en retard, rattraper le retard semble accablant. Alors vous arrêtez. L'app reste inutilisée. La culpabilité s'accumule silencieusement. Et finalement, vous en concluez que vous n'êtes « simplement pas une personne de budget » — quand le vrai coupable était un problème de conception, pas de discipline."
+                "text": "La plupart des personnes prennent du retard en moins d'une semaine. Une fois en retard, rattraper le retard semble accablant. Alors tu arrêtes. L'app reste inutilisée. La culpabilité s'accumule silencieusement. Et finalement, tu en conclus que tu n'es « simplement pas une personne de budget » — quand le vrai coupable était un problème de conception, pas de discipline."
         },
         {
                 "kind": "p",
@@ -3300,7 +3300,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'interaction est conçue pour se sentir aussi naturelle que penser à voix haute. Vous dites la dépense au moment où elle se produit — aucune syntaxe spéciale requise, aucun mot de commande à mémoriser."
+                "text": "L'interaction est conçue pour se sentir aussi naturelle que penser à voix haute. Tu dis la dépense au moment où elle se produit — aucune syntaxe spéciale requise, aucun mot de commande à mémoriser."
         },
         {
                 "kind": "p",
@@ -3344,7 +3344,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'app analyse le montant, le commerçant ou le contexte et infère une catégorie de dépense en fonction de ce que vous avez dit. Un seul tap de confirmation vous permet d'accepter la suggestion ou de l'ajuster. Toute l'interaction — de la prise de parole à l'enregistrement confirmé — prend environ cinq secondes."
+                "text": "L'app analyse le montant, le commerçant ou le contexte et infère une catégorie de dépense en fonction de ce que tu as dit. Un seul tap de confirmation te permet d'accepter la suggestion ou de l'ajuster. Toute l'interaction — de la prise de parole à l'enregistrement confirmé — prend environ cinq secondes."
         },
         {
                 "kind": "p",
@@ -3352,7 +3352,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Ce qui distingue cela des approches plus anciennes des assistants vocaux est l'analyse du langage naturel. Vous n'avez pas besoin de dire « enregistrer dépense : montant : catégorie ». Vous parlez simplement comme vous parleriez à un ami. « Je viens de dépenser quinze dollars pour le déjeuner. » « Vingt-deux chez quincaillier. » Le système comprend les indices de contexte — noms de commerçants, montants, indices de catégorie — et les combine sans que vous ayez à penser au formatage."
+                "text": "Ce qui distingue cela des approches plus anciennes des assistants vocaux est l'analyse du langage naturel. Tu n'as pas besoin de dire « enregistrer dépense : montant : catégorie ». Tu parles simplement comme tu parlerais à un ami. « Je viens de dépenser quinze dollars pour le déjeuner. » « Vingt-deux chez quincaillier. » Le système comprend les indices de contexte — noms de commerçants, montants, indices de catégorie — et les combine sans que tu aies à penser au formatage."
         },
         {
                 "id": "la-science-derri-re-le-fait-de-dire-ses-d-penses-v",
@@ -3361,11 +3361,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Il y a une raison pour laquelle le suivi vocal se sent différent de taper un montant dans un tableur ou d'appuyer sur une catégorie dans une app. Ce n'est pas seulement plus rapide — cela change la façon dont votre cerveau traite l'information. La différence est enracinée dans le fonctionnement de la mémoire et de l'encodage."
+                "text": "Il y a une raison pour laquelle le suivi vocal se sent différent de taper un montant dans un tableur ou d'appuyer sur une catégorie dans une app. Ce n'est pas seulement plus rapide — cela change la façon dont ton cerveau traite l'information. La différence est enracinée dans le fonctionnement de la mémoire et de l'encodage."
         },
         {
                 "kind": "p",
-                "text": "Les psychologues cognitifs étudient ce qu'ils appellent l'« effet de génération » depuis des décennies. La découverte centrale est simple : l'information que vous produisez activement — parler, écrire à la main, générer une réponse — crée des traces de mémoire plus fortes que l'information que vous recevez ou observez passivement. Quand vous tapez « 18.50 » dans un champ, vos doigts effectuent une action mécanique. Quand vous dites « dix-huit dollars et cinquante centimes pour le déjeuner », votre cerveau construit la phrase, encode le montant verbalement, l'associe à un contexte et la produit à travers votre appareil vocal — tout en même temps. Cet encodage multisensoriel crée une trace de mémoire plus riche."
+                "text": "Les psychologues cognitifs étudient ce qu'ils appellent l'« effet de génération » depuis des décennies. La découverte centrale est simple : l'information que tu produis activement — parler, écrire à la main, générer une réponse — crée des traces de mémoire plus fortes que l'information que tu reçois ou observes passivement. Quand tu tapes « 18.50 » dans un champ, tes doigts effectuent une action mécanique. Quand tu dis « dix-huit dollars et cinquante centimes pour le déjeuner », ton cerveau construit la phrase, encode le montant verbalement, l'associe à un contexte et la produit à travers ton appareil vocal — tout en même temps. Cet encodage multisensoriel crée une trace de mémoire plus riche."
         },
         {
                 "kind": "p",
@@ -3373,7 +3373,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les implications pour le suivi des dépenses sont significatives. Quand vous dites « café, quatre dollars » à voix haute, vous ne faites pas qu'enregistrer une transaction — vous créez un moment conscient de prise de conscience. Le nombre entre dans votre mémoire de travail. Le contexte (café) est associé au montant. L'acte de parler force une brève pause entre l'achat et la prochaine chose sur votre liste de tâches."
+                "text": "Les implications pour le suivi des dépenses sont significatives. Quand tu dis « café, quatre dollars » à voix haute, tu ne fais pas qu'enregistrer une transaction — tu crées un moment conscient de prise de conscience. Le nombre entre dans ta mémoire de travail. Le contexte (café) est associé au montant. L'acte de parler force une brève pause entre l'achat et la prochaine chose sur ta liste de tâches."
         },
         {
                 "kind": "p",
@@ -3381,7 +3381,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'enregistrement vocal interrompt ce modèle. Pas par la culpabilité, pas par des alertes, pas par des barres rouges d'avertissement — mais par l'acte neurologique simple de parler. Quand vous dites le montant à voix haute, il devient réel d'une manière qu'un tap silencieux de carte n'atteint jamais. Vous ne pouvez pas inconsciemment reconnaître quelque chose que vous venez de verbaliser. La conscience est intégrée au mécanisme."
+                "text": "L'enregistrement vocal interrompt ce modèle. Pas par la culpabilité, pas par des alertes, pas par des barres rouges d'avertissement — mais par l'acte neurologique simple de parler. Quand tu dis le montant à voix haute, il devient réel d'une manière qu'un tap silencieux de carte n'atteint jamais. Tu ne peux pas inconsciemment reconnaître quelque chose que tu viens de verbaliser. La conscience est intégrée au mécanisme."
         },
         {
                 "kind": "p",
@@ -3389,28 +3389,28 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La différence entre l'enregistrement vocal et la saisie manuelle traditionnelle est que l'enregistrement vocal crée cette conscience sans la friction qui rend la saisie manuelle insoutenable. Vous obtenez le bénéfice psychologique de la reconnaissance consciente à une fraction du coût cognitif. Cette combinaison — faible friction plus haute conscience — est ce qui rend le suivi vocal unique et efficace par rapport aux autres méthodes."
+                "text": "La différence entre l'enregistrement vocal et la saisie manuelle traditionnelle est que l'enregistrement vocal crée cette conscience sans la friction qui rend la saisie manuelle insoutenable. Tu obtiens le bénéfice psychologique de la reconnaissance consciente à une fraction du coût cognitif. Cette combinaison — faible friction plus haute conscience — est ce qui rend le suivi vocal unique et efficace par rapport aux autres méthodes."
         },
         {
                 "id": "la-question-de-la-confidentialit-et-pourquoi-elle-",
                 "kind": "h2",
-                "text": "La question de la confidentialité — et pourquoi elle compte plus que vous ne le pensez"
+                "text": "La question de la confidentialité — et pourquoi elle compte plus que tu ne le penses"
         },
         {
                 "kind": "p",
-                "text": "Les données vocales figurent parmi les données les plus sensibles que vous pouvez générer. Le contenu de ce que vous dites est une chose ; les schémas de quand vous le dites, où vous êtes et ce que vous achetez forment un profil de comportement extraordinairement détaillé."
+                "text": "Les données vocales figurent parmi les données les plus sensibles que tu peux générer. Le contenu de ce que tu dis est une chose ; les schémas de quand tu le dis, où tu es et ce que tu achètes forment un profil de comportement extraordinairement détaillé."
         },
         {
                 "kind": "p",
-                "text": "De nombreuses apps à fonction vocale — budgétisation ou autre — envoient l'audio à des serveurs cloud pour traitement. C'est généralement divulgué quelque part dans la politique de confidentialité, dans un langage que la plupart des gens ne lisent pas. L'implication pratique : vos enregistrements vocaux et les données de transaction intégrées sont stockés sur une infrastructure que vous ne contrôlez pas, souvent conservés pour l'entraînement de modèles ou l'amélioration du service."
+                "text": "De nombreuses apps à fonction vocale — budgétisation ou autre — envoient l'audio à des serveurs cloud pour traitement. C'est généralement divulgué quelque part dans la politique de confidentialité, dans un langage que la plupart des gens ne lisent pas. L'implication pratique : tes enregistrements vocaux et les données de transaction intégrées sont stockés sur une infrastructure que tu ne contrôles pas, souvent conservés pour l'entraînement de modèles ou l'amélioration du service."
         },
         {
                 "kind": "p",
-                "text": "Le traitement sur l'appareil maintient l'audio sur votre appareil — la reconnaissance vocale se produit localement, la transaction est enregistrée localement et rien n'est transmis à l'extérieur. Lors de l'évaluation de toute app financière à fonction vocale, « traitement audio sur l'appareil » dans la politique de confidentialité est la phrase à rechercher. Ces détails comptent bien plus que le titre marketing."
+                "text": "Le traitement sur l'appareil maintient l'audio sur ton appareil — la reconnaissance vocale se produit localement, la transaction est enregistrée localement et rien n'est transmis à l'extérieur. Lors de l'évaluation de toute app financière à fonction vocale, « traitement audio sur l'appareil » dans la politique de confidentialité est la phrase à rechercher. Ces détails comptent bien plus que le titre marketing."
         },
         {
                 "kind": "p",
-                "text": "C'est particulièrement important pour les apps financières, où chaque transaction que vous enregistrez est un point de données sur votre niveau de revenus, votre style de vie, votre santé, vos relations et vos habitudes. Un achat de café à 7 heures du matin raconte une histoire sur votre routine matinale. Une visite à la pharmacie raconte une histoire sur votre santé. Un restaurant un mardi soir raconte une histoire sur votre vie sociale. Agrégées sur des semaines et des mois, ces données forment un portrait de votre vie quotidienne qui est remarquablement intime — et vous devriez être la seule personne qui y a accès."
+                "text": "C'est particulièrement important pour les apps financières, où chaque transaction que tu enregistres est un point de données sur ton niveau de revenus, ton style de vie, ta santé, tes relations et tes habitudes. Un achat de café à 7 heures du matin raconte une histoire sur ta routine matinale. Une visite à la pharmacie raconte une histoire sur ta santé. Un restaurant un mardi soir raconte une histoire sur ta vie sociale. Agrégées sur des semaines et des mois, ces données forment un portrait de ta vie quotidienne qui est remarquablement intime — et tu devrais être la seule personne qui y a accès."
         },
         {
                 "id": "suivi-vocal-vs-autres-m-thodes-de-captation-des-d-",
@@ -3419,7 +3419,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Il y a quatre façons principales de capturer une dépense au moment où elle se produit. Chacune présente des compromis différents en termes de vitesse, de précision, de confidentialité et de couverture. Comprendre ces compromis vous aide à choisir la bonne approche pour votre situation — ou à combiner les méthodes pour de meilleurs résultats."
+                "text": "Il y a quatre façons principales de capturer une dépense au moment où elle se produit. Chacune présente des compromis différents en termes de vitesse, de précision, de confidentialité et de couverture. Comprendre ces compromis t'aide à choisir la bonne approche pour ta situation — ou à combiner les méthodes pour de meilleurs résultats."
         },
         {
                 "id": "comparaison-des-m-thodes",
@@ -3428,23 +3428,23 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Enregistrement vocal : Vous dites la dépense à voix haute, et l'app analyse le montant, le commerçant et la catégorie. Vitesse : 4 à 6 secondes. Précision : élevée au moment de la captation, puisque vous rapportez ce qui vient de se passer. Confidentialité : excellente lorsque le traitement sur l'appareil est utilisé. Couverture : capture tout, y compris les transactions en espèces. Friction : minimale — une phrase, un tap. Hors ligne : fonctionne sans connexion Internet."
+                "text": "- Enregistrement vocal : Tu dis la dépense à voix haute, et l'app analyse le montant, le commerçant et la catégorie. Vitesse : 4 à 6 secondes. Précision : élevée au moment de la captation, puisque tu rapportes ce qui vient de se passer. Confidentialité : excellente lorsque le traitement sur l'appareil est utilisé. Couverture : capture tout, y compris les transactions en espèces. Friction : minimale — une phrase, un tap. Hors ligne : fonctionne sans connexion Internet."
         },
         {
                 "kind": "p",
-                "text": "- Scan de reçus / OCR : Vous photographiez un reçu et l'app extrait le texte. Vitesse : 10 à 20 secondes (trouver le reçu, aligner la caméra, attendre le traitement). Précision : dépend de la qualité du reçu — le papier thermique s'efface, les reçus froissés échouent et de nombreux petits commerçants ne donnent pas de reçus. Confidentialité : varie — certaines apps envoient des images à des serveurs cloud pour le traitement OCR. Couverture : ne fonctionne que lorsque vous recevez et conservez un reçu. Friction : modérée. Hors ligne : limitée."
+                "text": "- Scan de reçus / OCR : Tu photographies un reçu et l'app extrait le texte. Vitesse : 10 à 20 secondes (trouver le reçu, aligner la caméra, attendre le traitement). Précision : dépend de la qualité du reçu — le papier thermique s'efface, les reçus froissés échouent et de nombreux petits commerçants ne donnent pas de reçus. Confidentialité : varie — certaines apps envoient des images à des serveurs cloud pour le traitement OCR. Couverture : ne fonctionne que lorsque tu reçois et conserves un reçu. Friction : modérée. Hors ligne : limitée."
         },
         {
                 "kind": "p",
-                "text": "- Saisie manuelle : Vous tapez le montant, sélectionnez une catégorie et ajoutez éventuellement des notes. Vitesse : 30 à 60 secondes. Précision : dépend de la fraîcheur de votre achat — la mémoire se dégrade rapidement. Confidentialité : généralement bonne, puisqu'aucun audio ni image n'est impliqué. Couverture : fonctionne pour tout, mais seulement si vous vous en souvenez de le faire. Friction : élevée — c'est la méthode que la plupart des gens abandonnent. Hors ligne : fonctionne."
+                "text": "- Saisie manuelle : Tu tapes le montant, sélectionnes une catégorie et ajoutes éventuellement des notes. Vitesse : 30 à 60 secondes. Précision : dépend de la fraîcheur de ton achat — la mémoire se dégrade rapidement. Confidentialité : généralement bonne, puisqu'aucun audio ni image n'est impliqué. Couverture : fonctionne pour tout, mais seulement si tu t'en souviens de le faire. Friction : élevée — c'est la méthode que la plupart des gens abandonnent. Hors ligne : fonctionne."
         },
         {
                 "kind": "p",
-                "text": "- Synchronisation bancaire / import automatique : L'app se connecte à votre banque et importe les transactions automatiquement. Vitesse : passive — aucun effort après la configuration. Précision : élevée pour les comptes liés. Confidentialité : nécessite de partager vos identifiants bancaires avec un agrégateur tiers. Couverture : ne capture que les transactions passant par les comptes liés — aucun espèces, aucune dépense partagée, aucune carte que vous n'avez pas liée. Friction : nulle après la configuration, mais la configuration elle-même peut être complexe. Hors ligne : ne fonctionne pas."
+                "text": "- Synchronisation bancaire / import automatique : L'app se connecte à ta banque et importe les transactions automatiquement. Vitesse : passive — aucun effort après la configuration. Précision : élevée pour les comptes liés. Confidentialité : nécessite de partager tes identifiants bancaires avec un agrégateur tiers. Couverture : ne capture que les transactions passant par les comptes liés — aucun espèces, aucune dépense partagée, aucune carte que tu n'as pas liée. Friction : nulle après la configuration, mais la configuration elle-même peut être complexe. Hors ligne : ne fonctionne pas."
         },
         {
                 "kind": "p",
-                "text": "L'enregistrement vocal l'emporte sur la combinaison de vitesse, de confidentialité et de couverture des espèces. C'est la seule méthode qui est simultanément assez rapide pour être utilisée au moment, assez privée pour garder vos données sur votre appareil, et assez flexible pour capturer les achats en espèces qu'aucune synchronisation bancaire ne verra jamais. Le compromis est qu'il nécessite votre participation active — vous devez effectivement dire quelque chose. Mais cette participation active est aussi ce qui crée le bénéfice de conscience qui rend le suivi vocal plus qu'un simple raccourci de saisie de données."
+                "text": "L'enregistrement vocal l'emporte sur la combinaison de vitesse, de confidentialité et de couverture des espèces. C'est la seule méthode qui est simultanément assez rapide pour être utilisée au moment, assez privée pour garder tes données sur ton appareil, et assez flexible pour capturer les achats en espèces qu'aucune synchronisation bancaire ne verra jamais. Le compromis est qu'il nécessite ta participation active — tu dois effectivement dire quelque chose. Mais cette participation active est aussi ce qui crée le bénéfice de conscience qui rend le suivi vocal plus qu'un simple raccourci de saisie de données."
         },
         {
                 "id": "qui-b-n-ficie-le-plus-du-suivi-vocal",
@@ -3457,7 +3457,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Parents en mission de récupération à l'école qui viennent de faire les courses et ont les mains pleines avant même que la voiture ne soit garée. Vous jonglez avec des sacs, des enfants et une douzaine de listes mentales de tâches. Sortir son téléphone pour taper « courses, 47 dollars » n'est pas réalisable. Le dire dans votre téléphone en chargeant le coffre prend deux secondes."
+                "text": "- Parents en mission de récupération à l'école qui viennent de faire les courses et ont les mains pleines avant même que la voiture ne soit garée. Tu jongles avec des sacs, des enfants et une douzaine de listes mentales de tâches. Sortir son téléphone pour taper « courses, 47 dollars » n'est pas réalisable. Le dire dans ton téléphone en chargeant le coffre prend deux secondes."
         },
         {
                 "kind": "p",
@@ -3469,11 +3469,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Les navetteurs qui peuvent enregistrer un café ou un tarif de transport en quelques secondes entre le tap de la carte et l'embarquement dans le train. La fenêtre est minuscule — peut-être cinq secondes entre la transaction et la prochaine chose qui exige votre attention. La voix s'inscrit dans cette fenêtre. La saisie manuelle non."
+                "text": "- Les navetteurs qui peuvent enregistrer un café ou un tarif de transport en quelques secondes entre le tap de la carte et l'embarquement dans le train. La fenêtre est minuscule — peut-être cinq secondes entre la transaction et la prochaine chose qui exige ton attention. La voix s'inscrit dans cette fenêtre. La saisie manuelle non."
         },
         {
                 "kind": "p",
-                "text": "- Toute personne qui a abandonné trois apps de budget ou plus et soupçonne que le problème est la friction, pas la motivation. Si vous avez essayé des tableurs, des trackers manuels et des outils de synchronisation bancaire et ne parvenez toujours pas à maintenir l'habitude, le problème n'est pas l'engagement. C'est que chaque méthode que vous avez essayée nécessite plus d'effort que vous ne pouvez en donner de façon durable. Le suivi vocal change l'équation."
+                "text": "- Toute personne qui a abandonné trois apps de budget ou plus et soupçonne que le problème est la friction, pas la motivation. Si tu as essayé des tableurs, des trackers manuels et des outils de synchronisation bancaire et ne parviens toujours pas à maintenir l'habitude, le problème n'est pas l'engagement. C'est que chaque méthode que tu as essayée nécessite plus d'effort que tu ne peux en donner de façon durable. Le suivi vocal change l'équation."
         },
         {
                 "id": "sc-narios-r-els-o-le-suivi-vocal-brille",
@@ -3491,11 +3491,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "C'est samedi matin. Vous marchez dans un marché de producteurs, achetant des produits de trois vendeurs différents, attrapant un café d'un chariot éphémère et récupérant du pain artisanal d'un stand qui ne prend que des espèces. Aucun de ces vendeurs ne donne de reçus. Aucun n'apparaîtra sur votre relevé bancaire. Quand vous rentrerez chez vous, vous vous souviendrez « quelques trucs au marché » mais pas des montants individuels."
+                "text": "C'est samedi matin. Tu marches dans un marché de producteurs, achetant des produits de trois vendeurs différents, attrapant un café d'un chariot éphémère et récupérant du pain artisanal d'un stand qui ne prend que des espèces. Aucun de ces vendeurs ne donne de reçus. Aucun n'apparaîtra sur ton relevé bancaire. Quand tu rentreras chez toi, tu te souviendras « quelques trucs au marché » mais pas des montants individuels."
         },
         {
                 "kind": "p",
-                "text": "Avec le suivi vocal, vous enregistrez chaque achat au moment où il se produit. « Tomates, huit dollars. » « Café, cinq dollars. » « Pain, six dollars. » Quand vous retournez à la voiture, vous avez un enregistrement complet de vos dépenses au marché — précis, catégorisé et capturé en temps réel. Ce sont 19 dollars de dépenses qui seraient sinon invisibles pour tout système de budgétisation."
+                "text": "Avec le suivi vocal, tu enregistres chaque achat au moment où il se produit. « Tomates, huit dollars. » « Café, cinq dollars. » « Pain, six dollars. » Quand tu retournes à la voiture, tu as un enregistrement complet de tes dépenses au marché — précis, catégorisé et capturé en temps réel. Ce sont 19 dollars de dépenses qui seraient sinon invisibles pour tout système de budgétisation."
         },
         {
                 "id": "partager-le-d-ner-entre-amis",
@@ -3504,11 +3504,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous êtes à dîner avec trois amis. L'addition arrive, vous la partagez à quatre et envoyez votre part par Venmo. La transaction est facile à oublier car elle ne ressemble pas à un achat traditionnel — aucun reçu dans votre portefeuille, aucune facture de carte qui se démarque. Mais c'est toujours une dépense et elle compte toujours dans votre budget."
+                "text": "Tu es à dîner avec trois amis. L'addition arrive, tu la partages à quatre et envoies ta part par Venmo. La transaction est facile à oublier car elle ne ressemble pas à un achat traditionnel — aucun reçu dans ton portefeuille, aucune facture de carte qui se démarque. Mais c'est toujours une dépense et elle compte toujours dans ton budget."
         },
         {
                 "kind": "p",
-                "text": "Un enregistrement vocal rapide — « dîner avec des amis, trente-cinq dollars » — le capture avant que la soirée ne continue. Vous n'avez pas besoin de vous en souvenir plus tard. Vous n'avez pas besoin de chercher dans l'historique Venmo. C'est enregistré, catégorisé et terminé."
+                "text": "Un enregistrement vocal rapide — « dîner avec des amis, trente-cinq dollars » — le capture avant que la soirée ne continue. Tu n'as pas besoin de t'en souvenir plus tard. Tu n'as pas besoin de chercher dans l'historique Venmo. C'est enregistré, catégorisé et terminé."
         },
         {
                 "id": "achat-impulsif-dans-une-pharmacie",
@@ -3517,11 +3517,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous êtes entré pour du dentifrice et vous en êtes ressorti avec du dentifrice, un en-cas, un magazine et une lotion format voyage que vous n'aviez définitivement pas prévu d'acheter. Le total était de 24 dollars, et quand vous atteignez la voiture, la culpabilité vous fait déjà vouloir oublier toute l'affaire."
+                "text": "Tu es entré pour du dentifrice et tu en es ressorti avec du dentifrice, un en-cas, un magazine et une lotion format voyage que tu n'avais définitivement pas prévu d'acheter. Le total était de 24 dollars, et quand tu atteins la voiture, la culpabilité te fait déjà vouloir oublier toute l'affaire."
         },
         {
                 "kind": "p",
-                "text": "C'est exactement le moment où le suivi vocal prouve sa valeur. Le moment de reconnaissance honnête — dire « pharmacie, vingt-quatre dollars » — ne concerne pas la punition. Il concerne la précision. Les achats impulsifs sont les dépenses les plus susceptibles d'être ignorées, minimisées ou oubliées quand vous reconstituez vos dépenses plus tard. Les capturer au moment vous donne la vraie image, qui est la seule image qui vous aide à prendre de meilleures décisions."
+                "text": "C'est exactement le moment où le suivi vocal prouve sa valeur. Le moment de reconnaissance honnête — dire « pharmacie, vingt-quatre dollars » — ne concerne pas la punition. Il concerne la précision. Les achats impulsifs sont les dépenses les plus susceptibles d'être ignorées, minimisées ou oubliées quand tu reconstitues tes dépenses plus tard. Les capturer au moment te donne la vraie image, qui est la seule image qui t'aide à prendre de meilleures décisions."
         },
         {
                 "id": "courses-multiples-dans-un-apr-s-midi",
@@ -3530,11 +3530,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Samedi après-midi : vous passez à la pressing, à la quincaillerie, pour un cours d'épicerie rapide et à la station-service. Quatre arrêts, quatre transactions, quatre occasions d'oublier les détails. Quand vous rentrez chez vous, vous vous souvenez « un tas de courses » mais pas des montants individuels. La quincaillerie coûte probablement 30 dollars. Ou était-ce 45 ? L'épicerie était peut-être 25 dollars. Ou 40 ?"
+                "text": "Samedi après-midi : tu passes à la pressing, à la quincaillerie, pour un cours d'épicerie rapide et à la station-service. Quatre arrêts, quatre transactions, quatre occasions d'oublier les détails. Quand tu rentres chez toi, tu te souviens « un tas de courses » mais pas des montants individuels. La quincaillerie coûte probablement 30 dollars. Ou était-ce 45 ? L'épicerie était peut-être 25 dollars. Ou 40 ?"
         },
         {
                 "kind": "p",
-                "text": "Enregistrer chaque arrêt à voix haute en quittant le magasin maintient les données précises. « Pressing, quatorze dollars. » « Quincaillerie, trente-deux dollars. » « Épicerie, vingt-sept dollars. » « Essence, quarante-huit dollars. » Quatre enregistrements vocaux, chacun prenant moins de cinq secondes, et toute votre après-midi de courses est capturée avec précision."
+                "text": "Enregistrer chaque arrêt à voix haute en quittant le magasin maintient les données précises. « Pressing, quatorze dollars. » « Quincaillerie, trente-deux dollars. » « Épicerie, vingt-sept dollars. » « Essence, quarante-huit dollars. » Quatre enregistrements vocaux, chacun prenant moins de cinq secondes, et toute ton après-midi de courses est capturée avec précision."
         },
         {
                 "id": "voyager-l-tranger",
@@ -3543,11 +3543,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous êtes dans un pays où vous ne pouvez pas lire le reçu, la conversion de devise est déroutante et les vendeurs locaux n'utilisent pas les mêmes systèmes de paiement auxquels vous êtes habitué. Le scan de reçus est inutile — l'OCR ne peut pas analyser le texte étranger et les formats inhabituels. La synchronisation bancaire n'aidera pas car les transactions sont dans une devise différente et peuvent ne pas apparaître pendant des jours."
+                "text": "Tu es dans un pays où tu ne peux pas lire le reçu, la conversion de devise est déroutante et les vendeurs locaux n'utilisent pas les mêmes systèmes de paiement auxquels tu es habitué. Le scan de reçus est inutile — l'OCR ne peut pas analyser le texte étranger et les formats inhabituels. La synchronisation bancaire n'aidera pas car les transactions sont dans une devise différente et peuvent ne pas apparaître pendant des jours."
         },
         {
                 "kind": "p",
-                "text": "Le suivi vocal fonctionne car vous êtes le capteur. Vous avez vu le prix, vous avez payé le montant et vous pouvez le dire à voix haute dans votre propre langue. « Déjeuner, quinze euros. » « Taxi, huit cents pesos. » Vous capturez la dépense au moment, avec vos propres mots, indépendamment de ce que dit le reçu ou si vous en avez même reçu un."
+                "text": "Le suivi vocal fonctionne car tu es le capteur. Tu as vu le prix, tu as payé le montant et tu peux le dire à voix haute dans ta propre langue. « Déjeuner, quinze euros. » « Taxi, huit cents pesos. » Tu captures la dépense au moment, avec tes propres mots, indépendamment de ce que dit le reçu ou si tu en as même reçu un."
         },
         {
                 "id": "le-suivi-vocal-am-liore-t-il-r-ellement-la-budg-ti",
@@ -3556,11 +3556,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La science du comportement ici est assez cohérente : plus la boucle entre le comportement et le feedback est courte, plus le comportement est susceptible de changer. Enregistrer une transaction au moment où elle se produit est fondamentalement différent de reconstituer votre semaine à partir d'un relevé bancaire dimanche soir."
+                "text": "La science du comportement ici est assez cohérente : plus la boucle entre le comportement et le feedback est courte, plus le comportement est susceptible de changer. Enregistrer une transaction au moment où elle se produit est fondamentalement différent de reconstituer ta semaine à partir d'un relevé bancaire dimanche soir."
         },
         {
                 "kind": "p",
-                "text": "L'enregistrement en temps réel capture des données précises. L'enregistrement basé sur la mémoire — reconstituer ce que vous avez dépensé à partir de reçus, notifications ou souvenirs — est sujet aux arrondissements, aux omissions et à l'oubli motivé. Les études sur l'auto-surveillance montrent constamment que l'immédiateté est le plus grand prédicteur de précision d'enregistrement."
+                "text": "L'enregistrement en temps réel capture des données précises. L'enregistrement basé sur la mémoire — reconstituer ce que tu as dépensé à partir de reçus, notifications ou souvenirs — est sujet aux arrondissements, aux omissions et à l'oubli motivé. Les études sur l'auto-surveillance montrent constamment que l'immédiateté est le plus grand prédicteur de précision d'enregistrement."
         },
         {
                 "kind": "p",
@@ -3586,15 +3586,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pendant les trois premiers jours, votre seul objectif est d'enregistrer trois choses par jour. C'est tout. Un café, un déjeuner, un tarif de transport. Peu importe si vous passez d'autres achats. L'objectif n'est pas la complétude — c'est d'établir le déclencheur. Vous voulez que votre cerveau commence à associer le moment du paiement à l'acte de parler. La limite de trois choses maintient la tâche assez petite pour ne pas sembler une corvée."
+                "text": "Pendant les trois premiers jours, ton seul objectif est d'enregistrer trois choses par jour. C'est tout. Un café, un déjeuner, un tarif de transport. Peu importe si tu passes d'autres achats. L'objectif n'est pas la complétude — c'est d'établir le déclencheur. Tu veux que ton cerveau commence à associer le moment du paiement à l'acte de parler. La limite de trois choses maintient la tâche assez petite pour ne pas sembler une corvée."
         },
         {
                 "kind": "p",
-                "text": "Les jours quatre à sept, essayez d'enregistrer tout — mais gardez chaque enregistrement en une phrase. Ne réfléchissez pas trop. N'ajoutez pas de notes élaborées. Juste le montant et le contexte. « Café, quatre dollars. » « Déjeuner, douze dollars. » « Épicerie, cinquante-trois dollars. » Court et terminé."
+                "text": "Les jours quatre à sept, essaie d'enregistrer tout — mais garde chaque enregistrement en une phrase. Ne réfléchis pas trop. N'ajoute pas de notes élaborées. Juste le montant et le contexte. « Café, quatre dollars. » « Déjeuner, douze dollars. » « Épicerie, cinquante-trois dollars. » Court et terminé."
         },
         {
                 "kind": "p",
-                "text": "L'astuce clé pour la semaine un : enregistrez au moment. Ne regroupez pas. Ne sauvegardez pas pour plus tard. Ne vous dites pas que vous en ferez cinq d'un coup en rentrant chez vous. L'habitude se forme au moment de la transaction — c'est là que le chemin neuronal se construit. Le groupement annule le but."
+                "text": "L'astuce clé pour la semaine un : enregistre au moment. Ne regroupe pas. Ne sauvegarde pas pour plus tard. Ne te dis pas que tu en feras cinq d'un coup en rentrant chez toi. L'habitude se forme au moment de la transaction — c'est là que le chemin neuronal se construit. Le groupement annule le but."
         },
         {
                 "id": "semaine-2-ajouter-des-cat-gories-jours-8-14",
@@ -3603,11 +3603,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Maintenant que le déclencheur de base se forme, commencez à ajouter du contexte de catégorie. Au lieu de juste « douze dollars », dites « déjeuner, douze dollars » ou « épicerie, cinquante-trois dollars ». La catégorie aide l'app à apprendre vos schémas et vous aide à voir où va votre argent au-delà du montant total."
+                "text": "Maintenant que le déclencheur de base se forme, commence à ajouter du contexte de catégorie. Au lieu de juste « douze dollars », dis « déjeuner, douze dollars » ou « épicerie, cinquante-trois dollars ». La catégorie aide l'app à apprendre tes schémas et t'aide à voir où va ton argent au-delà du montant total."
         },
         {
                 "kind": "p",
-                "text": "Gardez les catégories simples. Trois à cinq suffisent à ce stade : nourriture, transport, achats, factures et peut-être divertissement. Vous pouvez toujours affiner plus tard. L'objectif pendant la semaine deux est la constance, pas la précision."
+                "text": "Garde les catégories simples. Trois à cinq suffisent à ce stade : nourriture, transport, achats, factures et peut-être divertissement. Tu peux toujours affiner plus tard. L'objectif pendant la semaine deux est la constance, pas la précision."
         },
         {
                 "id": "semaine-3-examiner-les-sch-mas-jours-15-21",
@@ -3616,11 +3616,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "À présent, vous avez deux semaines de données. Prenez dix minutes pour les regarder. Où va la majeure partie de votre argent ? Y a-t-il des catégories qui vous surprennent ? Y a-t-il un jour de la semaine où vous dépensez considérablement plus ? C'est la semaine où l'enregistrement commence à devenir un aperçu."
+                "text": "À présent, tu as deux semaines de données. Prends dix minutes pour les regarder. Où va la majeure partie de ton argent ? Y a-t-il des catégories qui te surprennent ? Y a-t-il un jour de la semaine où tu dépenses considérablement plus ? C'est la semaine où l'enregistrement commence à devenir un aperçu."
         },
         {
                 "kind": "p",
-                "text": "Ne jugez pas les données. Regardez-les simplement. L'observation elle-même est ce qui crée le changement. Quand vous voyez que vous avez dépensé 67 dollars en livraison de nourriture en une semaine, vous n'avez pas besoin qu'une app vous dise que c'est trop. Le nombre parle de lui-même."
+                "text": "Ne juge pas les données. Regarde-les simplement. L'observation elle-même est ce qui crée le changement. Quand tu vois que tu as dépensé 67 dollars en livraison de nourriture en une semaine, tu n'as pas besoin qu'une app te dise que c'est trop. Le nombre parle de lui-même."
         },
         {
                 "id": "semaine-4-ajuster-et-solidifier-jours-22-30",
@@ -3629,15 +3629,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Utilisez ce que vous avez appris en semaine trois pour faire un petit ajustement. Peut-être que vous fixez un plafond souple pour les repas au restaurant. Peut-être décidez-vous d'apporter votre déjeuner deux jours par semaine au lieu d'acheter. L'ajustement doit être assez petit pour ne pas sembler un sacrifice. L'objectif est de vous prouver que les données mènent à l'action — et que l'action est durable."
+                "text": "Utilise ce que tu as appris en semaine trois pour faire un petit ajustement. Peut-être que tu fixes un plafond souple pour les repas au restaurant. Peut-être décides-tu d'apporter ton déjeuner deux jours par semaine au lieu d'acheter. L'ajustement doit être assez petit pour ne pas sembler un sacrifice. L'objectif est de te prouver que les données mènent à l'action — et que l'action est durable."
         },
         {
                 "kind": "p",
-                "text": "Au jour 30, l'habitude d'enregistrement vocal devrait sembler automatique. Vous ne devriez pas avoir à vous rappeler de le faire. Le déclencheur (paiement) et la réponse (dire le montant) sont liés. C'est la boucle d'habitude, et c'est la fondation sur laquelle chaque autre stratégie de budgétisation se construit."
+                "text": "Au jour 30, l'habitude d'enregistrement vocal devrait sembler automatique. Tu ne devrais pas avoir à te rappeler de le faire. Le déclencheur (paiement) et la réponse (dire le montant) sont liés. C'est la boucle d'habitude, et c'est la fondation sur laquelle chaque autre stratégie de budgétisation se construit."
         },
         {
                 "kind": "p",
-                "text": "Dans Savlo, cet arc de 30 jours est soutenu par la conception de l'app. Moins d'écrans, des enregistrements plus rapides et un check-in quotidien qui vous dit où vous en êtes sans nécessiter de plongée profonde dans les transactions."
+                "text": "Dans Savlo, cet arc de 30 jours est soutenu par la conception de l'app. Moins d'écrans, des enregistrements plus rapides et un check-in quotidien qui te dit où tu en es sans nécessiter de plongée profonde dans les transactions."
         },
         {
                 "id": "suivi-vocal-vs-synchronisation-bancaire-automatiqu",
@@ -3650,15 +3650,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La synchronisation bancaire automatique vous montre ce qui s'est déjà passé — typiquement avec un délai de 1 à 3 jours, après que les transactions ont été compensées et enregistrées. C'est complet et passif, ce qui le rend facile à utiliser de façon constante. Mais cela nécessite de partager vos identifiants bancaires avec un agrégateur tiers et ne capture rien de ce qui ne passe pas par vos comptes liés — aucun espèces, aucune dépense partagée, aucune transaction effectuée avec des cartes que vous n'avez pas liées."
+                "text": "La synchronisation bancaire automatique te montre ce qui s'est déjà passé — typiquement avec un délai de 1 à 3 jours, après que les transactions ont été compensées et enregistrées. C'est complet et passif, ce qui le rend facile à utiliser de façon constante. Mais cela nécessite de partager tes identifiants bancaires avec un agrégateur tiers et ne capture rien de ce qui ne passe pas par tes comptes liés — aucun espèces, aucune dépense partagée, aucune transaction effectuée avec des cartes que tu n'as pas liées."
         },
         {
                 "kind": "p",
-                "text": "Le suivi vocal vous rend conscient au moment où la dépense se produit — en temps réel, au point d'achat. Il nécessite votre saisie active, ce qui signifie qu'il ne fonctionne que si vous le faites effectivement. Mais quand vous le faites, les données sont immédiates, complètes et entièrement privées."
+                "text": "Le suivi vocal te rend conscient au moment où la dépense se produit — en temps réel, au point d'achat. Il nécessite ta saisie active, ce qui signifie qu'il ne fonctionne que si tu le fais effectivement. Mais quand tu le fais, les données sont immédiates, complètes et entièrement privées."
         },
         {
                 "kind": "p",
-                "text": "Pour la plupart des gens, la configuration la plus pratique est une combinaison des deux approches : la voix pour les achats quotidiens au moment où ils se produisent, et un import CSV mensuel de votre banque pour un examen complet. Vous obtenez une conscience en temps réel sans sacrifier le filet de sécurité d'un historique complet des transactions. Si vous explorez comment configurer cela, notre guide sur comment budgétiser décrit le processus complet."
+                "text": "Pour la plupart des gens, la configuration la plus pratique est une combinaison des deux approches : la voix pour les achats quotidiens au moment où ils se produisent, et un import CSV mensuel de ta banque pour un examen complet. Tu obtiens une conscience en temps réel sans sacrifier le filet de sécurité d'un historique complet des transactions. Si tu explores comment configurer cela, notre guide sur comment budgétiser décrit le processus complet."
         },
         {
                 "id": "ce-qu-il-faut-chercher-dans-une-app-de-suivi-des-d",
@@ -3667,27 +3667,27 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Toutes les implémentations de suivi vocal ne se valent pas. Avant de vous engager avec une app, voici les choses à vérifier :"
+                "text": "Toutes les implémentations de suivi vocal ne se valent pas. Avant de t'engager avec une app, voici les choses à vérifier :"
         },
         {
                 "kind": "p",
-                "text": "- Traitement audio sur l'appareil. Si ce n'est pas explicitement indiqué, supposons que l'audio est envoyé au cloud. Lisez la politique de confidentialité. La phrase à rechercher est « traitement sur l'appareil » ou « l'audio est traité localement »."
+                "text": "- Traitement audio sur l'appareil. Si ce n'est pas explicitement indiqué, supposons que l'audio est envoyé au cloud. Lis la politique de confidentialité. La phrase à rechercher est « traitement sur l'appareil » ou « l'audio est traité localement »."
         },
         {
                 "kind": "p",
-                "text": "- Analyse du langage naturel. Vous devriez pouvoir parler normalement, pas mémoriser un format de commande comme « enregistrer deux-points montant deux-points catégorie ». Si l'app nécessite une syntaxe spécifique, les gains de friction disparaissent."
+                "text": "- Analyse du langage naturel. Tu devrais pouvoir parler normalement, pas mémoriser un format de commande comme « enregistrer deux-points montant deux-points catégorie ». Si l'app nécessite une syntaxe spécifique, les gains de friction disparaissent."
         },
         {
                 "kind": "p",
-                "text": "- Confirmation en un tap. Si cela prend trois écrans pour confirmer une transaction enregistrée, les gains de friction disparaissent rapidement. Cherchez un seul tap pour accepter ou ajuster."
+                "text": "- Confirmation en un tap. Si cela prend trois écrans pour confirmer une transaction enregistrée, les gains de friction disparaissent rapidement. Cherche un seul tap pour accepter ou ajuster."
         },
         {
                 "kind": "p",
-                "text": "- Fonctionnalité hors ligne. L'enregistrement vocal devrait fonctionner sans connexion Internet — vous êtes souvent dans un magasin, un parking ou une plateforme de métro où la connectivité est peu fiable."
+                "text": "- Fonctionnalité hors ligne. L'enregistrement vocal devrait fonctionner sans connexion Internet — tu es souvent dans un magasin, un parking ou une plateforme de métro où la connectivité est peu fiable."
         },
         {
                 "kind": "p",
-                "text": "- Apprentissage des catégories. L'app devrait s'améliorer pour inférer les catégories à partir de vos schémas vocaux au fil du temps, réduisant le besoin de corriger. Si vous dites toujours « café » et qu'elle suggère toujours « nourriture et boisson », elle apprend. Si vous devez re-catégoriser chaque fois, elle n'apprend pas."
+                "text": "- Apprentissage des catégories. L'app devrait s'améliorer pour inférer les catégories à partir de tes schémas vocaux au fil du temps, réduisant le besoin de corriger. Si tu dis toujours « café » et qu'elle suggère toujours « nourriture et boisson », elle apprend. Si tu dois re-catégoriser chaque fois, elle n'apprend pas."
         },
         {
                 "id": "erreurs-courantes-avec-le-suivi-des-d-penses-par-v",
@@ -3705,11 +3705,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "C'est le mode d'échec le plus courant. Vous faites cinq achats pendant la journée et vous vous dites que vous les enregistrerez tous avant de dormir. Au moment de dormir, vous avez oublié au moins deux montants, ne vous souvenez plus des noms des commerçants et n'êtes pas sûr de quelle carte vous avez utilisé. Les données que vous enregistrez à la fin de la journée ne sont pas meilleures qu'une estimation."
+                "text": "C'est le mode d'échec le plus courant. Tu fais cinq achats pendant la journée et tu te dis que tu les enregistreras tous avant de dormir. Au moment de dormir, tu as oublié au moins deux montants, ne te souviens plus des noms des commerçants et n'es pas sûr de quelle carte tu as utilisé. Les données que tu enregistres à la fin de la journée ne sont pas meilleures qu'une estimation."
         },
         {
                 "kind": "p",
-                "text": "La solution est simple : enregistrez au moment. Chaque fois. Les cinq secondes qu'il faut pour dire la dépense sont toujours moins que l'effort de la reconstituer plus tard. Si vous vous surprenez à oublier, réglez une alarme sur votre téléphone pour la première semaine jusqu'à ce que le déclencheur devienne automatique."
+                "text": "La solution est simple : enregistre au moment. Chaque fois. Les cinq secondes qu'il faut pour dire la dépense sont toujours moins que l'effort de la reconstituer plus tard. Si tu te surprends à oublier, règle une alarme sur ton téléphone pour la première semaine jusqu'à ce que le déclencheur devienne automatique."
         },
         {
                 "id": "sur-cat-goriser",
@@ -3718,11 +3718,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Certaines personnes créent quinze catégories dès le premier jour : « épicerie — fruits et légumes », « épicerie — produits laitiers », « épicerie — snacks », « restaurants — table », « restaurants — restauration rapide », « restaurants — à emporter ». Au jour trois, l'écran de sélection des catégories ressemble à un QCM et vous cessez complètement d'enregistrer."
+                "text": "Certaines personnes créent quinze catégories dès le premier jour : « épicerie — fruits et légumes », « épicerie — produits laitiers », « épicerie — snacks », « restaurants — table », « restaurants — restauration rapide », « restaurants — à emporter ». Au jour trois, l'écran de sélection des catégories ressemble à un QCM et tu cesses complètement d'enregistrer."
         },
         {
                 "kind": "p",
-                "text": "Commencez avec trois à cinq catégories larges. Nourriture, transport, achats, factures, loisirs. C'est suffisant pour voir des schémas. Vous pouvez toujours diviser les catégories plus tard une fois que l'habitude est solide et que vous avez un besoin réel de plus de granularité. La précision prématurée tue l'élan."
+                "text": "Commence avec trois à cinq catégories larges. Nourriture, transport, achats, factures, loisirs. C'est suffisant pour voir des schémas. Tu peux toujours diviser les catégories plus tard une fois que l'habitude est solide et que tu as un besoin réel de plus de granularité. La précision prématurée tue l'élan."
         },
         {
                 "id": "essayer-d-tre-parfait",
@@ -3731,11 +3731,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous avez manqué un achat. Oublié d'enregistrer le déjeuner. Laisser passer deux jours sans ouvrir l'app. La tentation est de conclure que le système ne fonctionne pas et l'abandonner complètement."
+                "text": "Tu as manqué un achat. Oublié d'enregistrer le déjeuner. Laisser passer deux jours sans ouvrir l'app. La tentation est de conclure que le système ne fonctionne pas et l'abandonner complètement."
         },
         {
                 "kind": "p",
-                "text": "Un enregistrement manqué n'a pas d'importance. Deux jours manqués n'ont pas d'importance. Ce qui compte, c'est le schéma global. Un budget que vous suivez à 70 % de précision pendant trois mois vous donne des données infiniment plus utiles qu'un budget que vous avez suivi à 100 % pendant deux semaines avant d'abandonner. La constance imparfaite bat la conformité parfaite à chaque fois."
+                "text": "Un enregistrement manqué n'a pas d'importance. Deux jours manqués n'ont pas d'importance. Ce qui compte, c'est le schéma global. Un budget que tu suis à 70 % de précision pendant trois mois te donne des données infiniment plus utiles qu'un budget que tu as suivi à 100 % pendant deux semaines avant d'abandonner. La constance imparfaite bat la conformité parfaite à chaque fois."
         },
         {
                 "id": "ne-pas-examiner-les-donn-es",
@@ -3744,11 +3744,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Enregistrer des dépenses sans jamais les examiner revient à prendre sa température sans jamais lire le thermomètre. L'enregistrement n'est pas le but — la conscience l'est. Si vous enregistrez chaque jour mais n'examinez jamais vos schémas de dépenses, vous faites de la saisie de données, pas de la budgétisation."
+                "text": "Enregistrer des dépenses sans jamais les examiner revient à prendre sa température sans jamais lire le thermomètre. L'enregistrement n'est pas le but — la conscience l'est. Si tu enregistres chaque jour mais n'examines jamais tes schémas de dépenses, tu fais de la saisie de données, pas de la budgétisation."
         },
         {
                 "kind": "p",
-                "text": "Fixez un examen hebdomadaire. Dix minutes. Regardez où est allé votre argent. Remarquez les catégories plus élevées que prévu. Célébrez celles qui sont plus basses. Faites un petit ajustement si nécessaire. L'examen est là où réside la valeur. Sans lui, l'enregistrement vocal n'est qu'une habitude élégante de prise de notes."
+                "text": "Fixe un examen hebdomadaire. Dix minutes. Regarde où est allé ton argent. Remarque les catégories plus élevées que prévu. Célèbre celles qui sont plus basses. Fais un petit ajustement si nécessaire. L'examen est là où réside la valeur. Sans lui, l'enregistrement vocal n'est qu'une habitude élégante de prise de notes."
         },
         {
                 "id": "utiliser-la-voix-pour-tout",
@@ -3757,11 +3757,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le suivi vocal excelle dans la capture des dépenses variables et quotidiennes — le café, l'épicerie, l'essence, l'Uber. Il est moins utile pour les dépenses fixes récurrentes comme le loyer, les abonnements ou les remboursements de prêts. Ce sont des montants que vous connaissez, qui arrivent à la même date chaque mois et les enregistrer à voix haute à chaque fois est redondant."
+                "text": "Le suivi vocal excelle dans la capture des dépenses variables et quotidiennes — le café, l'épicerie, l'essence, l'Uber. Il est moins utile pour les dépenses fixes récurrentes comme le loyer, les abonnements ou les remboursements de prêts. Ce sont des montants que tu connais, qui arrivent à la même date chaque mois et les enregistrer à voix haute à chaque fois est redondant."
         },
         {
                 "kind": "p",
-                "text": "Enregistrez les dépenses récurrentes une fois. Définissez-les comme des entrées automatiques ou des rappels. Réservez le suivi vocal pour les dépenses qui changent — celles où le montant, le commerçant ou la catégorie est différent à chaque fois. C'est là que la rapidité et la flexibilité de l'enregistrement vocal créent le plus de valeur."
+                "text": "Enregistre les dépenses récurrentes une fois. Définis-les comme des entrées automatiques ou des rappels. Réserve le suivi vocal pour les dépenses qui changent — celles où le montant, le commerçant ou la catégorie est différent à chaque fois. C'est là que la rapidité et la flexibilité de l'enregistrement vocal créent le plus de valeur."
         },
         {
                 "id": "commencer-avec-le-suivi-des-d-penses-par-voix-dans",
@@ -3770,19 +3770,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La configuration prend environ cinq minutes. Téléchargez l'app, créez vos catégories de dépenses — commencez avec trois ou quatre catégories larges plutôt que d'essayer de mapper chaque type de transaction possible dès le premier jour. Moins de catégories signifient moins de friction à chaque enregistrement."
+                "text": "La configuration prend environ cinq minutes. Télécharge l'app, crée tes catégories de dépenses — commence avec trois ou quatre catégories larges plutôt que d'essayer de mapper chaque type de transaction possible dès le premier jour. Moins de catégories signifient moins de friction à chaque enregistrement."
         },
         {
                 "kind": "p",
-                "text": "Pendant les sept premiers jours, enregistrez chaque achat à voix haute au moment où il se produit. N'attendez pas de rentrer chez vous. Ne les regroupez pas à la fin de la journée. L'habitude se forme dans la première semaine si vous le faites en temps réel — et ne se forme pas si vous ne le faites pas."
+                "text": "Pendant les sept premiers jours, enregistre chaque achat à voix haute au moment où il se produit. N'attends pas de rentrer chez toi. Ne les regroupe pas à la fin de la journée. L'habitude se forme dans la première semaine si tu le fais en temps réel — et ne se forme pas si tu ne le fais pas."
         },
         {
                 "kind": "p",
-                "text": "Après 30 jours, vous aurez une image complète et précise de où va réellement votre argent — pas une approximation reconstituée. C'est là que les données commencent à devenir réellement utiles pour prendre des décisions sur les fonds de réserve, ajuster votre budget à base zéro, ou simplement comprendre l'écart entre ce que vous pensez dépenser et ce que vous dépensez réellement."
+                "text": "Après 30 jours, tu auras une image complète et précise de où va réellement ton argent — pas une approximation reconstituée. C'est là que les données commencent à devenir réellement utiles pour prendre des décisions sur les fonds de réserve, ajuster ton budget à base zéro, ou simplement comprendre l'écart entre ce que tu penses dépenser et ce que tu dépenses réellement."
         },
         {
                 "kind": "p",
-                "text": "Si vous êtes nouveau dans la budgétisation en général, commencez avec notre guide sur comment budgétiser avant de plonger dans le suivi vocal. Comprendre le cadre donne aux données un endroit où aller."
+                "text": "Si tu es nouveau dans la budgétisation en général, commence avec notre guide sur comment budgétiser avant de plonger dans le suivi vocal. Comprendre le cadre donne aux données un endroit où aller."
         },
         {
                 "id": "le-suivi-vocal-n-est-pas-une-baguette-magique-mais",
@@ -3791,7 +3791,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Il est important d'être honnête sur ce que le suivi vocal ne peut pas faire. Il ne créera pas une stratégie de budgétisation pour vous. Il ne vous dira pas combien épargner, combien de dette rembourser, ou si vos dépenses sont alignées avec vos valeurs. Il ne remplacera pas le travail de décider ce qui compte pour vous et de construire un système qui reflète ces priorités."
+                "text": "Il est important d'être honnête sur ce que le suivi vocal ne peut pas faire. Il ne créera pas une stratégie de budgétisation pour toi. Il ne te dira pas combien épargner, combien de dette rembourser, ou si tes dépenses sont alignées avec tes valeurs. Il ne remplacera pas le travail de décider ce qui compte pour toi et de construire un système qui reflète ces priorités."
         },
         {
                 "kind": "p",
@@ -3799,23 +3799,23 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Et il nécessite de la constance. Comme toute méthode de suivi, il ne fonctionne que si vous le faites effectivement. La différence est que la constance est plus facile à maintenir parce que l'effort est moindre. Mais « plus facile » n'est pas « sans effort ». Vous devez encore parler. Vous devez encore confirmer. Vous devez encore vous présenter."
+                "text": "Et il nécessite de la constance. Comme toute méthode de suivi, il ne fonctionne que si tu le fais effectivement. La différence est que la constance est plus facile à maintenir parce que l'effort est moindre. Mais « plus facile » n'est pas « sans effort ». Tu dois encore parler. Tu dois encore confirmer. Tu dois encore te présenter."
         },
         {
                 "kind": "p",
-                "text": "Mais pour le problème spécifique qui empêche la plupart des gens de budgétiser — « Je sais que je devrais suivre mes dépenses, mais je ne le fais pas parce que c'est trop de travail » — le suivi vocal est la solution à la plus faible friction disponible. Il vous rencontre exactement là où vit l'écart entre l'intention et l'action : au moment de l'achat, quand vous êtes prêt à faire quelque chose de petit mais pas quelque chose de grand."
+                "text": "Mais pour le problème spécifique qui empêche la plupart des gens de budgétiser — « Je sais que je devrais suivre mes dépenses, mais je ne le fais pas parce que c'est trop de travail » — le suivi vocal est la solution à la plus faible friction disponible. Il te rencontre exactement là où vit l'écart entre l'intention et l'action : au moment de l'achat, quand tu es prêt à faire quelque chose de petit mais pas quelque chose de grand."
         },
         {
                 "kind": "p",
-                "text": "L'écart entre l'intention et l'action est là où les budgets meurent. Vous avez l'intention de suivre. Vous avez l'intention de comprendre où va votre argent. Vous avez l'intention de construire de meilleures habitudes. Mais la friction de le faire — taper, appuyer, se souvenir — empêche l'intention de devenir un comportement. Le suivi vocal comble cet écart avec l'entrée la plus simple que vous puissiez fournir : quelques mots prononcés à voix haute."
+                "text": "L'écart entre l'intention et l'action est là où les budgets meurent. Tu as l'intention de suivre. Tu as l'intention de comprendre où va ton argent. Tu as l'intention de construire de meilleures habitudes. Mais la friction de le faire — taper, appuyer, se souvenir — empêche l'intention de devenir un comportement. Le suivi vocal comble cet écart avec l'entrée la plus simple que tu puisses fournir : quelques mots prononcés à voix haute."
         },
         {
                 "kind": "p",
-                "text": "Si vous avez déjà essayé la budgétisation et que cela n'a pas duré, le problème n'était probablement pas la motivation. C'était la friction. Le suivi vocal élimine la friction. Ce que vous faites avec la clarté qui suit dépend de vous — mais au moins maintenant vous aurez les données pour prendre des décisions éclairées au lieu de deviner."
+                "text": "Si tu as déjà essayé la budgétisation et que cela n'a pas duré, le problème n'était probablement pas la motivation. C'était la friction. Le suivi vocal élimine la friction. Ce que tu fais avec la clarté qui suit dépend de toi — mais au moins maintenant tu auras les données pour prendre des décisions éclairées au lieu de deviner."
         },
         {
                 "kind": "p",
-                "text": "> L'enregistrement vocal de Savlo est conçu pour le moment où la dépense se produit — pas le moment où vous l'enregistrez. Par défaut, les enregistrements sont supprimés après la transcription. Pas de liaison bancaire, pas de publicité, et vos données ne sont jamais vendues. Juste un moyen rapide et privé de savoir exactement où va votre argent. Conçu pour Android, et iOS arrive ensuite."
+                "text": "> L'enregistrement vocal de Savlo est conçu pour le moment où la dépense se produit — pas le moment où tu l'enregistres. Par défaut, les enregistrements sont supprimés après la transcription. Pas de liaison bancaire, pas de publicité, et tes données ne sont jamais vendues. Juste un moyen rapide et privé de savoir exactement où va ton argent. Conçu pour Android, et iOS arrive ensuite."
         }
 ]
     },
@@ -3841,7 +3841,7 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "L'anxiété financière est rarement proportionnelle au montant d'argent que vous avez sur votre compte. Elle est proportionnelle à la quantité d'incertitude que vous ressentez. Ces habitudes quotidiennes sont conçues pour réduire votre charge émotionnelle avant même que vous ne regardiez les chiffres. Elles ne remplacent pas une aide professionnelle si l'anxiété est grave, mais elles constituent un point de départ pour toute personne qui veut changer la façon dont l'argent la fait se sentir."
+                "text": "L'anxiété financière est rarement proportionnelle au montant d'argent que tu as sur ton compte. Elle est proportionnelle à la quantité d'incertitude que tu ressens. Ces habitudes quotidiennes sont conçues pour réduire ta charge émotionnelle avant même que tu ne regardes les chiffres. Elles ne remplacent pas une aide professionnelle si l'anxiété est grave, mais elles constituent un point de départ pour toute personne qui veut changer la façon dont l'argent la fait se sentir."
         },
         {
                 "id": "ce-qu-est-r-ellement-l-anxi-t-financi-re",
@@ -3850,15 +3850,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'anxiété financière ne concerne pas le chiffre sur votre compte. Des personnes avec des épargnes à six chiffres peuvent se réveiller à 3 heures du matin en se demandant si elles ont assez, et des personnes sans rien peuvent dormir paisiblement. L'anxiété vient de l'écart entre ce que vous avez et ce que vous pensez avoir besoin, combiné au sentiment que vous n'avez aucun contrôle sur la fermeture de cet écart. C'est un sentiment, pas un état des lieux financier."
+                "text": "L'anxiété financière ne concerne pas le chiffre sur ton compte. Des personnes avec des épargnes à six chiffres peuvent se réveiller à 3 heures du matin en se demandant si elles ont assez, et des personnes sans rien peuvent dormir paisiblement. L'anxiété vient de l'écart entre ce que tu as et ce que tu penses avoir besoin, combiné au sentiment que tu n'as aucun contrôle sur la fermeture de cet écart. C'est un sentiment, pas un état des lieux financier."
         },
         {
                 "kind": "p",
-                "text": "Le sentiment a généralement deux couches. La couche de surface est l'inquiétude immédiate : puis-je payer le loyer ? Puis-je couvrir la réparation de la voiture ? Ma carte sera-t-elle refusée ? La couche plus profonde est l'histoire que vous vous racontez sur ce que le chiffre signifie à votre sujet. La couche de surface se résout avec un plan. La couche plus profonde est ce qui fait persister l'anxiété même après la mise en place du plan. L'anxiété financière concerne rarement l'argent en soi. Elle concerne ce que vous croyez que l'argent dit sur votre compétence, votre valeur et votre avenir."
+                "text": "Le sentiment a généralement deux couches. La couche de surface est l'inquiétude immédiate : puis-je payer le loyer ? Puis-je couvrir la réparation de la voiture ? Ma carte sera-t-elle refusée ? La couche plus profonde est l'histoire que tu te racontes sur ce que le chiffre signifie à ton sujet. La couche de surface se résout avec un plan. La couche plus profonde est ce qui fait persister l'anxiété même après la mise en place du plan. L'anxiété financière concerne rarement l'argent en soi. Elle concerne ce que tu crois que l'argent dit sur ta compétence, ta valeur et ton avenir."
         },
         {
                 "kind": "p",
-                "text": "Le terme est utilisé à la légère, mais l'expérience est réelle. Elle peut se manifester comme de l'effroi lorsque vous ouvrez votre application bancaire, de l'irritabilité après un achat, de l'insomnie la nuit avant le salaire, ou un bourdonnement constant et sourd de préoccupation qui vous suit partout. Elle ne nécessite pas une crise. Elle ne nécessite pas de dettes. Elle ne nécessite pas la pauvreté. Elle ne nécessite que la croyance que vous n'êtes pas en sécurité, et cette croyance est souvent déconnectée des faits."
+                "text": "Le terme est utilisé à la légère, mais l'expérience est réelle. Elle peut se manifester comme de l'effroi lorsque tu ouvres ton application bancaire, de l'irritabilité après un achat, de l'insomnie la nuit avant le salaire, ou un bourdonnement constant et sourd de préoccupation qui te suit partout. Elle ne nécessite pas une crise. Elle ne nécessite pas de dettes. Elle ne nécessite pas la pauvreté. Elle ne nécessite que la croyance que tu n'es pas en sécurité, et cette croyance est souvent déconnectée des faits."
         },
         {
                 "id": "pourquoi-l-argent-d-clenche-l-anxi-t-en-premier-li",
@@ -3867,19 +3867,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'argent est l'un des rares sujets qui touche chaque aspect de la vie : le logement, la nourriture, la santé, les relations, l'identité, la liberté, le temps. Quand l'argent semble instable, chaque aspect de la vie semble instable. L'anxiété n'est pas irrationnelle. C'est le cerveau faisant exactement ce pour quoi il a été conçu : signaler une menace perçue pour la survie. Le problème est que la réponse de menace ne fait pas la distinction entre une véritable urgence et une notification indiquant que votre solde est plus bas que prévu."
+                "text": "L'argent est l'un des rares sujets qui touche chaque aspect de la vie : le logement, la nourriture, la santé, les relations, l'identité, la liberté, le temps. Quand l'argent semble instable, chaque aspect de la vie semble instable. L'anxiété n'est pas irrationnelle. C'est le cerveau faisant exactement ce pour quoi il a été conçu : signaler une menace perçue pour la survie. Le problème est que la réponse de menace ne fait pas la distinction entre une véritable urgence et une notification indiquant que ton solde est plus bas que prévu."
         },
         {
                 "kind": "p",
-                "text": "La deuxième raison pour laquelle l'argent déclenche l'anxiété est que la plupart des gens n'ont jamais appris comment y penser. L'enseignement scolaire enseigne l'algèbre, pas les intérêts composés. Les familles parlent d'argent à voix basse, ou pas du tout, ou dans des querelles. Le résultat est que la plupart des adultes abordent leurs finances avec la boîte à outils émotionnelle d'un enfant : évitent le sujet, se sentent coupables quand il surgit, et espèrent qu'il se résout tout seul. L'évitement aggrave l'anxiété, car plus vous en savez peu sur votre situation financière, plus votre cerveau comble les vides avec des scénarios catastrophes."
+                "text": "La deuxième raison pour laquelle l'argent déclenche l'anxiété est que la plupart des gens n'ont jamais appris comment y penser. L'enseignement scolaire enseigne l'algèbre, pas les intérêts composés. Les familles parlent d'argent à voix basse, ou pas du tout, ou dans des querelles. Le résultat est que la plupart des adultes abordent leurs finances avec la boîte à outils émotionnelle d'un enfant : évitent le sujet, se sentent coupables quand il surgit, et espèrent qu'il se résout tout seul. L'évitement aggrave l'anxiété, car plus tu en sais peu sur ta situation financière, plus ton cerveau comble les vides avec des scénarios catastrophes."
         },
         {
                 "kind": "p",
-                "text": "La troisième raison est la comparaison. Les réseaux sociaux vous montrent les vacances, les voitures et les maisons des autres sans vous montrer leurs dettes, leur anxiété ou les semaines de 60 heures qui ont financé l'achat. La comparaison crée un standard invisible contre lequel vous vous mesurez, et le standard est impossible parce qu'il n'est pas réel. Vous comparez votre intérieur à l'extérieur des autres, et vous perdrez toujours cette comparaison."
+                "text": "La troisième raison est la comparaison. Les réseaux sociaux te montrent les vacances, les voitures et les maisons des autres sans te montrer leurs dettes, leur anxiété ou les semaines de 60 heures qui ont financé l'achat. La comparaison crée un standard invisible contre lequel tu te mesures, et le standard est impossible parce qu'il n'est pas réel. Tu compares ton intérieur à l'extérieur des autres, et tu perdras toujours cette comparaison."
         },
         {
                 "kind": "p",
-                "text": "La quatrième raison est la honte. La honte est la croyance que vous êtes le problème, pas que vous avez un problème. La honte financière dit : je devrais savoir comment faire ça. Je devrais être plus avancé. Tout le monde a compris ça. La honte vous empêche de demander de l'aide, de regarder les chiffres et de faire les petits premiers pas qui réduiraient réellement l'anxiété. La honte est la meilleure amie de l'anxiété, car elle vous garde silencieux."
+                "text": "La quatrième raison est la honte. La honte est la croyance que tu es le problème, pas que tu as un problème. La honte financière dit : je devrais savoir comment faire ça. Je devrais être plus avancé. Tout le monde a compris ça. La honte t'empêche de demander de l'aide, de regarder les chiffres et de faire les petits premiers pas qui réduiraient réellement l'anxiété. La honte est la meilleure amie de l'anxiété, car elle te garde silencieux."
         },
         {
                 "id": "les-sympt-mes-physiques-du-stress-financier",
@@ -3888,15 +3888,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le stress financier ne vit pas seulement dans votre tête. Il se manifeste dans votre corps de façons faciles à manquer parce qu'elles semblent sans rapport avec l'argent. Des maux de tête qui apparaissent le premier du mois quand le loyer est dû. Une tension de la mâchoire due au serrage des dents la nuit. Des problèmes d'estomac qui semblent venir de nulle part. Une fatigue que le sommeil ne résout pas. Une oppression thoracique lorsque vous voyez un e-mail de votre banque. Ce n'est pas imaginaire. C'est la réponse de stress faisant exactement ce pour quoi elle a été conçue : préparer votre corps au danger. Le problème est que le danger est une pensée sur l'argent, pas une menace physique, et votre corps ne peut pas faire la différence."
+                "text": "Le stress financier ne vit pas seulement dans ta tête. Il se manifeste dans ton corps de façons faciles à manquer parce qu'elles semblent sans rapport avec l'argent. Des maux de tête qui apparaissent le premier du mois quand le loyer est dû. Une tension de la mâchoire due au serrage des dents la nuit. Des problèmes d'estomac qui semblent venir de nulle part. Une fatigue que le sommeil ne résout pas. Une oppression thoracique lorsque tu vois un e-mail de ta banque. Ce n'est pas imaginaire. C'est la réponse de stress faisant exactement ce pour quoi elle a été conçue : préparer ton corps au danger. Le problème est que le danger est une pensée sur l'argent, pas une menace physique, et ton corps ne peut pas faire la différence."
         },
         {
                 "kind": "p",
-                "text": "Les symptômes physiques créent une boucle de rétroaction. Vous ressentez le mal de tête, et votre cerveau interprète le mal de tête comme la preuve que quelque chose ne va pas, ce qui augmente l'anxiété, ce qui augmente le mal de tête. La boucle est auto-renforçante, et la seule façon de la briser est de s'attaquer à l'anxiété à sa source : la pensée, pas le symptôme. Le corps baisse la garde quand l'esprit s'organise, et l'esprit s'organise quand l'incertitude diminue. Les habitudes de ce guide sont conçues pour diminuer l'incertitude, qui est la solution en amont pour les symptômes physiques."
+                "text": "Les symptômes physiques créent une boucle de rétroaction. Tu ressens le mal de tête, et ton cerveau interprète le mal de tête comme la preuve que quelque chose ne va pas, ce qui augmente l'anxiété, ce qui augmente le mal de tête. La boucle est auto-renforçante, et la seule façon de la briser est de s'attaquer à l'anxiété à sa source : la pensée, pas le symptôme. Le corps baisse la garde quand l'esprit s'organise, et l'esprit s'organise quand l'incertitude diminue. Les habitudes de ce guide sont conçues pour diminuer l'incertitude, qui est la solution en amont pour les symptômes physiques."
         },
         {
                 "kind": "p",
-                "text": "L'autre effet physique du stress financier est sur la prise de décision. Le stress réduit votre attention à la menace immédiate, ce qui est utile si une voiture se dirige vers vous mais destructeur si vous essayez de planifier un budget. Sous le stress, vous prenez des décisions plus impulsives, ce qui crée plus de problèmes financiers, ce qui crée plus de stress. La boucle est vicieuse et courante. La façon de la briser est de réduire le stress avant de prendre la décision financière, pas après. Les habitudes ci-dessous sont conçues pour faire exactement cela."
+                "text": "L'autre effet physique du stress financier est sur la prise de décision. Le stress réduit ton attention à la menace immédiate, ce qui est utile si une voiture se dirige vers toi mais destructeur si tu essaies de planifier un budget. Sous le stress, tu prends des décisions plus impulsives, ce qui crée plus de problèmes financiers, ce qui crée plus de stress. La boucle est vicieuse et courante. La façon de la briser est de réduire le stress avant de prendre la décision financière, pas après. Les habitudes ci-dessous sont conçues pour faire exactement cela."
         },
         {
                 "id": "habitudes-quotidiennes-pour-la-paix-financi-re",
@@ -3905,40 +3905,40 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Créneaux de vérification dédiés. Vérifiez vos comptes à un moment planifié, pas à chaque fois que vous recevez une notification. Le moment planifié vous donne le contrôle sur le moment où vous interagissez avec l'argent. La notification aléatoire donne à l'argent le contrôle sur le moment où il interagit avec vous. La différence est entre choisir de regarder et être surpris par un chiffre."
+                "text": "- Créneaux de vérification dédiés. Vérifie tes comptes à un moment planifié, pas à chaque fois que tu reçois une notification. Le moment planifié te donne le contrôle sur le moment où tu interagis avec l'argent. La notification aléatoire donne à l'argent le contrôle sur le moment où il interagit avec toi. La différence est entre choisir de regarder et être surpris par un chiffre."
         },
         {
                 "kind": "p",
-                "text": "- Respirez profondément. Respirez lentement trois fois avant d'ouvrir une quelconque application financière. Les trois respirations ne sont pas un tour de magie. C'est une réinitialisation physiologique. La respiration lente active le système nerveux parasympathique, le système qui dit à votre corps que le danger est passé. Cela n'éliminera pas l'anxiété, mais la réduira suffisamment pour que vous puissiez penser clairement au lieu de tourner en boucle."
+                "text": "- Respire profondément. Respire lentement trois fois avant d'ouvrir une quelconque application financière. Les trois respirations ne sont pas un tour de magie. C'est une réinitialisation physiologique. La respiration lente active le système nerveux parasympathique, le système qui dit à ton corps que le danger est passé. Cela n'éliminera pas l'anxiété, mais la réduira suffisamment pour que tu puisses penser clairement au lieu de tourner en boucle."
         },
         {
                 "kind": "p",
-                "text": "- Utilisez un langage doux. Remplacez \"j'ai dépensé trop\" par \"j'observe mes schémas de dépenses\". La différence n'est pas sémantique. La première formulation est un verdict. La seconde est une observation. Un verdict ferme la conversation. Une observation l'ouvre. Le langage plus doux crée un espace entre vous et le chiffre, l'espace où vit la pensée rationnelle."
+                "text": "- Utilise un langage doux. Remplace \"j'ai dépensé trop\" par \"j'observe mes schémas de dépenses\". La différence n'est pas sémantique. La première formulation est un verdict. La seconde est une observation. Un verdict ferme la conversation. Une observation l'ouvre. Le langage plus doux crée un espace entre toi et le chiffre, l'espace où vit la pensée rationnelle."
         },
         {
                 "kind": "p",
-                "text": "- Concentrez-vous sur un seul chiffre. Ne vous surchargez pas ; choisissez une seule métrique par session. Peut-être est-ce le solde du compte courant. Peut-être est-ce le montant de votre fonds d'urgence. Peut-être est-ce la somme que vous avez dépensée en courses cette semaine. Un seul chiffre est gérable. Cinq chiffres en même temps est une recette pour la panique. Commencez petit, construisez l'habitude et laissez le nombre de choses que vous suivez croître naturellement avec le temps."
+                "text": "- Concentre-toi sur un seul chiffre. Ne te surcharge pas ; choisis une seule métrique par session. Peut-être est-ce le solde du compte courant. Peut-être est-ce le montant de ton fonds d'urgence. Peut-être est-ce la somme que tu as dépensée en courses cette semaine. Un seul chiffre est gérable. Cinq chiffres en même temps est une recette pour la panique. Commence petit, construis l'habitude et laisse le nombre de choses que tu suis croître naturellement avec le temps."
         },
         {
                 "kind": "p",
-                "text": "- Fixez un couvre-feu. Pas de revues financières ou de discussions sur l'argent dans l'heure précédant le coucher. Votre cerveau traite le contenu émotionnel différemment pendant le sommeil, et la dernière chose à laquelle vous pensez avant de dormir tend à prendre plus de poids émotionnel. Une discussion sur l'argent à 23h devient un cauchemar financier à 3h du matin. Déplacez la revue au matin, quand votre cerveau est frais et votre cortisol est naturellement plus élevé."
+                "text": "- Fixe un couvre-feu. Pas de revues financières ou de discussions sur l'argent dans l'heure précédant le coucher. Ton cerveau traite le contenu émotionnel différemment pendant le sommeil, et la dernière chose à laquelle tu penses avant de dormir tend à prendre plus de poids émotionnel. Une discussion sur l'argent à 23h devient un cauchemar financier à 3h du matin. Déplace la revue au matin, quand ton cerveau est frais et ton cortisol est naturellement plus élevé."
         },
         {
-                "id": "comment-v-rifier-vos-finances-sans-tourner-en-bouc",
+                "id": "comment-v-rifier-tes-finances-sans-tourner-en-bouc",
                 "kind": "h2",
-                "text": "Comment vérifier vos finances sans tourner en boucle"
+                "text": "Comment vérifier tes finances sans tourner en boucle"
         },
         {
                 "kind": "p",
-                "text": "L'objectif de vérifier vos finances n'est pas de vous sentir bien avec le chiffre. L'objectif est de connaître le chiffre, car connaître est toujours moins effrayant que ne pas connaître. L'inconnu est l'endroit où vit l'anxiété. Le chiffre, même s'il est plus bas que prévu, est un fait, et les faits sont gérables. Le processus de vérification devrait prendre moins de cinq minutes. Tout ce qui prend plus de cinq minutes n'est pas une vérification ; c'est de la rumination, et la rumination est de l'anxiété portant un masque productif."
+                "text": "L'objectif de vérifier tes finances n'est pas de te sentir bien avec le chiffre. L'objectif est de connaître le chiffre, car connaître est toujours moins effrayant que ne pas connaître. L'inconnu est l'endroit où vit l'anxiété. Le chiffre, même s'il est plus bas que prévu, est un fait, et les faits sont gérables. Le processus de vérification devrait prendre moins de cinq minutes. Tout ce qui prend plus de cinq minutes n'est pas une vérification ; c'est de la rumination, et la rumination est de l'anxiété portant un masque productif."
         },
         {
                 "kind": "p",
-                "text": "La vérification de cinq minutes a une structure. D'abord, ouvrez le compte ou l'application. Ensuite, regardez le chiffre. Ensuite, dites le chiffre à voix haute. Enfin, demandez-vous : ce chiffre est-il une crise, ou est-il simplement pas ce que je voulais ? La plupart du temps, c'est simplement pas ce que vous vouliez. La distinction entre une crise et une déception est importante, car une crise nécessite une action et une déception nécessite une acceptation. La vérification de cinq minutes vous aide à faire la différence avant de réagir."
+                "text": "La vérification de cinq minutes a une structure. D'abord, ouvre le compte ou l'application. Ensuite, regarde le chiffre. Ensuite, dis le chiffre à voix haute. Enfin, demandes-tu : ce chiffre est-il une crise, ou est-il simplement pas ce que je voulais ? La plupart du temps, c'est simplement pas ce que tu voulais. La distinction entre une crise et une déception est importante, car une crise nécessite une action et une déception nécessite une acceptation. La vérification de cinq minutes t'aide à faire la différence avant de réagir."
         },
         {
                 "kind": "p",
-                "text": "Après la vérification, fermez l'application. Ne faites pas défiler les transactions. N'ouvrez pas d'autres comptes pour comparer. Ne vérifiez pas votre score de crédit. Ne lisez pas d'articles sur comment économiser plus. La vérification est terminée. Le reste est du bruit. La discipline de fermer l'application après cinq minutes est la partie qui réduit réellement l'anxiété, car elle apprend à votre cerveau que vous pouvez regarder le chiffre et survivre. Chaque fois que vous regardez et survivez, le regarder devient plus facile, et le survivre devient plus rapide."
+                "text": "Après la vérification, ferme l'application. Ne fais pas défiler les transactions. N'ouvre pas d'autres comptes pour comparer. Ne vérifie pas ton score de crédit. Ne lis pas d'articles sur comment économiser plus. La vérification est terminée. Le reste est du bruit. La discipline de fermer l'application après cinq minutes est la partie qui réduit réellement l'anxiété, car elle apprend à ton cerveau que tu peux regarder le chiffre et survivre. Chaque fois que tu regardes et survis, le regarder devient plus facile, et le survivre devient plus rapide."
         },
         {
                 "id": "le-r-le-de-la-comparaison-dans-l-anxi-t-li-e-l-arg",
@@ -3947,15 +3947,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La comparaison est le moteur de la plupart de l'anxiété financière qui n'est pas liée à un besoin réel de survie. Vous avez assez pour le loyer, mais votre collègue vient d'acheter une maison, et maintenant votre appartement semble être un échec. Vous avez assez pour les courses, mais votre ami a posté une photo de vacances, et maintenant votre week-end à la maison semble être une punition. La comparaison prend une situation qui allait bien il y a cinq minutes et la transforme en preuve que vous prenez du retard."
+                "text": "La comparaison est le moteur de la plupart de l'anxiété financière qui n'est pas liée à un besoin réel de survie. Tu as assez pour le loyer, mais ton collègue vient d'acheter une maison, et maintenant ton appartement semble être un échec. Tu as assez pour les courses, mais ton ami a posté une photo de vacances, et maintenant ton week-end à la maison semble être une punition. La comparaison prend une situation qui allait bien il y a cinq minutes et la transforme en preuve que tu prends du retard."
         },
         {
                 "kind": "p",
-                "text": "L'antidote à la comparaison n'est pas la gratitude, bien que la gratitude aide. L'antidote est l'information. Quand vous voyez l'achat de quelqu'un, vous voyez un seul point de données. Vous ne voyez pas son salaire, sa dette, son héritage, les revenus de son partenaire, son loyer, sa santé mentale ou les compromis qu'ils ont faits pour se permettre l'achat. Vous voyez le résultat, pas l'entrée, et l'entrée est ce qui détermine si l'achat était sage ou imprudent. La comparaison est injuste car elle est incomplète."
+                "text": "L'antidote à la comparaison n'est pas la gratitude, bien que la gratitude aide. L'antidote est l'information. Quand tu vois l'achat de quelqu'un, tu vois un seul point de données. Tu ne vois pas son salaire, sa dette, son héritage, les revenus de son partenaire, son loyer, sa santé mentale ou les compromis qu'ils ont faits pour se permettre l'achat. Tu vois le résultat, pas l'entrée, et l'entrée est ce qui détermine si l'achat était sage ou imprudent. La comparaison est injuste car elle est incomplète."
         },
         {
                 "kind": "p",
-                "text": "La solution pratique est de limiter les déclencheurs de comparaison. Cela ne signifie pas supprimer tous les réseaux sociaux ou éviter tous les amis. Cela signifie remarquer quels comptes, quelles personnes et quels contextes déclenchent la spirale de comparaison, et réduire votre exposition à ces déclencheurs spécifiques. L'objectif n'est pas de vivre dans une bulle. L'objectif est de cesser de vous exposer volontairement à du matériel qui vous fait vous sentir mal à propos de choix qui étaient parfaitement corrects avant de voir le matériel."
+                "text": "La solution pratique est de limiter les déclencheurs de comparaison. Cela ne signifie pas supprimer tous les réseaux sociaux ou éviter tous les amis. Cela signifie remarquer quels comptes, quelles personnes et quels contextes déclenchent la spirale de comparaison, et réduire ton exposition à ces déclencheurs spécifiques. L'objectif n'est pas de vivre dans une bulle. L'objectif est de cesser de t'exposer volontairement à du matériel qui te fait te sentir mal à propos de choix qui étaient parfaitement corrects avant de voir le matériel."
         },
         {
                 "id": "quand-l-anxi-t-financi-re-devient-de-l-vitement",
@@ -3964,32 +3964,32 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La chose la plus dangereuse que fait l'anxiété financière est de vous faire éviter vos finances. L'évitement semble protecteur : si je ne regarde pas, je n'ai pas à y faire face. Mais l'évitement est le contraire de protecteur. Il est cumulatif. Chaque jour que vous ne regardez pas, l'inconnu grandit, et l'anxiété remplit l'inconnu avec des scénarios catastrophes. Une facture que vous n'avez pas ouverte devient des frais de retard que vous n'attendiez pas. Un compte que vous n'avez pas vérifié devient un découvert que vous n'avez pas remarqué. L'évitement crée exactement le résultat qu'il essayait d'éviter."
+                "text": "La chose la plus dangereuse que fait l'anxiété financière est de te faire éviter tes finances. L'évitement semble protecteur : si je ne regarde pas, je n'ai pas à y faire face. Mais l'évitement est le contraire de protecteur. Il est cumulatif. Chaque jour que tu ne regardes pas, l'inconnu grandit, et l'anxiété remplit l'inconnu avec des scénarios catastrophes. Une facture que tu n'as pas ouverte devient des frais de retard que tu n'attendais pas. Un compte que tu n'as pas vérifié devient un découvert que tu n'as pas remarqué. L'évitement crée exactement le résultat qu'il essayait d'éviter."
         },
         {
                 "kind": "p",
-                "text": "Le schéma est prévisible. D'abord, vous évitez de regarder. Ensuite vous vous sentez coupable d'éviter. Puis la culpabilité rend plus difficile le fait de regarder. Alors vous évitez plus fort. Le cycle peut durer des mois ou des années, et se termine généralement par une crise qui vous oblige à regarder quand même, mais maintenant dans de pires conditions. La façon de briser le cycle est de rendre le regarder aussi facile que possible. Cinq minutes. Un seul chiffre. Pas de jugement. Plus le pas est petit, plus vous êtes susceptible de le faire, et plus vous faites de pas, plus le pas suivant paraît petit."
+                "text": "Le schéma est prévisible. D'abord, tu évites de regarder. Ensuite tu te sens coupable d'éviter. Puis la culpabilité rend plus difficile le fait de regarder. Alors tu évites plus fort. Le cycle peut durer des mois ou des années, et se termine généralement par une crise qui t'oblige à regarder quand même, mais maintenant dans de pires conditions. La façon de briser le cycle est de rendre le regarder aussi facile que possible. Cinq minutes. Un seul chiffre. Pas de jugement. Plus le pas est petit, plus tu es susceptible de le faire, et plus tu fais de pas, plus le pas suivant paraît petit."
         },
         {
                 "kind": "p",
-                "text": "La reformulation qui aide la plupart des gens est celle-ci : regarder vos finances n'est pas un test de votre caractère. C'est un exercice de collecte de données. Vous n'êtes pas noté. Vous n'êtes pas jugé. Vous collectez des informations qui vous aideront à prendre une meilleure décision demain. Le cadre de collecte de données enlève le poids moral de l'acte de regarder, et le poids enlevé rend le regarder possible."
+                "text": "La reformulation qui aide la plupart des gens est celle-ci : regarder tes finances n'est pas un test de ton caractère. C'est un exercice de collecte de données. Tu n'es pas noté. Tu n'es pas jugé. Tu collectes des informations qui t'aideront à prendre une meilleure décision demain. Le cadre de collecte de données enlève le poids moral de l'acte de regarder, et le poids enlevé rend le regarder possible."
         },
         {
-                "id": "comment-parler-d-argent-quand-a-vous-angoisse",
+                "id": "comment-parler-d-argent-quand-a-t-angoisse",
                 "kind": "h2",
-                "text": "Comment parler d'argent quand ça vous angoisse"
+                "text": "Comment parler d'argent quand ça t'angoisse"
         },
         {
                 "kind": "p",
-                "text": "L'argent est l'un des derniers sujets tabous. Les gens discuteront de leur santé, de leurs relations et de leur santé mentale avant de discuter de leur salaire, de leurs dettes ou de leurs habitudes de dépense. Le silence autour de l'argent aggrave l'anxiété, car l'anxiété se nourrit de la croyance que vous êtes le seul à lutter avec ça. Vous ne l'êtes pas. Le silence est partagé, et le silence partagé fait que tout le monde se sent seul."
+                "text": "L'argent est l'un des derniers sujets tabous. Les gens discuteront de leur santé, de leurs relations et de leur santé mentale avant de discuter de leur salaire, de leurs dettes ou de leurs habitudes de dépense. Le silence autour de l'argent aggrave l'anxiété, car l'anxiété se nourrit de la croyance que tu es le seul à lutter avec ça. Tu ne l'es pas. Le silence est partagé, et le silence partagé fait que tout le monde se sent seul."
         },
         {
                 "kind": "p",
-                "text": "La façon de parler d'argent sans tourner en boucle est de fixer des limites avant que la conversation ne commence. Dites à l'autre personne : je peux parler de ça pendant dix minutes, puis j'ai besoin d'arrêter. La limite de temps empêche la conversation de devenir une séance de thérapie, ce que l'autre personne n'a pas demandé. La limite vous protège aussi, car elle signifie que la conversation a une fin connue, et les fins connues sont moins effrayantes que les ouvertes."
+                "text": "La façon de parler d'argent sans tourner en boucle est de fixer des limites avant que la conversation ne commence. Dis à l'autre personne : je peux parler de ça pendant dix minutes, puis j'ai besoin d'arrêter. La limite de temps empêche la conversation de devenir une séance de thérapie, ce que l'autre personne n'a pas demandé. La limite te protège aussi, car elle signifie que la conversation a une fin connue, et les fins connues sont moins effrayantes que les ouvertes."
         },
         {
                 "kind": "p",
-                "text": "L'autre limite est la portée. Vous n'avez pas à partager tous les chiffres. Vous pouvez parler de comment l'argent vous fait vous sentir sans partager votre salaire. Vous pouvez parler de l'anxiété sans partager vos dettes. Le sentiment est la partie importante, car le sentiment est l'endroit où le changement se produit. Les chiffres ne sont que des données. Le sentiment est l'histoire que vous racontez sur les données, et l'histoire est ce que vous pouvez changer."
+                "text": "L'autre limite est la portée. Tu n'as pas à partager tous les chiffres. Tu peux parler de comment l'argent te fait te sentir sans partager ton salaire. Tu peux parler de l'anxiété sans partager tes dettes. Le sentiment est la partie importante, car le sentiment est l'endroit où le changement se produit. Les chiffres ne sont que des données. Le sentiment est l'histoire que tu racontes sur les données, et l'histoire est ce que tu peux changer."
         },
         {
                 "id": "construire-une-routine-financi-re-qui-ne-g-n-re-pa",
@@ -3998,15 +3998,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Une routine financière n'est pas un budget. Un budget est un plan pour votre argent. Une routine est un plan pour quand et comment vous pensez à votre argent. La routine est ce qui rend le budget possible, car sans routine, le budget devient une chose de plus que vous échouez à faire. La routine est petite, régulière et automatique, et elle existe pour que le fait d'interagir avec l'argent se sente normal au lieu de menaçant."
+                "text": "Une routine financière n'est pas un budget. Un budget est un plan pour ton argent. Une routine est un plan pour quand et comment tu penses à ton argent. La routine est ce qui rend le budget possible, car sans routine, le budget devient une chose de plus que tu échoues à faire. La routine est petite, régulière et automatique, et elle existe pour que le fait d'interagir avec l'argent se sente normal au lieu de menaçant."
         },
         {
                 "kind": "p",
-                "text": "La routine a trois parties. La première est la vérification hebdomadaire, qui prend cinq minutes et a lieu au même moment chaque semaine. La deuxième est la reconstruction mensuelle, qui prend trente à soixante minutes et a lieu à la même date chaque mois. La troisième est la révision annuelle, qui prend soixante à quatre-vingt-dix minutes et a lieu au même moment chaque année. Les trois parties sont différentes dans leur portée mais identiques dans leur structure : vous regardez les chiffres, vous faites un plan et vous fermez le livre."
+                "text": "La routine a trois parties. La première est la vérification hebdomadaire, qui prend cinq minutes et a lieu au même moment chaque semaine. La deuxième est la reconstruction mensuelle, qui prend trente à soixante minutes et a lieu à la même date chaque mois. La troisième est la révision annuelle, qui prend soixante à quatre-vingt-dix minutes et a lieu au même moment chaque année. Les trois parties sont différentes dans leur portée mais identiques dans leur structure : tu regardes les chiffres, tu fais un plan et tu fermes le livre."
         },
         {
                 "kind": "p",
-                "text": "La clé pour rendre la routine sans stress est de rendre chaque partie aussi petite que possible. La vérification hebdomadaire ne devrait jamais prendre plus de cinq minutes. Si elle prend plus de temps, vous en faites trop. La reconstruction mensuelle ne devrait jamais prendre plus de soixante minutes. Si elle prend plus de temps, vous compliquez trop. La révision annuelle ne devrait jamais prendre plus de quatre-vingt-dix minutes. Si elle prend plus de temps, vous ruminez, pas vous ne révisez. Les limites de temps ne sont pas arbitraires. Elles sont la différence entre une routine qui réduit l'anxiété et une qui la crée."
+                "text": "La clé pour rendre la routine sans stress est de rendre chaque partie aussi petite que possible. La vérification hebdomadaire ne devrait jamais prendre plus de cinq minutes. Si elle prend plus de temps, tu en fais trop. La reconstruction mensuelle ne devrait jamais prendre plus de soixante minutes. Si elle prend plus de temps, tu compliques trop. La révision annuelle ne devrait jamais prendre plus de quatre-vingt-dix minutes. Si elle prend plus de temps, tu rumines, pas tu ne révises. Les limites de temps ne sont pas arbitraires. Elles sont la différence entre une routine qui réduit l'anxiété et une qui la crée."
         },
         {
                 "id": "les-scripts-sur-l-argent-qui-tournent-en-arri-re-p",
@@ -4015,19 +4015,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La plupart de l'anxiété financière est alimentée par ce que les thérapeutes appellent des scripts sur l'argent : des croyances inconscientes sur l'argent que vous avez absorbées dans l'enfance et qui tournent depuis. Les scripts sont invisibles, et c'est ce qui les rend puissants. Vous ne les remarquez pas plus que vous ne remarquez le système d'exploitation sur votre téléphone. Mais ils façonnent chaque décision financière que vous prenez, et ils sont généralement faux."
+                "text": "La plupart de l'anxiété financière est alimentée par ce que les thérapeutes appellent des scripts sur l'argent : des croyances inconscientes sur l'argent que tu as absorbées dans l'enfance et qui tournent depuis. Les scripts sont invisibles, et c'est ce qui les rend puissants. Tu ne les remarques pas plus que tu ne remarques le système d'exploitation sur ton téléphone. Mais ils façonnent chaque décision financière que tu prends, et ils sont généralement faux."
         },
         {
                 "kind": "p",
-                "text": "Les scripts sur l'argent les plus courants sont : l'argent est la racine de tous les maux, les riches sont cupides, je ne mérite pas l'argent, je n'aurai jamais assez, l'argent est difficile à gagner, l'argent est facile à perdre, et parler d'argent est grossier. Chacun de ces scripts crée un type spécifique d'anxiété. Le script \"je n'aurai jamais assez\" crée un sentiment perpétuel de pénurie, même quand les chiffres vont bien. Le script \"l'argent est difficile à gagner\" crée une peur de dépenser, car chaque dollar dépensé semble prendre des mois à remplacer. Le script \"les riches sont cupides\" crée de la culpabilité à gagner plus, ce qui vous empêche de négocier une augmentation ou d'augmenter vos prix."
+                "text": "Les scripts sur l'argent les plus courants sont : l'argent est la racine de tous les maux, les riches sont cupides, je ne mérite pas l'argent, je n'aurai jamais assez, l'argent est difficile à gagner, l'argent est facile à perdre, et parler d'argent est grossier. Chacun de ces scripts crée un type spécifique d'anxiété. Le script \"je n'aurai jamais assez\" crée un sentiment perpétuel de pénurie, même quand les chiffres vont bien. Le script \"l'argent est difficile à gagner\" crée une peur de dépenser, car chaque dollar dépensé semble prendre des mois à remplacer. Le script \"les riches sont cupides\" crée de la culpabilité à gagner plus, ce qui t'empêche de négocier une augmentation ou d'augmenter tes prix."
         },
         {
                 "kind": "p",
-                "text": "La façon d'identifier vos scripts sur l'argent est de remarquer les pensées qui apparaissent quand vous pensez à l'argent. Écrivez-les exactement comme elles apparaissent dans votre tête. Ne les éditez pas. Ne les jugez pas. Écrivez-les simplement. Puis demandez-vous : d'où vient cette pensée ? Qui me l'a dit ? Quand ai-je cru ça pour la première fois ? Les réponses remontent généralement à un moment spécifique de l'enfance : un parent se disputant au sujet de factures, un professeur disant quelque chose sur les riches, un parent faisant un commentaire sur les finances de votre famille. Le moment était petit, mais la croyance qu'il a créée était grande, et elle a façonné votre comportement financier depuis."
+                "text": "La façon d'identifier tes scripts sur l'argent est de remarquer les pensées qui apparaissent quand tu penses à l'argent. Écris-les exactement comme elles apparaissent dans ta tête. Ne les édite pas. Ne les juge pas. Écris-les simplement. Puis demandes-tu : d'où vient cette pensée ? Qui me l'a dit ? Quand ai-je cru ça pour la première fois ? Les réponses remontent généralement à un moment spécifique de l'enfance : un parent se disputant au sujet de factures, un professeur disant quelque chose sur les riches, un parent faisant un commentaire sur les finances de ta famille. Le moment était petit, mais la croyance qu'il a créée était grande, et elle a façonné ton comportement financier depuis."
         },
         {
                 "kind": "p",
-                "text": "Les scripts sur l'argent ne disparaissent pas d'eux-mêmes. Ils disparaissent quand vous les voyez, les nommez et décidez s'ils sont encore vrais. La plupart ne le sont pas. Le script \"je n'aurai jamais assez\" était vrai quand vous étiez un enfant et n'aviez aucun contrôle sur les finances du foyer. Il n'est plus vrai maintenant que vous avez vos propres revenus, votre propre compte et votre propre capacité à prendre des décisions. Le script avait un but à un moment. Il n'en a plus maintenant. L'identifier est la première étape pour le remplacer par quelque chose de plus précis et moins douloureux."
+                "text": "Les scripts sur l'argent ne disparaissent pas d'eux-mêmes. Ils disparaissent quand tu les vois, les nomme et décide s'ils sont encore vrais. La plupart ne le sont pas. Le script \"je n'aurai jamais assez\" était vrai quand tu étais un enfant et n'avais aucun contrôle sur les finances du foyer. Il n'est plus vrai maintenant que tu as tes propres revenus, ton propre compte et ta propre capacité à prendre des décisions. Le script avait un but à un moment. Il n'en a plus maintenant. L'identifier est la première étape pour le remplacer par quelque chose de plus précis et moins douloureux."
         },
         {
                 "id": "comment-aider-quelqu-un-d-autre-avec-l-anxi-t-fina",
@@ -4036,15 +4036,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si quelqu'un que vous aimez lutte avec l'anxiété financière, la chose la plus utile que vous puissiez faire n'est pas de donner des conseils. Les conseils semblent utiles, mais arrivent souvent comme un jugement : vous devriez faire ça, vous devriez arrêter de faire ça. La personne sait déjà qu'elle devrait. Le savoir n'est pas le problème. Le problème est que l'anxiété rend l'action impossible. Ce dont la personne a besoin, ce n'est pas d'un plan. Ce dont elle a besoin, c'est quelqu'un qui reste avec elle pendant qu'elle regarde les chiffres, sans ciller, sans réparer et sans la faire se sentir pire."
+                "text": "Si quelqu'un que tu aimes lutte avec l'anxiété financière, la chose la plus utile que tu puisses faire n'est pas de donner des conseils. Les conseils semblent utiles, mais arrivent souvent comme un jugement : tu devrais faire ça, tu devrais arrêter de faire ça. La personne sait déjà qu'elle devrait. Le savoir n'est pas le problème. Le problème est que l'anxiété rend l'action impossible. Ce dont la personne a besoin, ce n'est pas d'un plan. Ce dont elle a besoin, c'est quelqu'un qui reste avec elle pendant qu'elle regarde les chiffres, sans ciller, sans réparer et sans la faire se sentir pire."
         },
         {
                 "kind": "p",
-                "text": "La version pratique de ceci s'appelle la co-régulation. Vous vous asseyez dans la même pièce pendant que la personne ouvre son application bancaire. Vous ne regardez pas l'écran. Vous ne commentez pas le chiffre. Vous existez simplement dans l'espace pendant qu'elle fait la chose qui lui fait peur. Votre présence stable réduit sa réponse de stress, ce qui rend le regarder possible, ce qui rend la prochaine fois plus facile. La co-régulation n'est pas une solution. C'est un pont qui rend la solution possible."
+                "text": "La version pratique de ceci s'appelle la co-régulation. Tu t'assieds dans la même pièce pendant que la personne ouvre son application bancaire. Tu ne regardes pas l'écran. Tu ne commentes pas le chiffre. Tu existes simplement dans l'espace pendant qu'elle fait la chose qui lui fait peur. Ta présence stable réduit sa réponse de stress, ce qui rend le regarder possible, ce qui rend la prochaine fois plus facile. La co-régulation n'est pas une solution. C'est un pont qui rend la solution possible."
         },
         {
                 "kind": "p",
-                "text": "L'autre chose que vous pouvez faire est de normaliser. Dites : je suis aussi parfois anxieux à propos de l'argent. J'évite aussi de regarder mes comptes. Je ressens aussi de la honte pour mes dépenses. La normalisation enlève l'isolement, et l'isolement est ce qui fait croître l'anxiété. La personne n'a pas besoin d'être réparée. Elle a besoin de savoir qu'elle n'est pas la seule à se sentir ainsi. L'expérience partagée est plus guérissante que n'importe quelle application de budget ou plan financier."
+                "text": "L'autre chose que tu peux faire est de normaliser. Dis : je suis aussi parfois anxieux à propos de l'argent. J'évite aussi de regarder mes comptes. Je ressens aussi de la honte pour mes dépenses. La normalisation enlève l'isolement, et l'isolement est ce qui fait croître l'anxiété. La personne n'a pas besoin d'être réparée. Elle a besoin de savoir qu'elle n'est pas la seule à se sentir ainsi. L'expérience partagée est plus guérissante que n'importe quelle application de budget ou plan financier."
         },
         {
                 "id": "le-mythe-du-fonds-d-urgence-et-pourquoi-il-aggrave",
@@ -4053,15 +4053,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Tout le monde dit : constituez un fonds d'urgence. Trois à six mois de dépenses. C'est le chiffre magique. Si vous l'avez, vous êtes en sécurité. Si vous ne l'avez pas, vous devriez ressentir de l'anxiété. Le conseil est bien intentionné, mais aggrave souvent l'anxiété, car il crée un nouveau chiffre sur lequel s'obséder et une nouvelle façon de se sentir en échec. Vous avez déjà le chiffre du loyer, le chiffre de la carte de crédit et le chiffre de l'épargne. Maintenant vous avez aussi le chiffre du fonds d'urgence, et c'est généralement celui qui semble le plus lointain."
+                "text": "Tout le monde dit : constitue un fonds d'urgence. Trois à six mois de dépenses. C'est le chiffre magique. Si tu l'as, tu es en sécurité. Si tu ne l'as pas, tu devrais ressentir de l'anxiété. Le conseil est bien intentionné, mais aggrave souvent l'anxiété, car il crée un nouveau chiffre sur lequel s'obséder et une nouvelle façon de se sentir en échec. Tu as déjà le chiffre du loyer, le chiffre de la carte de crédit et le chiffre de l'épargne. Maintenant tu as aussi le chiffre du fonds d'urgence, et c'est généralement celui qui semble le plus lointain."
         },
         {
                 "kind": "p",
-                "text": "Le fonds d'urgence est une bonne idée. Mais la façon dont il est présenté le transforme en une autre source d'anxiété au lieu d'une solution. La présentation suppose que vous avez une marge suffisante pour épargner, que vous pouvez épargner de manière constante, et que le fait d'épargner ne génère pas de stress en soi. Pour les personnes souffrant d'anxiété financière, le fait d'épargner génère souvent du stress, car chaque dollar épargné est un dollar qui aurait pu être utilisé pour réduire l'anxiété immédiate. La tension entre épargner pour l'avenir et soulager le présent est réelle, et le conseil standard ne l'aborde pas."
+                "text": "Le fonds d'urgence est une bonne idée. Mais la façon dont il est présenté le transforme en une autre source d'anxiété au lieu d'une solution. La présentation suppose que tu as une marge suffisante pour épargner, que tu peux épargner de manière constante, et que le fait d'épargner ne génère pas de stress en soi. Pour les personnes souffrant d'anxiété financière, le fait d'épargner génère souvent du stress, car chaque dollar épargné est un dollar qui aurait pu être utilisé pour réduire l'anxiété immédiate. La tension entre épargner pour l'avenir et soulager le présent est réelle, et le conseil standard ne l'aborde pas."
         },
         {
                 "kind": "p",
-                "text": "Un meilleur cadre est de penser au fonds d'urgence comme un spectre, pas comme une cible. Toute somme épargnée est mieux que rien. Cent dollars sont mieux que zéro. Cinq cents sont mieux que cent. Le chiffre n'a pas besoin d'être parfait. Il doit exister. L'existence d'un petit fonds change l'histoire que vous vous racontez sur votre capacité à gérer les surprises, et l'histoire changée est ce qui réduit l'anxiété. Le fonds ne concerne pas l'argent. Il concerne l'histoire."
+                "text": "Un meilleur cadre est de penser au fonds d'urgence comme un spectre, pas comme une cible. Toute somme épargnée est mieux que rien. Cent dollars sont mieux que zéro. Cinq cents sont mieux que cent. Le chiffre n'a pas besoin d'être parfait. Il doit exister. L'existence d'un petit fonds change l'histoire que tu te racontes sur ta capacité à gérer les surprises, et l'histoire changée est ce qui réduit l'anxiété. Le fonds ne concerne pas l'argent. Il concerne l'histoire."
         },
         {
                 "id": "anxi-t-financi-re-et-dysmorphie-mon-taire",
@@ -4070,15 +4070,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La dysmorphie monétaire est un terme plus récent pour un phénomène qui a toujours existé : la distorsion entre votre situation financière réelle et la façon dont vous la percevez. Vous pourriez gagner un salaire confortable et vous sentir en faillite permanente. Vous pourriez avoir plus d'épargne que la plupart de vos collègues et avoir le sentiment d'être en retard. La distorsion ne concerne pas les faits. Elle concerne le prisme à travers lequel vous voyez les faits, et l'anxiété financière est le prisme qui fait tout paraître pire qu'il ne l'est."
+                "text": "La dysmorphie monétaire est un terme plus récent pour un phénomène qui a toujours existé : la distorsion entre ta situation financière réelle et la façon dont tu la perçois. Tu pourrais gagner un salaire confortable et te sentir en faillite permanente. Tu pourrais avoir plus d'épargne que la plupart de tes collègues et avoir le sentiment d'être en retard. La distorsion ne concerne pas les faits. Elle concerne le prisme à travers lequel tu vois les faits, et l'anxiété financière est le prisme qui fait tout paraître pire qu'il ne l'est."
         },
         {
                 "kind": "p",
-                "text": "La dysmorphie monétaire est courante chez les personnes qui ont grandi dans des ménages où l'argent était serré, même si leur situation actuelle est stable. L'expérience de l'enfance a créé une attente de base de pénurie, et cette base ne se met pas à jour automatiquement quand les faits changent. Vous pourriez gagner trois fois ce que vos parents gagnaient et ressentir la même anxiété qu'ils ressentaient, car le sentiment a été installé avant que vous ayez le vocabulaire pour le remettre en question. L'anxiété est héritée, pas méritée, et l'héritage peut être refusé."
+                "text": "La dysmorphie monétaire est courante chez les personnes qui ont grandi dans des ménages où l'argent était serré, même si leur situation actuelle est stable. L'expérience de l'enfance a créé une attente de base de pénurie, et cette base ne se met pas à jour automatiquement quand les faits changent. Tu pourrais gagner trois fois ce que tes parents gagnaient et ressentir la même anxiété qu'ils ressentaient, car le sentiment a été installé avant que tu aies le vocabulaire pour le remettre en question. L'anxiété est héritée, pas méritée, et l'héritage peut être refusé."
         },
         {
                 "kind": "p",
-                "text": "L'effet pratique de la dysmorphie monétaire est qu'elle vous empêche de profiter de la stabilité financière que vous avez déjà atteinte. Vous épargnez agressivement mais c'est jamais assez. Vous évitez de dépenser pour des choses qui amélioreraient votre vie car la dépense déclenche l'anxiété. Vous vous comparez à des personnes qui gagnent plus et vous vous sentez en échec, même si vous allez bien selon toutes les mesures objectives. La dysmorphie est l'anxiété déguisée, et le déguisement ressemble à de la prudence."
+                "text": "L'effet pratique de la dysmorphie monétaire est qu'elle t'empêche de profiter de la stabilité financière que tu as déjà atteinte. Tu épargnes agressivement mais c'est jamais assez. Tu évites de dépenser pour des choses qui amélioreraient ta vie car la dépense déclenche l'anxiété. Tu te compares à des personnes qui gagnent plus et tu te sens en échec, même si tu vas bien selon toutes les mesures objectives. La dysmorphie est l'anxiété déguisée, et le déguisement ressemble à de la prudence."
         },
         {
                 "id": "quand-chercher-un-soutien-professionnel",
@@ -4087,15 +4087,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si l'anxiété liée à l'argent affecte gravement votre sommeil, vos relations ou votre fonctionnement quotidien depuis plus de deux semaines, envisagez de chercher le soutien d'un thérapeute financier. Une application de budget peut cesser d'aggraver l'anxiété, mais elle ne peut pas remplacer des soins professionnels."
+                "text": "Si l'anxiété liée à l'argent affecte gravement ton sommeil, tes relations ou ton fonctionnement quotidien depuis plus de deux semaines, envisage de chercher le soutien d'un thérapeute financier. Une application de budget peut cesser d'aggraver l'anxiété, mais elle ne peut pas remplacer des soins professionnels."
         },
         {
                 "kind": "p",
-                "text": "La thérapie financière est un domaine spécifique qui combine la planification financière avec le soutien psychologique. Un thérapeute financier ne vous dit pas seulement où mettre votre argent. Il vous aide à comprendre pourquoi l'argent vous fait ressentir ce qu'il vous fait ressentir, et il vous aide à construire les compétences émotionnelles pour interagir avec vos finances sans la surcharge. La combinaison est plus efficace que chaque discipline séparément, car le plan financier ne tient pas si la base émotionnelle n'est pas stable, et le travail émotionnel ne tient pas si la base financière n'est pas abordée."
+                "text": "La thérapie financière est un domaine spécifique qui combine la planification financière avec le soutien psychologique. Un thérapeute financier ne te dit pas seulement où mettre ton argent. Il t'aide à comprendre pourquoi l'argent te fait ressentir ce qu'il te fait ressentir, et il t'aide à construire les compétences émotionnelles pour interagir avec tes finances sans la surcharge. La combinaison est plus efficace que chaque discipline séparément, car le plan financier ne tient pas si la base émotionnelle n'est pas stable, et le travail émotionnel ne tient pas si la base financière n'est pas abordée."
         },
         {
                 "kind": "p",
-                "text": "Les signes que vous devriez chercher de l'aide incluent : vous n'avez pas ouvert votre courrier depuis plus d'un mois, vous ne vous êtes pas connecté à votre compte bancaire depuis plus de deux semaines, vous perdez le sommeil à cause de l'argent plus d'une fois par semaine, vous vous disputez à propos de l'argent avec votre partenaire plus d'une fois par semaine, ou vous prenez des décisions financières basées sur la panique plutôt que sur l'information. Aucun de ces signes ne signifie que vous avez échoué. Ils signifient que l'anxiété a dépassé ce que l'auto-assistance peut gérer, et il n'y a pas de honte à cela. La honte serait de continuer à souffrir quand l'aide est disponible."
+                "text": "Les signes que tu devrais chercher de l'aide incluent : tu n'as pas ouvert ton courrier depuis plus d'un mois, tu ne t'es pas connecté à ton compte bancaire depuis plus de deux semaines, tu perds le sommeil à cause de l'argent plus d'une fois par semaine, tu te disputes à propos de l'argent avec ton partenaire plus d'une fois par semaine, ou tu prends des décisions financières basées sur la panique plutôt que sur l'information. Aucun de ces signes ne signifie que tu as échoué. Ils signifient que l'anxiété a dépassé ce que l'auto-assistance peut gérer, et il n'y a pas de honte à cela. La honte serait de continuer à souffrir quand l'aide est disponible."
         },
         {
                 "kind": "divider"
@@ -4107,27 +4107,27 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'anxiété financière est-elle la même chose que d'être mauvais avec l'argent ? Non. L'anxiété financière est une réponse émotionnelle à l'incertitude concernant l'argent. Elle peut affecter des personnes qui sont excellentes avec l'argent et des personnes qui ne le sont pas. L'anxiété concerne le sentiment, pas la compétence. Vous pouvez être très compétent avec vos finances et quand même ressentir de l'anxiété à leur sujet, car l'anxiété est enracinée dans la croyance que vous n'êtes pas en sécurité, pas dans la réalité de votre situation financière."
+                "text": "L'anxiété financière est-elle la même chose que d'être mauvais avec l'argent ? Non. L'anxiété financière est une réponse émotionnelle à l'incertitude concernant l'argent. Elle peut affecter des personnes qui sont excellentes avec l'argent et des personnes qui ne le sont pas. L'anxiété concerne le sentiment, pas la compétence. Tu peux être très compétent avec tes finances et quand même ressentir de l'anxiété à leur sujet, car l'anxiété est enracinée dans la croyance que tu n'es pas en sécurité, pas dans la réalité de ta situation financière."
         },
         {
                 "kind": "p",
-                "text": "Une application de budget peut-elle aider avec l'anxiété financière ? Cela dépend de l'application. Certaines applications aggravent l'anxiété en vous bombardant de notifications, en vous montrant des graphiques qui semblent être des jugements et en vous faisant sentir que vous échouez. Une application bien conçue fait le contraire : elle réduit le nombre de décisions que vous devez prendre, présente les informations clairement et vous aide à construire une routine qui rend le fait de regarder votre argent normal. La bonne application ne remplace pas une aide professionnelle pour une anxiété grave, mais elle peut faire partie d'un plan qui réduit la charge quotidienne."
+                "text": "Une application de budget peut-elle aider avec l'anxiété financière ? Cela dépend de l'application. Certaines applications aggravent l'anxiété en te bombardant de notifications, en te montrant des graphiques qui semblent être des jugements et en te faisant sentir que tu échoues. Une application bien conçue fait le contraire : elle réduit le nombre de décisions que tu dois prendre, présente les informations clairement et t'aide à construire une routine qui rend le fait de regarder ton argent normal. La bonne application ne remplace pas une aide professionnelle pour une anxiété grave, mais elle peut faire partie d'un plan qui réduit la charge quotidienne."
         },
         {
                 "kind": "p",
-                "text": "Combien de temps faut-il pour que l'anxiété financière s'améliore ? Cela dépend de la source. Si l'anxiété est causée par un problème financier spécifique (dette, une facture, la perte d'un emploi), l'anxiété diminue souvent dès que vous avez un plan, même si le plan prend des mois à exécuter. Si l'anxiété est causée par une croyance plus profonde (honte, traumatisme financier de l'enfance, peur de ne pas être assez), cela peut prendre plus de temps, et une aide professionnelle accélère souvent le processus. La plupart des gens remarquent une amélioration dans les quatre à six semaines suivant le début d'une routine constante, même sans aide professionnelle."
+                "text": "Combien de temps faut-il pour que l'anxiété financière s'améliore ? Cela dépend de la source. Si l'anxiété est causée par un problème financier spécifique (dette, une facture, la perte d'un emploi), l'anxiété diminue souvent dès que tu as un plan, même si le plan prend des mois à exécuter. Si l'anxiété est causée par une croyance plus profonde (honte, traumatisme financier de l'enfance, peur de ne pas être assez), cela peut prendre plus de temps, et une aide professionnelle accélère souvent le processus. La plupart des gens remarquent une amélioration dans les quatre à six semaines suivant le début d'une routine constante, même sans aide professionnelle."
         },
         {
                 "kind": "p",
-                "text": "Devrais-je partager mon anxiété financière avec mon partenaire ? Oui, mais avec une structure. Choisissez un moment où aucun de vous n'est stressé, fixez une limite de temps et concentrez-vous sur ce que vous ressentez plutôt que sur ce que l'autre personne devrait faire. L'objectif de la conversation n'est pas de résoudre le problème ensemble. L'objectif est d'être connu. Une fois que le sentiment est partagé, la honte perd son pouvoir, et la résolution de problèmes devient possible depuis un endroit plus stable."
+                "text": "Devrais-je partager mon anxiété financière avec mon partenaire ? Oui, mais avec une structure. Choisis un moment où personne n'est stressé, fixe une limite de temps et concentre-toi sur ce que tu ressens plutôt que sur ce que l'autre personne devrait faire. L'objectif de la conversation n'est pas de résoudre le problème ensemble. L'objectif est d'être connu. Une fois que le sentiment est partagé, la honte perd son pouvoir, et la résolution de problèmes devient possible depuis un endroit plus stable."
         },
         {
                 "kind": "p",
-                "text": "Et si mon anxiété financière est justifiée parce que mes finances sont réellement mauvaises ? Même une anxiété justifiée reste de l'anxiété, et l'anxiété ne vous aide pas à résoudre les problèmes financiers. Elle vous fait les éviter. Le fait que vos finances soient difficiles rend plus important, pas moins, d'interagir avec elles la tête froide. La clarté n'est pas du déni. C'est la condition sous laquelle de bonnes décisions sont possibles. Une personne qui garde la tête froide avec de mauvaises finances prend de meilleures décisions qu'une personne anxieuse avec de mauvaises finances, à chaque fois."
+                "text": "Et si mon anxiété financière est justifiée parce que mes finances sont réellement mauvaises ? Même une anxiété justifiée reste de l'anxiété, et l'anxiété ne t'aide pas à résoudre les problèmes financiers. Elle te fait les éviter. Le fait que tes finances soient difficiles rend plus important, pas moins, d'interagir avec elles la tête froide. La clarté n'est pas du déni. C'est la condition sous laquelle de bonnes décisions sont possibles. Une personne qui garde la tête froide avec de mauvaises finances prend de meilleures décisions qu'une personne anxieuse avec de mauvaises finances, à chaque fois."
         },
         {
                 "kind": "p",
-                "text": "Est-il normal de se sentir anxieux à propos de l'argent même quand ça va bien ? Oui. L'anxiété financière n'est pas proportionnelle à votre situation financière. Elle est proportionnelle à votre relation avec l'incertitude, vos scripts infantiles sur l'argent et les comparaisons que vous faites. Les personnes avec des revenus confortables se sentent souvent plus anxieuses à propos de l'argent que les personnes avec moins, car elles ont plus à perdre et des décisions plus complexes à prendre. L'anxiété n'est pas un signe que quelque chose ne va pas avec vos finances. C'est un signe que quelque chose vaut la peine d'être exploré dans votre relation avec l'argent."
+                "text": "Est-il normal de se sentir anxieux à propos de l'argent même quand ça va bien ? Oui. L'anxiété financière n'est pas proportionnelle à ta situation financière. Elle est proportionnelle à ta relation avec l'incertitude, tes scripts infantiles sur l'argent et les comparaisons que tu fais. Les personnes avec des revenus confortables se sentent souvent plus anxieuses à propos de l'argent que les personnes avec moins, car elles ont plus à perdre et des décisions plus complexes à prendre. L'anxiété n'est pas un signe que quelque chose ne va pas avec tes finances. C'est un signe que quelque chose vaut la peine d'être exploré dans ta relation avec l'argent."
         },
         {
                 "id": "une-meilleure-relation-avec-l-argent-commence-par-regarder",
@@ -4136,15 +4136,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'anxiété financière n'est pas un défaut de caractère. C'est une réponse de stress à l'incertitude, et l'incertitude diminue quand vous regardez. Le regarder n'a pas besoin d'être dramatique. Il n'a pas besoin d'être une revue complète du budget. Il peut être cinq minutes, un seul chiffre, pas de jugement. Les cinq minutes ne sont pas une solution. C'est une pratique, et la pratique s'accumule. Chaque fois que vous regardez, le regarder devient plus facile. Chaque fois que vous survivez au regarder, la peur perd un peu de son pouvoir. L'anxiété ne disparaît pas, mais elle rétrécit, et l'espace qu'elle occupait se remplit de quelque chose de plus utile : l'information, l'autonomie et la connaissance silencieuse que vous pouvez gérer ça."
+                "text": "L'anxiété financière n'est pas un défaut de caractère. C'est une réponse de stress à l'incertitude, et l'incertitude diminue quand tu regardes. Le regarder n'a pas besoin d'être dramatique. Il n'a pas besoin d'être une revue complète du budget. Il peut être cinq minutes, un seul chiffre, pas de jugement. Les cinq minutes ne sont pas une solution. C'est une pratique, et la pratique s'accumule. Chaque fois que tu regardes, le regarder devient plus facile. Chaque fois que tu survis au regarder, la peur perd un peu de son pouvoir. L'anxiété ne disparaît pas, mais elle rétrécit, et l'espace qu'elle occupait se remplit de quelque chose de plus utile : l'information, l'autonomie et la connaissance silencieuse que tu peux gérer ça."
         },
         {
                 "kind": "p",
-                "text": "Les habitudes de ce guide sont conçues pour réduire la charge émotionnelle avant même que vous ne regardiez les chiffres. Les respirations, le langage, les limites de temps, le couvre-feu : chacune est une petite intervention qui change la relation entre vous et votre argent. Aucune n'exige de la volonté. Aucune n'exige que vous soyez motivé. Elles exigent simplement que vous les fassiez, et le faire crée la motivation, pas l'inverse. La motivation suit l'action. L'action ne suit pas la motivation."
+                "text": "Les habitudes de ce guide sont conçues pour réduire la charge émotionnelle avant même que tu ne regardes les chiffres. Les respirations, le langage, les limites de temps, le couvre-feu : chacune est une petite intervention qui change la relation entre toi et ton argent. Aucune n'exige de la volonté. Aucune n'exige que tu sois motivé. Elles exigent simplement que tu les fasses, et le faire crée la motivation, pas l'inverse. La motivation suit l'action. L'action ne suit pas la motivation."
         },
         {
                 "kind": "p",
-                "text": "Si vous voulez un outil qui rend le regarder plus facile, Savlo est conçu exactement pour ça : une façon rapide, privée et sans publicité de voir votre argent sans la surcharge. Il est conçu pour Android, et iOS arrive ensuite. Si vous voulez continuer, les articles ci-dessous approfondissent les mécaniques spécifiques : la philosophie budgétaire plus large, les mécaniques pratiques des fonds de prévision, et le guide spécifique de la règle 50/30/20 si vous voulez un point de départ simple."
+                "text": "Si tu veux un outil qui rend le regarder plus facile, Savlo est conçu exactement pour ça : une façon rapide, privée et sans publicité de voir ton argent sans la surcharge. Il est conçu pour Android, et iOS arrive ensuite. Si tu veux continuer, les articles ci-dessous approfondissent les mécaniques spécifiques : la philosophie budgétaire plus large, les mécaniques pratiques des fonds de prévision, et le guide spécifique de la règle 50/30/20 si tu veux un point de départ simple."
         }
 ]
     },
@@ -4174,7 +4174,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vous avez déjà senti un nœud au ventre lorsqu'une facture annuelle arrive, ou si vous avez vu le solde de votre carte de crédit bondir chaque décembre, les fonds de réserve sont la solution. Au lieu d'absorber une grande dépense d'un seul coup, vous mettez de côté chaque mois un petit montant afin que l'argent soit déjà disponible lorsque vous en aurez besoin. La dépense cesse d'être une crise pour devenir une ligne budgétaire."
+                "text": "Si tu as déjà senti un nœud au ventre lorsqu'une facture annuelle arrive, ou si tu as vu le solde de ta carte de crédit bondir chaque décembre, les fonds de réserve sont la solution. Au lieu d'absorber une grande dépense d'un seul coup, tu mets de côté chaque mois un petit montant afin que l'argent soit déjà disponible lorsque tu en auras besoin. La dépense cesse d'être une crise pour devenir une ligne budgétaire."
         },
         {
                 "id": "qu-est-ce-qu-un-fonds-de-r-serve",
@@ -4183,15 +4183,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un fonds de réserve est un compte d'épargne ciblé où vous mettez de côté de l'argent au fil du temps pour une dépense spécifique et connue. Le terme vient de la finance d'entreprise, où les sociétés provisionnent des liquidités pour rembourser des obligations ou des engagements importants. En finance personnelle, l'idée est la même : vous savez que la dépense arrive, vous épargnez donc à l'avance au lieu de vous retrouver dans l'embarras lorsque la facture arrive."
+                "text": "Un fonds de réserve est un compte d'épargne ciblé où tu mets de côté de l'argent au fil du temps pour une dépense spécifique et connue. Le terme vient de la finance d'entreprise, où les sociétés provisionnent des liquidités pour rembourser des obligations ou des engagements importants. En finance personnelle, l'idée est la même : tu sais que la dépense arrive, tu épargnes donc à l'avance au lieu de te retrouver dans l'embarras lorsque la facture arrive."
         },
         {
                 "kind": "p",
-                "text": "Les fonds de réserve se distinguent de l'épargne générale. Un compte d'épargne générale est un pool d'argent sans affectation spécifique. Un fonds de réserve a un nom, un montant cible et une date limite. Cette spécificité est ce qui le fait fonctionner. Lorsque vous savez exactement à quoi sert l'argent, vous êtes beaucoup moins susceptible de le dépenser pour autre chose."
+                "text": "Les fonds de réserve se distinguent de l'épargne générale. Un compte d'épargne générale est un pool d'argent sans affectation spécifique. Un fonds de réserve a un nom, un montant cible et une date limite. Cette spécificité est ce qui le fait fonctionner. Lorsque tu sais exactement à quoi sert l'argent, tu es beaucoup moins susceptible de le dépenser pour autre chose."
         },
         {
                 "kind": "p",
-                "text": "Le point fort des fonds de réserve est leur simplicité. Vous n'avez pas besoin de tableurs compliqués ni de compétences financières. Vous avez besoin d'un montant cible, d'une date limite et de la discipline de transférer de l'argent dans le fonds chaque mois. C'est tout. Le calcul est simple, l'exécution est mécanique et les résultats sont immédiats."
+                "text": "Le point fort des fonds de réserve est leur simplicité. Tu n'as pas besoin de tableurs compliqués ni de compétences financières. Tu as besoin d'un montant cible, d'une date limite et de la discipline de transférer de l'argent dans le fonds chaque mois. C'est tout. Le calcul est simple, l'exécution est mécanique et les résultats sont immédiats."
         },
         {
                 "id": "comment-les-fonds-de-r-serve-diff-rent-de-l-pargne",
@@ -4200,19 +4200,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Beaucoup de gens confondent les fonds de réserve avec leur compte d'épargne général, mais ils remplissent des objectifs fondamentalement différents. Comprendre cette distinction vous aide à allouer l'argent plus efficacement."
+                "text": "Beaucoup de gens confondent les fonds de réserve avec leur compte d'épargne général, mais ils remplissent des objectifs fondamentalement différents. Comprendre cette distinction t'aide à allouer l'argent plus efficacement."
         },
         {
                 "kind": "p",
-                "text": "Un compte d'épargne général est votre compte tout-en-un. Il peut contenir votre fonds d'urgence, votre argent de vacances et votre objectif d'apport, le tout au même endroit. Le problème est que sans limites claires, l'argent est dépensé pour la première occasion qui se présente. Vous puisez dans votre fonds de vacasions pour une réparation de voiture, et soudain les deux objectifs sont compromis."
+                "text": "Un compte d'épargne général est ton compte tout-en-un. Il peut contenir ton fonds d'urgence, ton argent de vacances et ton objectif d'apport, le tout au même endroit. Le problème est que sans limites claires, l'argent est dépensé pour la première occasion qui se présente. Tu puises dans ton fonds de vacasions pour une réparation de voiture, et soudain les deux objectifs sont compromis."
         },
         {
                 "kind": "p",
-                "text": "Un fonds de réserve, en revanche, est un bac à usage unique. Lorsque vous créez un fonds de réserve pour les cadeaux de Noël, cet argent n'existe que pour les cadeaux de Noël. Lorsque vous en créez un pour l'entretien de la voiture, il reste intact jusqu'à ce que votre voiture ait réellement besoin de réparations. Cette séparation mentale est puissante. Elle transforme des économies abstraites en objectifs concrets et protégés."
+                "text": "Un fonds de réserve, en revanche, est un bac à usage unique. Lorsque tu crées un fonds de réserve pour les cadeaux de Noël, cet argent n'existe que pour les cadeaux de Noël. Lorsque tu en crées un pour l'entretien de la voiture, il reste intact jusqu'à ce que ta voiture ait réellement besoin de réparations. Cette séparation mentale est puissante. Elle transforme des économies abstraites en objectifs concrets et protégés."
         },
         {
                 "kind": "p",
-                "text": "L'autre différence essentielle est le timing. L'épargne générale n'a souvent pas de date limite spécifique. Vous épargnez parce que vous le devez, pas parce que vous avez besoin d'un montant précis à une date précise. Les fonds de réserve ont toujours une date cible. Cette deadline crée de l'urgence et de la responsabilité. Vous savez exactement combien épargner chaque mois car vous travaillez à rebours à partir d'un objectif fixe."
+                "text": "L'autre différence essentielle est le timing. L'épargne générale n'a souvent pas de date limite spécifique. Tu épargnes parce que tu le dois, pas parce que tu as besoin d'un montant précis à une date précise. Les fonds de réserve ont toujours une date cible. Cette deadline crée de l'urgence et de la responsabilité. Tu sais exactement combien épargner chaque mois car tu travailles à rebours à partir d'un objectif fixe."
         },
         {
                 "id": "la-psychologie-des-fonds-de-r-serve",
@@ -4221,19 +4221,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les fonds de réserve fonctionnent car ils s'alignent avec la façon dont votre cerveau gère réellement l'argent. Les économistes comportementaux appellent cela la « comptabilité mentale » : la tendance à traiter l'argent différemment en fonction de son étiquetage ou de son emplacement. La plupart des conseils financiers considèrent la comptabilité mentale comme un biais à surmonter. Les fonds de réserve l'utilisent comme un outil."
+                "text": "Les fonds de réserve fonctionnent car ils s'alignent avec la façon dont ton cerveau gère réellement l'argent. Les économistes comportementaux appellent cela la « comptabilité mentale » : la tendance à traiter l'argent différemment en fonction de son étiquetage ou de son emplacement. La plupart des conseils financiers considèrent la comptabilité mentale comme un biais à surmonter. Les fonds de réserve l'utilisent comme un outil."
         },
         {
                 "kind": "p",
-                "text": "Lorsque vous étiquetez de l'argent comme « Voyage au Japon 2027 », votre cerveau cesse de le traiter comme de l'argent générique. Il devient protégé, réservé, plus difficile à toucher. C'est la même raison pour laquelle les gens ressentent de la douleur lorsqu'ils dépensent du liquide mais pas lorsqu'ils passent la carte. La physicalité et les étiquettes créent de la friction, et c'est cette friction qui préserve vos économies."
+                "text": "Lorsque tu étiquettes de l'argent comme « Voyage au Japon 2027 », ton cerveau cesse de le traiter comme de l'argent générique. Il devient protégé, réservé, plus difficile à toucher. C'est la même raison pour laquelle les gens ressentent de la douleur lorsqu'ils dépensent du liquide mais pas lorsqu'ils passent la carte. La physicalité et les étiquettes créent de la friction, et c'est cette friction qui préserve tes économies."
         },
         {
                 "kind": "p",
-                "text": "Les fonds de réserve réduisent également la fatigue décisionnelle. Chaque mois, vous prenez des dizaines de décisions financières. Quoi acheter, quoi sauter, quoi reporter. Lorsque vous avez un fonds de réserve pour une dépense connue, cette décision est déjà prise. L'argent est là. La seule question est de savoir quand le dépenser, pas si vous pouvez vous le permettre. Cette clarté mentale vaut plus que le montant en dollars dans le fonds."
+                "text": "Les fonds de réserve réduisent également la fatigue décisionnelle. Chaque mois, tu prends des dizaines de décisions financières. Quoi acheter, quoi sauter, quoi reporter. Lorsque tu as un fonds de réserve pour une dépense connue, cette décision est déjà prise. L'argent est là. La seule question est de savoir quand le dépenser, pas si tu peux te le permettre. Cette clarté mentale vaut plus que le montant en dollars dans le fonds."
         },
         {
                 "kind": "p",
-                "text": "Il y a aussi une boucle de rétroaction. Lorsque vous voyez un fonds de réserve grandir mois après mois, vous obtenez une petite dose de progrès. Le fonds devient une mesure visible de votre discipline. Cette visibilité renforce le comportement, ce qui fait croître le fonds plus vite, ce qui renforce à nouveau le comportement. C'est un cercle vertueux, et c'est l'une des raisons pour lesquelles les gens qui commencent des fonds de réserve s'arrêtent rarement."
+                "text": "Il y a aussi une boucle de rétroaction. Lorsque tu vois un fonds de réserve grandir mois après mois, tu obtiens une petite dose de progrès. Le fonds devient une mesure visible de ta discipline. Cette visibilité renforce le comportement, ce qui fait croître le fonds plus vite, ce qui renforce à nouveau le comportement. C'est un cercle vertueux, et c'est l'une des raisons pour lesquelles les gens qui commencent des fonds de réserve s'arrêtent rarement."
         },
         {
                 "id": "comment-cr-er-un-fonds-de-r-serve",
@@ -4243,70 +4243,70 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Nommez-le avec une intention claire : « Voyage au Japon 2027 » ou « Cagnotte Nouvel Ordinateur », pas « Épargne 3 ».",
-                        "Calculez votre montant cible total.",
-                        "Divisez ce montant par le nombre de mois restants.",
-                        "Automatisez le virement mensuel le jour de paie."
+                        "Nomme-le avec une intention claire : « Voyage au Japon 2027 » ou « Cagnotte Nouvel Ordinateur », pas « Épargne 3 ».",
+                        "Calcule ton montant cible total.",
+                        "Divise ce montant par le nombre de mois restants.",
+                        "Automatise le virement mensuel le jour de paie."
                 ]
         },
         {
-                "id": "tape-par-tape-cr-er-votre-premier-fonds-de-r-serve",
+                "id": "tape-par-tape-cr-er-ton-premier-fonds-de-r-serve",
                 "kind": "h3",
-                "text": "Étape par étape : Créer votre premier fonds de réserve"
+                "text": "Étape par étape : Créer ton premier fonds de réserve"
         },
         {
                 "kind": "p",
-                "text": "Commencez par lister toutes les dépenses importantes et prévisibles auxquelles vous ferez face dans les douze prochains mois. Primes d'assurance, cadeaux de Noël, entretien de la voiture, vacances, abonnements annuels, impôts. Notez-les tous avec leur coût approximatif et le mois d'échéance."
+                "text": "Commence par lister toutes les dépenses importantes et prévisibles auxquelles tu feras face dans les douze prochains mois. Primes d'assurance, cadeaux de Noël, entretien de la voiture, vacances, abonnements annuels, impôts. Note-les tous avec leur coût approximatif et le mois d'échéance."
         },
         {
                 "kind": "p",
-                "text": "Ensuite, établissez des priorités. Vous n'aurez pas de place pour tous les fonds de réserve en même temps, surtout si vous commencez de zéro. Classez-les par urgence et impact. Une prime d'assurance due dans deux mois est plus urgente qu'un fonds de vacances pour l'été prochain. Commencez par le fonds le plus urgent et ajoutez-en d'autres au fur et à mesure que votre budget le permet."
+                "text": "Ensuite, établis des priorités. Tu n'auras pas de place pour tous les fonds de réserve en même temps, surtout si tu commences de zéro. Classe-les par urgence et impact. Une prime d'assurance due dans deux mois est plus urgente qu'un fonds de vacances pour l'été prochain. Commence par le fonds le plus urgent et ajoutes-en d'autres au fur et à mesure que ton budget le permet."
         },
         {
                 "kind": "p",
-                "text": "Pour chaque fonds, divisez le coût total par le nombre de mois jusqu'à ce que vous ayez besoin de l'argent. Si votre assurance auto coûte 600 dollars et est due dans six mois, vous avez besoin de 100 dollars par mois. Si les cadeaux de Noël coûteront 480 dollars et sont à dix mois, vous avez besoin de 48 dollars par mois. Notez ces montants. Ce sont maintenant des postes budgétaires non négociables, tout comme le loyer ou les charges."
+                "text": "Pour chaque fonds, divise le coût total par le nombre de mois jusqu'à ce que tu aies besoin de l'argent. Si ton assurance auto coûte 600 dollars et est due dans six mois, tu as besoin de 100 dollars par mois. Si les cadeaux de Noël coûteront 480 dollars et sont à dix mois, tu as besoin de 48 dollars par mois. Note ces montants. Ce sont maintenant des postes budgétaires non négociables, tout comme le loyer ou les charges."
         },
         {
                 "kind": "p",
-                "text": "Enfin, configurez le virement. La plupart des banques vous permettent de planifier des virements automatiques entre comptes. Réglez le virement pour le jour où votre salaire arrive. Cette approche « payez-vous d'abord » garantit que l'argent est transféré avant que vous ayez la chance de le dépenser. L'automatisation élimine la volonté de l'équation, ce qui est exactement là où elle doit être éliminée."
+                "text": "Enfin, configure le virement. La plupart des banques te permettent de planifier des virements automatiques entre comptes. Règle le virement pour le jour où ton salaire arrive. Cette approche « paie-toi d'abord » garantit que l'argent est transféré avant que tu aies la chance de le dépenser. L'automatisation élimine la volonté de l'équation, ce qui est exactement là où elle doit être éliminée."
         },
         {
-                "id": "o-conserver-vos-fonds-de-r-serve",
+                "id": "o-conserver-tes-fonds-de-r-serve",
                 "kind": "h3",
-                "text": "Où conserver vos fonds de réserve"
+                "text": "Où conserver tes fonds de réserve"
         },
         {
                 "kind": "p",
-                "text": "Vous avez plusieurs options pour héberger vos fonds de réserve. Le meilleur choix dépend de la fréquence à laquelle vous avez besoin d'accéder à l'argent et du niveau de séparation que vous souhaitez entre les fonds."
+                "text": "Tu as plusieurs options pour héberger tes fonds de réserve. Le meilleur choix dépend de la fréquence à laquelle tu as besoin d'accéder à l'argent et du niveau de séparation que tu souhaites entre les fonds."
         },
         {
                 "kind": "p",
-                "text": "Comptes d'épargne séparés. Certaines banques vous permettent d'ouvrir plusieurs comptes d'épargne gratuitement. Vous pouvez nommer chacun selon son objectif. Cela vous donne la séparation la plus propre et facilite la visualisation exacte de ce que vous avez épargné pour chaque objectif."
+                "text": "Comptes d'épargne séparés. Certaines banques te permettent d'ouvrir plusieurs comptes d'épargne gratuitement. Tu peux nommer chacun selon son objectif. Cela te donne la séparation la plus propre et facilite la visualisation exacte de ce que tu as épargné pour chaque objectif."
         },
         {
                 "kind": "p",
-                "text": "Un seul compte d'épargne avec suivi mental. Si votre banque ne prend pas en charge plusieurs comptes, vous pouvez conserver un seul compte d'épargne et suivre vos soldes de fonds de réserve séparément. Cela fonctionne, mais nécessite de la discipline. Vous devez vérifier régulièrement votre suivi pour vous assurer de ne pas trop dépenser dans un fonds."
+                "text": "Un seul compte d'épargne avec suivi mental. Si ta banque ne prend pas en charge plusieurs comptes, tu peux conserver un seul compte d'épargne et suivre tes soldes de fonds de réserve séparément. Cela fonctionne, mais nécessite de la discipline. Tu dois vérifier régulièrement ton suivi pour t'assurer de ne pas trop dépenser dans un fonds."
         },
         {
                 "kind": "p",
-                "text": "Une application de budgétisation. Des applications comme Savlo vous permettent de créer des cagnotte virtuelles pour chaque fonds de réserve. L'application suit vos contributions, affiche votre progression vers chaque objectif et vous alerte lorsqu'un fonds est en retard. C'est l'option la plus passive et fonctionne bien si vous souhaitez que le suivi soit automatique."
+                "text": "Une application de budgétisation. Des applications comme Savlo te permettent de créer des cagnotte virtuelles pour chaque fonds de réserve. L'application suit tes contributions, affiche ta progression vers chaque objectif et t'alerte lorsqu'un fonds est en retard. C'est l'option la plus passive et fonctionne bien si tu souhaites que le suivi soit automatique."
         },
         {
-                "id": "comment-nommer-efficacement-vos-fonds-de-r-serve",
+                "id": "comment-nommer-efficacement-tes-fonds-de-r-serve",
                 "kind": "h2",
-                "text": "Comment nommer efficacement vos fonds de réserve"
+                "text": "Comment nommer efficacement tes fonds de réserve"
         },
         {
                 "kind": "p",
-                "text": "Le nom que vous donnez à un fonds de réserve compte plus que vous ne le pensez. Un fonds appelé « Épargne » est facile à puiser. Un fonds appelé « Voyage au Japon 2027 » semble concret, spécifique et difficile à toucher. Le nom crée un lien mental avec l'objectif, et c'est ce lien qui protège l'argent."
+                "text": "Le nom que tu donnes à un fonds de réserve compte plus que tu ne le penses. Un fonds appelé « Épargne » est facile à puiser. Un fonds appelé « Voyage au Japon 2027 » semble concret, spécifique et difficile à toucher. Le nom crée un lien mental avec l'objectif, et c'est ce lien qui protège l'argent."
         },
         {
                 "kind": "p",
-                "text": "Les bons noms de fonds de réserve sont spécifiques, bornés dans le temps et descriptifs. Au lieu de « Fonds auto », essayez « Entretien Toyota Camry 2026 ». Au lieu de « Argent de Noël », essayez « Cadeaux de Noël 500 dollars ». La spécificité rend l'objectif réel et rend plus difficile la justification de dépenser l'argent pour autre chose."
+                "text": "Les bons noms de fonds de réserve sont spécifiques, bornés dans le temps et descriptifs. Au lieu de « Fonds auto », essaie « Entretien Toyota Camry 2026 ». Au lieu de « Argent de Noël », essaie « Cadeaux de Noël 500 dollars ». La spécificité rend l'objectif réel et rend plus difficile la justification de dépenser l'argent pour autre chose."
         },
         {
                 "kind": "p",
-                "text": "Un format pratique est : [Nom de l'objectif] [Année] [Montant]. Par exemple, « Vacances d'été 2027 2 400 dollars » ou « Nouvel ordinateur portable 2026 1 500 dollars ». Cela vous indique en un coup d'œil à quoi sert l'argent, quand vous en avez besoin et combien vous épargnez."
+                "text": "Un format pratique est : [Nom de l'objectif] [Année] [Montant]. Par exemple, « Vacances d'été 2027 2 400 dollars » ou « Nouvel ordinateur portable 2026 1 500 dollars ». Cela t'indique en un coup d'œil à quoi sert l'argent, quand tu en as besoin et combien tu épargnes."
         },
         {
                 "id": "quand-commencer-un-fonds-de-r-serve",
@@ -4315,19 +4315,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La réponse courte : tout de suite. La réponse plus longue : dès que vous pouvez identifier une dépense à venir qui vous prendrait autrement au dépourvu."
+                "text": "La réponse courte : tout de suite. La réponse plus longue : dès que tu peux identifier une dépense à venir qui te prendrait autrement au dépourvu."
         },
         {
                 "kind": "p",
-                "text": "La plupart des gens commencent un fonds de réserve après avoir été brûlés par une grosse facture inattendue. Ils paient une réparation de voiture par carte de crédit, sentent la douleur des intérêts, puis décident d'épargner à l'avance la prochaine fois. C'est une bonne motivation, mais vous n'avez pas besoin d'attendre la douleur. Si vous savez qu'une dépense arrive, commencez à épargner dès aujourd'hui."
+                "text": "La plupart des gens commencent un fonds de réserve après avoir été brûlés par une grosse facture inattendue. Ils paient une réparation de voiture par carte de crédit, sentent la douleur des intérêts, puis décident d'épargner à l'avance la prochaine fois. C'est une bonne motivation, mais tu n'as pas besoin d'attendre la douleur. Si tu sais qu'une dépense arrive, commence à épargner dès aujourd'hui."
         },
         {
                 "kind": "p",
-                "text": "Le meilleur moment pour commencer un fonds de réserve est lorsque vous remarquez la dépense pour la première fois à l'horizon. Si votre assurance auto est renouvelée dans huit mois, commencez à épargner maintenant. Si Noël est dans dix mois, commencez à épargner maintenant. Même si vous ne pouvez mettre de côté que 20 ou 30 dollars par mois, cela représente 200 ou 300 dollars lorsque la facture arrive. Il ne s'agit pas du montant. Il s'agit de l'habitude."
+                "text": "Le meilleur moment pour commencer un fonds de réserve est lorsque tu remarques la dépense pour la première fois à l'horizon. Si ton assurance auto est renouvelée dans huit mois, commence à épargner maintenant. Si Noël est dans dix mois, commence à épargner maintenant. Même si tu ne peux mettre de côté que 20 ou 30 dollars par mois, cela représente 200 ou 300 dollars lorsque la facture arrive. Il ne s'agit pas du montant. Il s'agit de l'habitude."
         },
         {
                 "kind": "p",
-                "text": "Si vous remboursez des dettes, vous vous demandez peut-être si les fonds de réserve ont du sens. Ils en ont. En fait, les fonds de réserve peuvent vous empêcher de contracter de nouvelles dettes. Si vous savez que votre voiture aura besoin de neufs pneus dans six mois, épargner 50 dollars par mois pendant six mois signifie que vous pouvez payer comptant au lieu de mettre cela sur une carte de crédit. Les fonds de réserve et le remboursement de dettes ne sont pas des objectifs concurrents. Ils se complètent."
+                "text": "Si tu rembourses des dettes, tu te demandes peut-être si les fonds de réserve ont du sens. Ils en ont. En fait, les fonds de réserve peuvent t'empêcher de contracter de nouvelles dettes. Si tu sais que ta voiture aura besoin de neufs pneus dans six mois, épargner 50 dollars par mois pendant six mois signifie que tu peux payer comptant au lieu de mettre cela sur une carte de crédit. Les fonds de réserve et le remboursement de dettes ne sont pas des objectifs concurrents. Ils se complètent."
         },
         {
                 "id": "combien-pargner-chaque-mois",
@@ -4355,7 +4355,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si le montant mensuel semble trop élevé, vous avez deux options : prolonger le calendrier ou réduire l'objectif. Des vacances à 2 400 dollars sur dix-huit mois représentent 133 dollars par mois au lieu de 200. Des vacances à 1 200 dollars représentent 100 dollars par mois sur douze mois. Le calcul est flexible. Trouvez le chiffre qui s'adapte à votre budget sans créer de stress."
+                "text": "Si le montant mensuel semble trop élevé, tu as deux options : prolonger le calendrier ou réduire l'objectif. Des vacances à 2 400 dollars sur dix-huit mois représentent 133 dollars par mois au lieu de 200. Des vacances à 1 200 dollars représentent 100 dollars par mois sur douze mois. Le calcul est flexible. Trouve le chiffre qui s'adapte à ton budget sans créer de stress."
         },
         {
                 "id": "cinq-fonds-de-r-serve-essentiels",
@@ -4365,11 +4365,11 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Noël et cadeaux (pour que décembre ne vous prenne pas au dépourvu).",
+                        "Noël et cadeaux (pour que décembre ne te prenne pas au dépourvu).",
                         "Entretien et réparations de la voiture.",
                         "Primes d'assurance et impôts annuels.",
                         "Vacances et voyages.",
-                        "Mises à niveau technologiques (par exemple, remplacer votre téléphone tous les trois ans)."
+                        "Mises à niveau technologiques (par exemple, remplacer ton téléphone tous les trois ans)."
                 ]
         },
         {
@@ -4383,11 +4383,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Commencez un fonds de réserve « Cadeaux de Noël » en janvier. Si vous prévoyez de dépenser 600 dollars en décembre, cela représente 50 dollars par mois pendant douze mois. Mettez en place un virement automatique de 50 dollars le premier jour de chaque mois. Lorsque décembre arrive, vous avez 600 dollars prêts. Pas de dette de carte de crédit, pas de panique en janvier, pas de regrets."
+                "text": "Commence un fonds de réserve « Cadeaux de Noël » en janvier. Si tu prévois de dépenser 600 dollars en décembre, cela représente 50 dollars par mois pendant douze mois. Mets en place un virement automatique de 50 dollars le premier jour de chaque mois. Lorsque décembre arrive, tu as 600 dollars prêts. Pas de dette de carte de crédit, pas de panique en janvier, pas de regrets."
         },
         {
                 "kind": "p",
-                "text": "La clé est de mettre en place le fonds au début de l'année, pas lorsque les achats de Noël commencent en novembre. À ce moment-là, vous êtes déjà en retard. Un début en janvier vous donne douze mois de marge."
+                "text": "La clé est de mettre en place le fonds au début de l'année, pas lorsque les achats de Noël commencent en novembre. À ce moment-là, tu es déjà en retard. Un début en janvier te donne douze mois de marge."
         },
         {
                 "id": "entretien-et-r-parations-de-la-voiture",
@@ -4400,11 +4400,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'erreur que les gens font est de traiter les réparations de voiture comme des urgences. La plupart ne le sont pas. Vous savez que les pneus s'usent. Vous savez que les freins doivent être remplacés. Vous savez que les vidanges ont lieu tous les quelques mois. Ce sont des dépenses prévues qui se font passer pour des surprises. Un fonds de réserve pour l'entretien de la voiture les retransforme en ce qu'elles sont : prévues, budgétées, gérables."
+                "text": "L'erreur que les gens font est de traiter les réparations de voiture comme des urgences. La plupart ne le sont pas. Tu sais que les pneus s'usent. Tu sais que les freins doivent être remplacés. Tu sais que les vidanges ont lieu tous les quelques mois. Ce sont des dépenses prévues qui se font passer pour des surprises. Un fonds de réserve pour l'entretien de la voiture les retransforme en ce qu'elles sont : prévues, budgétées, gérables."
         },
         {
                 "kind": "p",
-                "text": "Si vous conduisez une voiture plus ancienne, augmentez le montant mensuel. Les voitures plus anciennes tombent en panne plus souvent et les pièces sont plus chères. Un fonds d'entretien de voiture de 150 dollars par mois pour un véhicule de dix ans n'est pas excessif. C'est réaliste."
+                "text": "Si tu conduis une voiture plus ancienne, augmente le montant mensuel. Les voitures plus anciennes tombent en panne plus souvent et les pièces sont plus chères. Un fonds d'entretien de voiture de 150 dollars par mois pour un véhicule de dix ans n'est pas excessif. C'est réaliste."
         },
         {
                 "id": "primes-d-assurance-et-imp-ts-annuels",
@@ -4413,15 +4413,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les primes d'assurance et les taxes foncières sont parmi les plus grosses dépenses prévisibles que la plupart des gens rencontrent, et elles arrivent souvent selon un calendrier que vous connaissez bien à l'avance. Si votre assurance auto est renouvelée tous les six mois, vous savez exactement quand la facture arrive. Si vous êtes propriétaire, vous savez quand les taxes foncières sont dues."
+                "text": "Les primes d'assurance et les taxes foncières sont parmi les plus grosses dépenses prévisibles que la plupart des gens rencontrent, et elles arrivent souvent selon un calendrier que tu connais bien à l'avance. Si ton assurance auto est renouvelée tous les six mois, tu sais exactement quand la facture arrive. Si tu es propriétaire, tu sais quand les taxes foncières sont dues."
         },
         {
                 "kind": "p",
-                "text": "L'approche du fonds de réserve est simple : prenez le coût annuel, divisez par douze et épargnez ce montant chaque mois. Une prime d'assurance annuelle de 1 200 dollars devient 100 dollars par mois. Une facture de taxes foncières de 3 600 dollars devient 300 dollars par mois. Ce sont de grands montants, mais ils sont plus faciles à absorber sous forme d'allocations mensuelles que sous forme de coups uniques."
+                "text": "L'approche du fonds de réserve est simple : prends le coût annuel, divise par douze et épargne ce montant chaque mois. Une prime d'assurance annuelle de 1 200 dollars devient 100 dollars par mois. Une facture de taxes foncières de 3 600 dollars devient 300 dollars par mois. Ce sont de grands montants, mais ils sont plus faciles à absorber sous forme d'allocations mensuelles que sous forme de coups uniques."
         },
         {
                 "kind": "p",
-                "text": "Si votre assurance est payée semestriellement, ajustez en conséquence. Une prime de 600 dollars due tous les six mois est 100 dollars par mois. Lorsque la facture arrive, l'argent est déjà là. Vous la payez et le fonds se réinitialise pour le prochain cycle. Pas de drame, pas de précipitation, pas de dette de carte de crédit."
+                "text": "Si ton assurance est payée semestriellement, ajuste en conséquence. Une prime de 600 dollars due tous les six mois est 100 dollars par mois. Lorsque la facture arrive, l'argent est déjà là. Tu la paies et le fonds se réinitialise pour le prochain cycle. Pas de drame, pas de précipitation, pas de dette de carte de crédit."
         },
         {
                 "id": "vacances-et-voyages",
@@ -4430,15 +4430,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les voyages sont le fonds de réserve qui ressemble le plus à un luxe mais qui est en réalité l'un des plus importants. Sans fonds, vous sautez complètement les voyages ou les mettez sur une carte de crédit et passez des mois à les rembourser. Aucune option ne vous profite bien."
+                "text": "Les voyages sont le fonds de réserve qui ressemble le plus à un luxe mais qui est en réalité l'un des plus importants. Sans fonds, tu sautes complètement les voyages ou les mets sur une carte de crédit et passes des mois à les rembourser. Aucune option ne te profite bien."
         },
         {
                 "kind": "p",
-                "text": "Un fonds de réserve de voyage vous permet de profiter de vos vacaines sans la gueule de bois financière. Commencez douze mois à l'avance. Si votre voyage coûtera 2 400 dollars, épargnez 200 dollars par mois. Si c'est trop, réduisez le voyage ou prolongez la période d'épargne. Un voyage à 1 200 dollars sur douze mois représente 100 dollars par mois. Un voyage à 1 800 dollars sur dix-huit mois représente également 100 dollars par mois."
+                "text": "Un fonds de réserve de voyage te permet de profiter de tes vacaines sans la gueule de bois financière. Commence douze mois à l'avance. Si ton voyage coûtera 2 400 dollars, épargne 200 dollars par mois. Si c'est trop, réduis le voyage ou prolonge la période d'épargne. Un voyage à 1 200 dollars sur douze mois représente 100 dollars par mois. Un voyage à 1 800 dollars sur dix-huit mois représente également 100 dollars par mois."
         },
         {
                 "kind": "p",
-                "text": "La flexibilité ici est ce qui rend les fonds de réserve puissants. Vous n'êtes pas forcé de choisir entre un voyage cher et un voyage bon marché. Vous choisissez entre différents calendriers d'épargne. La destination reste la même. La contribution mensuelle s'ajuste."
+                "text": "La flexibilité ici est ce qui rend les fonds de réserve puissants. Tu n'es pas forcé de choisir entre un voyage cher et un voyage bon marché. Tu choisis entre différents calendriers d'épargne. La destination reste la même. La contribution mensuelle s'ajuste."
         },
         {
                 "id": "mises-niveau-technologiques",
@@ -4447,24 +4447,24 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les téléphones, ordinateurs portables, tablettes et autres appareils ont une durée de vie prévisible. Votre téléphone a probablement deux à trois ans. Votre ordinateur portable peut avoir quatre à cinq ans. Vous savez à peu près quand ces appareils devront être remplacés, ce qui signifie que vous savez à peu près quand vous devrez dépenser de l'argent."
+                "text": "Les téléphones, ordinateurs portables, tablettes et autres appareils ont une durée de vie prévisible. Ton téléphone a probablement deux à trois ans. Ton ordinateur portable peut avoir quatre à cinq ans. Tu sais à peu près quand ces appareils devront être remplacés, ce qui signifie que tu sais à peu près quand tu devras dépenser de l'argent."
         },
         {
                 "kind": "p",
-                "text": "Un fonds de réserve de mise à niveau technologique lisse le coût de remplacement sur la durée de vie de l'appareil. Si votre téléphone coûte 900 dollars et que vous le remplacez tous les trois ans, cela représente 25 dollars par mois. Si votre ordinateur portable coûte 1 200 dollars et que vous le remplacez tous les quatre ans, cela représente 25 dollars par mois. Ensemble, 50 dollars par mois couvrent les deux remplacements sans stress financier."
+                "text": "Un fonds de réserve de mise à niveau technologique lisse le coût de remplacement sur la durée de vie de l'appareil. Si ton téléphone coûte 900 dollars et que tu le remplaces tous les trois ans, cela représente 25 dollars par mois. Si ton ordinateur portable coûte 1 200 dollars et que tu le remplaces tous les quatre ans, cela représente 25 dollars par mois. Ensemble, 50 dollars par mois couvrent les deux remplacements sans stress financier."
         },
         {
                 "kind": "p",
-                "text": "Ce fonds est particulièrement précieux si vous dépendez de vos appareils pour travailler. Un ordinateur portable cassé sans économies signifie soit une facture de carte de crédit, soit une semaine de stress pendant que vous trouvez une solution. Un fonds de réserve de mise à niveau technologique signifie que vous avez l'argent prêt et pouvez remplacer l'appareil immédiatement."
+                "text": "Ce fonds est particulièrement précieux si tu dépends de tes appareils pour travailler. Un ordinateur portable cassé sans économies signifie soit une facture de carte de crédit, soit une semaine de stress pendant que tu trouves une solution. Un fonds de réserve de mise à niveau technologique signifie que tu as l'argent prêt et peux remplacer l'appareil immédiatement."
         },
         {
-                "id": "pourquoi-ne-pas-les-m-langer-avec-votre-fonds-d-ur",
+                "id": "pourquoi-ne-pas-les-m-langer-avec-ton-fonds-d-urge",
                 "kind": "h2",
-                "text": "Pourquoi ne pas les mélanger avec votre fonds d'urgence ?"
+                "text": "Pourquoi ne pas les mélanger avec ton fonds d'urgence ?"
         },
         {
                 "kind": "p",
-                "text": "Votre fonds d'urgence doit rester intact pour les vraies surprises. Si vous le dépensez pour un voyage prévu, vous serez complètement exposé lorsqu'une véritable urgence surviendra. Gardez vos dépenses prévues et votre filet de sécurité séparés."
+                "text": "Ton fonds d'urgence doit rester intact pour les vraies surprises. Si tu le dépenses pour un voyage prévu, tu seras complètement exposé lorsqu'une véritable urgence surviendra. Garde tes dépenses prévues et ton filet de sécurité séparés."
         },
         {
                 "kind": "p",
@@ -4472,11 +4472,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un fonds d'urgence est pour les vraies urgences : perte d'emploi, crise médicale, réparation inattendue non couverte par un fonds de réserve. L'argent doit reposer sur un compte que vous ne touchez que si quelque chose de vraiment mauvais se produit. C'est votre filet de sécurité, et il doit rester intact."
+                "text": "Un fonds d'urgence est pour les vraies urgences : perte d'emploi, crise médicale, réparation inattendue non couverte par un fonds de réserve. L'argent doit reposer sur un compte que tu ne touches que si quelque chose de vraiment mauvais se produit. C'est ton filet de sécurité, et il doit rester intact."
         },
         {
                 "kind": "p",
-                "text": "Un fonds de réserve est pour les dépenses connues et attendues. Vous savez que l'assurance auto arrive. Vous savez que les cadeaux de Noël arrivent. Vous savez que l'ordinateur portable devra être remplacé. Ce ne sont pas des urgences. Ce sont des coûts prévus pour lesquels vous épargnez à l'avance. Lorsque vous utilisez votre fonds d'urgence pour des dépenses prévues, vous empruntez à votre futur moi pour payer le présent. C'est exactement le cycle que les fonds de réserve sont conçus pour briser."
+                "text": "Un fonds de réserve est pour les dépenses connues et attendues. Tu sais que l'assurance auto arrive. Tu sais que les cadeaux de Noël arrivent. Tu sais que l'ordinateur portable devra être remplacé. Ce ne sont pas des urgences. Ce sont des coûts prévus pour lesquels tu épargnes à l'avance. Lorsque tu utilises ton fonds d'urgence pour des dépenses prévues, tu empruntes à ton futur moi pour payer le présent. C'est exactement le cycle que les fonds de réserve sont conçus pour briser."
         },
         {
                 "id": "fonds-de-r-serve-vs-cartes-de-cr-dit",
@@ -4485,15 +4485,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les cartes de crédit sont l'outil par défaut que la plupart des gens utilisent pour les grandes dépenses imprévues. La voiture tombe en panne, la facture est de 800 dollars, et vous la mettez sur la carte. Cela semble gérable car vous ne payez qu'un petit minimum chaque mois. Mais les intérêts s'accumulent, et ce qui était une dépense de 800 dollars devient une dépense de 950 dollars lorsque vous l'avez remboursée."
+                "text": "Les cartes de crédit sont l'outil par défaut que la plupart des gens utilisent pour les grandes dépenses imprévues. La voiture tombe en panne, la facture est de 800 dollars, et tu la mets sur la carte. Cela semble gérable car tu ne paies qu'un petit minimum chaque mois. Mais les intérêts s'accumulent, et ce qui était une dépense de 800 dollars devient une dépense de 950 dollars lorsque tu l'as remboursée."
         },
         {
                 "kind": "p",
-                "text": "Les fonds de réserve sont l'alternative. Au lieu de payer la dépense après qu'elle s'est produite et d'ajouter des intérêts, vous épargnez pour elle avant qu'elle ne se produise et payez zéro intérêt. La réparation de voiture à 800 dollars, étalée sur huit mois d'épargne, vous coûte exactement 800 dollars. La même réparation avec une carte de crédit à 22 pour cent APR, payée sur huit mois, coûte environ 900 dollars. Vous économisez 100 dollars en épargnant à l'avance."
+                "text": "Les fonds de réserve sont l'alternative. Au lieu de payer la dépense après qu'elle s'est produite et d'ajouter des intérêts, tu épargnes pour elle avant qu'elle ne se produise et paies zéro intérêt. La réparation de voiture à 800 dollars, étalée sur huit mois d'épargne, te coûte exactement 800 dollars. La même réparation avec une carte de crédit à 22 pour cent APR, payée sur huit mois, coûte environ 900 dollars. Tu économises 100 dollars en épargnant à l'avance."
         },
         {
                 "kind": "p",
-                "text": "Ce calcul devient encore plus convaincant avec les dépenses plus importantes. Des vacances à 2 400 dollars avec une carte de crédit à 22 pour cent APR, payées sur douze mois, coûtent environ 2 700 dollars. Les mêmes vacances avec un fonds de réserve coûtent 2 400 dollars. Cette différence de 300 dollars est le prix de ne pas planifier à l'avance. Les fonds de réserve sont la forme de financement la moins chère à votre disposition car ils ne facturent aucun intérêt."
+                "text": "Ce calcul devient encore plus convaincant avec les dépenses plus importantes. Des vacances à 2 400 dollars avec une carte de crédit à 22 pour cent APR, payées sur douze mois, coûtent environ 2 700 dollars. Les mêmes vacances avec un fonds de réserve coûtent 2 400 dollars. Cette différence de 300 dollars est le prix de ne pas planifier à l'avance. Les fonds de réserve sont la forme de financement la moins chère à ta disposition car ils ne facturent aucun intérêt."
         },
         {
                 "id": "erreurs-courantes-avec-les-fonds-de-r-serve",
@@ -4503,12 +4503,12 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Commencer trop de fonds en même temps. Il est tentant de créer un fonds de réserve pour chaque dépense possible. Mais si vous étalez votre argent trop finement, aucun fonds ne croît de manière significative. Commencez par deux ou trois fonds prioritaires et ajoutez-en d'autres au fur et à mesure que vos revenus le permettent.",
+                        "Commencer trop de fonds en même temps. Il est tentant de créer un fonds de réserve pour chaque dépense possible. Mais si tu étales ton argent trop finement, aucun fonds ne croît de manière significative. Commence par deux ou trois fonds prioritaires et ajoutes-en d'autres au fur et à mesure que tes revenus le permettent.",
                         "Ne pas les nommer avec suffisamment de spécificité. Un fonds appelé « Épargne » est facile à puiser. Un fonds appelé « Voyage au Japon 2027 4 000 dollars » semble concret et protégé. Le nom est la première ligne de défense.",
-                        "Oublier de reconstituer après avoir dépensé. Lorsqu'un fonds de réserve paie sa dépense prévue, le solde tombe à zéro. C'est attendu. Mais beaucoup de gens oublient de reprendre les contributions. Mettez une rappel pour reconstituer le fonds immédiatement après son utilisation.",
-                        "Ne pas ajuster pour les hausses de coûts. L'inflation est réelle. Si votre fonds d'entretien de voiture a été mis en place il y a trois ans à 80 dollars par mois, vérifiez si cela couvre encore vos coûts réels. Réexaminez les montants de vos fonds de réserve au moins une fois par an.",
-                        "Utiliser le fonds pour autre chose. Tout l'intérêt d'un fonds de réserve est que l'argent a un travail. Si vous commencez à puiser dans votre fonds de vacances pour couvrir un dépassement alimentaire, vous avez vaincu l'objectif. Protégez les limites du fonds sans pitié.",
-                        "Sauter le virement automatique. Si vous comptez sur des virements manuels, vous finirez par oublier ou sauter un mois. L'automatisation élimine ce risque complètement. Configurez-le et oubliez-le."
+                        "Oublier de reconstituer après avoir dépensé. Lorsqu'un fonds de réserve paie sa dépense prévue, le solde tombe à zéro. C'est attendu. Mais beaucoup de gens oublient de reprendre les contributions. Mets une rappel pour reconstituer le fonds immédiatement après son utilisation.",
+                        "Ne pas ajuster pour les hausses de coûts. L'inflation est réelle. Si ton fonds d'entretien de voiture a été mis en place il y a trois ans à 80 dollars par mois, vérifie si cela couvre encore tes coûts réels. Réexamine les montants de tes fonds de réserve au moins une fois par an.",
+                        "Utiliser le fonds pour autre chose. Tout l'intérêt d'un fonds de réserve est que l'argent a un travail. Si tu commences à puiser dans ton fonds de vacances pour couvrir un dépassement alimentaire, tu as vaincu l'objectif. Protège les limites du fonds sans pitié.",
+                        "Sauter le virement automatique. Si tu comptes sur des virements manuels, tu finiras par oublier ou sauter un mois. L'automatisation élimine ce risque complètement. Configure-le et oublie-le."
                 ]
         },
         {
@@ -4518,23 +4518,23 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le suivi des fonds de réserve n'a pas besoin d'être compliqué. L'objectif est la visibilité : vous devez savoir combien il y a dans chaque fonds, combien vous avez besoin et combien de temps il reste. La méthode que vous choisissez dépend de votre degré d'implication."
+                "text": "Le suivi des fonds de réserve n'a pas besoin d'être compliqué. L'objectif est la visibilité : tu dois savoir combien il y a dans chaque fonds, combien tu as besoin et combien de temps il reste. La méthode que tu choisis dépend de ton degré d'implication."
         },
         {
                 "kind": "p",
-                "text": "Tableur. Un tableur simple fonctionne bien. Créez une colonne pour chaque fonds, avec des lignes pour le montant cible, le solde actuel, la contribution mensuelle et les mois restants. Mettez-le à jour une fois par mois après l'exécution de vos virements automatiques. L'inconvénient est qu'il nécessite des mises à jour manuelles, mais l'avantage est un contrôle total."
+                "text": "Tableur. Un tableur simple fonctionne bien. Crée une colonne pour chaque fonds, avec des lignes pour le montant cible, le solde actuel, la contribution mensuelle et les mois restants. Mets-le à jour une fois par mois après l'exécution de tes virements automatiques. L'inconvénient est qu'il nécessite des mises à jour manuelles, mais l'avantage est un contrôle total."
         },
         {
                 "kind": "p",
-                "text": "Application de budgétisation. Des applications comme Savlo vous permettent de créer des cagnotte virtuelles pour chaque fonds de réserve. L'application suit vos contributions, affiche votre progression vers chaque objectif et vous alerte lorsqu'un fonds est en retard. C'est l'option la plus passive et fonctionne bien si vous souhaitez que le suivi soit automatique."
+                "text": "Application de budgétisation. Des applications comme Savlo te permettent de créer des cagnotte virtuelles pour chaque fonds de réserve. L'application suit tes contributions, affiche ta progression vers chaque objectif et t'alerte lorsqu'un fonds est en retard. C'est l'option la plus passive et fonctionne bien si tu souhaites que le suivi soit automatique."
         },
         {
                 "kind": "p",
-                "text": "Système d'enveloppes. Si vous préférez une méthode physique, utilisez des enveloppes de liquide. Étiquetez chaque enveloppe avec le nom du fonds et le montant cible. Déposez du liquide chaque mois. Lorsque l'enveloppe est pleine, arrêtez de contribuer jusqu'à ce que la dépense arrive. Cette méthode est démodée mais étonnamment efficace pour les gens qui ont du mal avec le suivi numérique."
+                "text": "Système d'enveloppes. Si tu préfères une méthode physique, utilise des enveloppes de liquide. Étiquette chaque enveloppe avec le nom du fonds et le montant cible. Dépose du liquide chaque mois. Lorsque l'enveloppe est pleine, arrête de contribuer jusqu'à ce que la dépense arrive. Cette méthode est démodée mais étonnamment efficace pour les gens qui ont du mal avec le suivi numérique."
         },
         {
                 "kind": "p",
-                "text": "Quelle que soit la méthode, examinez vos fonds de réserve au moins une fois par mois. Vérifiez les soldes, assurez-vous que les contributions sont sur la bonne voix et ajustez si quelque chose a changé. Un examen mensuel prend cinq à dix minutes et empêche les petits problèmes de devenir grands."
+                "text": "Quelle que soit la méthode, examine tes fonds de réserve au moins une fois par mois. Vérifie les soldes, assure-toi que les contributions sont sur la bonne voix et ajuste si quelque chose a changé. Un examen mensuel prend cinq à dix minutes et empêche les petits problèmes de devenir grands."
         },
         {
                 "id": "fonds-de-r-serve-pour-des-revenus-irr-guliers",
@@ -4543,15 +4543,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vos revenus varient d'un mois à l'autre, les fonds de réserve restent possibles avec un ajustement : budgétez à partir de votre revenu le plus bas fiable, pas de votre moyenne. Si vos revenus varient entre 2 400 et 4 500 dollars par mois, budgétez sur la base de 2 400 dollars. Tout ce qui dépasse devient des contributions supplémentaires à vos fonds de réserve ou au remboursement de dettes."
+                "text": "Si tes revenus varient d'un mois à l'autre, les fonds de réserve restent possibles avec un ajustement : budgète à partir de ton revenu le plus bas fiable, pas de ta moyenne. Si tes revenus varient entre 2 400 et 4 500 dollars par mois, budgète sur la base de 2 400 dollars. Tout ce qui dépasse devient des contributions supplémentaires à tes fonds de réserve ou au remboursement de dettes."
         },
         {
                 "kind": "p",
-                "text": "La raison pour laquelle cela fonctionne est que cela empêche le surengagement. Si vous budgétez sur la base de vos revenus moyens de 3 500 dollars, mais que vous gagnez 2 400 dollars trois mois par an, vous serez en manque pour vos contributions aux fonds de réserve. Cela crée du stress et vous fait sentir que le système est brisé. Budgétez à partir du minimum signifie que vous avez toujours assez. Les mois avec des revenus plus élevés deviennent des primes, pas des obligations."
+                "text": "La raison pour laquelle cela fonctionne est que cela empêche le surengagement. Si tu budgètes sur la base de tes revenus moyens de 3 500 dollars, mais que tu gagnes 2 400 dollars trois mois par an, tu seras en manque pour tes contributions aux fonds de réserve. Cela crée du stress et te fait sentir que le système est brisé. Budgétiser à partir du minimum signifie que tu as toujours assez. Les mois avec des revenus plus élevés deviennent des primes, pas des obligations."
         },
         {
                 "kind": "p",
-                "text": "Pour les freelancers et les travailleurs pigistes, l'approche est simple : lorsque le paiement arrive, allouez-le immédiatement à vos catégories budgétaires. Priorisez les dépenses fixes d'abord, puis les contributions aux fonds de réserve, puis les dépenses flexibles. L'ordre est important car il garantit que vos objectifs les plus importants sont financés avant que les dépenses discrétionnaires n'absorbent l'argent. Pour plus de détails sur cette approche, consultez notre guide de budgétisation pour revenus faibles ou irréguliers."
+                "text": "Pour les freelancers et les travailleurs pigistes, l'approche est simple : lorsque le paiement arrive, alloue-le immédiatement à tes catégories budgétaires. Priorise les dépenses fixes d'abord, puis les contributions aux fonds de réserve, puis les dépenses flexibles. L'ordre est important car il garantit que tes objectifs les plus importants sont financés avant que les dépenses discrétionnaires n'absorbent l'argent. Pour plus de détails sur cette approche, consulte notre guide de budgétisation pour revenus faibles ou irréguliers."
         },
         {
                 "id": "fonds-de-r-serve-pour-les-couples",
@@ -4560,19 +4560,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les fonds de réserve fonctionnent particulièrement bien pour les couples car ils créent des objectifs financiers communs avec des cibles claires. Au lieu de se disputer pour savoir si vous pouvez vous permettre des vacances, vous pouvez pointer un fonds financé à 70 pour cent et dire : « Nous y sommes presque. » Le fonds transforme une conversation abstraite en une barre de progression concrète."
+                "text": "Les fonds de réserve fonctionnent particulièrement bien pour les couples car ils créent des objectifs financiers communs avec des cibles claires. Au lieu de se disputer pour savoir si tu peux te permettre des vacances, tu peux pointer un fonds financé à 70 pour cent et dire : « Nous y sommes presque. » Le fonds transforme une conversation abstraite en une barre de progression concrète."
         },
         {
                 "kind": "p",
-                "text": "La clé pour faire fonctionner les fonds de réserve en couple est l'alignement. Asseyez-vous ensemble et décidez quels fonds de réserve prioriser. Vous pouvez être en désaccord sur l'ordre. Une personne peut accorder plus d'importance au fonds d'entretien de la voiture, tandis que l'autre priorise le fonds de vacances. Cette conversation est précieuse car elle vous force à discuter ouvertement de vos valeurs financières."
+                "text": "La clé pour faire fonctionner les fonds de réserve en couple est l'alignement. Assieds-toi avec ton partenaire pour décider ensemble quels fonds de réserve prioriser. Un désaccord sur l'ordre est normal. Une personne peut accorder plus d'importance au fonds d'entretien de la voiture, tandis que l'autre priorise le fonds de vacances. Cette conversation est précieuse car elle te force à discuter ouvertement de tes valeurs financières."
         },
         {
                 "kind": "p",
-                "text": "Envisagez de maintenir à la fois des fonds de réserve communs et individuels. Les fonds communs couvrent des objectifs partagés : vacances en famille, amélioration du logement, cadeaux de Noël. Les fonds individuels couvrent des objectifs personnels : achat de loisirs, voyage personnel, certification professionnelle. Les deux sont valables. Les deux méritent un financement. Le mélange dépend de votre relation et de votre arrangement financier."
+                "text": "Envisage de maintenir à la fois des fonds de réserve communs et individuels. Les fonds communs couvrent des objectifs partagés : vacances en famille, amélioration du logement, cadeaux de Noël. Les fonds individuels couvrent des objectifs personnels : achat de loisirs, voyage personnel, certification professionnelle. Les deux sont valables. Les deux méritent un financement. Le mélange dépend de ta relation et de ton arrangement financier."
         },
         {
                 "kind": "p",
-                "text": "Si vous partagez un budget, convenez du montant mensuel total alloué aux fonds de réserve et répartissez-le selon vos priorités. Si vous maintenez des budgets séparés avec certaines dépenses communes, chaque personne peut contribuer aux fonds de réserve communs proportionnellement aux revenus. La répartition exacte compte moins que le fait que vous soyez tous les deux investis dans le résultat."
+                "text": "Si tu partages un budget, conviens du montant mensuel total alloué aux fonds de réserve et répartis-le selon tes priorités. Si tu maintiens des budgets séparés avec certaines dépenses communes, chaque personne peut contribuer aux fonds de réserve communs proportionnellement aux revenus. La répartition exacte compte moins que le fait que tu sois tous les deux investis dans le résultat."
         },
         {
                 "id": "quand-arr-ter-de-contribuer-un-fonds-de-r-serve",
@@ -4581,19 +4581,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un fonds de réserve n'est pas destiné à croître pour toujours. Il a un montant cible et une date limite. Lorsque le fonds atteint son objectif, vous cessez de contribuer. Lorsque la dépense arrive et que vous dépensez l'argent, vous reconstituez le fonds pour le prochain cycle ou le fermez complètement."
+                "text": "Un fonds de réserve n'est pas destiné à croître pour toujours. Il a un montant cible et une date limite. Lorsque le fonds atteint son objectif, tu cesses de contribuer. Lorsque la dépense arrive et que tu dépenses l'argent, tu reconstitues le fonds pour le prochain cycle ou le fermes complètement."
         },
         {
                 "kind": "p",
-                "text": "Pour les dépenses récurrentes comme l'entretien de la voiture ou les cadeaux de Noël, le fonds fonctionne par cycle. Vous épargnez pendant douze mois, dépensez l'argent et recommencez à épargner pour l'année suivante. Le fonds n'est jamais vraiment « fermé » car la dépense reviendra."
+                "text": "Pour les dépenses récurrentes comme l'entretien de la voiture ou les cadeaux de Noël, le fonds fonctionne par cycle. Tu épargnes pendant douze mois, dépenses l'argent et recommences à épargner pour l'année suivante. Le fonds n'est jamais vraiment « fermé » car la dépense reviendra."
         },
         {
                 "kind": "p",
-                "text": "Pour les dépenses uniques comme des vacances spécifiques ou un achat technologique spécifique, le fonds a un point de fin clair. Une fois que vous avez dépensé l'argent, le fonds est terminé. Vous pouvez rediriger la contribution mensuelle vers un autre fonds de réserve, l'ajouter à votre remboursement de dettes ou l'investir. L'argent ne disparaît pas. Il obtient simplement un nouveau travail."
+                "text": "Pour les dépenses uniques comme des vacances spécifiques ou un achat technologique spécifique, le fonds a un point de fin clair. Une fois que tu as dépensé l'argent, le fonds est terminé. Tu peux rediriger la contribution mensuelle vers un autre fonds de réserve, l'ajouter à ton remboursement de dettes ou l'investir. L'argent ne disparaît pas. Il obtient simplement un nouveau travail."
         },
         {
                 "kind": "p",
-                "text": "Il y a une exception : si le coût de la dépense augmente avant que vous n'atteigniez l'objectif, vous devrez peut-être prolonger le calendrier ou augmenter votre contribution mensuelle. Ce n'est pas un échec. C'est un ajustement. La vie change, les prix changent, et votre fonds de réserve devrait changer avec eux. Réexaminez l'objectif au moins une fois tous les six mois pour vous assurer qu'il reflète encore la réalité."
+                "text": "Il y a une exception : si le coût de la dépense augmente avant que tu n'atteignes l'objectif, tu devras peut-être prolonger le calendrier ou augmenter ta contribution mensuelle. Ce n'est pas un échec. C'est un ajustement. La vie change, les prix changent, et ton fonds de réserve devrait changer avec eux. Réexamine l'objectif au moins une fois tous les six mois pour t'assurer qu'il reflète encore la réalité."
         },
         {
                 "id": "fonds-de-r-serve-et-remboursement-de-dettes",
@@ -4602,19 +4602,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vous remboursez des dettes, vous vous demandez peut-être si les fonds de réserve ont du sens. La réponse est oui, et voici pourquoi : les fonds de réserve empêchent les nouvelles dettes."
+                "text": "Si tu rembourses des dettes, tu te demandes peut-être si les fonds de réserve ont du sens. La réponse est oui, et voici pourquoi : les fonds de réserve empêchent les nouvelles dettes."
         },
         {
                 "kind": "p",
-                "text": "Considérez deux scénarios. Dans le premier, vous remboursez des dettes de carte de crédit et vous sautez les fonds de réserve. Six mois plus tard, votre voiture a besoin de 800 dollars de réparations. Vous la mettez sur la carte de crédit. Maintenant vous avez 800 dollars de nouvelles dettes par-dessus ce que vous remboursiez déjà. Les progrès que vous avez faits en six mois sont partiellement effacés."
+                "text": "Considère deux scénarios. Dans le premier, tu rembourses des dettes de carte de crédit et tu sautes les fonds de réserve. Six mois plus tard, ta voiture a besoin de 800 dollars de réparations. Tu la mets sur la carte de crédit. Maintenant tu as 800 dollars de nouvelles dettes par-dessus ce que tu remboursais déjà. Les progrès que tu as faits en six mois sont partiellement effacés."
         },
         {
                 "kind": "p",
-                "text": "Dans le second scénario, vous remboursez la même dette mais vous maintenez également un petit fonds de réserve d'entretien auto. Lorsque la réparation de 800 dollars arrive, vous payez comptant depuis le fonds. Votre remboursement de dettes continue sans interruption. Pas de nouvelles dettes, pas de reculs, pas de frustration."
+                "text": "Dans le second scénario, tu rembourses la même dette mais tu maintiens également un petit fonds de réserve d'entretien auto. Lorsque la réparation de 800 dollars arrive, tu paies comptant depuis le fonds. Ton remboursement de dettes continue sans interruption. Pas de nouvelles dettes, pas de reculs, pas de frustration."
         },
         {
                 "kind": "p",
-                "text": "Le montant mensuel pour un fonds de réserve pendant le remboursement de dettes n'a pas besoin d'être élevé. Même 30 ou 50 dollars par mois dans un fonds d'entretien auto créent un coussin qui empêche l'accumulation de nouvelles dettes. L'objectif n'est pas de constituer un fonds massif pendant l'endettement. L'objectif est de créer de petits coussins qui protègent vos progrès."
+                "text": "Le montant mensuel pour un fonds de réserve pendant le remboursement de dettes n'a pas besoin d'être élevé. Même 30 ou 50 dollars par mois dans un fonds d'entretien auto créent un coussin qui empêche l'accumulation de nouvelles dettes. L'objectif n'est pas de constituer un fonds massif pendant l'endettement. L'objectif est de créer de petits coussins qui protègent tes progrès."
         },
         {
                 "id": "comment-commencer-avec-les-fonds-de-r-serve",
@@ -4623,15 +4623,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Commencez petit. Choisissez une ou deux dépenses qui arrivent dans les prochains mois. Calculez le montant mensuel dont vous avez besoin. Mettez en place le virement automatique. C'est tout. Vous n'avez pas besoin de configurer tous les fonds de réserve en même temps. Vous n'avez pas besoin d'avoir tout compris. Vous devez simplement commencer."
+                "text": "Commence petit. Choisis une ou deux dépenses qui arrivent dans les prochains mois. Calcule le montant mensuel dont tu as besoin. Mets en place le virement automatique. C'est tout. Tu n'as pas besoin de configurer tous les fonds de réserve en même temps. Tu n'as pas besoin d'avoir tout compris. Tu dois simplement commencer."
         },
         {
                 "kind": "p",
-                "text": "Le premier fonds de réserve que vous créerez sera le plus difficile car il nécessite le plus grand ajustement mental. Vous prenez de l'argent qui pourrait être dépensé aujourd'hui et le mettez de côté pour quelque chose dans le futur. Ce compromis semble peu naturel au début. Mais dès que vous voyez le fonds croître puis payer sa dépense prévue sans aucun stress financier, la logique fait son chemin. Le second fonds est plus facile. Le troisième est automatique."
+                "text": "Le premier fonds de réserve que tu créeras sera le plus difficile car il nécessite le plus grand ajustement mental. Tu prends de l'argent qui pourrait être dépensé aujourd'hui et le mets de côté pour quelque chose dans le futur. Ce compromis semble peu naturel au début. Mais dès que tu vois le fonds croître puis payer sa dépense prévue sans aucun stress financier, la logique fait son chemin. Le second fonds est plus facile. Le troisième est automatique."
         },
         {
                 "kind": "p",
-                "text": "Si vous n'êtes pas sûr de par où commencer, commencez par un fonds de vacances. Décembre arrive toujours, et la dépense est toujours grande. Mettez en place un virement mensuel de 50 dollars dans un fonds « Cadeaux de Noël ». Dans douze mois, vous aurez 600 dollars qui vous attendent, et décembre semblera complètement différent."
+                "text": "Si tu n'es pas sûr de par où commencer, commence par un fonds de vacances. Décembre arrive toujours, et la dépense est toujours grande. Mets en place un virement mensuel de 50 dollars dans un fonds « Cadeaux de Noël ». Dans douze mois, tu auras 600 dollars qui t'attendent, et décembre semblera complètement différent."
         },
         {
                 "kind": "divider"
@@ -4643,40 +4643,40 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Qu'est-ce qu'un fonds de réserve ? Un fonds de réserve est une cagnotte dédiée à une dépense future spécifique et connue. Contrairement à un fonds d'urgence qui couvre les événements imprévus, un fonds de réserve couvre les dépenses que vous pouvez prévoir : primes d'assurance, vacances, entretien de voiture, voyages et coûts similaires. Vous épargnez un petit montant chaque mois afin que l'argent soit prêt lorsque la facture arrive."
+                "text": "Qu'est-ce qu'un fonds de réserve ? Un fonds de réserve est une cagnotte dédiée à une dépense future spécifique et connue. Contrairement à un fonds d'urgence qui couvre les événements imprévus, un fonds de réserve couvre les dépenses que tu peux prévoir : primes d'assurance, vacances, entretien de voiture, voyages et coûts similaires. Tu épargnes un petit montant chaque mois afin que l'argent soit prêt lorsque la facture arrive."
         },
         {
                 "kind": "p",
-                "text": "Comment un fonds de réserve diffère-t-il d'un fonds d'urgence ? Un fonds d'urgence est pour les vraies urgences : perte d'emploi, crises médicales, urgences imprévues. Un fonds de réserve est pour les dépenses prévues dont vous savez qu'elles arrivent. La distinction clé est la prévisibilité. Si vous pouvez la programmer dans un calendrier, elle appartient à un fonds de réserve. Si elle vous surprendrait, elle appartient à un fonds d'urgence. Pour une comparaison détaillée, lisez notre guide sur fonds d'urgence vs. fonds de réserve."
+                "text": "Comment un fonds de réserve diffère-t-il d'un fonds d'urgence ? Un fonds d'urgence est pour les vraies urgences : perte d'emploi, crises médicales, urgences imprévues. Un fonds de réserve est pour les dépenses prévues dont tu sais qu'elles arrivent. La distinction clé est la prévisibilité. Si tu peux la programmer dans un calendrier, elle appartient à un fonds de réserve. Si elle te surprendrait, elle appartient à un fonds d'urgence. Pour une comparaison détaillée, lis notre guide sur fonds d'urgence vs. fonds de réserve."
         },
         {
                 "kind": "p",
-                "text": "Combien de fonds de réserve dois-je avoir ? Commencez par deux ou trois en fonction de vos dépenses à venir les plus urgentes. Au fur et à mesure que vos revenus le permettent, ajoutez-en. La plupart des gens finissent par maintenir cinq à huit fonds de réserve couvrant l'entretien de la voiture, les fêtes, l'assurance, les vacances, les mises à niveau technologiques et l'entretien du logement. Le nombre compte moins que l'habitude. Quelques fonds bien financés valent mieux que une douzaine négligés."
+                "text": "Combien de fonds de réserve dois-je avoir ? Commence par deux ou trois en fonction de tes dépenses à venir les plus urgentes. Au fur et à mesure que tes revenus le permettent, ajoutes-en. La plupart des gens finissent par maintenir cinq à huit fonds de réserve couvrant l'entretien de la voiture, les fêtes, l'assurance, les vacances, les mises à niveau technologiques et l'entretien du logement. Le nombre compte moins que l'habitude. Quelques fonds bien financés valent mieux que une douzaine négligés."
         },
         {
                 "kind": "p",
-                "text": "Puis-je utiliser des fonds de réserve tout en remboursant des dettes ? Oui. Les fonds de réserve protègent en fait vos progrès de remboursement de dettes en empêchant l'accumulation de nouvelles dettes. Lorsqu'une dépense prévue arrive et que vous avez un fonds de réserve pour elle, vous payez comptant au lieu d'augmenter le solde de votre carte de crédit. Même une petite contribution mensuelle à un fonds de réserve pendant le remboursement de dettes peut vous épargner des frais d'intérêt coûteux. Consultez notre guide sur comment sortir des dettes pour plus de stratégies."
+                "text": "Puis-je utiliser des fonds de réserve tout en remboursant des dettes ? Oui. Les fonds de réserve protègent en fait tes progrès de remboursement de dettes en empêchant l'accumulation de nouvelles dettes. Lorsqu'une dépense prévue arrive et que tu as un fonds de réserve pour elle, tu paies comptant au lieu d'augmenter le solde de ta carte de crédit. Même une petite contribution mensuelle à un fonds de réserve pendant le remboursement de dettes peut t'épargner des frais d'intérêt coûteux. Consulte notre guide sur comment sortir des dettes pour plus de stratégies."
         },
         {
                 "kind": "p",
-                "text": "Et si je ne peux pas me permettre de commencer un fonds de réserve ? Commencez par le plus petit montant que vous pouvez gérer. Même 10 ou 20 dollars par mois construisent l'habitude et créent un petit coussin. Au fur et à mesure que vos revenus augmentent ou vos dépenses diminuent, augmentez la contribution. L'habitude compte plus que le montant les premiers mois. Pour des conseils sur la création d'un budget qui laisse de la place pour l'épargne, consultez notre guide sur comment budgétiser son argent."
+                "text": "Et si je ne peux pas me permettre de commencer un fonds de réserve ? Commence par le plus petit montant que tu peux gérer. Même 10 ou 20 dollars par mois construisent l'habitude et créent un petit coussin. Au fur et à mesure que tes revenus augmentent ou tes dépenses diminuent, augmente la contribution. L'habitude compte plus que le montant les premiers mois. Pour des conseils sur la création d'un budget qui laisse de la place pour l'épargne, consulte notre guide sur comment budgétiser son argent."
         },
         {
                 "kind": "p",
-                "text": "Dois-je conserver les fonds de réserve sur un compte d'épargne ou un compte courant ? Un compte d'épargne est généralement préférable car il sépare l'argent de vos dépenses quotidiennes. Certaines banques offrent plusieurs comptes d'épargne gratuitement, vous permettant d'en ouvrir un pour chaque fonds de réserve. Si votre banque ne le supporte pas, une application de budgétisation comme Savlo peut créer des cagnotte virtuelles au sein d'un seul compte, vous donnant la même visibilité sans l'ouverture de nouveaux comptes."
+                "text": "Dois-je conserver les fonds de réserve sur un compte d'épargne ou un compte courant ? Un compte d'épargne est généralement préférable car il sépare l'argent de tes dépenses quotidiennes. Certaines banques offrent plusieurs comptes d'épargne gratuitement, te permettant d'en ouvrir un pour chaque fonds de réserve. Si ta banque ne le supporte pas, une application de budgétisation comme Savlo peut créer des cagnotte virtuelles au sein d'un seul compte, te donnant la même visibilité sans l'ouverture de nouveaux comptes."
         },
         {
                 "kind": "p",
-                "text": "Qu'arrive-t-il lorsqu'un fonds de réserve atteint son objectif ? Arrêtez de contribuer à ce fonds et redirigez le montant mensuel ailleurs. Pour les dépenses récurrentes comme l'entretien de la voiture, vous reconstituerez le fonds après l'avoir utilisé. Pour les dépenses uniques comme des vacances, vous pouvez fermer le fonds et assigner la contribution mensuel à un nouvel objectif. L'argent ne disparaît pas ; il obtient simplement un nouveau travail."
+                "text": "Qu'arrive-t-il lorsqu'un fonds de réserve atteint son objectif ? Arrête de contribuer à ce fonds et redirige le montant mensuel ailleurs. Pour les dépenses récurrentes comme l'entretien de la voiture, tu reconstitueras le fonds après l'avoir utilisé. Pour les dépenses uniques comme des vacances, tu peux fermer le fonds et assigner la contribution mensuel à un nouvel objectif. L'argent ne disparaît pas ; il obtient simplement un nouveau travail."
         },
         {
                 "kind": "p",
-                "text": "Les fonds de réserve fonctionnent-ils avec le budget 50/30/20 ? Oui. Les fonds de réserve s'intègrent naturellement dans la partie épargne de 20 pour cent d'un budget 50/30/20. Vous pouvez également allouer des contributions de fonds de réserve à la catégorie besoins de 30 pour cent si les dépenses sont liées au style de vie, comme les vacances ou les mises à niveau technologiques. La clé est de s'assurer que les fonds de réserve font partie de votre plan budgétaire, pas une réflexion après coup."
+                "text": "Les fonds de réserve fonctionnent-ils avec le budget 50/30/20 ? Oui. Les fonds de réserve s'intègrent naturellement dans la partie épargne de 20 pour cent d'un budget 50/30/20. Tu peux également allouer des contributions de fonds de réserve à la catégorie besoins de 30 pour cent si les dépenses sont liées au style de vie, comme les vacances ou les mises à niveau technologiques. La clé est de s'assurer que les fonds de réserve font partie de ton plan budgétaire, pas une réflexion après coup."
         },
         {
-                "id": "commencez-aujourd-hui-avec-votre-premier-fonds-de-",
+                "id": "commence-aujourd-hui-avec-ton-premier-fonds-de-r-s",
                 "kind": "h2",
-                "text": "Commencez aujourd'hui avec votre premier fonds de réserve"
+                "text": "Commence aujourd'hui avec ton premier fonds de réserve"
         },
         {
                 "kind": "p",
@@ -4684,15 +4684,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La paix financière qui découle des fonds de réserve est difficile à surestimer. Lorsque vous savez que votre assurance est couverte, vos vacances financées et votre entretien auto géré, toute votre vie financière semble mieux maîtrisée. Le budget mensuel est moins stressant. La carte de crédit reste dans votre portefeuille. Les dépenses imprévues cessent de vous surprendre."
+                "text": "La paix financière qui découle des fonds de réserve est difficile à surestimer. Lorsque tu sais que ton assurance est couverte, tes vacances financées et ton entretien auto géré, toute ta vie financière semble mieux maîtrisée. Le budget mensuel est moins stressant. La carte de crédit reste dans ton portefeuille. Les dépenses imprévues cessent de te surprendre."
         },
         {
                 "kind": "p",
-                "text": "Commencez par un fonds. Choisissez une dépense qui arrive dans les prochains mois. Calculez le montant mensuel. Mettez en place le virement. Dans quelques mois, vous aurez votre premier fonds de réserve financé, et vous comprendrez pourquoi les gens qui les utilisent ne reviennent jamais en arrière."
+                "text": "Commence par un fonds. Choisis une dépense qui arrive dans les prochains mois. Calcule le montant mensuel. Mets en place le virement. Dans quelques mois, tu auras ton premier fonds de réserve financé, et tu comprendras pourquoi les gens qui les utilisent ne reviennent jamais en arrière."
         },
         {
                 "kind": "p",
-                "text": "Pour d'autres guides de planification financière, explorez nos bases de budgétisation, la règle 50/30/20, la budgétisation à base zéro et notre guide sur les fonds d'urgence vs. fonds de réserve. Savlo est conçu pour Android, et iOS arrive ensuite."
+                "text": "Pour d'autres guides de planification financière, explore nos bases de budgétisation, la règle 50/30/20, la budgétisation à base zéro et notre guide sur les fonds d'urgence vs. fonds de réserve. Savlo est conçu pour Android, et iOS arrive ensuite."
         }
 ]
     },
@@ -4718,7 +4718,7 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "Dans un budget à base zéro, chaque dollar de revenu reçoit un emploi avant d'être dépensé. Revenus moins allocations égale zéro. Cela garantit que vous n'avez pas de soldes vagues et non affectés qui sont facilement mangés par des dépenses impulsives."
+                "text": "Dans un budget à base zéro, chaque dollar de revenu reçoit un emploi avant d'être dépensé. Revenus moins allocations égale zéro. Cela garantit que tu n'as pas de soldes vagues et non affectés qui sont facilement mangés par des dépenses impulsives."
         },
         {
                 "id": "ce-que-la-budg-tisation-base-z-ro-signifie-vraimen",
@@ -4727,15 +4727,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'expression « à base zéro » semble plus stricte que la pratique ne l'est en réalité. La règle est simple : quand le mois commence, chaque dollar de revenu attendu a une destination. Quand la première dépense arrive, il n'y a pas de solde sans nom sur le compte qui attend d'être mangé par un impulsif. C'est tout. Le chiffre du côté droit de la page est zéro, non pas parce que vous avez tout dépensé, mais parce que rien ne reste sans emploi."
+                "text": "L'expression « à base zéro » semble plus stricte que la pratique ne l'est en réalité. La règle est simple : quand le mois commence, chaque dollar de revenu attendu a une destination. Quand la première dépense arrive, il n'y a pas de solde sans nom sur le compte qui attend d'être mangé par un impulsif. C'est tout. Le chiffre du côté droit de la page est zéro, non pas parce que tu as tout dépensé, mais parce que rien ne reste sans emploi."
         },
         {
                 "kind": "p",
-                "text": "Le changement mental est du réactif à l'intentionnel. Au lieu de demander « qu'est-ce qui reste après le mois ? », vous commencez le mois avec une réponse complète. La plupart des gens qui maintiennent des budgets à base zéro depuis plus de six mois disent la même chose : le budget cesse de se sentir comme une contrainte et commence à se sentir comme un laissez-passer. Vous savez exactement ce qu'il est sûr de dépenser, ce qui est réservé à une facture future, et ce qui est bloqué dans un objectif. Le travail par estimation disparaît."
+                "text": "Le changement mental est du réactif à l'intentionnel. Au lieu de demander « qu'est-ce qui reste après le mois ? », tu commences le mois avec une réponse complète. La plupart des gens qui maintiennent des budgets à base zéro depuis plus de six mois disent la même chose : le budget cesse de se sentir comme une contrainte et commence à se sentir comme un laissez-passer. Tu sais exactement ce qu'il est sûr de dépenser, ce qui est réservé à une facture future, et ce qui est bloqué dans un objectif. Le travail par estimation disparaît."
         },
         {
                 "kind": "p",
-                "text": "Le système a été popularisé dans le monde des finances personnelles par YNAB (You Need A Budget), et il a ses racines dans la comptabilité de gestion des années 1970. La version personnelle est beaucoup plus légère que la version d'entreprise, mais le principe est le même : chaque unité d'argent est une ressource, et les ressources sont plus utiles quand elles sont allouées avec intention. Vous pouvez en savoir plus sur la philosophie plus large dans notre guide sur comment budgétiser votre argent, et la comparer avec l'approche plus simple basée sur les pourcentages dans le guide 50/30/20."
+                "text": "Le système a été popularisé dans le monde des finances personnelles par YNAB (You Need A Budget), et il a ses racines dans la comptabilité de gestion des années 1970. La version personnelle est beaucoup plus légère que la version d'entreprise, mais le principe est le même : chaque unité d'argent est une ressource, et les ressources sont plus utiles quand elles sont allouées avec intention. Tu peux en savoir plus sur la philosophie plus large dans notre guide sur comment budgétiser ton argent, et la comparer avec l'approche plus simple basée sur les pourcentages dans le guide 50/30/20."
         },
         {
                 "id": "les-quatre-r-gles-de-la-budg-tisation-base-z-ro",
@@ -4755,19 +4755,19 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Acceptez vos véritables dépenses. La plupart des surprises d'une année ne sont pas des surprises. Assurances, impôts, cadeaux, immatriculation, frais scolaires, voyages. Elles arrivent à des moments prévisibles. La budgétisation à base zéro vous oblige à étaler leur coût sur l'année en allouant un petit montant chaque mois dans un Fonds de Réserve pour chacune. La dépense cesse d'être une surprise."
+                        "Accepte tes véritables dépenses. La plupart des surprises d'une année ne sont pas des surprises. Assurances, impôts, cadeaux, immatriculation, frais scolaires, voyages. Elles arrivent à des moments prévisibles. La budgétisation à base zéro t'oblige à étaler leur coût sur l'année en allouant un petit montant chaque mois dans un Fonds de Réserve pour chacune. La dépense cesse d'être une surprise."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Encaissez les coups. Si vous dépassez le budget d'une catégorie, vous déplacez l'argent d'une autre catégorie pour le couvrir. Le plan s'ajuste, le total reste à zéro, et le mois n'est pas gâché. Les dépassements sont des données, pas un échec."
+                        "Encaisse les coups. Si tu dépasses le budget d'une catégorie, tu déplaces l'argent d'une autre catégorie pour le couvrir. Le plan s'ajuste, le total reste à zéro, et le mois n'est pas gâché. Les dépassements sont des données, pas un échec."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Vieillissez votre argent. Plus votre argent reste sur le compte avant de le dépenser, plus vous avez de marge de manœuvre. Au fil du temps, la budgétisation à base zéro élargit l'écart entre gagner et dépenser, ce qui crée une vraie stabilité financière. L'objectif n'est pas d'accumuler. L'objectif est de dépenser de l'argent qui a au moins un mois, pas de l'argent qui vient d'arriver."
+                        "Vieillis ton argent. Plus ton argent reste sur le compte avant de le dépenser, plus tu as de marge de manœuvre. Au fil du temps, la budgétisation à base zéro élargit l'écart entre gagner et dépenser, ce qui crée une vraie stabilité financière. L'objectif n'est pas d'accumuler. L'objectif est de dépenser de l'argent qui a au moins un mois, pas de l'argent qui vient d'arriver."
                 ]
         },
         {
@@ -4778,16 +4778,16 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Listez votre revenu net total du mois.",
-                        "Listez toutes les obligations fixes (logement, services publics, transport).",
-                        "Allouez de l'argent aux épargnes et investissements en premier.",
-                        "Répartissez le reste entre les catégories de dépenses quotidiennes souples.",
-                        "Assurez-vous que vos allocations totales équivalent exactement vos revenus."
+                        "Liste ton revenu net total du mois.",
+                        "Liste toutes les obligations fixes (logement, services publics, transport).",
+                        "Alloue de l'argent aux épargnes et investissements en premier.",
+                        "Répartis le reste entre les catégories de dépenses quotidiennes souples.",
+                        "Assure-toi que tes allocations totales équivalent exactement tes revenus."
                 ]
         },
         {
                 "kind": "p",
-                "text": "Les cinq étapes semblent simples parce que le travail n'est pas dans les étapes. Le travail est dans les catégories que vous choisissez, la taille du coussin que vous gardez, et la discipline de revenir au plan chaque semaine. Le premier mois prend généralement de 60 à 90 minutes. Au troisième mois, la plupart des gens peuvent reconstruire le plan en 30. Le but des étapes est de vous donner une séquence qui ne saute pas les parties difficiles, en particulier la tentation de laisser une ligne « divers » à la fin. Il n'y a pas de divers. Le but est de rendre explicite l'implicite."
+                "text": "Les cinq étapes semblent simples parce que le travail n'est pas dans les étapes. Le travail est dans les catégories que tu choisis, la taille du coussin que tu gardes, et la discipline de revenir au plan chaque semaine. Le premier mois prend généralement de 60 à 90 minutes. Au troisième mois, la plupart des gens peuvent reconstruire le plan en 30. Le but des étapes est de te donner une séquence qui ne saute pas les parties difficiles, en particulier la tentation de laisser une ligne « divers » à la fin. Il n'y a pas de divers. Le but est de rendre explicite l'implicite."
         },
         {
                 "id": "un-exemple-concret-avec-de-vrais-chiffres",
@@ -4796,7 +4796,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour voir la méthode en action, prenez un mois. Revenu net : 4 000 $. Le plan commence par lister chaque obligation fixe avec sa date d'échéance et son montant. Loyer 1 400 $, services publics 120 $, transport 180 $, téléphone 60 $, paiement minimum de la dette 260 $, courses 480 $, assurance 90 $, abonnements 45 $, frais médicaux récurrents 60 $. Cela totalise 2 695 $. La couche suivante est les objectifs et les Fonds de Réserve : fonds d'urgence 200 $, cadeaux de fête 50 $, entretien du véhicule 40 $, frais annuels 40 $, formation 30 $. Cela ajoute 360 $. Jusqu'ici, 2 695 $ + 360 $ = 3 055 $ sur 4 000 $. Les 945 $ restants sont répartis en catégories souples : restauration 200 $, divertissement 120 $, soins personnels 60 $, vêtements 80 $, enfants 120 $, cadeaux 50 $, divers flexible 315 $. Le total atteint exactement 4 000 $. Le solde non affecté est zéro. Chaque dollar a un emploi."
+                "text": "Pour voir la méthode en action, prends un mois. Revenu net : 4 000 $. Le plan commence par lister chaque obligation fixe avec sa date d'échéance et son montant. Loyer 1 400 $, services publics 120 $, transport 180 $, téléphone 60 $, paiement minimum de la dette 260 $, courses 480 $, assurance 90 $, abonnements 45 $, frais médicaux récurrents 60 $. Cela totalise 2 695 $. La couche suivante est les objectifs et les Fonds de Réserve : fonds d'urgence 200 $, cadeaux de fête 50 $, entretien du véhicule 40 $, frais annuels 40 $, formation 30 $. Cela ajoute 360 $. Jusqu'ici, 2 695 $ + 360 $ = 3 055 $ sur 4 000 $. Les 945 $ restants sont répartis en catégories souples : restauration 200 $, divertissement 120 $, soins personnels 60 $, vêtements 80 $, enfants 120 $, cadeaux 50 $, divers flexible 315 $. Le total atteint exactement 4 000 $. Le solde non affecté est zéro. Chaque dollar a un emploi."
         },
         {
                 "kind": "p",
@@ -4809,11 +4809,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La version de la budgétisation à base zéro qui survit à un an est la version légèrement plus généreuse que vous pensez qu'elle devrait être. L'erreur que la plupart des gens font lors de leur première tentative est de sous-estimer les catégories élastiques. Ils estiment 150 $ pour les courses, puis dépensent 200 $, puis se sentent comme un échec, puis abandonnent le système. La solution est de budgétiser la moyenne réelle des trois derniers mois, pas le nombre escompté. Une fois les catégories élastiques réalistes, les dépassements imprévisibles diminuent. Le plan ne ressemble plus à un combat."
+                "text": "La version de la budgétisation à base zéro qui survit à un an est la version légèrement plus généreuse que tu penses qu'elle devrait être. L'erreur que la plupart des gens font lors de leur première tentative est de sous-estimer les catégories élastiques. Ils estiment 150 $ pour les courses, puis dépensent 200 $, puis se sentent comme un échec, puis abandonnent le système. La solution est de budgétiser la moyenne réelle des trois derniers mois, pas le nombre escompté. Une fois les catégories élastiques réalistes, les dépassements imprévisibles diminuent. Le plan ne ressemble plus à un combat."
         },
         {
                 "kind": "p",
-                "text": "L'autre astuce de durabilité est de planifier les irréguliers. Prenez les 12 derniers mois et listez chaque dépense qui ne s'est produite que quelques fois : plaques d'immatriculation, fournitures scolaires, visites vétérinaires, vacances, mariages d'amis. Additionnez-les. Divisez par 12. C'est votre allocation mensuelle pour les irréguliers. Mettez-la dans un Fonds de Réserve. Quand la dépense arrive, l'argent est déjà là. Le plan survit parce que les irréguliers ont été intégrés, pas ignorés."
+                "text": "L'autre astuce de durabilité est de planifier les irréguliers. Prends les 12 derniers mois et liste chaque dépense qui ne s'est produite que quelques fois : plaques d'immatriculation, fournitures scolaires, visites vétérinaires, vacances, mariages d'amis. Additionne-les. Divise par 12. C'est ton allocation mensuelle pour les irréguliers. Mets-la dans un Fonds de Réserve. Quand la dépense arrive, l'argent est déjà là. Le plan survit parce que les irréguliers ont été intégrés, pas ignorés."
         },
         {
                 "id": "comment-g-rer-des-revenus-irr-guliers-avec-la-base",
@@ -4822,11 +4822,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La budgétisation à base zéro a été conçue pour des salaires prévisibles, mais elle fonctionne tout aussi bien pour des revenus irréguliers, avec un changement : au lieu de budgétiser les revenus que vous recevez ce mois-ci, vous budgétisez les revenus que vous conservez. Pour les travailleurs indépendants, les freelance, et toute personne avec des commissions, le rythme est de déposer chaque paiement sur un compte de rétention, puis d'allouer aux catégories à partir de ce compte. Les catégories sont les mêmes. La source des dollars est simplement reculée d'un pas."
+                "text": "La budgétisation à base zéro a été conçue pour des salaires prévisibles, mais elle fonctionne tout aussi bien pour des revenus irréguliers, avec un changement : au lieu de budgétiser les revenus que tu reçois ce mois-ci, tu budgétises les revenus que tu conserves. Pour les travailleurs indépendants, les freelance, et toute personne avec des commissions, le rythme est de déposer chaque paiement sur un compte de rétention, puis d'allouer aux catégories à partir de ce compte. Les catégories sont les mêmes. La source des dollars est simplement reculée d'un pas."
         },
         {
                 "kind": "p",
-                "text": "La discipline qui fait fonctionner cela est de budgétiser à partir du mois le plus bas fiable, pas de la moyenne. Si les dépôts nets des six derniers mois sont 3 200 $, 4 500 $, 2 900 $, 3 800 $, 4 200 $ et 2 400 $, ne budgétisez pas la moyenne. Budgétisez 2 400 $ et traitez chaque dollar au-dessus comme une décision : un Fonds de Réserve, un paiement supplémentaire de la dette, un approvisionnement du coussin, un accélérateur d'objectif. C'est le même principe qui apparaît dans le guide plus large sur la budgétisation à revenus variables ; la structure à base zéro lui donne simplement un endroit où atterrir."
+                "text": "La discipline qui fait fonctionner cela est de budgétiser à partir du mois le plus bas fiable, pas de la moyenne. Si les dépôts nets des six derniers mois sont 3 200 $, 4 500 $, 2 900 $, 3 800 $, 4 200 $ et 2 400 $, ne budgétise pas la moyenne. Budgétise 2 400 $ et traite chaque dollar au-dessus comme une décision : un Fonds de Réserve, un paiement supplémentaire de la dette, un approvisionnement du coussin, un accélérateur d'objectif. C'est le même principe qui apparaît dans le guide plus large sur la budgétisation à revenus variables ; la structure à base zéro lui donne simplement un endroit où atterrir."
         },
         {
                 "id": "le-rythme-semaine-par-semaine-de-la-base-z-ro",
@@ -4835,11 +4835,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le plan est construit une fois par mois. Le plan est vérifié une fois par semaine. La vérification est la partie que la plupart des gens sautent, et le saut est ce qui tue le système. Une vérification hebdomadaire prend de quinze à vingt minutes : ouvrez le plan, enregistrez les dépenses de la semaine, regardez le solde restant dans chaque catégorie, et demandez-vous si une catégorie est en route pour un dépassement. Si oui, décidez maintenant d'où viendra l'argent. La décision prise tôt est la décision qui fonctionne."
+                "text": "Le plan est construit une fois par mois. Le plan est vérifié une fois par semaine. La vérification est la partie que la plupart des gens sautent, et le saut est ce qui tue le système. Une vérification hebdomadaire prend de quinze à vingt minutes : ouvre le plan, enregistre les dépenses de la semaine, regarde le solde restant dans chaque catégorie, et demande-toi si une catégorie est en route pour un dépassement. Si oui, décide maintenant d'où viendra l'argent. La décision prise tôt est la décision qui fonctionne."
         },
         {
                 "kind": "p",
-                "text": "L'autre moitié du rythme est la reconstruction mensuelle. Fixez un bloc récurrent du calendrier de soixante à quatre-vingt-dix minutes autour du 25e jour de chaque mois, quand la plupart des factures du mois suivant sont visibles. Reconstruisez le plan de haut en bas. Ajustez les catégories, les objectifs des Fonds de Réserve, la taille du coussin, les priorités des objectifs. La reconstruction est l'endroit où le plan devient plus précis chaque mois. C'est aussi l'endroit où la vue à long terme de l'année commence à ressembler à la réalité plutôt qu'à une aspiration."
+                "text": "L'autre moitié du rythme est la reconstruction mensuelle. Fixe un bloc récurrent du calendrier de soixante à quatre-vingt-dix minutes autour du 25e jour de chaque mois, quand la plupart des factures du mois suivant sont visibles. Reconstruis le plan de haut en bas. Ajuste les catégories, les objectifs des Fonds de Réserve, la taille du coussin, les priorités des objectifs. La reconstruction est l'endroit où le plan devient plus précis chaque mois. C'est aussi l'endroit où la vue à long terme de l'année commence à ressembler à la réalité plutôt qu'à une aspiration."
         },
         {
                 "id": "qui-est-ce-destin",
@@ -4852,7 +4852,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Plus précisément, la méthode tend à convenir aux gens qui veulent une réponse claire et écrite à la question « que dois-je faire avec le prochain dollar ? » Si vous avez déjà fermé votre application bancaire en vous sentant légèrement perdu, la méthode est pour vous. Elle convient aussi aux gens qui passent d'un budget de survie à un budget de planification, car elle oblige la différence entre une facture et un objectif à être mise en lumière. Une facture est un montant fixe avec une date fixe. Un objectif est un montant souple avec une date cible. Les traiter de la même façon est l'une des raisons les plus courantes pour lesquelles les budgets échouent."
+                "text": "Plus précisément, la méthode tend à convenir aux gens qui veulent une réponse claire et écrite à la question « que dois-je faire avec le prochain dollar ? » Si tu as déjà fermé ton application bancaire en te sentant légèrement perdu, la méthode est pour toi. Elle convient aussi aux gens qui passent d'un budget de survie à un budget de planification, car elle oblige la différence entre une facture et un objectif à être mise en lumière. Une facture est un montant fixe avec une date fixe. Un objectif est un montant souple avec une date cible. Les traiter de la même façon est l'une des raisons les plus courantes pour lesquelles les budgets échouent."
         },
         {
                 "id": "pour-qui-elle-pourrait-ne-pas-convenir",
@@ -4861,11 +4861,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si planifier chaque dollar vous semble trop restrictif ou accablant, commencez avec la règle 50/30/20 beaucoup plus légère. La budgétisation à base zéro est une excellente destination, mais ce n'est pas une ligne de départ obligatoire."
+                "text": "Si planifier chaque dollar te semble trop restrictif ou accablant, commence avec la règle 50/30/20 beaucoup plus légère. La budgétisation à base zéro est une excellente destination, mais ce n'est pas une ligne de départ obligatoire."
         },
         {
                 "kind": "p",
-                "text": "L'autre groupe qui pourrait avoir du mal avec la base zéro est toute personne dont le revenu est si instable que le plan mensuel est bâti sur des estimations. Si le salaire varie de plus de 40 % d'un mois à l'autre, une structure différente (un Fonds de Réserve d'abord, un budget ensuite) fonctionne souvent mieux. Le guide de budgétisation à faible ou irrégulier revenu traite ce cas en détail. La bonne nouvelle est que la budgétisation à base zéro devient plus facile à mesure que vous l'utilisez, donc même un utilisateur peu adapté peut y progresser une fois que le revenu se stabilise."
+                "text": "L'autre groupe qui pourrait avoir du mal avec la base zéro est toute personne dont le revenu est si instable que le plan mensuel est bâti sur des estimations. Si le salaire varie de plus de 40 % d'un mois à l'autre, une structure différente (un Fonds de Réserve d'abord, un budget ensuite) fonctionne souvent mieux. Le guide de budgétisation à faible ou irrégulier revenu traite ce cas en détail. La bonne nouvelle est que la budgétisation à base zéro devient plus facile à mesure que tu l'utilises, donc même un utilisateur peu adapté peut y progresser une fois que le revenu se stabilise."
         },
         {
                 "id": "cat-gories-courantes-et-comment-les-dimensionner",
@@ -4878,7 +4878,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La taille de chaque Fonds de Réserve dépend de la dépense qu'il couvre. Prenez le coût annuel total et divisez par douze. Une facture d'assurance de 600 $ devient 50 $ par mois. Des vacances de 1 200 $ deviennent 100 $ par mois. Un contrôle technique de 300 $ devient 25 $ par mois. Ces allocations paraissent petites, et c'est le but. Le but des Fonds de Réserve est de faire en sorte que les grandes dépenses prévisibles ressemblent à de petites allocations mensuelles. Plus vous maintenez le système, plus cela devient naturel, et moins votre année financière a un mois qui vous surprend."
+                "text": "La taille de chaque Fonds de Réserve dépend de la dépense qu'il couvre. Prends le coût annuel total et divise par douze. Une facture d'assurance de 600 $ devient 50 $ par mois. Des vacances de 1 200 $ deviennent 100 $ par mois. Un contrôle technique de 300 $ devient 25 $ par mois. Ces allocations paraissent petites, et c'est le but. Le but des Fonds de Réserve est de faire en sorte que les grandes dépenses prévisibles ressemblent à de petites allocations mensuelles. Plus tu maintiens le système, plus cela devient naturel, et moins ton année financière a un mois qui te surprend."
         },
         {
                 "id": "pourquoi-la-base-z-ro-s-accorde-si-bien-avec-les-f",
@@ -4895,7 +4895,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'effet combiné de la budgétisation à base zéro et des Fonds de Réserve est d'éliminer les deux sources les plus courantes de stress budgétaire : la grande dépense imprévue, et le sentiment croissant que le mois va être serré. Le Fonds de Réserve gère la première. Le suivi au niveau de la catégorie gère la seconde. Le budget cesse d'être quelque chose que vous survivez et commence à être quelque chose que vous entretenez. Notre guide plus approfondi sur les Fonds de Réserve explique la mécanique en détail, y compris comment les dimensionner et comment prioriser quand il n'y a pas assez de place dans le budget pour tous."
+                "text": "L'effet combiné de la budgétisation à base zéro et des Fonds de Réserve est d'éliminer les deux sources les plus courantes de stress budgétaire : la grande dépense imprévue, et le sentiment croissant que le mois va être serré. Le Fonds de Réserve gère la première. Le suivi au niveau de la catégorie gère la seconde. Le budget cesse d'être quelque chose que tu survis et commence à être quelque chose que tu entretiens. Notre guide plus approfondi sur les Fonds de Réserve explique la mécanique en détail, y compris comment les dimensionner et comment prioriser quand il n'y a pas assez de place dans le budget pour tous."
         },
         {
                 "id": "erreurs-courantes-et-comment-les-viter",
@@ -4905,13 +4905,13 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Sous-estimer les catégories élastiques. La raison la plus courante pour laquelle un budget à base zéro meurt au premier mois. Utilisez la moyenne sur trois mois, pas le nombre escompté. Si la moyenne est de 200 $ pour les courses, planifiez 200 $."
+                        "Sous-estimer les catégories élastiques. La raison la plus courante pour laquelle un budget à base zéro meurt au premier mois. Utilise la moyenne sur trois mois, pas le nombre escompté. Si la moyenne est de 200 $ pour les courses, planifie 200 $."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Sauter la vérification hebdomadaire. La vérification est ce qui garde le plan honnête. Sans elle, le plan est une liste de souhaits. Avec elle, le plan est un contrat que vous faites avec vous-même."
+                        "Sauter la vérification hebdomadaire. La vérification est ce qui garde le plan honnête. Sans elle, le plan est une liste de souhaits. Avec elle, le plan est un contrat que tu fais avec toi-même."
                 ]
         },
         {
@@ -4923,7 +4923,7 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Traiter le dépassement comme un échec. Un dépassement est une donnée. Déplacez l'argent d'une autre catégorie, ajustez le plan, et continuez. La règle de « encaisser les coups » est celle qui sépare un budget à base zéro à long terme d'un budget à base zéro de trois mois."
+                        "Traiter le dépassement comme un échec. Un dépassement est une donnée. Déplace l'argent d'une autre catégorie, ajuste le plan, et continue. La règle de « encaisser les coups » est celle qui sépare un budget à base zéro à long terme d'un budget à base zéro de trois mois."
                 ]
         },
         {
@@ -4935,7 +4935,7 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Fixer l'objectif zéro trop agressivement. Un budget qui atteint zéro est un budget sans coussin. Laissez une petite ligne « prête à affecter » ou discrétionnaire, même si ce n'est que 20 $. Le coussin est ce qui absorbe les surprises que les catégories n'ont pas captées."
+                        "Fixer l'objectif zéro trop agressivement. Un budget qui atteint zéro est un budget sans coussin. Laisse une petite ligne « prête à affecter » ou discrétionnaire, même si ce n'est que 20 $. Le coussin est ce qui absorbe les surprises que les catégories n'ont pas captées."
                 ]
         },
         {
@@ -4949,11 +4949,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La règle 50/30/20 divise le revenu en trois pourcentages : 50 % pour les besoins, 30 % pour les envies, 20 % pour l'avenir (épargne et dettes). C'est la méthode la plus légère et la plus facile à maintenir. Le compromis est que les catégories à l'intérieur de chaque pourcentage dépendent de vous, ce qui signifie que les dépassements peuvent se cacher longtemps dans le pourcentage des envies avant d'être visibles. La budgétisation à base zéro résout cela en donnant à chaque dollar une catégorie spécifique."
+                "text": "La règle 50/30/20 divise le revenu en trois pourcentages : 50 % pour les besoins, 30 % pour les envies, 20 % pour l'avenir (épargne et dettes). C'est la méthode la plus légère et la plus facile à maintenir. Le compromis est que les catégories à l'intérieur de chaque pourcentage dépendent de toi, ce qui signifie que les dépassements peuvent se cacher longtemps dans le pourcentage des envies avant d'être visibles. La budgétisation à base zéro résout cela en donnant à chaque dollar une catégorie spécifique."
         },
         {
                 "kind": "p",
-                "text": "La méthode des enveloppes (également appelée « cash stuffing ») est la version en espèces de la budgétisation à base zéro. Chaque catégorie a une enveloppe, et quand l'enveloppe est vide, la catégorie est mise en pause pour le mois. La discipline est la même que pour la base zéro ; la différence est que l'argent est dans des enveloppes physiques au lieu d'une application de suivi. Le budget par enveloppes fonctionne bien pour les gens qui dépensent plus librement quand ils utilisent une carte. La budgétisation à base zéro fonctionne bien pour les gens qui veulent la flexibilité des paiements par carte mais la discipline de la méthode des enveloppes. La plupart des applications modernes à base zéro, y compris Savlo, vous permettent de recréer la logique des enveloppes numériquement sous forme d'« Comptes »."
+                "text": "La méthode des enveloppes (également appelée « cash stuffing ») est la version en espèces de la budgétisation à base zéro. Chaque catégorie a une enveloppe, et quand l'enveloppe est vide, la catégorie est mise en pause pour le mois. La discipline est la même que pour la base zéro ; la différence est que l'argent est dans des enveloppes physiques au lieu d'une application de suivi. Le budget par enveloppes fonctionne bien pour les gens qui dépensent plus librement quand ils utilisent une carte. La budgétisation à base zéro fonctionne bien pour les gens qui veulent la flexibilité des paiements par carte mais la discipline de la méthode des enveloppes. La plupart des applications modernes à base zéro, y compris Savlo, te permettent de recréer la logique des enveloppes numériquement sous forme d'« Comptes »."
         },
         {
                 "kind": "p",
@@ -4961,11 +4961,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La méthode « payez-vous d'abord » (également appelée budgétisation inversée) est l'opposé de la base zéro. Vous décidez d'abord du montant d'épargne ou d'investissement, l'automatisez, et laissez le reste du revenu couler dans les dépenses sans plan détaillé. C'est la méthode la plus facile à maintenir et la plus difficile à garder honnête. La budgétisation à base zéro est plus de travail, mais elle vous donne une image beaucoup plus claire de où va l'argent."
+                "text": "La méthode « paie-toi d'abord » (également appelée budgétisation inversée) est l'opposé de la base zéro. Tu décides d'abord du montant d'épargne ou d'investissement, l'automatises, et laisses le reste du revenu couler dans les dépenses sans plan détaillé. C'est la méthode la plus facile à maintenir et la plus difficile à garder honnête. La budgétisation à base zéro est plus de travail, mais elle te donne une image beaucoup plus claire de où va l'argent."
         },
         {
                 "kind": "p",
-                "text": "La bonne méthode est celle qui s'adapte à votre vie et à votre énergie. La méthode la plus légère que vous utiliserez encore dans douze mois est la bonne pour vous. La plupart des gens qui essaient la budgétisation à base zéro une fois ne reviennent jamais à une méthode plus légère, parce que la visibilité et le contrôle sont difficiles à abandonner. Mais une méthode légère utilisée pendant une décennie est meilleure qu'une méthode lourde utilisée pendant un mois."
+                "text": "La bonne méthode est celle qui s'adapte à ta vie et à ton énergie. La méthode la plus légère que tu utiliseras encore dans douze mois est la bonne pour toi. La plupart des gens qui essaient la budgétisation à base zéro une fois ne reviennent jamais à une méthode plus légère, parce que la visibilité et le contrôle sont difficiles à abandonner. Mais une méthode légère utilisée pendant une décennie est meilleure qu'une méthode lourde utilisée pendant un mois."
         },
         {
                 "id": "un-premier-mois-r-aliste-avec-la-base-z-ro",
@@ -4974,15 +4974,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le premier mois avec un budget à base zéro est rarement fluide. Le plan prend plus de temps à construire que prévu, les catégories ne sont pas tout à fait correctes, et les chiffres se déplacent au fur et à mesure que le mois avance. Le plan est censé se déplacer. L'erreur est de traiter le premier mois comme un échec s'il n'atteint pas zéro le premier jour. Le premier mois réaliste est plus comme un brouillon qu'une version finale : il vous enseigne quelles devraient être les catégories, quels devraient être les objectifs des Fonds de Réserve, et comment les catégories élastiques se comportent réellement. Le deuxième mois est quand le plan commence à ressembler à celui que vous vouliez écrire dès le début."
+                "text": "Le premier mois avec un budget à base zéro est rarement fluide. Le plan prend plus de temps à construire que prévu, les catégories ne sont pas tout à fait correctes, et les chiffres se déplacent au fur et à mesure que le mois avance. Le plan est censé se déplacer. L'erreur est de traiter le premier mois comme un échec s'il n'atteint pas zéro le premier jour. Le premier mois réaliste est plus comme un brouillon qu'une version finale : il t'enseigne quelles devraient être les catégories, quels devraient être les objectifs des Fonds de Réserve, et comment les catégories élastiques se comportent réellement. Le deuxième mois est quand le plan commence à ressembler à celui que tu voulais écrire dès le début."
         },
         {
                 "kind": "p",
-                "text": "Quelques conseils pratiques pour le premier mois. D'abord, construisez le plan sur papier ou dans un tableur avant de le transférer dans une application. L'effort d'écrire à la main attrape beaucoup d'erreurs que l'application aurait acceptées. Ensuite, demandez à une autre personne de regarder le plan, idéalement quelqu'un qui gère aussi un budget ménager. Ils verront les lacunes que vous ne pouvez pas voir. Troisièmement, n'ajustez pas le plan pendant les trois premières semaines. Laissez les catégories tenir ou être dépassées. Les données des trois premières semaines sont ce qui rend le plan du deuxième mois précis. Quatrièmement, planifiez une date pour reconstruire. La reconstruction est la partie du mois qui ferme réellement la boucle."
+                "text": "Quelques conseils pratiques pour le premier mois. D'abord, construis le plan sur papier ou dans un tableur avant de le transférer dans une application. L'effort d'écrire à la main attrape beaucoup d'erreurs que l'application aurait acceptées. Ensuite, demande à une autre personne de regarder le plan, idéalement quelqu'un qui gère aussi un budget ménager. Ils verront les lacunes que tu ne peux pas voir. Troisièmement, n'ajuste pas le plan pendant les trois premières semaines. Laisse les catégories tenir ou être dépassées. Les données des trois premières semaines sont ce qui rend le plan du deuxième mois précis. Quatrièmement, planifie une date pour reconstruire. La reconstruction est la partie du mois qui ferme réellement la boucle."
         },
         {
                 "kind": "p",
-                "text": "Le premier mois réaliste est le mois où vous apprenez que le budget est un outil d'apprentissage, pas un outil de contrôle. Les données que vous collectez au premier mois sont ce qui rend le douzième presque sans effort. La plupart des gens qui maintiennent la budgétisation à base zéro pendant un an disent la même chose : le budget a cessé d'être quelque chose qu'ils devaient maintenir et a commencé à être quelque chose qu'ils ne voudraient pas abandonner."
+                "text": "Le premier mois réaliste est le mois où tu apprends que le budget est un outil d'apprentissage, pas un outil de contrôle. Les données que tu collectes au premier mois sont ce qui rend le douzième presque sans effort. La plupart des gens qui maintiennent la budgétisation à base zéro pendant un an disent la même chose : le budget a cessé d'être quelque chose qu'ils devaient maintenir et a commencé à être quelque chose qu'ils ne voudraient pas abandonner."
         },
         {
                 "id": "ce-qui-change-apr-s-six-mois-de-base-z-ro",
@@ -4991,11 +4991,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Au sixième mois, le plan s'est généralement stabilisé dans un rythme. Les catégories sont proches de la version finale. Les objectifs des Fonds de Réserve sont proches de la version finale. Le coussin (la ligne « prête à affecter ») commence à se sentir confortable. Les dépenses imprévues ne sont plus surprenantes. La charge mentale du budget a diminué de moitié, parce que le système est maintenant dans votre mémoire musculaire."
+                "text": "Au sixième mois, le plan s'est généralement stabilisé dans un rythme. Les catégories sont proches de la version finale. Les objectifs des Fonds de Réserve sont proches de la version finale. Le coussin (la ligne « prête à affecter ») commence à se sentir confortable. Les dépenses imprévues ne sont plus surprenantes. La charge mentale du budget a diminué de moitié, parce que le système est maintenant dans ta mémoire musculaire."
         },
         {
                 "kind": "p",
-                "text": "Le changement qui se produit généralement autour du sixième mois est de « je suis un plan » à « le plan me suit ». Les catégories ne sont plus une contrainte. Elles sont une description de la vie que vous vivez. Une nouvelle catégorie de dépense apparaît (abonnement à une salle de sport, une activité d'un enfant) et le système l'absorbe sans drame. Une ancienne catégorie de dépense se réduit (vous n'allez plus au bureau) et le système l'absorbe aussi. Le plan est vivant. Le plan est à vous."
+                "text": "Le changement qui se produit généralement autour du sixième mois est de « je suis un plan » à « le plan me suit ». Les catégories ne sont plus une contrainte. Elles sont une description de la vie que tu vis. Une nouvelle catégorie de dépense apparaît (abonnement à une salle de sport, une activité d'un enfant) et le système l'absorbe sans drame. Une ancienne catégorie de dépense se réduit (tu n'vas plus au bureau) et le système l'absorbe aussi. Le plan est vivant. Le plan est à toi."
         },
         {
                 "kind": "p",
@@ -5003,7 +5003,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le changement autour du sixième mois est aussi quand la plupart des gens commencent à se demander ce qui se passe s'ils continuent. La réponse, pour la plupart, est que le budget devient plus précis chaque année, les Fonds de Réserve couvrent de plus en plus de l'année, et le coussin « prête à affecter » grossit assez pour absorber un seul mauvais mois sans briser le plan. C'est l'arc long de la budgétisation à base zéro : pas un projet d'un mois, mais une mise à jour de plusieurs années dans la façon dont vous pensez à l'argent."
+                "text": "Le changement autour du sixième mois est aussi quand la plupart des gens commencent à se demander ce qui se passe s'ils continuent. La réponse, pour la plupart, est que le budget devient plus précis chaque année, les Fonds de Réserve couvrent de plus en plus de l'année, et le coussin « prête à affecter » grossit assez pour absorber un seul mauvais mois sans briser le plan. C'est l'arc long de la budgétisation à base zéro : pas un projet d'un mois, mais une mise à jour de plusieurs années dans la façon dont tu penses à l'argent."
         },
         {
                 "id": "les-outils-qui-supportent-la-base-z-ro",
@@ -5012,7 +5012,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La méthode peut être exécutée sur une feuille de papier, un tableur, ou une application dédiée. Le bon outil est celui que vous utiliserez encore dans six mois. YNAB est l'application la plus établie pour la budgétisation à base zéro et comprend un essai gratuit de 34 jours plus un abonnement annuel. Elle ne comprend pas le suivi des investissements, et la courbe d'apprentissage est réelle. Pour une approche respectueuse de la vie privée, l'application Savlo supporte une structure similaire via les Comptes (comptes indépendants pour les catégories de dépenses) et les Fonds de Réserve, sans lien bancaire requis. Le but n'est pas quelle outil vous choisissez. Le but est que l'outil supporte les quatre règles : affecter chaque dollar, accepter les véritables dépenses, encaisser les coups, et vieillir votre argent. La plupart des tableurs peuvent couvrir les deux premières. La troisième et la quatrième sont plus faciles dans une application qui suit les soldes des catégories pour vous."
+                "text": "La méthode peut être exécutée sur une feuille de papier, un tableur, ou une application dédiée. Le bon outil est celui que tu utiliseras encore dans six mois. YNAB est l'application la plus établie pour la budgétisation à base zéro et comprend un essai gratuit de 34 jours plus un abonnement annuel. Elle ne comprend pas le suivi des investissements, et la courbe d'apprentissage est réelle. Pour une approche respectueuse de la vie privée, l'application Savlo supporte une structure similaire via les Comptes (comptes indépendants pour les catégories de dépenses) et les Fonds de Réserve, sans lien bancaire requis. Le but n'est pas quelle outil tu choisis. Le but est que l'outil supporte les quatre règles : affecter chaque dollar, accepter les véritables dépenses, encaisser les coups, et vieillir ton argent. La plupart des tableurs peuvent couvrir les deux premières. La troisième et la quatrième sont plus faciles dans une application qui suit les soldes des catégories pour toi."
         },
         {
                 "id": "un-aper-u-plus-profond-des-quatre-r-gles-en-pratiq",
@@ -5021,11 +5021,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "C'est une chose de connaître les quatre règles de la budgétisation à base zéro. C'est une autre de voir comment elles se déroulent sur une année complète de décisions réelles. Les quatre règles sont : donner un emploi à chaque dollar, accepter vos véritables dépenses, encaisser les coups, et vieillir votre argent. La plupart des gens qui maintiennent le système au-delà du troisième mois rapportent que chacune de ces règles apparaît dans un rythme différent : la première règle est quotidienne, la deuxième est mensuelle, la troisième est hebdomadaire, et la quatrième est l'arc long qui ne devient visible qu'après plusieurs mois."
+                "text": "C'est une chose de connaître les quatre règles de la budgétisation à base zéro. C'est une autre de voir comment elles se déroulent sur une année complète de décisions réelles. Les quatre règles sont : donner un emploi à chaque dollar, accepter tes véritables dépenses, encaisser les coups, et vieillir ton argent. La plupart des gens qui maintiennent le système au-delà du troisième mois rapportent que chacune de ces règles apparaît dans un rythme différent : la première règle est quotidienne, la deuxième est mensuelle, la troisième est hebdomadaire, et la quatrième est l'arc long qui ne devient visible qu'après plusieurs mois."
         },
         {
                 "kind": "p",
-                "text": "La première règle, donner un emploi à chaque dollar, est celle qui alimente le rituel de planification. Chaque dollar sur le compte a une catégorie, et chaque catégorie a un solde. Quand une transaction arrive, le solde de la catégorie baisse. Quand le revenu arrive, les catégories sont reconstituées. Le travail se passe au début du mois, quand le plan est reconstruit, et à chaque fois qu'un nouveau dollar arrive. La règle n'est pas un événement unique. C'est une décision continue. Plus vous prenez la décision souvent, moins elle demande d'effort. Le plan devient mémoire musculaire."
+                "text": "La première règle, donner un emploi à chaque dollar, est celle qui alimente le rituel de planification. Chaque dollar sur le compte a une catégorie, et chaque catégorie a un solde. Quand une transaction arrive, le solde de la catégorie baisse. Quand le revenu arrive, les catégories sont reconstituées. Le travail se passe au début du mois, quand le plan est reconstruit, et à chaque fois qu'un nouveau dollar arrive. La règle n'est pas un événement unique. C'est une décision continue. Plus tu prends la décision souvent, moins elle demande d'effort. Le plan devient mémoire musculaire."
         },
         {
                 "kind": "p",
@@ -5042,15 +5042,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "D'abord, regardez les catégories qui ont régulièrement dépassé. Une catégorie qui dépasse chaque mois n'est pas un problème de dépassement. C'est un problème de dimensionnement. La solution est d'augmenter la catégorie, ou de demander si la catégorie a la bonne forme. Parfois la bonne solution est de diviser une catégorie en deux. Une catégorie « restauration » qui dépasse chaque mois pourrait vraiment être une catégorie « restauration » et une catégorie « vie sociale ». La division ne réduit pas la dépense, mais elle rend la dépense honnête."
+                "text": "D'abord, regarde les catégories qui ont régulièrement dépassé. Une catégorie qui dépasse chaque mois n'est pas un problème de dépassement. C'est un problème de dimensionnement. La solution est d'augmenter la catégorie, ou de demander si la catégorie a la bonne forme. Parfois la bonne solution est de diviser une catégorie en deux. Une catégorie « restauration » qui dépasse chaque mois pourrait vraiment être une catégorie « restauration » et une catégorie « vie sociale ». La division ne réduit pas la dépense, mais elle rend la dépense honnête."
         },
         {
                 "kind": "p",
-                "text": "Ensuite, regardez les catégories qui ont régulièrement eu un excédent. Une catégorie avec trois mois d'excédent consécutifs est soit surfinancée, soit n'est plus pertinente. La solution est de la réduire et de déplacer l'argent libéré vers un objectif, un Fonds de Réserve, ou un paiement de dette. La revue annuelle est le moment où la forme du budget rattrape la forme de la vie."
+                "text": "Ensuite, regarde les catégories qui ont régulièrement eu un excédent. Une catégorie avec trois mois d'excédent consécutifs est soit surfinancée, soit n'est plus pertinente. La solution est de la réduire et de déplacer l'argent libéré vers un objectif, un Fonds de Réserve, ou un paiement de dette. La revue annuelle est le moment où la forme du budget rattrape la forme de la vie."
         },
         {
                 "kind": "p",
-                "text": "Enfin, regardez les objectifs. Quels Fonds de Réserve ont grandi comme vous le vouliez ? Quels objectifs ont été financés tard ? Quels objectifs ne sont plus pertinents ? La revue annuelle est le bon moment pour retirer un objectif qui n'est plus une priorité et pour en ajouter un nouveau qui est apparu. Un budget doit suivre la vie, pas la vie d'il y a trois ans."
+                "text": "Enfin, regarde les objectifs. Quels Fonds de Réserve ont grandi comme tu le voulais ? Quels objectifs ont été financés tard ? Quels objectifs ne sont plus pertinents ? La revue annuelle est le bon moment pour retirer un objectif qui n'est plus une priorité et pour en ajouter un nouveau qui est apparu. Un budget doit suivre la vie, pas la vie d'il y a trois ans."
         },
         {
                 "id": "les-conseils-de-suivi-qui-rendent-la-base-z-ro-dur",
@@ -5063,11 +5063,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les méthodes de suivi les plus durables, en ordre de friction. D'abord, une application de saisie vocale. Ouvrez l'application, dites la dépense, et l'application l'enregistre. Le temps total est plus proche de deux secondes que de cinq. L'inconvénient est que la reconnaissance vocale n'est pas toujours parfaite, et l'entrée devra parfois une modification rapide. Ensuite, un widget d'ajout rapide sur l'écran d'accueil du téléphone. Appuyez, tapez le montant, choisissez une catégorie, c'est fait. Temps total : cinq secondes. Enfin, une application de notes. Notez la dépense dans une liste en cours, puis transférez-la dans le budget une fois par semaine. La friction est moindre sur le moment, mais le transfert hebdomadaire est son propre type de travail."
+                "text": "Les méthodes de suivi les plus durables, en ordre de friction. D'abord, une application de saisie vocale. Ouvre l'application, dis la dépense, et l'application l'enregistre. Le temps total est plus proche de deux secondes que de cinq. L'inconvénient est que la reconnaissance vocale n'est pas toujours parfaite, et l'entrée devra parfois une modification rapide. Ensuite, un widget d'ajout rapide sur l'écran d'accueil du téléphone. Appuie, tape le montant, choisis une catégorie, c'est fait. Temps total : cinq secondes. Enfin, une application de notes. Note la dépense dans une liste en cours, puis transfère-la dans le budget une fois par semaine. La friction est moindre sur le moment, mais le transfert hebdomadaire est son propre type de travail."
         },
         {
                 "kind": "p",
-                "text": "Quelle que soit la méthode que vous choisissiez, la règle est la même : enregistrez la dépense au moment où vous la faites, pas le lendemain matin, pas le week-end suivant. Plus l'écart entre la dépense et l'enregistrement est long, plus vous oublierez d'entrées, et moins le budget sera utile. Un café de 3 $ enregistré est une donnée. Un café de 3 $ oublié est de l'argent qui disparaît. La première version du budget alimente le système. La deuxième version alimente l'illusion que vous savez où va l'argent."
+                "text": "Quelle que soit la méthode que tu choisisses, la règle est la même : enregistre la dépense au moment où tu la fais, pas le lendemain matin, pas le week-end suivant. Plus l'écart entre la dépense et l'enregistrement est long, plus tu oublieras d'entrées, et moins le budget sera utile. Un café de 3 $ enregistré est une donnée. Un café de 3 $ oublié est de l'argent qui disparaît. La première version du budget alimente le système. La deuxième version alimente l'illusion que tu sais où va l'argent."
         },
         {
                 "kind": "divider"
@@ -5091,7 +5091,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Et si je ne peux pas atteindre zéro parce que mes dépenses dépassent mes revenus ? C'est un déficit structurel, pas un échec de budgétisation. La première étape est de regarder les plus grandes catégories fixes (logement, transport, minimums de dette) et de voir si l'une peut être renégociée. La deuxième étape est d'ajouter du revenu. La troisième est de demander de l'aide. Le budget ne peut pas combler une lacune structurelle, mais il peut vous montrer la lacune clairement, ce qui est le premier pas pour la combler."
+                "text": "Et si je ne peux pas atteindre zéro parce que mes dépenses dépassent mes revenus ? C'est un déficit structurel, pas un échec de budgétisation. La première étape est de regarder les plus grandes catégories fixes (logement, transport, minimums de dette) et de voir si l'une peut être renégociée. La deuxième étape est d'ajouter du revenu. La troisième est de demander de l'aide. Le budget ne peut pas combler une lacune structurelle, mais il peut te montrer la lacune clairement, ce qui est le premier pas pour la combler."
         },
         {
                 "kind": "p",
@@ -5099,20 +5099,20 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Puis-je utiliser la budgétisation à base zéro sans une application ? Oui. Un tableur vierge avec des colonnes pour catégorie, prévu, réel, et différence suffit pour exécuter la méthode. Un carnet papier fonctionne aussi. L'application est utile pour le suivi continu des petites dépenses, mais la partie planification de la budgétisation à base zéro peut être faite n'importe où, et de nombreuses personnes maintiennent la méthode complète sur une seule page d'un carnet pendant des années. Le bon outil est celui que vous utiliserez encore le mois prochain."
+                "text": "Puis-je utiliser la budgétisation à base zéro sans une application ? Oui. Un tableur vierge avec des colonnes pour catégorie, prévu, réel, et différence suffit pour exécuter la méthode. Un carnet papier fonctionne aussi. L'application est utile pour le suivi continu des petites dépenses, mais la partie planification de la budgétisation à base zéro peut être faite n'importe où, et de nombreuses personnes maintiennent la méthode complète sur une seule page d'un carnet pendant des années. Le bon outil est celui que tu utiliseras encore le mois prochain."
         },
         {
-                "id": "un-plan-complet-auquel-vous-pouvez-revenir",
+                "id": "un-plan-complet-auquel-tu-peux-revenir",
                 "kind": "h2",
-                "text": "Un plan complet auquel vous pouvez revenir"
+                "text": "Un plan complet auquel tu peux revenir"
         },
         {
                 "kind": "p",
-                "text": "La budgétisation à base zéro est une façon de donner à chaque dollar un emploi, d'accepter les véritables dépenses qui apparaissent quelques fois par an, d'encaisser les coups quand une catégorie dépasse, et de vieillir votre argent pour que l'écart entre gagner et dépenser s'élargisse. La méthode n'est pas pour tout le monde. Elle récompense les gens qui aiment la structure et la constance, et elle est plus difficile à maintenir quand le revenu est hautement irrégulier. Pour la plupart des gens, elle devient le budget le plus clair qu'ils aient jamais maintenu, et le plus facile auquel revenir après un mauvais mois."
+                "text": "La budgétisation à base zéro est une façon de donner à chaque dollar un emploi, d'accepter les véritables dépenses qui apparaissent quelques fois par an, d'encaisser les coups quand une catégorie dépasse, et de vieillir ton argent pour que l'écart entre gagner et dépenser s'élargisse. La méthode n'est pas pour tout le monde. Elle récompense les gens qui aiment la structure et la constance, et elle est plus difficile à maintenir quand le revenu est hautement irrégulier. Pour la plupart des gens, elle devient le budget le plus clair qu'ils aient jamais maintenu, et le plus facile auquel revenir après un mauvais mois."
         },
         {
                 "kind": "p",
-                "text": "Si vous voulez essayer la méthode sans vous engager vers une nouvelle application, exécutez-la dans un tableur pendant un mois. Si vous voulez un outil qui respecte votre vie privée, ne demande pas de coordonnées bancaires, et fonctionne avec les mêmes quatre règles, Savlo est conçu pour Android, et iOS arrive ensuite. Il est construit autour des mêmes principes : affecter chaque dollar, accepter les véritables dépenses, encaisser les coups, et vieillir votre argent. Le reste de ce blog va plus en profondeur sur les idées connexes, de la philosophie de budgétisation plus large à la mécanique pratique des Fonds de Réserve, si vous voulez continuer."
+                "text": "Si tu veux essayer la méthode sans t'engager vers une nouvelle application, exécute-la dans un tableur pendant un mois. Si tu veux un outil qui respecte ta vie privée, ne demande pas de coordonnées bancaires, et fonctionne avec les mêmes quatre règles, Savlo est conçu pour Android, et iOS arrive ensuite. Il est construit autour des mêmes principes : affecter chaque dollar, accepter les véritables dépenses, encaisser les coups, et vieillir ton argent. Le reste de ce blog va plus en profondeur sur les idées connexes, de la philosophie de budgétisation plus large à la mécanique pratique des Fonds de Réserve, si tu veux continuer."
         }
 ]
     },
@@ -5171,19 +5171,19 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "Vous ouvrez votre application bancaire. Le solde est correct — peut-être même bon. Il y a de l'argent sur le compte courant, les factures sont payées et votre compte d'épargne n'est pas vide. Mais quelque chose se noue dans votre poitrine. Une voix douce murmure que ce n'est pas assez, que vous êtes en retard, que tous les autres ont compris ça il y a des années et que vous faites encore semblant."
+                "text": "Tu ouvres ton application bancaire. Le solde est correct — peut-être même bon. Il y a de l'argent sur le compte courant, les factures sont payées et ton compte d'épargne n'est pas vide. Mais quelque chose se noue dans ta poitrine. Une voix douce murmure que ce n'est pas assez, que tu es en retard, que tous les autres ont compris ça il y a des années et que tu fais encore semblant."
         },
         {
                 "kind": "p",
-                "text": "Vous fermez l'application. Le sentiment ne disparaît pas."
+                "text": "Tu fermes l'application. Le sentiment ne disparaît pas."
         },
         {
                 "kind": "p",
-                "text": "Si cela vous paraît familier, vous n'êtes pas seul — et plus important encore, ce sentiment a un nom. On l'appelle dysmorphie monétaire, et c'est l'une des expériences financières les plus courantes dont presque personne ne parle ouvertement. Non parce qu'elle est rare, mais parce qu'elle vit dans l'écart entre ce que vous avez et ce que vous sentez que vous devriez avoir. Et cet écart peut faire en sorte que même des personnes qui objectivement s'en sortent bien se sentent en train d'échouer."
+                "text": "Si cela te paraît familier, tu n'es pas seul — et plus important encore, ce sentiment a un nom. On l'appelle dysmorphie monétaire, et c'est l'une des expériences financières les plus courantes dont presque personne ne parle ouvertement. Non parce qu'elle est rare, mais parce qu'elle vit dans l'écart entre ce que tu as et ce que tu sens que tu devrais avoir. Et cet écart peut faire en sorte que même des personnes qui objectivement s'en sortent bien se sentent en train d'échouer."
         },
         {
                 "kind": "p",
-                "text": "Cet article parle de cet écart. Ce qui le cause, comment il se manifeste différemment selon les étapes de la vie, pourquoi la volonté seule et les tableurs ne peuvent pas le résoudre, et ce qui vous aide réellement à le traverser — pas à le contourner. Parce que la solution n'est pas de gagner plus ou de budgétiser plus intensément. Il s'agit de comprendre pourquoi votre cerveau vous ment sur l'argent — et d'apprendre à cesser de le croire."
+                "text": "Cet article parle de cet écart. Ce qui le cause, comment il se manifeste différemment selon les étapes de la vie, pourquoi la volonté seule et les tableurs ne peuvent pas le résoudre, et ce qui t'aide réellement à le traverser — pas à le contourner. Parce que la solution n'est pas de gagner plus ou de budgétiser plus intensément. Il s'agit de comprendre pourquoi ton cerveau te ment sur l'argent — et d'apprendre à cesser de le croire."
         },
         {
                 "kind": "divider"
@@ -5195,7 +5195,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La dysmorphie monétaire n'est pas un diagnostic clinique que vous trouverez dans le DSM-5. C'est un schéma comportemental — une déconnexion persistente entre votre réalité financière réelle et votre vécu émotionnel. Vous pouvez être sans dette et vous sentir néanmoins financièrement condamné. Vous pouvez gagner à six chiffres et ressentir de la panique lorsque vous vérifiez votre solde. Les chiffres disent une chose. Votre système nerveux dit autre chose."
+                "text": "La dysmorphie monétaire n'est pas un diagnostic clinique que tu trouveras dans le DSM-5. C'est un schéma comportemental — une déconnexion persistente entre ta réalité financière réelle et ton vécu émotionnel. Tu peux être sans dette et te sentir néanmoins financièrement condamné. Tu peux gagner à six chiffres et ressentir de la panique lorsque tu vérifies ton solde. Les chiffres disent une chose. Ton système nerveux dit autre chose."
         },
         {
                 "kind": "p",
@@ -5207,11 +5207,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Une enquête de 2024 a révélé qu'environ 40 % des adultes ont décrit leur relation émotionnelle avec l'argent comme étant significativement désalignée avec leur position financière réelle. Pas légèrement décalée. Significativement désalignée. Ce n'est pas un échec personnel. C'est un schéma répandu — et le comprendre est le premier pas pour changer votre relation avec elle."
+                "text": "Une enquête de 2024 a révélé qu'environ 40 % des adultes ont décrit leur relation émotionnelle avec l'argent comme étant significativement désalignée avec leur position financière réelle. Pas légèrement décalée. Significativement désalignée. Ce n'est pas un échec personnel. C'est un schéma répandu — et le comprendre est le premier pas pour changer ta relation avec elle."
         },
         {
                 "kind": "p",
-                "text": "Ce qui rend la dysmorphie monétaire particulièrement trompeuse, c'est qu'elle est invisible pour le monde extérieur. Vous pouvez fonctionner parfaitement — payer vos factures, épargner, même prospérer selon les critères conventionnels — tout en ressentant intérieurement une sensation persistante de crainte financière. Amis, famille et partenaires n'en ont peut-être aucune idée. La honte de se sentir ainsi, surtout quand vos finances « semblent correctes » sur le papier, maintient le schéma en place. Le nommer brise ce verrou."
+                "text": "Ce qui rend la dysmorphie monétaire particulièrement trompeuse, c'est qu'elle est invisible pour le monde extérieur. Tu peux fonctionner parfaitement — payer tes factures, épargner, même prospérer selon les critères conventionnels — tout en ressentant intérieurement une sensation persistante de crainte financière. Amis, famille et partenaires n'en ont peut-être aucune idée. La honte de se sentir ainsi, surtout quand tes finances « semblent correctes » sur le papier, maintient le schéma en place. Le nommer brise ce verrou."
         },
         {
                 "kind": "divider"
@@ -5223,35 +5223,35 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour comprendre pourquoi la dysmorphie monétaire semble si réelle — pourquoi vous pouvez savoir que vos chiffres sont corrects et ressentir quand même de la panique — vous devez comprendre ce qui se passe dans votre cerveau lorsque vous pensez à l'argent."
+                "text": "Pour comprendre pourquoi la dysmorphie monétaire semble si réelle — pourquoi tu peux savoir que tes chiffres sont corrects et ressentir quand même de la panique — tu dois comprendre ce qui se passe dans ton cerveau lorsque tu penses à l'argent."
         },
         {
                 "kind": "p",
-                "text": "Votre amygdale, le groupe de neurones en forme d'amande situé profondément dans votre lobe temporal, est le système de détection des menaces de votre cerveau. Elle a évolué pour vous maintenir en vie. Lorsqu'elle détecte un danger — un prédateur, le bord d'une falaise, un son inhabituel dans le noir — elle déclenche une cascade d'hormones de stress qui préparent votre corps à combattre, fuir ou se figer."
+                "text": "Ton amygdale, le groupe de neurones en forme d'amande situé profondément dans ton lobe temporal, est le système de détection des menaces de ton cerveau. Elle a évolué pour te maintenir en vie. Lorsqu'elle détecte un danger — un prédateur, le bord d'une falaise, un son inhabituel dans le noir — elle déclenche une cascade d'hormones de stress qui préparent ton corps à combattre, fuir ou se figer."
         },
         {
                 "kind": "p",
-                "text": "Voici le problème : votre amygdale ne distingue pas entre un danger physique et une menace financière. Lorsque votre compte bancaire baisse plus que prévu, votre cerveau traite cette information à travers les mêmes voies neuronales qu'il utilise pour les menaces de survie. La réponse de stress est identique. Le cortisol inonde votre système. Votre fréquence cardiaque augmente. Votre cortex préfrontal — la partie responsable de la prise de décision rationnelle — se déconnecte partiellement."
+                "text": "Voici le problème : ton amygdale ne distingue pas entre un danger physique et une menace financière. Lorsque ton compte bancaire baisse plus que prévu, ton cerveau traite cette information à travers les mêmes voies neuronales qu'il utilise pour les menaces de survie. La réponse de stress est identique. Le cortisol inonde ton système. Ta fréquence cardiaque augmente. Ton cortex préfrontal — la partie responsable de la prise de décision rationnelle — se déconnecte partiellement."
         },
         {
                 "kind": "p",
-                "text": "Ce n'est pas un défaut de conception. Pendant la majeure partie de l'histoire humaine, ne pas avoir assez de ressources était une menace de survie. Votre cerveau fait exactement ce pour quoi il a évolué. Le problème est que la vie financière moderne déclenche ce système en permanence, avec des menaces qui sont chroniques plutôt qu'aigues. Vous ne fuyez pas un prédateur. Vous fixez le solde de votre compte courant sur votre téléphone à 23 heures."
+                "text": "Ce n'est pas un défaut de conception. Pendant la majeure partie de l'histoire humaine, ne pas avoir assez de ressources était une menace de survie. Ton cerveau fait exactement ce pour quoi il a évolué. Le problème est que la vie financière moderne déclenche ce système en permanence, avec des menaces qui sont chroniques plutôt qu'aigues. Tu ne fuis pas un prédateur. Tu fixes le solde de ton compte courant sur ton téléphone à 23 heures."
         },
         {
                 "kind": "p",
-                "text": "La recherche du neuroscientifique Sendhil Mullainathan sur la rareté a montré quelque chose de encore plus troublant : le stress financier réduit votre bande passante cognitive. Pas métaphoriquement. Littéralement. Les personnes souffrant de stress financier obtiennent de moins bons résultats aux tests cognitifs — non parce qu'elles sont moins intelligentes, mais parce qu'une part significative de leur capacité mentale est consommée par l'inquiétude. C'est comme si un programme en cours d'exécution consommait votre RAM, laissant moins de puissance de traitement pour tout le reste."
+                "text": "La recherche du neuroscientifique Sendhil Mullainathan sur la rareté a montré quelque chose de encore plus troublant : le stress financier réduit ta bande passante cognitive. Pas métaphoriquement. Littéralement. Les personnes souffrant de stress financier obtiennent de moins bons résultats aux tests cognitifs — non parce qu'elles sont moins intelligentes, mais parce qu'une part significative de leur capacité mentale est consommée par l'inquiétude. C'est comme si un programme en cours d'exécution consommait ton RAM, laissant moins de puissance de traitement pour tout le reste."
         },
         {
                 "kind": "p",
-                "text": "C'est pourquoi des conseils comme « faites simplement un meilleur budget » ou « arrêtez de vous inquiéter et regardez les chiffres » échouent souvent aux personnes atteintes de dysmorphie monétaire. Ce n'est pas qu'elles ne veulent pas. C'est que le fait de s'engager avec les informations financières déclenche une réponse de menace qui altère activement les ressources cognitives nécessaires pour interagir avec elles clairement. Dire à une personne atteinte de dysmorphie monétaire de « faire simplement un budget », c'est comme dire à une personne ayant le vertige de « monter simplement l'échelle ». L'instruction est simple. La barrière neurologique ne l'est pas."
+                "text": "C'est pourquoi des conseils comme « fais simplement un meilleur budget » ou « arrête de t'inquiéter et regarde les chiffres » échouent souvent aux personnes atteintes de dysmorphie monétaire. Ce n'est pas qu'elles ne veulent pas. C'est que le fait de s'engager avec les informations financières déclenche une réponse de menace qui altère activement les ressources cognitives nécessaires pour interagir avec elles clairement. Dire à une personne atteinte de dysmorphie monétaire de « faire simplement un budget », c'est comme dire à une personne ayant le vertige de « monter simplement l'échelle ». L'instruction est simple. La barrière neurologique ne l'est pas."
         },
         {
                 "kind": "p",
-                "text": "Cela recadre toute la conversation. La dysmorphie monétaire n'est pas un problème de discipline. Ce n'est pas un problème de connaissance. C'est un problème de système nerveux — et il nécessite des outils et des approches qui fonctionnent avec la réponse de menace de votre cerveau plutôt que contre elle."
+                "text": "Cela recadre toute la conversation. La dysmorphie monétaire n'est pas un problème de discipline. Ce n'est pas un problème de connaissance. C'est un problème de système nerveux — et il nécessite des outils et des approches qui fonctionnent avec la réponse de menace de ton cerveau plutôt que contre elle."
         },
         {
                 "kind": "p",
-                "text": "La recherche à ce sujet est claire. Lorsque vous êtes dans un état de stress financier, votre capacité à planifier, à retarder la gratification et à prendre des décisions complexes est mesurablement altérée. Vous ne choisissez pas d'être mauvais avec l'argent. Votre cerveau fonctionne littéralement avec des ressources limitées. C'est pourquoi les interventions les plus efficaces contre la dysmorphie monétaire ne commencent pas par des tableurs. Elles commencent par la régulation — faire redescendre le système nerveux pour que le cerveau rationnel puisse revenir en ligne."
+                "text": "La recherche à ce sujet est claire. Lorsque tu es dans un état de stress financier, ta capacité à planifier, à retarder la gratification et à prendre des décisions complexes est mesurablement altérée. Tu ne choisis pas d'être mauvais avec l'argent. Ton cerveau fonctionne littéralement avec des ressources limitées. C'est pourquoi les interventions les plus efficaces contre la dysmorphie monétaire ne commencent pas par des tableurs. Elles commencent par la régulation — faire redescendre le système nerveux pour que le cerveau rationnel puisse revenir en ligne."
         },
         {
                 "kind": "divider"
@@ -5268,46 +5268,46 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Vérifier compulsivement votre solde — puis vous sentir plus mal après. Vous regardez votre compte plusieurs fois par jour, non pas pour prendre des décisions éclairées, mais pour chercher une réassurance. La réassurance ne vient jamais. Chaque vérification renforce l'anxiété plutôt que de la résoudre."
+                        "Vérifier compulsivement ton solde — puis te sentir plus mal après. Tu regardes ton compte plusieurs fois par jour, non pas pour prendre des décisions éclairées, mais pour chercher une réassurance. La réassurance ne vient jamais. Chaque vérification renforce l'anxiété plutôt que de la résoudre."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Éviter complètement vos finances. L'extrême opposé. Vous n'ouvrez pas vos factures. Vous ne regardez pas votre application bancaire. Vous avez configuré les paiements automatiques pour ne jamais avoir à y penser — mais le bourdonnement de fond de la crainte ne s'arrête jamais. Vous gérez votre argent en refusant de le regarder."
+                        "Éviter complètement tes finances. L'extrême opposé. Tu n'ouvres pas tes factures. Tu ne regardes pas ton application bancaire. Tu as configuré les paiements automatiques pour ne jamais avoir à y penser — mais le bourdonnement de fond de la crainte ne s'arrête jamais. Tu gères ton argent en refusant de le regarder."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Se sentir coupable de toute dépense, même nécessaire. Vous achetez des courses et ressentez une pointe de culpabilité. Vous payez une coupe de cheveux et vous vous enlisez à vous demander si vous n'auriez pas pu le faire vous-même. Chaque dépense semble être une preuve d'irresponsabilité financière, même quand l'argent est clairement disponible."
+                        "Se sentir coupable de toute dépense, même nécessaire. Tu achètes des courses et ressens une pointe de culpabilité. Tu paies une coupe de cheveux et tu t'enlises à te demander si tu n'aurais pas pu le faire toi-même. Chaque dépense semble être une preuve d'irresponsabilité financière, même quand l'argent est clairement disponible."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Comparer votre trajectoire financière à celle de vos pairs et se sentir toujours en retard. Un ami achète une maison et vous vous sentez un échec, même si vous louez par choix et investissez la différence. Un collègue mentionne son salaire et vous passez le reste de la journée à remettre en question vos choix de carrière, même si vous gagnez plus que la moyenne nationale."
+                        "Comparer ta trajectoire financière à celle de tes pairs et se sentir toujours en retard. Un ami achète une maison et tu te sens un échec, même si tu loues par choix et investis la différence. Un collègue mentionne son salaire et tu passes le reste de la journée à remettre en question tes choix de carrière, même si tu gagnes plus que la moyenne nationale."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Se sentir comme un imposteur quand vous réussissez. Vous obtenez une augmentation et votre premier réflexe est « ils se sont trompés » ou « je ne pourrai pas maintenir ça ». Le succès ne semble pas mérité. Il semble comme quelque chose qui va vous être enlevé."
+                        "Se sentir comme un imposteur quand tu réussis. Tu obtiens une augmentation et ton premier réflexe est « ils se sont trompés » ou « je ne pourrai pas maintenir ça ». Le succès ne semble pas mérité. Il semble comme quelque chose qui va t'être enlevé."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Thésauriser de l'argent tout en se sentant n'en avoir pas. Vous avez un fonds d'urgence sain et des économies significatives, mais vous n'arrivez pas à vous résoudre à dépenser pour des choses qui amélioreraient réellement votre vie. Le chiffre sur votre compte n'est jamais suffisant pour vous sentir en sécurité, alors vous continuez à accumuler sans jamais vous sentir en sécurité."
+                        "Thésauriser de l'argent tout en se sentant n'en avoir pas. Tu as un fonds d'urgence sain et des économies significatives, mais tu n'arrives pas à te résoudre à dépenser pour des choses qui amélioreraient réellement ta vie. Le chiffre sur ton compte n'est jamais suffisant pour te sentir en sécurité, alors tu continues à accumuler sans jamais te sentir en sécurité."
                 ]
         },
         {
                 "kind": "p",
-                "text": "Si vous vous êtes reconnu dans plus d'un de ces schémas, vous n'êtes pas bizarre. Vous vivez un schéma qui affecte des millions de personnes — et le fait de pouvoir le nommer est le premier pas pour changer votre relation avec lui."
+                "text": "Si tu t'es reconnu dans plus d'un de ces schémas, tu n'es pas bizarre. Tu vis un schéma qui affecte des millions de personnes — et le fait de pouvoir le nommer est le premier pas pour changer ta relation avec lui."
         },
         {
                 "kind": "p",
-                "text": "Remarquez que ces schémas ne concernent ni l'intelligence ni la compétence. Certaines des personnes les plus réussies et analytiquement aiguisées vivent la dysmorphie monétaire. La distorsion ne se soucie pas de votre QI ou de votre diplôme. Elle opère dans la couche émotionnelle — la partie de votre cerveau qui traite la menace et la sécurité avant que la logique ait eu l'occasion de se prononcer."
+                "text": "Remarque que ces schémas ne concernent ni l'intelligence ni la compétence. Certaines des personnes les plus réussies et analytiquement aiguisées vivent la dysmorphie monétaire. La distorsion ne se soucie pas de ton QI ou de ton diplôme. Elle opère dans la couche émotionnelle — la partie de ton cerveau qui traite la menace et la sécurité avant que la logique ait eu l'occasion de se prononcer."
         },
         {
                 "kind": "divider"
@@ -5319,7 +5319,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La dysmorphie monétaire émerge rarement d'une seule source. Mais si vous la remontez, elle se connecte généralement à une ou plusieurs de trois causes profondes."
+                "text": "La dysmorphie monétaire émerge rarement d'une seule source. Mais si tu la remontes, elle se connecte généralement à une ou plusieurs de trois causes profondes."
         },
         {
                 "id": "traumatisme-financier",
@@ -5328,15 +5328,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le traumatisme n'est pas toujours dramatique. Vous n'avez pas besoin d'avoir vécu l'itinérance ou la faillite pour que des événements financiers laissent des marques durables sur votre système nerveux. Grandir dans un foyer où l'argent était une source constante de conflit peut câbler votre cerveau pour associer les finances au danger. Un parent qui paniquait à chaque fois qu'une facture arrivait vous enseigne, à un niveau neurologique, que l'argent = menace."
+                "text": "Le traumatisme n'est pas toujours dramatique. Tu n'as pas besoin d'avoir vécu l'itinérance ou la faillite pour que des événements financiers laissent des marques durables sur ton système nerveux. Grandir dans un foyer où l'argent était une source constante de conflit peut câbler ton cerveau pour associer les finances au danger. Un parent qui paniquait à chaque fois qu'une facture arrivait t'enseigne, à un niveau neurologique, que l'argent = menace."
         },
         {
                 "kind": "p",
-                "text": "Même des expériences adultes spécifiques — une perte soudaine d'emploi, une dette médicale, un échec commercial — peuvent créer des associations profondes entre les informations financières et la douleur émotionnelle. Votre cerveau se souvient. Et il vous protège en rendant l'engagement financier dangereux."
+                "text": "Même des expériences adultes spécifiques — une perte soudaine d'emploi, une dette médicale, un échec commercial — peuvent créer des associations profondes entre les informations financières et la douleur émotionnelle. Ton cerveau se souvient. Et il te protège en rendant l'engagement financier dangereux."
         },
         {
                 "kind": "p",
-                "text": "Pour une exploration plus approfondie de la façon dont les événements financiers peuvent façonner des schémas émotionnels à long terme, lisez notre guide sur la compréhension de l'anxiété financière."
+                "text": "Pour une exploration plus approfondie de la façon dont les événements financiers peuvent façonner des schémas émotionnels à long terme, lis notre guide sur la compréhension de l'anxiété financière."
         },
         {
                 "id": "comparaison-sur-les-r-seaux-sociaux",
@@ -5345,7 +5345,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous comparez vos coulisses aux moments forts de tout le monde — sauf qu'avec l'argent, le moment fort est optimisé par algorithme pour vous faire sentir inadéquat. Plus sur ce phénomène plus tard, mais le mécanisme central est simple : les réseaux sociaux créent un point de référence déformé pour ce qui est « normal ». Lorsque votre point de référence est biaisé, votre propre réalité financière semble erronée même quand elle est parfaitement saine."
+                "text": "Tu compares tes coulisses aux moments forts de tout le monde — sauf qu'avec l'argent, le moment fort est optimisé par algorithme pour te faire sentir inadéquat. Plus sur ce phénomène plus tard, mais le mécanisme central est simple : les réseaux sociaux créent un point de référence déformé pour ce qui est « normal ». Lorsque ton point de référence est biaisé, ta propre réalité financière semble erronée même quand elle est parfaitement saine."
         },
         {
                 "id": "l-objectif-mouvant-du-suffisant",
@@ -5354,15 +5354,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Voici un piège silencieux : vous vous fixez un objectif financier, vous l'atteignez, et vous ressentez... rien. Ou brièvement satisfait, puis immédiatement anxieux concernant le prochain jalon. C'est l'objectif mouvant — le phénomène où « suffisant » ne cesse de se déplacer juste au-delà de votre portée."
+                "text": "Voici un piège silencieux : tu te fixes un objectif financier, tu l'atteins, et tu ressens... rien. Ou brièvement satisfait, puis immédiatement anxieux concernant le prochain jalon. C'est l'objectif mouvant — le phénomène où « suffisant » ne cesse de se déplacer juste au-delà de ta portée."
         },
         {
                 "kind": "p",
-                "text": "Cela se produit parce que la dysmorphie monétaire ne concerne en réalité pas le chiffre. Elle concerne ce que le chiffre signifie pour vous. Si l'argent représente la sécurité, et que la sécurité est quelque chose que vous n'avez jamais pleinement ressenti, alors aucun chiffre ne sera jamais suffisant. La dysmorphie n'est pas sur votre compte en banque. Elle est dans l'histoire que vous vous racontez sur à quoi devrait ressembler votre compte en banque."
+                "text": "Cela se produit parce que la dysmorphie monétaire ne concerne en réalité pas le chiffre. Elle concerne ce que le chiffre signifie pour toi. Si l'argent représente la sécurité, et que la sécurité est quelque chose que tu n'as jamais pleinement ressenti, alors aucun chiffre ne sera jamais suffisant. La dysmorphie n'est pas sur ton compte en banque. Elle est dans l'histoire que tu te racontes sur à quoi devrait ressembler ton compte en banque."
         },
         {
                 "kind": "p",
-                "text": "Reconnaître laquelle de ces causes profondes — ou quelle combinaison — alimente votre expérience peut vous aider à choisir la bonne approche. Pas toute anxiété financière répond aux mêmes interventions. Si la racine est traumatique, vous pourriez avoir besoin d'un soutien thérapeutique. Si c'est la comparaison, votre régime d'information est ce qui compte le plus. Si c'est l'objectif mouvant, le travail est interne — redéfinir ce que « suffisant » signifie réellement pour vous."
+                "text": "Reconnaître laquelle de ces causes profondes — ou quelle combinaison — alimente ton expérience peut t'aider à choisir la bonne approche. Pas toute anxiété financière répond aux mêmes interventions. Si la racine est traumatique, tu pourrais avoir besoin d'un soutien thérapeutique. Si c'est la comparaison, ton régime d'information est ce qui compte le plus. Si c'est l'objectif mouvant, le travail est interne — redéfinir ce que « suffisant » signifie réellement pour toi."
         },
         {
                 "kind": "divider"
@@ -5374,7 +5374,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'une des choses les plus déroutantes de la dysmorphie monétaire est qu'elle vous suit tout au long de la vie — mais elle se métamorphose. La variante spécifique de la distorsion évolue à mesure que vos circonstances changent, ce qui peut donner l'impression que vous échouez constamment à un jeu dont les règles ne cessent de changer."
+                "text": "L'une des choses les plus déroutantes de la dysmorphie monétaire est qu'elle te suit tout au long de la vie — mais elle se métamorphose. La variante spécifique de la distorsion évolue à mesure que tes circonstances changent, ce qui peut donner l'impression que tu échoues constamment à un jeu dont les règles ne cessent de changer."
         },
         {
                 "id": "dipl-m-s-r-cents",
@@ -5383,7 +5383,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous avez 23 ans, vous venez de commencer votre premier vrai travail et vous portez 40 000 $ de prêts étudiants. Votre salaire semble important comparé à ce que vous gagniez à l'université — jusqu'à ce que vous voyiez un ami de la fac poster sur son style de travail à distance depuis une plage à Bali. Vous ne savez pas si c'est financé par des économies, de l'argent familial ou une dette de carte de crédit. Vous savez juste que votre salaire de 42 000 $ et vos remboursements de prêts ne ressemblent pas à de la liberté. La comparaison n'est pas juste, mais elle semble dévastatrice et réelle."
+                "text": "Tu as 23 ans, tu viens de commencer ton premier vrai travail et tu portes 40 000 $ de prêts étudiants. Ton salaire semble important comparé à ce que tu gagnais à l'université — jusqu'à ce que tu voies un ami de la fac poster sur son style de travail à distance depuis une plage à Bali. Tu ne sais pas si c'est financé par des économies, de l'argent familial ou une dette de carte de crédit. Tu sais juste que ton salaire de 42 000 $ et tes remboursements de prêts ne ressemblent pas à de la liberté. La comparaison n'est pas juste, mais elle semble dévastatrice et réelle."
         },
         {
                 "id": "professionnels-en-milieu-de-carri-re",
@@ -5392,7 +5392,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous avez 38 ans, vous êtes dans votre domaine depuis 12 ans et vous gagnez plus que jamais. Mais votre groupe de pairs commence à diverger considérablement — certains achètent des résidences secondaires tandis que d'autres louent encore. Chaque jalon de vie devient une mesure financière. Vous « devriez » avoir davantage épargné d'ici maintenant. Vous « devriez » être plus avancé. Le sentiment de culpabilité de l'inflation du style de vie se mêle à l'anxiété de rattraper un benchmark imaginaire auquel personne n'a réellement souscrit."
+                "text": "Tu as 38 ans, tu es dans ton domaine depuis 12 ans et tu gagnes plus que jamais. Mais ton groupe de pairs commence à diverger considérablement — certains achètent des résidences secondaires tandis que d'autres louent encore. Chaque jalon de vie devient une mesure financière. Tu « devrais » avoir davantage épargné d'ici maintenant. Tu « devrais » être plus avancé. Le sentiment de culpabilité de l'inflation du style de vie se mêle à l'anxiété de rattraper un benchmark imaginaire auquel personne n'a réellement souscrit."
         },
         {
                 "id": "gros-gagnants",
@@ -5401,7 +5401,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Voici celui que personne n'attend : bien gagner ne vous protège pas de la dysmorphie monétaire. À certains égards, cela l'aggrave. Vous gagnez 150 000 $ par an et vous vous sentez toujours sans argent — parce que votre cercle social a changé, votre style de vie s'est élargi et l'écart entre votre revenu et votre sentiment de sécurité s'est en fait creusé. Il y a aussi la dimension supplémentaire de la culpabilité : vous savez que vous gagnez plus que la plupart des gens, ce qui rend la lutte ingrate. Alors vous n'en parlez pas, ce qui empire les choses."
+                "text": "Voici celui que personne n'attend : bien gagner ne te protège pas de la dysmorphie monétaire. À certains égards, cela l'aggrave. Tu gagnes 150 000 $ par an et tu te sens toujours sans argent — parce que ton cercle social a changé, ton style de vie s'est élargi et l'écart entre ton revenu et ton sentiment de sécurité s'est en fait creusé. Il y a aussi la dimension supplémentaire de la culpabilité : tu sais que tu gagnes plus que la plupart des gens, ce qui rend la lutte ingrate. Alors tu n'en parles pas, ce qui empire les choses."
         },
         {
                 "id": "retrait-s",
@@ -5410,7 +5410,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous avez épargné pendant des décennies et vous vivez maintenant avec un revenu fixe. L'argent est là — votre conseiller financier l'a confirmé. Mais chaque retrait ressemble à une érosion. La question passe de « est-ce que j'épargne assez ? » à « est-ce que ça va durer ? » Vous vérifiez votre portefeuille avec la même appréhension que vous vérifiiez votre compte courant à 22 ans. Le chiffre est objectivement suffisant. Le sentiment de rareté n'a pas changé. Il a juste trouvé une nouvelle forme."
+                "text": "Tu as épargné pendant des décennies et tu vis maintenant avec un revenu fixe. L'argent est là — ton conseiller financier l'a confirmé. Mais chaque retrait ressemble à une érosion. La question passe de « est-ce que j'épargne assez ? » à « est-ce que ça va durer ? » Tu vérifies ton portefeuille avec la même appréhension que tu vérifiais ton compte courant à 22 ans. Le chiffre est objectivement suffisant. Le sentiment de rareté n'a pas changé. Il a juste trouvé une nouvelle forme."
         },
         {
                 "id": "personnes-ayant-grandi-dans-la-richesse",
@@ -5419,11 +5419,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Celui-ci surprend les gens : grandir avec des privilèges financiers ne vous immunise pas contre la dysmorphie monétaire. Dans certains cas, elle crée sa propre distorsion unique. Vous pourriez porter un sentiment de culpabilité pour des avantages que vous n'avez pas mérités, ou une peur de perdre un style de vie dans lequel vous avez été élevé. Vous pourriez sentir que vos réalisations sont vides parce que vous « aviez une avance ». Ou vous pourriez lutter avec l'écart entre la réalité financière de votre famille et la vôtre — surtout si votre revenu d'adulte est inférieur à celui de votre enfance. La dysmorphie monétaire ne discrimine pas selon la tranche d'imposition."
+                "text": "Celui-ci surprend les gens : grandir avec des privilèges financiers ne t'immunise pas contre la dysmorphie monétaire. Dans certains cas, elle crée sa propre distorsion unique. Tu pourrais porter un sentiment de culpabilité pour des avantages que tu n'as pas mérités, ou une peur de perdre un style de vie dans lequel tu as été élevé. Tu pourrais sentir que tes réalisations sont vides parce que tu « avais une avance ». Ou tu pourrais lutter avec l'écart entre la réalité financière de ta famille et la tienne — surtout si ton revenu d'adulte est inférieur à celui de ton enfance. La dysmorphie monétaire ne discrimine pas selon la tranche d'imposition."
         },
         {
                 "kind": "p",
-                "text": "Ce qui est important de remarquer à travers toutes ces étapes, c'est que les circonstances externes changent mais le schéma interne reste remarquablement cohérent. Le jeune de 23 ans avec des prêts étudiants et l'adulte de 55 ans avec une hypothèque payée peuvent vivre exactement la même variante de crainte. C'est parce que la dysmorphie monétaire ne concerne pas le chiffre sur le compte. Elle concerne la relation entre le chiffre et votre sentiment de sécurité — et cette relation est façonnée par des années d'expérience accumulée, pas par le solde d'un jour donné."
+                "text": "Ce qui est important de remarquer à travers toutes ces étapes, c'est que les circonstances externes changent mais le schéma interne reste remarquablement cohérent. Le jeune de 23 ans avec des prêts étudiants et l'adulte de 55 ans avec une hypothèque payée peuvent vivre exactement la même variante de crainte. C'est parce que la dysmorphie monétaire ne concerne pas le chiffre sur le compte. Elle concerne la relation entre le chiffre et ton sentiment de sécurité — et cette relation est façonnée par des années d'expérience accumulée, pas par le solde d'un jour donné."
         },
         {
                 "kind": "divider"
@@ -5439,35 +5439,35 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'anxiété financière est souvent une réponse rationnelle à un vrai problème. Si vous êtes en retard sur le loyer, portez une dette à taux élevé ou vivez de jour de paie en jour de paie, ressentir de l'anxiété financière est logique. L'anxiété est proportionnelle à la situation. Traitez la situation, et l'anxiété s'améliore généralement."
+                "text": "L'anxiété financière est souvent une réponse rationnelle à un vrai problème. Si tu es en retard sur le loyer, porte une dette à taux élevé ou vis de jour de paie en jour de paie, ressentir de l'anxiété financière est logique. L'anxiété est proportionnelle à la situation. Traite la situation, et l'anxiété s'améliore généralement."
         },
         {
                 "kind": "p",
-                "text": "La dysmorphie monétaire est disproportionnée par rapport à la situation. Vos finances sont stables, mais vous vous sentez instable. Votre compte est sain, mais vous vous sentez sans argent. L'anxiété persiste même quand les faits objectifs s'améliorent. C'est le signal diagnostique clé : si vous avez traité les problèmes pratiques et que le sentiment persiste, vous avez probablement affaire à une distorsion, pas à un déficit."
+                "text": "La dysmorphie monétaire est disproportionnée par rapport à la situation. Tes finances sont stables, mais tu te sens instable. Ton compte est sain, mais tu te sens sans argent. L'anxiété persiste même quand les faits objectifs s'améliorent. C'est le signal diagnostique clé : si tu as traité les problèmes pratiques et que le sentiment persiste, tu as probablement affaire à une distorsion, pas à un déficit."
         },
         {
                 "kind": "p",
-                "text": "Une autre façon de les distinguer : l'anxiété financière tend à porter sur des choses spécifiques — « est-ce que je pourrai payer le loyer ? » « est-ce que je peux me permettre cette réparation ? » La dysmorphie monétaire est plus diffuse. C'est un sentiment général de désastre qui s'attache à toute interaction financière, quel que soit le contexte. Vous pourriez avoir 50 000 $ en épargne et ressentir quand même la crainte."
+                "text": "Une autre façon de les distinguer : l'anxiété financière tend à porter sur des choses spécifiques — « est-ce que je pourrai payer le loyer ? » « est-ce que je peux me permettre cette réparation ? » La dysmorphie monétaire est plus diffuse. C'est un sentiment général de désastre qui s'attache à toute interaction financière, quel que soit le contexte. Tu pourrais avoir 50 000 $ en épargne et ressentir quand même la crainte."
         },
         {
                 "kind": "p",
-                "text": "Les deux méritent de l'attention. Les deux sont valides. Mais le chemin pour les traverser est différent — et confondre l'une avec l'autre peut vous amener à essayer des solutions qui ne traitent pas la cause profonde réelle."
+                "text": "Les deux méritent de l'attention. Les deux sont valides. Mais le chemin pour les traverser est différent — et confondre l'une avec l'autre peut t'amener à essayer des solutions qui ne traitent pas la cause profonde réelle."
         },
         {
                 "kind": "p",
-                "text": "Un test utile : votre situation financière s'est-elle améliorée mais votre anxiété non ? Si vous avez réduit votre dette, constitué des économies ou augmenté vos revenus et que vous ressentez toujours la même crainte, vous avez probablement affaire à une dysmorphie monétaire plutôt qu'à (ou en plus d') un problème financier pratique. Le sentiment s'est déconnecté des faits — et la reconnexion nécessite une approche différente d'améliorer simplement les chiffres."
+                "text": "Un test utile : ta situation financière s'est-elle améliorée mais ton anxiété non ? Si tu as réduit ta dette, constitué des économies ou augmenté tes revenus et que tu ressens toujours la même crainte, tu as probablement affaire à une dysmorphie monétaire plutôt qu'à (ou en plus d') un problème financier pratique. Le sentiment s'est déconnecté des faits — et la reconnexion nécessite une approche différente d'améliorer simplement les chiffres."
         },
         {
                 "kind": "divider"
         },
         {
-                "id": "comment-les-r-seaux-sociaux-d-forment-votre-r-alit",
+                "id": "comment-les-r-seaux-sociaux-d-forment-ta-r-alit-fi",
                 "kind": "h2",
-                "text": "Comment les réseaux sociaux déforment votre réalité financière"
+                "text": "Comment les réseaux sociaux déforment ta réalité financière"
         },
         {
                 "kind": "p",
-                "text": "Les réseaux sociaux ne sont pas la cause de la dysmorphie monétaire, mais ils en sont le puissant amplificateur. Comprendre les mécanismes spécifiques peut vous aider à reconnaître quand votre perception est déformée."
+                "text": "Les réseaux sociaux ne sont pas la cause de la dysmorphie monétaire, mais ils en sont le puissant amplificateur. Comprendre les mécanismes spécifiques peut t'aider à reconnaître quand ta perception est déformée."
         },
         {
                 "id": "biais-de-survivance",
@@ -5476,7 +5476,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous voyez les gens qui « y sont arrivés ». Vous ne voyez pas les milliers qui ont essayé la même chose et ont échoué. Quand votre fil est rempli d'histoires de succès, votre cerveau tire une conclusion erronée : le succès est normal, l'échec est rare. En réalité, l'inverse est vrai. Pour chaque personne qui poste sur son activité annexe à six chiffres, il y a des centaines qui ont essayé et n'ont rien gagné. Vous comparez votre jeu de données à un jeu filtré."
+                "text": "Tu vois les gens qui « y sont arrivés ». Tu ne vois pas les milliers qui ont essayé la même chose et ont échoué. Quand ton fil est rempli d'histoires de succès, ton cerveau tire une conclusion erronée : le succès est normal, l'échec est rare. En réalité, l'inverse est vrai. Pour chaque personne qui poste sur son activité annexe à six chiffres, il y a des centaines qui ont essayé et n'ont rien gagné. Tu compares ton jeu de données à un jeu filtré."
         },
         {
                 "id": "moments-forts-organis-s",
@@ -5485,7 +5485,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Personne ne publie ses frais de découvert. Personne ne partage l'altercation avec son partenaire à propos d'une réparation de voiture imprévue de 800 $. La finance sur les réseaux sociaux est un moment fort — et votre cerveau ne fait naturellement pas de réduction pour cela. Quand vous voyez les photos de vacances de quelqu'un, votre cerveau le traite comme « sa vie ». Quand vous voyez votre propre relevé bancaire, votre cerveau le traite comme « ma réalité ». L'asymétrie crée un sentiment persistant que vous êtes en train de perdre."
+                "text": "Personne ne publie ses frais de découvert. Personne ne partage l'altercation avec son partenaire à propos d'une réparation de voiture imprévue de 800 $. La finance sur les réseaux sociaux est un moment fort — et ton cerveau ne fait naturellement pas de réduction pour cela. Quand tu vois les photos de vacances de quelqu'un, ton cerveau le traite comme « sa vie ». Quand tu vois ton propre relevé bancaire, ton cerveau le traite comme « ma réalité ». L'asymétrie crée un sentiment persistant que tu es en train de perdre."
         },
         {
                 "id": "amplification-algorithmique",
@@ -5494,7 +5494,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les algorithmes axés sur l'engagement poussent le contenu le plus extrême en haut. Les conseils financiers modérés et réalistes ne deviennent pas viraux. « J'ai économisé 200 $ ce mois-ci » n'obtient pas de clics. « Comment j'ai gagné 50 000 $ en un mois sans expérience » si. Avec le temps, votre fil devient une collection organisée de cas extrêmes — et les cas extrêmes déforment votre perception de ce qui est réalisable et de ce qui est normal. Vous ne voyez pas un échantillon représentatif de la vie financière. Vous voyez l'extrémité la plus extrême de 1 %."
+                "text": "Les algorithmes axés sur l'engagement poussent le contenu le plus extrême en haut. Les conseils financiers modérés et réalistes ne deviennent pas viraux. « J'ai économisé 200 $ ce mois-ci » n'obtient pas de clics. « Comment j'ai gagné 50 000 $ en un mois sans expérience » si. Avec le temps, ton fil devient une collection organisée de cas extrêmes — et les cas extrêmes déforment ta perception de ce qui est réalisable et de ce qui est normal. Tu ne vois pas un échantillon représentatif de la vie financière. Tu vois l'extrémité la plus extrême de 1 %."
         },
         {
                 "id": "comparaison-parasociale",
@@ -5503,7 +5503,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous comparez votre image complète — la version brouillonne, compliquée, réelle — au moment fort de quelqu'un. C'est une comparaison parasociale, et elle est particulièrement destructrice parce qu'elle semble équitable. Vous êtes toutes les deux de vraies personnes, n'est-ce pas ? Mais vous voyez leurs meilleurs moments à travers votre pire loupe. Un jeune de 28 ans gagnant 85 000 $ — un salaire véritablement solide — se sent sans argent parce que son fil montre des jeunes de 25 ans affirmant gagner 200 000 $ de revenus passifs. La comparaison est fausse, mais le sentiment est réel."
+                "text": "Tu compares ton image complète — la version brouillonne, compliquée, réelle — au moment fort de quelqu'un. C'est une comparaison parasociale, et elle est particulièrement destructrice parce qu'elle semble équitable. Tu es toutes les deux de vraies personnes, n'est-ce pas ? Mais tu vois leurs meilleurs moments à travers ta pire loupe. Un jeune de 28 ans gagnant 85 000 $ — un salaire véritablement solide — se sent sans argent parce que son fil montre des jeunes de 25 ans affirmant gagner 200 000 $ de revenus passifs. La comparaison est fausse, mais le sentiment est réel."
         },
         {
                 "id": "culture-des-influenceurs-financiers",
@@ -5512,11 +5512,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'essor des « finfluencers » a créé une nouvelle normalité où tout le monde devrait optimiser, investir et construire des flux de revenus passifs. Le message implicite : si vous ne faites pas ces choses, vous prenez du retard. Le langage de la « liberté financière » et de « l'évasion du rat race » cadre la gestion financière normale — aller au travail, payer les factures, épargner modestement — comme un échec. C'est un cadre qui pathologise le fait d'être une personne ordinaire."
+                "text": "L'essor des « finfluencers » a créé une nouvelle normalité où tout le monde devrait optimiser, investir et construire des flux de revenus passifs. Le message implicite : si tu ne fais pas ces choses, tu prends du retard. Le langage de la « liberté financière » et de « l'évasion du rat race » cadre la gestion financière normale — aller au travail, payer les factures, épargner modestement — comme un échec. C'est un cadre qui pathologise le fait d'être une personne ordinaire."
         },
         {
                 "kind": "p",
-                "text": "Comprendre ces mécanismes ne vous rend pas immunisé contre eux. Mais cela vous donne un cadre pour questionner vos réactions. Quand vous ressentez une vague d'inadéquation après avoir scrollé, vous pouvez vous arrêter et demander : « Ce sentiment est-il basé sur la réalité, ou est-il basé sur une version organisée, amplifiée par algorithme et biaisée par la survie de la réalité ? » Cette question seule peut briser le sort — pas toujours, mais assez souvent pour compter."
+                "text": "Comprendre ces mécanismes ne te rend pas immunisé contre eux. Mais cela te donne un cadre pour questionner tes réactions. Quand tu ressens une vague d'inadéquation après avoir scrollé, tu peux t'arrêter et demander : « Ce sentiment est-il basé sur la réalité, ou est-il basé sur une version organisée, amplifiée par algorithme et biaisée par la survie de la réalité ? » Cette question seule peut briser le sort — pas toujours, mais assez souvent pour compter."
         },
         {
                 "kind": "divider"
@@ -5528,23 +5528,23 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vérifier vos finances vous anxiète, les éviter ressemble à de l'autosoins. Et dans l'instant, cela fonctionne. La crainte se dissipe. Vous n'avez pas à confronter le chiffre. Vous pouvez faire comme s'il n'existait pas."
+                "text": "Si vérifier tes finances t'anxiète, les éviter ressemble à de l'autosoins. Et dans l'instant, cela fonctionne. La crainte se dissipe. Tu n'as pas à confronter le chiffre. Tu peux faire comme s'il n'existait pas."
         },
         {
                 "kind": "p",
-                "text": "Mais l'évitement a une conséquence spécifique et prévisible : il transforme la crainte vague en crainte solidifiée. Quand vous ne regardez pas, votre cerveau comble les lacunes — et les comble avec le pire scénario. Le compte courant devient une situation du chat de Schrödinger. Jusqu'à ce que vous regardiez, il est simultanément bon et catastrophique, et votre système nerveux répond à la possibilité catastrophique comme si c'était la norme."
+                "text": "Mais l'évitement a une conséquence spécifique et prévisible : il transforme la crainte vague en crainte solidifiée. Quand tu ne regardes pas, ton cerveau comble les lacunes — et les comble avec le pire scénario. Le compte courant devient une situation du chat de Schrödinger. Jusqu'à ce que tu regardes, il est simultanément bon et catastrophique, et ton système nerveux répond à la possibilité catastrophique comme si c'était la norme."
         },
         {
                 "kind": "p",
-                "text": "Ce qui réduit réellement l'anxiété financière, ce n'est pas d'éviter l'information. C'est d'avoir des rencontres répétées et sans enjeu avec elle. Chaque fois que vous regardez votre solde et que la catastrophe ne se materialise pas, votre cerveau met à jour légèrement son modèle de menace. L'amygdale commence à apprendre : ce n'est pas dangereux. Ce n'est que de l'information."
+                "text": "Ce qui réduit réellement l'anxiété financière, ce n'est pas d'éviter l'information. C'est d'avoir des rencontres répétées et sans enjeu avec elle. Chaque fois que tu regardes ton solde et que la catastrophe ne se materialise pas, ton cerveau met à jour légèrement son modèle de menace. L'amygdale commence à apprendre : ce n'est pas dangereux. Ce n'est que de l'information."
         },
         {
                 "kind": "p",
-                "text": "C'est pourquoi l'environnement compte. Une application bancaire encombrante et confuse avec des chiffres rouges et des étiquettes alarmantes déclenchera la réponse de menace. Une interface claire qui présente l'information sans jugement crée un espace pour que votre système nerveux reste régulé. L'outil que vous utilisez pour interagir avec votre argent ne concerne pas seulement la fonctionnalité — il s'agit de créer les conditions pour une expérience émotionnelle différente. C'est autour de cela que nous avons construit Savlo : un espace clair pour interagir avec votre argent sans que la réponse de menace ne prenne le contrôle du processus."
+                "text": "C'est pourquoi l'environnement compte. Une application bancaire encombrante et confuse avec des chiffres rouges et des étiquettes alarmantes déclenchera la réponse de menace. Une interface claire qui présente l'information sans jugement crée un espace pour que ton système nerveux reste régulé. L'outil que tu utilises pour interagir avec ton argent ne concerne pas seulement la fonctionnalité — il s'agit de créer les conditions pour une expérience émotionnelle différente. C'est autour de cela que nous avons construit Savlo : un espace clair pour interagir avec ton argent sans que la réponse de menace ne prenne le contrôle du processus."
         },
         {
                 "kind": "p",
-                "text": "La recherche sur la thérapie par exposition soutient cette approche. Une exposition graduelle et répétée à un stimulus redouté — dans ce cas, les informations financières — réduit la réponse de peur avec le temps. Mais l'exposition doit se produire dans un état de sécurité relative. Si chaque vérification déclenche une spirale de panique, vous renforcez la peur plutôt que de la réduire. L'environnement, le moment et l'outil importent tous. De petites, sûres et régulières rencontres avec votre argent sont plus efficaces que des plongées profondes occasionnelles qui vous laissent épuisé et plus anxieux qu'avant."
+                "text": "La recherche sur la thérapie par exposition soutient cette approche. Une exposition graduelle et répétée à un stimulus redouté — dans ce cas, les informations financières — réduit la réponse de peur avec le temps. Mais l'exposition doit se produire dans un état de sécurité relative. Si chaque vérification déclenche une spirale de panique, tu renforces la peur plutôt que de la réduire. L'environnement, le moment et l'outil importent tous. De petites, sûres et régulières rencontres avec ton argent sont plus efficaces que des plongées profondes occasionnelles qui te laissent épuisé et plus anxieux qu'avant."
         },
         {
                 "kind": "divider"
@@ -5556,43 +5556,43 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si l'évitement fait partie de votre schéma, voici une façon structurée de commencer à construire une relation différente avec vos finances. La clé est de rendre chaque étape suffisamment petite pour ne pas déclencher de réponse de menace. Vous n'essayez pas de tout réparer en un mois. Vous essayez d'apprendre à votre système nerveux que les informations financières ne sont pas dangereuses."
+                "text": "Si l'évitement fait partie de ton schéma, voici une façon structurée de commencer à construire une relation différente avec tes finances. La clé est de rendre chaque étape suffisamment petite pour ne pas déclencher de réponse de menace. Tu n'essaies pas de tout réparer en un mois. Tu essaies d'apprendre à ton système nerveux que les informations financières ne sont pas dangereuses."
         },
         {
-                "id": "semaine-1-regardez-simplement",
+                "id": "semaine-1-regarde-simplement",
                 "kind": "h3",
-                "text": "Semaine 1 : Regardez simplement"
+                "text": "Semaine 1 : Regarde simplement"
         },
         {
                 "kind": "p",
-                "text": "Ouvrez votre application bancaire une fois par jour. C'est tout. N'analysez pas. Ne jugez pas. Ne prenez aucune décision. Regardez simplement le chiffre et fermez l'application. Trente secondes, maximum. L'objectif n'est pas d'être informé. L'objectif est de pratiquer l'exposition sans réaction. Vous apprenez à votre cerveau que regarder est sûr."
+                "text": "Ouvre ton application bancaire une fois par jour. C'est tout. N'analyse pas. Ne juge pas. Ne prends aucune décision. Regarde simplement le chiffre et ferme l'application. Trente secondes, maximum. L'objectif n'est pas d'être informé. L'objectif est de pratiquer l'exposition sans réaction. Tu apprends à ton cerveau que regarder est sûr."
         },
         {
-                "id": "semaine-2-ajoutez-un-chiffre",
+                "id": "semaine-2-ajoute-un-chiffre",
                 "kind": "h3",
-                "text": "Semaine 2 : Ajoutez un chiffre"
+                "text": "Semaine 2 : Ajoute un chiffre"
         },
         {
                 "kind": "p",
-                "text": "Vérifiez votre solde et notez-le. Un carnet, une note sur votre téléphone — n'importe où. Le fait d'externaliser le chiffre le sort de la catégorie de menace vague et le place dans la catégorie d'information factuelle. Les chiffres sur un écran semblent abstraits. Un chiffre que vous avez noté semble concret. C'est un changement petit mais significatif."
+                "text": "Vérifie ton solde et note-le. Un carnet, une note sur ton téléphone — n'importe où. Le fait d'externaliser le chiffre le sort de la catégorie de menace vague et le place dans la catégorie d'information factuelle. Les chiffres sur un écran semblent abstraits. Un chiffre que tu as noté semble concret. C'est un changement petit mais significatif."
         },
         {
-                "id": "semaine-3-ajoutez-du-contexte",
+                "id": "semaine-3-ajoute-du-contexte",
                 "kind": "h3",
-                "text": "Semaine 3 : Ajoutez du contexte"
+                "text": "Semaine 3 : Ajoute du contexte"
         },
         {
                 "kind": "p",
-                "text": "Regardez où l'argent est allé cette semaine. Observez simplement. Ne coupez rien. Ne vous faites pas de reproches. Notez simplement : « J'ai dépensé 47 $ en livraison de nourriture. » « J'ai acheté ce livre. » « J'ai rempli le réservoir. » Vous construisez une pratique d'observation financière sans la couche de jugement qui l'accompagne habituellement."
+                "text": "Regarde où l'argent est allé cette semaine. Observe simplement. Ne coupe rien. Ne te fais pas de reproches. Note simplement : « J'ai dépensé 47 $ en livraison de nourriture. » « J'ai acheté ce livre. » « J'ai rempli le réservoir. » Tu construis une pratique d'observation financière sans la couche de jugement qui l'accompagne habituellement."
         },
         {
-                "id": "semaine-4-ajoutez-une-petite-action",
+                "id": "semaine-4-ajoute-une-petite-action",
                 "kind": "h3",
-                "text": "Semaine 4 : Ajoutez une petite action"
+                "text": "Semaine 4 : Ajoute une petite action"
         },
         {
                 "kind": "p",
-                "text": "Sur la base de ce que vous avez remarqué en semaine 3, faites un petit ajustement. Résiliez un abonnement dont vous aviez oublié. Mettez en place un petit virement automatique vers l'épargne. Sautez une commande à emporter. L'action en soi compte à peine. Ce qui compte, c'est que vous construisez le muscle d'agir à partir de l'observation plutôt que de l'anxiété."
+                "text": "Sur la base de ce que tu as remarqué en semaine 3, fais un petit ajustement. Résilie un abonnement dont tu avais oublié. Mets en place un petit virement automatique vers l'épargne. Saute une commande à emporter. L'action en soi compte à peine. Ce qui compte, c'est que tu construis le muscle d'agir à partir de l'observation plutôt que de l'anxiété."
         },
         {
                 "kind": "p",
@@ -5601,19 +5601,19 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Ne le faites pas quand vous êtes déjà stressé. Choisissez un bon moment — le café du matin, une soirée libre, une pause déjeuner."
+                        "Ne le fais pas quand tu es déjà stressé. Choisis un bon moment — le café du matin, une soirée libre, une pause déjeuner."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Utilisez un outil qui semble clair. C'est plus important que vous ne le pensez. Une interface chaotique réactivera la réponse de menace que vous essayez de réguler. Nous avons conçu Savlo spécifiquement pour ce type d'engagement financier doux et sans jugement."
+                        "Utilise un outil qui semble clair. C'est plus important que tu ne le penses. Une interface chaotique réactivera la réponse de menace que tu essaies de réguler. Nous avons conçu Savlo spécifiquement pour ce type d'engagement financier doux et sans jugement."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Célébrez le fait d'être apparu. Sérieusement. Si vous avez ouvert l'application trois jours de suite au lieu de cinq, c'est une victoire. L'objectif est la constance plutôt que la perfection."
+                        "Célèbre le fait d'être apparu. Sérieusement. Si tu as ouvert l'application trois jours de suite au lieu de cinq, c'est une victoire. L'objectif est la constance plutôt que la perfection."
                 ]
         },
         {
@@ -5635,48 +5635,48 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Obtenez une image claire de votre situation financière réelle. Pas l'histoire que votre anxiété raconte. Les vrais chiffres. Listez vos comptes, dettes, revenus et dépenses mensuelles. Pour de nombreuses personnes atteintes de dysmorphie monétaire, il existe un écart significatif entre leur réalité financière perçue et leur réalité réelle. Combler cet écart commence par des données, pas par des sentiments. Si vous avez besoin d'une approche structurée, notre guide sur la façon de faire un budget vous guide étape par étape."
+                        "Obtiens une image claire de ta situation financière réelle. Pas l'histoire que ton anxiété raconte. Les vrais chiffres. Liste tes comptes, dettes, revenus et dépenses mensuelles. Pour de nombreuses personnes atteintes de dysmorphie monétaire, il existe un écart significatif entre leur réalité financière perçue et leur réalité réelle. Combler cet écart commence par des données, pas par des sentiments. Si tu as besoin d'une approche structurée, notre guide sur la façon de faire un budget te guide étape par étape."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Définissez « suffisant » selon vos propres termes. C'est le travail que personne ne fait, et cela change tout. À quoi ressemble une vie financière « suffisamment bonne » pour vous — pas pour Instagram, pas pour vos parents, pas pour la version de vous qui a absorbé la définition du succès de quelqu'un d'autre ? Écrivez-le. Soyez spécifique. « Suffisant » pourrait être six mois de dépenses en épargne, zéro dette de carte de crédit et la possibilité de prendre des vacances une fois par an. Cela pourrait être quelque chose de complètement différent. Le point est que vous décidez, puis vous vous mesurez à votre propre norme, pas à une norme fabriquée."
+                        "Définis « suffisant » selon tes propres termes. C'est le travail que personne ne fait, et cela change tout. À quoi ressemble une vie financière « suffisamment bonne » pour toi — pas pour Instagram, pas pour tes parents, pas pour la version de toi qui a absorbé la définition du succès de quelqu'un d'autre ? Écris-le. Sois spécifique. « Suffisant » pourrait être six mois de dépenses en épargne, zéro dette de carte de crédit et la possibilité de prendre des vacances une fois par an. Cela pourrait être quelque chose de complètement différent. Le point est que tu décides, puis tu te mesures à ta propre norme, pas à une norme fabriquée."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Auditez votre régime d'information. Ne suivez plus les comptes qui vous font vous sentir financièrement inadéquat. Mettez en sourdine les groupes où la conversation de base est l'anxiété financière. Organisez votre fil pour inclure des perspectives financières réalistes et ancrées. Ce n'est pas de l'évitement — c'est sélectionner des informations précises plutôt que des informations déformées. Si vous êtes intéressé par des approches structurées de la gestion de l'argent, explorez notre article sur le budgétisation à base zéro — une méthode qui donne un objectif à chaque dollar sans nécessiter d'obsession."
+                        "Audite ton régime d'information. Ne suis plus les comptes qui te font te sentir financièrement inadéquat. Mets en sourdine les groupes où la conversation de base est l'anxiété financière. Organise ton fil pour inclure des perspectives financières réalistes et ancrées. Ce n'est pas de l'évitement — c'est sélectionner des informations précises plutôt que des informations déformées. Si tu es intéressé par des approches structurées de la gestion de l'argent, explore notre article sur le budgétisation à base zéro — une méthode qui donne un objectif à chaque dollar sans nécessiter d'obsession."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Construisez un rituel fixe de vérification de l'argent. Choisissez un moment précis, une fréquence précise et un outil précis. Vérifiez vos finances le mardi matin, en utilisant une interface claire, pendant cinq minutes. Le rituel réduit l'anxiété car il crée de la prévisibilité. Votre cerveau sait à quoi s'attendre, ce qui réduit la réponse de menace. Avec le temps, ce rituel devient le nouveau standard — une relation stable et régulière avec votre argent plutôt qu'une relation paniquée et sporadique."
+                        "Construis un rituel fixe de vérification de l'argent. Choisis un moment précis, une fréquence précise et un outil précis. Vérifie tes finances le mardi matin, en utilisant une interface claire, pendant cinq minutes. Le rituel réduit l'anxiété car il crée de la prévisibilité. Ton cerveau sait à quoi s'attendre, ce qui réduit la réponse de menace. Avec le temps, ce rituel devient le nouveau standard — une relation stable et régulière avec ton argent plutôt qu'une relation paniquée et sporadique."
                 ]
         },
         {
                 "kind": "ul",
                 "items": [
-                        "Séparez vos décisions financières de vos sentiments financiers. C'est difficile, mais c'est la compétence centrale. Quand vous ressentez l'envie de vérifier votre compte pour la sixième fois aujourd'hui, faites une pause. Demandez : « Est-ce que je cherche une information, ou est-ce que je cherche une réassurance ? » Quand vous ressentez de la panique face à un achat, demandez : « Est-ce que c'est réellement un problème, ou est-ce que ça en a juste l'apparence ? » Créer cette pause — même quelques secondes — entre le sentiment et l'action est là où le changement se produit. Pour une aide à la construction d'un système durable, notre guide sur les fonds de amortissement vous montre comment planifier des dépenses sans le cycle de panique."
+                        "Sépare tes décisions financières de tes sentiments financiers. C'est difficile, mais c'est la compétence centrale. Quand tu ressens l'envie de vérifier ton compte pour la sixième fois aujourd'hui, fais une pause. Demande : « Est-ce que je cherche une information, ou est-ce que je cherche une réassurance ? » Quand tu ressens de la panique face à un achat, demande : « Est-ce que c'est réellement un problème, ou est-ce que ça en a juste l'apparence ? » Créer cette pause — même quelques secondes — entre le sentiment et l'action est là où le changement se produit. Pour une aide à la construction d'un système durable, notre guide sur les fonds de amortissement te montre comment planifier des dépenses sans le cycle de panique."
                 ]
         },
         {
                 "kind": "divider"
         },
         {
-                "id": "pourquoi-conna-tre-vos-chiffres-ne-suffit-pas-et-c",
+                "id": "pourquoi-conna-tre-tes-chiffres-ne-suffit-pas-et-c",
                 "kind": "h2",
-                "text": "Pourquoi connaître vos chiffres ne suffit pas — et ce qui suffit"
+                "text": "Pourquoi connaître tes chiffres ne suffit pas — et ce qui suffit"
         },
         {
                 "kind": "p",
-                "text": "Voici le paradoxe qui frustre presque tous les atteints de dysmorphie monétaire : vous pouvez savoir que vos finances vont bien et quand même sentir que ce n'est pas le cas. Vous pouvez regarder un tableur qui montre que vous êtes devant 80 % des gens de votre âge et quand même ressentir un creux dans l'estomac. La connaissance ne résout pas le sentiment."
+                "text": "Voici le paradoxe qui frustre presque tous les atteints de dysmorphie monétaire : tu peux savoir que tes finances vont bien et quand même sentir que ce n'est pas le cas. Tu peux regarder un tableur qui montre que tu es devant 80 % des gens de ton âge et quand même ressentir un creux dans l'estomac. La connaissance ne résout pas le sentiment."
         },
         {
                 "kind": "p",
-                "text": "Ce n'est pas parce que vous êtes irrationnel. C'est parce que le sentiment ne vit pas dans votre cerveau rationnel. Il vit dans votre système nerveux — dans les structures profondes et anciennes qui traitent la menace et la sécurité. Votre cortex préfrontal peut vous dire « je vais bien ». Votre amygdale n'écoute pas."
+                "text": "Ce n'est pas parce que tu es irrationnel. C'est parce que le sentiment ne vit pas dans ton cerveau rationnel. Il vit dans ton système nerveux — dans les structures profondes et anciennes qui traitent la menace et la sécurité. Ton cortex préfrontal peut te dire « je vais bien ». Ton amygdale n'écoute pas."
         },
         {
                 "kind": "p",
@@ -5684,15 +5684,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Exposition sécurisée répétée aux informations financières. Un seul regard sur votre solde bancaire ne recâble pas votre cerveau. Mais cent regards sans incident sur trois mois commencent à le faire. La répétition est ce qui construit de nouveaux chemins neuronaux. Chaque rencontre sécurisée met à jour le modèle de menace de votre cerveau, lentement mais de manière mesurable. C'est pourquoi la constance compte plus que l'intensité. Une vérification quotidienne de trente secondes fait plus qu'un marathon annuel de budget."
+                "text": "Exposition sécurisée répétée aux informations financières. Un seul regard sur ton solde bancaire ne recâble pas ton cerveau. Mais cent regards sans incident sur trois mois commencent à le faire. La répétition est ce qui construit de nouveaux chemins neuronaux. Chaque rencontre sécurisée met à jour le modèle de menace de ton cerveau, lentement mais de manière mesurable. C'est pourquoi la constance compte plus que l'intensité. Une vérification quotidienne de trente secondes fait plus qu'un marathon annuel de budget."
         },
         {
                 "kind": "p",
-                "text": "Traitement émotionnel de vos histoires d'argent. À un moment donné, vous avez absorbé des croyances sur l'argent — de votre famille, de votre culture, de vos expériences. « L'argent est difficile. » « Les riches sont avides. » « On ne peut jamais en avoir assez. » Ces croyances opèrent sous le niveau de conscience, façonnant vos réponses émotionnelles aux informations financières. Les traiter — par le biais d'un journal, d'une thérapie ou d'une conversation honnête — les rend visibles. Et les croyances visibles peuvent être questionnées."
+                "text": "Traitement émotionnel de tes histoires d'argent. À un moment donné, tu as absorbé des croyances sur l'argent — de ta famille, de ta culture, de tes expériences. « L'argent est difficile. » « Les riches sont avides. » « On ne peut jamais en avoir assez. » Ces croyances opèrent sous le niveau de conscience, façonnant tes réponses émotionnelles aux informations financières. Les traiter — par le biais d'un journal, d'une thérapie ou d'une conversation honnête — les rend visibles. Et les croyances visibles peuvent être questionnées."
         },
         {
                 "kind": "p",
-                "text": "Construire de nouveaux chemins neuronaux par un engagement constant et sans enjeu. C'est la partie pratique. Cela signifie utiliser des outils qui soutiennent la régulation plutôt que la réactivité. Cela signifie vérifier votre argent quand vous êtes stable, pas quand vous êtes dans une spirale. Cela signifie choisir la clarté plutôt que la stimulation à chaque fois. L'outil que vous utilisez compte ici. Une application de budgétisation pleine de fonctionnalités qui vous submerge avec des graphiques et des alertes peut être objectivement utile mais émotionnellement contre-productive. Une interface claire et minimaliste qui vous permet d'interagir à votre propre rythme peut faire plus pour votre relation réelle avec l'argent que n'importe quel tableur."
+                "text": "Construire de nouveaux chemins neuronaux par un engagement constant et sans enjeu. C'est la partie pratique. Cela signifie utiliser des outils qui soutiennent la régulation plutôt que la réactivité. Cela signifie vérifier ton argent quand tu es stable, pas quand tu es dans une spirale. Cela signifie choisir la clarté plutôt que la stimulation à chaque fois. L'outil que tu utilises compte ici. Une application de budgétisation pleine de fonctionnalités qui te submerge avec des graphiques et des alertes peut être objectivement utile mais émotionnellement contre-productive. Une interface claire et minimaliste qui te permet d'interagir à ton propre rythme peut faire plus pour ta relation réelle avec l'argent que n'importe quel tableur."
         },
         {
                 "kind": "p",
@@ -5708,7 +5708,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour certaines personnes, les schémas décrits dans cet article pointent vers quelque chose de plus profond que la dysmorphie monétaire. Si votre relation avec l'argent est façonnée par des événements traumatiques spécifiques — pauvreté infantile, abus financier, perte catastrophique — les distorsions que vous vivez peuvent avoir des racines qui nécessitent plus que des stratégies d'auto-assistance."
+                "text": "Pour certaines personnes, les schémas décrits dans cet article pointent vers quelque chose de plus profond que la dysmorphie monétaire. Si ta relation avec l'argent est façonnée par des événements traumatiques spécifiques — pauvreté infantile, abus financier, perte catastrophique — les distorsions que tu vis peuvent avoir des racines qui nécessitent plus que des stratégies d'auto-assistance."
         },
         {
                 "kind": "p",
@@ -5735,7 +5735,7 @@ const overrides = {
         {
                 "kind": "ul",
                 "items": [
-                        "Honte profonde liée à l'argent qui semble liée à votre identité, pas seulement à vos circonstances"
+                        "Honte profonde liée à l'argent qui semble liée à ton identité, pas seulement à tes circonstances"
                 ]
         },
         {
@@ -5746,15 +5746,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si l'un de ces éléments résonne avec vous, envisagez de travailler avec un thérapeute financier — un professionnel spécialisé dans les dimensions émotionnelles et psychologiques de l'argent. Ce n'est pas un luxe ou un signe de faiblesse. C'est l'intervention appropriée pour un problème qui se situe à l'intersection de la psychologie et des finances. Les thérapeutes financiers sont formés pour vous aider à traiter les racines émotionnelles de vos schémas financiers — pas seulement les symptômes."
+                "text": "Si l'un de ces éléments résonne avec toi, envisage de travailler avec un thérapeute financier — un professionnel spécialisé dans les dimensions émotionnelles et psychologiques de l'argent. Ce n'est pas un luxe ou un signe de faiblesse. C'est l'intervention appropriée pour un problème qui se situe à l'intersection de la psychologie et des finances. Les thérapeutes financiers sont formés pour t'aider à traiter les racines émotionnelles de tes schémas financiers — pas seulement les symptômes."
         },
         {
                 "kind": "p",
-                "text": "Vous pouvez également explorer nos lectures connexes sur l'anxiété financière et pourquoi les budgets traditionnels échouent — les deux explorent pourquoi les conseils financiers standard ignorent souvent complètement la dimension émotionnelle. Plus vous comprenez comment votre cerveau traite l'argent, mieux vous êtes équipé pour travailler avec lui plutôt que contre lui."
+                "text": "Tu peux également explorer nos lectures connexes sur l'anxiété financière et pourquoi les budgets traditionnels échouent — les deux explorent pourquoi les conseils financiers standard ignorent souvent complètement la dimension émotionnelle. Plus tu comprends comment ton cerveau traite l'argent, mieux tu es équipé pour travailler avec lui plutôt que contre lui."
         },
         {
                 "kind": "p",
-                "text": "Comprendre la dysmorphie monétaire ne consiste pas seulement à mieux gérer votre compte en banque. Il s'agit de reconnaître que votre vécu émotionnel avec l'argent est réel, valide et digne d'attention — peu importe ce que disent les chiffres."
+                "text": "Comprendre la dysmorphie monétaire ne consiste pas seulement à mieux gérer ton compte en banque. Il s'agit de reconnaître que ton vécu émotionnel avec l'argent est réel, valide et digne d'attention — peu importe ce que disent les chiffres."
         },
         {
                 "kind": "divider"
@@ -5766,31 +5766,31 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vous avez lu jusqu'ici, quelque chose ici a résonné. Et si quelque chose a résonné, il est fort possible que vous ayez porté une honte silencieuse à ce sujet — le sentiment que votre anxiété financière est irrationnelle, que vous devriez l'avoir « surmontée » depuis longtemps, que les autres gèrent mieux l'argent et que vous êtes simplement brisé."
+                "text": "Si tu as lu jusqu'ici, quelque chose ici a résonné. Et si quelque chose a résonné, il est fort possible que tu aies porté une honte silencieuse à ce sujet — le sentiment que ton anxiété financière est irrationnelle, que tu devrais l'avoir « surmontée » depuis longtemps, que les autres gèrent mieux l'argent et que tu es simplement brisé."
         },
         {
                 "kind": "p",
-                "text": "Vous n'êtes pas brisé. Vous répondez à un environnement qui déclenche des réponses de menace chez la plupart des gens. Le système financier est opaque. Les réseaux sociaux déforment vos points de référence. Les récits culturels sur le succès créent des normes impossibles. Et votre cerveau, faisant exactement ce pour quoi il a évolué, interprète tout cela comme un danger."
+                "text": "Tu n'es pas brisé. Tu réponds à un environnement qui déclenche des réponses de menace chez la plupart des gens. Le système financier est opaque. Les réseaux sociaux déforment tes points de référence. Les récits culturels sur le succès créent des normes impossibles. Et ton cerveau, faisant exactement ce pour quoi il a évolué, interprète tout cela comme un danger."
         },
         {
                 "kind": "p",
-                "text": "Le cycle de la honte fait partie du problème, pas de la solution. Quand vous croyez que vous « devriez être meilleur là-dedans », vous évitez d'interagir avec vos finances — ce qui aggrave la dysmorphie — ce qui renforce la croyance que vous êtes mauvais avec l'argent. Briser ce cycle commence par l'autocompassion, pas par l'autocritique. Vous ne diriez pas à un ami avec une phobie de « simplement passer à autre chose ». Vous lui diriez que sa peur est réelle, qu'elle est valide, et qu'il existe des moyens efficaces de la surmonter. Vous méritez la même grâce."
+                "text": "Le cycle de la honte fait partie du problème, pas de la solution. Quand tu crois que tu « devrais être meilleur là-dedans », tu évites d'interagir avec tes finances — ce qui aggrave la dysmorphie — ce qui renforce la croyance que tu es mauvais avec l'argent. Briser ce cycle commence par l'autocompassion, pas par l'autocritique. Tu ne dirais pas à un ami avec une phobie de « simplement passer à autre chose ». Tu lui dirais que sa peur est réelle, qu'elle est valide, et qu'il existe des moyens efficaces de la surmonter. Tu mérites la même grâce."
         },
         {
                 "kind": "p",
-                "text": "La dysmorphie monétaire n'est pas de la faiblesse. Ce n'est pas de l'irresponsabilité. Ce n'est pas un défaut de caractère. C'est un schéma prévisible et bien documenté — et le fait de pouvoir le nommer vous place devant la plupart des gens qui sont encore piégés dans le cycle de la honte et de l'évitement."
+                "text": "La dysmorphie monétaire n'est pas de la faiblesse. Ce n'est pas de l'irresponsabilité. Ce n'est pas un défaut de caractère. C'est un schéma prévisible et bien documenté — et le fait de pouvoir le nommer te place devant la plupart des gens qui sont encore piégés dans le cycle de la honte et de l'évitement."
         },
         {
                 "kind": "p",
-                "text": "Le premier pas n'est pas de réparer vos finances. Ce n'est pas de construire le budget parfait ou de gagner plus d'argent. Le premier pas est de reconnaître que le sentiment et la réalité peuvent être deux choses différentes — et que les deux méritent de l'attention. Le sentiment est réel. Il mérite de la compassion. La réalité est aussi réelle. Elle mérite un engagement honnête. Vous pouvez tenir les deux en même temps."
+                "text": "Le premier pas n'est pas de réparer tes finances. Ce n'est pas de construire le budget parfait ou de gagner plus d'argent. Le premier pas est de reconnaître que le sentiment et la réalité peuvent être deux choses différentes — et que les deux méritent de l'attention. Le sentiment est réel. Il mérite de la compassion. La réalité est aussi réelle. Elle mérite un engagement honnête. Tu peux tenir les deux en même temps."
         },
         {
                 "kind": "p",
-                "text": "C'est faisable. Pas du jour au lendemain. Pas sans inconfort. Mais de manière constante, patiente et avec les bons outils, vous pouvez construire une relation avec l'argent basée sur la réalité plutôt que sur la peur. Vous n'avez pas à le faire seul."
+                "text": "C'est faisable. Pas du jour au lendemain. Pas sans inconfort. Mais de manière constante, patiente et avec les bons outils, tu peux construire une relation avec l'argent basée sur la réalité plutôt que sur la peur. Tu n'as pas à le faire seul."
         },
         {
                 "kind": "p",
-                "text": "> La dysmorphie monétaire touche des millions de personnes — et la nommer est le premier pas vers la transformation de votre relation avec elle. Savlo est conçu pour Android, et iOS arrive ensuite. Commencez à construire une meilleure relation avec votre argent aujourd'hui."
+                "text": "> La dysmorphie monétaire touche des millions de personnes — et la nommer est le premier pas vers la transformation de ta relation avec elle. Savlo est conçu pour Android, et iOS arrive ensuite. Commence à construire une meilleure relation avec ton argent aujourd'hui."
         }
 ]
     },
@@ -5816,15 +5816,15 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "Trois applications de budget, trois philosophies financières distinctes. YNAB veut que vous attribuiez chaque dollar à un emploi avant que le mois ne commence. Monarch Money veut vous montrer un magnifique tableau de bord de votre vie financière entière. Savlo est conçue pour vous donner le contrôle et la gestion quotidienne de vos finances en quelques minutes, en vous permettant d'enregistrer rapidement vos mouvements par voix ou par texte et d'organiser votre argent dans des comptes indépendants."
+                "text": "Trois applications de budget, trois philosophies financières distinctes. YNAB veut que tu attribues chaque dollar à un emploi avant que le mois ne commence. Monarch Money veut te montrer un magnifique tableau de bord de ta vie financière entière. Savlo est conçue pour te donner le contrôle et la gestion quotidienne de tes finances en quelques minutes, en te permettant d'enregistrer rapidement tes mouvements par voix ou par texte et d'organiser ton argent dans des comptes indépendants."
         },
         {
                 "kind": "p",
-                "text": "Aucune de ces approches n'est objectivement incorrecte. Mais elles sont construites pour des cerveaux différents, des anxiétés financières différentes et des niveaux de volonté différents pour interagir avec un outil de budget au quotidien. Cette comparaison est conçue pour vous aider à choisir en fonction de comment votre cerveau fonctionne, pas en fonction de quelle application a la plus longue liste de fonctionnalités. Nous allons approfondir la philosophie, la courbe d'apprentissage, la confidentialité, l'expérience quotidienne, les tarifs et les types d'utilisateurs spécifiques que chaque application sert le mieux."
+                "text": "Aucune de ces approches n'est objectivement incorrecte. Mais elles sont construites pour des cerveaux différents, des anxiétés financières différentes et des niveaux de volonté différents pour interagir avec un outil de budget au quotidien. Cette comparaison est conçue pour t'aider à choisir en fonction de comment ton cerveau fonctionne, pas en fonction de quelle application a la plus longue liste de fonctionnalités. Nous allons approfondir la philosophie, la courbe d'apprentissage, la confidentialité, l'expérience quotidienne, les tarifs et les types d'utilisateurs spécifiques que chaque application sert le mieux."
         },
         {
                 "kind": "p",
-                "text": "Si vous avez déjà essayé l'une de ces applications et que vous ne vous en êtes pas sorti, c'est une information utile. La raison pour laquelle vous ne vous en êtes pas sorti compte souvent plus que la liste de fonctionnalités que vous compariez lorsque vous vous êtes inscrit."
+                "text": "Si tu as déjà essayé l'une de ces applications et que tu ne t'en es pas sorti, c'est une information utile. La raison pour laquelle tu ne t'en es pas sorti compte souvent plus que la liste de fonctionnalités que tu comparais lorsque tu t'es inscrit."
         },
         {
                 "id": "comment-nous-avons-valu-ces-applications",
@@ -5841,19 +5841,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Courbe d'apprentissage et intégration. Combien de temps faut-il pour passer du téléchargement à la première information utile ? Une application puissante que vous n'apprenez jamais est pire qu'une application simple que vous utilisez quotidiennement."
+                "text": "- Courbe d'apprentissage et intégration. Combien de temps faut-il pour passer du téléchargement à la première information utile ? Une application puissante que tu n'apprends jamais est pire qu'une application simple que tu utilises quotidiennement."
         },
         {
                 "kind": "p",
-                "text": "- Confidentialité et modèle de données. Qui voit vos données financières ? Sont-elles stockées localement ou sur les serveurs de quelqu'un d'autre ? Peuvent-elles être vendues ? Ces questions sont plus importantes que la plupart des sites de critiques ne le reconnaissent."
+                "text": "- Confidentialité et modèle de données. Qui voit tes données financières ? Sont-elles stockées localement ou sur les serveurs de quelqu'un d'autre ? Peuvent-elles être vendues ? Ces questions sont plus importantes que la plupart des sites de critiques ne le reconnaissent."
         },
         {
                 "kind": "p",
-                "text": "- Expérience utilisateur quotidienne. À quoi cela ressemble-t-il d'ouvrir cette application un mardi au hasard ? Vous fait-elle sentir informé, ou vous fait-elle sentir en retard ?"
+                "text": "- Expérience utilisateur quotidienne. À quoi cela ressemble-t-il d'ouvrir cette application un mardi au hasard ? Te fait-elle sentir informé, ou te fait-elle sentir en retard ?"
         },
         {
                 "kind": "p",
-                "text": "- Tarifs. Que payez-vous réellement et qu'obtenez-vous pour ce prix ? Nous examinons le coût annuel et si le niveau gratuit est utilisable ou juste une démo."
+                "text": "- Tarifs. Que paies-tu réellement et qu'obtiens-tu pour ce prix ? Nous examinons le coût annuel et si le niveau gratuit est utilisable ou juste une démo."
         },
         {
                 "kind": "p",
@@ -5873,7 +5873,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "YNAB, abréviation de You Need A Budget (Vous avez besoin d'un budget), est l'application de budgétisation la plus engagée du marché. Elle n'essaie pas d'être un tableau de bord financier ou un suivi de patrimoine net. C'est une machine de budgétisation, construite entièrement autour d'une idée : chaque dollar devrait avoir un emploi avant que vous ne le dépensiez. Si ce concept vous parle, YNAB est probablement l'outil le plus puissant disponible. Sinon, vous allez lutter avec l'application dès le premier jour."
+                "text": "YNAB, abréviation de You Need A Budget (Tu as besoin d'un budget), est l'application de budgétisation la plus engagée du marché. Elle n'essaie pas d'être un tableau de bord financier ou un suivi de patrimoine net. C'est une machine de budgétisation, construite entièrement autour d'une idée : chaque dollar devrait avoir un emploi avant que tu ne le dépenses. Si ce concept te parle, YNAB est probablement l'outil le plus puissant disponible. Sinon, tu vas lutter avec l'application dès le premier jour."
         },
         {
                 "id": "la-philosophie-de-ynab-chaque-dollar-a-un-emploi",
@@ -5882,19 +5882,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "YNAB est basé sur la budgétisation à base zéro, une méthode où vous attribuez chaque dollar de revenu à une catégorie spécifique avant que le mois ne commence. Revenu moins attributions égal zéro. Il n'y a pas d'argent « restant » qui flotte. Chaque dollar est soit dépensé, épargné, soit attribué à un objectif futur."
+                "text": "YNAB est basé sur la budgétisation à base zéro, une méthode où tu attribues chaque dollar de revenu à une catégorie spécifique avant que le mois ne commence. Revenu moins attributions égal zéro. Il n'y a pas d'argent « restant » qui flotte. Chaque dollar est soit dépensé, épargné, soit attribué à un objectif futur."
         },
         {
                 "kind": "p",
-                "text": "Ceci est un modèle mental fondamentalement différent de la plupart des outils de suivi de dépenses. Un outil de suivi vous dit ce qui s'est passé. YNAB vous dit ce qui devrait se passer. Il vous oblige à prendre des décisions à l'avance, ce qui réduit la charge cognitive lors du moment réel de la dépense. Au lieu de demander « puis-je me le permettre ? » à la caisse, vous le savez déjà car vous avez décidé il y a trois semaines."
+                "text": "Ceci est un modèle mental fondamentalement différent de la plupart des outils de suivi de dépenses. Un outil de suivi te dit ce qui s'est passé. YNAB te dit ce qui devrait se passer. Il t'oblige à prendre des décisions à l'avance, ce qui réduit la charge cognitive lors du moment réel de la dépense. Au lieu de demander « puis-je me le permettre ? » à la caisse, tu le sais déjà car tu as décidé il y a trois semaines."
         },
         {
                 "kind": "p",
-                "text": "Le système a quatre règles fondamentales. La règle un est « donnez à chaque dollar un emploi », que nous venons de couvrir. La règle deux est « embracez vos vraies dépenses » — ce qui signifie que vous budgétez pour les coûts annuels comme l'assurance auto, les cadeaux de vacances et les impôts fonciers mensuellement pour qu'ils ne vous surprennent jamais. La règle trois est « encaissez les coups », ce qui signifie que si vous dépassez le budget dans une catégorie, vous déplacez l'argent d'une autre plutôt que d'abandonner le budget complètement. La règle quatre est « vieillissez votre argent », qui suit combien de temps vos dollars restent avant d'être dépensés. L'objectif est d'atteindre le point où les revenus de ce mois paient les dépenses du mois prochain."
+                "text": "Le système a quatre règles fondamentales. La règle un est « donne à chaque dollar un emploi », que nous venons de couvrir. La règle deux est « accepte tes vraies dépenses » — ce qui signifie que tu budgètes pour les coûts annuels comme l'assurance auto, les cadeaux de vacances et les impôts fonciers mensuellement pour qu'ils ne te surprennent jamais. La règle trois est « encaisse les coups », ce qui signifie que si tu dépasses le budget dans une catégorie, tu déplaces l'argent d'une autre plutôt que d'abandonner le budget complètement. La règle quatre est « vieillis ton argent », qui suit combien de temps tes dollars restent avant d'être dépensés. L'objectif est d'atteindre le point où les revenus de ce mois paient les dépenses du mois prochain."
         },
         {
                 "kind": "p",
-                "text": "La métrique d'âge de l'argent est l'une des fonctionnalités les plus discrètement puissantes de YNAB. Elle vous donne un chiffre unique qui représente le progrès financier. Si votre argent a 10 jours, vous vivez presque de paycheck en paycheck. S'il a 30 jours, vous êtes d'un mois d'avance. S'il a 60 jours, vous avez construit un véritable coussin. Voir ce chiffre augmenter est motivant d'une manière qu'un graphique de patrimoine net ne l'est pas, car il reflète votre flux de trésorerie réel quotidien, pas les fluctuations d'investissement que vous ne pouvez pas contrôler."
+                "text": "La métrique d'âge de l'argent est l'une des fonctionnalités les plus discrètement puissantes de YNAB. Elle te donne un chiffre unique qui représente le progrès financier. Si ton argent a 10 jours, tu vis presque de paycheck en paycheck. S'il a 30 jours, tu es d'un mois d'avance. S'il a 60 jours, tu as construit un véritable coussin. Voir ce chiffre augmenter est motivant d'une manière qu'un graphique de patrimoine net ne l'est pas, car il reflète ton flux de trésorerie réel quotidien, pas les fluctuations d'investissement que tu ne peux pas contrôler."
         },
         {
                 "id": "ce-que-ynab-fait-bien",
@@ -5903,7 +5903,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le système basé sur des règles de YNAB est véritablement excellent pour les personnes qui veulent un contrôle total sur leur argent. La profondeur du moteur de budgétisation est inégalée. Vous pouvez créer des catégories profondément imbriquées, définir des objectifs détaillés avec des dates cibles, suivre les progrès sur plusieurs objectifs d'épargne et gérer des situations complexes comme les paiements de carte de crédit, les remboursements et les revenus irréguliers."
+                "text": "Le système basé sur des règles de YNAB est véritablement excellent pour les personnes qui veulent un contrôle total sur leur argent. La profondeur du moteur de budgétisation est inégalée. Tu peux créer des catégories profondément imbriquées, définir des objectifs détaillés avec des dates cibles, suivre les progrès sur plusieurs objectifs d'épargne et gérer des situations complexes comme les paiements de carte de crédit, les remboursements et les revenus irréguliers."
         },
         {
                 "kind": "p",
@@ -5911,11 +5911,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le suivi d'objectifs est robuste. Vous pouvez définir un objectif pour toute catégorie — un solde cible, une contribution mensuelle ou un montant spécifique à une date spécifique — et YNAB vous montre les progrès visuellement. Pour les personnes qui épargnent pour un acompte immobilier, remboursent des prêts étudiants ou construisent un fonds d'urgence, ce type de suivi ciblé est profondément motivant."
+                "text": "Le suivi d'objectifs est robuste. Tu peux définir un objectif pour toute catégorie — un solde cible, une contribution mensuelle ou un montant spécifique à une date spécifique — et YNAB te montre les progrès visuellement. Pour les personnes qui épargnent pour un acompte immobilier, remboursent des prêts étudiants ou construisent un fonds d'urgence, ce type de suivi ciblé est profondément motivant."
         },
         {
                 "kind": "p",
-                "text": "La gestion des cartes de crédit est sophistiquée. YNAB traite les cartes de crédit différemment des cartes de débit, suivant combien vous avez alloué pour rembourser votre solde chaque mois. C'est l'une des rares applications qui vous aide activement à éviter les dettes de carte de crédit plutôt que de simplement vous montrer combien vous devez."
+                "text": "La gestion des cartes de crédit est sophistiquée. YNAB traite les cartes de crédit différemment des cartes de débit, suivant combien tu as alloué pour rembourser ton solde chaque mois. C'est l'une des rares applications qui t'aide activement à éviter les dettes de carte de crédit plutôt que de simplement te montrer combien tu dois."
         },
         {
                 "kind": "p",
@@ -5932,11 +5932,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "YNAB nécessite une implication quotidienne. Vous devez catégoriser les transactions, réconcilier les comptes et ajuster votre budget régulièrement. Si vous sautez une semaine, l'application commence à paraître obsolète et imprécise. Pour les personnes qui veulent une solution « configurez et oubliez », YNAB est le mauvais outil. Il récompense la constance et punit la négligence."
+                "text": "YNAB nécessite une implication quotidienne. Tu dois catégoriser les transactions, réconcilier les comptes et ajuster ton budget régulièrement. Si tu sautes une semaine, l'application commence à paraître obsolète et imprécise. Pour les personnes qui veulent une solution « configure et oublie », YNAB est le mauvais outil. Il récompense la constance et punit la négligence."
         },
         {
                 "kind": "p",
-                "text": "Il n'y a pas de suivi de patrimoine net. YNAB est délibérément concentré sur le flux de trésorerie et la budgétisation, pas sur la performance des investissements ou le suivi des actifs totaux. Si vous voulez voir votre 401(k), votre compte de courtage et votre compte courant dans une vue, YNAB ne vous le donnera pas. Vous aurez besoin d'un outil séparé pour le tableau de bord financier global."
+                "text": "Il n'y a pas de suivi de patrimoine net. YNAB est délibérément concentré sur le flux de trésorerie et la budgétisation, pas sur la performance des investissements ou le suivi des actifs totaux. Si tu veux voir ton 401(k), ton compte de courtage et ton compte courant dans une vue, YNAB ne te le donnera pas. Tu auras besoin d'un outil séparé pour le tableau de bord financier global."
         },
         {
                 "kind": "p",
@@ -5969,7 +5969,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Monarch Money a été lancé en tant que successeur spirituel de Mint, et cela se voit. Là où Mint était un suivi de dépenses gratuit et publicitaire, Monarch est un tableau de bord financier poli et basé sur un abonnement. Il se connecte à pratiquement toutes les institutions financières, importe tous vos comptes et les présente dans une interface propre et élégante. Si votre besoin principal est la visibilité sur votre tableau financier complet — compte courant, épargne, cartes de crédit, investissements, prêts — Monarch est l'option la plus forte disponible."
+                "text": "Monarch Money a été lancé en tant que successeur spirituel de Mint, et cela se voit. Là où Mint était un suivi de dépenses gratuit et publicitaire, Monarch est un tableau de bord financier poli et basé sur un abonnement. Il se connecte à pratiquement toutes les institutions financières, importe tous tes comptes et les présente dans une interface propre et élégante. Si ton besoin principal est la visibilité sur ton tableau financier complet — compte courant, épargne, cartes de crédit, investissements, prêts — Monarch est l'option la plus forte disponible."
         },
         {
                 "id": "la-philosophie-de-monarch-la-visibilit-financi-re",
@@ -5978,11 +5978,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La prémisse centrale de Monarch est que vous ne pouvez pas gérer ce que vous ne pouvez pas voir. Son approche tableau de bord en premier agrège tous vos comptes financiers en une seule vue. Le patrimoine net se met à jour automatiquement. La performance des investissements est suivie en temps réel. Les dépenses sont catégorisées automatiquement à l'aide d'apprentissage automatique, avec des règles que vous pouvez personnaliser."
+                "text": "La prémisse centrale de Monarch est que tu ne peux pas gérer ce que tu ne peux pas voir. Son approche tableau de bord en premier agrège tous tes comptes financiers en une seule vue. Le patrimoine net se met à jour automatiquement. La performance des investissements est suivie en temps réel. Les dépenses sont catégorisées automatiquement à l'aide d'apprentissage automatique, avec des règles que tu peux personnaliser."
         },
         {
                 "kind": "p",
-                "text": "Ceci est une approche fondamentalement passive par rapport à YNAB. Vous n'attribuez pas chaque dollar à un emploi. Vous ne prenez pas de décisions de dépenses à l'avance. Au lieu de cela, vous regardez ce qui se passe et ajustez ensuite. Pour de nombreuses personnes, c'est exactement le bon niveau d'engagement. Elles veulent la conscience sans la surcharge d'un système de budgétisation complet."
+                "text": "Ceci est une approche fondamentalement passive par rapport à YNAB. Tu n'attribues pas chaque dollar à un emploi. Tu ne prends pas de décisions de dépenses à l'avance. Au lieu de cela, tu regardes ce qui se passe et ajustes ensuite. Pour de nombreuses personnes, c'est exactement le bon niveau d'engagement. Elles veulent la conscience sans la surcharge d'un système de budgétisation complet."
         },
         {
                 "kind": "p",
@@ -5999,11 +5999,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La synchronisation bancaire est la meilleure de sa catégorie. Monarch prend en charge un grand nombre d' institutions financières, et la fiabilité de la synchronisation est visiblement meilleure que celle de la plupart des concurrents. Les transactions sont importées rapidement, la catégorisation est précise la plupart du temps, et le moteur de règles vous permet d'automatiser la catégorisation pour les commerçants récurrents."
+                "text": "La synchronisation bancaire est la meilleure de sa catégorie. Monarch prend en charge un grand nombre d' institutions financières, et la fiabilité de la synchronisation est visiblement meilleure que celle de la plupart des concurrents. Les transactions sont importées rapidement, la catégorisation est précise la plupart du temps, et le moteur de règles te permet d'automatiser la catégorisation pour les commerçants récurrents."
         },
         {
                 "kind": "p",
-                "text": "Le suivi des investissements est un véritable point fort. Monarch importe vos comptes de courtage, comptes de retraite et autres investissements, affichant la performance au fil du temps. Si vous avez un 401(k), un IRA, un compte de courtage imposable et peut-être un peu de crypto, Monarch vous montre comment ils performent tous au même endroit. C'est quelque chose que YNAB et Savlo ne tentent tout simplement pas."
+                "text": "Le suivi des investissements est un véritable point fort. Monarch importe tes comptes de courtage, comptes de retraite et autres investissements, affichant la performance au fil du temps. Si tu as un 401(k), un IRA, un compte de courtage imposable et peut-être un peu de crypto, Monarch te montre comment ils performent tous au même endroit. C'est quelque chose que YNAB et Savlo ne tentent tout simplement pas."
         },
         {
                 "kind": "p",
@@ -6011,7 +6011,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le moteur de règles est puissant. Vous pouvez créer des règles personnalisées pour catégoriser automatiquement les transactions, diviser une seule transaction en plusieurs catégories ou signaler des commerçants spécifiques. Pour les utilisateurs qui veulent un contrôle précis sur la façon dont leurs dépenses sont catégorisées sans examiner manuellement chaque transaction, le moteur de règles est un gain de temps significatif."
+                "text": "Le moteur de règles est puissant. Tu peux créer des règles personnalisées pour catégoriser automatiquement les transactions, diviser une seule transaction en plusieurs catégories ou signaler des commerçants spécifiques. Pour les utilisateurs qui veulent un contrôle précis sur la façon dont leurs dépenses sont catégorisées sans examiner manuellement chaque transaction, le moteur de règles est un gain de temps significatif."
         },
         {
                 "kind": "p",
@@ -6024,23 +6024,23 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Monarch nécessite la liaison bancaire. Toute fonctionnalité dépend de la connexion de vos comptes financiers via unagrégateur tiers. Pour les utilisateurs qui ne sont pas à l'aise pour partager leurs identifiants bancaires — et après l'arrêt de Mint, beaucoup sont méfiants — c'est une barrière significative. Si votre banque ne prend pas en charge Plaid ou les autres agrégateurs de Monarch, vous êtes dans l'impasse totale."
+                "text": "Monarch nécessite la liaison bancaire. Toute fonctionnalité dépend de la connexion de tes comptes financiers via unagrégateur tiers. Pour les utilisateurs qui ne sont pas à l'aise pour partager leurs identifiants bancaires — et après l'arrêt de Mint, beaucoup sont méfiants — c'est une barrière significative. Si ta banque ne prend pas en charge Plaid ou les autres agrégateurs de Monarch, tu es dans l'impasse totale."
         },
         {
                 "kind": "p",
-                "text": "L'accent mis sur le suivi plutôt que le changement de comportement est une limitation. Monarch vous montre ce qui s'est passé, mais il ne vous aide pas activement à prendre des décisions différentes. Il n'y a pas d'incitations aux dépenses, pas de rituels de vérification, pas d'invitations comportementales. Pour les utilisateurs qui ont besoin de plus que de la conscience — qui ont besoin d'un système qui façonne leurs habitudes — l'approche passive de Monarch peut sembler insuffisante."
+                "text": "L'accent mis sur le suivi plutôt que le changement de comportement est une limitation. Monarch te montre ce qui s'est passé, mais il ne t'aide pas activement à prendre des décisions différentes. Il n'y a pas d'incitations aux dépenses, pas de rituels de vérification, pas d'invitations comportementales. Pour les utilisateurs qui ont besoin de plus que de la conscience — qui ont besoin d'un système qui façonne leurs habitudes — l'approche passive de Monarch peut sembler insuffisante."
         },
         {
                 "kind": "p",
-                "text": "Il n'y a pas d'enregistrement vocal ni d'option de saisie rapide. Chaque transaction doit être importée via la synchronisation bancaire ou saisie manuellement. Pour les petits achats en espèces, pourboires ou paiements informels, vous devez vous rappeler de les enregistrer manuellement ou elles disparaissent de votre tableau financier."
+                "text": "Il n'y a pas d'enregistrement vocal ni d'option de saisie rapide. Chaque transaction doit être importée via la synchronisation bancaire ou saisie manuellement. Pour les petits achats en espèces, pourboires ou paiements informels, tu dois te rappeler de les enregistrer manuellement ou elles disparaissent de ton tableau financier."
         },
         {
                 "kind": "p",
-                "text": "Le coût de l'abonnement s'accumule. À environ 15 $ par mois ou 100 $ par an, Monarch est tarifé de manière similaire à YNAB. Pour un outil qui est principalement un tableau de bord en lecture seule de données que votre banque possède déjà, certains utilisateurs se demandent si le prix est justifié."
+                "text": "Le coût de l'abonnement s'accumule. À environ 15 $ par mois ou 100 $ par an, Monarch est tarifé de manière similaire à YNAB. Pour un outil qui est principalement un tableau de bord en lecture seule de données que ta banque possède déjà, certains utilisateurs se demandent si le prix est justifié."
         },
         {
                 "kind": "p",
-                "text": "L'application peut paraître passive. Parce qu'elle fait la plupart du travail automatiquement, certains utilisateurs constatent qu'ils ouvrent Monarch moins fréquemment au fil du temps. La nouveauté initiale du tableau de bord s'estompe, et sans un flux de travail de budgétisation actif pour stimuler l'engagement, l'application devient quelque chose que vous vérifiez occasionnellement plutôt que d'utiliser quotidiennement."
+                "text": "L'application peut paraître passive. Parce qu'elle fait la plupart du travail automatiquement, certains utilisateurs constatent qu'ils ouvrent Monarch moins fréquemment au fil du temps. La nouveauté initiale du tableau de bord s'estompe, et sans un flux de travail de budgétisation actif pour stimuler l'engagement, l'application devient quelque chose que tu vérifies occasionnellement plutôt que d'utiliser quotidiennement."
         },
         {
                 "kind": "p",
@@ -6065,7 +6065,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Savlo est la plus jeune des trois applications, et elle est construite autour d'une question totalement différente. Là où YNAB demande « où devrait aller chaque dollar ? » et Monarch demande « à quoi ressemble mon tableau financier ? », Savlo demande « comment vous sentez-vous à propos de l'argent, et comment pouvons-nous rendre ce sentiment plus clair ? » C'est un outil d'anxiété financière tout autant qu'un outil de budgétisation."
+                "text": "Savlo est la plus jeune des trois applications, et elle est construite autour d'une question totalement différente. Là où YNAB demande « où devrait aller chaque dollar ? » et Monarch demande « à quoi ressemble mon tableau financier ? », Savlo demande « comment tu sens-tu à propos de l'argent, et comment pouvons-nous rendre ce sentiment plus clair ? » C'est un outil d'anxiété financière tout autant qu'un outil de budgétisation."
         },
         {
                 "id": "la-philosophie-de-savlo-la-conscience-financi-re-c",
@@ -6078,11 +6078,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Savlo adopte l'approche opposée. L'interface est délibérément simple. Il n'y a pas de chiffres d'avertissement rouges ni de notifications qui induisent la culpabilité. À la place, une série quotidienne récompense l'habitude d'enregistrer. La philosophie de conception est que vous devriez vous sentir mieux après avoir ouvert l'application, pas plus mal. Si un outil financier vous anxiété, vous cesserez de l'utiliser. Et si vous cessez de l'utiliser, il ne peut pas vous aider."
+                "text": "Savlo adopte l'approche opposée. L'interface est délibérément simple. Il n'y a pas de chiffres d'avertissement rouges ni de notifications qui induisent la culpabilité. À la place, une série quotidienne récompense l'habitude d'enregistrer. La philosophie de conception est que tu devrais te sentir mieux après avoir ouvert l'application, pas plus mal. Si un outil financier t'anxiété, tu cesseras de l'utiliser. Et si tu cesses de l'utiliser, il ne peut pas t'aider."
         },
         {
                 "kind": "p",
-                "text": "L'application ne demande jamais vos identifiants bancaires. Il n'y a pas de liaison bancaire ni d'agrégation de données par des tiers, et vos données financières ne sont jamais vendues. Pour les utilisateurs qui sont soucieux de la confidentialité — et après les violations de données de haut niveau et l' arrêt de Mint, beaucoup le sont — c'est un différenciateur significatif."
+                "text": "L'application ne demande jamais tes identifiants bancaires. Il n'y a pas de liaison bancaire ni d'agrégation de données par des tiers, et tes données financières ne sont jamais vendues. Pour les utilisateurs qui sont soucieux de la confidentialité — et après les violations de données de haut niveau et l' arrêt de Mint, beaucoup le sont — c'est un différenciateur significatif."
         },
         {
                 "id": "ce-que-savlo-fait-bien",
@@ -6091,31 +6091,31 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'enregistrement vocal est la fonctionnalité phare de Savlo. Vous prononcez une transaction — « café chez Starbucks, 5,40 $ » — et elle est enregistrée. Pas de frappe, pas de sélection de catégorie, pas de synchronisation bancaire requise. La reconnaissance vocale gère le langage naturel, y compris les noms de commerçants, les montants et même de brèves notes. Pour les personnes qui trouvent la saisie manuelle fastidieuse mais ne veulent pas lier leurs comptes bancaires, l'enregistrement vocal est l'option la moins contraignante disponible."
+                "text": "L'enregistrement vocal est la fonctionnalité phare de Savlo. Tu prononces une transaction — « café chez Starbucks, 5,40 $ » — et elle est enregistrée. Pas de frappe, pas de sélection de catégorie, pas de synchronisation bancaire requise. La reconnaissance vocale gère le langage naturel, y compris les noms de commerçants, les montants et même de brèves notes. Pour les personnes qui trouvent la saisie manuelle fastidieuse mais ne veulent pas lier leurs comptes bancaires, l'enregistrement vocal est l'option la moins contraignante disponible."
         },
         {
                 "kind": "p",
-                "text": "Aucune liaison bancaire requise. C'est un choix de conception délibéré, pas une limitation. Savlo fonctionne en vous faisant enregistrer les transactions vous-même — par voix, saisie manuelle ou import CSV. Il n'y a pas d'agrégateur tiers en qui avoir confiance ni d'identifiants bancaires à partager, donc Savlo ne garde jamais l'accès à votre banque. Pour les utilisateurs qui sont anxieux à l'idée de partager des données financières, c'est l'option la plus privée disponible."
+                "text": "Aucune liaison bancaire requise. C'est un choix de conception délibéré, pas une limitation. Savlo fonctionne en te faisant enregistrer les transactions toi-même — par voix, saisie manuelle ou import CSV. Il n'y a pas d'agrégateur tiers en qui avoir confiance ni d'identifiants bancaires à partager, donc Savlo ne garde jamais l'accès à ta banque. Pour les utilisateurs qui sont anxieux à l'idée de partager des données financières, c'est l'option la plus privée disponible."
         },
         {
                 "kind": "p",
-                "text": "L'interface simple est véritablement différente des autres applications de budgétisation. Il n'y a pas de chiffres rouges indiquant un dépassement de dépenses. Pas de notifications d'alarme. Pas de compteurs de séquences qui vous font sentir coupable pour un jour manqué. La palette de couleurs est atténuée, le langage est neutre, et l'expérience globale est conçue pour réduire plutôt qu'augmenter l'anxiété financière. La recherche sur la dysmorphie monétaire et le stress financier soutient cette approche : les outils basés sur la honte poussent à l'évitement, pas au changement de comportement."
+                "text": "L'interface simple est véritablement différente des autres applications de budgétisation. Il n'y a pas de chiffres rouges indiquant un dépassement de dépenses. Pas de notifications d'alarme. Pas de compteurs de séquences qui te font sentir coupable pour un jour manqué. La palette de couleurs est atténuée, le langage est neutre, et l'expérience globale est conçue pour réduire plutôt qu'augmenter l'anxiété financière. La recherche sur la dysmorphie monétaire et le stress financier soutient cette approche : les outils basés sur la honte poussent à l'évitement, pas au changement de comportement."
         },
         {
                 "kind": "p",
-                "text": "Les fonds dotation sont intégrés. Savlo prend en charge la mise de côté d'argent pour des dépenses futures spécifiques — entretien automobile, cadeaux de vacances, abonnements annuels — pour qu'ils ne vous surprennent jamais. L'approche des fonds dotation est l'une des techniques de budgétisation les plus efficaces pour réduire le stress financier, et Savlo rend simple à configurer et à suivre."
+                "text": "Les fonds dotation sont intégrés. Savlo prend en charge la mise de côté d'argent pour des dépenses futures spécifiques — entretien automobile, cadeaux de vacances, abonnements annuels — pour qu'ils ne te surprennent jamais. L'approche des fonds dotation est l'une des techniques de budgétisation les plus efficaces pour réduire le stress financier, et Savlo rend simple à configurer et à suivre."
         },
         {
                 "kind": "p",
-                "text": "L'import CSV vous permet d'apporter des données d'autres sources. Si vous avez des données historiques de YNAB, Monarch, Mint ou d'un tableur, vous pouvez les importer dans Savlo via CSV. Cela rend possible de passer d'une application à l'autre sans perdre votre historique de transactions."
+                "text": "L'import CSV te permet d'apporter des données d'autres sources. Si tu as des données historiques de YNAB, Monarch, Mint ou d'un tableur, tu peux les importer dans Savlo via CSV. Cela rend possible de passer d'une application à l'autre sans perdre ton historique de transactions."
         },
         {
                 "kind": "p",
-                "text": "Fonctionne hors ligne. Savlo garde une copie de vos données sur votre téléphone, vous pouvez donc continuer à enregistrer sans connexion. Vous pouvez enregistrer des transactions dans un avion, dans un tunnel, ou dans toute situation de faible connectivité. Vos données se synchronisent lorsque vous êtes de retour en ligne. C'est un petit détail jusqu'à ce que vous en ayez besoin, et alors c'est un avantage significatif."
+                "text": "Fonctionne hors ligne. Savlo garde une copie de tes données sur ton téléphone, tu peux donc continuer à enregistrer sans connexion. Tu peux enregistrer des transactions dans un avion, dans un tunnel, ou dans toute situation de faible connectivité. Tes données se synchronisent lorsque tu es de retour en ligne. C'est un petit détail jusqu'à ce que tu en aies besoin, et alors c'est un avantage significatif."
         },
         {
                 "kind": "p",
-                "text": "L'intégration est rapide. Vous pouvez enregistrer des transactions en quelques minutes après avoir téléchargé l'application. Il n'y a pas de processus de liaison de compte, pas de vérification à étapes multiples, et pas de configuration complexe des catégories. La barrière d'entrée plus basse signifie que vous découvrez si l'application fonctionne pour vous beaucoup plus vite qu'avec YNAB ou Monarch."
+                "text": "L'intégration est rapide. Tu peux enregistrer des transactions en quelques minutes après avoir téléchargé l'application. Il n'y a pas de processus de liaison de compte, pas de vérification à étapes multiples, et pas de configuration complexe des catégories. La barrière d'entrée plus basse signifie que tu découvres si l'application fonctionne pour te beaucoup plus vite qu'avec YNAB ou Monarch."
         },
         {
                 "id": "l-o-savlo-est-en-d-faut",
@@ -6124,11 +6124,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Savlo est plus récent et a un ensemble de fonctionnalités plus petit que YNAB ou Monarch. Il n'y a pas de suivi d'investissements ni de synchronisation bancaire. Si vous voulez un tableau financier complet qui inclut vos comptes de courtage et fonds de retraite, Savlo n'est pas le bon outil — au moins pas encore."
+                "text": "Savlo est plus récent et a un ensemble de fonctionnalités plus petit que YNAB ou Monarch. Il n'y a pas de suivi d'investissements ni de synchronisation bancaire. Si tu veux un tableau financier complet qui inclut tes comptes de courtage et fonds de retraite, Savlo n'est pas le bon outil — au moins pas encore."
         },
         {
                 "kind": "p",
-                "text": "Le modèle de non-liaison bancaire est un point fort en matière de confidentialité mais un compromis de commodité. Si vous voulez que vos transactions apparaissent automatiquement sans effort de votre part, Savlo ne le fera pas. Vous devez les enregistrer vous-même, soit par voix soit en important un CSV de votre banque. Pour les utilisateurs qui veulent un suivi entièrement automatisé, c'est un point de friction significatif."
+                "text": "Le modèle de non-liaison bancaire est un point fort en matière de confidentialité mais un compromis de commodité. Si tu veux que tes transactions apparaissent automatiquement sans effort de ta part, Savlo ne le fera pas. Tu dois les enregistrer toi-même, soit par voix soit en important un CSV de ta banque. Pour les utilisateurs qui veulent un suivi entièrement automatisé, c'est un point de friction significatif."
         },
         {
                 "kind": "p",
@@ -6136,7 +6136,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Savlo est conçu pour Android, avec le support iOS en cours de développement. Si vous êtes utilisateur d'iPhone, vous devrez attendre le lancement d'iOS pour essayer l'application."
+                "text": "Savlo est conçu pour Android, avec le support iOS en cours de développement. Si tu es utilisateur d'iPhone, tu devras attendre le lancement d'iOS pour essayer l'application."
         },
         {
                 "kind": "p",
@@ -6161,7 +6161,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Voici une comparaison directe des fonctionnalités les plus importantes pour l'utilisation quotidienne. Ce n'est pas un audit complet des fonctionnalités — c'est une comparaison ciblée des capacités qui affectent réellement votre expérience quotidienne avec chaque application."
+                "text": "Voici une comparaison directe des fonctionnalités les plus importantes pour l'utilisation quotidienne. Ce n'est pas un audit complet des fonctionnalités — c'est une comparaison ciblée des capacités qui affectent réellement ton expérience quotidienne avec chaque application."
         },
         {
                 "kind": "p",
@@ -6169,11 +6169,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Enregistrement vocal : Savlo prend en charge la saisie vocale en langage naturel pour enregistrer les transactions. Ni YNAB ni Monarch n'offrent l'enregistrement vocal. Vous tapez ou importez les transactions dans les deux applications."
+                "text": "- Enregistrement vocal : Savlo prend en charge la saisie vocale en langage naturel pour enregistrer les transactions. Ni YNAB ni Monarch n'offrent l'enregistrement vocal. Tu tapes ou importes les transactions dans les deux applications."
         },
         {
                 "kind": "p",
-                "text": "- Suivi du patrimoine net : Monarch excelle ici avec des calculs de patrimoine net en temps réel sur tous les comptes liés. YNAB suit le flux de trésorerie et les progrès du budget mais ne calcule pas le patrimoine net. Savlo affiche votre patrimoine net à partir des comptes que vous ajoutez, mais ne suit pas les investissements."
+                "text": "- Suivi du patrimoine net : Monarch excelle ici avec des calculs de patrimoine net en temps réel sur tous les comptes liés. YNAB suit le flux de trésorerie et les progrès du budget mais ne calcule pas le patrimoine net. Savlo affiche ton patrimoine net à partir des comptes que tu ajoutes, mais ne suit pas les investissements."
         },
         {
                 "kind": "p",
@@ -6185,7 +6185,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Support hors ligne : Savlo continue de fonctionner hors ligne et synchronise ce que vous enregistrez dès que vous vous reconnectez. YNAB et Monarch nécessitent une connexion Internet pour la plupart des fonctionnalités, y compris la synchronisation bancaire et l'accès aux données."
+                "text": "- Support hors ligne : Savlo continue de fonctionner hors ligne et synchronise ce que tu enregistres dès que tu te reconnectes. YNAB et Monarch nécessitent une connexion Internet pour la plupart des fonctionnalités, y compris la synchronisation bancaire et l'accès aux données."
         },
         {
                 "kind": "p",
@@ -6207,13 +6207,13 @@ const overrides = {
                 "kind": "divider"
         },
         {
-                "id": "quelle-application-est-faite-pour-votre-type-de-ce",
+                "id": "quelle-application-est-faite-pour-ton-type-de-cerv",
                 "kind": "h2",
-                "text": "Quelle application est faite pour votre type de cerveau ?"
+                "text": "Quelle application est faite pour ton type de cerveau ?"
         },
         {
                 "kind": "p",
-                "text": "La meilleure application de budgétisation n'est pas celle avec le plus de fonctionnalités. C'est celle qui correspond à votre façon de penser l'argent, à l'effort que vous êtes prêt à investir et à l'expérience émotionnelle que vous voulez du fait de vérifier vos finances. Voici une répartition par type de personnalité."
+                "text": "La meilleure application de budgétisation n'est pas celle avec le plus de fonctionnalités. C'est celle qui correspond à ta façon de penser l'argent, à l'effort que tu es prêt à investir et à l'expérience émotionnelle que tu veux du fait de vérifier tes finances. Voici une répartition par type de personnalité."
         },
         {
                 "id": "le-contr-leur",
@@ -6222,7 +6222,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous voulez attribuer chaque dollar à un emploi. Vous appréciez le processus de planification de vos dépenses à l'avance. Vous aimez les catégories détaillées, les objectifs spécifiques et la satisfaction de voir un budget parfaitement équilibré. Vous êtes prêt à passer du temps sur le système parce que la contrôle qu'il vous donne en vaut l'effort."
+                "text": "Tu veux attribuer chaque dollar à un emploi. Tu apprécies le processus de planification de tes dépenses à l'avance. Tu aimes les catégories détaillées, les objectifs spécifiques et la satisfaction de voir un budget parfaitement équilibré. Tu es prêt à passer du temps sur le système parce que la contrôle qu'il te donne en vaut l'effort."
         },
         {
                 "kind": "p",
@@ -6235,7 +6235,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous voulez voir le tableau d'ensemble. Vous voulez connaître votre patrimoine net, comment vos investissements performent et où votre argent est allé le mois dernier. Vous préférez un système automatisé qui agrège tout sans nécessiter de saisie de données quotidienne. Vous aimez les tableaux de bord, les graphiques et les rapports."
+                "text": "Tu veux voir le tableau d'ensemble. Tu veux connaître ton patrimoine net, comment tes investissements performent et où ton argent est allé le mois dernier. Tu préfères un système automatisé qui agrège tout sans nécessiter de saisie de données quotidienne. Tu aimes les tableaux de bord, les graphiques et les rapports."
         },
         {
                 "kind": "p",
@@ -6248,11 +6248,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous évitez de regarder votre solde bancaire. L'ouverture de vos applications financières vous fait sentir pire, pas mieux. Vous avez déjà essayé la budgétisation et abandonné parce que les chiffres rouges, les compteurs de culpabilité ou la complexité vous donnaient l'impression d'échouer. Vous voulez la conscience sans l'anxiété."
+                "text": "Tu évites de regarder ton solde bancaire. L'ouverture de tes applications financières te fait sentir pire, pas mieux. Tu as déjà essayé la budgétisation et abandonné parce que les chiffres rouges, les compteurs de culpabilité ou la complexité te donnaient l'impression d'échouer. Tu veux la conscience sans l'anxiété."
         },
         {
                 "kind": "p",
-                "text": "Meilleure correspondance : Savlo. L'interface simple, l'enregistrement vocal et l' absence de modèles de conception basés sur la honte sont spécialement construits pour cette expérience. Savlo est conçu pour vous faire sentir mieux après l'avoir ouvert, pas plus mal."
+                "text": "Meilleure correspondance : Savlo. L'interface simple, l'enregistrement vocal et l' absence de modèles de conception basés sur la honte sont spécialement construits pour cette expérience. Savlo est conçu pour te faire sentir mieux après l'avoir ouvert, pas plus mal."
         },
         {
                 "id": "le-couple",
@@ -6261,7 +6261,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous et votre partenaire partagez vos finances, et vous avez besoin d'un outil qui permet aux deux de voir le tableau complet. Vous voulez lier les deux ensembles de comptes, suivre les objectifs partagés et éviter le problème de la double saisie où les deux personnes suivent les mêmes dépenses séparément."
+                "text": "Tu partages tes finances avec ton partenaire, et tu as besoin d'un outil qui permet aux deux de voir le tableau complet. Tu veux lier les deux ensembles de comptes, suivre les objectifs partagés et éviter le problème de la double saisie où les deux personnes suivent les mêmes dépenses séparément."
         },
         {
                 "kind": "p",
@@ -6274,11 +6274,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous n'êtes pas à l'aise à l'idée de lier des comptes bancaires à des applications tierces. Vous avez vu les violations de données, les changements de politique de confidentialité et les arrêts de service. Vous voulez des outils financiers qui respectent vos données et ne vous demandent pas de remettre vos identifiants bancaires."
+                "text": "Tu n'es pas à l'aise à l'idée de lier des comptes bancaires à des applications tierces. Tu as vu les violations de données, les changements de politique de confidentialité et les arrêts de service. Tu veux des outils financiers qui respectent tes données et ne te demandent pas de remettre tes identifiants bancaires."
         },
         {
                 "kind": "p",
-                "text": "Meilleure correspondance : Savlo. Pas de liaison bancaire, pas d'agrégateurs bancaires, et vos données financières ne sont jamais vendues."
+                "text": "Meilleure correspondance : Savlo. Pas de liaison bancaire, pas d'agrégateurs bancaires, et tes données financières ne sont jamais vendues."
         },
         {
                 "id": "le-nerd-des-donn-es",
@@ -6287,7 +6287,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous adorez les rapports, les tendances et les analyses. Vous voulez voir vos dépenses par catégorie, par mois, par commerçant. Vous voulez comparer ce trimestre au trimestre précédent. Vous appréciez le processus d'analyse de vos données financières et de recherche de schémas."
+                "text": "Tu adores les rapports, les tendances et les analyses. Tu veux voir tes dépenses par catégorie, par mois, par commerçant. Tu veux comparer ce trimestre au trimestre précédent. Tu apprécies le processus d'analyse de tes données financières et de recherche de schémas."
         },
         {
                 "kind": "p",
@@ -6300,19 +6300,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Vous avez déjà essayé des applications de budget et abandonné. C'était peut-être YNAB et la complexité vous a submergé. C'était peut-être un suivi gratuit qui vous montrait des chiffres rouges chaque fois que vous l'ouvriez. Vous l'avez peut-être simplement oublié après une semaine. Vous avez besoin de quelque chose avec la moindre friction possible."
+                "text": "Tu as déjà essayé des applications de budget et abandonné. C'était peut-être YNAB et la complexité t'a submergé. C'était peut-être un suivi gratuit qui te montrait des chiffres rouges chaque fois que tu l'ouvrais. Tu l'as peut-être simplement oublié après une semaine. Tu as besoin de quelque chose avec la moindre friction possible."
         },
         {
                 "kind": "p",
-                "text": "Meilleure correspondance : Savlo. L'intégration rapide, l'enregistrement vocal et la conception simple signifient que vous pouvez être productif en quelques minutes après avoir téléchargé l'application. Il n'y a pas de système complexe à apprendre, pas de réconciliation quotidienne à maintenir et pas de culpabilité si vous manquez un jour."
+                "text": "Meilleure correspondance : Savlo. L'intégration rapide, l'enregistrement vocal et la conception simple signifient que tu peux être productif en quelques minutes après avoir téléchargé l'application. Il n'y a pas de système complexe à apprendre, pas de réconciliation quotidienne à maintenir et pas de culpabilité si tu manques un jour."
         },
         {
                 "kind": "divider"
         },
         {
-                "id": "la-question-de-la-migration-pouvez-vous-passer-d-u",
+                "id": "la-question-de-la-migration-peux-tu-passer-d-une-a",
                 "kind": "h2",
-                "text": "La question de la migration : pouvez-vous passer d'une application à l'autre ?"
+                "text": "La question de la migration : peux-tu passer d'une application à l'autre ?"
         },
         {
                 "kind": "p",
@@ -6325,7 +6325,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "YNAB vous permet d'exporter vos données en tant que fichier CSV. Cela comprend vos transactions, catégures et soldes de comptes. L'export est simple et bien documenté. Vous pouvez importer ce CSV dans Savlo pour emporter votre historique de transactions, ou dans un tableur pour analyse."
+                "text": "YNAB te permet d'exporter tes données en tant que fichier CSV. Cela comprend tes transactions, catégures et soldes de comptes. L'export est simple et bien documenté. Tu peux importer ce CSV dans Savlo pour emporter ton historique de transactions, ou dans un tableur pour analyse."
         },
         {
                 "id": "exporter-depuis-monarch",
@@ -6334,7 +6334,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Monarch prend également en charge l'export CSV des transactions et des données de compte. Le processus est similaire à YNAB — vous naviguez vers la section d'export dans les paramètres, sélectionnez votre plage de dates et téléchargez le fichier. Ces données peuvent être importées dans Savlo ou tout autre outil qui accepte l'entrée CSV."
+                "text": "Monarch prend également en charge l'export CSV des transactions et des données de compte. Le processus est similaire à YNAB — tu navigues vers la section d'export dans les paramètres, sélectionnes ta plage de dates et télécharges le fichier. Ces données peuvent être importées dans Savlo ou tout autre outil qui accepte l'entrée CSV."
         },
         {
                 "id": "importer-dans-savlo",
@@ -6343,7 +6343,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Savlo accepte les importations CSV de YNAB et Monarch. Le processus d' importation mappe les champs communs — date, montant, catégorie, description — à la structure de Savlo. Les données historiques sont transférées proprement, bien que certaines fonctionnalités spécifiques à YNAB comme les attributions de règles et le suivi d'objectifs ne soient pas transférées. Votre historique de transactions sera intact, mais les métadonnées autour de ces transactions peuvent être simplifiées."
+                "text": "Savlo accepte les importations CSV de YNAB et Monarch. Le processus d' importation mappe les champs communs — date, montant, catégorie, description — à la structure de Savlo. Les données historiques sont transférées proprement, bien que certaines fonctionnalités spécifiques à YNAB comme les attributions de règles et le suivi d'objectifs ne soient pas transférées. Ton historique de transactions sera intact, mais les métadonnées autour de ces transactions peuvent être simplifiées."
         },
         {
                 "id": "aller-dans-l-autre-sens",
@@ -6352,28 +6352,28 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vous commencez avec Savlo et voulez passer à YNAB ou Monarch plus tard, Savlo prend également en charge l'export CSV. Vos données de transactions peuvent être exportées et importées dans l'une ou l'autre application. La migration inverse est légèrement plus fluide parce que YNAB et Monarch ont des outils d'importation plus matures qui gèrent une plus grande variété de formats CSV."
+                "text": "Si tu commences avec Savlo et veux passer à YNAB ou Monarch plus tard, Savlo prend également en charge l'export CSV. Tes données de transactions peuvent être exportées et importées dans l'une ou l'autre application. La migration inverse est légèrement plus fluide parce que YNAB et Monarch ont des outils d'importation plus matures qui gèrent une plus grande variété de formats CSV."
         },
         {
-                "id": "ce-que-vous-perdez-lors-d-un-changement",
+                "id": "ce-que-tu-perds-lors-d-un-changement",
                 "kind": "h3",
-                "text": "Ce que vous perdez lors d'un changement"
+                "text": "Ce que tu perds lors d'un changement"
         },
         {
                 "kind": "p",
-                "text": "La plus grande perte lors de tout changement d'application ne sont pas vos données de transactions — ce sont vos habitudes de flux de travail. Si vous avez passé des mois à construire des catégories YNAB, à configurer des règles et à développer une routine quotidienne autour de l'application, changer signifie reconstruire ces habitudes à partir de zéro. Les données sont transférées, mais la mémoire musculaire ne l'est pas."
+                "text": "La plus grande perte lors de tout changement d'application ne sont pas tes données de transactions — ce sont tes habitudes de flux de travail. Si tu as passé des mois à construire des catégories YNAB, à configurer des règles et à développer une routine quotidienne autour de l'application, changer signifie reconstruire ces habitudes à partir de zéro. Les données sont transférées, mais la mémoire musculaire ne l'est pas."
         },
         {
                 "kind": "p",
-                "text": "C'est pourquoi nous recommandons d'essayer une application pendant au moins 60 à 90 jours avant de décider. Le premier mois est généralement de la confusion. Le deuxième mois est quand le flux de travail commence à sembler naturel. Le troisième mois est quand vous pouvez évaluer honnêtement si l'application fonctionne pour vous. Changer après deux semaines ne vous dit pas grand-chose, parce que chaque nouvelle application semble maladroite pendant les deux premières semaines."
+                "text": "C'est pourquoi nous recommandons d'essayer une application pendant au moins 60 à 90 jours avant de décider. Le premier mois est généralement de la confusion. Le deuxième mois est quand le flux de travail commence à sembler naturel. Le troisième mois est quand tu peux évaluer honnêtement si l'application fonctionne pour toi. Changer après deux semaines ne te dit pas grand-chose, parce que chaque nouvelle application semble maladroite pendant les deux premières semaines."
         },
         {
                 "kind": "p",
-                "text": "Un conseil pratique : avant d'annuler un abonnement ou de supprimer une application, exportez vos données d'abord. Même si vous pensez que vous n'en aurez jamais besoin, les données de transactions historiques ont de la valeur. Elles vous aident à voir les tendances d'une année à l'autre, soutiennent la préparation des impôts et vous donnent une ligne de base quand vous commencez avec un nouvel outil. Un export de cinq minutes maintenant vous épargne des heures de regrets plus tard."
+                "text": "Un conseil pratique : avant d'annuler un abonnement ou de supprimer une application, exporte tes données d'abord. Même si tu penses que tu n'en auras jamais besoin, les données de transactions historiques ont de la valeur. Elles t'aident à voir les tendances d'une année à l'autre, soutiennent la préparation des impôts et te donnent une ligne de base quand tu commences avec un nouvel outil. Un export de cinq minutes maintenant t'épargne des heures de regrets plus tard."
         },
         {
                 "kind": "p",
-                "text": "Si vous passez de YNAB à Savlo, vous perdrez la structure granulaire de catégories et les métadonnées de suivi d'objectifs, mais vous gagnerez l'enregistrement vocal, la confidentialité et une expérience quotidienne plus rapide. Si vous passez de Monarch à Savlo, vous perdrez le suivi d'investissements et la synchronisation bancaire automatisée, mais vous gagnerez un contrôle direct sur vos données et un point d'entrée à moindre friction. Tout changement implique un compromis. La question est quel compromis correspond à vos priorités actuelles."
+                "text": "Si tu passes de YNAB à Savlo, tu perdras la structure granulaire de catégories et les métadonnées de suivi d'objectifs, mais tu gagneras l'enregistrement vocal, la confidentialité et une expérience quotidienne plus rapide. Si tu passes de Monarch à Savlo, tu perdras le suivi d'investissements et la synchronisation bancaire automatisée, mais tu gagneras un contrôle direct sur tes données et un point d'entrée à moindre friction. Tout changement implique un compromis. La question est quel compromis correspond à tes priorités actuelles."
         },
         {
                 "kind": "divider"
@@ -6385,15 +6385,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Il n'y a pas de seule « meilleure » application de budgétisation. Il y a la meilleure application pour votre cerveau, votre situation financière et votre relation à l'argent. C'est une réponse différente pour chaque personne."
+                "text": "Il n'y a pas de seule « meilleure » application de budgétisation. Il y a la meilleure application pour ton cerveau, ta situation financière et ta relation à l'argent. C'est une réponse différente pour chaque personne."
         },
         {
                 "kind": "p",
-                "text": "Si vous avez essayé YNAB et que vous l'avez trouvé accablant, cela ne signifie pas que vous avez échoué. Cela signifie que la complexité de YNAB ne correspondait pas à vos besoins. L'approche de budgétisation à base zéro est puissante, mais elle nécessite un certain niveau d'engagement quotidien que tout le monde ne veut ou ne peut pas maintenir."
+                "text": "Si tu as essayé YNAB et que tu l'as trouvé accablant, cela ne signifie pas que tu as échoué. Cela signifie que la complexité de YNAB ne correspondait pas à tes besoins. L'approche de budgétisation à base zéro est puissante, mais elle nécessite un certain niveau d'engagement quotidien que tout le monde ne veut ou ne peut pas maintenir."
         },
         {
                 "kind": "p",
-                "text": "Si vous avez essayé Monarch et que vous l'avez trouvé trop passif, c'est tout aussi valide. Un beau tableau de bord n'est pas utile si vous le regardez une fois et ne l'ouvrez jamais à nouveau. La visibilité financière est nécessaire, mais elle n'est pas toujours suffisante pour un changement de comportement."
+                "text": "Si tu as essayé Monarch et que tu l'as trouvé trop passif, c'est tout aussi valide. Un beau tableau de bord n'est pas utile si tu le regardes une fois et ne l'ouvres jamais à nouveau. La visibilité financière est nécessaire, mais elle n'est pas toujours suffisante pour un changement de comportement."
         },
         {
                 "kind": "p",
@@ -6401,22 +6401,22 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Si vous aimez le contrôle détaillé, YNAB est excellent. Si vous voulez un tableau de bord financier, Monarch est génial. Si vous voulez une manière rapide et sans friction de construire de meilleures habitudes de dépenses, Savlo vaut la peine d'être essayé. La meilleure application est celle que vous utiliserez réellement dans trois mois."
+                "text": "Si tu aimes le contrôle détaillé, YNAB est excellent. Si tu veux un tableau de bord financier, Monarch est génial. Si tu veux une manière rapide et sans friction de construire de meilleures habitudes de dépenses, Savlo vaut la peine d'être essayé. La meilleure application est celle que tu utiliseras réellement dans trois mois."
         },
         {
                 "kind": "p",
-                "text": "Vous pouvez aussi mélanger et associer. Certaines personnes utilisent YNAB pour la budgétisation mensuelle détaillée et Savlo pour des vérifications vocales rapides tout au long de la journée. D'autres utilisent Monarch pour le suivi du patrimoine net et Savlo pour la conscience quotidienne des dépenses. Ces outils n'ont pas à être mutuellement exclusifs. L'objectif n'est pas de choisir la « bonne » application. L'objectif est de construire un système financier en lequel vous avez réellement confiance."
+                "text": "Tu peux aussi mélanger et associer. Certaines personnes utilisent YNAB pour la budgétisation mensuelle détaillée et Savlo pour des vérifications vocales rapides tout au long de la journée. D'autres utilisent Monarch pour le suivi du patrimoine net et Savlo pour la conscience quotidienne des dépenses. Ces outils n'ont pas à être mutuellement exclusifs. L'objectif n'est pas de choisir la « bonne » application. L'objectif est de construire un système financier en lequel tu as réellement confiance."
         },
         {
                 "kind": "p",
-                "text": "Quoi que vous choisissiez, l'étape la plus importante est celle que vous prenez aujourd'hui. Pas l'application parfaite. Pas le système parfait. Juste une petite, habitude constante qui vous rapproche d'une conscience financière plus claire. Commencez par une transaction. Une vérification. Un moment d' honnêteté sur où votre argent est allé cette semaine. C'est suffisant."
+                "text": "Quoi que tu choisisses, l'étape la plus importante est celle que tu prends aujourd'hui. Pas l'application parfaite. Pas le système parfait. Juste une petite, habitude constante qui te rapproche d'une conscience financière plus claire. Commence par une transaction. Une vérification. Un moment d' honnêteté sur où ton argent est allé cette semaine. C'est suffisant."
         },
         {
                 "kind": "divider"
         },
         {
                 "kind": "p",
-                "text": "> Savlo est conçu pour Android, et iOS arrive ensuite. Commencez avec l'essai gratuit de 14 jours et voyez si la conscience financière au quotidien fonctionne pour votre cerveau. Aucune liaison bancaire requise."
+                "text": "> Savlo est conçu pour Android, et iOS arrive ensuite. Commence avec l'essai gratuit de 14 jours et vois si la conscience financière au quotidien fonctionne pour ton cerveau. Aucune liaison bancaire requise."
         }
 ]
     },
@@ -6447,15 +6447,15 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "Si vous avez déjà ouvert votre application bancaire tard le soir et que vous avez senti votre estomac se nouer, ce guide est pour vous. Le budget nous a été vendu à la plupart d'entre nous comme un problème de discipline : une question de volonté, une série à maintenir, un nombre à battre. La réalité est plus douce, et bien plus utile. Un budget est un plan que vous faites avant de dépenser, pas un verdict que vous rendez après. C'est la différence entre conduire avec une carte et conduire en fixant le rétroviseur."
+                "text": "Si tu as déjà ouvert ton application bancaire tard le soir et que tu as senti ton estomac se nouer, ce guide est pour toi. Le budget nous a été vendu à la plupart d'entre nous comme un problème de discipline : une question de volonté, une série à maintenir, un nombre à battre. La réalité est plus douce, et bien plus utile. Un budget est un plan que tu fais avant de dépenser, pas un verdict que tu rends après. C'est la différence entre conduire avec une carte et conduire en fixant le rétroviseur."
         },
         {
                 "kind": "p",
-                "text": "Ce guide est long à dessein. Il n'existe pas un seul tour qui rend l'argent gérable pour le reste de votre vie. Il existe une poignée d'habitudes, répétées souvent, qui génèrent des résultats composés. Le but de cet article est de vous guider à travers elles dans l'ordre : comment penser à l'argent sans détourner le regard, comment construire un budget que vous pouvez réellement tenir, comment suivre vos dépenses sans que cela consume votre journée, et comment vous récupérer lorsque la vie brise le plan. Nous ferons référence à la recherche en finances comportementales lorsque cela aide, et nous garderons les exemples ancrés dans des situations mensuelles réelles : loyer, courses, paiements de dettes, une réparation urgente de voiture, le mariage d'un ami."
+                "text": "Ce guide est long à dessein. Il n'existe pas un seul tour qui rend l'argent gérable pour le reste de ta vie. Il existe une poignée d'habitudes, répétées souvent, qui génèrent des résultats composés. Le but de cet article est de te guider à travers elles dans l'ordre : comment penser à l'argent sans détourner le regard, comment construire un budget que tu peux réellement tenir, comment suivre tes dépenses sans que cela consume ta journée, et comment te récupérer lorsque la vie brise le plan. Nous ferons référence à la recherche en finances comportementales lorsque cela aide, et nous garderons les exemples ancrés dans des situations mensuelles réelles : loyer, courses, paiements de dettes, une réparation urgente de voiture, le mariage d'un ami."
         },
         {
                 "kind": "p",
-                "text": "Si vous avez déjà essayé de faire un budget et avez abandonné, l'erreur n'était presque certainement pas un manque de discipline. La conception de la plupart des outils de budget lutte contre la façon dont votre cerveau fonctionne réellement. Savlo est l'une des applications qui essaie de travailler avec vous plutôt que contre vous. Elle est conçue pour Android, et iOS arrive ensuite, et le reste de ce guide fera référence à son approche comme l'un de plusieurs exemples. Si vous n'avez que dix minutes, passez au démarrage rapide en sept étapes. Si vous avez trente minutes, lisez dans l'ordre."
+                "text": "Si tu as déjà essayé de faire un budget et as abandonné, l'erreur n'était presque certainement pas un manque de discipline. La conception de la plupart des outils de budget lutte contre la façon dont ton cerveau fonctionne réellement. Savlo est l'une des applications qui essaie de travailler avec toi plutôt que contre toi. Elle est conçue pour Android, et iOS arrive ensuite, et le reste de ce guide fera référence à son approche comme l'un de plusieurs exemples. Si tu n'as que dix minutes, passe au démarrage rapide en sept étapes. Si tu as trente minutes, lis dans l'ordre."
         },
         {
                 "id": "dans-ce-guide",
@@ -6486,7 +6486,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Comment construire votre premier budget en sept étapes"
+                "text": "Comment construire ton premier budget en sept étapes"
         },
         {
                 "kind": "p",
@@ -6494,7 +6494,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Comment suivre vos dépenses sans vous épuiser"
+                "text": "Comment suivre tes dépenses sans t'épuiser"
         },
         {
                 "kind": "p",
@@ -6506,7 +6506,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La réinitialisation de sept jours quand vous dépassez le budget"
+                "text": "La réinitialisation de sept jours quand tu dépasses le budget"
         },
         {
                 "kind": "p",
@@ -6522,7 +6522,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La psychologie du surdépassement et comment vous surpasser"
+                "text": "La psychologie du surdépassement et comment te surpasser"
         },
         {
                 "kind": "p",
@@ -6556,19 +6556,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un budget n'est pas une punition. Ce n'est pas un tableur que vous construisez une fois et que vous n'ouvrez jamais. Ce n'est pas un test moral pour savoir si vous êtes une personne « responsable ». Dans sa forme la plus utile, un budget est une promesse courte et écrite que vous faites à votre futur moi sur la façon dont vous dépenserez l'argent le mois prochain. C'est tout. Quand il cesse d'être cela, il cesse généralement d'être utile."
+                "text": "Un budget n'est pas une punition. Ce n'est pas un tableur que tu construis une fois et que tu n'ouvres jamais. Ce n'est pas un test moral pour savoir si tu es une personne « responsable ». Dans sa forme la plus utile, un budget est une promesse courte et écrite que tu fais à ton futur moi sur la façon dont tu dépenseras l'argent le mois prochain. C'est tout. Quand il cesse d'être cela, il cesse généralement d'être utile."
         },
         {
                 "kind": "p",
-                "text": "La plupart des budgets qui échouent le font pour une de trois raisons. Ils essaient de suivre chaque centime, ce qui est épuisant. Ils sont basés sur le revenu brut au lieu du revenu net, ce qui rend les chiffres impossibles. Ou ils ne sont examinés qu'à la fin du mois, moment où le train est déjà parti. Aucun de ces problèmes ne vous concerne. Ils concernent la conception du système. Nous les abordons en détail plus tard dans ce guide."
+                "text": "La plupart des budgets qui échouent le font pour une de trois raisons. Ils essaient de suivre chaque centime, ce qui est épuisant. Ils sont basés sur le revenu brut au lieu du revenu net, ce qui rend les chiffres impossibles. Ou ils ne sont examinés qu'à la fin du mois, moment où le train est déjà parti. Aucun de ces problèmes ne te concerne. Ils concernent la conception du système. Nous les abordons en détail plus tard dans ce guide."
         },
         {
                 "kind": "p",
-                "text": "Un budget utile est un outil, pas un verdict. Il vous dit, à l'avance, si la prochaine décision est abordable et alignée avec ce que vous avez dit qui comptait le mois dernier. Si la réponse est non, le budget fait son travail en le disant. Si la réponse est oui, le budget fait son travail en vous donnant la permission. La plupart des personnes qui ressentent une anxiété constante à propos de l'argent ne dépensent pas réellement trop. Elles dépensent sans cadre, et l'incertitude est la source du stress. Le plan élimine l'incertitude, pas l'argent."
+                "text": "Un budget utile est un outil, pas un verdict. Il te dit, à l'avance, si la prochaine décision est abordable et alignée avec ce que tu as dit qui comptait le mois dernier. Si la réponse est non, le budget fait son travail en le disant. Si la réponse est oui, le budget fait son travail en te donnant la permission. La plupart des personnes qui ressentent une anxiété constante à propos de l'argent ne dépensent pas réellement trop. Elles dépensent sans cadre, et l'incertitude est la source du stress. Le plan élimine l'incertitude, pas l'argent."
         },
         {
                 "kind": "p",
-                "text": "Il existe un concept connexe provenant des finances comportementales appelé dysmorphie monétaire : se sentir fauché même lorsque vos comptes disent le contraire. C'est plus fréquent que l'industrie financière ne l'admet, et l'un de ses antidotes est de rendre votre plan visible. Un budget, même simple, rend le plan visible."
+                "text": "Il existe un concept connexe provenant des finances comportementales appelé dysmorphie monétaire : se sentir fauché même lorsque tes comptes disent le contraire. C'est plus fréquent que l'industrie financière ne l'admet, et l'un de ses antidotes est de rendre ton plan visible. Un budget, même simple, rend le plan visible."
         },
         {
                 "kind": "divider"
@@ -6579,7 +6579,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Chaque budget, du tableur le plus élaboré à la note la plus simple sur un téléphone, est construit à partir des mêmes quatre chiffres. Si vous pouvez identifier ces quatre chiffres pour votre propre vie, vous savez déjà plus sur votre argent que la plupart des gens ne découvriront jamais. L'ordre importe moins que la précision."
+                "text": "Chaque budget, du tableur le plus élaboré à la note la plus simple sur un téléphone, est construit à partir des mêmes quatre chiffres. Si tu peux identifier ces quatre chiffres pour ta propre vie, tu sais déjà plus sur ton argent que la plupart des gens ne découvriront jamais. L'ordre importe moins que la précision."
         },
         {
                 "id": "1-revenu-net-pas-brut",
@@ -6588,11 +6588,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Faites toujours votre budget avec l'argent qui arrive réellement sur votre compte, pas avec le nombre sur votre fiche de salaire. Les impôts, la sécurité sociale, les soins de santé, les cotisations de retraite et toutes les autres déductions automatiques se produisent avant que vous ne voyiez l'argent. L'erreur de budget la plus courante est de planifier sur le nombre brut puis de se sentir comme un échec lorsque la réalité apparaît 25 à 35 pour cent plus petite. Planifiez sur le net, et le plan survit au contact de la réalité."
+                "text": "Fais toujours ton budget avec l'argent qui arrive réellement sur ton compte, pas avec le nombre sur ta fiche de salaire. Les impôts, la sécurité sociale, les soins de santé, les cotisations de retraite et toutes les autres déductions automatiques se produisent avant que tu ne voies l'argent. L'erreur de budget la plus courante est de planifier sur le nombre brut puis de se sentir comme un échec lorsque la réalité apparaît 25 à 35 pour cent plus petite. Planifie sur le net, et le plan survit au contact de la réalité."
         },
         {
                 "kind": "p",
-                "text": "Si vous êtes pigiste, travailleur de gig ou salarié à commission, votre revenu net est variable. Dans ce cas, la section sur les revenus irréguliers plus loin dans ce guide est la plus importante pour vous. La version courte : utilisez le mois le plus bas fiable comme base, traitez les mois supérieurs comme un bonus, et laissez votre budget respirer."
+                "text": "Si tu es pigiste, travailleur de gig ou salarié à commission, ton revenu net est variable. Dans ce cas, la section sur les revenus irréguliers plus loin dans ce guide est la plus importante pour toi. La version courte : utilise le mois le plus bas fiable comme base, traite les mois supérieurs comme un bonus, et laisse ton budget respirer."
         },
         {
                 "id": "2-d-penses-fixes",
@@ -6601,11 +6601,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les dépenses fixes sont les factures qui arrivent chaque mois en montant approximativement le même. Loyer ou hypothèque, internet, téléphone, assurances, paiements minimums de dettes, abonnements et articles similaires. Ils sont la partie la plus facile d'un budget parce qu'ils sont prévisibles. Inscrivez-les dans une seule colonne et additionnez-les. Cette somme est le minimum que vous vous devez chaque mois avant de faire quoi que ce soit d'autre."
+                "text": "Les dépenses fixes sont les factures qui arrivent chaque mois en montant approximativement le même. Loyer ou hypothèque, internet, téléphone, assurances, paiements minimums de dettes, abonnements et articles similaires. Ils sont la partie la plus facile d'un budget parce qu'ils sont prévisibles. Inscris-les dans une seule colonne et additionne-les. Cette somme est le minimum que tu te dois chaque mois avant de faire quoi que ce soit d'autre."
         },
         {
                 "kind": "p",
-                "text": "Un piège : les abonnements se multiplient silencieusement. L'adulte moyen sous-estime ses dépenses mensuelles d'abonnement de 30 à 50 pour cent dans les enquêtes informelles. Accordez dix minutes cette semaine et regardez les prélèvements automatiques sur votre relevé bancaire. Résiliez tout ce que vous n'avez pas utilisé au cours des 30 derniers jours. Les économies sont généralement supérieures à l'heure passée à l'audit, et elles se cumulent chaque mois après."
+                "text": "Un piège : les abonnements se multiplient silencieusement. L'adulte moyen sous-estime ses dépenses mensuelles d'abonnement de 30 à 50 pour cent dans les enquêtes informelles. Accorde dix minutes cette semaine et regarde les prélèvements automatiques sur ton relevé bancaire. Résilie tout ce que tu n'as pas utilisé au cours des 30 derniers jours. Les économies sont généralement supérieures à l'heure passée à l'audit, et elles se cumulent chaque mois après."
         },
         {
                 "id": "3-d-penses-variables",
@@ -6618,24 +6618,24 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un astuce utile est de définir une seule limite généreuse pour la colonne variable plutôt que de micro-gérer chaque sous-catégorie. Si vos dépenses variables des trois derniers mois moyennaient 650 dollars, fixez le budget à 700 dollars, donnez-vous un petit coussin et arrêtez-vous là. Suivre chaque café est épuisant et change rarement le comportement. Le but est la conscience, pas la surveillance. Nous abordons le suivi en détail dans la prochaine section principale."
+                "text": "Un astuce utile est de définir une seule limite généreuse pour la colonne variable plutôt que de micro-gérer chaque sous-catégorie. Si tes dépenses variables des trois derniers mois moyennaient 650 dollars, fixe le budget à 700 dollars, donne-toi un petit coussin et arrête-toi là. Suivre chaque café est épuisant et change rarement le comportement. Le but est la conscience, pas la surveillance. Nous abordons le suivi en détail dans la prochaine section principale."
         },
         {
-                "id": "4-votre-taux-d-pargne",
+                "id": "4-ton-taux-d-pargne",
                 "kind": "h3",
-                "text": "4. Votre taux d'épargne"
+                "text": "4. Ton taux d'épargne"
         },
         {
                 "kind": "p",
-                "text": "Le taux d'épargne est le pourcentage du revenu net que vous gardez au lieu de dépenser. C'est le chiffre le plus prédictif en finances personnelles. Deux ménages avec des revenus identiques peuvent avoir des résultats à long terme radicalement différents, et le taux d'épargne explique presque tout l'écart."
+                "text": "Le taux d'épargne est le pourcentage du revenu net que tu gardes au lieu de dépenser. C'est le chiffre le plus prédictif en finances personnelles. Deux ménages avec des revenus identiques peuvent avoir des résultats à long terme radicalement différents, et le taux d'épargne explique presque tout l'écart."
         },
         {
                 "kind": "p",
-                "text": "Un point de départ raisonnable pour la plupart des gens est de 10 à 20 pour cent du revenu net, le reste étant réparti entre les dépenses fixes et variables. Si vous ne pouvez pas épargner 10 pour cent maintenant, épargnez un pour cent. Le pourcentage importe moins que l'habitude. Une fois que l'habitude existe, le pourcentage a tendance à croître de lui-même. Nous en discutons dans le guide de la règle 50/30/20, qui est l'un des cadres les plus simples pour transformer le revenu net en une allocation fonctionnelle."
+                "text": "Un point de départ raisonnable pour la plupart des gens est de 10 à 20 pour cent du revenu net, le reste étant réparti entre les dépenses fixes et variables. Si tu ne peux pas épargner 10 pour cent maintenant, épargne un pour cent. Le pourcentage importe moins que l'habitude. Une fois que l'habitude existe, le pourcentage a tendance à croître de lui-même. Nous en discutons dans le guide de la règle 50/30/20, qui est l'un des cadres les plus simples pour transformer le revenu net en une allocation fonctionnelle."
         },
         {
                 "kind": "p",
-                "text": "Où vous placez vos économies est également important. La différence entre un fonds d'urgence et un fonds de prévision est le sujet de sa propre section plus bas, mais la version courte est : protégez-vous de l'imprévisible, puis pré-financez le prévisible."
+                "text": "Où tu places tes économies est également important. La différence entre un fonds d'urgence et un fonds de prévision est le sujet de sa propre section plus bas, mais la version courte est : protège-toi de l'imprévisible, puis pré-finance le prévisible."
         },
         {
                 "kind": "divider"
@@ -6646,7 +6646,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Il ne manque pas de méthodes de budget. La plupart sont des variantes de quelques idées centrales. Plutôt que de mémoriser un système, choisissez celui qui correspond à la façon dont votre cerveau catégorise déjà l'argent, et arrêtez d'optimiser à partir de là. Les trois styles ci-dessous couvrent environ 90 pour cent des conseils de finances personnelles qui fonctionnent réellement dans la vie réelle."
+                "text": "Il ne manque pas de méthodes de budget. La plupart sont des variantes de quelques idées centrales. Plutôt que de mémoriser un système, choisis celui qui correspond à la façon dont ton cerveau catégorise déjà l'argent, et arrête d'optimiser à partir de là. Les trois styles ci-dessous couvrent environ 90 pour cent des conseils de finances personnelles qui fonctionnent réellement dans la vie réelle."
         },
         {
                 "id": "style-1-la-r-gle-50-30-20",
@@ -6655,11 +6655,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La règle 50/30/20 divise votre revenu net en trois catégories : 50 pour cent pour les besoins, 30 pour cent pour les envies et 20 pour cent pour l'épargne et le remboursement des dettes au-delà des paiements minimums. C'est le cadre le plus simple qui respecte encore la différence entre les dépenses essentielles et discrétionnaires."
+                "text": "La règle 50/30/20 divise ton revenu net en trois catégories : 50 pour cent pour les besoins, 30 pour cent pour les envies et 20 pour cent pour l'épargne et le remboursement des dettes au-delà des paiements minimums. C'est le cadre le plus simple qui respecte encore la différence entre les dépenses essentielles et discrétionnaires."
         },
         {
                 "kind": "p",
-                "text": "Points forts : facile à retenir, presque aucun paramétrage, bien pour les gens qui détestent les catégories. Limitations : c'est une ligne directrice, pas une formule. Si vous vivez dans une ville chère, votre catégorie « besoins » peut nécessiter 55 ou 60 pour cent. Ce n'est pas un échec ; c'est la réalité de votre coût de la vie."
+                "text": "Points forts : facile à retenir, presque aucun paramétrage, bien pour les gens qui détestent les catégories. Limitations : c'est une ligne directrice, pas une formule. Si tu vis dans une ville chère, ta catégorie « besoins » peut nécessiter 55 ou 60 pour cent. Ce n'est pas un échec ; c'est la réalité de ton coût de la vie."
         },
         {
                 "id": "style-2-budget-bas-sur-z-ro",
@@ -6672,7 +6672,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Points forts : oblige à prioriser, révèle le gaspillage, rend les compromis explicites. Limitations : nécessite plus de paramétrage, plus de suivi et la volonté de prendre de petites décisions souvent. Si vous êtes quelqu'un qui trouve la catégorisation constante épuisante, le budget basé sur zéro peut ressembler à un emploi à temps partiel."
+                "text": "Points forts : oblige à prioriser, révèle le gaspillage, rend les compromis explicites. Limitations : nécessite plus de paramétrage, plus de suivi et la volonté de prendre de petites décisions souvent. Si tu es quelqu'un qui trouve la catégorisation constante épuisante, le budget basé sur zéro peut ressembler à un emploi à temps partiel."
         },
         {
                 "id": "style-3-m-thode-des-enveloppes-comptes",
@@ -6689,50 +6689,50 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les trois styles fonctionnent. Le meilleur est celui que vous utiliserez encore dans six mois. C'est presque toujours le plus simple que vous pouvez commencer dans les dix prochaines minutes."
+                "text": "Les trois styles fonctionnent. Le meilleur est celui que tu utiliseras encore dans six mois. C'est presque toujours le plus simple que tu peux commencer dans les dix prochaines minutes."
         },
         {
                 "kind": "divider"
         },
         {
                 "kind": "p",
-                "text": "## Comment construire votre premier budget en sept étapes"
+                "text": "## Comment construire ton premier budget en sept étapes"
         },
         {
                 "kind": "p",
-                "text": "Si vous partez de zéro, voici une séquence simple qui produit un budget fonctionnel en moins d'une heure. Aucune de ces étapes ne nécessite une application, bien qu'une application rendra le mois prochain plus facile."
+                "text": "Si tu pars de zéro, voici une séquence simple qui produit un budget fonctionnel en moins d'une heure. Aucune de ces étapes ne nécessite une application, bien qu'une application rendra le mois prochain plus facile."
         },
         {
                 "kind": "p",
-                "text": "- Notez vos revenus nets des trois derniers mois. Utilisez le plus bas des trois comme base pour le mois prochain."
+                "text": "- Note tes revenus nets des trois derniers mois. Utilise le plus bas des trois comme base pour le mois prochain."
         },
         {
                 "kind": "p",
-                "text": "- Notez vos dépenses fixes. Loyer, services publics, assurances, paiements minimums de dettes, abonnements. Additionnez."
+                "text": "- Note tes dépenses fixes. Loyer, services publics, assurances, paiements minimums de dettes, abonnements. Additionne."
         },
         {
                 "kind": "p",
-                "text": "- Estimez vos dépenses variables. Utilisez la moyenne des trois derniers mois, puis ajoutez 5 à 10 pour cent comme coussin."
+                "text": "- Estime tes dépenses variables. Utilise la moyenne des trois derniers mois, puis ajoute 5 à 10 pour cent comme coussin."
         },
         {
                 "kind": "p",
-                "text": "- Soustrayez fixes plus variables du revenu net. Ce qui reste est votre taux d'épargne initial."
+                "text": "- Soustrais fixes plus variables du revenu net. Ce qui reste est ton taux d'épargne initial."
         },
         {
                 "kind": "p",
-                "text": "- Décidez où va le reste. Un fonds d'urgence, un fonds de prévision, remboursement de dettes au-delà du minimum, retraite ou un mélange. Choisissez un pour commencer."
+                "text": "- Décide où va le reste. Un fonds d'urgence, un fonds de prévision, remboursement de dettes au-delà du minimum, retraite ou un mélange. Choisis un pour commencer."
         },
         {
                 "kind": "p",
-                "text": "- Fixez un seul point de contrôle. La plupart des budgets réussis sont examinés une fois par semaine pendant dix minutes, pas tous les jours. Mettez-le dans le calendrier."
+                "text": "- Fixe un seul point de contrôle. La plupart des budgets réussis sont examinés une fois par semaine pendant dix minutes, pas tous les jours. Mets-le dans le calendrier."
         },
         {
                 "kind": "p",
-                "text": "- Acceptez que le premier mois sera imparfait. Le but du premier mois est d'apprendre le rythme, pas d'optimiser. Le rythme est ce qui génère les résultats composés."
+                "text": "- Accepte que le premier mois sera imparfait. Le but du premier mois est d'apprendre le rythme, pas d'optimiser. Le rythme est ce qui génère les résultats composés."
         },
         {
                 "kind": "p",
-                "text": "Si une étape semble accablante, ne faites que cette étape. L'erreur de budget la plus courante est d'essayer de tout faire un après-midi de samedi puis d'abandonner le projet pour mercredi. Les petites étapes séquentielles sont dramatiquement plus efficaces."
+                "text": "Si une étape semble accablante, ne fais que cette étape. L'erreur de budget la plus courante est d'essayer de tout faire un après-midi de samedi puis d'abandonner le projet pour mercredi. Les petites étapes séquentielles sont dramatiquement plus efficaces."
         },
         {
                 "kind": "p",
@@ -6743,7 +6743,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "## Comment suivre vos dépenses sans vous épuiser"
+                "text": "## Comment suivre tes dépenses sans t'épuiser"
         },
         {
                 "kind": "p",
@@ -6751,7 +6751,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les applications modernes vous donnent trois moyens principaux de capturer une transaction : voix, manuel et importation CSV. Chacun a sa place. La bonne réponse est généralement un mélange."
+                "text": "Les applications modernes te donnent trois moyens principaux de capturer une transaction : voix, manuel et importation CSV. Chacun a sa place. La bonne réponse est généralement un mélange."
         },
         {
                 "id": "enregistrement-vocal",
@@ -6760,7 +6760,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'enregistrement vocal est le moyen le plus rapide de capturer une dépense au moment où vous la faites. Vous dites une phrase à voix haute, l'application la transcrit et une transaction est créée. Elle élimine la friction de sortir le téléphone, d'ouvrir une application et de taper des chiffres. Cette friction est la principale raison pour laquelle la plupart des enregistrements manuels meurent après une semaine."
+                "text": "L'enregistrement vocal est le moyen le plus rapide de capturer une dépense au moment où tu la fais. Tu dis une phrase à voix haute, l'application la transcrit et une transaction est créée. Elle élimine la friction de sortir le téléphone, d'ouvrir une application et de taper des chiffres. Cette friction est la principale raison pour laquelle la plupart des enregistrements manuels meurent après une semaine."
         },
         {
                 "kind": "p",
@@ -6768,7 +6768,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "explique comment la technologie fonctionne et ce qu'il faut chercher dans une fonction vocale. La version courte : un bon système vocal est assez rapide pour paraître décontracté, assez précis pour ne nécessiter aucune édition dans la plupart des cas, et honnête sur le fait que votre audio est traité localement ou envoyé à un serveur. Savlo est l'une des applications construites autour de la voix comme entrée principale, aux côtés des options manuelles et CSV."
+                "text": "explique comment la technologie fonctionne et ce qu'il faut chercher dans une fonction vocale. La version courte : un bon système vocal est assez rapide pour paraître décontracté, assez précis pour ne nécessiter aucune édition dans la plupart des cas, et honnête sur le fait que ton audio est traité localement ou envoyé à un serveur. Savlo est l'une des applications construites autour de la voix comme entrée principale, aux côtés des options manuelles et CSV."
         },
         {
                 "id": "saisie-manuelle",
@@ -6777,24 +6777,24 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La saisie manuelle est l'option de secours. Elle est plus lente et nécessite plus de volonté, ce qui est exactement pourquoi elle ne peut pas être la seule option pour la plupart des gens. Utilisez-la pour les dépenses qui nécessitent une note, une photo ou une catégorie personnalisée. Le comparatif des meilleures alternatives à Mint compare comment les meilleures applications gèrent l'option manuelle en 2025."
+                "text": "La saisie manuelle est l'option de secours. Elle est plus lente et nécessite plus de volonté, ce qui est exactement pourquoi elle ne peut pas être la seule option pour la plupart des gens. Utilise-la pour les dépenses qui nécessitent une note, une photo ou une catégorie personnalisée. Le comparatif des meilleures alternatives à Mint compare comment les meilleures applications gèrent l'option manuelle en 2025."
         },
         {
-                "id": "importation-csv-depuis-votre-banque",
+                "id": "importation-csv-depuis-ta-banque",
                 "kind": "h3",
-                "text": "Importation CSV depuis votre banque"
+                "text": "Importation CSV depuis ta banque"
         },
         {
                 "kind": "p",
-                "text": "L'importation CSV se situe entre la voix et la connexion bancaire complète. Vous vous connectez au site Web de votre banque, téléchargez un CSV de vos transactions récentes et le téléversez dans l'application. Aucun agrégateur tiers ne touche vos identifiants. Pas de synchronisation continue signifie pas de partage silencieux de données. Le résultat est un journal plus complet avec moins d'effort que la saisie manuelle, et plus de confidentialité que la synchronisation bancaire automatique."
+                "text": "L'importation CSV se situe entre la voix et la connexion bancaire complète. Tu te connectes au site Web de ta banque, télécharges un CSV de tes transactions récentes et le téléverses dans l'application. Aucun agrégateur tiers ne touche tes identifiants. Pas de synchronisation continue signifie pas de partage silencieux de données. Le résultat est un journal plus complet avec moins d'effort que la saisie manuelle, et plus de confidentialité que la synchronisation bancaire automatique."
         },
         {
                 "kind": "p",
-                "text": "C'est l'approche que Savlo utilise par défaut, et c'est l'une des raisons pour lesquelles l'application convient aux personnes qui ont quitté Mint pour des raisons de confidentialité. Vous pouvez en savoir plus sur pourquoi la confidentialité est importante dans les finances personnelles dans le guide pourquoi les budgets traditionnels échouent. La version courte : lorsque vous connectez votre banque, votre historique de transactions passe généralement par un agrégateur de données, et cet agrégateur a sa propre politique de confidentialité que vous ne contrôlez pas."
+                "text": "C'est l'approche que Savlo utilise par défaut, et c'est l'une des raisons pour lesquelles l'application convient aux personnes qui ont quitté Mint pour des raisons de confidentialité. Tu peux en savoir plus sur pourquoi la confidentialité est importante dans les finances personnelles dans le guide pourquoi les budgets traditionnels échouent. La version courte : lorsque tu connectes ta banque, ton historique de transactions passe généralement par un agrégateur de données, et cet agrégateur a sa propre politique de confidentialité que tu ne contrôles pas."
         },
         {
                 "kind": "p",
-                "text": "Le meilleur système de suivi est celui qui vous donne une image suffisamment complète en moins de dix minutes par semaine. Tout le reste est de la décoration."
+                "text": "Le meilleur système de suivi est celui qui te donne une image suffisamment complète en moins de dix minutes par semaine. Tout le reste est de la décoration."
         },
         {
                 "kind": "divider"
@@ -6810,26 +6810,26 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'approche la plus propre est de budgéter par rapport au mois le plus bas fiable des six à douze derniers mois, pas la moyenne. Utilisez ce nombre plus bas comme base. Lorsque des mois supérieurs arrivent, traitez la différence comme un coup de pouce qui va directement dans l'épargne ou le remboursement des dettes, pas dans l'inflation du mode de vie. Cette simple règle empêche le piège le plus courant du revenu irrégulier : un bon mois suivi d'un mois désespéré."
+                "text": "L'approche la plus propre est de budgéter par rapport au mois le plus bas fiable des six à douze derniers mois, pas la moyenne. Utilise ce nombre plus bas comme base. Lorsque des mois supérieurs arrivent, traite la différence comme un coup de pouce qui va directement dans l'épargne ou le remboursement des dettes, pas dans l'inflation du mode de vie. Cette simple règle empêche le piège le plus courant du revenu irrégulier : un bon mois suivi d'un mois désespéré."
         },
         {
                 "kind": "p",
-                "text": "Un complément pratique est un compte de réserve. Transférez un à deux mois de dépenses fixes dans un compte séparé et à faible friction. Lorsque un mois plus petit arrive, la réserve le couvre. Lorsque un mois plus grand arrive, vous reconstituez la réserve. La réserve est l'équivalent pour une entreprise de traiter son revenu personnel comme un flux de revenus variable, et c'est l'une des rares techniques de budget qui évoluent avec la croissance de carrière."
+                "text": "Un complément pratique est un compte de réserve. Transfère un à deux mois de dépenses fixes dans un compte séparé et à faible friction. Lorsque un mois plus petit arrive, la réserve le couvre. Lorsque un mois plus grand arrive, tu reconstitues la réserve. La réserve est l'équivalent pour une entreprise de traiter son revenu personnel comme un flux de revenus variable, et c'est l'une des rares techniques de budget qui évoluent avec la croissance de carrière."
         },
         {
                 "kind": "divider"
         },
         {
                 "kind": "p",
-                "text": "## La réinitialisation de sept jours : quoi faire quand vous dépassez le budget"
+                "text": "## La réinitialisation de sept jours : quoi faire quand tu dépasses le budget"
         },
         {
                 "kind": "p",
-                "text": "Vous dépasserez le budget. Pas une fois ; plusieurs fois par an. La voiture aura besoin de pneus. Un ami se mariera dans une autre ville. Une facture médicale arrivera. Traiter cela comme des échecs personnels est le moyen le plus rapide d'abandonner le budget complètement, et l'abandon s'accompagne généralement d'un retour à l'anxiété et à la relation vague avec l'argent que vous essayiez d'échapper."
+                "text": "Tu dépasseras le budget. Pas une fois ; plusieurs fois par an. La voiture aura besoin de pneus. Un ami se mariera dans une autre ville. Une facture médicale arrivera. Traiter cela comme des échecs personnels est le moyen le plus rapide d'abandonner le budget complètement, et l'abandon s'accompagne généralement d'un retour à l'anxiété et à la relation vague avec l'argent que tu essayais d'échapper."
         },
         {
                 "kind": "p",
-                "text": "Construisez plutôt une réinitialisation de sept jours. Le jour où vous remarquez le dépassement, ne paniquez pas et n'essayez pas de le réparer cette nuit-là. Attendez sept jours. Asseyez-vous ensuite pendant vingt minutes, sans distraction, et posez trois questions. Que s'est-il passé ? Quelle catégorie a absorbé le choc ? Quel est le changement le plus petit pour le mois prochain qui l'aurait empêché ? Écrivez les réponses. C'est toute la réinitialisation."
+                "text": "Construis plutôt une réinitialisation de sept jours. Le jour où tu remarques le dépassement, ne panique pas et n'essaie pas de le réparer cette nuit-là. Attends sept jours. Assieds-toi ensuite pendant vingt minutes, sans distraction, et pose trois questions. Que s'est-il passé ? Quelle catégorie a absorbé le choc ? Quel est le changement le plus petit pour le mois prochain qui l'aurait empêché ? Écris les réponses. C'est toute la réinitialisation."
         },
         {
                 "kind": "p",
@@ -6848,22 +6848,22 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un fonds d'urgence est pour l'imprévisible : perte d'emploi, événement médical, réparation urgente à domicile. La taille cible est généralement de trois à six mois de dépenses fixes, maintenue dans un compte haute liquidité que vous ne touchez pas sauf si la situation est réellement une urgence."
+                "text": "Un fonds d'urgence est pour l'imprévisible : perte d'emploi, événement médical, réparation urgente à domicile. La taille cible est généralement de trois à six mois de dépenses fixes, maintenue dans un compte haute liquidité que tu ne touches pas sauf si la situation est réellement une urgence."
         },
         {
                 "kind": "p",
-                "text": "Un fonds de prévision est pour le prévisible : assurance annuelle, cadeaux de fêtes, franchise médicale connue, voyage prévu. Ce sont de grandes dépenses qui arrivent selon un calendrier connu. Épargner un peu chaque mois les transforme de chocs en contributions régulières. La différence mentale est énorme : des vacances pour lesquelles vous avez épargné se sentent très différentes de des vacances que vous avez payées par carte de crédit."
+                "text": "Un fonds de prévision est pour le prévisible : assurance annuelle, cadeaux de fêtes, franchise médicale connue, voyage prévu. Ce sont de grandes dépenses qui arrivent selon un calendrier connu. Épargner un peu chaque mois les transforme de chocs en contributions régulières. La différence mentale est énorme : des vacances pour lesquelles tu as épargné se sentent très différentes de des vacances que tu as payées par carte de crédit."
         },
         {
                 "kind": "p",
-                "text": "> Règle empirique : une fois que vous avez un mois de dépenses en espèces, commencez à diviser. Continuez à construire le fonds d'urgence jusqu'à trois mois, puis déplacez la majeure partie des nouvelles épargnes dans des fonds de prévision nommés pour les prochaines dépenses prévisibles dans votre calendrier."
+                "text": "> Règle empirique : une fois que tu as un mois de dépenses en espèces, commence à diviser. Continue à construire le fonds d'urgence jusqu'à trois mois, puis déplace la majeure partie des nouvelles épargnes dans des fonds de prévision nommés pour les prochaines dépenses prévisibles dans ton calendrier."
         },
         {
                 "kind": "divider"
         },
         {
                 "kind": "p",
-                "text": "## La psychologie du surdépassement (et comment vous surpasser)"
+                "text": "## La psychologie du surdépassement (et comment te surpasser)"
         },
         {
                 "kind": "p",
@@ -6875,15 +6875,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Biais de présent. Le moi futur est plus facile à décevoir que le moi présent, alors nous retardons l'épargne. La solution est l'automatisation. Réglez l'épargne pour qu'elle soit transférée le jour après le versement du salaire, dans un montant auquel vous n'avez pas à penser, et le moi présent le remarque rarement."
+                "text": "Biais de présent. Le moi futur est plus facile à décevoir que le moi présent, alors nous retardons l'épargne. La solution est l'automatisation. Règle l'épargne pour qu'elle soit transférée le jour après le versement du salaire, dans un montant auquel tu n'as pas à penser, et le moi présent le remarque rarement."
         },
         {
                 "kind": "p",
-                "text": "Ancrage. Le premier prix que vous voyez devient le point de référence. Les étiquettes de promo, les prix originaux barrés et le positionnement « premium » sont des ancres. La solution est de décider à l'avance combien quelque chose vaut pour vous, et de partir des prix au-dessus de cette ligne, quelle que soit la réduction."
+                "text": "Ancrage. Le premier prix que tu vois devient le point de référence. Les étiquettes de promo, les prix originaux barrés et le positionnement « premium » sont des ancres. La solution est de décider à l'avance combien quelque chose vaut pour toi, et de partir des prix au-dessus de cette ligne, quelle que soit la réduction."
         },
         {
                 "kind": "p",
-                "text": "Ces biais sont la raison pour laquelle les budgets traditionnels échouent et pourquoi une conception plus douce tend à gagner à long terme. L'argument complet se trouve dans le guide pourquoi les budgets traditionnels échouent, mais la version courte est la suivante : si l'outil lutte contre votre cerveau, l'outil perdra. Si l'outil travaille avec votre cerveau, l'outil générera des résultats composés."
+                "text": "Ces biais sont la raison pour laquelle les budgets traditionnels échouent et pourquoi une conception plus douce tend à gagner à long terme. L'argument complet se trouve dans le guide pourquoi les budgets traditionnels échouent, mais la version courte est la suivante : si l'outil lutte contre ton cerveau, l'outil perdra. Si l'outil travaille avec ton cerveau, l'outil générera des résultats composés."
         },
         {
                 "kind": "divider"
@@ -6898,27 +6898,27 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Budgéter en brut au lieu de net. L'erreur initiale la plus courante. Planifiez avec le nombre qui arrive réellement sur votre compte."
+                "text": "- Budgéter en brut au lieu de net. L'erreur initiale la plus courante. Planifie avec le nombre qui arrive réellement sur ton compte."
         },
         {
                 "kind": "p",
-                "text": "- Trop de catégories. Plus de dix catégories crée une fatigue décisionnelle. Commencez avec cinq ou six et laissez les détails venir plus tard."
+                "text": "- Trop de catégories. Plus de dix catégories crée une fatigue décisionnelle. Commence avec cinq ou six et laisse les détails venir plus tard."
         },
         {
                 "kind": "p",
-                "text": "- Suivre chaque centime. Épuisant, et rarement utile. Suivez les catégories qui comptent et laissez les petites être arrondies."
+                "text": "- Suivre chaque centime. Épuisant, et rarement utile. Suis les catégories qui comptent et laisse les petites être arrondies."
         },
         {
                 "kind": "p",
-                "text": "- Pas de rythme de révision. Un budget qui n'est jamais examiné est un souhait. Fixez un créneau hebdomadaire de dix minutes et protégez-le."
+                "text": "- Pas de rythme de révision. Un budget qui n'est jamais examiné est un souhait. Fixe un créneau hebdomadaire de dix minutes et protège-le."
         },
         {
                 "kind": "p",
-                "text": "- Abandonner lors d'un mauvais mois. Un mauvais mois sont des données, pas un échec. Exécutez la réinitialisation de sept jours et continuez."
+                "text": "- Abandonner lors d'un mauvais mois. Un mauvais mois sont des données, pas un échec. Exécute la réinitialisation de sept jours et continue."
         },
         {
                 "kind": "p",
-                "text": "- Épargner ce qui reste. Il ne restera jamais rien. Épargnez d'abord, dépensez le reste."
+                "text": "- Épargner ce qui reste. Il ne restera jamais rien. Épargne d'abord, dépense le reste."
         },
         {
                 "kind": "p",
@@ -6926,7 +6926,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Punir le passé au lieu de concevoir l'avenir. La culpabilité ne génère pas de résultats. Un système plus simple en génère. Échangez la honte contre l'itération."
+                "text": "- Punir le passé au lieu de concevoir l'avenir. La culpabilité ne génère pas de résultats. Un système plus simple en génère. Échange la honte contre l'itération."
         },
         {
                 "kind": "divider"
@@ -6938,23 +6938,23 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le bon outil est celui que vous utiliserez encore dans six mois. C'est parfois un carnet. C'est parfois un tableur personnalisé. C'est parfois une application. L'outil importe moins que le rythme que vous construisez autour."
+                "text": "Le bon outil est celui que tu utiliseras encore dans six mois. C'est parfois un carnet. C'est parfois un tableur personnalisé. C'est parfois une application. L'outil importe moins que le rythme que tu construis autour."
         },
         {
                 "kind": "p",
-                "text": "Le stylo et le papier imposent une lenteur que certaines personnes trouvent thérapeutique. C'est aussi l'option la plus privée, car rien ne quitte vos mains. L'inconvénient est que l'agrégation et les rapports sont manuels, ce qui devient vite fastidieux pour quiconque suit plus d'une poignée de catégories."
+                "text": "Le stylo et le papier imposent une lenteur que certaines personnes trouvent thérapeutique. C'est aussi l'option la plus privée, car rien ne quitte tes mains. L'inconvénient est que l'agrégation et les rapports sont manuels, ce qui devient vite fastidieux pour quiconque suit plus d'une poignée de catégories."
         },
         {
                 "kind": "p",
-                "text": "Les tableurs vous donnent un contrôle total et zéro fuite de confidentialité, au coût de votre temps. Ils sont la bonne réponse pour les gens qui aiment modéliser et veulent comprendre les chiffres en détail. Ils sont la mauvaise réponse pour les gens qui veulent simplement savoir s'ils peuvent se payer le dîner du vendredi."
+                "text": "Les tableurs te donnent un contrôle total et zéro fuite de confidentialité, au coût de ton temps. Ils sont la bonne réponse pour les gens qui aiment modéliser et veulent comprendre les chiffres en détail. Ils sont la mauvaise réponse pour les gens qui veulent simplement savoir s'ils peuvent se payer le dîner du vendredi."
         },
         {
                 "kind": "p",
-                "text": "Les applications couvrent la gamme de l'automatisation complète (connexion bancaire) au uniquement manuel. La bonne application dépend de votre relation avec la confidentialité, de votre tolérance à la friction de saisie et de la visibilité que vous voulez donner aux dépenses. Si vous avez quitté Mint pour des raisons de confidentialité, le comparatif des meilleures alternatives à Mint en 2025 vous économisera un week-end de recherche. Savlo, par exemple, est conçu pour vous donner le contrôle et la gestion quotidienne de vos finances en quelques minutes grâce à des enregistrements faciles par voix ou par texte, l'importation de feuilles de calcul et l'organisation par comptes indépendants, plutôt que la synchronisation bancaire continue. Il est conçu pour Android, et iOS arrive ensuite."
+                "text": "Les applications couvrent la gamme de l'automatisation complète (connexion bancaire) au uniquement manuel. La bonne application dépend de ta relation avec la confidentialité, de ta tolérance à la friction de saisie et de la visibilité que tu veux donner aux dépenses. Si tu as quitté Mint pour des raisons de confidentialité, le comparatif des meilleures alternatives à Mint en 2025 t'économisera un week-end de recherche. Savlo, par exemple, est conçu pour te donner le contrôle et la gestion quotidienne de tes finances en quelques minutes grâce à des enregistrements faciles par voix ou par texte, l'importation de feuilles de calcul et l'organisation par comptes indépendants, plutôt que la synchronisation bancaire continue. Il est conçu pour Android, et iOS arrive ensuite."
         },
         {
                 "kind": "p",
-                "text": "L'anxiété financière pousse souvent le choix des outils plus que la logique. Si une application particulière vous fait vous sentir surveillé, jugé ou submergé, changez. Le but d'un outil de budget est de rendre la relation avec l'argent plus humaine, pas moins."
+                "text": "L'anxiété financière pousse souvent le choix des outils plus que la logique. Si une application particulière te fait te sentir surveillé, jugé ou submergé, change. Le but d'un outil de budget est de rendre la relation avec l'argent plus humaine, pas moins."
         },
         {
                 "kind": "divider"
@@ -6969,11 +6969,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Trois choix de conception aident. D'abord, automatisez tout ce qui peut l'être : virements d'épargne, paiement de factures, suivi des abonnements. Moins de décisions à prendre signifient moins de décisions qui peuvent mal tourner. Ensuite, réduisez l'examen à un rituel que vous aimez réellement : un café dimanche matin, une petite promenade, un mémo vocal de cinq minutes. Enfin, concevez pour l'échec. Attendez un mauvais mois, nommez la réinitialisation à l'avance et rendez la récupération automatique plutôt que héroïque."
+                "text": "Trois choix de conception aident. D'abord, automatise tout ce qui peut l'être : virements d'épargne, paiement de factures, suivi des abonnements. Moins de décisions à prendre signifient moins de décisions qui peuvent mal tourner. Ensuite, réduis l'examen à un rituel que tu aimes réellement : un café dimanche matin, une petite promenade, un mémo vocal de cinq minutes. Enfin, conçois pour l'échec. Attends un mauvais mois, nomme la réinitialisation à l'avance et rends la récupération automatique plutôt que héroïque."
         },
         {
                 "kind": "p",
-                "text": "Lorsque le système tient pendant un mauvais mois, la relation avec l'argent commence à changer. Vous cessez de voir les budgets comme un test de caractère et commencez à les voir comme une infrastructure. Le changement est petit et discret, et c'est ce qui génère réellement des résultats composés."
+                "text": "Lorsque le système tient pendant un mauvais mois, la relation avec l'argent commence à changer. Tu cesses de voir les budgets comme un test de caractère et commences à les voir comme une infrastructure. Le changement est petit et discret, et c'est ce qui génère réellement des résultats composés."
         },
         {
                 "kind": "divider"
@@ -6997,7 +6997,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour la plupart des gens, 10 à 20 pour cent du revenu net est un objectif raisonnable. Si ce n'est pas possible maintenant, épargnez un pour cent. Le pourcentage importe moins que la constance. Une fois que l'habitude est en place, le pourcentage a tendance à croître de lui-même."
+                "text": "Pour la plupart des gens, 10 à 20 pour cent du revenu net est un objectif raisonnable. Si ce n'est pas possible maintenant, épargne un pour cent. Le pourcentage importe moins que la constance. Une fois que l'habitude est en place, le pourcentage a tendance à croître de lui-même."
         },
         {
                 "kind": "p",
@@ -7013,7 +7013,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Seulement si vous êtes à l'aise avec la politique de confidentialité de l'agrégateur de données. La connexion bancaire est pratique mais achemine votre historique de transactions par l'intermédiaire d'un tiers. L'importation CSV et l'enregistrement vocal sont les deux principales alternatives respectueuses de la vie privée, et elles sont suffisantes pour la plupart des gens."
+                "text": "Seulement si tu es à l'aise avec la politique de confidentialité de l'agrégateur de données. La connexion bancaire est pratique mais achemine ton historique de transactions par l'intermédiaire d'un tiers. L'importation CSV et l'enregistrement vocal sont les deux principales alternatives respectueuses de la vie privée, et elles sont suffisantes pour la plupart des gens."
         },
         {
                 "kind": "p",
@@ -7021,7 +7021,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La première version prend moins d'une heure si vous avez trois mois de relevés. La version que vous utiliserez réellement prend un mois complet d'itération. Prévoyez l'itération, pas la première version."
+                "text": "La première version prend moins d'une heure si tu as trois mois de relevés. La version que tu utiliseras réellement prend un mois complet d'itération. Prévois l'itération, pas la première version."
         },
         {
                 "kind": "p",
@@ -7029,7 +7029,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un fonds d'urgence couvre l'imprévisible : perte d'emploi, réparation urgente, événement médical. Un fonds de prévision couvre le prévisible : assurance annuelle, vacances, voyages prévus. Le premier vous protège ; le second empêche les surprises. Vous voulez généralement les deux."
+                "text": "Un fonds d'urgence couvre l'imprévisible : perte d'emploi, réparation urgente, événement médical. Un fonds de prévision couvre le prévisible : assurance annuelle, vacances, voyages prévus. Le premier te protège ; le second empêche les surprises. Tu veux généralement les deux."
         },
         {
                 "kind": "p",
@@ -7037,7 +7037,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Commencez par une vérification d'une semaine de chaque dépense, pas pour vous juger, mais pour trouver les deux ou trois postes qui représentent silencieusement un tiers du total. Réduisez-les. Déplacez les économies dans un petit compte de réserve. Répétez le mois prochain. La composition est plus rapide qu'il n'y paraît."
+                "text": "Commence par une vérification d'une semaine de chaque dépense, pas pour te juger, mais pour trouver les deux ou trois postes qui représentent silencieusement un tiers du total. Réduis-les. Déplace les économies dans un petit compte de réserve. Répète le mois prochain. La composition est plus rapide qu'il n'y paraît."
         },
         {
                 "kind": "p",
@@ -7045,7 +7045,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Celle que vous utiliserez encore dans six mois. C'est presque toujours celle avec la moindre friction de saisie et le design le plus simple. Le comparatif des meilleures alternatives à Mint compare les options les plus fortes en 2026."
+                "text": "Celle que tu utiliseras encore dans six mois. C'est presque toujours celle avec la moindre friction de saisie et le design le plus simple. Le comparatif des meilleures alternatives à Mint compare les options les plus fortes en 2026."
         },
         {
                 "kind": "divider"
@@ -7057,11 +7057,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Faire un budget n'est pas un test de personnalité. C'est une pratique de planification, et comme toute pratique, elle récompense l'effort petit et répété plus que la volonté héroïque. Choisissez la version la plus simple du système ci-dessus, donnez-lui un mois réel et exécutez la réinitialisation de sept jours la première fois que vous dépassez. Le nombre à l'écran à la fin de l'année sera la preuve, mais le changement le plus durable est celui que vous ressentez dans votre corps : moins de sursauts, plus de contrôle, et une relation avec l'argent suffisamment humaine pour durer."
+                "text": "Faire un budget n'est pas un test de personnalité. C'est une pratique de planification, et comme toute pratique, elle récompense l'effort petit et répété plus que la volonté héroïque. Choisis la version la plus simple du système ci-dessus, donne-lui un mois réel et exécute la réinitialisation de sept jours la première fois que tu dépasses. Le nombre à l'écran à la fin de l'année sera la preuve, mais le changement le plus durable est celui que tu ressens dans ton corps : moins de sursauts, plus de contrôle, et une relation avec l'argent suffisamment humaine pour durer."
         },
         {
                 "kind": "p",
-                "text": "Si vous voulez un outil pour vous aider à garder le contrôle et la gestion quotidienne de vos finances en quelques minutes, Savlo est construit autour des idées que nous avons abordées : enregistrements rapides par voix et par texte, budgétisation par catégories, comptes indépendants pour organiser votre argent, sinking funds (fonds de prévision) et un système de séries motivant. Il est conçu pour Android, et iOS arrive ensuite. Le reste du blog traite chacune de ces idées en profondeur si vous voulez continuer."
+                "text": "Si tu veux un outil pour t'aider à garder le contrôle et la gestion quotidienne de tes finances en quelques minutes, Savlo est construit autour des idées que nous avons abordées : enregistrements rapides par voix et par texte, budgétisation par catégories, comptes indépendants pour organiser ton argent, sinking funds (fonds de prévision) et un système de séries motivant. Il est conçu pour Android, et iOS arrive ensuite. Le reste du blog traite chacune de ces idées en profondeur si tu veux continuer."
         }
 ]
     },
@@ -7093,15 +7093,15 @@ const overrides = {
       blocks: [
         {
                 "kind": "p",
-                "text": "Faire un budget avec de faibles revenus est un art en soi. Les conseils qui circulent sur internet tendent à supposer une marge : arrêtez les lattes, constituez un fonds d'urgence, automatisez vos économies. Quand la marge n'existe pas, ces conseils ne semblent pas utiles. Ils semblent comme une porte qui se ferme au nez. Ce guide est pour les mois où les comptes sont serrés, quand le salaire disparaît avant la fin du mois et quand \"faites simplement un meilleur budget\" est la dernière chose que vous avez besoin d'entendre."
+                "text": "Faire un budget avec de faibles revenus est un art en soi. Les conseils qui circulent sur internet tendent à supposer une marge : arrête les lattes, constitue un fonds d'urgence, automatise tes économies. Quand la marge n'existe pas, ces conseils ne semblent pas utiles. Ils semblent comme une porte qui se ferme au nez. Ce guide est pour les mois où les comptes sont serrés, quand le salaire disparaît avant la fin du mois et quand \"fais simplement un meilleur budget\" est la dernière chose que tu as besoin d'entendre."
         },
         {
                 "kind": "p",
-                "text": "L'objectif ici n'est pas de romantiser la pénurie ou de prétendre qu'une année avec 40 000 $ est la même qu'une année avec 90 000 $. L'objectif est de vous donner une façon réaliste et sans jugement de prendre soin de ce que vous avez, de construire le plus petit coussin possible et d'arrêter le saignement quand les comptes ne sont pas bons. Sept étapes, pas de honte et quelques habitudes qui s'adaptent vraiment à un budget serré."
+                "text": "L'objectif ici n'est pas de romantiser la pénurie ou de prétendre qu'une année avec 40 000 $ est la même qu'une année avec 90 000 $. L'objectif est de te donner une façon réaliste et sans jugement de prendre soin de ce que tu as, de construire le plus petit coussin possible et d'arrêter le saignement quand les comptes ne sont pas bons. Sept étapes, pas de honte et quelques habitudes qui s'adaptent vraiment à un budget serré."
         },
         {
                 "kind": "p",
-                "text": "> Savlo est conçu pour Android, et iOS arrive ensuite. Tout ce qui est expliqué dans ce guide peut se faire dans un cahier, un tableur ou une application simple. Si vous cherchez un outil qui respecte votre vie privée, ne demande pas d'identifiants bancaires et fonctionne avec des routines serrées, Savlo a été conçue dans cet esprit. Vous pouvez aussi appliquer chaque étape sans elle."
+                "text": "> Savlo est conçu pour Android, et iOS arrive ensuite. Tout ce qui est expliqué dans ce guide peut se faire dans un cahier, un tableur ou une application simple. Si tu cherches un outil qui respecte ta vie privée, ne demande pas d'identifiants bancaires et fonctionne avec des routines serrées, Savlo a été conçue dans cet esprit. Tu peux aussi appliquer chaque étape sans elle."
         },
         {
                 "id": "ce-que-vraiment-signifie-faire-un-budget-avec-de-f",
@@ -7110,11 +7110,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "\"Faibles revenus\" n'est pas un seul nombre. Cela peut signifier vivre de salaire en salaire avec un salaire stable qui ne fait tout simplement pas l'affaire. Cela peut signifier des petits boulots où le mois dernier était bon et celui-ci ne l'est pas. Cela peut signifier être entre deux contrats, soutenir des enfants avec un seul revenu, ou gagner dans une devise qui ne correspond pas au coût de la vie dans votre ville. Cela peut aussi signifier un foyer avec des revenus irréguliers et une longue liste de dépenses prévisibles. La forme change, mais l'expérience vécue est similaire : chaque dollar a un travail avant d'arriver et la plupart de ces travaux ne sont pas négociables."
+                "text": "\"Faibles revenus\" n'est pas un seul nombre. Cela peut signifier vivre de salaire en salaire avec un salaire stable qui ne fait tout simplement pas l'affaire. Cela peut signifier des petits boulots où le mois dernier était bon et celui-ci ne l'est pas. Cela peut signifier être entre deux contrats, soutenir des enfants avec un seul revenu, ou gagner dans une devise qui ne correspond pas au coût de la vie dans ta ville. Cela peut aussi signifier un foyer avec des revenus irréguliers et une longue liste de dépenses prévisibles. La forme change, mais l'expérience vécue est similaire : chaque dollar a un travail avant d'arriver et la plupart de ces travaux ne sont pas négociables."
         },
         {
                 "kind": "p",
-                "text": "Quand l'argent est serré, le budget cesse d'être un exercice de planification et devient un outil de survie. Ce n'est pas un échec de votre discipline ou de votre intelligence. C'est la réponse naturelle à un environnement contraint. Un bon budget dans ce contexte fait trois choses à la fois : il vous dit ce qu'il est sûr de dépenser, il empêche les petites surprises de devenir de grandes crises et il laisse un petit espace pour quelque chose qui est à vous. Le reste de ce guide vous montre comment construire cela, une étape à la fois."
+                "text": "Quand l'argent est serré, le budget cesse d'être un exercice de planification et devient un outil de survie. Ce n'est pas un échec de ta discipline ou de ton intelligence. C'est la réponse naturelle à un environnement contraint. Un bon budget dans ce contexte fait trois choses à la fois : il te dit ce qu'il est sûr de dépenser, il empêche les petites surprises de devenir de grandes crises et il laisse un petit espace pour quelque chose qui est à toi. Le reste de ce guide te montre comment construire cela, une étape à la fois."
         },
         {
                 "id": "les-faibles-revenus-ne-sont-pas-une-seule-chose",
@@ -7123,7 +7123,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le conseil qui fonctionne pour un freelance dans une ville chère ne fonctionne pas toujours pour un travailleur à temps partiel dans une petite ville, et vice versa. Ce qui est partagé, c'est la structure : un petit revenu prévisible, une liste de factures fixes et un fil tendu entre les deux. Une fois que vous acceptez que l'objectif n'est pas d'optimiser la richesse mais la stabilité, le budget devient un type d'outil différent. Il devient un moyen de donner à chaque dollar un travail clair pour que rien ne soit gaspillé dans le type de stress qui coûte plus d'argent qu'il n'en économise."
+                "text": "Le conseil qui fonctionne pour un freelance dans une ville chère ne fonctionne pas toujours pour un travailleur à temps partiel dans une petite ville, et vice versa. Ce qui est partagé, c'est la structure : un petit revenu prévisible, une liste de factures fixes et un fil tendu entre les deux. Une fois que tu acceptes que l'objectif n'est pas d'optimiser la richesse mais la stabilité, le budget devient un type d'outil différent. Il devient un moyen de donner à chaque dollar un travail clair pour que rien ne soit gaspillé dans le type de stress qui coûte plus d'argent qu'il n'en économise."
         },
         {
                 "id": "pourquoi-la-plupart-des-conseils-de-budget-chouent",
@@ -7132,20 +7132,20 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "La plupart du contenu de finances personnelles est écrit pour des personnes avec de la marge. Il suppose que vous pouvez rediriger quelques centaines de dollars par mois vers l'investissement, que vous pouvez vous passer de quelques non-essentiels, que vous pouvez absorber une surprise sans perdre le sommeil. Quand ces conditions ne sont pas remplies, le même conseil ressemble à une langue étrangère. Il peut aussi ressembler à du blâme, surtout quand l'auteur ne reconnaît pas l'écart entre votre réalité et l'exemple."
+                "text": "La plupart du contenu de finances personnelles est écrit pour des personnes avec de la marge. Il suppose que tu peux rediriger quelques centaines de dollars par mois vers l'investissement, que tu peux te passer de quelques non-essentiels, que tu peux absorber une surprise sans perdre le sommeil. Quand ces conditions ne sont pas remplies, le même conseil ressemble à une langue étrangère. Il peut aussi ressembler à du blâme, surtout quand l'auteur ne reconnaît pas l'écart entre ta réalité et l'exemple."
         },
         {
                 "kind": "p",
                 "text": "La deuxième raison pour laquelle le conseil échoue est qu'il traite la discipline comme le goulot d'étranglement. La discipline est rarement le goulot d'étranglement. Le goulot d'étranglement est structurel : le revenu ne correspond pas aux factures, les factures ne correspondent pas aux mois et il n'y a pas de marge pour absorber une surprise de 200 $. Un bon budget ne peut pas corriger un déficit structurel. Ce qu'il peut faire, c'est rendre le déficit visible, ce qui est la première étape pour prendre une décision différente. Parfois la décision est de renégocier une facture. Parfois c'est de changer d'emploi. Parfois c'est de demander de l'aide. Le budget est la carte, pas le sauvetage."
         },
         {
-                "id": "le-mythe-arr-tez-les-lattes",
+                "id": "le-mythe-arr-te-les-lattes",
                 "kind": "h3",
-                "text": "Le mythe \"arrêtez les lattes\""
+                "text": "Le mythe \"arrête les lattes\""
         },
         {
                 "kind": "p",
-                "text": "Supprimer de petites dépenses discrétionnaires est une bonne pratique quand vous avez de la marge. Avec de faibles revenus, les comptes ne sont pas bons. L'écart entre un mois serré et un mois survivable est rarement quelques cafés. C'est généralement une augmentation de loyer, une facture médicale, un service manqué ou une dépense liée aux enfants qui n'existait pas le mois précédent. Réduire les petites choses aide, mais ce n'est pas le levier. Le levier est dans les coûts fixes, les sources de revenus et la manière dont les deux sont séquencés tout au long du mois. C'est là que ce guide concentre son énergie."
+                "text": "Supprimer de petites dépenses discrétionnaires est une bonne pratique quand tu as de la marge. Avec de faibles revenus, les comptes ne sont pas bons. L'écart entre un mois serré et un mois survivable est rarement quelques cafés. C'est généralement une augmentation de loyer, une facture médicale, un service manqué ou une dépense liée aux enfants qui n'existait pas le mois précédent. Réduire les petites choses aide, mais ce n'est pas le levier. Le levier est dans les coûts fixes, les sources de revenus et la manière dont les deux sont séquencés tout au long du mois. C'est là que ce guide concentre son énergie."
         },
         {
                 "id": "les-quatre-chiffres-ajust-s-pour-les-mois-serr-s",
@@ -7154,15 +7154,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Chaque budget, quel que soit le revenu, est construit sur les mêmes quatre chiffres : revenu net, dépenses fixes, dépenses variables et un taux d'épargne. La forme de ces chiffres change quand l'argent est serré, mais ils restent la colonne vertébrale. Le revenu net est le plus petit montant mensuel réaliste sur lequel vous pouvez compter, après les impôts et les déductions obligatoires. Les dépenses fixes sont les factures qui arrivent quoi qu'il arrive : loyer, services publics, transport, paiements minimum de dettes, coûts fixes liés aux enfants. Les dépenses variables sont les parties flexibles : courses, articles ménagers, soins personnels, transport occasionnel. Le taux d'épargne dans un budget serré n'est pas un objectif d'investissement agressif. C'est ce qui reste après les trois autres, même si le chiffre commence à zéro."
+                "text": "Chaque budget, quel que soit le revenu, est construit sur les mêmes quatre chiffres : revenu net, dépenses fixes, dépenses variables et un taux d'épargne. La forme de ces chiffres change quand l'argent est serré, mais ils restent la colonne vertébrale. Le revenu net est le plus petit montant mensuel réaliste sur lequel tu peux compter, après les impôts et les déductions obligatoires. Les dépenses fixes sont les factures qui arrivent quoi qu'il arrive : loyer, services publics, transport, paiements minimum de dettes, coûts fixes liés aux enfants. Les dépenses variables sont les parties flexibles : courses, articles ménagers, soins personnels, transport occasionnel. Le taux d'épargne dans un budget serré n'est pas un objectif d'investissement agressif. C'est ce qui reste après les trois autres, même si le chiffre commence à zéro."
         },
         {
                 "kind": "p",
-                "text": "Ce qui change quand l'argent est serré, c'est l'ordre des priorités. Au lieu de \"épargnez d'abord, puis tout le reste\", l'ordre devient \"le non-négociable d'abord, puis les petites réserves, puis les dépenses discrétionnaires.\" Cet ordre de priorités est la colonne vertébrale des sept étapes ci-dessous. Vous pouvez en savoir plus sur les quatre chiffres dans le guide plus large{\" \"}"
+                "text": "Ce qui change quand l'argent est serré, c'est l'ordre des priorités. Au lieu de \"épargne d'abord, puis tout le reste\", l'ordre devient \"le non-négociable d'abord, puis les petites réserves, puis les dépenses discrétionnaires.\" Cet ordre de priorités est la colonne vertébrale des sept étapes ci-dessous. Tu peux en savoir plus sur les quatre chiffres dans le guide plus large "
         },
         {
                 "kind": "p",
-                "text": "comment faire un budget {\" \"}; cette version les ajuste simplement pour les mois serrés."
+                "text": "comment faire un budget ; cette version les ajuste simplement pour les mois serrés."
         },
         {
                 "id": "sept-tapes-pour-faire-un-budget-avec-de-faibles-re",
@@ -7171,86 +7171,86 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Ces sept étapes supposent que vos revenus sont irréguliers, votre marge est mince et votre temps est limité. Ils sont conçus pour prendre environ une heure la première fois que vous les exécutez et vingt minutes par semaine après. Ils ne nécessitent pas une application, un tableur ou une mentalité spéciale. Ils nécessitent de l'honnêteté et une feuille de papier."
+                "text": "Ces sept étapes supposent que tes revenus sont irréguliers, ta marge est mince et ton temps est limité. Ils sont conçus pour prendre environ une heure la première fois que tu les exécutes et vingt minutes par semaine après. Ils ne nécessitent pas une application, un tableur ou une mentalité spéciale. Ils nécessitent de l'honnêteté et une feuille de papier."
         },
         {
-                "id": "tape-1-cartographiez-chaque-dollar-qui-entre",
+                "id": "tape-1-cartographie-chaque-dollar-qui-entre",
                 "kind": "h3",
-                "text": "Étape 1 : Cartographiez chaque dollar qui entre"
+                "text": "Étape 1 : Cartographie chaque dollar qui entre"
         },
         {
                 "kind": "p",
-                "text": "Ouvrez les relevés bancaires des trois derniers mois et notez chaque dépôt. Additionnez-les, divisez par trois et vous avez votre revenu net mensuel moyen. Maintenant regardez le plus bas des trois mois, pas la moyenne. C'est votre revenu de planification. Faites le budget à partir du mois le plus bas, pas du mois typique. Quand vous faites le budget à partir de la moyenne, les mauvais mois vous cassent. Quand vous faites le budget à partir du fond, les bons mois sont un coussin. Ce simple changement protège plus de budgets pour mois serrés que n'importe quelle autre habitude."
+                "text": "Ouvre les relevés bancaires des trois derniers mois et note chaque dépôt. Additionne-les, divise par trois et tu as ton revenu net mensuel moyen. Maintenant regarde le plus bas des trois mois, pas la moyenne. C'est ton revenu de planification. Fais le budget à partir du mois le plus bas, pas du mois typique. Quand tu fais le budget à partir de la moyenne, les mauvais mois te cassent. Quand tu fais le budget à partir du fond, les bons mois sont un coussin. Ce simple changement protège plus de budgets pour mois serrés que n'importe quelle autre habitude."
         },
         {
                 "kind": "p",
-                "text": "Pour rendre cela concret, prenez un exemple réel. Si les dépôts des trois derniers mois sont de 1 400 $, 1 250 $ et 1 520 $, la moyenne est de 1 390 $. Le plus bas est de 1 250 $. Construisez le budget à partir de 1 250 $. Les 140 $ de différence entre la moyenne et le plus bas ne sont pas un petit montant avec de faibles revenus. C'est souvent la différence entre une facture payée et une amende pour retard. Si le revenu est irrégulier, comme 1 800 $ un mois et 1 100 $ le mois suivant, le motif est encore plus important. Utilisez le mois le plus bas réaliste des six derniers comme revenu de planification. Si deux mois consécutifs tombent en dessous, traitez la moyenne de ces deux comme le nouveau plancher. Le budget est un document vivant, pas une règle fixe."
+                "text": "Pour rendre cela concret, prends un exemple réel. Si les dépôts des trois derniers mois sont de 1 400 $, 1 250 $ et 1 520 $, la moyenne est de 1 390 $. Le plus bas est de 1 250 $. Construis le budget à partir de 1 250 $. Les 140 $ de différence entre la moyenne et le plus bas ne sont pas un petit montant avec de faibles revenus. C'est souvent la différence entre une facture payée et une amende pour retard. Si le revenu est irrégulier, comme 1 800 $ un mois et 1 100 $ le mois suivant, le motif est encore plus important. Utilise le mois le plus bas réaliste des six derniers comme revenu de planification. Si deux mois consécutifs tombent en dessous, traite la moyenne de ces deux comme le nouveau plancher. Le budget est un document vivant, pas une règle fixe."
         },
         {
-                "id": "tape-2-bloquez-le-non-n-gociable",
+                "id": "tape-2-bloque-le-non-n-gociable",
                 "kind": "h3",
-                "text": "Étape 2 : Bloquez le non-négociable"
+                "text": "Étape 2 : Bloque le non-négociable"
         },
         {
                 "kind": "p",
-                "text": "Le non-négociable sont les factures qui doivent être payées pour que les bases de la vie continuent : loyer ou paiement de logement, services publics, paiements minimum de dettes, transport vers le travail, coûts fixes liés aux enfants, médicaments. Additionnez-les. Soustrayez cette somme de votre revenu de planification. Le chiffre qui reste, s'il y en a un, est le point de départ pour tout le reste. Si le chiffre est négatif, vous avez un déficit structurel. La première démarche n'est pas d'optimiser les courses. La première démarche est de regarder le non-négociable en soi : lequel peut être renégocié, lequel peut être réduit, lequel vous maintient dans une mauvaise situation."
+                "text": "Le non-négociable sont les factures qui doivent être payées pour que les bases de la vie continuent : loyer ou paiement de logement, services publics, paiements minimum de dettes, transport vers le travail, coûts fixes liés aux enfants, médicaments. Additionne-les. Soustrais cette somme de ton revenu de planification. Le chiffre qui reste, s'il y en a un, est le point de départ pour tout le reste. Si le chiffre est négatif, tu as un déficit structurel. La première démarche n'est pas d'optimiser les courses. La première démarche est de regarder le non-négociable en soi : lequel peut être renégocié, lequel peut être réduit, lequel te maintient dans une mauvaise situation."
         },
         {
-                "id": "tape-3-trouvez-votre-argent-lastique",
+                "id": "tape-3-trouve-ton-argent-lastique",
                 "kind": "h3",
-                "text": "Étape 3 : Trouvez votre argent \"élastique\""
+                "text": "Étape 3 : Trouve ton argent \"élastique\""
         },
         {
                 "kind": "p",
-                "text": "L'argent élastique est la dépense qui peut rétrécir sans briser les bases. Il réside généralement dans les courses, les articles ménagers, les extras de transport, le divertissement et les soins personnels. Regardez les trois derniers mois et identifiez les catégories élastiques. Choisissez deux ou trois où un petit changement peut vous économiser quelques dollars par semaine. Pas cent dollars par mois. Quelques dollars par semaine. Le point de cette étape n'est pas de transformer votre vie. C'est de libérer un petit montant réel d'argent qui devient la graine de l'étape suivante."
+                "text": "L'argent élastique est la dépense qui peut rétrécir sans briser les bases. Il réside généralement dans les courses, les articles ménagers, les extras de transport, le divertissement et les soins personnels. Regarde les trois derniers mois et identifie les catégories élastiques. Choisis deux ou trois où un petit changement peut t'économiser quelques dollars par semaine. Pas cent dollars par mois. Quelques dollars par semaine. Le point de cette étape n'est pas de transformer ta vie. C'est de libérer un petit montant réel d'argent qui devient la graine de l'étape suivante."
         },
         {
-                "id": "tape-4-construisez-un-coussin-de-d-part-de-100",
+                "id": "tape-4-construis-un-coussin-de-d-part-de-100",
                 "kind": "h3",
-                "text": "Étape 4 : Construisez un coussin de départ de 100 $"
+                "text": "Étape 4 : Construis un coussin de départ de 100 $"
         },
         {
                 "kind": "p",
-                "text": "Un fonds d'urgence traditionnel correspond à trois à six mois de dépenses. C'est le bon objectif éventuellement, mais ce n'est pas le bon objectif pour un mois serré. Avec de faibles revenus, le bon objectif est 100 $. Cent dollars suffisent pour couvrir une petite surprise, comme un ticket modérateur, une contravention ou une facture de services qui arrive deux fois. C'est assez petit pour être construit en quelques semaines et assez petit pour que vous n'ayez pas à choisir entre cela et un repas. Une fois que vous avez 100 $, vous arrêtez de payer les factures surprises avec des frais de découvert. Cela seul vaut l'effort."
+                "text": "Un fonds d'urgence traditionnel correspond à trois à six mois de dépenses. C'est le bon objectif éventuellement, mais ce n'est pas le bon objectif pour un mois serré. Avec de faibles revenus, le bon objectif est 100 $. Cent dollars suffisent pour couvrir une petite surprise, comme un ticket modérateur, une contravention ou une facture de services qui arrive deux fois. C'est assez petit pour être construit en quelques semaines et assez petit pour que tu n'aies pas à choisir entre cela et un repas. Une fois que tu as 100 $, tu arrêtes de payer les factures surprises avec des frais de découvert. Cela seul vaut l'effort."
         },
         {
-                "id": "tape-5-utilisez-la-m-thode-du-calendrier-de-paieme",
+                "id": "tape-5-utilise-la-m-thode-du-calendrier-de-paiemen",
                 "kind": "h3",
-                "text": "Étape 5 : Utilisez la méthode du calendrier de paiement des factures"
+                "text": "Étape 5 : Utilise la méthode du calendrier de paiement des factures"
         },
         {
                 "kind": "p",
-                "text": "La plupart des budgets serrés échouent à cause du timing, pas du montant. Le loyer est dû le 1er, le salaire arrive le 5, le service public est dû le 10. Quand le timing ne s'aligne pas, quelque chose est payé en retard. La solution est de passer du budget par catégories au budget par dates. Prenez une page vierge et dessinez un calendrier. Marquez chaque date de revenu. Marquez chaque date d'échéance. Associez les revenus aux dates d'échéance dans l'ordre, pas par catégorie. Quand le calendrier fonctionne, le budget fonctionne. Quand il ne fonctionne pas, le budget est une liste de souhaits. L'application Savlo utilise un rythme similaire de voir ce qui est dû avant qu'il ne soit payé."
+                "text": "La plupart des budgets serrés échouent à cause du timing, pas du montant. Le loyer est dû le 1er, le salaire arrive le 5, le service public est dû le 10. Quand le timing ne s'aligne pas, quelque chose est payé en retard. La solution est de passer du budget par catégories au budget par dates. Prends une page vierge et dessine un calendrier. Marque chaque date de revenu. Marque chaque date d'échéance. Associe les revenus aux dates d'échéance dans l'ordre, pas par catégorie. Quand le calendrier fonctionne, le budget fonctionne. Quand il ne fonctionne pas, le budget est une liste de souhaits. L'application Savlo utilise un rythme similaire de voir ce qui est dû avant qu'il ne soit payé."
         },
         {
                 "kind": "p",
-                "text": "Pour rendre cela concret, imaginez que le loyer est de 700 $ le 1er, une facture de services est de 90 $ le 10, un forfait téléphonique est de 45 $ le 15 et un salaire de 1 250 $ arrive le 5 et le 20. Le 5, 700 $ du premier chèque vont au loyer. Le 10, 90 $ du deuxième chèque (qui arrive le 20) doivent venir de quelque part. Le calendrier révèle ce problème avant qu'il ne devienne une facture impayée. La solution est de mettre en place un petit coussin de trésorerie le 5 qui couvre la facture du 10, ou d'appeler le fournisseur et de demander un report de la date d'échéance au 20. Les deux solutions sont moins chères qu'une amende pour retard. La méthode du calendrier transforme les comptes de quelque chose d'abstrait en une seule page que vous pouvez lire en une minute."
+                "text": "Pour rendre cela concret, imagine que le loyer est de 700 $ le 1er, une facture de services est de 90 $ le 10, un forfait téléphonique est de 45 $ le 15 et un salaire de 1 250 $ arrive le 5 et le 20. Le 5, 700 $ du premier chèque vont au loyer. Le 10, 90 $ du deuxième chèque (qui arrive le 20) doivent venir de quelque part. Le calendrier révèle ce problème avant qu'il ne devienne une facture impayée. La solution est de mettre en place un petit coussin de trésorerie le 5 qui couvre la facture du 10, ou d'appeler le fournisseur et de demander un report de la date d'échéance au 20. Les deux solutions sont moins chères qu'une amende pour retard. La méthode du calendrier transforme les comptes de quelque chose d'abstrait en une seule page que tu peux lire en une minute."
         },
         {
-                "id": "tape-6-ouvrez-un-petit-fonds-de-r-serve-progressif",
+                "id": "tape-6-ouvre-un-petit-fonds-de-r-serve-progressif",
                 "kind": "h3",
-                "text": "Étape 6 : Ouvrez un petit fonds de réserve progressif"
+                "text": "Étape 6 : Ouvre un petit fonds de réserve progressif"
         },
         {
                 "kind": "p",
-                "text": "Les fonds de réserve progressif semblent être un luxe, mais avec de faibles revenus, ce sont des compétences de survie. Un fonds de réserve progressif est une petite réserve que vous construisez pour une dépense future connue : une prime d'assurance annuelle, un achat de fournitures scolaires, un cadeau de Noël, une inspection de voiture. La plupart des dépenses annuelles se situent entre 50 $ et 500 $. Divisez ce chiffre par douze et mettez de côté ce petit montant chaque mois. Quand la dépense arrive, l'argent est déjà là. Si vous voulez une explication plus détaillée, le{\" \"} guide des fonds de réserve progressif{\" \"} explique les calculs. Avec de faibles revenus, la règle est simple : 5 $ par semaine pour une dépense prévisible suffisent pour commencer."
+                "text": "Les fonds de réserve progressif semblent être un luxe, mais avec de faibles revenus, ce sont des compétences de survie. Un fonds de réserve progressif est une petite réserve que tu construis pour une dépense future connue : une prime d'assurance annuelle, un achat de fournitures scolaires, un cadeau de Noël, une inspection de voiture. La plupart des dépenses annuelles se situent entre 50 $ et 500 $. Divise ce chiffre par douze et mets de côté ce petit montant chaque mois. Quand la dépense arrive, l'argent est déjà là. Si tu veux une explication plus détaillée, le guide des fonds de réserve progressif explique les calculs. Avec de faibles revenus, la règle est simple : 5 $ par semaine pour une dépense prévisible suffisent pour commencer."
         },
         {
-                "id": "tape-7-ajoutez-de-petits-coups-de-pouce-aux-revenu",
+                "id": "tape-7-ajoute-de-petits-coups-de-pouce-aux-revenus",
                 "kind": "h3",
-                "text": "Étape 7 : Ajoutez de petits coups de pouce aux revenus"
+                "text": "Étape 7 : Ajoute de petits coups de pouce aux revenus"
         },
         {
                 "kind": "p",
-                "text": "Faire un budget avec de faibles revenus finit par se heurter à un mur. Le mur est le revenu. Réduire l'argent élastique a un plancher et une fois que vous l'atteignez, aucun tableur n'aide. L'étape suivante est d'ajouter des revenus, pas de réduire les dépenses. Les petits coups de pouce aux revenus ne concernent pas de quitter votre emploi de jour. Ils concernent de mettre vingt dollars dans votre poche ce mois-ci avec quelque chose que vous savez déjà faire : vendre quelque chose, prendre un service, rédiger en freelance, promener des chiens, faire un petit service pour un voisin. Listez trois choses que vous pourriez faire dans les deux prochaines semaines qui ajouteraient 20 $ à 100 $ à vos revenus. Faites-en une la semaine prochaine. Empilez les victoires. La capitalisation de petits montants est ce qui transforme un budget serré en un budget vivable."
+                "text": "Faire un budget avec de faibles revenus finit par se heurter à un mur. Le mur est le revenu. Réduire l'argent élastique a un plancher et une fois que tu l'atteins, aucun tableur n'aide. L'étape suivante est d'ajouter des revenus, pas de réduire les dépenses. Les petits coups de pouce aux revenus ne concernent pas de quitter ton emploi de jour. Ils concernent de mettre vingt dollars dans ta poche ce mois-ci avec quelque chose que tu sais déjà faire : vendre quelque chose, prendre un service, rédiger en freelance, promener des chiens, faire un petit service pour un voisin. Liste trois choses que tu pourrais faire dans les deux prochaines semaines qui ajouteraient 20 $ à 100 $ à tes revenus. Fais-en une la semaine prochaine. Empile les victoires. La capitalisation de petits montants est ce qui transforme un budget serré en un budget vivable."
         },
         {
                 "kind": "p",
-                "text": "Les coups de pouce les plus faciles sont ceux qui utilisent une heure que vous avez déjà. Une soirée à trier et à lister cinq articles sur un marché local produit souvent 40 $ à 150 $ en une semaine. Un samedi matin à aider un voisin à déplacer un canapé, c'est 30 $ en liquide et un futur service. Quelques heures à traduire un document court, promener trois chiens ou monter un meuble pour quelqu'un qui préfère payer plutôt que de le faire lui-même, c'est encore 50 $. Aucun de ceux-ci n'est scalable et c'est le point. Avec de faibles revenus, l'objectif est d'ajouter un petit montant réel ce mois-ci, pas de construire une activité secondaire. Traitez chaque coup de pouce comme un événement ponctuel et laissez le budget en bénéficier sans redessiner le plan autour."
+                "text": "Les coups de pouce les plus faciles sont ceux qui utilisent une heure que tu as déjà. Une soirée à trier et à lister cinq articles sur un marché local produit souvent 40 $ à 150 $ en une semaine. Un samedi matin à aider un voisin à déplacer un canapé, c'est 30 $ en liquide et un futur service. Quelques heures à traduire un document court, promener trois chiens ou monter un meuble pour quelqu'un qui préfère payer plutôt que de le faire lui-même, c'est encore 50 $. Aucun de ceux-ci n'est scalable et c'est le point. Avec de faibles revenus, l'objectif est d'ajouter un petit montant réel ce mois-ci, pas de construire une activité secondaire. Traite chaque coup de pouce comme un événement ponctuel et laisse le budget en bénéficier sans redessiner le plan autour."
         },
         {
                 "kind": "p",
-                "text": "> Les sept étapes semblent longues. En pratique, la première fois que vous les exécutez, cela prend environ une heure. Ensuite, la vérification hebdomadaire prend vingt minutes. L'étape la plus difficile est la première, parce que la première est là où la vérité apparaît. La bonne nouvelle est que chaque étape suivante devient plus facile. L'autre bonne nouvelle est qu'aucune des étapes ne nécessite une application, un abonnement ou un tempérament spécial. Elles nécessitent une feuille de papier, une heure honnête et la volonté de revenir dimanche prochain."
+                "text": "> Les sept étapes semblent longues. En pratique, la première fois que tu les exécutes, cela prend environ une heure. Ensuite, la vérification hebdomadaire prend vingt minutes. L'étape la plus difficile est la première, parce que la première est là où la vérité apparaît. La bonne nouvelle est que chaque étape suivante devient plus facile. L'autre bonne nouvelle est qu'aucune des étapes ne nécessite une application, un abonnement ou un tempérament spécial. Elles nécessitent une feuille de papier, une heure honnête et la volonté de revenir dimanche prochain."
         },
         {
                 "id": "comment-g-rer-la-honte-et-l-anxi-t-li-es-l-argent",
@@ -7259,11 +7259,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "L'argent avec de faibles revenus n'est pas seulement un problème mathématique. C'est aussi un problème émotionnel. Les sentiments qui surgissent en vérifiant votre solde et en voyant 17 $ jusqu'au vendredi sont réels et ne sont pas des signes de faiblesse. Ce sont des signes d'attachement. Le problème est que la honte vous fait éviter exactement ce qui aiderait : regarder les chiffres. Si vous avez évité votre application bancaire pendant des semaines, vous n'êtes pas seul et vous n'êtes pas un échec. Vous êtes une personne avec un système nerveux qui fait son travail en vous protégeant d'un facteur de stress."
+                "text": "L'argent avec de faibles revenus n'est pas seulement un problème mathématique. C'est aussi un problème émotionnel. Les sentiments qui surgissent en vérifiant ton solde et en voyant 17 $ jusqu'au vendredi sont réels et ne sont pas des signes de faiblesse. Ce sont des signes d'attachement. Le problème est que la honte te fait éviter exactement ce qui aiderait : regarder les chiffres. Si tu as évité ton application bancaire pendant des semaines, tu n'es pas seul et tu n'es pas un échec. Tu es une personne avec un système nerveux qui fait son travail en te protégeant d'un facteur de stress."
         },
         {
                 "kind": "p",
-                "text": "Le remède n'est pas la motivation. Le remède est la petitesse. Ouvrez l'application pendant trente secondes et regardez le solde. Fermez l'application. C'est une interaction de budget complète pour un jour serré. Le lendemain, faites la même chose. Le jour suivant, regardez aussi une facture. En une semaine, vous aurez regardé les chiffres quatre fois et la honte aura perdu la majeure partie de sa puissance. La version plus longue de cette idée se trouve dans le{\" \"} guide de l'anxiété financière, qui approfondit la science de l'évitement et ce qui aide."
+                "text": "Le remède n'est pas la motivation. Le remède est la petitesse. Ouvre l'application pendant trente secondes et regarde le solde. Ferme l'application. C'est une interaction de budget complète pour un jour serré. Le lendemain, fais la même chose. Le jour suivant, regarde aussi une facture. En une semaine, tu auras regardé les chiffres quatre fois et la honte aura perdu la majeure partie de sa puissance. La version plus longue de cette idée se trouve dans le guide de l'anxiété financière, qui approfondit la science de l'évitement et ce qui aide."
         },
         {
                 "id": "un-exemple-concret-le-mois-de-1-250",
@@ -7272,7 +7272,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Pour réunir les sept étapes, prenez un seul mois comme exemple. Revenu du mois : 1 250 $ nets, avec la deuxième moitié arrivant le 20. Non-négociables : 700 $ de loyer le 1er, 90 $ de services le 10, 45 $ de téléphone le 15, 60 $ de paiement minimum de dette le 22, 120 $ de transport, 80 $ de courses, 30 $ de soins personnels. C'est 1 125 $ de dépenses fixes et prévisibles. Le coussin du mois précédent est de 100 $. Le premier salaire le 5 couvre le loyer et remet le coussin à 100 $ après la facture de services du 10. Le deuxième salaire le 20 couvre le forfait téléphonique, le paiement minimum de dette, le transport et les courses, et laisse 25 $. Les 25 $ vont dans un fonds de réserve progressif pour la prochaine dépense prévisible. Les chiffres sont serrés, mais ils fonctionnent. La même structure fonctionne pour un mois de 2 200 $, de 900 $ ou de 3 400 $. Les sept étapes ne changent pas avec le montant."
+                "text": "Pour réunir les sept étapes, prends un seul mois comme exemple. Revenu du mois : 1 250 $ nets, avec la deuxième moitié arrivant le 20. Non-négociables : 700 $ de loyer le 1er, 90 $ de services le 10, 45 $ de téléphone le 15, 60 $ de paiement minimum de dette le 22, 120 $ de transport, 80 $ de courses, 30 $ de soins personnels. C'est 1 125 $ de dépenses fixes et prévisibles. Le coussin du mois précédent est de 100 $. Le premier salaire le 5 couvre le loyer et remet le coussin à 100 $ après la facture de services du 10. Le deuxième salaire le 20 couvre le forfait téléphonique, le paiement minimum de dette, le transport et les courses, et laisse 25 $. Les 25 $ vont dans un fonds de réserve progressif pour la prochaine dépense prévisible. Les chiffres sont serrés, mais ils fonctionnent. La même structure fonctionne pour un mois de 2 200 $, de 900 $ ou de 3 400 $. Les sept étapes ne changent pas avec le montant."
         },
         {
                 "id": "la-charge-mentale-des-petits-montants",
@@ -7281,7 +7281,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Les personnes avec plus d'argent ne réalisent souvent pas combien de réflexion coûte la gestion de petits montants avec un budget serré. La différence de 4 $ entre deux supermarchés. Les 30 centimes pour un sac supplémentaire. Si vous prenez le bus deux fois cette semaine ou si vous marchez. Cette charge mentale est réelle et c'est l'une des raisons pour lesquelles les budgets à faibles revenus sont épuisants. La sortie n'est pas de prendre les petites décisions à chaque fois. La sortie est de prendre les règles une fois et ensuite de les suivre par défaut. Achetez vos courses au même magasin. Utilisez l'argent liquide pour les dépenses variables. Fixez un montant maximum discrétionnaire hebdomadaire et arrêtez de compter après. L'objectif est que les petites décisions ne se sentent plus comme des décisions."
+                "text": "Les personnes avec plus d'argent ne réalisent souvent pas combien de réflexion coûte la gestion de petits montants avec un budget serré. La différence de 4 $ entre deux supermarchés. Les 30 centimes pour un sac supplémentaire. Si tu prends le bus deux fois cette semaine ou si tu marches. Cette charge mentale est réelle et c'est l'une des raisons pour lesquelles les budgets à faibles revenus sont épuisants. La sortie n'est pas de prendre les petites décisions à chaque fois. La sortie est de prendre les règles une fois et ensuite de les suivre par défaut. Achète tes courses au même magasin. Utilise l'argent liquide pour les dépenses variables. Fixe un montant maximum discrétionnaire hebdomadaire et arrête de compter après. L'objectif est que les petites décisions ne se sentent plus comme des décisions."
         },
         {
                 "id": "suivi-des-d-penses-en-trente-secondes",
@@ -7290,11 +7290,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Avec de faibles revenus, le temps que vous consacrez au suivi du budget est souvent plus coûteux que le coût d'une dépense oubliée. La règle est simple : suivez pendant trente secondes, pas pendant dix minutes. La plupart des dépenses dans un budget serré proviennent d'un de trois endroits : les courses, le transport et le personnel. Quand vous dépensez, notez une seule ligne avec le montant, la catégorie et le jour. C'est tout. Une saisie vocale qui fait la même chose en trois secondes est encore meilleure. L'application Savlo est construite pour ce rythme : une courte phrase et l'entrée est dans le calendrier, sans lien bancaire et sans friction. L'objectif est de faire du suivi une habitude que vous pouvez maintenir un mardi soir fatigué à 21 heures, pas un projet qui nécessite une heure de concentration."
+                "text": "Avec de faibles revenus, le temps que tu consacres au suivi du budget est souvent plus coûteux que le coût d'une dépense oubliée. La règle est simple : suis pendant trente secondes, pas pendant dix minutes. La plupart des dépenses dans un budget serré proviennent d'un de trois endroits : les courses, le transport et le personnel. Quand tu dépenses, note une seule ligne avec le montant, la catégorie et le jour. C'est tout. Une saisie vocale qui fait la même chose en trois secondes est encore meilleure. L'application Savlo est construite pour ce rythme : une courte phrase et l'entrée est dans le calendrier, sans lien bancaire et sans friction. L'objectif est de faire du suivi une habitude que tu peux maintenir un mardi soir fatigué à 21 heures, pas un projet qui nécessite une heure de concentration."
         },
         {
                 "kind": "p",
-                "text": "L'autre moitié de la règle des trente secondes est d'arrêter de suivre quand le temps ne paie plus. Si un café de 4 $ ne va pas changer le budget, notez-le en deux secondes et passez à autre chose. Si une réparation de voiture de 400 $ vient de se produire, notez-la soigneusement et mettez en pause les dépenses discrétionnaires pour la semaine. Le suivi est un outil, pas une religion. La bonne version du suivi est celle qui s'intègre à une vie normale sans la dominer."
+                "text": "L'autre moitié de la règle des trente secondes est d'arrêter de suivre quand le temps ne paie plus. Si un café de 4 $ ne va pas changer le budget, note-le en deux secondes et passe à autre chose. Si une réparation de voiture de 400 $ vient de se produire, note-la soigneusement et mets en pause les dépenses discrétionnaires pour la semaine. Le suivi est un outil, pas une religion. La bonne version du suivi est celle qui s'intègre à une vie normale sans la dominer."
         },
         {
                 "id": "quand-le-bon-mois-arrive",
@@ -7303,7 +7303,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Avec de faibles revenus, les bons mois sont plus rares que les mauvais et la tentation est de les dépenser. Résistez. Les premiers 50 $ de tout bon mois vont dans le coussin jusqu'à ce qu'il atteigne 100 $. Les 50 $ suivants vont dans le prochain petit fonds de réserve progressif. Les 50 $ suivants vont dans la prochaine dette de la liste. Quand le bon mois a quelques centaines de dollars supplémentaires, le budget a une base réelle et le prochain mauvais mois n'est plus une crise. Le bon mois n'est pas une permission d'améliorer le style de vie. C'est une permission de renforcer le sol."
+                "text": "Avec de faibles revenus, les bons mois sont plus rares que les mauvais et la tentation est de les dépenser. Résiste. Les premiers 50 $ de tout bon mois vont dans le coussin jusqu'à ce qu'il atteigne 100 $. Les 50 $ suivants vont dans le prochain petit fonds de réserve progressif. Les 50 $ suivants vont dans la prochaine dette de la liste. Quand le bon mois a quelques centaines de dollars supplémentaires, le budget a une base réelle et le prochain mauvais mois n'est plus une crise. Le bon mois n'est pas une permission d'améliorer le style de vie. C'est une permission de renforcer le sol."
         },
         {
                 "id": "sept-erreurs-qui-aggravent-un-mois-serr",
@@ -7312,7 +7312,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Sauter des repas pour économiser de l'argent. Cela fonctionne pendant une semaine, puis cela vous coûte en énergie, concentration et factures médicales. La nourriture est un coût fixe, pas élastique. Trouvez une catégorie élastique différente."
+                "text": "- Sauter des repas pour économiser de l'argent. Cela fonctionne pendant une semaine, puis cela te coûte en énergie, concentration et factures médicales. La nourriture est un coût fixe, pas élastique. Trouve une catégorie élastique différente."
         },
         {
                 "kind": "p",
@@ -7320,7 +7320,7 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Ignorer une facture parce qu'elle fait peur. Les amendes pour retard, la perte de service et les recouvrements sont plus chers qu'un appel téléphonique. Appelez la compagnie, demandez un plan de paiement, demandez une extension pour difficultés. La pire réponse est \"non\" et la meilleure est \"nous pouvons le diviser en trois paiements.\""
+                "text": "- Ignorer une facture parce qu'elle fait peur. Les amendes pour retard, la perte de service et les recouvrements sont plus chers qu'un appel téléphonique. Appelle la compagnie, demande un plan de paiement, demande une extension pour difficultés. La pire réponse est \"non\" et la meilleure est \"nous pouvons le diviser en trois paiements.\""
         },
         {
                 "kind": "p",
@@ -7328,19 +7328,19 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "- Essayer de payer toutes les dettes en même temps. Avec de faibles revenus, payer plus sur cinq dettes en même temps revient à payer plus sur aucune. Payez le minimum sur toutes pour protéger le crédit et la raison, puis mettez chaque dollar supplémentaire sur le solde le plus petit. Les calculs se trouvent dans le{\" \"} guide de remboursement de dettes, et l'ordre est encore plus important quand le revenu est serré."
+                "text": "- Essayer de payer toutes les dettes en même temps. Avec de faibles revenus, payer plus sur cinq dettes en même temps revient à payer plus sur aucune. Paie le minimum sur toutes pour protéger le crédit et la raison, puis mets chaque dollar supplémentaire sur le solde le plus petit. Les calculs se trouvent dans le guide de remboursement de dettes, et l'ordre est encore plus important quand le revenu est serré."
         },
         {
                 "kind": "p",
-                "text": "- Essayer d'épargner agressivement quand il n'y a pas de marge. Épargner 50 $ par mois quand les comptes sont déjà serrés crée juste une nouvelle crise. Construisez le coussin de 100 $ d'abord. Ensuite, parlez d'épargner plus."
+                "text": "- Essayer d'épargner agressivement quand il n'y a pas de marge. Épargner 50 $ par mois quand les comptes sont déjà serrés crée juste une nouvelle crise. Construis le coussin de 100 $ d'abord. Ensuite, parle d'épargner plus."
         },
         {
                 "kind": "p",
-                "text": "- Comparer votre budget à celui des autres. Le budget \"moyen\" que vous voyez en ligne est construit pour un revenu \"moyen.\" Le vôtre est construit pour votre revenu réel. Ce n'est pas le même exercice."
+                "text": "- Comparer ton budget à celui des autres. Le budget \"moyen\" que tu vois en ligne est construit pour un revenu \"moyen.\" Le tien est construit pour ton revenu réel. Ce n'est pas le même exercice."
         },
         {
                 "kind": "p",
-                "text": "- Abandonner le budget après un mauvais mois. Le point d'un budget à faibles revenus n'est pas la perfection. Le point est de revenir dimanche prochain et d'essayer encore. C'est tout le travail. Si vous revenez, le budget fonctionne."
+                "text": "- Abandonner le budget après un mauvais mois. Le point d'un budget à faibles revenus n'est pas la perfection. Le point est de revenir dimanche prochain et d'essayer encore. C'est tout le travail. Si tu reviens, le budget fonctionne."
         },
         {
                 "id": "outils-qui-aident-quand-l-argent-est-serr",
@@ -7349,11 +7349,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Le meilleur outil est celui que vous allez réellement utiliser. Avec de faibles revenus, le coût d'un abonnement est rarement le facteur décisif. Le facteur décisif est si l'outil respecte votre temps et votre réalité. Pour la plupart des gens, le bon outil est l'un de trois : un papier divisé en non-négociable, élastique et une petite réserve ; un tableur simple avec trois colonnes qui est mis à jour chaque semaine ; ou une application qui respecte la vie privée et vous permet de saisir des dépenses par la voix en quelques secondes, sans lien bancaire. Savlo est construit pour la troisième voie. Il est conçu pour Android, et iOS arrive ensuite, et il fonctionne sans demander d'identifiants bancaires, ce qui importe quand la confiance est le facteur décisif."
+                "text": "Le meilleur outil est celui que tu vas réellement utiliser. Avec de faibles revenus, le coût d'un abonnement est rarement le facteur décisif. Le facteur décisif est si l'outil respecte ton temps et ta réalité. Pour la plupart des gens, le bon outil est l'un de trois : un papier divisé en non-négociable, élastique et une petite réserve ; un tableur simple avec trois colonnes qui est mis à jour chaque semaine ; ou une application qui respecte la vie privée et te permet de saisir des dépenses par la voix en quelques secondes, sans lien bancaire. Savlo est construit pour la troisième voie. Il est conçu pour Android, et iOS arrive ensuite, et il fonctionne sans demander d'identifiants bancaires, ce qui importe quand la confiance est le facteur décisif."
         },
         {
                 "kind": "p",
-                "text": "Si vous préférez la voie manuelle, une brève vérification hebdo suffit. Ouvrez l'application de notes sur votre téléphone. Notez ce qui est entré, ce qui est sorti et ce qui reste. C'est un budget complet. Si vous voulez un formulaire plus structuré, le calendrier de paiement des factures de l'étape cinq vous donne tout ce dont vous avez besoin sur une seule page. Le point n'est pas le format. Le point est l'habitude. Choisissez un outil qui n'ajoute pas de friction et utilisez-le chaque dimanche."
+                "text": "Si tu préfères la voie manuelle, une brève vérification hebdo suffit. Ouvre l'application de notes sur ton téléphone. Note ce qui est entré, ce qui est sorti et ce qui reste. C'est un budget complet. Si tu veux un formulaire plus structuré, le calendrier de paiement des factures de l'étape cinq te donne tout ce dont tu as besoin sur une seule page. Le point n'est pas le format. Le point est l'habitude. Choisis un outil qui n'ajoute pas de friction et utilise-le chaque dimanche."
         },
         {
                 "id": "quand-demander-de-l-aide-au-del-du-budget",
@@ -7362,11 +7362,11 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un budget est un outil, pas un sauvetage. Il y a des mois où les chiffres ne fonctionnent tout simplement pas, et la bonne réponse est de demander de l'aide. La plupart des villes ont une aide d'urgence pour les services publics, la nourriture, le loyer et les ordonnances. Les organisations ne sont pas des œuvres charitables que vous devez mériter. Ce sont des services publics financés exactement pour cette situation. Si vous êtes aux États-Unis, le 211 vous connecte à une ligne d'information locale qui peut vous orienter vers le bon programme. Dans beaucoup d'autres pays, des lignes d'aide équivalentes existent. Le budget vous donne la dignité de savoir ce qui se passe. L'aide vous donne le temps de prendre la prochaine décision."
+                "text": "Un budget est un outil, pas un sauvetage. Il y a des mois où les chiffres ne fonctionnent tout simplement pas, et la bonne réponse est de demander de l'aide. La plupart des villes ont une aide d'urgence pour les services publics, la nourriture, le loyer et les ordonnances. Les organisations ne sont pas des œuvres charitables que tu dois mériter. Ce sont des services publics financés exactement pour cette situation. Si tu es aux États-Unis, le 211 te connecte à une ligne d'information locale qui peut t'orienter vers le bon programme. Dans beaucoup d'autres pays, des lignes d'aide équivalentes existent. Le budget te donne la dignité de savoir ce qui se passe. L'aide te donne le temps de prendre la prochaine décision."
         },
         {
                 "kind": "p",
-                "text": "Un deuxième type d'aide est la bibliothèque locale. La plupart des bibliothèques publiques offrent un accès gratuit à du coaching financier, des ateliers gratuits sur le budget et les dettes, une impression gratuite de formulaires, un internet gratuit pour les recherches d'emploi et un espace de réunion gratuit pour l'organisation communautaire. La bibliothèque est une salle silencieuse et gratuite où vous pouvez vous asseoir avec vos relevés et travailler les sept étapes de ce guide sans que personne ne vous demande ce que vous faites là. Si les chiffres sont serrés, la bibliothèque est l'une des rares ressources publiques qui s'adapte à ce dont vous avez besoin."
+                "text": "Un deuxième type d'aide est la bibliothèque locale. La plupart des bibliothèques publiques offrent un accès gratuit à du coaching financier, des ateliers gratuits sur le budget et les dettes, une impression gratuite de formulaires, un internet gratuit pour les recherches d'emploi et un espace de réunion gratuit pour l'organisation communautaire. La bibliothèque est une salle silencieuse et gratuite où tu peux t'asseoir avec tes relevés et travailler les sept étapes de ce guide sans que personne ne te demande ce que tu fais là. Si les chiffres sont serrés, la bibliothèque est l'une des rares ressources publiques qui s'adapte à ce dont tu as besoin."
         },
         {
                 "kind": "divider"
@@ -7382,31 +7382,31 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Quel est le plus petit montant d'argent que je devrais essayer d'épargner d'abord ? Cent dollars. Un coussin de 100 $ est suffisant pour absorber une petite surprise et assez petit pour être construit en quelques semaines. Une fois que vous l'avez, élargissez- le. Le point est de commencer par un chiffre atteignable, pas un chiffre qui garde l'objectif sur l'étagère."
+                "text": "Quel est le plus petit montant d'argent que je devrais essayer d'épargner d'abord ? Cent dollars. Un coussin de 100 $ est suffisant pour absorber une petite surprise et assez petit pour être construit en quelques semaines. Une fois que tu l'as, élargis- le. Le point est de commencer par un chiffre atteignable, pas un chiffre qui garde l'objectif sur l'étagère."
         },
         {
                 "kind": "p",
-                "text": "Comment budgéter si mon revenu change chaque mois ? Budgetez à partir du mois le plus bas des six derniers, pas de la moyenne. Quand les bons mois arrivent, traitez le supplément comme un coussin, pas comme une amélioration du plan. Le plan est construit pour survivre au mauvais mois. Le bon mois est un cadeau pour le plan."
+                "text": "Comment budgéter si mon revenu change chaque mois ? Budgete à partir du mois le plus bas des six derniers, pas de la moyenne. Quand les bons mois arrivent, traite le supplément comme un coussin, pas comme une amélioration du plan. Le plan est construit pour survivre au mauvais mois. Le bon mois est un cadeau pour le plan."
         },
         {
                 "kind": "p",
-                "text": "Et si chaque catégorie est non négociable ? Alors le budget a un problème structurel, pas un problème de catégorie. La étape suivante est de regarder le revenu, pas les dépenses. Renégociez une facture fixe, demandez une augmentation, trouvez un petit revenu complémentaire ou demandez de l'aide. Le budget peut vous montrer l'écart. Il ne peut pas le combler."
+                "text": "Et si chaque catégorie est non négociable ? Alors le budget a un problème structurel, pas un problème de catégorie. La étape suivante est de regarder le revenu, pas les dépenses. Renégocie une facture fixe, demande une augmentation, trouve un petit revenu complémentaire ou demande de l'aide. Le budget peut te montrer l'écart. Il ne peut pas le combler."
         },
         {
                 "kind": "p",
-                "text": "Comment arrêter d'avoir honte de mes dépenses ? La honte réside généralement dans l'évitement. Ouvrez l'application pendant trente secondes. Regardez le solde. Fermez l'application. Faites cela pendant une semaine. La honte perd la majeure partie de sa puissance au moment où le regard devient une habitude. Vous pouvez en savoir plus dans le{\" \"} article sur la dysmorphie monétaire, qui approfondit le côté émotionnel."
+                "text": "Comment arrêter d'avoir honte de mes dépenses ? La honte réside généralement dans l'évitement. Ouvre l'application pendant trente secondes. Regarde le solde. Ferme l'application. Fais cela pendant une semaine. La honte perd la majeure partie de sa puissance au moment où le regard devient une habitude. Tu peux en savoir plus dans le article sur la dysmorphie monétaire, qui approfondit le côté émotionnel."
         },
         {
                 "kind": "p",
-                "text": "Est-il correct d'utiliser une application de budget quand l'argent est serré ? Tant que l'application n'ajoute pas de friction, oui. Une application simple qui vous permet de saisir un café de 4 $ en deux secondes vaut plus qu'une application sophistiquée que vous ouvrez deux fois par an. Si une application gratuite sans lien bancaire et sans abonnement fonctionne, c'est la bonne application. Savlo est une telle option, mais pas la seule. La confidentialité est importante ici car vous protégez aussi les peu de dollars que vous avez."
+                "text": "Est-il correct d'utiliser une application de budget quand l'argent est serré ? Tant que l'application n'ajoute pas de friction, oui. Une application simple qui te permet de saisir un café de 4 $ en deux secondes vaut plus qu'une application sophistiquée que tu ouvres deux fois par an. Si une application gratuite sans lien bancaire et sans abonnement fonctionne, c'est la bonne application. Savlo est une telle option, mais pas la seule. La confidentialité est importante ici car tu protèges aussi les peu de dollars que tu as."
         },
         {
                 "kind": "p",
-                "text": "Comment budgéter quand j'ai des dettes en plus de faibles revenus ? Payez le minimum sur chaque dette pour garder les comptes à jour, puis mettez chaque dollar supplémentaire sur le solde le plus petit. Quand le solde le plus petit disparaît, transférez ce paiement au suivant. La mécanique est la même que dans le{\" \"} guide de remboursement de dettes, et l'ordre de priorité est encore plus important quand le revenu est serré."
+                "text": "Comment budgéter quand j'ai des dettes en plus de faibles revenus ? Paie le minimum sur chaque dette pour garder les comptes à jour, puis mets chaque dollar supplémentaire sur le solde le plus petit. Quand le solde le plus petit disparaît, transfère ce paiement au suivant. La mécanique est la même que dans le guide de remboursement de dettes, et l'ordre de priorité est encore plus important quand le revenu est serré."
         },
         {
                 "kind": "p",
-                "text": "Et si je dois choisir entre payer une facture et acheter de la nourriture ? Appelez d'abord la compagnie. La plupart des entreprises ont une ligne pour difficultés. Elles mettront le service en pause pendant un mois, diviseront un paiement ou vous orienteront vers un programme d'aide. La nourriture est un non- négociable et un seul appel téléphonique vous achète souvent le temps de obtenir la nourriture. Si ce n'est pas le cas, l'aide alimentaire publique et les banques alimentaires locales sont la bonne réponse. Elles existent exactement pour cette situation."
+                "text": "Et si je dois choisir entre payer une facture et acheter de la nourriture ? Appelle d'abord la compagnie. La plupart des entreprises ont une ligne pour difficultés. Elles mettront le service en pause pendant un mois, diviseront un paiement ou t'orienteront vers un programme d'aide. La nourriture est un non- négociable et un seul appel téléphonique t'achète souvent le temps de obtenir la nourriture. Si ce n'est pas le cas, l'aide alimentaire publique et les banques alimentaires locales sont la bonne réponse. Elles existent exactement pour cette situation."
         },
         {
                 "id": "un-petit-budget-honn-te-bat-un-budget-parfait",
@@ -7415,15 +7415,15 @@ const overrides = {
         },
         {
                 "kind": "p",
-                "text": "Un budget avec de faibles revenus n'est pas une performance. C'est une habitude d'entretien. Le travail est d'empêcher les petites surprises de devenir de grandes crises, de garder un peu d'argent en réserve et de vous garder assez proche des chiffres pour pouvoir prendre une décision réfléchie quand quelque chose se brise. Un petit budget honnête auquel vous revenez dimanche prochain bat un budget parfait que vous abandonnez en trois semaines."
+                "text": "Un budget avec de faibles revenus n'est pas une performance. C'est une habitude d'entretien. Le travail est d'empêcher les petites surprises de devenir de grandes crises, de garder un peu d'argent en réserve et de te garder assez proche des chiffres pour pouvoir prendre une décision réfléchie quand quelque chose se brise. Un petit budget honnête auquel tu reviens dimanche prochain bat un budget parfait que tu abandonnes en trois semaines."
         },
         {
                 "kind": "p",
-                "text": "Si vous commencez de zéro, suivez les sept étapes dans l'ordre. Construisez le coussin de 100 $. Ouvrez un petit fonds de réserve progressif. Empilez un petit coup de pouce aux revenus. Après un mois, les chiffres ne sont pas encore confortables, mais la routine l'est. La routine est ce qui rend le mois suivant plus facile. En six mois, la routine est ce qui rend l'année prochaine possible."
+                "text": "Si tu commences de zéro, suis les sept étapes dans l'ordre. Construis le coussin de 100 $. Ouvre un petit fonds de réserve progressif. Empile un petit coup de pouce aux revenus. Après un mois, les chiffres ne sont pas encore confortables, mais la routine l'est. La routine est ce qui rend le mois suivant plus facile. En six mois, la routine est ce qui rend l'année prochaine possible."
         },
         {
                 "kind": "p",
-                "text": "La partie la plus difficile d'un budget à faibles revenus n'est pas les chiffres. C'est la solitude de le faire. La plupart des conversations sur le budget supposent une marge que vous n'avez pas et la plupart du contenu sur le budget est écrit pour des personnes qui peuvent absorber une surprise. Vous n'êtes pas en retard et vous n'êtes pas en échec. Vous exécutez une version plus exigeante du même exercice, avec moins de marge d'erreur et une marge plus petite pour les surprises. Un budget qui correspond à cette réalité est l'un des outils les plus utiles que vous puissiez construire et il vaut la heure nécessaire pour commencer. Si vous cherchez un outil qui respecte votre vie privée, ne demande pas d'identifiants bancaires et fonctionne avec des routines serrées, Savlo est conçu pour Android, et iOS arrive ensuite. Il est construit pour le type de budget décrit dans ce guide : petit, honnête et facile auquel revenir. Tout ici fonctionne sans lui. Si vous cherchez un compagnon pour la routine, Savlo est l'une des options les plus discrètes du marché."
+                "text": "La partie la plus difficile d'un budget à faibles revenus n'est pas les chiffres. C'est la solitude de le faire. La plupart des conversations sur le budget supposent une marge que tu n'as pas et la plupart du contenu sur le budget est écrit pour des personnes qui peuvent absorber une surprise. Tu n'es pas en retard et tu n'es pas en échec. Tu exécutes une version plus exigeante du même exercice, avec moins de marge d'erreur et une marge plus petite pour les surprises. Un budget qui correspond à cette réalité est l'un des outils les plus utiles que tu puisses construire et il vaut la heure nécessaire pour commencer. Si tu cherches un outil qui respecte ta vie privée, ne demande pas d'identifiants bancaires et fonctionne avec des routines serrées, Savlo est conçu pour Android, et iOS arrive ensuite. Il est construit pour le type de budget décrit dans ce guide : petit, honnête et facile auquel revenir. Tout ici fonctionne sans lui. Si tu cherches un compagnon pour la routine, Savlo est l'une des options les plus discrètes du marché."
         }
 ]
     },

@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import LegalPage from "@/components/savlo/legal-page"
 import deleteAccountData from "@/lib/legal/delete-account-fr.json"
@@ -23,7 +22,6 @@ export const metadata: Metadata = {
 export default function DeleteAccountPage() {
   return (
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader locale="fr" />
       <LegalPage data={deleteAccountData} locale="fr" type="delete-account" />
       <SiteFooter locale="fr" />
     </div>

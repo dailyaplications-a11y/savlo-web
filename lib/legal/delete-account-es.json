@@ -17,19 +17,19 @@
   "sections": [
     {
       "id": "delete-in-app",
-      "heading": "Opción 1 — Eliminarla vos mismo desde la app",
+      "heading": "Opción 1 — Eliminarla tú mismo desde la app",
       "content": [
         {
           "type": "p",
-          "text": "Es el camino más rápido y es inmediato. Si todavía tenés Savlo instalada:"
+          "text": "Es el camino más rápido y es inmediato. Si todavía tienes Savlo instalada:"
         },
         {
           "type": "ol",
           "items": [
-            "Abrí Savlo y entrá a <strong>Ajustes</strong>.",
-            "Tocá <strong>Cuenta y perfil → Información personal</strong>.",
-            "Tocá <strong>Eliminar cuenta</strong>.",
-            "Confirmá las dos pantallas de advertencia."
+            "Abre Savlo y entra a <strong>Ajustes</strong>.",
+            "Toca <strong>Cuenta y perfil → Información personal</strong>.",
+            "Toca <strong>Eliminar cuenta</strong>.",
+            "Confirma las dos pantallas de advertencia."
           ]
         },
         {
@@ -38,7 +38,7 @@
         },
         {
           "type": "p",
-          "text": "Si querés conservar una copia de tus registros, usá <strong>Ajustes → Exportar mis datos</strong> antes de eliminar la cuenta."
+          "text": "Si quieres conservar una copia de tus registros, usa <strong>Ajustes → Exportar mis datos</strong> antes de eliminar la cuenta."
         }
       ]
     },
@@ -48,7 +48,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Si ya desinstalaste Savlo o no podés acceder a tu cuenta, escribinos y la eliminamos nosotros:"
+          "text": "Si ya desinstalaste Savlo o no puedes acceder a tu cuenta, escríbenos y la eliminamos nosotros:"
         },
         {
           "type": "p",
@@ -56,7 +56,7 @@
         },
         {
           "type": "p",
-          "text": "Enviá la solicitud <strong>desde el correo registrado en la cuenta</strong> (si te registraste con Google, usá esa misma dirección de Google). Eso nos sirve como verificación. Si escribís desde otra dirección te vamos a pedir que confirmes la titularidad antes de borrar nada, porque eliminar una cuenta a pedido de un desconocido sin verificar sería, en sí mismo, un problema de seguridad."
+          "text": "Envía la solicitud <strong>desde el correo registrado en la cuenta</strong> (si te registraste con Google, usa esa misma dirección de Google). Eso nos sirve como verificación. Si escribes desde otra dirección te vamos a pedir que confirmes la titularidad antes de borrar nada, porque eliminar una cuenta a pedido de un desconocido sin verificar sería, en sí mismo, un problema de seguridad."
         }
       ]
     },
@@ -121,7 +121,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Eliminar tu cuenta de Savlo **no** cancela por sí solo una suscripción paga. Las suscripciones las cobra Google Play, así que también tenés que cancelarla ahí: <strong>Play Store → tu perfil → Pagos y suscripciones → Suscripciones → Savlo → Cancelar</strong>. Hacelo antes de eliminar la cuenta para que no te vuelvan a cobrar."
+          "text": "Eliminar tu cuenta de Savlo **no** cancela por sí solo una suscripción paga. Las suscripciones las cobra Google Play, así que también tienes que cancelarla ahí: <strong>Play Store → tu perfil → Pagos y suscripciones → Suscripciones → Savlo → Cancelar</strong>. Hacelo antes de eliminar la cuenta para que no te vuelvan a cobrar."
         }
       ]
     },
@@ -131,7 +131,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Escribinos a <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. Para ver en detalle qué datos recopilamos y por qué, consultá nuestra <a class=\"text-primary underline\" href=\"/es/privacy\">Política de Privacidad</a>."
+          "text": "Escríbenos a <a class=\"text-primary underline\" href=\"mailto:support@savloapp.com\">support@savloapp.com</a>. Para ver en detalle qué datos recopilamos y por qué, consulta nuestra <a class=\"text-primary underline\" href=\"/es/privacy\">Política de Privacidad</a>."
         }
       ]
     }

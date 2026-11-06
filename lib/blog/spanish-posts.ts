@@ -76,7 +76,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Investigación en finanzas conductuales {\" \"} muestra que cuando un sistema nos avergüenza, evitamos mirarlo. Y cuando evitamos mirar, perdemos el seguimiento de nuestras finanzas. No es pereza; es evitación emocional. Un buen presupuesto hace lo contrario. Te invita a volver, incluso cuando no has abierto la app en tres días, sin regañarte nunca."
+            "text": "Investigación en finanzas conductuales muestra que cuando un sistema nos avergüenza, evitamos mirarlo. Y cuando evitamos mirar, perdemos el seguimiento de nuestras finanzas. No es pereza; es evitación emocional. Un buen presupuesto hace lo contrario. Te invita a volver, incluso cuando no has abierto la app en tres días, sin regañarte nunca."
       },
       {
             "kind": "p",
@@ -212,7 +212,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Usa una app de presupuesto. Apps como{\" \"} Savlo te permiten registrar gastos manualmente o importar desde un CSV, para que mantengas el control de tus datos."
+            "text": "- Usa una app de presupuesto. Apps como Savlo te permiten registrar gastos manualmente o importar desde un CSV, para que mantengas el control de tus datos."
       },
       {
             "kind": "p",
@@ -229,7 +229,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Sin categorías simples, presupuestar se convierte en una lista infinita de categorías que nadie mantiene. Recomendamos comenzar con una adaptación flexible de la{\" \"} regla 50/30/20:"
+            "text": "Sin categorías simples, presupuestar se convierte en una lista infinita de categorías que nadie mantiene. Recomendamos comenzar con una adaptación flexible de la regla 50/30/20:"
       },
       {
             "kind": "p",
@@ -241,7 +241,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- 20% Futuro: Ahorros, inversiones, pagos extra de deuda y contribuciones a tu{\" \"}"
+            "text": "- 20% Futuro: Ahorros, inversiones, pagos extra de deuda y contribuciones a tu "
       },
       {
             "kind": "p",
@@ -257,7 +257,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "> Principio Savlo: Cualquier presupuesto que te haga sentir peor después de abrirlo está mal diseñado. No es tu culpa. [envelope system](/blog/sinking-funds)"
+            "text": "> Principio Savlo: Cualquier presupuesto que te haga sentir peor después de abrirlo está mal diseñado. No es tu culpa. [sistema de sobres](/blog/sinking-funds)"
       },
       {
             "id": "paso-3-establece-metas-realistas-que-realmente-per",
@@ -274,7 +274,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Un colchón de emergencia. Comienza con $500 o un mes de gastos, lo que sea menor. Este es tu primer hito. Una vez que lo alcances, apunta a tres meses, luego seis. Para un análisis más profundo, lee nuestra guía sobre{\" \"}"
+            "text": "- Un colchón de emergencia. Comienza con $500 o un mes de gastos, lo que sea menor. Este es tu primer hito. Una vez que lo alcances, apunta a tres meses, luego seis. Para un análisis más profundo, lee nuestra guía sobre "
       },
       {
             "kind": "p",
@@ -282,7 +282,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": ". [sinking funds](/blog/sinking-funds)"
+            "text": ". [fondos de ahorro](/blog/sinking-funds)"
       },
       {
             "kind": "p",
@@ -312,7 +312,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La{\" \"} regla 50/30/20 divide tu ingreso después de impuestos en tres categorías: cincuenta por ciento para necesidades, treinta por ciento para deseos y veinte por ciento para ahorros y pago de deuda. Fue popularizada por la senadora Elizabeth Warren en su libro{\" \"} All Your Worth: The Ultimate Lifetime Money Plan, coescrito con su hija Amelia Warren Tyagi. [50/30/20 rule](/blog/50-30-20-rule)"
+            "text": "La regla 50/30/20 divide tu ingreso después de impuestos en tres categorías: cincuenta por ciento para necesidades, treinta por ciento para deseos y veinte por ciento para ahorros y pago de deuda. Fue popularizada por la senadora Elizabeth Warren en su libro All Your Worth: The Ultimate Lifetime Money Plan, coescrito con su hija Amelia Warren Tyagi. [regla 50/30/20](/blog/50-30-20-rule)"
       },
       {
             "kind": "p",
@@ -324,7 +324,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Para un desglose completo de este método — incluyendo cómo manejar situaciones donde las necesidades exceden el 50 por ciento, cómo adaptarlo para parejas y errores comunes que evitar — consulta nuestra guía completa sobre la{\" \"} regla 50/30/20."
+            "text": "Para un desglose completo de este método — incluyendo cómo manejar situaciones donde las necesidades exceden el 50 por ciento, cómo adaptarlo para parejas y errores comunes que evitar — consulta nuestra guía completa sobre la regla 50/30/20."
       },
       {
             "id": "presupuesto-de-base-cero-m-ximo-control",
@@ -333,7 +333,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Con{\" \"}"
+            "text": "Con "
       },
       {
             "kind": "p",
@@ -362,7 +362,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El{\" \"} sistema de sobres es el método de presupuesto más antiguo aún en uso amplio, y por buena razón: funciona. Asignas efectivo a sobres físicos etiquetados con categorías de gasto — alimentos, entretenimiento, ropa, gasto personal. Cuando un sobre se vacía, dejas de gastar en esa categoría por el resto del mes."
+            "text": "El sistema de sobres es el método de presupuesto más antiguo aún en uso amplio, y por buena razón: funciona. Asignas efectivo a sobres físicos etiquetados con categorías de gasto — alimentos, entretenimiento, ropa, gasto personal. Cuando un sobre se vacía, dejas de gastar en esa categoría por el resto del mes."
       },
       {
             "kind": "p",
@@ -387,7 +387,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Configura transferencias automáticas el día de pago para tu fondo de emergencia, tus{\" \"} fondos acumulativos (cuentas de ahorro para gastos planificados específicos) e inversiones a largo plazo. Lo que queda en tu cuenta corriente es tuyo para gastar sin culpa. Eso es libertad operativa, no microgestión."
+            "text": "Configura transferencias automáticas el día de pago para tu fondo de emergencia, tus fondos acumulativos (cuentas de ahorro para gastos planificados específicos) e inversiones a largo plazo. Lo que queda en tu cuenta corriente es tuyo para gastar sin culpa. Eso es libertad operativa, no microgestión."
       },
       {
             "kind": "p",
@@ -504,7 +504,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Tu salario bruto no es tu ingreso. Tu ingreso neto — el monto que realmente llega a tu cuenta bancaria — es con lo que presupuestas. Si presupuestas con $5,000 pero solo llegan $3,800, ya estás $1,200 atrasado antes de que comience el mes. Siempre usa el número neto. [financial anxiety](/blog/financial-anxiety)"
+            "text": "Tu salario bruto no es tu ingreso. Tu ingreso neto — el monto que realmente llega a tu cuenta bancaria — es con lo que presupuestas. Si presupuestas con $5,000 pero solo llegan $3,800, ya estás $1,200 atrasado antes de que comience el mes. Siempre usa el número neto. [ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "id": "tratarlo-como-todo-o-nada",
@@ -560,7 +560,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El principio central es este: gasta basándote en tu{\" \"} mes más bajo reciente, no tu promedio o mejor mes. Si tu ingreso durante los últimos seis meses fue $2,800, $3,400, $4,100, $3,200, $4,500 y $3,000, tu presupuesto para el próximo mes es $2,800 — el número más bajo. Cualquier ingreso por encima va a una cuenta de amortiguador."
+            "text": "El principio central es este: gasta basándote en tu mes más bajo reciente, no tu promedio o mejor mes. Si tu ingreso durante los últimos seis meses fue $2,800, $3,400, $4,100, $3,200, $4,500 y $3,000, tu presupuesto para el próximo mes es $2,800 — el número más bajo. Cualquier ingreso por encima va a una cuenta de amortiguador."
       },
       {
             "kind": "p",
@@ -572,7 +572,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Aquí es también donde herramientas como{\" \"} Savlo se vuelven particularmente útiles. La registro por voz significa que puedes capturar gastos inmediatamente cuando ocurren — sin esperar hasta estar en una computadora para actualizar una hoja de cálculo. Y como Savlo no requiere vinculación bancaria, tus datos financieros se mantienen privados, lo cual importa aún más cuando tus ingresos son irregulares y tu situación financiera es sensible. [Savlo](/blog/best-mint-alternatives-2025)"
+            "text": "Aquí es también donde herramientas como Savlo se vuelven particularmente útiles. La registro por voz significa que puedes capturar gastos inmediatamente cuando ocurren — sin esperar hasta estar en una computadora para actualizar una hoja de cálculo. Y como Savlo no requiere vinculación bancaria, tus datos financieros se mantienen privados, lo cual importa aún más cuando tus ingresos son irregulares y tu situación financiera es sensible. [Savlo](/blog/best-mint-alternatives-2025)"
       },
       {
             "kind": "divider"
@@ -592,7 +592,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Ten un presupuesto compartido y una asignación personal.{\" \"} El presupuesto compartido cubre alquiler, alimentos, servicios públicos, metas de ahorro y gastos compartidos. Cada pareja recibe una asignación personal igual — sin preguntas — que pueden gastar como quieran. Esto elimina la fricción de justificar cada pequeña compra a otra persona."
+            "text": "- Ten un presupuesto compartido y una asignación personal. El presupuesto compartido cubre alquiler, alimentos, servicios públicos, metas de ahorro y gastos compartidos. Cada pareja recibe una asignación personal igual — sin preguntas — que pueden gastar como quieran. Esto elimina la fricción de justificar cada pequeña compra a otra persona."
       },
       {
             "kind": "p",
@@ -651,11 +651,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Para una comparación detallada de las mejores opciones disponibles ahora, consulta nuestra guía sobre las{\" \"}"
+            "text": "Para una comparación detallada de las mejores opciones disponibles ahora, consulta nuestra guía sobre las "
       },
       {
             "kind": "p",
-            "text": "mejores alternativas a Mint en 2025 . Para una comparación directa de los tres mejores candidatos, consulta nuestra{\" \"}"
+            "text": "mejores alternativas a Mint en 2025 . Para una comparación directa de los tres mejores candidatos, consulta nuestra "
       },
       {
             "kind": "p",
@@ -729,7 +729,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Usa el método del mes más bajo descrito en la sección de ingresos irregulares arriba. Presupuesta basándote en tu peor mes reciente. Cualquier ingreso por encima va a una cuenta de amortiguador. Con el tiempo, este amortiguador crece lo suficiente para cubrir un mal mes sin estrés. Para un análisis más profundo, consulta nuestra guía sobre{\" \"}"
+            "text": "Usa el método del mes más bajo descrito en la sección de ingresos irregulares arriba. Presupuesta basándote en tu peor mes reciente. Cualquier ingreso por encima va a una cuenta de amortiguador. Con el tiempo, este amortiguador crece lo suficiente para cubrir un mal mes sin estrés. Para un análisis más profundo, consulta nuestra guía sobre "
       },
       {
             "kind": "p",
@@ -742,7 +742,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Construye un fondo de emergencia pequeño primero — $500 o un mes de gastos. Esto te impide acumular más deuda cuando algo inesperado sucede. Después, paga agresivamente la deuda de alto interés (tarjetas de crédito, préstamos de día de pago) mientras haces pagos mínimos en todo lo demás. Una vez que la deuda de alto interés se fue, redirige ese dinero a un fondo de emergencia completo. Para más detalle, consulta nuestra guía sobre{\" \"}"
+            "text": "Construye un fondo de emergencia pequeño primero — $500 o un mes de gastos. Esto te impide acumular más deuda cuando algo inesperado sucede. Después, paga agresivamente la deuda de alto interés (tarjetas de crédito, préstamos de día de pago) mientras haces pagos mínimos en todo lo demás. Una vez que la deuda de alto interés se fue, redirige ese dinero a un fondo de emergencia completo. Para más detalle, consulta nuestra guía sobre "
       },
       {
             "kind": "p",
@@ -773,7 +773,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Sí. La ansiedad financiera a menudo proviene de la incertidumbre — no saber a dónde va tu dinero, no saber si puedes costear algo, no saber cuánta deuda tienes. Un presupuesto reemplaza la incertidumbre con información. No resuelve cada problema financiero, pero te da una imagen clara de tu situación, que es el primer paso para sentirte en control. Para más sobre la relación entre dinero y salud mental, consulta nuestra guía sobre{\" \"} ansiedad financiera."
+            "text": "Sí. La ansiedad financiera a menudo proviene de la incertidumbre — no saber a dónde va tu dinero, no saber si puedes costear algo, no saber cuánta deuda tienes. Un presupuesto reemplaza la incertidumbre con información. No resuelve cada problema financiero, pero te da una imagen clara de tu situación, que es el primer paso para sentirte en control. Para más sobre la relación entre dinero y salud mental, consulta nuestra guía sobre ansiedad financiera."
       },
       {
             "id": "qu-es-la-disformismo-monetario-y-c-mo-afecta-el-pr",
@@ -782,7 +782,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La disformismo monetaria es la brecha entre tu situación financiera percibida y tu situación financiera real. Es por qué alguien con $50,000 en ahorros puede sentirse en bancarrota, o por qué alguien ahogado en deuda puede sentirse financieramente cómodo. Un presupuesto corrige esto basando tus decisiones en números reales en lugar de sentimientos. Si tus emociones sobre el dinero no coinciden con tu saldo bancario, no estás solo — y un presupuesto es el camino más directo para cerrar esa brecha. [Money dysmorphia](/blog/money-dysmorphia)"
+            "text": "La disformismo monetaria es la brecha entre tu situación financiera percibida y tu situación financiera real. Es por qué alguien con $50,000 en ahorros puede sentirse en bancarrota, o por qué alguien ahogado en deuda puede sentirse financieramente cómodo. Un presupuesto corrige esto basando tus decisiones en números reales en lugar de sentimientos. Si tus emociones sobre el dinero no coinciden con tu saldo bancario, no estás solo — y un presupuesto es el camino más directo para cerrar esa brecha. [Dismorfia monetaria](/blog/money-dysmorphia)"
       },
       {
             "kind": "divider"
@@ -875,11 +875,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Lo que cambia cuando el dinero es escaso es el orden de prioridades. En lugar de \"ahorra primero, luego todo lo demás\", el orden se convierte en \"lo no negociable primero, luego pequeñas reservas, luego gastos discrecionales.\" Ese orden de prioridades es la columna vertebral de los siete pasos que se describen a continuación. Puedes leer más sobre los cuatro números en la guía más amplia de{\" \"}"
+            "text": "Lo que cambia cuando el dinero es escaso es el orden de prioridades. En lugar de \"ahorra primero, luego todo lo demás\", el orden se convierte en \"lo no negociable primero, luego pequeñas reservas, luego gastos discrecionales.\" Ese orden de prioridades es la columna vertebral de los siete pasos que se describen a continuación. Puedes leer más sobre los cuatro números en la guía más amplia de "
       },
       {
             "kind": "p",
-            "text": "cómo presupuestar dinero {\" \"}; esta versión simplemente los ajusta para meses ajustados."
+            "text": "cómo presupuestar dinero ; esta versión simplemente los ajusta para meses ajustados."
       },
       {
             "id": "siete-pasos-para-presupuestar-con-bajos-ingresos",
@@ -950,7 +950,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Los fondos de ahorro progresivo suenan como un lujo, pero con ingresos escasos son una habilidad de supervivencia. Un fondo de ahorro progresivo es una pequeña reserva que construyes para un gasto futuro conocido: una prima de seguro anual, una compra de útiles escolares, un regalo de Navidad, una inspección del auto. La mayoría de los gastos anuales están entre $50 y $500. Divide esa cifra por doce y aparta esa pequeña cantidad cada mes. Cuando llega el gasto, el dinero ya está ahí. Si quieres una explicación más detallada, la{\" \"} guía de fondos de ahorro progresivo{\" \"} explica las cuentas. Con ingresos escasos, la regla es simple: $5 a la semana para un gasto predecible son suficientes para empezar. [Sinking Funds guide](/blog/sinking-funds)"
+            "text": "Los fondos de ahorro progresivo suenan como un lujo, pero con ingresos escasos son una habilidad de supervivencia. Un fondo de ahorro progresivo es una pequeña reserva que construyes para un gasto futuro conocido: una prima de seguro anual, una compra de útiles escolares, un regalo de Navidad, una inspección del auto. La mayoría de los gastos anuales están entre $50 y $500. Divide esa cifra por doce y aparta esa pequeña cantidad cada mes. Cuando llega el gasto, el dinero ya está ahí. Si quieres una explicación más detallada, la guía de fondos de ahorro progresivo explica las cuentas. Con ingresos escasos, la regla es simple: $5 a la semana para un gasto predecible son suficientes para empezar. [guía de fondos de ahorro](/blog/sinking-funds)"
       },
       {
             "id": "paso-7-a-ade-peque-os-impulsores-de-ingresos",
@@ -959,7 +959,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Presupuestar con bajos ingresos eventualmente choca con un muro. El muro es el ingreso. Reducir el dinero elástico tiene un límite, y una vez que lo alcanzas, ninguna hoja de cálculo ayuda. El siguiente paso es añadir ingresos, no recortar gastos. Los pequeños impulsores de ingresos no se tratan de dejar tu trabajo de día. Se tratan de poner veinte dólares en tu bolsillo este mes con algo que ya sabes hacer: vender algo, cubrir un turno, redactar por free lance, pasear perros, hacer un pequeño servicio para un vecino. Enumera tres cosas que podrías hacer en las próximas dos semanas que sumarían entre $20 y $100 a tus ingresos. Haz una de ellas la próxima semana. Acumula los logros. La capitalización de pequeñas cantidades es lo que transforma un presupuesto ajustado en uno habitable. [financial anxiety](/blog/financial-anxiety)"
+            "text": "Presupuestar con bajos ingresos eventualmente choca con un muro. El muro es el ingreso. Reducir el dinero elástico tiene un límite, y una vez que lo alcanzas, ninguna hoja de cálculo ayuda. El siguiente paso es añadir ingresos, no recortar gastos. Los pequeños impulsores de ingresos no se tratan de dejar tu trabajo de día. Se tratan de poner veinte dólares en tu bolsillo este mes con algo que ya sabes hacer: vender algo, cubrir un turno, redactar por free lance, pasear perros, hacer un pequeño servicio para un vecino. Enumera tres cosas que podrías hacer en las próximas dos semanas que sumarían entre $20 y $100 a tus ingresos. Haz una de ellas la próxima semana. Acumula los logros. La capitalización de pequeñas cantidades es lo que transforma un presupuesto ajustado en uno habitable. [ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "kind": "p",
@@ -980,7 +980,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La cura no es la motivación. La cura es la pequeñez. Abre la aplicación durante treinta segundos y mira el saldo. Cierra la aplicación. Esa es una interacción de presupuesto completa para un día ajustado. Al día siguiente, haz lo mismo. El día siguiente, mira también una factura. En una semana, habrás mirado los números cuatro veces y la vergüenza habrá perdido la mayor parte de su poder. La versión más larga de esta idea se encuentra en la{\" \"} guía de ansiedad financiera, que profundiza en la ciencia de la evitación y lo que ayuda."
+            "text": "La cura no es la motivación. La cura es la pequeñez. Abre la aplicación durante treinta segundos y mira el saldo. Cierra la aplicación. Esa es una interacción de presupuesto completa para un día ajustado. Al día siguiente, haz lo mismo. El día siguiente, mira también una factura. En una semana, habrás mirado los números cuatro veces y la vergüenza habrá perdido la mayor parte de su poder. La versión más larga de esta idea se encuentra en la guía de ansiedad financiera, que profundiza en la ciencia de la evitación y lo que ayuda."
       },
       {
             "id": "un-ejemplo-pr-ctico-el-mes-de-1-250",
@@ -1045,7 +1045,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Intentar pagar todas las deudas a la vez. Con ingresos escasos, pagar de más en cinco deudas al mismo tiempo es lo mismo que pagar de más en cero. Paga el mínimo en todas para proteger el crédito y la cordura, luego destina cada dólar sobrante al saldo más pequeño. Las cuentas están en la{\" \"} guía de pago de deudas, y el orden importa aún más cuando los ingresos son escasos. [money dysmorphia](/blog/money-dysmorphia)"
+            "text": "- Intentar pagar todas las deudas a la vez. Con ingresos escasos, pagar de más en cinco deudas al mismo tiempo es lo mismo que pagar de más en cero. Paga el mínimo en todas para proteger el crédito y la cordura, luego destina cada dólar sobrante al saldo más pequeño. Las cuentas están en la guía de pago de deudas, y el orden importa aún más cuando los ingresos son escasos. [dismorfia monetaria](/blog/money-dysmorphia)"
       },
       {
             "kind": "p",
@@ -1111,7 +1111,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "¿Cómo dejo de sentirme avergonzado por mis gastos? La vergüenza generalmente vive en la evitación. Abre la aplicación durante treinta segundos. Mira el saldo. Cierra la aplicación. Haz esto durante una semana. La vergüenza pierde la mayor parte de su poder en el momento en que mirar se convierte en un hábito. Puedes leer más sobre esto en la{\" \"} pieza sobre dismorfia monetaria, que profundiza en el aspecto emocional."
+            "text": "¿Cómo dejo de sentirme avergonzado por mis gastos? La vergüenza generalmente vive en la evitación. Abre la aplicación durante treinta segundos. Mira el saldo. Cierra la aplicación. Haz esto durante una semana. La vergüenza pierde la mayor parte de su poder en el momento en que mirar se convierte en un hábito. Puedes leer más sobre esto en la pieza sobre dismorfia monetaria, que profundiza en el aspecto emocional."
       },
       {
             "kind": "p",
@@ -1119,7 +1119,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "¿Cómo presupuesto cuando tengo deuda además de bajos ingresos? Paga el mínimo en cada deuda para mantener las cuentas al día, luego destina cada dólar sobrante al saldo más pequeño. Cuando el saldo más pequeño desaparece, desplaza ese pago al siguiente. La mecánica es la misma que en la{\" \"} guía de pago de deudas, y el orden de prioridad importa aún más cuando los ingresos son escasos."
+            "text": "¿Cómo presupuesto cuando tengo deuda además de bajos ingresos? Paga el mínimo en cada deuda para mantener las cuentas al día, luego destina cada dólar sobrante al saldo más pequeño. Cuando el saldo más pequeño desaparece, desplaza ese pago al siguiente. La mecánica es la misma que en la guía de pago de deudas, y el orden de prioridad importa aún más cuando los ingresos son escasos."
       },
       {
             "kind": "p",
@@ -1464,7 +1464,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si quieres una herramienta que haga que mirar sea más fácil, Savlo está diseñado exactamente para esto: una forma rápida, privada y sin anuncios de ver tu dinero sin el agobio. Está hecha para Android, con iOS en camino. Si quieres seguir profundizando, los artículos relacionados a continuación profundizan en la mecánica específica: la filosofía presupuestaria más amplia, la mecánica práctica de fondos rotatorios, y la guía específica de la regla 50/30/20 si quieres un punto de partida simple. [budgeting philosophy](/blog/how-to-budget-money) [Sinking Fund mechanics](/blog/sinking-funds) [the 50/30/20 rule](/blog/50-30-20-rule)"
+            "text": "Si quieres una herramienta que haga que mirar sea más fácil, Savlo está diseñado exactamente para esto: una forma rápida, privada y sin anuncios de ver tu dinero sin el agobio. Está hecha para Android, con iOS en camino. Si quieres seguir profundizando, los artículos relacionados a continuación profundizan en la mecánica específica: la filosofía presupuestaria más amplia, la mecánica práctica de fondos rotatorios, y la guía específica de la regla 50/30/20 si quieres un punto de partida simple. [filosofía de presupuesto](/blog/how-to-budget-money) [cómo funcionan los fondos de ahorro](/blog/sinking-funds) [la regla 50/30/20](/blog/50-30-20-rule)"
       }
 ]
     },
@@ -1830,7 +1830,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Este fondo es especialmente valioso si dependes de tus dispositivos para trabajar. Un portátil roto sin ahorros significa o un cargo en la tarjeta de crédito o una semana de estrés mientras buscas una solución. Un fondo de ahorro específico de actualización tecnológica significa que tienes el efectivo listo y puedes reemplazar el dispositivo inmediatamente. [emergency fund](/blog/emergency-fund-vs-sinking-fund)"
+            "text": "Este fondo es especialmente valioso si dependes de tus dispositivos para trabajar. Un portátil roto sin ahorros significa o un cargo en la tarjeta de crédito o una semana de estrés mientras buscas una solución. Un fondo de ahorro específico de actualización tecnológica significa que tienes el efectivo listo y puedes reemplazar el dispositivo inmediatamente. [fondo de emergencia](/blog/emergency-fund-vs-sinking-fund)"
       },
       {
             "id": "por-qu-no-mezclarlos-con-tu-fondo-de-emergencia",
@@ -1939,7 +1939,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Para freelancers y trabajadores por contrato, el enfoque es directo: cuando llega el pago, asígnalo a tus categorías de presupuesto inmediatamente. Prioriza los gastos fijos primero, luego las contribuciones a los fondos de ahorro específico, luego los gastos flexibles. El orden importa porque asegura que tus objetivos más importantes estén financiados antes de que el gasto discrecional absorba el dinero. Para más detalles sobre este enfoque, consulta nuestra guía sobre{\" \"} presupuestación con un ingreso bajo o irregular."
+            "text": "Para freelancers y trabajadores por contrato, el enfoque es directo: cuando llega el pago, asígnalo a tus categorías de presupuesto inmediatamente. Prioriza los gastos fijos primero, luego las contribuciones a los fondos de ahorro específico, luego los gastos flexibles. El orden importa porque asegura que tus objetivos más importantes estén financiados antes de que el gasto discrecional absorba el dinero. Para más detalles sobre este enfoque, consulta nuestra guía sobre presupuestación con un ingreso bajo o irregular."
       },
       {
             "id": "fondos-de-ahorro-espec-fico-para-parejas",
@@ -1994,7 +1994,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Considera dos escenarios. En el primero, estás pagando deuda de tarjeta de crédito y te saltas los fondos de ahorro específico. Seis meses después, tu coche necesita $800 en reparaciones. Lo pones en la tarjeta de crédito. Ahora tienes $800 de nueva deuda encima de lo que ya estabas pagando. El progreso que hiciste en seis meses está parcialmente borrado. [emergency fund vs. sinking fund](/blog/emergency-fund-vs-sinking-fund)"
+            "text": "Considera dos escenarios. En el primero, estás pagando deuda de tarjeta de crédito y te saltas los fondos de ahorro específico. Seis meses después, tu coche necesita $800 en reparaciones. Lo pones en la tarjeta de crédito. Ahora tienes $800 de nueva deuda encima de lo que ya estabas pagando. El progreso que hiciste en seis meses está parcialmente borrado. [fondo de emergencia vs. fondo de ahorro](/blog/emergency-fund-vs-sinking-fund)"
       },
       {
             "kind": "p",
@@ -2002,7 +2002,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El monto mensual para un fondo de ahorro específico durante el pago de deudas no tiene por qué ser grande. Incluso $30 o $50 por mes en un fondo de mantenimiento del coche crean un amortiguador que evita que se acumule nueva deuda. El objetivo no es construir un fondo masivo mientras estás en deuda. El objetivo es construir pequeños amortiguadores que protejan tu progreso. [how to get out of debt](/blog/how-to-get-out-of-debt)"
+            "text": "El monto mensual para un fondo de ahorro específico durante el pago de deudas no tiene por qué ser grande. Incluso $30 o $50 por mes en un fondo de mantenimiento del coche crean un amortiguador que evita que se acumule nueva deuda. El objetivo no es construir un fondo masivo mientras estás en deuda. El objetivo es construir pequeños amortiguadores que protejan tu progreso. [cómo salir de deudas](/blog/how-to-get-out-of-debt)"
       },
       {
             "id": "c-mo-empezar-con-los-fondos-de-ahorro-espec-fico",
@@ -2035,7 +2035,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "¿En qué se diferencia un fondo de ahorro específico de un fondo de emergencia? Un fondo de emergencia es para emergencias reales: pérdida de empleo, crisis médicas, emergencias inesperadas. Un fondo de ahorro específico es para gastos planeados que sabes que van a llegar. La distinción clave es la previsibilidad. Si puedes programarlo en un calendario, pertenece a un fondo de ahorro específico. Si te sorprendería, pertenece a un fondo de emergencia. Para una comparación detallada, lee nuestra guía sobre{\" \"} fondo de emergencia vs. fondo de ahorro específico."
+            "text": "¿En qué se diferencia un fondo de ahorro específico de un fondo de emergencia? Un fondo de emergencia es para emergencias reales: pérdida de empleo, crisis médicas, emergencias inesperadas. Un fondo de ahorro específico es para gastos planeados que sabes que van a llegar. La distinción clave es la previsibilidad. Si puedes programarlo en un calendario, pertenece a un fondo de ahorro específico. Si te sorprendería, pertenece a un fondo de emergencia. Para una comparación detallada, lee nuestra guía sobre fondo de emergencia vs. fondo de ahorro específico."
       },
       {
             "kind": "p",
@@ -2043,11 +2043,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "¿Puedo usar fondos de ahorro específico mientras pago una deuda? Sí. Los fondos de ahorro específico en realidad protegen tu progreso de pago de deudas al evitar que se acumule nueva deuda. Cuando llega un gasto planeado y tienes un fondo de ahorro específico para él, pagas en efectivo en lugar de añadir al saldo de tu tarjeta de crédito. Incluso una pequeña contribución mensual a un fondo de ahorro específico durante el pago de deudas puede salvarte de costosos cargos por intereses. Consulta nuestra guía sobre{\" \"} cómo salir de deudas para más estrategias."
+            "text": "¿Puedo usar fondos de ahorro específico mientras pago una deuda? Sí. Los fondos de ahorro específico en realidad protegen tu progreso de pago de deudas al evitar que se acumule nueva deuda. Cuando llega un gasto planeado y tienes un fondo de ahorro específico para él, pagas en efectivo en lugar de añadir al saldo de tu tarjeta de crédito. Incluso una pequeña contribución mensual a un fondo de ahorro específico durante el pago de deudas puede salvarte de costosos cargos por intereses. Consulta nuestra guía sobre cómo salir de deudas para más estrategias."
       },
       {
             "kind": "p",
-            "text": "¿Qué pasa si no puedo permitirme empezar un fondo de ahorro específico? Empieza con la cantidad más pequeña que puedas manejar. Incluso $10 o $20 por mes construyen el hábito y crean un pequeño amortiguador. A medida que tu ingreso crece o tus gastos disminuyen, aumenta la contribución. El hábito importa más que el monto en los primeros meses. Para consejos sobre cómo construir un presupuesto que deje espacio para ahorros, consulta nuestra guía sobre cómo presupuestar dinero. [how to budget money](/blog/how-to-budget-money)"
+            "text": "¿Qué pasa si no puedo permitirme empezar un fondo de ahorro específico? Empieza con la cantidad más pequeña que puedas manejar. Incluso $10 o $20 por mes construyen el hábito y crean un pequeño amortiguador. A medida que tu ingreso crece o tus gastos disminuyen, aumenta la contribución. El hábito importa más que el monto en los primeros meses. Para consejos sobre cómo construir un presupuesto que deje espacio para ahorros, consulta nuestra guía sobre cómo presupuestar dinero. [cómo hacer un presupuesto](/blog/how-to-budget-money)"
       },
       {
             "kind": "p",
@@ -2059,7 +2059,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "¿Funcionan los fondos de ahorro específico con el presupuesto 50/30/20? Sí. Los fondos de ahorro específico encajan naturalmente en el 20% de ahorro de un{\" \"} presupuesto 50/30/20. También puedes asignar contribuciones a fondos de ahorro específico desde la categoría del 30% de deseos si los gastos están relacionados con el estilo de vida, como vacaciones o actualizaciones tecnológicas. La clave es asegurarse de que los fondos de ahorro específico sean parte de tu plan de presupuesto, no una idea posterior. [50/30/20 budget](/blog/50-30-20-rule)"
+            "text": "¿Funcionan los fondos de ahorro específico con el presupuesto 50/30/20? Sí. Los fondos de ahorro específico encajan naturalmente en el 20% de ahorro de un presupuesto 50/30/20. También puedes asignar contribuciones a fondos de ahorro específico desde la categoría del 30% de deseos si los gastos están relacionados con el estilo de vida, como vacaciones o actualizaciones tecnológicas. La clave es asegurarse de que los fondos de ahorro específico sean parte de tu plan de presupuesto, no una idea posterior. [presupuesto 50/30/20](/blog/50-30-20-rule)"
       },
       {
             "id": "empieza-tu-primer-fondo-de-ahorro-espec-fico-hoy",
@@ -2080,7 +2080,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Para más guías de planificación financiera, explora nuestros{\" \"} conceptos básicos de presupuestación, la{\" \"} regla 50/30/20,{\" \"} presupuestación basada en cero y nuestra guía sobre{\" \"} fondos de emergencia vs. fondos de ahorro específico. Savlo está hecha para Android, con iOS en camino. [budgeting basics](/blog/how-to-budget-money) [50/30/20 rule](/blog/50-30-20-rule) [zero-based budgeting](/blog/zero-based-budgeting)"
+            "text": "Para más guías de planificación financiera, explora nuestros conceptos básicos de presupuestación, la regla 50/30/20, presupuestación basada en cero y nuestra guía sobre fondos de emergencia vs. fondos de ahorro específico. Savlo está hecha para Android, con iOS en camino. [conceptos básicos del presupuesto](/blog/how-to-budget-money) [regla 50/30/20](/blog/50-30-20-rule) [presupuesto base cero](/blog/zero-based-budgeting)"
       }
 ]
     },
@@ -2118,7 +2118,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El sistema fue popularizado en el mundo de las finanzas personales por YNAB (You Need A Budget), y tiene raíces en la contabilidad de gestión de los años 70. La versión personal es mucho más ligera que la versión corporativa, pero el principio es el mismo: cada unidad de dinero es un recurso, y los recursos son más útiles cuando se asignan con intención. Puedes leer más sobre la filosofía general en nuestra guía sobre cómo hacer un presupuesto, y compararla con el enfoque más simple basado en porcentajes en la guía de 50/30/20. [how to budget money](/blog/how-to-budget-money) [50/30/20 guide](/blog/50-30-20-rule)"
+            "text": "El sistema fue popularizado en el mundo de las finanzas personales por YNAB (You Need A Budget), y tiene raíces en la contabilidad de gestión de los años 70. La versión personal es mucho más ligera que la versión corporativa, pero el principio es el mismo: cada unidad de dinero es un recurso, y los recursos son más útiles cuando se asignan con intención. Puedes leer más sobre la filosofía general en nuestra guía sobre cómo hacer un presupuesto, y compararla con el enfoque más simple basado en porcentajes en la guía de 50/30/20. [cómo hacer un presupuesto](/blog/how-to-budget-money) [guía de la regla 50/30/20](/blog/50-30-20-rule)"
       },
       {
             "id": "las-cuatro-reglas-de-la-presupuestaci-n-de-base-ce",
@@ -2244,7 +2244,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si planear cada dólar se siente demasiado restrictivo o abrumador, comienza con la regla 50/30/20 mucho más ligera. La presupuestación de base cero es un excelente destino, pero no es una línea de salida obligatoria. [50/30/20 rule](/blog/50-30-20-rule)"
+            "text": "Si planear cada dólar se siente demasiado restrictivo o abrumador, comienza con la regla 50/30/20 mucho más ligera. La presupuestación de base cero es un excelente destino, pero no es una línea de salida obligatoria. [regla 50/30/20](/blog/50-30-20-rule)"
       },
       {
             "kind": "p",
@@ -2278,7 +2278,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El efecto combinado de la presupuestación de base cero más los Fondos de Ahorro es eliminar las dos fuentes más comunes de estrés presupuestario: el gasto grande sorpresa, y la sensación creciente de que el mes será ajustado. El Fondo de Ahorro maneja el primero. El seguimiento a nivel de categoría maneja el segundo. El presupuesto deja de ser algo que sobrevives y empieza a ser algo que mantienes. Nuestra guía más profunda sobre Fondos de Ahorro explica la mecánica en detalle, incluyendo cómo dimensionarlos y cómo priorizar cuando no hay suficiente espacio en el presupuesto para todos. [deeper guide on Sinking Funds](/blog/sinking-funds)"
+            "text": "El efecto combinado de la presupuestación de base cero más los Fondos de Ahorro es eliminar las dos fuentes más comunes de estrés presupuestario: el gasto grande sorpresa, y la sensación creciente de que el mes será ajustado. El Fondo de Ahorro maneja el primero. El seguimiento a nivel de categoría maneja el segundo. El presupuesto deja de ser algo que sobrevives y empieza a ser algo que mantienes. Nuestra guía más profunda sobre Fondos de Ahorro explica la mecánica en detalle, incluyendo cómo dimensionarlos y cómo priorizar cuando no hay suficiente espacio en el presupuesto para todos. [guía completa de fondos de ahorro](/blog/sinking-funds)"
       },
       {
             "id": "errores-comunes-y-c-mo-evitarlos",
@@ -2495,7 +2495,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si quieres probar el método sin comprometerte con una nueva aplicación, ejecútalo en una hoja de cálculo por un mes. Si quieres una herramienta que respete tu privacidad, no pida credenciales bancarias, y funcione con las mismas cuatro reglas, Savlo está hecha para Android, con iOS en camino. Está construido alrededor de los mismos principios: asignar cada dólar, aceptar los gastos reales, adaptarte a los golpes, y envejecer tu dinero. El resto de este blog profundiza en las ideas relacionadas, desde la filosofía de presupuestación más amplia hasta la mecánica práctica de los Fondos de Ahorro, si quieres seguir adelante. [budgeting philosophy](/blog/how-to-budget-money) [mechanics](/blog/sinking-funds)"
+            "text": "Si quieres probar el método sin comprometerte con una nueva aplicación, ejecútalo en una hoja de cálculo por un mes. Si quieres una herramienta que respete tu privacidad, no pida credenciales bancarias, y funcione con las mismas cuatro reglas, Savlo está hecha para Android, con iOS en camino. Está construido alrededor de los mismos principios: asignar cada dólar, aceptar los gastos reales, adaptarte a los golpes, y envejecer tu dinero. El resto de este blog profundiza en las ideas relacionadas, desde la filosofía de presupuestación más amplia hasta la mecánica práctica de los Fondos de Ahorro, si quieres seguir adelante. [filosofía de presupuesto](/blog/how-to-budget-money) [cómo funcionan](/blog/sinking-funds)"
       }
 ]
     },
@@ -2893,7 +2893,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Salir de deudas requiere conciencia de dónde va tu dinero. No puedes pagar deudas agresivamente si no sabes cuánto puedes destinar cada mes. Aquí es donde las herramientas de presupuesto se vuelven esenciales. [weekly money check-in](/blog/how-to-budget-money)"
+            "text": "Salir de deudas requiere conciencia de dónde va tu dinero. No puedes pagar deudas agresivamente si no sabes cuánto puedes destinar cada mes. Aquí es donde las herramientas de presupuesto se vuelven esenciales. [revisión semanal de tu dinero](/blog/how-to-budget-money)"
       },
       {
             "kind": "p",
@@ -2901,7 +2901,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Savlo está diseñado con esto en mente. Adopta un enfoque más simple para la gestión del dinero, enfocándose en el seguimiento de gastos por voz, fondos de ahorro para gastos grandes planeados y una guía diaria de gastos que te dice exactamente cuánto puedes gastar hoy sin descarrilar tus metas. Cuando estás endeudado, ese tipo de claridad en tiempo real importa. No necesitas una hoja de cálculo compleja. Necesitas saber dónde estás, hoy, ahora mismo. [sinking funds and emergency savings](/blog/sinking-funds)"
+            "text": "Savlo está diseñado con esto en mente. Adopta un enfoque más simple para la gestión del dinero, enfocándose en el seguimiento de gastos por voz, fondos de ahorro para gastos grandes planeados y una guía diaria de gastos que te dice exactamente cuánto puedes gastar hoy sin descarrilar tus metas. Cuando estás endeudado, ese tipo de claridad en tiempo real importa. No necesitas una hoja de cálculo compleja. Necesitas saber dónde estás, hoy, ahora mismo. [fondos de ahorro y ahorro de emergencia](/blog/sinking-funds)"
       },
       {
             "kind": "p",
@@ -2948,7 +2948,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Antes de acelerar los pagos de deuda, aparta $500 en una cuenta de ahorros separada. Este es tu amortiguador de impactos. Evita que un neumático pinchado se convierta en un nuevo cargo en tu tarjeta de crédito. [simple monthly budget](/blog/how-to-make-a-budget)"
+            "text": "Antes de acelerar los pagos de deuda, aparta $500 en una cuenta de ahorros separada. Este es tu amortiguador de impactos. Evita que un neumático pinchado se convierta en un nuevo cargo en tu tarjeta de crédito. [presupuesto mensual simple](/blog/how-to-make-a-budget)"
       },
       {
             "id": "paso-4-crea-un-presupuesto-simple",
@@ -2957,7 +2957,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Usa la regla 50/30/20 o un presupuesto basado en cero para asignar tu ingreso. La meta es saber exactamente cuánto puedes destinar a deuda cada mes después de cubrir necesidades y deseos razonables. Un presupuesto mensual no es un castigo. Es un plan que te da permiso de gastar en lo que importa mientras haces progreso constante en la deuda. [50/30/20 rule](/blog/50-30-20-rule) [zero-based budget](/blog/zero-based-budgeting) [monthly budget](/blog/how-to-make-a-budget) [Sinking funds](/blog/sinking-funds)"
+            "text": "Usa la regla 50/30/20 o un presupuesto basado en cero para asignar tu ingreso. La meta es saber exactamente cuánto puedes destinar a deuda cada mes después de cubrir necesidades y deseos razonables. Un presupuesto mensual no es un castigo. Es un plan que te da permiso de gastar en lo que importa mientras haces progreso constante en la deuda. [regla 50/30/20](/blog/50-30-20-rule) [presupuesto base cero](/blog/zero-based-budgeting) [presupuesto mensual](/blog/how-to-make-a-budget) [Fondos de ahorro](/blog/sinking-funds)"
       },
       {
             "id": "paso-5-automatiza-los-pagos-m-nimos",
@@ -2966,7 +2966,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Configura pagos automáticos para el monto mínimo en cada deuda. Esto asegura que nunca pierdas un pago, lo que protege tu puntaje crediticio y previene cargos por pago atrasado. La automatización elimina el riesgo de error humano en tu obligación financiera más crítica. [balance transfer](/blog/best-mint-alternatives-2025)"
+            "text": "Configura pagos automáticos para el monto mínimo en cada deuda. Esto asegura que nunca pierdas un pago, lo que protege tu puntaje crediticio y previene cargos por pago atrasado. La automatización elimina el riesgo de error humano en tu obligación financiera más crítica. [transferencia de saldo](/blog/best-mint-alternatives-2025)"
       },
       {
             "id": "paso-6-ataca-tu-deuda-objetivo",
@@ -3002,7 +3002,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Una vez que toda la deuda de alto interés sea eliminada, redirige esos pagos a construir un fondo de emergencia completo de tres a seis meses de gastos esenciales. Este fondo es tu escudo a largo plazo contra futuras deudas. Lee más sobre cómo construir este fondo en nuestra guía sobre fondos de ahorro y ahorro de emergencia. [budgeting system](/blog/how-to-budget-money)"
+            "text": "Una vez que toda la deuda de alto interés sea eliminada, redirige esos pagos a construir un fondo de emergencia completo de tres a seis meses de gastos esenciales. Este fondo es tu escudo a largo plazo contra futuras deudas. Lee más sobre cómo construir este fondo en nuestra guía sobre fondos de ahorro y ahorro de emergencia. [sistema de presupuesto](/blog/how-to-budget-money)"
       },
       {
             "id": "paso-10-celebra-hitos",
@@ -3011,7 +3011,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Cada deuda pagada es un hito que vale la pena reconocer. Cada reducción de $1,000 en la deuda total es progreso. Celebra. El camino es largo, y tu cerebro necesita refuerzo positivo para mantenerse comprometido. No solo estás pagando deudas. Estás construyendo una nueva relación con el dinero, un patrón saludable a la vez. [healthy pattern](/blog/money-dysmorphia)"
+            "text": "Cada deuda pagada es un hito que vale la pena reconocer. Cada reducción de $1,000 en la deuda total es progreso. Celebra. El camino es largo, y tu cerebro necesita refuerzo positivo para mantenerse comprometido. No solo estás pagando deudas. Estás construyendo una nueva relación con el dinero, un patrón saludable a la vez. [patrón saludable](/blog/money-dysmorphia)"
       },
       {
             "kind": "divider"
@@ -3077,7 +3077,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Mientras te enfocas en una deuda objetivo, las otras deudas siguen acumulando intereses. Esto es normal y esperado. La estrategia lo tiene en cuenta asegurando que siempre pagues el mínimo en cada cuenta. Si quieres reducir el total de intereses pagados, considera una transferencia de saldo o consolidación para las deudas que no estás atacando activamente. Pero no dejes que los intereses de otras deudas te hagan sentir que tu estrategia está fallando. No lo está. Está funcionando exactamente como fue diseñada. [budgeting app](/blog/how-to-make-a-budget)"
+            "text": "Mientras te enfocas en una deuda objetivo, las otras deudas siguen acumulando intereses. Esto es normal y esperado. La estrategia lo tiene en cuenta asegurando que siempre pagues el mínimo en cada cuenta. Si quieres reducir el total de intereses pagados, considera una transferencia de saldo o consolidación para las deudas que no estás atacando activamente. Pero no dejes que los intereses de otras deudas te hagan sentir que tu estrategia está fallando. No lo está. Está funcionando exactamente como fue diseñada. [app de presupuesto](/blog/how-to-make-a-budget)"
       },
       {
             "kind": "divider"
@@ -3130,7 +3130,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Construye un pequeño fondo de emergencia de $500 a $1,000 primero. [healthy pattern](/blog/money-dysmorphia) Luego enfócate en la deuda de alto interés. La razón es práctica: sin un colchón de efectivo, cualquier emergencia te empuja de vuelta a las tarjetas de crédito, deshaciendo tu progreso. Después de que la deuda de alto interés sea eliminada, construye el fondo de emergencia completo de tres a seis meses. Para una mirada más profunda al equilibrio entre el ahorro de emergencia y el pago de deudas, lee nuestra guía detallada. [emergency savings and debt payoff](/blog/sinking-funds)"
+            "text": "Construye un pequeño fondo de emergencia de $500 a $1,000 primero. [patrón saludable](/blog/money-dysmorphia) Luego enfócate en la deuda de alto interés. La razón es práctica: sin un colchón de efectivo, cualquier emergencia te empuja de vuelta a las tarjetas de crédito, deshaciendo tu progreso. Después de que la deuda de alto interés sea eliminada, construye el fondo de emergencia completo de tres a seis meses. Para una mirada más profunda al equilibrio entre el ahorro de emergencia y el pago de deudas, lee nuestra guía detallada. [ahorro de emergencia y pago de deudas](/blog/sinking-funds)"
       },
       {
             "id": "vale-la-pena-la-asesor-a-crediticia",
@@ -3285,7 +3285,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
         {
                 "kind": "ul",
                 "items": [
-                        "<strong>Sincronización bancaria vs. importación CSV vs. registro por voz.</strong> La sincronización automática es conveniente pero requiere compartir tus credenciales bancarias con un agregador externo. La importación CSV y el registro por voz mantienen tus datos privados — pero requieren más participación activa. La elección correcta depende de cuánto valoras la privacidad y cuánta fricción estás dispuesto a aceptar. Para un análisis más profundo de cómo diferentes aplicaciones manejan los métodos de entrada, consulta nuestra guía sobre [seguimiento de voz para gastos](/blog/voice-tracking)."
+                        "<strong>Sincronización bancaria vs. importación CSV vs. registro por voz.</strong> La sincronización automática es conveniente pero requiere compartir tus credenciales bancarias con un agregador externo. La importación CSV y el registro por voz mantienen tus datos privados — pero requieren más participación activa. La elección correcta depende de cuánto valoras la privacidad y cuánta fricción estás dispuesto a aceptar. Para un análisis más profundo de cómo diferentes aplicaciones manejan los métodos de entrada, consulta nuestra guía sobre [seguimiento de voz para gastos](/blog/voice-expense-tracking)."
                 ]
         },
         {
@@ -3297,7 +3297,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
         {
                 "kind": "ul",
                 "items": [
-                        "<strong>Privacidad.</strong> ¿Quién almacena tus datos? ¿Se venden o se comparten con anunciantes? ¿Existe una opción local que no envíe tus transacciones a un servidor? Si la [/[ansiedad financiera](/blog/financial-anxiety) ya es un factor para ti, agregar preocupaciones de privacidad al mix hace más difícil construir una relación saludable con tus finanzas."
+                        "<strong>Privacidad.</strong> ¿Quién almacena tus datos? ¿Se venden o se comparten con anunciantes? ¿Existe una opción local que no envíe tus transacciones a un servidor? Si la [ansiedad financiera](/blog/financial-anxiety) ya es un factor para ti, agregar preocupaciones de privacidad al mix hace más difícil construir una relación saludable con tus finanzas."
                 ]
         },
         {
@@ -3381,7 +3381,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "YNAB (You Need A Budget) es el estándar de oro para aquellos que quieren cambiar fundamentalmente su relación con el dinero. Utiliza un sistema de [/[presupuesto base cero](/blog/zero-based-budgeting): cada dólar de ingreso recibe una asignación antes de gastarlo. No solo rastreás en qué se fue tu dinero — decides a dónde irá, y luego sigues ese plan."
+                "text": "YNAB (You Need A Budget) es el estándar de oro para aquellos que quieren cambiar fundamentalmente su relación con el dinero. Utiliza un sistema de [presupuesto base cero](/blog/zero-based-budgeting): cada dólar de ingreso recibe una asignación antes de gastarlo. No solo rastreas en qué se fue tu dinero — decides a dónde irá, y luego sigues ese plan."
         },
         {
                 "kind": "p",
@@ -3389,7 +3389,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Esa interacción también es su mayor fortaleza. Ninguna aplicación tiene un mejor historial para romper el [/[ciclo de pago a pago](/blog/budgeting-on-a-low-income). Los usuarios reportan consistentemente que YNAB no solo cambió sus hábitos de presupuesto sino toda su relación con el dinero. La curva de aprendizaje es empinada, pero la recompensa es real. Si quieres visibilidad de alto nivel, Monarch es mejor. Si quieres cambio de comportamiento, YNAB gana."
+                "text": "Esa interacción también es su mayor fortaleza. Ninguna aplicación tiene un mejor historial para romper el [ciclo de pago a pago](/blog/budgeting-on-a-low-income). Los usuarios reportan consistentemente que YNAB no solo cambió sus hábitos de presupuesto sino toda su relación con el dinero. La curva de aprendizaje es empinada, pero la recompensa es real. Si quieres visibilidad de alto nivel, Monarch es mejor. Si quieres cambio de comportamiento, YNAB gana."
         },
         {
                 "kind": "p",
@@ -3488,7 +3488,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "<strong>La importación CSV</strong> te permite exportar tus transacciones directamente desde el sitio web de tu banco y subirlas manualmente a la aplicación. Sin credenciales compartidas, sin agregador involucrado. Tú controlas exactamente qué datos ingresan a la aplicación, y puedes eliminar cualquier cosa que no quieras que se rastree. La desventaja es que requiere esfuerzo regular — tienes que recordar exportar y subir. Para una guía paso a paso, consulta nuestra guía sobre [presupuesto con importación CSV](/blog/csv-import-budgeting)."
+                "text": "<strong>La importación CSV</strong> te permite exportar tus transacciones directamente desde el sitio web de tu banco y subirlas manualmente a la aplicación. Sin credenciales compartidas, sin agregador involucrado. Tú controlas exactamente qué datos ingresan a la aplicación, y puedes eliminar cualquier cosa que no quieras que se rastree. La desventaja es que requiere esfuerzo regular — tienes que recordar exportar y subir. Para una guía paso a paso, consulta nuestra guía sobre presupuesto con importación CSV."
         },
         {
                 "kind": "p",
@@ -3578,7 +3578,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Para un análisis más profundo sobre cómo construir un presupuesto en cualquier nivel de ingresos, consulta nuestra guía sobre [presupuesto con bajos ingresos](/blog/budgeting-on-low-income)."
+                "text": "Para un análisis más profundo sobre cómo construir un presupuesto en cualquier nivel de ingresos, consulta nuestra guía sobre [presupuesto con bajos ingresos](/blog/budgeting-on-a-low-income)."
         },
         {
                 "kind": "divider"
@@ -3736,7 +3736,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
         },
         {
                 "kind": "p",
-                "text": "Una vez a la semana es el punto ideal para la mayoría de las personas. Revisar a diario puede llevar a un monitoreo obsesivo y ansiedad. Revisar mensualmente significa que descubres problemas demasiado tarde para ajustar. Una revisión semanal de cinco minutos — idealmente el mismo día cada semana — te permite detectar gastos excesivos temprano, ajustar tus categorías y mantenerte conectado con tu realidad financiera sin convertirla en una fuente de estrés. Para consejos sobre cómo construir este hábito, consulta nuestra guía sobre [por qué los presupuestos tradicionales fallan](/blog/why-traditional-budgets-fails) y cómo construir uno que realmente perdure."
+                "text": "Una vez a la semana es el punto ideal para la mayoría de las personas. Revisar a diario puede llevar a un monitoreo obsesivo y ansiedad. Revisar mensualmente significa que descubres problemas demasiado tarde para ajustar. Una revisión semanal de cinco minutos — idealmente el mismo día cada semana — te permite detectar gastos excesivos temprano, ajustar tus categorías y mantenerte conectado con tu realidad financiera sin convertirla en una fuente de estrés. Para consejos sobre cómo construir este hábito, consulta nuestra guía sobre [por qué los presupuestos tradicionales fallan](/blog/why-traditional-budgets-fail) y cómo construir uno que realmente perdure."
         },
         {
                 "id": "alguna-de-estas-aplicaciones-ser-exactamente-como-",
@@ -3785,7 +3785,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si intentaste hacer presupuesto antes y lo dejaste, el error casi seguramente no fue por falta de disciplina. El diseño de la mayoría de las herramientas presupuestarias lucha contra la forma en que tu cerebro realmente funciona. Savlo es una de las aplicaciones que intenta trabajar contigo en lugar de contra ti. Está hecha para Android, con iOS en camino, y el resto de esta guía hará referencia a su enfoque como uno de varios ejemplos. Si solo tienes diez minutos, salta al{\" \"} inicio rápido de siete pasos. Si tienes treinta, léela en orden."
+            "text": "Si intentaste hacer presupuesto antes y lo dejaste, el error casi seguramente no fue por falta de disciplina. El diseño de la mayoría de las herramientas presupuestarias lucha contra la forma en que tu cerebro realmente funciona. Savlo es una de las aplicaciones que intenta trabajar contigo en lugar de contra ti. Está hecha para Android, con iOS en camino, y el resto de esta guía hará referencia a su enfoque como uno de varios ejemplos. Si solo tienes diez minutos, salta al inicio rápido de siete pasos. Si tienes treinta, léela en orden."
       },
       {
             "id": "en-esta-gu-a",
@@ -3808,7 +3808,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Los tres estilos de presupuesto que realmente funcionan [money dysmorphia](/blog/money-dysmorphia)"
+            "text": "Los tres estilos de presupuesto que realmente funcionan [dismorfia monetaria](/blog/money-dysmorphia)"
       },
       {
             "kind": "p",
@@ -3848,7 +3848,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- [Sinking Fund](/blog/sinking-funds)"
+            "text": "- [fondo de ahorro](/blog/sinking-funds)"
       },
       {
             "kind": "p",
@@ -3870,7 +3870,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- [Zero-based budgeting](/blog/zero-based-budgeting)"
+            "text": "- [Presupuesto base cero](/blog/zero-based-budgeting)"
       },
       {
             "kind": "p",
@@ -3898,7 +3898,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Existe un concepto relacionado de las finanzas conductuales llamado{\" \"} dismorphia monetaria: sentirse en la ruina incluso cuando tus cuentas dicen lo contrario. Es más común de lo que la industria financiera admite, y uno de sus antídotos es hacer que tu plan sea visible. Un presupuesto, incluso uno simple, hace que el plan sea visible."
+            "text": "Existe un concepto relacionado de las finanzas conductuales llamado dismorphia monetaria: sentirse en la ruina incluso cuando tus cuentas dicen lo contrario. Es más común de lo que la industria financiera admite, y uno de sus antídotos es hacer que tu plan sea visible. Un presupuesto, incluso uno simple, hace que el plan sea visible."
       },
       {
             "kind": "divider"
@@ -3922,7 +3922,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si eres autónomo, trabajador por proyectos o empleado por comisiones, tus ingresos netos son variables. En ese caso, la{\" \"} sección de ingresos irregulares más adelante en esta guía es la más importante para ti. La versión corta: usa el mes más bajo confiable como base, trata los meses superiores como un bono y deja que tu presupuesto respire."
+            "text": "Si eres autónomo, trabajador por proyectos o empleado por comisiones, tus ingresos netos son variables. En ese caso, la sección de ingresos irregulares más adelante en esta guía es la más importante para ti. La versión corta: usa el mes más bajo confiable como base, trata los meses superiores como un bono y deja que tu presupuesto respire."
       },
       {
             "id": "2-gastos-fijos",
@@ -3948,7 +3948,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Un truco útil es establecer un límite único y generoso para la columna variable en lugar de microgestionar cada subcategoría. Si tu gasto variable de los últimos tres meses promedió $650, establece el presupuesto en $700, dándote un pequeño colchón, y detente ahí. Rastrear cada café es agotador y rara vez cambia el comportamiento. El objetivo es la conciencia, no la vigilancia. Cubrimos el seguimiento en detalle en{\" \"} la siguiente sección principal."
+            "text": "Un truco útil es establecer un límite único y generoso para la columna variable en lugar de microgestionar cada subcategoría. Si tu gasto variable de los últimos tres meses promedió $650, establece el presupuesto en $700, dándote un pequeño colchón, y detente ahí. Rastrear cada café es agotador y rara vez cambia el comportamiento. El objetivo es la conciencia, no la vigilancia. Cubrimos el seguimiento en detalle en la siguiente sección principal."
       },
       {
             "id": "4-tu-tasa-de-ahorro",
@@ -3961,15 +3961,15 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Un punto de partida razonable para la mayoría de las personas es entre el 10 y el 20 por ciento del ingreso neto, dividiendo el resto entre gastos fijos y variables. Si no puedes ahorrar el 10 por ciento ahora, ahorra uno por ciento. El número importa menos que el hábito. Una vez que el hábito existe, el número tiende a crecer por sí solo. Lo discutimos en la{\" \"} guía de la regla 50/30/20, que es uno de los marcos más simples para traducir el ingreso neto en una asignación funcional. [50/30/20 rule](/blog/50-30-20-rule)"
+            "text": "Un punto de partida razonable para la mayoría de las personas es entre el 10 y el 20 por ciento del ingreso neto, dividiendo el resto entre gastos fijos y variables. Si no puedes ahorrar el 10 por ciento ahora, ahorra uno por ciento. El número importa menos que el hábito. Una vez que el hábito existe, el número tiende a crecer por sí solo. Lo discutimos en la guía de la regla 50/30/20, que es uno de los marcos más simples para traducir el ingreso neto en una asignación funcional. [regla 50/30/20](/blog/50-30-20-rule)"
       },
       {
             "kind": "p",
-            "text": "Dónde pones los ahorros también importa. La diferencia entre un{\" \"}"
+            "text": "Dónde pones los ahorros también importa. La diferencia entre un "
       },
       {
             "kind": "p",
-            "text": "fondo de emergencia {\" \"} y un fondo acumulativo es el tema de su propia sección más abajo, pero la versión corta es: protégete de lo impredecible, luego prefinancia lo predecible."
+            "text": "fondo de emergencia y un fondo acumulativo es el tema de su propia sección más abajo, pero la versión corta es: protégete de lo impredecible, luego prefinancia lo predecible."
       },
       {
             "kind": "divider"
@@ -3989,11 +3989,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La regla 50/30/20 divide tu ingreso neto en tres categorías: 50 por ciento para necesidades, 30 por ciento para deseos y 20 por ciento para ahorros y pago de deudas por encima de las cuotas mínimas. Es el marco más simple que aún respeta la diferencia entre gastos esenciales y discrecionales. [emergency fund](/blog/emergency-fund-vs-sinking-fund)"
+            "text": "La regla 50/30/20 divide tu ingreso neto en tres categorías: 50 por ciento para necesidades, 30 por ciento para deseos y 20 por ciento para ahorros y pago de deudas por encima de las cuotas mínimas. Es el marco más simple que aún respeta la diferencia entre gastos esenciales y discrecionales. [fondo de emergencia](/blog/emergency-fund-vs-sinking-fund)"
       },
       {
             "kind": "p",
-            "text": "Fortalezas: fácil de recordar, casi sin configuración, ideal para personas que odian las categorías. Limitaciones: es una directriz, no una fórmula. Si vives en una ciudad cara, tu categoría de \"necesidades\" puede necesitar ser del 55 o 60 por ciento. Eso no es un fracaso; es la realidad de tu costo de vida. [Sinking Fund](/blog/sinking-funds)"
+            "text": "Fortalezas: fácil de recordar, casi sin configuración, ideal para personas que odian las categorías. Limitaciones: es una directriz, no una fórmula. Si vives en una ciudad cara, tu categoría de \"necesidades\" puede necesitar ser del 55 o 60 por ciento. Eso no es un fracaso; es la realidad de tu costo de vida. [fondo de ahorro](/blog/sinking-funds)"
       },
       {
             "id": "estilo-2-presupuesto-basado-en-cero",
@@ -4002,7 +4002,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El presupuesto basado en cero{\" \"} asigna un trabajo a cada dólar de ingreso antes de que comience el mes. Ingresos menos gastos es igual a cero. Nada queda suelto. Este es el enfoque popularizado por YNAB, y funciona bien para personas que les gusta la precisión y les desagrada la sensación de que el dinero \"se evapora\"."
+            "text": "El presupuesto basado en cero asigna un trabajo a cada dólar de ingreso antes de que comience el mes. Ingresos menos gastos es igual a cero. Nada queda suelto. Este es el enfoque popularizado por YNAB, y funciona bien para personas que les gusta la precisión y les desagrada la sensación de que el dinero \"se evapora\"."
       },
       {
             "kind": "p",
@@ -4050,7 +4050,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Resta los gastos fijos más los variables del ingreso neto.{\" \"} Lo que quede es tu tasa de ahorro inicial. [Financial anxiety](/blog/financial-anxiety)"
+            "text": "- Resta los gastos fijos más los variables del ingreso neto. Lo que quede es tu tasa de ahorro inicial. [Ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "kind": "p",
@@ -4098,7 +4098,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Nuestra guía sobre seguimiento de gastos por voz {\" \"} cubre cómo funciona la tecnología y qué buscar en una función de voz. La versión corta: un buen sistema de voz es lo suficientemente rápido para sentirse casual, lo suficientemente preciso para no requerir edición en la mayoría de los casos, y honesto sobre si tu audio se procesa localmente o se envía a un servidor. Savlo es una de las aplicaciones construidas alrededor de la voz como entrada principal, junto con opciones manuales y de CSV."
+            "text": "Nuestra guía sobre seguimiento de gastos por voz cubre cómo funciona la tecnología y qué buscar en una función de voz. La versión corta: un buen sistema de voz es lo suficientemente rápido para sentirse casual, lo suficientemente preciso para no requerir edición en la mayoría de los casos, y honesto sobre si tu audio se procesa localmente o se envía a un servidor. Savlo es una de las aplicaciones construidas alrededor de la voz como entrada principal, junto con opciones manuales y de CSV."
       },
       {
             "id": "entrada-manual",
@@ -4107,11 +4107,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La entrada manual es la alternativa de respaldo. Es más lenta y requiere más fuerza de voluntad, lo cual es exactamente por lo que no puede ser la única opción para la mayoría de las personas. Úsala para gastos que necesitan una nota, una foto o una categoría personalizada. El{\" \"}"
+            "text": "La entrada manual es la alternativa de respaldo. Es más lenta y requiere más fuerza de voluntad, lo cual es exactamente por lo que no puede ser la única opción para la mayoría de las personas. Úsala para gastos que necesitan una nota, una foto o una categoría personalizada. El "
       },
       {
             "kind": "p",
-            "text": "resumen de las mejores alternativas a Mint {\" \"} compara cómo las mejores aplicaciones manejan la opción manual en 2025."
+            "text": "resumen de las mejores alternativas a Mint compara cómo las mejores aplicaciones manejan la opción manual en 2025."
       },
       {
             "id": "importaci-n-de-csv-desde-tu-banco",
@@ -4124,11 +4124,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Este es el enfoque que Savlo utiliza por defecto, y es una de las razones por las que la aplicación se adapta a personas que dejaron Mint por razones de privacidad. Puedes aprender más sobre por qué la privacidad importa en las finanzas personales en la{\" \"}"
+            "text": "Este es el enfoque que Savlo utiliza por defecto, y es una de las razones por las que la aplicación se adapta a personas que dejaron Mint por razones de privacidad. Puedes aprender más sobre por qué la privacidad importa en las finanzas personales en la "
       },
       {
             "kind": "p",
-            "text": "guía de por qué los presupuestos tradicionales fallan {\" \"} . La versión corta: cuando vinculas tu banco, tu historial de transacciones generalmente pasa a través de un agregador de datos, y ese agregador tiene su propia política de privacidad que no controlas."
+            "text": "guía de por qué los presupuestos tradicionales fallan . La versión corta: cuando vinculas tu banco, tu historial de transacciones generalmente pasa a través de un agregador de datos, y ese agregador tiene su propia política de privacidad que no controlas."
       },
       {
             "kind": "p",
@@ -4148,7 +4148,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El enfoque más limpio es hacer presupuesto contra el{\" \"} mes más bajo confiable de los últimos seis a doce meses, no el promedio. Usa ese número más bajo como tu base. Cuando lleguen meses superiores, trata la diferencia como un golpe de fortuna que va directamente al ahorro o al pago de deudas, no al aumento de estilo de vida. Esta simple regla previene la trampa de ingresos irregulares más común: un gran mes seguido por uno desesperado."
+            "text": "El enfoque más limpio es hacer presupuesto contra el mes más bajo confiable de los últimos seis a doce meses, no el promedio. Usa ese número más bajo como tu base. Cuando lleguen meses superiores, trata la diferencia como un golpe de fortuna que va directamente al ahorro o al pago de deudas, no al aumento de estilo de vida. Esta simple regla previene la trampa de ingresos irregulares más común: un gran mes seguido por uno desesperado."
       },
       {
             "kind": "p",
@@ -4186,7 +4186,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Un fondo de emergencia{\" \"} es para lo impredecible: pérdida de empleo, evento médico, reparación urgente del hogar. El tamaño objetivo suele ser de tres a seis meses de gastos fijos, mantenidos en una cuenta de alta liquidez a la que no tocas a menos que la situación sea genuinamente una emergencia."
+            "text": "Un fondo de emergencia es para lo impredecible: pérdida de empleo, evento médico, reparación urgente del hogar. El tamaño objetivo suele ser de tres a seis meses de gastos fijos, mantenidos en una cuenta de alta liquidez a la que no tocas a menos que la situación sea genuinamente una emergencia."
       },
       {
             "kind": "p",
@@ -4221,11 +4221,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Estos sesgos son por los que los presupuestos tradicionales fallan y por los que un diseño más amable tiende a ganar con el tiempo. El argumento completo está en la{\" \"}"
+            "text": "Estos sesgos son por los que los presupuestos tradicionales fallan y por los que un diseño más amable tiende a ganar con el tiempo. El argumento completo está en la "
       },
       {
             "kind": "p",
-            "text": "guía de por qué los presupuestos tradicionales fallan {\" \"} , pero la versión corta es esta: si la herramienta lucha contra tu cerebro, la herramienta perderá. Si la herramienta trabaja con tu cerebro, la herramienta generará resultados compuestos."
+            "text": "guía de por qué los presupuestos tradicionales fallan , pero la versión corta es esta: si la herramienta lucha contra tu cerebro, la herramienta perderá. Si la herramienta trabaja con tu cerebro, la herramienta generará resultados compuestos."
       },
       {
             "kind": "divider"
@@ -4268,7 +4268,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Castigar el pasado en lugar de diseñar el futuro.{\" \"} La culpa no genera resultados. Un sistema más simple sí. Cambia la vergüenza por iteración."
+            "text": "- Castigar el pasado en lugar de diseñar el futuro. La culpa no genera resultados. Un sistema más simple sí. Cambia la vergüenza por iteración."
       },
       {
             "kind": "divider"
@@ -4292,11 +4292,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Las aplicaciones cubren el rango desde automatización completa (vinculación bancaria) hasta solo manual. La aplicación correcta depende de tu relación con la privacidad, tu tolerancia a la fricción de entrada y cuán visible quieres que sea el gasto. Si te alejaste de Mint por razones de privacidad, el{\" \"}"
+            "text": "Las aplicaciones cubren el rango desde automatización completa (vinculación bancaria) hasta solo manual. La aplicación correcta depende de tu relación con la privacidad, tu tolerancia a la fricción de entrada y cuán visible quieres que sea el gasto. Si te alejaste de Mint por razones de privacidad, el "
       },
       {
             "kind": "p",
-            "text": "resumen de las mejores alternativas a Mint en 2025 {\" \"} te ahorrará un fin de semana de investigación. Savlo, por ejemplo, está diseñado para darte el control y manejo diario de tus finanzas en minutos a través de registros fáciles por voz o texto, importación de planillas y la organización por cuentas independientes, en lugar de sincronización bancaria continua. Está hecha para Android, con iOS en camino."
+            "text": "resumen de las mejores alternativas a Mint en 2025 te ahorrará un fin de semana de investigación. Savlo, por ejemplo, está diseñado para darte el control y manejo diario de tus finanzas en minutos a través de registros fáciles por voz o texto, importación de planillas y la organización por cuentas independientes, en lugar de sincronización bancaria continua. Está hecha para Android, con iOS en camino."
       },
       {
             "kind": "p",
@@ -4391,11 +4391,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La que seguirás usando en seis meses. Eso casi siempre es la que tiene la menor fricción de entrada y el diseño más simple. El{\" \"}"
+            "text": "La que seguirás usando en seis meses. Eso casi siempre es la que tiene la menor fricción de entrada y el diseño más simple. El "
       },
       {
             "kind": "p",
-            "text": "resumen de las mejores alternativas a Mint {\" \"} compara las opciones más fuertes en 2026."
+            "text": "resumen de las mejores alternativas a Mint compara las opciones más fuertes en 2026."
       },
       {
             "kind": "divider"
@@ -4558,7 +4558,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "En este estado, es menos probable que tomes decisiones financieras reflexivas, no más. Puedes evitar revisar el presupuesto por completo — lo que empeora el problema. O puedes hacer elecciones impulsivas para escapar la incomodidad, como gastar de más en una diferente categoría para sentirte mejor. El mismo mecanismo de retroalimentación en el que los presupuestos confían para mantenerte en camino se convierte en lo que te desvía del camino. [financial anxiety](/blog/financial-anxiety)"
+            "text": "En este estado, es menos probable que tomes decisiones financieras reflexivas, no más. Puedes evitar revisar el presupuesto por completo — lo que empeora el problema. O puedes hacer elecciones impulsivas para escapar la incomodidad, como gastar de más en una diferente categoría para sentirte mejor. El mismo mecanismo de retroalimentación en el que los presupuestos confían para mantenerte en camino se convierte en lo que te desvía del camino. [ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "kind": "p",
@@ -4786,7 +4786,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La idea clave es que los valores predeterminados no son perezosos. Son estratégicos. Cada decisión que eliminas de tu vida diaria es una decisión que puedes redirigir hacia algo que realmente te importa. [sinking funds](/blog/sinking-funds)"
+            "text": "La idea clave es que los valores predeterminados no son perezosos. Son estratégicos. Cada decisión que eliminas de tu vida diaria es una decisión que puedes redirigir hacia algo que realmente te importa. [fondos de ahorro](/blog/sinking-funds)"
       },
       {
             "kind": "p",
@@ -4803,7 +4803,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Aún obtienes la información que necesitas. Puedes ver que tus gastos en alimentos aumentaron este mes. Puedes notar que tu categoría personal tiene margen de ajuste. Pero no necesitas angustiarte por si una compra específica pertenece a una subcategoría o a otra. El ahorro cognitivo es sustancial, y la diferencia práctica en resultados financieros es insignificante. [how to budget money](/blog/how-to-budget-money)"
+            "text": "Aún obtienes la información que necesitas. Puedes ver que tus gastos en alimentos aumentaron este mes. Puedes notar que tu categoría personal tiene margen de ajuste. Pero no necesitas angustiarte por si una compra específica pertenece a una subcategoría o a otra. El ahorro cognitivo es sustancial, y la diferencia práctica en resultados financieros es insignificante. [cómo hacer un presupuesto](/blog/how-to-budget-money)"
       },
       {
             "kind": "p",
@@ -4879,7 +4879,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Comienza con pequeños hábitos diarios para reducir tu carga emocional antes de siquiera tocar los números. Esto podría significar unos minutos de respiración profunda por la mañana, una caminata corta antes de revisar tus cuentas o escribir en un diario sobre cómo te sientes con el dinero sin juicio. Estas no son distracciones de la gestión financiera. Son prerrequisitos para ella. [financial anxiety](/blog/financial-anxiety)"
+            "text": "Comienza con pequeños hábitos diarios para reducir tu carga emocional antes de siquiera tocar los números. Esto podría significar unos minutos de respiración profunda por la mañana, una caminata corta antes de revisar tus cuentas o escribir en un diario sobre cómo te sientes con el dinero sin juicio. Estas no son distracciones de la gestión financiera. Son prerrequisitos para ella. [ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "kind": "p",
@@ -4905,7 +4905,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La vida es impredecible. Tu coche se descompone. Un amigo te invita a un viaje. Llega una factura médica. Cuando cada dólar ya está asignado, estas interrupciones crean problemas en cascada. Debes reasignar, renegociar y reconciliar constantemente — lo que trae de vuelta la fatiga por decisión y el agotamiento por monitoreo que impulsan el abandono presupuestario. [zero-based budgeting](/blog/zero-based-budgeting)"
+            "text": "La vida es impredecible. Tu coche se descompone. Un amigo te invita a un viaje. Llega una factura médica. Cuando cada dólar ya está asignado, estas interrupciones crean problemas en cascada. Debes reasignar, renegociar y reconciliar constantemente — lo que trae de vuelta la fatiga por decisión y el agotamiento por monitoreo que impulsan el abandono presupuestario. [presupuesto base cero](/blog/zero-based-budgeting)"
       },
       {
             "kind": "p",
@@ -4918,7 +4918,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La regla 50/30/20 divide tu ingreso después de impuestos en tres categorías: cincuenta por ciento para necesidades, treinta por ciento para deseos y veinte por ciento para ahorros. Es atractivamente simple, y la simplicidad es una ventaja genuina. [50/30/20 rule](/blog/50-30-20-rule)"
+            "text": "La regla 50/30/20 divide tu ingreso después de impuestos en tres categorías: cincuenta por ciento para necesidades, treinta por ciento para deseos y veinte por ciento para ahorros. Es atractivamente simple, y la simplicidad es una ventaja genuina. [regla 50/30/20](/blog/50-30-20-rule)"
       },
       {
             "kind": "p",
@@ -5318,7 +5318,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Este artículo desglosa la regla 50/30/20 en detalle — cómo calcular tus números, qué pertenece a cada categoría, dónde falla la regla y cómo adaptarla cuando tu vida financiera no encaja en una fórmula ordenada. Ya sea que ganes un salario estable o navegues ingresos irregulares, ya sea que te ahogues en deudas o estés construyendo tu primer fondo de emergencia, esta guía te encuentra donde estás. [zero-based budgeting](/blog/zero-based-budgeting)"
+            "text": "Este artículo desglosa la regla 50/30/20 en detalle — cómo calcular tus números, qué pertenece a cada categoría, dónde falla la regla y cómo adaptarla cuando tu vida financiera no encaja en una fórmula ordenada. Ya sea que ganes un salario estable o navegues ingresos irregulares, ya sea que te ahogues en deudas o estés construyendo tu primer fondo de emergencia, esta guía te encuentra donde estás. [presupuesto base cero](/blog/zero-based-budgeting)"
       },
       {
             "id": "qu-es-la-regla-50-30-20",
@@ -5331,7 +5331,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La regla fue popularizada por la senadora Elizabeth Warren en su libro{\" \"} All Your Worth: The Ultimate Lifetime Money Plan, coescrito con su hija Amelia Warren Tyagi. Warren observó que las familias más financieramente estables que estudió no se obsesionaban con cada línea del presupuesto. Mantenían tres grandes categorías en equilibrio. Los detalles dentro de cada categoría importaban menos que la proporción general."
+            "text": "La regla fue popularizada por la senadora Elizabeth Warren en su libro All Your Worth: The Ultimate Lifetime Money Plan, coescrito con su hija Amelia Warren Tyagi. Warren observó que las familias más financieramente estables que estudió no se obsesionaban con cada línea del presupuesto. Mantenían tres grandes categorías en equilibrio. Los detalles dentro de cada categoría importaban menos que la proporción general."
       },
       {
             "kind": "p",
@@ -5452,7 +5452,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si eres freelance, trabajador por contrato, o cualquiera cuyos ingresos fluctúan, el cálculo requiere un paso adicional. Usa tu{\" \"} mes con menor ingreso de los últimos seis meses como tu línea base de ingresos. Presupuesta a partir de ese número. Cuando los meses son mejores, el excedente fluye automáticamente hacia tu categoría de ahorro."
+            "text": "Si eres freelance, trabajador por contrato, o cualquiera cuyos ingresos fluctúan, el cálculo requiere un paso adicional. Usa tu mes con menor ingreso de los últimos seis meses como tu línea base de ingresos. Presupuesta a partir de ese número. Cuando los meses son mejores, el excedente fluye automáticamente hacia tu categoría de ahorro."
       },
       {
             "kind": "p",
@@ -5548,7 +5548,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La idea clave es esta: los porcentajes son una brújula, no una jaula.{\" \"} Si tus necesidades son genuinamente altas, ajustas las otras dos categorías en lugar de abandonar el marco por completo. La peor respuesta a los costos altos es dejar de rastrear por completo."
+            "text": "La idea clave es esta: los porcentajes son una brújula, no una jaula. Si tus necesidades son genuinamente altas, ajustas las otras dos categorías en lugar de abandonar el marco por completo. La peor respuesta a los costos altos es dejar de rastrear por completo."
       },
       {
             "id": "la-categor-a-del-30-de-deseos-permiso-para-disfrut",
@@ -5712,11 +5712,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si aún no tienes un fondo de emergencia, aquí es donde va tu veinte por ciento primero. Un fondo de emergencia no es un lujo — es la base que hace que todo lo demás sea posible. Sin él, una reparación de auto o una factura médica te envía a la deuda, lo que hace que la porción de deuda de esta categoría sea más grande, lo que hace que la porción de ahorro sea más pequeña, lo que hace que la próxima emergencia sea aún más dañina. [sinking funds and emergency savings](/blog/sinking-funds)"
+            "text": "Si aún no tienes un fondo de emergencia, aquí es donde va tu veinte por ciento primero. Un fondo de emergencia no es un lujo — es la base que hace que todo lo demás sea posible. Sin él, una reparación de auto o una factura médica te envía a la deuda, lo que hace que la porción de deuda de esta categoría sea más grande, lo que hace que la porción de ahorro sea más pequeña, lo que hace que la próxima emergencia sea aún más dañina. [fondos de ahorro y ahorro de emergencia](/blog/sinking-funds)"
       },
       {
             "kind": "p",
-            "text": "La recomendación estándar es de tres a seis meses de gastos esenciales. Si ese número se siente abrumador, empieza más pequeño. Un primer hito de mil dólares previene que la mayoría de las emergencias financieras se conviertan en eventos de deuda. Lee más sobre cómo construir un fondo de emergencia en nuestra guía sobre{\" \"} fondos de reserva y ahorros de emergencia."
+            "text": "La recomendación estándar es de tres a seis meses de gastos esenciales. Si ese número se siente abrumador, empieza más pequeño. Un primer hito de mil dólares previene que la mayoría de las emergencias financieras se conviertan en eventos de deuda. Lee más sobre cómo construir un fondo de emergencia en nuestra guía sobre fondos de reserva y ahorros de emergencia."
       },
       {
             "id": "paga-deudas-estrat-gicamente",
@@ -5794,7 +5794,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La regla 50/30/20 no es un sistema de \"configurar y olvidar.\" La vida cambia. Obtienes un aumento. El alquiler sube. Pagas una tarjeta de crédito. Aparece un nuevo gasto. Los porcentajes deberían revisarse mensualse y ajustarse trimestralmente. Una verificación de cinco minutos al final de cada mes — ¿mis tres categorías están aproximadamente en equilibrio? — previene que pequeños desvíos se conviertan en grandes problemas. [how to budget money](/blog/how-to-budget-money)"
+            "text": "La regla 50/30/20 no es un sistema de \"configurar y olvidar.\" La vida cambia. Obtienes un aumento. El alquiler sube. Pagas una tarjeta de crédito. Aparece un nuevo gasto. Los porcentajes deberían revisarse mensualse y ajustarse trimestralmente. Una verificación de cinco minutos al final de cada mes — ¿mis tres categorías están aproximadamente en equilibrio? — previene que pequeños desvíos se conviertan en grandes problemas. [cómo hacer un presupuesto](/blog/how-to-budget-money)"
       },
       {
             "kind": "p",
@@ -5889,11 +5889,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si el estrés o la ansiedad financiera hacen difícil siquiera mirar tus números, el marco 50/30/20 puede ayudar al reducir la granularidad de lo que necesitas examinar. No necesitas categorizar cada recibo. Necesitas saber, aproximadamente, si tus tres grandes categorías están en equilibrio. Esa menor demanda cognitiva puede ser la diferencia entre interactuar con tus finanzas y evitarlas por completo. [financial anxiety](/blog/financial-anxiety)"
+            "text": "Si el estrés o la ansiedad financiera hacen difícil siquiera mirar tus números, el marco 50/30/20 puede ayudar al reducir la granularidad de lo que necesitas examinar. No necesitas categorizar cada recibo. Necesitas saber, aproximadamente, si tus tres grandes categorías están en equilibrio. Esa menor demanda cognitiva puede ser la diferencia entre interactuar con tus finanzas y evitarlas por completo. [ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "kind": "p",
-            "text": "Nuestra exploración más profunda sobre{\" \"} ansiedad financiera cubre estrategias prácticas para reducir la carga emocional de las revisiones financieras."
+            "text": "Nuestra exploración más profunda sobre ansiedad financiera cubre estrategias prácticas para reducir la carga emocional de las revisiones financieras."
       },
       {
             "id": "regla-50-30-20-versus-presupuestaci-n-de-base-cero",
@@ -5902,7 +5902,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Dos de los marcos presupuestarios más populares son la regla 50/30/20 y la{\" \"} presupuestación de base cero. Resuelven diferentes problemas y se adaptan a diferentes personalidades."
+            "text": "Dos de los marcos presupuestarios más populares son la regla 50/30/20 y la presupuestación de base cero. Resuelven diferentes problemas y se adaptan a diferentes personalidades."
       },
       {
             "kind": "p",
@@ -5974,7 +5974,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Esto es lo que se ve la construcción de hábitos presupuestarios sostenibles: [making a budget you will actually follow](/blog/how-to-make-a-budget)"
+            "text": "Esto es lo que se ve la construcción de hábitos presupuestarios sostenibles: [hacer un presupuesto que de verdad vas a seguir](/blog/how-to-make-a-budget)"
       },
       {
             "kind": "ul",
@@ -6002,7 +6002,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Para más información sobre cómo construir hábitos financieros que perduren, consulta nuestra guía sobre{\" \"} cómo hacer un presupuesto que realmente seguirás."
+            "text": "Para más información sobre cómo construir hábitos financieros que perduren, consulta nuestra guía sobre cómo hacer un presupuesto que realmente seguirás."
       },
       {
             "id": "c-mo-adaptar-la-regla-50-30-20-a-tu-vida",
@@ -6064,7 +6064,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Si tu seguro de auto cuesta $1,200 anualmente, un fondo de reserva de $100 al mes significa que la factura llega y simplemente la pagas — sin interrupción financiera, sin deuda, sin estrés. Lee más sobre cómo configurar fondos de reserva en nuestra guía detallada sobre{\" \"} fondos de reserva y gastos planeados. [sinking funds and planned expenses](/blog/sinking-funds)"
+            "text": "Si tu seguro de auto cuesta $1,200 anualmente, un fondo de reserva de $100 al mes significa que la factura llega y simplemente la pagas — sin interrupción financiera, sin deuda, sin estrés. Lee más sobre cómo configurar fondos de reserva en nuestra guía detallada sobre fondos de reserva y gastos planeados. [fondos de ahorro y gastos planificados](/blog/sinking-funds)"
       },
       {
             "id": "por-qu-la-regla-50-30-20-perdura-m-s-que-los-presu",
@@ -6077,11 +6077,11 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La regla 50/30/20 tiene éxito porque está diseñada para humanos reales — personas cansadas, estresadas y ocupadas tomando decisiones complejas en entornos ruidosos. Reconoce que no rastrearás cada transacción. Acepta que tu gasto fluctuará. Incorpora espacio para el disfrute. Y proporciona una estructura simple y memorable que no requiere una hoja de cálculo para mantenerla. [why traditional budgets fail](/blog/why-traditional-budgets-fail)"
+            "text": "La regla 50/30/20 tiene éxito porque está diseñada para humanos reales — personas cansadas, estresadas y ocupadas tomando decisiones complejas en entornos ruidosos. Reconoce que no rastrearás cada transacción. Acepta que tu gasto fluctuará. Incorpora espacio para el disfrute. Y proporciona una estructura simple y memorable que no requiere una hoja de cálculo para mantenerla. [por qué fallan los presupuestos tradicionales](/blog/why-traditional-budgets-fail)"
       },
       {
             "kind": "p",
-            "text": "Para una exploración más profunda de por qué la mayoría de los métodos presupuestarios fallan — y la ciencia conductual detrás de esto — lee nuestro artículo sobre{\" \"} por qué los presupuestos tradicionales fallan."
+            "text": "Para una exploración más profunda de por qué la mayoría de los métodos presupuestarios fallan — y la ciencia conductual detrás de esto — lee nuestro artículo sobre por qué los presupuestos tradicionales fallan."
       },
       {
             "id": "c-mo-savlo-apoya-el-enfoque-50-30-20",
@@ -6230,7 +6230,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Todo método de presupuesto — ya sea la regla 50/30/20, el presupuesto de base cero o un simple sistema de sobres — depende del mismo acto fundamental: saber cuánto gastaste. No aproximadamente. No de memoria. Saberlo de verdad. La brecha entre la intención y la acción es donde los presupuestos mueren, y el seguimiento por voz cierra esa brecha con la herramienta más simple que ya tienes: tu voz. [50/30/20 rule](/blog/50-30-20-rule) [zero-based budgeting](/blog/zero-based-budgeting) [sinking funds](/blog/sinking-funds)"
+            "text": "Todo método de presupuesto — ya sea la regla 50/30/20, el presupuesto de base cero o un simple sistema de sobres — depende del mismo acto fundamental: saber cuánto gastaste. No aproximadamente. No de memoria. Saberlo de verdad. La brecha entre la intención y la acción es donde los presupuestos mueren, y el seguimiento por voz cierra esa brecha con la herramienta más simple que ya tienes: tu voz. [regla 50/30/20](/blog/50-30-20-rule) [presupuesto base cero](/blog/zero-based-budgeting) [fondos de ahorro](/blog/sinking-funds)"
       },
       {
             "kind": "p",
@@ -6571,7 +6571,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Ahora que el desencadenante básico se está formando, comienza a agregar contexto de categoría. En lugar de solo \"doce dólares,\" di \"almuerzo, doce dólares\" o \"provisiones, cincuenta y tres dólares.\" La categoría ayuda a la app a aprender tus patrones y te ayuda a ver adónde va tu dinero más allá del monto total. [how to budget money](/blog/how-to-budget-money)"
+            "text": "Ahora que el desencadenante básico se está formando, comienza a agregar contexto de categoría. En lugar de solo \"doce dólares,\" di \"almuerzo, doce dólares\" o \"provisiones, cincuenta y tres dólares.\" La categoría ayuda a la app a aprender tus patrones y te ayuda a ver adónde va tu dinero más allá del monto total. [cómo hacer un presupuesto](/blog/how-to-budget-money)"
       },
       {
             "kind": "p",
@@ -6655,7 +6655,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Aprendizaje de categorías. La app debería mejorar en inferir categorías a partir de tus patrones de habla con el tiempo, reduciendo la necesidad de corregir. Si siempre dices \"café\" y siempre sugiere \"comida y bebida,\" está aprendiendo. Si tienes que recategorizar cada vez, no lo está haciendo. [how to budget money](/blog/how-to-budget-money)"
+            "text": "- Aprendizaje de categorías. La app debería mejorar en inferir categorías a partir de tus patrones de habla con el tiempo, reduciendo la necesidad de corregir. Si siempre dices \"café\" y siempre sugiere \"comida y bebida,\" está aprendiendo. Si tienes que recategorizar cada vez, no lo está haciendo. [cómo hacer un presupuesto](/blog/how-to-budget-money)"
       },
       {
             "id": "errores-comunes-con-el-seguimiento-de-gastos-por-v",
@@ -6753,7 +6753,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
             "text": "Si eres nuevo en los presupuestos en general, comienza con nuestra guía sobre cómo hacer un presupuesto antes de sumergirte en el seguimiento por voz. Entender el marco da a los datos un lugar a donde ir."
       },
       {
-            "id": "el-seguimiento-por-voz-no-es-una-bala-de-plata-per",
+            "id": "el-seguimiento-por-voz-no-es-una-bala-de-dinero-per",
             "kind": "h2",
             "text": "El seguimiento por voz no es una bala de plata — pero es una pieza que faltaba"
       },
@@ -6836,7 +6836,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Es importante distinguir la dismorfia monetaria de otras experiencias financieras. No es lo mismo que la ansiedad financiera, que puede ser una respuesta racional a circunstancias genuinamente precarias. No es lo mismo que el trauma financiero, que surge de eventos o entornos específicos. Y definitivamente no es lo mismo que simplemente ser \"malo con el dinero\". La dismorfia monetaria se refiere específicamente a la distorsión — el desajuste entre los hechos y los sentimientos. [financial anxiety](/blog/financial-anxiety)"
+            "text": "Es importante distinguir la dismorfia monetaria de otras experiencias financieras. No es lo mismo que la ansiedad financiera, que puede ser una respuesta racional a circunstancias genuinamente precarias. No es lo mismo que el trauma financiero, que surge de eventos o entornos específicos. Y definitivamente no es lo mismo que simplemente ser \"malo con el dinero\". La dismorfia monetaria se refiere específicamente a la distorsión — el desajuste entre los hechos y los sentimientos. [ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "kind": "p",
@@ -6969,7 +6969,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Para una exploración más profunda de cómo los eventos financieros pueden moldear patrones emocionales a largo plazo, lee nuestra guía sobre entender la ansiedad financiera. [understanding financial anxiety](/blog/financial-anxiety)"
+            "text": "Para una exploración más profunda de cómo los eventos financieros pueden moldear patrones emocionales a largo plazo, lee nuestra guía sobre entender la ansiedad financiera. [entender la ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "id": "comparaci-n-en-redes-sociales",
@@ -7383,7 +7383,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "También puedes explorar nuestras lecturas relacionadas sobre ansiedad financiera y por qué los presupuestos tradicionales fallan — ambas exploran por qué el consejo financiero estándar a menudo pasa por completo la dimensión emocional. Cuanto más entiendas sobre cómo tu cerebro procesa el dinero, mejor equipado estarás para trabajar con él en lugar de contra él. [financial anxiety](/blog/financial-anxiety) [why traditional budgets fail](/blog/why-traditional-budgets-fail)"
+            "text": "También puedes explorar nuestras lecturas relacionadas sobre ansiedad financiera y por qué los presupuestos tradicionales fallan — ambas exploran por qué el consejo financiero estándar a menudo pasa por completo la dimensión emocional. Cuanto más entiendas sobre cómo tu cerebro procesa el dinero, mejor equipado estarás para trabajar con él en lugar de contra él. [ansiedad financiera](/blog/financial-anxiety) [por qué fallan los presupuestos tradicionales](/blog/why-traditional-budgets-fail)"
       },
       {
             "kind": "p",
@@ -7444,7 +7444,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       blocks: [
       {
             "kind": "p",
-            "text": "Tres apps de presupuesto, tres filosofías financieras distintas. YNAB quiere que asignes cada dólar a un trabajo antes de que comience el mes. Monarch Money quiere mostrarte un hermoso panel de control de toda tu vida financiera. Savlo está diseñada para darte el control y manejo diario de tus finanzas en minutos, permitiéndote registrar movimientos por voz o texto rápidamente y organizar tu dinero en cuentas independientes. [sinking fund](/blog/sinking-funds)"
+            "text": "Tres apps de presupuesto, tres filosofías financieras distintas. YNAB quiere que asignes cada dólar a un trabajo antes de que comience el mes. Monarch Money quiere mostrarte un hermoso panel de control de toda tu vida financiera. Savlo está diseñada para darte el control y manejo diario de tus finanzas en minutos, permitiéndote registrar movimientos por voz o texto rápidamente y organizar tu dinero en cuentas independientes. [fondo de ahorro](/blog/sinking-funds)"
       },
       {
             "kind": "p",
@@ -7461,7 +7461,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Esta comparación tiene opiniones definidas. No somos neutrales. Construimos Savlo porque creemos que la mayoría de las herramientas de presupuesto causan más ansiedad de la que previenen. Dicho esto, hemos usado las tres apps extensivamente, y daremos el mérito donde se merece. Así es como estructuramos la evaluación. [money dysmorphia](/blog/money-dysmorphia)"
+            "text": "Esta comparación tiene opiniones definidas. No somos neutrales. Construimos Savlo porque creemos que la mayoría de las herramientas de presupuesto causan más ansiedad de la que previenen. Dicho esto, hemos usado las tres apps extensivamente, y daremos el mérito donde se merece. Así es como estructuramos la evaluación. [dismorfia monetaria](/blog/money-dysmorphia)"
       },
       {
             "kind": "p",
@@ -7469,7 +7469,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "- Curva de aprendizaje y incorporación. ¿Cuánto tiempo toma pasar de la descarga a la primera información útil? Una app potente que nunca aprendes es peor que una app simple que usas a diario. [zero-based budgeting](/blog/zero-based-budgeting)"
+            "text": "- Curva de aprendizaje y incorporación. ¿Cuánto tiempo toma pasar de la descarga a la primera información útil? Una app potente que nunca aprendes es peor que una app simple que usas a diario. [presupuesto base cero](/blog/zero-based-budgeting)"
       },
       {
             "kind": "p",
@@ -7489,7 +7489,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Una nota sobre transparencia: somos el equipo detrás de Savlo. Lo construimos porque no pudimos encontrar una app que manejara los principios de presupuesto cero base de una manera que no se sintiera como un segundo trabajo. Seremos honestos sobre dónde Savlo se queda corto, porque un artículo comparativo que solo elogia una app no es útil para nadie. [zero-based budgeting](/blog/zero-based-budgeting)"
+            "text": "Una nota sobre transparencia: somos el equipo detrás de Savlo. Lo construimos porque no pudimos encontrar una app que manejara los principios de presupuesto cero base de una manera que no se sintiera como un segundo trabajo. Seremos honestos sobre dónde Savlo se queda corto, porque un artículo comparativo que solo elogia una app no es útil para nadie. [presupuesto base cero](/blog/zero-based-budgeting)"
       },
       {
             "kind": "divider"
@@ -7627,7 +7627,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "La sincronización bancaria es la mejor de su clase. Monarch supports a vast number of financial institutions, and the sync reliability is noticeably better than most competitors. Transactions import quickly, categorization is accurate most of the time, and the rules engine lets you automate categorization for recurring merchants."
+            "text": "La sincronización bancaria es la mejor de su clase. Monarch es compatible con una enorme cantidad de instituciones financieras, y la sincronización es notablemente más confiable que la de la mayoría de sus competidores. Las transacciones se importan rápido, la categorización acierta casi siempre y el motor de reglas te permite automatizar la categoría de los comercios recurrentes."
       },
       {
             "kind": "p",
@@ -7652,7 +7652,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Monarch requiere vinculación bancaria. Cada función depende de conectar tus cuentas financieras a través de un agregador de terceros. Para usuarios que no se sienten cómodos compartiendo credenciales bancarias — y después del cierre de Mint, mucha gente está alerta — esto es una barrera significativa. Si tu banco no soporta Plaid u otros agregadores de Monarch, no tienes suerte. [Mint&apos;s shutdown](/blog/why-traditional-budgets-fail)"
+            "text": "Monarch requiere vinculación bancaria. Cada función depende de conectar tus cuentas financieras a través de un agregador de terceros. Para usuarios que no se sienten cómodos compartiendo credenciales bancarias — y después del cierre de Mint, mucha gente está alerta — esto es una barrera significativa. Si tu banco no soporta Plaid u otros agregadores de Monarch, no tienes suerte. [cierre de Mint](/blog/why-traditional-budgets-fail)"
       },
       {
             "kind": "p",
@@ -7664,7 +7664,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "El costo de suscripción se acumula. Aproximadamente $15 por mes o $100 por año, Monarch tiene un precio similar a YNAB. Para una herramienta que es principalmente un panel de solo lectura de datos que tu banco ya tiene, algunos usuarios cuestionan si el precio está justificado. [Mint shutdown](/blog/why-traditional-budgets-fail)"
+            "text": "El costo de suscripción se acumula. Aproximadamente $15 por mes o $100 por año, Monarch tiene un precio similar a YNAB. Para una herramienta que es principalmente un panel de solo lectura de datos que tu banco ya tiene, algunos usuarios cuestionan si el precio está justificado. [cierre de Mint](/blog/why-traditional-budgets-fail)"
       },
       {
             "kind": "p",
@@ -7693,7 +7693,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Savlo es la más joven de las tres apps, y está construida alrededor de una pregunta completamente diferente. Donde YNAB pregunta \"¿a dónde debería ir cada dólar?\" y Monarch pregunta \"¿cómo se ve mi panorama financiero?\", Savlo pregunta \"¿cómo te sientes sobre el dinero, y cómo podemos hacer que ese sentimiento sea más claro?\" Es una herramienta de ansiedad financiera tanto como una herramienta de presupuesto. [financial anxiety](/blog/financial-anxiety)"
+            "text": "Savlo es la más joven de las tres apps, y está construida alrededor de una pregunta completamente diferente. Donde YNAB pregunta \"¿a dónde debería ir cada dólar?\" y Monarch pregunta \"¿cómo se ve mi panorama financiero?\", Savlo pregunta \"¿cómo te sientes sobre el dinero, y cómo podemos hacer que ese sentimiento sea más claro?\" Es una herramienta de ansiedad financiera tanto como una herramienta de presupuesto. [ansiedad financiera](/blog/financial-anxiety)"
       },
       {
             "id": "la-filosof-a-de-savlo-conciencia-financiera-tranqu",
@@ -7777,7 +7777,7 @@ export const spanishPosts: LocalizedBlogPost[] = [
       },
       {
             "kind": "p",
-            "text": "Savlo empieza con una prueba gratuita de 14 días con todas las funciones, y después sigue como suscripción mensual o anual. No hay nivel gratuito: la prueba es la app completa, con entrada por voz, fondos, informes e importación CSV. [sinking funds](/blog/sinking-funds)"
+            "text": "Savlo empieza con una prueba gratuita de 14 días con todas las funciones, y después sigue como suscripción mensual o anual. No hay nivel gratuito: la prueba es la app completa, con entrada por voz, fondos, informes e importación CSV. [fondos de ahorro](/blog/sinking-funds)"
       },
       {
             "kind": "divider"

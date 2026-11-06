@@ -159,22 +159,22 @@ export default function LegalPage({
                     {locale === "en"
                       ? "Want to learn more about what we do with any information we collect? "
                       : locale === "es"
-                        ? "¿Quiere saber más sobre qué hacemos con la información que recopilamos? "
+                        ? "¿Quieres saber más sobre qué hacemos con la información que recopilamos? "
                         : locale === "pt"
                           ? "Quer saber mais sobre o que fazemos com as informações que coletamos? "
                           : locale === "de"
-                            ? "Möchten Sie mehr darüber erfahren, was wir mit den von uns erfassten Informationen tun? "
-                            : "Vous en savoir plus sur ce que nous faisons des informations que nous collectons ? "}
+                            ? "Möchtest du mehr darüber erfahren, was wir mit den erfassten Informationen tun? "
+                            : "Tu veux en savoir plus sur ce que nous faisons des informations que nous collectons ? "}
                     <a href="#table-of-contents" className="text-primary hover:underline font-semibold">
                       {locale === "en"
                         ? "Review the Privacy Notice in full"
                         : locale === "es"
-                          ? "Consulte el Aviso de Privacidad completo"
+                          ? "Consulta el Aviso de Privacidad completo"
                           : locale === "pt"
                             ? "Consulte o Aviso de Privacidade completo"
                             : locale === "de"
-                              ? "Lesen Sie den vollständigen Datenschutzhinweis"
-                              : "Consultez l'avis de confidentialité dans son intégrité"}
+                              ? "Lies den vollständigen Datenschutzhinweis"
+                              : "Consulte l'avis de confidentialité dans son intégralité"}
                     </a>.
                   </p>
                 </div>

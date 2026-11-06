@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import LegalPage from "@/components/savlo/legal-page"
 import termsData from "@/lib/legal/terms-es.json"
@@ -23,7 +22,6 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader locale="es" />
       <LegalPage data={termsData} locale="es" type="terms" />
       <SiteFooter locale="es" />
     </div>

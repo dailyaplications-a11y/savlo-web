@@ -52,7 +52,10 @@ const N = STEP_ORDER.length
 // movements landing, the recurring found) and Savlo AI (a question sent, the
 // answer, its chart). What a phase writes (the question typed, the words of
 // the answer, the rows) plays at once on its own clock when the phase comes.
-const DRIVEN: Partial<Record<StepId, number>> = { voice: 2.4, import: 2.2, ai: 1.8 }
+// Voice and import: at 2.4 and 2.2 steps a phase got 100–300 px and one
+// swipe skipped the whole flow (owner, 2026-11-05); at 4 and 3.4, each phase
+// holds ~450–510 px.
+const DRIVEN: Partial<Record<StepId, number>> = { voice: 4, import: 3.4, ai: 1.8 }
 const SPANS = STEP_ORDER.map((id) => DRIVEN[id] ?? 1)
 const STARTS = SPANS.map((_, i) => SPANS.slice(0, i).reduce((a, b) => a + b, 0)) // in steps
 const PINNED = Math.round((INTRO + SPANS.reduce((a, b) => a + b, 0)) * STEP)

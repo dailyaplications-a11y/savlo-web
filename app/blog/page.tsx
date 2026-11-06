@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { BlogIndex } from "@/components/savlo/blog/blog-index"
 import { posts } from "@/lib/blog/posts"
@@ -83,7 +82,6 @@ export default function BlogPage() {
 
   return (
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader />
       <main>
         <BlogIndex />
       </main>

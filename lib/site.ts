@@ -35,6 +35,19 @@ export const siteConfig = {
   ],
 } as const
 
+/** The blog's byline in each language (the author page, the posts, their schema). */
+const AUTHOR_NAME: Record<Locale, string> = {
+  en: siteConfig.author.name,
+  es: "El equipo de Savlo",
+  pt: "Equipe Savlo",
+  de: "Das Savlo-Team",
+  fr: "L’équipe Savlo",
+}
+
+export function authorName(locale: Locale) {
+  return AUTHOR_NAME[locale]
+}
+
 export function absoluteUrl(path: string = "/") {
   return new URL(path, siteConfig.url).toString()
 }
@@ -103,12 +116,12 @@ export function buildWaitlistMailto({
               greeting: "Hallo Savlo-Team,",
               platformLine:
                 platform === "Both"
-                  ? "Ich moechte fruehzeitigen Zugang zu Savlo."
-                  : `Ich moechte fruehzeitigen Zugang zu Savlo fuer ${platform}.`,
+                  ? "Ich möchte frühzeitigen Zugang zu Savlo."
+                  : `Ich möchte frühzeitigen Zugang zu Savlo für ${platform}.`,
               subject:
                 platform === "Both"
-                  ? "Fruehzugang zu Savlo"
-                  : `Fruehzugang zu Savlo - ${platform}`,
+                  ? "Frühzugang zu Savlo"
+                  : `Frühzugang zu Savlo - ${platform}`,
               emailLabel: "Meine E-Mail:",
               sourceLabel: "Quelle:",
               thanks: "Danke!",

@@ -113,14 +113,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     }),
     // Botón de arrepentimiento y botón de baja: obligación argentina
-    // (Disposición 954/2025, que reemplazó a la Resolución 424/2020). Existe
-    // sólo en español porque el enlace tiene que llevar ese nombre literal.
-    {
-      url: absoluteUrl("/es/arrepentimiento"),
-      lastModified: new Date("2026-08-31T00:00:00Z"),
+    // (Disposición 954/2025, que reemplazó a la Resolución 424/2020). La
+    // española es la que vale; las otras cuatro la traducen y lo dicen.
+    ...localizedEntries({
+      path: "/arrepentimiento",
+      lastModified: new Date("2026-11-05T00:00:00Z"),
       changeFrequency: "yearly",
       priority: 0.3,
-    },
+    }),
     // Atribuciones de código abierto. Va en los 5 idiomas porque los avisos
     // de copyright que reproduce (Lucide/ISC entre otros) tienen que ser
     // alcanzables públicamente, no sólo desde el pie de página.

@@ -1,0 +1,106 @@
+{
+  "title": "Bouton de rétractation et bouton de résiliation",
+  "description": "Comment te rétracter d'un abonnement Savlo sous 10 jours ou le résilier à tout moment, sans te connecter ni te justifier. Loi argentine 24.240 et Disposition 954/2025.",
+  "lastUpdated": "Dernière mise à jour : 5 novembre 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Cette page est le <strong>BOTÓN DE ARREPENTIMIENTO</strong> (bouton de rétractation) et le <strong>BOTÓN DE BAJA</strong> (bouton de résiliation) de Savlo, au sens de la loi argentine de protection du consommateur 24.240 et de la Disposition 954/2025 du Sous-secrétariat à la protection du consommateur et à la loyauté commerciale."
+      },
+      {
+        "type": "p",
+        "text": "Ceci est une traduction pour ta commodité. La version qui fait foi est la version espagnole, sur <a href=\"/es/arrepentimiento\">savloapp.com/es/arrepentimiento</a>. Les deux fonctionnent de la même façon : tu peux utiliser l'une ou l'autre."
+      },
+      {
+        "type": "p",
+        "text": "<strong>Tu n'as pas besoin de t'inscrire, de te connecter ni de faire la moindre démarche préalable pour l'utiliser.</strong> Nous te demandons seulement le minimum pour confirmer que la demande vient de toi et retrouver ton abonnement."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "arrepentimiento",
+      "heading": "Bouton de rétractation — annuler sous 10 jours",
+      "content": [
+        {
+          "type": "p",
+          "text": "Si tu as souscrit un abonnement Savlo il y a <strong>10 jours calendaires ou moins</strong>, tu peux te rétracter sans frais et sans donner de motif. Nous te remboursons la totalité du montant."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Écris à <strong>support@savloapp.com</strong> avec l'objet <strong>ARREPENTIMIENTO</strong> (rétractation).",
+            "Indique l'e-mail de ton compte Savlo et la date approximative de ta souscription.",
+            "C'est tout. Il n'y a rien d'autre à faire."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Nous confirmons la réception et t'envoyons un <strong>justificatif de ta demande sous 24 heures</strong>. Le remboursement est traité par Google Play, qui a encaissé l'abonnement, sur le moyen de paiement que tu as utilisé."
+        },
+        {
+          "type": "p",
+          "text": "Les 10 jours courent à partir de la souscription. S'ils sont passés, tu ne perds rien : tu peux quand même résilier, juste en dessous."
+        }
+      ]
+    },
+    {
+      "id": "baja",
+      "heading": "Bouton de résiliation — résilier à tout moment",
+      "content": [
+        {
+          "type": "p",
+          "text": "Tu peux résilier ton abonnement quand tu veux, sans expliquer pourquoi. Il y a deux façons de faire, et les deux sont valables."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Façon 1 — nous le demander.</strong> Écris à <strong>support@savloapp.com</strong> avec l'objet <strong>BAJA</strong> (résiliation) et l'e-mail de ton compte. Nous t'envoyons le <strong>justificatif de résiliation sous 24 heures</strong> après réception de la demande."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Façon 2 — le faire toi-même, tout de suite.</strong> C'est Google Play qui encaisse l'abonnement, donc tu peux aussi le résilier là-bas sans passer par nous : ouvre le Play Store → ta photo de profil → <em>Paiements et abonnements</em> → <em>Abonnements</em> → Savlo → <em>Résilier l'abonnement</em>."
+        },
+        {
+          "type": "p",
+          "text": "Dans les deux cas, la résiliation prend effet à la fin de la période déjà payée, et tu gardes l'accès jusque-là."
+        }
+      ]
+    },
+    {
+      "id": "cuenta",
+      "heading": "Résilier, ce n'est pas supprimer ton compte",
+      "content": [
+        {
+          "type": "p",
+          "text": "Ce sont deux choses différentes, et tu peux faire l'une, l'autre ou les deux :"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Résilier l'abonnement</strong> : tu arrêtes de payer. Ton compte et tes données continuent d'exister, et tu peux te réabonner quand tu veux.",
+            "<strong>Supprimer le compte</strong> : ton compte et toutes tes données sont effacés, définitivement. Ça se fait depuis <em>Réglages → Compte et profil → Informations personnelles → Supprimer le compte</em> dans l'app, ou depuis <a href=\"/fr/delete-account\">savloapp.com/fr/delete-account</a>."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Supprimer l'app de ton téléphone ne fait ni l'un ni l'autre : l'abonnement continue d'être facturé jusqu'à ce que tu le résilies."
+        }
+      ]
+    },
+    {
+      "id": "reclamos",
+      "heading": "Si quelque chose ne va pas",
+      "content": [
+        {
+          "type": "p",
+          "text": "Écris à <strong>support@savloapp.com</strong> et nous réglons ça. Si tu préfères un canal officiel, tu peux déposer une réclamation auprès de la <strong>Ventanilla Única Federal de Defensa del Consumidor</strong> d'Argentine, sur <a href=\"https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario\">argentina.gob.ar/produccion/defensadelconsumidor</a>, ou auprès de l'autorité de protection du consommateur de ta province ou de ta commune."
+        },
+        {
+          "type": "p",
+          "text": "Savlo — Bahía Blanca, province de Buenos Aires (8000), Argentine. support@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import OssLicensesPage from "@/components/savlo/oss-licenses-page"
 import { ossLicensesStrings } from "@/lib/legal/oss-licenses-strings"
@@ -26,7 +25,6 @@ export const metadata: Metadata = {
 export default function LicensesPage() {
   return (
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader locale="de" />
       <OssLicensesPage locale="de" />
       <SiteFooter locale="de" />
     </div>

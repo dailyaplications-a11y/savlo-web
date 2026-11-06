@@ -1,0 +1,106 @@
+{
+  "title": "Widerrufsbutton und Kündigungsbutton",
+  "description": "Wie du ein Savlo-Abo innerhalb von 10 Tagen widerrufst oder jederzeit kündigst, ohne dich anzumelden und ohne Begründung. Argentinisches Gesetz 24.240 und Verfügung 954/2025.",
+  "lastUpdated": "Zuletzt aktualisiert: 5. November 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "Diese Seite ist der <strong>BOTÓN DE ARREPENTIMIENTO</strong> (Widerrufsbutton) und der <strong>BOTÓN DE BAJA</strong> (Kündigungsbutton) von Savlo nach dem argentinischen Verbraucherschutzgesetz 24.240 und der Verfügung 954/2025 des Unterstaatssekretariats für Verbraucherschutz und lauteren Handel."
+      },
+      {
+        "type": "p",
+        "text": "Das ist eine Übersetzung für dich. Rechtlich maßgeblich ist die spanische Fassung unter <a href=\"/es/arrepentimiento\">savloapp.com/es/arrepentimiento</a>. Beide funktionieren gleich: Du kannst jede davon nutzen."
+      },
+      {
+        "type": "p",
+        "text": "<strong>Du musst dich weder registrieren noch anmelden noch vorher etwas erledigen, um sie zu nutzen.</strong> Wir fragen nur nach den nötigsten Angaben, um zu bestätigen, dass die Anfrage von dir kommt, und dein Abo zu finden."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "arrepentimiento",
+      "heading": "Widerrufsbutton — innerhalb von 10 Tagen widerrufen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wenn du ein Savlo-Abo vor <strong>10 Kalendertagen oder weniger</strong> abgeschlossen hast, kannst du es kostenlos und ohne Angabe von Gründen widerrufen. Wir erstatten den vollen Betrag."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Schreib an <strong>support@savloapp.com</strong> mit dem Betreff <strong>ARREPENTIMIENTO</strong> (Widerruf).",
+            "Gib die E-Mail-Adresse deines Savlo-Kontos und das ungefähre Datum an, an dem du das Abo abgeschlossen hast.",
+            "Fertig. Mehr brauchst du nicht."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Wir bestätigen den Eingang und schicken dir <strong>innerhalb von 24 Stunden eine Bestätigung deiner Anfrage</strong>. Die Erstattung wickelt Google Play ab, das das Abo abgerechnet hat, über dasselbe Zahlungsmittel, das du verwendet hast."
+        },
+        {
+          "type": "p",
+          "text": "Die 10 Tage zählen ab dem Abschluss. Sind sie schon vorbei, verlierst du nichts: Du kannst trotzdem kündigen, gleich hier unten."
+        }
+      ]
+    },
+    {
+      "id": "baja",
+      "heading": "Kündigungsbutton — jederzeit kündigen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Du kannst dein Abo kündigen, wann du willst, ohne zu erklären, warum. Es gibt zwei Wege, und beide gelten."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Weg 1 — bitte uns darum.</strong> Schreib an <strong>support@savloapp.com</strong> mit dem Betreff <strong>BAJA</strong> (Kündigung) und der E-Mail-Adresse deines Kontos. Wir schicken dir die <strong>Kündigungsbestätigung innerhalb von 24 Stunden</strong> nach Eingang der Anfrage."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Weg 2 — mach es selbst, sofort.</strong> Das Abo rechnet Google Play ab, deshalb kannst du es auch dort kündigen, ohne über uns zu gehen: Öffne den Play Store → dein Profilbild → <em>Zahlungen &amp; Abos</em> → <em>Abos</em> → Savlo → <em>Abo kündigen</em>."
+        },
+        {
+          "type": "p",
+          "text": "In beiden Fällen wird die Kündigung zum Ende des bereits bezahlten Zeitraums wirksam, und bis dahin behältst du den Zugang."
+        }
+      ]
+    },
+    {
+      "id": "cuenta",
+      "heading": "Kündigen ist nicht dasselbe wie das Konto löschen",
+      "content": [
+        {
+          "type": "p",
+          "text": "Das sind zwei verschiedene Dinge, und du kannst das eine, das andere oder beides tun:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Abo kündigen</strong>: Du zahlst nicht mehr. Dein Konto und deine Daten bleiben bestehen, und du kannst jederzeit wieder ein Abo abschließen.",
+            "<strong>Konto löschen</strong>: Dein Konto und alle deine Daten werden dauerhaft gelöscht. Das geht in der App unter <em>Einstellungen → Konto und Profil → Persönliche Informationen → Konto löschen</em> oder auf <a href=\"/de/delete-account\">savloapp.com/de/delete-account</a>."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Die App vom Handy zu löschen bewirkt keins von beidem: Das Abo wird weiter abgerechnet, bis du es kündigst."
+        }
+      ]
+    },
+    {
+      "id": "reclamos",
+      "heading": "Wenn etwas nicht klappt",
+      "content": [
+        {
+          "type": "p",
+          "text": "Schreib an <strong>support@savloapp.com</strong>, und wir lösen es. Wenn du einen offiziellen Weg bevorzugst, kannst du eine Beschwerde bei der argentinischen <strong>Ventanilla Única Federal de Defensa del Consumidor</strong> einreichen, unter <a href=\"https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario\">argentina.gob.ar/produccion/defensadelconsumidor</a>, oder bei der Verbraucherschutzbehörde deiner Provinz oder Gemeinde."
+        },
+        {
+          "type": "p",
+          "text": "Savlo — Bahía Blanca, Provinz Buenos Aires (8000), Argentinien. support@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

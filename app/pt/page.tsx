@@ -1,33 +1,11 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
+import { FaqSection } from "@/components/savlo/faq/faq-section"
+import { faqStructuredData } from "@/components/savlo/faq/faq-copy"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
-
-const faqItems = [
-  {
-    question: "O Savlo já está disponível?",
-    answer:
-      "O Savlo é apresentado hoje como um app em breve para iOS e Android. Você pode entrar na lista de espera pelos botões da App Store e Google Play neste site.",
-  },
-  {
-    question: "O Savlo exige conexão com banco?",
-    answer:
-      "O site público do Savlo enfatiza registros fáceis por voz ou texto, importações CSV/XLSX e registros controlados pela própria pessoa usuária, não conexão bancária obrigatória.",
-  },
-  {
-    question: "Para quem o app foi feito?",
-    answer:
-      "O Savlo foi feito para pessoas ocupadas que buscam controle ativo e gestão diária de suas finanças em minutos, sem as complicações e a rigidez das ferramentas tradicionais.",
-  },
-  {
-    question: "O Savlo ajuda com sinking funds?",
-    answer:
-      "Sim. O Savlo apresenta Sinking Funds como uma forma central de apartar dinheiro intencionalmente para despesas previstas diretamente dentro de suas contas.",
-  },
-] as const
 
 export const metadata: Metadata = {
   title: { absolute: "Savlo Budgeting App | Registre, poupe e planeje" },
@@ -123,14 +101,7 @@ export default function PortugueseHomePage() {
       "@type": "FAQPage",
       "@id": absoluteUrl("/pt#faq"),
       inLanguage: "pt-BR",
-      mainEntity: faqItems.map((item) => ({
-        "@type": "Question",
-        name: item.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: item.answer,
-        },
-      })),
+      mainEntity: faqStructuredData("pt"),
     },
   ]
 
@@ -139,58 +110,16 @@ export default function PortugueseHomePage() {
       lang="pt-BR"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="pt" />
       <main>
         <ProductStory locale="pt" />
+        <FaqSection locale="pt" />
         <FeaturedReads locale="pt" />
-        <SectionDivider />
-        <FaqSection />
       </main>
       <SiteFooter locale="pt" cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-    </div>
-  )
-}
-
-function FaqSection() {
-  return (
-    <section id="faq" className="relative py-24 sm:py-32">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-12">
-        <div className="lg:col-span-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary/80">
-            Perguntas
-          </p>
-          <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            Algumas respostas antes de entrar na lista de espera.
-          </h2>
-        </div>
-        <dl className="lg:col-span-8">
-          {faqItems.map((item) => (
-            <div
-              key={item.question}
-              className="border-b border-border/70 py-6 first:border-t"
-            >
-              <dt className="text-base font-semibold text-foreground">
-                {item.question}
-              </dt>
-              <dd className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-                {item.answer}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </div>
-    </section>
-  )
-}
-
-function SectionDivider() {
-  return (
-    <div aria-hidden className="mx-auto max-w-6xl px-6">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent" />
     </div>
   )
 }

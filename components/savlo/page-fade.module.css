@@ -1,0 +1,19 @@
+/* The new page comes in under the still header: opacity only (page-fade.tsx). */
+.fade {
+  animation: pageIn 0.28s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+@keyframes pageIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade {
+    animation: none;
+  }
+}

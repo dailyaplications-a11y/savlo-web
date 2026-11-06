@@ -10,7 +10,7 @@
       },
       {
         "type": "p",
-        "text": "<strong>No necesitás registrarte, iniciar sesión ni hacer ningún trámite previo para usarla.</strong> Sólo te vamos a pedir los datos mínimos para confirmar que la solicitud es tuya y encontrar tu suscripción."
+        "text": "<strong>No necesitas registrarte, iniciar sesión ni hacer ningún trámite previo para usarla.</strong> Sólo te vamos a pedir los datos mínimos para confirmar que la solicitud es tuya y encontrar tu suscripción."
       }
     ]
   },
@@ -21,13 +21,13 @@
       "content": [
         {
           "type": "p",
-          "text": "Si contrataste una suscripción a Savlo hace <strong>10 días corridos o menos</strong>, podés arrepentirte sin costo y sin dar ningún motivo. Te devolvemos el importe completo."
+          "text": "Si contrataste una suscripción a Savlo hace <strong>10 días corridos o menos</strong>, puedes arrepentirte sin costo y sin dar ningún motivo. Te devolvemos el importe completo."
         },
         {
           "type": "ol",
           "items": [
-            "Escribinos a <strong>support@savloapp.com</strong> con el asunto <strong>ARREPENTIMIENTO</strong>.",
-            "Incluí el correo electrónico de tu cuenta de Savlo y la fecha aproximada en que contrataste.",
+            "Escríbenos a <strong>support@savloapp.com</strong> con el asunto <strong>ARREPENTIMIENTO</strong>.",
+            "Incluye el correo electrónico de tu cuenta de Savlo y la fecha aproximada en que contrataste.",
             "Listo. No hace falta nada más."
           ]
         },
@@ -37,7 +37,7 @@
         },
         {
           "type": "p",
-          "text": "El plazo de 10 días corre desde la contratación. Si ya pasó, no perdés nada: podés dar de baja igual, acá abajo."
+          "text": "El plazo de 10 días corre desde la contratación. Si ya pasó, no pierdes nada: puedes dar de baja igual, aquí abajo."
         }
       ]
     },
@@ -47,19 +47,19 @@
       "content": [
         {
           "type": "p",
-          "text": "Podés dar de baja tu suscripción cuando quieras, sin explicar por qué. Tenés dos caminos y los dos son válidos."
+          "text": "Puedes dar de baja tu suscripción cuando quieras, sin explicar por qué. Tienes dos caminos y los dos son válidos."
         },
         {
           "type": "p",
-          "text": "<strong>Camino 1 — pedírnoslo a nosotros.</strong> Escribinos a <strong>support@savloapp.com</strong> con el asunto <strong>BAJA</strong> y el correo de tu cuenta. Te emitimos la <strong>constancia de baja dentro de las 24 horas</strong> de recibida la solicitud."
+          "text": "<strong>Camino 1 — pedírnoslo a nosotros.</strong> Escríbenos a <strong>support@savloapp.com</strong> con el asunto <strong>BAJA</strong> y el correo de tu cuenta. Te emitimos la <strong>constancia de baja dentro de las 24 horas</strong> de recibida la solicitud."
         },
         {
           "type": "p",
-          "text": "<strong>Camino 2 — hacerlo vos mismo, al instante.</strong> La suscripción la cobra Google Play, así que también podés cancelarla ahí sin pasar por nosotros: abrí Play Store → tu foto de perfil → <em>Pagos y suscripciones</em> → <em>Suscripciones</em> → Savlo → <em>Cancelar suscripción</em>."
+          "text": "<strong>Camino 2 — hacerlo tú mismo, al instante.</strong> La suscripción la cobra Google Play, así que también puedes cancelarla ahí sin pasar por nosotros: abre Play Store → tu foto de perfil → <em>Pagos y suscripciones</em> → <em>Suscripciones</em> → Savlo → <em>Cancelar suscripción</em>."
         },
         {
           "type": "p",
-          "text": "En los dos casos la baja tiene efecto al final del período que ya pagaste, y hasta ahí seguís teniendo acceso."
+          "text": "En los dos casos la baja tiene efecto al final del período que ya pagaste, y hasta ahí sigues teniendo acceso."
         }
       ]
     },
@@ -69,12 +69,12 @@
       "content": [
         {
           "type": "p",
-          "text": "Son dos cosas distintas y podés hacer una, la otra, o las dos:"
+          "text": "Son dos cosas distintas y puedes hacer una, la otra, o las dos:"
         },
         {
           "type": "ul",
           "items": [
-            "<strong>Baja de la suscripción</strong>: dejás de pagar. Tu cuenta y tus datos siguen existiendo y podés seguir usando Savlo en su versión gratuita.",
+            "<strong>Baja de la suscripción</strong>: dejas de pagar. Tu cuenta y tus datos siguen existiendo y puedes seguir usando Savlo en su versión gratuita.",
             "<strong>Eliminación de la cuenta</strong>: se borran tu cuenta y todos tus datos, de forma permanente. Se hace desde <em>Ajustes → Cuenta y perfil → Información personal → Eliminar cuenta</em> en la app, o desde <a href=\"/es/delete-account\">savloapp.com/es/delete-account</a>."
           ]
         },
@@ -90,7 +90,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Escribinos a <strong>support@savloapp.com</strong> y lo resolvemos. Si preferís un canal oficial, podés iniciar un reclamo en <strong>Ventanilla Única Federal de Defensa del Consumidor</strong>, en <a href=\"https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario\">argentina.gob.ar/produccion/defensadelconsumidor</a>, o ante la autoridad de defensa del consumidor de tu provincia o municipio."
+          "text": "Escríbenos a <strong>support@savloapp.com</strong> y lo resolvemos. Si prefieres un canal oficial, puedes iniciar un reclamo en <strong>Ventanilla Única Federal de Defensa del Consumidor</strong>, en <a href=\"https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario\">argentina.gob.ar/produccion/defensadelconsumidor</a>, o ante la autoridad de defensa del consumidor de tu provincia o municipio."
         },
         {
           "type": "p",

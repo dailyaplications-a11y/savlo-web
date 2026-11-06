@@ -1,19 +1,18 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { SiteFooter } from "@/components/savlo/site-footer"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { formatBlogDateShort } from "@/lib/blog/posts"
 import { spanishPosts } from "@/lib/blog/spanish-posts"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, authorName, siteConfig } from "@/lib/site"
 
 export const metadata: Metadata = {
-  title: siteConfig.author.name,
+  title: authorName("es"),
   description:
     "Guías de presupuesto, ahorro y finanzas personales del equipo que construye Savlo.",
   alternates: metadataAlternates("/es/author/savlo-team"),
   openGraph: {
-    title: siteConfig.author.name,
+    title: authorName("es"),
     description:
       "Guías sobre presupuesto, ahorro, ansiedad financiera y sinking funds.",
     type: "profile",
@@ -29,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.author.name,
+    title: authorName("es"),
     description:
       "Guías sobre presupuesto, ahorro y psicología del dinero.",
     images: [absoluteUrl(siteConfig.ogImage)],
@@ -43,13 +42,13 @@ export default function SpanishAuthorPage() {
     "@type": "ProfilePage",
     "@id": `${absoluteUrl("/es/author/savlo-team")}#profile`,
     url: absoluteUrl("/es/author/savlo-team"),
-    name: siteConfig.author.name,
+    name: authorName("es"),
     description: metadata.description,
     inLanguage: "es",
     mainEntity: {
       "@type": "Organization",
       "@id": absoluteUrl("/#organization"),
-      name: siteConfig.author.name,
+      name: authorName("es"),
       url: absoluteUrl("/es/author/savlo-team"),
       email: siteConfig.supportEmail,
       image: absoluteUrl("/savlo-icon.png"),
@@ -68,7 +67,6 @@ export default function SpanishAuthorPage() {
       lang="es"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="es" />
       <main className="mx-auto w-full max-w-3xl px-6 pb-24 pt-32 sm:pt-36">
         <nav
           aria-label="Breadcrumb"
@@ -90,7 +88,7 @@ export default function SpanishAuthorPage() {
               </Link>
             </li>
             <li aria-hidden>·</li>
-            <li className="text-foreground/80">{siteConfig.author.name}</li>
+            <li className="text-foreground/80">{authorName("es")}</li>
           </ol>
         </nav>
 
@@ -99,7 +97,7 @@ export default function SpanishAuthorPage() {
             Autor
           </p>
           <h1 className="mt-4 text-balance font-serif text-5xl font-medium leading-[1.04] tracking-tight text-foreground sm:text-6xl">
-            {siteConfig.author.name}
+            {authorName("es")}
           </h1>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
             Guías de presupuesto, ahorro y finanzas personales del equipo

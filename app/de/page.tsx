@@ -1,43 +1,21 @@
 import type { Metadata } from "next"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { ProductStory } from "@/components/savlo/story/product-story"
 import { FeaturedReads } from "@/components/savlo/featured-reads"
+import { FaqSection } from "@/components/savlo/faq/faq-section"
+import { faqStructuredData } from "@/components/savlo/faq/faq-copy"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
 
-const faqItems = [
-  {
-    question: "Ist Savlo schon verfuegbar?",
-    answer:
-      "Savlo wird derzeit als bald verfuegbar fuer iOS und Android praesentiert. Ueber die Buttons fuer App Store und Google Play kannst du dich auf die Warteliste setzen lassen.",
-  },
-  {
-    question: "Muss ich mein Bankkonto verbinden?",
-    answer:
-      "Die oeffentliche Savlo-Seite betont einfache Sprach- oder Texteingaben, CSV- und XLSX-Importe sowie vom Nutzer kontrollierte Eintraege statt einer zwingenden Bankverknuepfung.",
-  },
-  {
-    question: "Fuer wen ist Savlo gemacht?",
-    answer:
-      "Savlo richtet sich an beschaeftigte Menschen, die eine aktive Kontrolle und taegliche Verwaltung ihrer Finanzen in wenigen Minuten suchen, ohne den Aufwand und die Komplexitaet traditioneller Tools.",
-  },
-  {
-    question: "Hilft Savlo bei Sinking Funds?",
-    answer:
-      "Ja. Savlo zeigt Sinking Funds als zentrale Methode, um planbare groessere Ausgaben in kleinere, stetige Ruecklagen direkt auf Ihren Konten zu verwandeln.",
-  },
-] as const
-
 const description =
-  "Savlo ist eine App fuer die taegliche Finanzkontrolle und -verwaltung in Minuten. Erfassen Sie Ausgaben per Sprache oder Text, organisieren Sie Geld auf unabhaengigen Konten und optimieren Sie Ihr Budget muehelos."
+  "Savlo ist eine App für die tägliche Finanzkontrolle und -verwaltung in Minuten. Erfasse Ausgaben per Sprache oder Text, organisiere dein Geld auf unabhängigen Konten und optimiere dein Budget mühelos."
 
 export const metadata: Metadata = {
   title: { absolute: "Savlo Budgeting App | Erfasse, spare und plane dein Geld" },
   description,
   keywords: [
     "Budget App",
-    "persoenliche Finanzen",
+    "persönliche Finanzen",
     "finanzielle Angst",
     "Ausgaben per Sprache",
     "Sinking Funds",
@@ -45,7 +23,7 @@ export const metadata: Metadata = {
   ],
   alternates: metadataAlternates("/de"),
   openGraph: {
-    title: "Savlo | Taegliche Finanzkontrolle in Minuten",
+    title: "Savlo | Tägliche Finanzkontrolle in Minuten",
     description,
     url: "/de",
     siteName: siteConfig.name,
@@ -60,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Taegliche Finanzkontrolle in Minuten",
+    title: "Savlo | Tägliche Finanzkontrolle in Minuten",
     description,
     images: [absoluteUrl(siteConfig.ogImage)],
   },
@@ -108,7 +86,7 @@ export default function GermanHomePage() {
       operatingSystem: "Android",
       url: absoluteUrl("/de"),
       description:
-        "Savlo ist eine App fuer die taegliche Finanzkontrolle und -verwaltung in Minuten mit Sprach- und Texteingabe, unabhaengigen Konten, Sinking Funds, Tabellenimport und Datenexport.",
+        "Savlo ist eine App für die tägliche Finanzkontrolle und -verwaltung in Minuten mit Sprach- und Texteingabe, unabhängigen Konten, Sinking Funds, Tabellenimport und Datenexport.",
       image: absoluteUrl(siteConfig.ogImage),
       screenshot: [
         absoluteUrl("/app_screen_today.png"),
@@ -128,7 +106,7 @@ export default function GermanHomePage() {
       isAccessibleForFree: false,
       featureList: [
         "Sprach- und Texteingabe",
-        "Unabhaengige Konten",
+        "Unabhängige Konten",
         "Sinking Funds",
         "CSV- und XLSX-Importe",
         "Datenexport",
@@ -139,14 +117,7 @@ export default function GermanHomePage() {
       "@type": "FAQPage",
       "@id": absoluteUrl("/de#faq"),
       inLanguage: "de-DE",
-      mainEntity: faqItems.map((item) => ({
-        "@type": "Question",
-        name: item.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: item.answer,
-        },
-      })),
+      mainEntity: faqStructuredData("de"),
     },
   ]
 
@@ -155,58 +126,16 @@ export default function GermanHomePage() {
       lang="de-DE"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="de" />
       <main>
         <ProductStory locale="de" />
+        <FaqSection locale="de" />
         <FeaturedReads locale="de" />
-        <SectionDivider />
-        <FaqSection />
       </main>
       <SiteFooter locale="de" cta />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-    </div>
-  )
-}
-
-function FaqSection() {
-  return (
-    <section id="faq" className="relative py-24 sm:py-32">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-12">
-        <div className="lg:col-span-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary/80">
-            Fragen
-          </p>
-          <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground sm:text-4xl">
-            Ein paar Antworten, bevor du auf die Warteliste gehst.
-          </h2>
-        </div>
-        <dl className="lg:col-span-8">
-          {faqItems.map((item) => (
-            <div
-              key={item.question}
-              className="border-b border-border/70 py-6 first:border-t"
-            >
-              <dt className="text-base font-semibold text-foreground">
-                {item.question}
-              </dt>
-              <dd className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-                {item.answer}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </div>
-    </section>
-  )
-}
-
-function SectionDivider() {
-  return (
-    <div aria-hidden className="mx-auto max-w-6xl px-6">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent" />
     </div>
   )
 }

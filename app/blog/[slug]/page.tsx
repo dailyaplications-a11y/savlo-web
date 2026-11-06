@@ -1,6 +1,5 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { BlogArticle } from "@/components/savlo/blog/blog-article"
 import { getPostBySlug, posts } from "@/lib/blog/posts"
@@ -146,7 +145,6 @@ export default async function BlogArticlePage({ params }: PageProps) {
 
   return (
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader />
       <main>
         <BlogArticle post={post} />
       </main>

@@ -2,8 +2,9 @@ import type { Metadata } from "next"
 import { DM_Sans, Fraunces, Inter, Noto_Color_Emoji } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from "@next/third-parties/google"
-import Script from "next/script"
 import { absoluteUrl, siteConfig } from "@/lib/site"
+import { SiteHeader } from "@/components/savlo/site-header"
+import { PageFade } from "@/components/savlo/page-fade"
 import "./globals.css"
 
 const dmSans = DM_Sans({
@@ -107,34 +108,76 @@ export const metadata: Metadata = {
   }),
 }
 
+// One root layout serves every language: the path says which one.
+const HTML_LANG_FROM_PATH = `(function () {
+  try {
+    var path = window.location.pathname;
+    document.documentElement.lang = /^\\/fr(\\/|$)/.test(path)
+      ? 'fr-FR'
+      : /^\\/pt(\\/|$)/.test(path)
+        ? 'pt-BR'
+        : /^\\/es(\\/|$)/.test(path)
+          ? 'es'
+          : /^\\/de(\\/|$)/.test(path)
+            ? 'de-DE'
+            : 'en';
+  } catch (e) {}
+})();`
+
+// The browser speaks one of the site's languages (ca, gl, eu read Spanish,
+// as in proxy.ts): the page says it must not be machine-translated.
+const NO_TRANSLATE_FOR_SPOKEN_LANGUAGES = `(function () {
+  try {
+    var spoken = ['en', 'es', 'pt', 'de', 'fr', 'ca', 'gl', 'eu'];
+    var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+    var speaks = false;
+    for (var i = 0; i < prefs.length; i++) {
+      if (spoken.indexOf(String(prefs[i]).toLowerCase().split('-')[0]) !== -1) speaks = true;
+    }
+    if (!speaks) return;
+    document.documentElement.setAttribute('translate', 'no');
+    var meta = document.createElement('meta');
+    meta.name = 'google';
+    meta.content = 'notranslate';
+    document.head.appendChild(meta);
+  } catch (e) {}
+})();`
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${dmSans.variable} ${fraunces.variable} ${inter.variable} ${notoEmoji.variable} bg-background`}>
+    // data-scroll-behavior: the smooth scroll of globals.css is for in-page
+    // anchors only; with it, Next turns it off during a route change, so a new
+    // page (a guide from the home) opens at its top instead of gliding up to it
+    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth" className={`${dmSans.variable} ${fraunces.variable} ${inter.variable} ${notoEmoji.variable} bg-background`}>
       <head>
-        <Script id="savlo-html-lang" strategy="beforeInteractive">
-          {`(() => {
-            try {
-              const path = window.location.pathname;
-              const lang = path.startsWith('/fr')
-                ? 'fr-FR'
-                : path.startsWith('/pt')
-                  ? 'pt-BR'
-                  : path.startsWith('/es')
-                  ? 'es'
-                  : path.startsWith('/de')
-                    ? 'de-DE'
-                    : 'en';
-              document.documentElement.lang = lang;
-            } catch {}
-          })();`}
-        </Script>
+        {/* inline, like the one below: the page's language is right from the
+            first parse, which is when a translator reads it */}
+        <script id="savlo-html-lang" dangerouslySetInnerHTML={{ __html: HTML_LANG_FROM_PATH }} />
+        {/*
+          A visitor whose browser speaks one of the site's five languages
+          reads Savlo in it (proxy.ts sends them there), so no machine
+          translator may rewrite the page: Chrome's turned the phones' "USD"
+          into "Dólar estadounidense" and broke every screen (owner,
+          2026-11-05). Anyone else (Italian, Japanese…) may still translate.
+          A plain inline script, not next/script: it runs while the head is
+          parsed, so the translator finds the flag on its first look (a
+          beforeInteractive script waits for the runtime). The phones and
+          the brand never translate either way (translate="no").
+        */}
+        <script
+          id="savlo-no-translate"
+          dangerouslySetInnerHTML={{ __html: NO_TRANSLATE_FOR_SPOKEN_LANGUAGES }}
+        />
       </head>
       <body className="font-sans antialiased text-foreground">
-        {children}
+        {/* one header for every page: it outlives navigation, so the bar's
+            movement carries over from page to page (site-header.tsx) */}
+        <SiteHeader />
+        <PageFade>{children}</PageFade>
         {process.env.NODE_ENV === "production" && process.env.VERCEL === "1" && (
           <Analytics />
         )}

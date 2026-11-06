@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { SiteFooter } from "@/components/savlo/site-footer"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { formatBlogDateShort, posts } from "@/lib/blog/posts"
 import { metadataAlternates } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
@@ -62,7 +61,6 @@ export default function SavloTeamAuthorPage() {
 
   return (
     <div className="bg-grain relative min-h-screen bg-background text-foreground">
-      <SiteHeader />
       <main className="mx-auto w-full max-w-3xl px-6 pb-24 pt-32 sm:pt-36">
         <nav
           aria-label="Breadcrumb"

@@ -1,5 +1,6 @@
 import { Fragment, type ReactNode } from "react"
 import type { BlogCategory } from "@/lib/blog/posts"
+import type { Locale } from "@/lib/i18n"
 
 export type RichBlock =
   | { kind: "h2"; id: string; text: string }
@@ -28,7 +29,18 @@ export type RichBody = Pick<RichArticle, "blocks">
 
 const inlineLinkPattern = /\[([^\]]+)\]\(([^)]+)\)/g
 
-function renderInline(text: string, keyPrefix: string): ReactNode[] {
+/**
+ * A link inside a translated article stays in its language: the articles link
+ * each other by their English path (`/blog/sinking-funds`), and a reader of
+ * the Spanish one goes to the Spanish twin (`/es/blog/sinking-funds`).
+ */
+function localizeHref(href: string, locale: Locale) {
+  if (locale === "en" || !href.startsWith("/") || href.startsWith("//")) return href
+  if (/^\/(es|pt|de|fr)(\/|$)/.test(href)) return href
+  return href === "/" ? `/${locale}` : `/${locale}${href}`
+}
+
+function renderInline(text: string, keyPrefix: string, locale: Locale): ReactNode[] {
   const out: ReactNode[] = []
   let last = 0
   let match: RegExpExecArray | null
@@ -41,7 +53,7 @@ function renderInline(text: string, keyPrefix: string): ReactNode[] {
     out.push(
       <a
         key={`${keyPrefix}-lnk-${n}`}
-        href={match[2]}
+        href={localizeHref(match[2], locale)}
         className="text-primary underline decoration-primary/30 underline-offset-4 transition-colors hover:decoration-primary"
       >
         {match[1]}
@@ -56,7 +68,7 @@ function renderInline(text: string, keyPrefix: string): ReactNode[] {
   return out
 }
 
-export function RichArticleContent({ article }: { article: RichBody }) {
+export function RichArticleContent({ article, locale = "en" }: { article: RichBody; locale?: Locale }) {
   return (
     <>
       {article.blocks.map((block, i) => {
@@ -88,7 +100,7 @@ export function RichArticleContent({ article }: { article: RichBody }) {
                 key={k}
                 className="mt-5 text-[17px] leading-[1.75] text-foreground/90"
               >
-                {renderInline(block.text, k)}
+                {renderInline(block.text, k, locale)}
               </p>
             )
           case "ul":
@@ -98,7 +110,7 @@ export function RichArticleContent({ article }: { article: RichBody }) {
                 className="mt-5 space-y-2.5 pl-5 text-[17px] leading-[1.7] text-foreground/90 [&>li]:list-disc [&>li]:marker:text-primary/80"
               >
                 {block.items.map((item, j) => (
-                  <li key={`${k}-i-${j}`}>{renderInline(item, `${k}-i-${j}`)}</li>
+                  <li key={`${k}-i-${j}`}>{renderInline(item, `${k}-i-${j}`, locale)}</li>
                 ))}
               </ul>
             )
@@ -109,7 +121,7 @@ export function RichArticleContent({ article }: { article: RichBody }) {
                 className="mt-5 space-y-2.5 pl-5 text-[17px] leading-[1.7] text-foreground/90 [&>li]:list-decimal [&>li]:marker:text-primary/80"
               >
                 {block.items.map((item, j) => (
-                  <li key={`${k}-i-${j}`}>{renderInline(item, `${k}-i-${j}`)}</li>
+                  <li key={`${k}-i-${j}`}>{renderInline(item, `${k}-i-${j}`, locale)}</li>
                 ))}
               </ol>
             )
@@ -119,7 +131,7 @@ export function RichArticleContent({ article }: { article: RichBody }) {
                 key={k}
                 className="mt-8 rounded-2xl border border-primary/25 bg-primary/[0.06] px-5 py-4 text-[16px] leading-relaxed text-foreground/90"
               >
-                {renderInline(block.text, k)}
+                {renderInline(block.text, k, locale)}
               </aside>
             )
           case "divider":
@@ -140,7 +152,7 @@ export function RichArticleContent({ article }: { article: RichBody }) {
                   >
                     <strong>{item.q}</strong>
                     <br />
-                    {renderInline(item.a, `${k}-q-${j}`)}
+                    {renderInline(item.a, `${k}-q-${j}`, locale)}
                   </p>
                 ))}
               </Fragment>

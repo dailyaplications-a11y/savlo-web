@@ -70,7 +70,7 @@ const COLUMNS: Record<Locale, Column[]> = {
         // que estar a simple vista y en el primer acceso, y con ese nombre.
         // Va en los cinco idiomas porque la obligación no depende del idioma
         // en que navegue el visitante.
-        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Botón de arrepentimiento", href: "/arrepentimiento" },
         { label: "Open source", href: "/attributions" },
         {
           label: "Responsible disclosure",
@@ -111,7 +111,7 @@ const COLUMNS: Record<Locale, Column[]> = {
           href: "/es/blog/why-traditional-budgets-fail",
         },
         { label: "Ansiedad financiera", href: "/es/blog/financial-anxiety" },
-        { label: "Money dysmorphia", href: "/es/blog/money-dysmorphia" },
+        { label: "Dismorfia monetaria", href: "/es/blog/money-dysmorphia" },
         { label: "Filosofía", href: "/es#philosophy" },
       ],
     },
@@ -174,7 +174,7 @@ const COLUMNS: Record<Locale, Column[]> = {
           href: "/pt/blog/why-traditional-budgets-fail",
         },
         { label: "Ansiedade financeira", href: "/pt/blog/financial-anxiety" },
-        { label: "Money dysmorphia", href: "/pt/blog/money-dysmorphia" },
+        { label: "Dismorfia monetária", href: "/pt/blog/money-dysmorphia" },
         { label: "Filosofia", href: "/pt#philosophy" },
       ],
     },
@@ -196,7 +196,7 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Privacidade", href: "/pt/privacy" },
         { label: "Termos", href: "/pt/terms" },
         { label: "Excluir conta", href: "/pt/delete-account" },
-        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Botón de arrepentimiento", href: "/pt/arrepentimiento" },
         { label: "Código aberto", href: "/pt/attributions" },
         {
           label: "Divulgação responsável",
@@ -259,7 +259,7 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Datenschutz", href: "/de/privacy" },
         { label: "Nutzungsbedingungen", href: "/de/terms" },
         { label: "Konto löschen", href: "/de/delete-account" },
-        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Botón de arrepentimiento", href: "/de/arrepentimiento" },
         { label: "Open Source", href: "/de/attributions" },
         {
           label: "Verantwortungsvolle Offenlegung",
@@ -276,7 +276,7 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Journal vocal", href: "/fr/blog/voice-expense-tracking" },
         { label: "Fonds dédiés", href: "/fr/blog/sinking-funds" },
         { label: "Comptes et fonds", href: "/fr#product" },
-        { label: "Exporter vos données", href: "/fr#features" },
+        { label: "Exporter tes données", href: "/fr#features" },
       ],
     },
     {
@@ -300,7 +300,7 @@ const COLUMNS: Record<Locale, Column[]> = {
           href: "/fr/blog/why-traditional-budgets-fail",
         },
         { label: "Anxiété financière", href: "/fr/blog/financial-anxiety" },
-        { label: "Money dysmorphia", href: "/fr/blog/money-dysmorphia" },
+        { label: "Dysmorphie financière", href: "/fr/blog/money-dysmorphia" },
         { label: "Philosophie", href: "/fr#philosophy" },
       ],
     },
@@ -322,7 +322,7 @@ const COLUMNS: Record<Locale, Column[]> = {
         { label: "Confidentialité", href: "/fr/privacy" },
         { label: "Conditions", href: "/fr/terms" },
         { label: "Supprimer le compte", href: "/fr/delete-account" },
-        { label: "Botón de arrepentimiento", href: "/es/arrepentimiento" },
+        { label: "Botón de arrepentimiento", href: "/fr/arrepentimiento" },
         { label: "Open source", href: "/fr/attributions" },
         {
           label: "Signalement responsable",
@@ -379,7 +379,7 @@ export function SiteFooter({ locale = "en", cta = false }: { locale?: Locale; ct
           <div className={styles.brandCol}>
             <Link href={homePath} aria-label="Savlo" className={styles.brand}>
               <SavloMark size={30} />
-              <span className={styles.wordmark}>savlo</span>
+              <span className={styles.wordmark} translate="no">savlo</span>
             </Link>
             <p className={styles.tagline}>{tagline}</p>
           </div>

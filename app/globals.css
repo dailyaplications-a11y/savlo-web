@@ -395,6 +395,43 @@
               0 20px 60px -30px color-mix(in oklch, var(--primary) 25%, transparent);
 }
 
+/*
+ * A language change (language-menu.tsx): one view transition. The page's two
+ * languages cross-fade; the header's button and language control are taken
+ * on their own and morph to their new size and place, their words fading
+ * through each other at their natural size (not stretched), clipped to the
+ * pill. One curve, the app's emphasized.
+ */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.32s;
+  animation-timing-function: cubic-bezier(0.2, 0, 0, 1);
+}
+::view-transition-group(site-cta),
+::view-transition-group(site-lang) {
+  animation-duration: 0.42s;
+  animation-timing-function: cubic-bezier(0.2, 0, 0, 1);
+}
+::view-transition-group(site-cta) {
+  overflow: clip;
+  border-radius: 999px;
+}
+::view-transition-old(site-cta),
+::view-transition-new(site-cta),
+::view-transition-old(site-lang),
+::view-transition-new(site-lang) {
+  height: 100%;
+  width: auto;
+  object-fit: none;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.2, 0, 0, 1);
+}
+/* the words sit centred as the pill changes width */
+::view-transition-image-pair(site-cta) {
+  display: flex;
+  justify-content: center;
+}
+
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

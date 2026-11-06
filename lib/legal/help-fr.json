@@ -6,11 +6,11 @@
     "content": [
       {
         "type": "p",
-        "text": "Savlo est une application Android de finances personnelles. Si quelque chose ne fonctionne pas ou si vous ne trouvez pas la réponse ci-dessous, écrivez à <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> : une personne vous lira."
+        "text": "Savlo est une application Android de finances personnelles. Si quelque chose ne fonctionne pas ou si tu ne trouves pas la réponse ci-dessous, écris à <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> : une personne te lira."
       },
       {
         "type": "p",
-        "text": "Quand vous écrivez, préciser le modèle du téléphone, la version d'Android et ce que vous étiez en train de faire fait souvent gagner un aller-retour entier."
+        "text": "Quand tu écris, préciser le modèle du téléphone, la version d'Android et ce que tu étais en train de faire fait souvent gagner un aller-retour entier."
       }
     ]
   },
@@ -26,14 +26,14 @@
         {
           "type": "ul",
           "items": [
-            "<strong>À la voix.</strong> Maintenez le micro et dites-le comme vous le diriez à voix haute — « douze cinquante café hier ». Savlo en tire le montant, la date et la catégorie.",
-            "<strong>Au texte.</strong> La même chose, saisie. Vous pouvez en mettre plusieurs d'un coup, séparés par des virgules.",
-            "<strong>À la main.</strong> Vous remplissez les champs vous-même quand vous voulez tout contrôler."
+            "<strong>À la voix.</strong> Maintiens le micro et dis-le comme tu le dirais à voix haute — « douze cinquante café hier ». Savlo en tire le montant, la date et la catégorie.",
+            "<strong>Au texte.</strong> La même chose, saisie. Tu peux en mettre plusieurs d'un coup, séparés par des virgules.",
+            "<strong>À la main.</strong> Tu remplis les champs toi-même quand tu veux tout contrôler."
           ]
         },
         {
           "type": "p",
-          "text": "Si la catégorie est fausse, corrigez-la sur l'opération — c'est le plus rapide, et la correction reste."
+          "text": "Si la catégorie est fausse, corrige-la sur l'opération — c'est le plus rapide, et la correction reste."
         }
       ]
     },
@@ -43,11 +43,11 @@
       "content": [
         {
           "type": "p",
-          "text": "Oui. Vous pouvez enregistrer des opérations, consulter vos soldes et parcourir votre historique sans réseau. Ce que vous enregistrez est stocké sur le téléphone et envoyé tout seul dès qu'il y a de nouveau une connexion — vous n'avez rien à faire."
+          "text": "Oui. Tu peux enregistrer des opérations, consulter tes soldes et parcourir ton historique sans réseau. Ce que tu enregistres est stocké sur le téléphone et envoyé tout seul dès qu'il y a de nouveau une connexion — tu n'as rien à faire."
         },
         {
           "type": "p",
-          "text": "Si quelque chose ne peut pas être envoyé après plusieurs tentatives, Savlo vous le dit au lieu de le perdre en silence, et vous permet de réessayer depuis les <strong>Réglages</strong>."
+          "text": "Si quelque chose ne peut pas être envoyé après plusieurs tentatives, Savlo te le dit au lieu de le perdre en silence, et te permet de réessayer depuis les <strong>Réglages</strong>."
         }
       ]
     },
@@ -57,15 +57,15 @@
       "content": [
         {
           "type": "p",
-          "text": "Vos opérations sont stockées sur des serveurs aux États-Unis et rattachées à votre compte : personne d'autre utilisant Savlo ne peut les voir."
+          "text": "Tes opérations sont stockées sur des serveurs aux États-Unis et rattachées à ton compte : personne d'autre utilisant Savlo ne peut les voir."
         },
         {
           "type": "p",
-          "text": "Quand vous utilisez l'assistant IA, votre question et un résumé de votre contexte financier sont envoyés à Google pour pouvoir y répondre. <a href=\"/fr/privacy\">La Politique de confidentialité</a> explique précisément ce qui sort, vers qui, et un point qu'il vaut la peine de lire sur l'usage que Google peut en faire."
+          "text": "Quand tu utilises l'assistant IA, ta question et un résumé de ton contexte financier sont envoyés à Google pour pouvoir y répondre. <a href=\"/fr/privacy\">La Politique de confidentialité</a> explique précisément ce qui sort, vers qui, et un point qu'il vaut la peine de lire sur l'usage que Google peut en faire."
         },
         {
           "type": "p",
-          "text": "Vous pouvez tout emporter à tout moment depuis <strong>Réglages → Exporter mes données</strong>, qui vous donne un CSV."
+          "text": "Tu peux tout emporter à tout moment depuis <strong>Réglages → Exporter mes données</strong>, qui te donne un CSV."
         }
       ]
     },
@@ -75,11 +75,11 @@
       "content": [
         {
           "type": "p",
-          "text": "Non. Savlo est un outil pour voir clairement votre propre argent. L'assistant lit vos données et peut se tromper : vérifiez tout élément important avant d'agir, et parlez à un professionnel qualifié pour les décisions qui comptent."
+          "text": "Non. Savlo est un outil pour voir clairement ton propre argent. L'assistant lit tes données et peut se tromper : vérifie tout élément important avant d'agir, et parle à un professionnel qualifié pour les décisions qui comptent."
         },
         {
           "type": "p",
-          "text": "Vous pouvez utiliser Savlo sans l'IA : la saisie, les budgets, les comptes et les rapports fonctionnent de la même façon."
+          "text": "Tu peux utiliser Savlo sans l'IA : la saisie, les budgets, les comptes et les rapports fonctionnent de la même façon."
         }
       ]
     },
@@ -89,33 +89,33 @@
       "content": [
         {
           "type": "p",
-          "text": "Les abonnements sont facturés par Google Play : vous les gérez et les résiliez là-bas, pas dans Savlo :"
+          "text": "Les abonnements sont facturés par Google Play : tu les gères et les résilies là-bas, pas dans Savlo :"
         },
         {
           "type": "ol",
           "items": [
-            "Ouvrez l'application <strong>Play Store</strong>.",
-            "Appuyez sur votre photo de profil, puis sur <strong>Paiements et abonnements → Abonnements</strong>.",
-            "Choisissez <strong>Savlo</strong> et appuyez sur <strong>Résilier l'abonnement</strong>."
+            "Ouvre l'application <strong>Play Store</strong>.",
+            "Appuie sur ta photo de profil, puis sur <strong>Paiements et abonnements → Abonnements</strong>.",
+            "Choisis <strong>Savlo</strong> et appuie sur <strong>Résilier l'abonnement</strong>."
           ]
         },
         {
           "type": "p",
-          "text": "Supprimer l'application ou votre compte Savlo NE résilie PAS l'abonnement. Les remboursements sont gérés par Google. Si un montant a été prélevé à tort, écrivez-nous quand même et nous vous aiderons."
+          "text": "Supprimer l'application ou ton compte Savlo NE résilie PAS l'abonnement. Les remboursements sont gérés par Google. Si un montant a été prélevé à tort, écris-nous quand même et nous t'aiderons."
         }
       ]
     },
     {
       "id": "account",
-      "heading": "Supprimer votre compte",
+      "heading": "Supprimer ton compte",
       "content": [
         {
           "type": "p",
-          "text": "Vous pouvez supprimer votre compte et ses données depuis <strong>Réglages → Compte et profil → Informations personnelles → Supprimer le compte</strong>. C'est immédiat et irréversible : exportez vos données avant si vous voulez les conserver."
+          "text": "Tu peux supprimer ton compte et ses données depuis <strong>Réglages → Compte et profil → Informations personnelles → Supprimer le compte</strong>. C'est immédiat et irréversible : exporte tes données avant si tu veux les conserver."
         },
         {
           "type": "p",
-          "text": "Si vous n'avez plus l'application installée, <a href=\"/fr/delete-account\">cette page explique comment en faire la demande par e-mail</a>."
+          "text": "Si tu n'as plus l'application installée, <a href=\"/fr/delete-account\">cette page explique comment en faire la demande par e-mail</a>."
         }
       ]
     },
@@ -128,7 +128,7 @@
           "items": [
             "<a href=\"/fr/privacy\">Politique de confidentialité</a>",
             "<a href=\"/fr/terms\">Conditions d'utilisation</a>",
-            "<a href=\"/fr/delete-account\">Supprimer votre compte et vos données</a>",
+            "<a href=\"/fr/delete-account\">Supprimer ton compte et tes données</a>",
             "<a href=\"mailto:support@savloapp.com\">support@savloapp.com</a>"
           ]
         }

@@ -1,24 +1,23 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { SiteFooter } from "@/components/savlo/site-footer"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { formatBlogDateShort } from "@/lib/blog/posts"
 import { blogCategoryLabel } from "@/lib/blog/category-labels"
 import { germanPosts } from "@/lib/blog/german-posts"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, authorName, siteConfig } from "@/lib/site"
 
 const authorPath = "/de/author/savlo-team"
 
 export const metadata: Metadata = {
-  title: siteConfig.author.name,
+  title: authorName("de"),
   description:
     "Leitfäden zu Budget, Sparen und persönlichen Finanzen vom Team hinter Savlo.",
   alternates: metadataAlternates(authorPath),
   openGraph: {
-    title: siteConfig.author.name,
+    title: authorName("de"),
     description:
-      "Leitfaeden zu Budget, Sparen, finanzieller Angst und Sinking Funds.",
+      "Leitfäden zu Budget, Sparen, finanzieller Angst und Sinking Funds.",
     type: "profile",
     locale: "de_DE",
     siteName: siteConfig.name,
@@ -32,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.author.name,
+    title: authorName("de"),
     description:
-      "Leitfaeden zu Budget, Sparen und Geldpsychologie.",
+      "Leitfäden zu Budget, Sparen und Geldpsychologie.",
     images: [absoluteUrl(siteConfig.ogImage)],
   },
 }
@@ -46,18 +45,18 @@ export default function GermanAuthorPage() {
     "@type": "ProfilePage",
     "@id": `${absoluteUrl(authorPath)}#profile`,
     url: absoluteUrl(authorPath),
-    name: siteConfig.author.name,
+    name: authorName("de"),
     description: metadata.description,
     inLanguage: "de-DE",
     mainEntity: {
       "@type": "Organization",
       "@id": absoluteUrl("/#organization"),
-      name: siteConfig.author.name,
+      name: authorName("de"),
       url: absoluteUrl(authorPath),
       email: siteConfig.supportEmail,
       image: absoluteUrl("/savlo-icon.png"),
       knowsAbout: [
-        "Persoenliches Budgetieren",
+        "Persönliches Budgetieren",
         "Verhaltensfinanzen",
         "Finanzielle Angst",
         "Sinking Funds",
@@ -71,7 +70,6 @@ export default function GermanAuthorPage() {
       lang="de-DE"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="de" />
       <main className="mx-auto w-full max-w-3xl px-6 pb-24 pt-32 sm:pt-36">
         <nav
           aria-label="Breadcrumb"
@@ -93,7 +91,7 @@ export default function GermanAuthorPage() {
               </Link>
             </li>
             <li aria-hidden>·</li>
-            <li className="text-foreground/80">{siteConfig.author.name}</li>
+            <li className="text-foreground/80">{authorName("de")}</li>
           </ol>
         </nav>
 
@@ -102,7 +100,7 @@ export default function GermanAuthorPage() {
             Autor
           </p>
           <h1 className="mt-4 text-balance font-serif text-5xl font-medium leading-[1.04] tracking-tight text-foreground sm:text-6xl">
-            {siteConfig.author.name}
+            {authorName("de")}
           </h1>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
             Leitfäden zu Budget, Sparen und persönlichen Finanzen vom Team hinter Savlo.
@@ -116,14 +114,14 @@ export default function GermanAuthorPage() {
           <ul className="mt-5 grid gap-3 text-sm leading-relaxed text-muted-foreground sm:grid-cols-2">
             <li>Budget-Systeme, die Vermeidung reduzieren.</li>
             <li>Sinking Funds und Notfallplanung.</li>
-            <li>Gewohnheiten fuer Ausgaben per Sprache.</li>
+            <li>Gewohnheiten für Ausgaben per Sprache.</li>
             <li>Verhaltensfinanzen für das Geld im Alltag.</li>
           </ul>
         </section>
 
         <section className="mt-12">
           <h2 className="font-serif text-2xl font-medium tracking-tight text-foreground">
-            Aktuelle Leitfaeden
+            Aktuelle Leitfäden
           </h2>
           <ol className="mt-6 flex flex-col gap-6">
             {featuredPosts.map((post) => (

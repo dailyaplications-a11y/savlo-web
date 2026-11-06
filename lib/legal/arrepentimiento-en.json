@@ -1,0 +1,106 @@
+{
+  "title": "Withdrawal button and cancellation button",
+  "description": "How to withdraw from a Savlo subscription within 10 days or cancel it at any time, without signing in or giving a reason. Argentine Law 24.240 and Disposition 954/2025.",
+  "lastUpdated": "Last updated: November 5, 2026",
+  "intro": {
+    "content": [
+      {
+        "type": "p",
+        "text": "This page is Savlo's <strong>BOTÓN DE ARREPENTIMIENTO</strong> (withdrawal button) and <strong>BOTÓN DE BAJA</strong> (cancellation button), under Argentina's Consumer Protection Law 24.240 and Disposition 954/2025 of the Undersecretariat for Consumer Protection and Fair Trade."
+      },
+      {
+        "type": "p",
+        "text": "This is a translation for your convenience. The version that counts legally is the Spanish one, at <a href=\"/es/arrepentimiento\">savloapp.com/es/arrepentimiento</a>. Both work the same way: you can use either."
+      },
+      {
+        "type": "p",
+        "text": "<strong>You don't need to sign up, sign in or go through any prior step to use it.</strong> We only ask for the minimum details needed to confirm the request is yours and to find your subscription."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "arrepentimiento",
+      "heading": "Withdrawal button — cancel within 10 days",
+      "content": [
+        {
+          "type": "p",
+          "text": "If you took out a Savlo subscription <strong>10 calendar days ago or less</strong>, you can withdraw at no cost and without giving any reason. We refund the full amount."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Write to <strong>support@savloapp.com</strong> with the subject <strong>ARREPENTIMIENTO</strong> (withdrawal).",
+            "Include your Savlo account email and the approximate date you subscribed.",
+            "That's it. Nothing else is needed."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "We confirm we received it and send you a <strong>record of your request within 24 hours</strong>. The refund is processed by Google Play, which charged the subscription, to the same payment method you used."
+        },
+        {
+          "type": "p",
+          "text": "The 10 days run from the day you subscribed. If they have passed, you lose nothing: you can still cancel, just below."
+        }
+      ]
+    },
+    {
+      "id": "baja",
+      "heading": "Cancellation button — cancel at any time",
+      "content": [
+        {
+          "type": "p",
+          "text": "You can cancel your subscription whenever you want, without explaining why. There are two ways, and both are valid."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Way 1 — ask us.</strong> Write to <strong>support@savloapp.com</strong> with the subject <strong>BAJA</strong> (cancellation) and your account email. We send you the <strong>cancellation record within 24 hours</strong> of receiving the request."
+        },
+        {
+          "type": "p",
+          "text": "<strong>Way 2 — do it yourself, right away.</strong> Google Play charges the subscription, so you can also cancel it there without going through us: open Play Store → your profile picture → <em>Payments &amp; subscriptions</em> → <em>Subscriptions</em> → Savlo → <em>Cancel subscription</em>."
+        },
+        {
+          "type": "p",
+          "text": "Either way, the cancellation takes effect at the end of the period you already paid for, and you keep access until then."
+        }
+      ]
+    },
+    {
+      "id": "cuenta",
+      "heading": "Cancelling is not the same as deleting your account",
+      "content": [
+        {
+          "type": "p",
+          "text": "They are two different things, and you can do one, the other, or both:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Cancelling the subscription</strong>: you stop paying. Your account and your data still exist, and you can subscribe again whenever you want.",
+            "<strong>Deleting the account</strong>: your account and all your data are erased, permanently. You do it from <em>Settings → Account &amp; profile → Personal information → Delete account</em> in the app, or from <a href=\"/delete-account\">savloapp.com/delete-account</a>."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Removing the app from your phone does neither: the subscription keeps being charged until you cancel it."
+        }
+      ]
+    },
+    {
+      "id": "reclamos",
+      "heading": "If something goes wrong",
+      "content": [
+        {
+          "type": "p",
+          "text": "Write to <strong>support@savloapp.com</strong> and we'll sort it out. If you prefer an official channel, you can file a complaint with Argentina's <strong>Ventanilla Única Federal de Defensa del Consumidor</strong>, at <a href=\"https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario\">argentina.gob.ar/produccion/defensadelconsumidor</a>, or with the consumer protection authority of your province or municipality."
+        },
+        {
+          "type": "p",
+          "text": "Savlo — Bahía Blanca, Province of Buenos Aires (8000), Argentina. support@savloapp.com"
+        }
+      ]
+    }
+  ]
+}

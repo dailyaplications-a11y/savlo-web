@@ -1,10 +1,9 @@
 import type { Metadata } from "next"
 import { BlogIndex } from "@/components/savlo/blog/blog-index"
 import { SiteFooter } from "@/components/savlo/site-footer"
-import { SiteHeader } from "@/components/savlo/site-header"
 import { germanPosts } from "@/lib/blog/german-posts"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, authorName, siteConfig } from "@/lib/site"
 
 const blogDescription =
   "Leitfäden zu Budget, Sparen, Schulden und Geldpsychologie, um deine persönlichen Finanzen zu organisieren."
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
   title: "Blog",
   description: blogDescription,
   keywords: [
-    "Blog persoenliche Finanzen",
+    "Blog persönliche Finanzen",
     "Budget App",
     "wie man ein Budget erstellt",
     "50/30/20-Regel",
@@ -76,7 +75,7 @@ export default function GermanBlogPage() {
       inLanguage: "de-DE",
       author: {
         "@type": "Organization",
-        name: siteConfig.author.name,
+        name: authorName("de"),
         url: absoluteUrl("/de/author/savlo-team"),
       },
     })),
@@ -87,7 +86,6 @@ export default function GermanBlogPage() {
       lang="de-DE"
       className="bg-grain relative min-h-screen bg-background text-foreground"
     >
-      <SiteHeader locale="de" />
       <main>
         <BlogIndex locale="de" posts={germanPosts} />
       </main>

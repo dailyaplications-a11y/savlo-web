@@ -6,7 +6,7 @@
     "content": [
       {
         "type": "p",
-        "text": "Savlo es una app de Android para finanzas personales. Si algo no funciona o no encontrás la respuesta acá abajo, escribí a <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> y lo va a leer una persona."
+        "text": "Savlo es una app de Android para finanzas personales. Si algo no funciona o no encuentras la respuesta aquí abajo, escribe a <a href=\"mailto:support@savloapp.com\">support@savloapp.com</a> y lo va a leer una persona."
       },
       {
         "type": "p",
@@ -26,9 +26,9 @@
         {
           "type": "ul",
           "items": [
-            "<strong>Por voz.</strong> Mantené el micrófono y decilo como lo dirías en voz alta — \"doce cincuenta café ayer\". Savlo saca el importe, la fecha y la categoría.",
-            "<strong>Por texto.</strong> Lo mismo, escrito. Podés poner varios de una, separados por comas.",
-            "<strong>A mano.</strong> Completás los campos vos cuando querés control total."
+            "<strong>Por voz.</strong> Mantén pulsado el micrófono y dilo como lo dirías en voz alta — \"doce cincuenta café ayer\". Savlo saca el importe, la fecha y la categoría.",
+            "<strong>Por texto.</strong> Lo mismo, escrito. Puedes poner varios de una, separados por comas.",
+            "<strong>A mano.</strong> Completas los campos tú mismo cuando quieres control total."
           ]
         },
         {
@@ -43,7 +43,7 @@
       "content": [
         {
           "type": "p",
-          "text": "Sí. Podés registrar movimientos, mirar tus saldos y recorrer tu historial sin señal. Lo que registrás se guarda en el teléfono y se manda solo apenas hay conexión de nuevo — no tenés que hacer nada."
+          "text": "Sí. Puedes registrar movimientos, mirar tus saldos y recorrer tu historial sin señal. Lo que registras se guarda en el teléfono y se manda solo apenas hay conexión de nuevo — no tienes que hacer nada."
         },
         {
           "type": "p",
@@ -61,11 +61,11 @@
         },
         {
           "type": "p",
-          "text": "Cuando usás el asistente de IA, tu pregunta y un resumen de tu contexto financiero se envían a Google para poder responderla. <a href=\"/es/privacy\">La Política de Privacidad</a> explica exactamente qué sale, a quién, y una cosa que conviene leer sobre cómo puede usarlo Google."
+          "text": "Cuando usas el asistente de IA, tu pregunta y un resumen de tu contexto financiero se envían a Google para poder responderla. <a href=\"/es/privacy\">La Política de Privacidad</a> explica exactamente qué sale, a quién, y una cosa que conviene leer sobre cómo puede usarlo Google."
         },
         {
           "type": "p",
-          "text": "Podés llevarte todo cuando quieras desde <strong>Ajustes → Exportar mis datos</strong>, que te da un CSV."
+          "text": "Puedes llevarte todo cuando quieras desde <strong>Ajustes → Exportar mis datos</strong>, que te da un CSV."
         }
       ]
     },
@@ -75,11 +75,11 @@
       "content": [
         {
           "type": "p",
-          "text": "No. Savlo es una herramienta para ver tu propia plata con claridad. El asistente lee tus datos y puede equivocarse, así que verificá cualquier cosa importante antes de actuar, y hablá con un profesional para las decisiones que pesan."
+          "text": "No. Savlo es una herramienta para ver tu propia dinero con claridad. El asistente lee tus datos y puede equivocarse, así que verifica cualquier cosa importante antes de actuar, y habla con un profesional para las decisiones que pesan."
         },
         {
           "type": "p",
-          "text": "Podés usar Savlo sin la IA: registrar, presupuestos, cuentas e informes funcionan igual."
+          "text": "Puedes usar Savlo sin la IA: registrar, presupuestos, cuentas e informes funcionan igual."
         }
       ]
     },
@@ -94,14 +94,14 @@
         {
           "type": "ol",
           "items": [
-            "Abrí la app de <strong>Play Store</strong>.",
-            "Tocá tu foto de perfil y después <strong>Pagos y suscripciones → Suscripciones</strong>.",
-            "Elegí <strong>Savlo</strong> y tocá <strong>Cancelar suscripción</strong>."
+            "Abre la app de <strong>Play Store</strong>.",
+            "Toca tu foto de perfil y después <strong>Pagos y suscripciones → Suscripciones</strong>.",
+            "Elige <strong>Savlo</strong> y toca <strong>Cancelar suscripción</strong>."
           ]
         },
         {
           "type": "p",
-          "text": "Borrar la app o tu cuenta de Savlo NO cancela la suscripción. Los reembolsos los gestiona Google. Si te cobraron algo que no correspondía, escribinos igual y te ayudamos a resolverlo."
+          "text": "Borrar la app o tu cuenta de Savlo NO cancela la suscripción. Los reembolsos los gestiona Google. Si te cobraron algo que no correspondía, escríbenos igual y te ayudamos a resolverlo."
         }
       ]
     },
@@ -111,11 +111,11 @@
       "content": [
         {
           "type": "p",
-          "text": "Podés borrar tu cuenta y sus datos desde <strong>Ajustes → Cuenta y perfil → Información personal → Eliminar cuenta</strong>. Es inmediato y no se puede deshacer, así que exportá tus datos antes si los querés conservar."
+          "text": "Puedes borrar tu cuenta y sus datos desde <strong>Ajustes → Cuenta y perfil → Información personal → Eliminar cuenta</strong>. Es inmediato y no se puede deshacer, así que exporta tus datos antes si los quieres conservar."
         },
         {
           "type": "p",
-          "text": "Si ya no tenés la app instalada, <a href=\"/es/delete-account\">esta página explica cómo pedirlo por correo</a>."
+          "text": "Si ya no tienes la app instalada, <a href=\"/es/delete-account\">esta página explica cómo pedirlo por correo</a>."
         }
       ]
     },

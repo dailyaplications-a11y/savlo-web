@@ -68,7 +68,7 @@ const copy = {
     heading:
       "Starte mit den Fragen, die vor der Wahl einer Budget-App auftauchen.",
     description:
-      "Diese Leitfaeden staerken die Kernthemen von Savlo: Budgetierung, Sprach-Erfassung und langfristiges Sparen.",
+      "Diese Leitfäden stärken die Kernthemen von Savlo: Budgetierung, Sprach-Erfassung und langfristiges Sparen.",
     cta: "Leitfaden lesen",
     hrefPrefix: "/de/blog",
   },
@@ -97,7 +97,7 @@ export function FeaturedReads({ locale = "en" }: { locale?: Locale }) {
           : englishFeaturedPosts
 
   return (
-    <section id="guides" className="relative py-24 sm:py-32">
+    <section id="guides" className="relative pt-14 pb-24 sm:pt-16 sm:pb-32">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary/80">
