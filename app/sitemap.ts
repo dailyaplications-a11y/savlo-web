@@ -104,31 +104,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.2,
     },
-    // Google Play exige una URL pública de eliminación de cuenta, alcanzable
-    // sin instalar la app. Se listan los 5 idiomas para que sea indexable.
+    // /delete-account (Google Play), /arrepentimiento (Disposición 954/2025)
+    // y /attributions (avisos de licencia) NO van: tienen que ser
+    // ALCANZABLES —el pie las enlaza en los 5 idiomas, la app y Play
+    // también—, no aparecer al buscar "savloapp" al lado de la portada
+    // (dueño, 2026-11-09). Llevan `noindex` (`notInSearch`, lib/site.ts), y
+    // un sitemap sólo lista lo que se quiere indexado.
     ...localizedEntries({
-      path: "/delete-account",
-      lastModified: new Date("2026-08-09T00:00:00Z"),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    }),
-    // Botón de arrepentimiento y botón de baja: obligación argentina
-    // (Disposición 954/2025, que reemplazó a la Resolución 424/2020). La
-    // española es la que vale; las otras cuatro la traducen y lo dicen.
-    ...localizedEntries({
-      path: "/arrepentimiento",
-      lastModified: new Date("2026-11-05T00:00:00Z"),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    }),
-    // Atribuciones de código abierto. Va en los 5 idiomas porque los avisos
-    // de copyright que reproduce (Lucide/ISC entre otros) tienen que ser
-    // alcanzables públicamente, no sólo desde el pie de página.
-    ...localizedEntries({
-      path: "/attributions",
-      lastModified: new Date("2026-08-23T00:00:00Z"),
-      changeFrequency: "yearly",
-      priority: 0.2,
+      path: "/help",
+      lastModified: new Date("2026-08-30T00:00:00Z"),
+      changeFrequency: "monthly",
+      priority: 0.4,
     }),
   ]
 }

@@ -5,34 +5,40 @@ import { FaqSection } from "@/components/savlo/faq/faq-section"
 import { faqStructuredData } from "@/components/savlo/faq/faq-copy"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, shareImages, siteConfig } from "@/lib/site"
+
+// The search result is the first screen of the site (2026-11-09): the brand
+// first, then one category phrase, under 60 characters so it shows whole; the
+// same words in og:title, so Google has no second title to pick from; a
+// description of ~150 characters that ends before Google cuts it.
+const title = "Savlo | AI Budgeting App & Expense Tracker"
+const description =
+  "Meet Savlo, the AI-powered personal finance app. Say or type an expense in seconds and see where your money goes across accounts, budgets and funds."
+const images = shareImages("en")
+const imageAlt = "Savlo app: net worth, budget by category and a savings fund"
 
 export const metadata: Metadata = {
-  // brand first, then what it is and does (under ~60 characters, so search
-  // results show it whole)
-  title: { absolute: "Savlo Budgeting App | Track, Save & Plan Your Money" },
-  description: siteConfig.description,
+  title: { absolute: title },
+  description,
   keywords: [...siteConfig.keywords],
   alternates: metadataAlternates("/"),
   openGraph: {
-    title: "Savlo | Budgeting app and expense tracker",
-    description: siteConfig.description,
+    title,
+    description,
     url: "/",
     siteName: siteConfig.name,
     locale: siteConfig.locale,
     type: "website",
     images: [
-      {
-        url: absoluteUrl(siteConfig.ogImage),
-        alt: "Savlo budgeting app preview",
-      },
+      { ...images.card, alt: imageAlt },
+      { ...images.square, alt: imageAlt },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Daily personal finance control in minutes",
-    description: siteConfig.description,
-    images: [absoluteUrl(siteConfig.ogImage)],
+    title,
+    description,
+    images: [images.card.url],
   },
 }
 
@@ -60,7 +66,10 @@ export default function Page() {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "@id": websiteId,
+      // the site name Google prints above the result (it printed the bare
+      // domain, "savloapp.com"); alternateName is the fallback it may use
       name: siteConfig.name,
+      alternateName: ["Savlo App", "savloapp.com"],
       url: siteConfig.url,
       description: siteConfig.description,
       inLanguage: "en",
@@ -78,11 +87,8 @@ export default function Page() {
       operatingSystem: "Android",
       url: siteConfig.url,
       description: siteConfig.longDescription,
-      image: absoluteUrl(siteConfig.ogImage),
-      screenshot: [
-        absoluteUrl("/app_screen_today.png"),
-        absoluteUrl("/app_screen_funds.png"),
-      ],
+      image: [images.square.url, images.card.url],
+      screenshot: [images.square.url],
       offers: {
         "@type": "Offer",
         price: "0",

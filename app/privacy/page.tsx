@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/privacy",
     languages: {
-      en: "https://savloapp.com/privacy",
-      es: "https://savloapp.com/es/privacy",
-      "pt-BR": "https://savloapp.com/pt/privacy",
-      "de-DE": "https://savloapp.com/de/privacy",
-      "fr-FR": "https://savloapp.com/fr/privacy",
-      "x-default": "https://savloapp.com/privacy",
+      en: "https://www.savloapp.com/privacy",
+      es: "https://www.savloapp.com/es/privacy",
+      "pt-BR": "https://www.savloapp.com/pt/privacy",
+      "de-DE": "https://www.savloapp.com/de/privacy",
+      "fr-FR": "https://www.savloapp.com/fr/privacy",
+      "x-default": "https://www.savloapp.com/privacy",
     },
   },
 }

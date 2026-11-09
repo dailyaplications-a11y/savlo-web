@@ -12,7 +12,10 @@ export const siteConfig = {
     "Savlo is a personal finance app designed for daily control in minutes. The app features multi-modal AI logging, independent accounts, sinking funds, category budgeting, and quick-access widgets for instant overview without complex spreadsheets.",
   locale: "en_US",
   category: "personal finance",
-  ogImage: "/app_screen_today.png",
+  // Composed from the storyboard's own phones (2026-11-09): the share card
+  // and the image Google may show beside the result. The old one was a raw,
+  // tall 2023 capture of the app, cropped to a slice by every preview.
+  ogImage: "/og/og-en.jpg",
   supportEmail: "support@savloapp.com",
   playStoreUrl: "https://play.google.com/store/apps/details?id=com.savlo.app",
   lastUpdated: "2026-06-02",
@@ -33,6 +36,41 @@ export const siteConfig = {
     "mint alternative",
     "YNAB alternative",
   ],
+} as const
+
+/**
+ * The share card (1200×630, the hero copy beside three phones) and the square
+ * (1200×1200, the phones alone) in each language: the phones speak the
+ * page's language. Google picks a result's thumbnail from the page's own
+ * images, so the home names both in og:image and in its schema.
+ */
+export function shareImages(locale: Locale) {
+  return {
+    card: {
+      url: absoluteUrl(`/og/og-${locale}.jpg`),
+      width: 1200,
+      height: 630,
+    },
+    square: {
+      url: absoluteUrl(`/og/og-${locale}-square.jpg`),
+      width: 1200,
+      height: 1200,
+    },
+  }
+}
+
+/**
+ * Pages that must be reachable but are not what anyone searches for: the
+ * open-source attributions, the account deletion page Google Play asks for
+ * and the Argentine withdrawal button. Search showed them for "savloapp"
+ * next to the home (2026-11-09). `noindex` in the HTML, never a robots.txt
+ * Disallow: a blocked URL can't show its `noindex` and may stay indexed.
+ * `follow` stays on, so the links in their footers still count.
+ */
+export const notInSearch = {
+  index: false,
+  follow: true,
+  googleBot: { index: false, follow: true },
 } as const
 
 /** The blog's byline in each language (the author page, the posts, their schema). */

@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { notInSearch } from "@/lib/site"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import LegalPage from "@/components/savlo/legal-page"
 import data from "@/lib/legal/arrepentimiento-en.json"
@@ -7,7 +8,9 @@ import { ARREPENTIMIENTO_LANGUAGES } from "@/lib/legal/arrepentimiento"
 // A translation of /es/arrepentimiento, the page Argentina's Disposition
 // 954/2025 requires. The Spanish one is the legally binding version (this one
 // says so and links to it); the label "BOTÓN DE ARREPENTIMIENTO" stays literal.
+// reachable (footer, app, Google Play), but not a search result: lib/site.ts
 export const metadata: Metadata = {
+  robots: notInSearch,
   title: data.title,
   description: data.description,
   alternates: { canonical: "/arrepentimiento", languages: ARREPENTIMIENTO_LANGUAGES },

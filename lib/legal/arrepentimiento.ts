@@ -5,10 +5,10 @@
  * link has to read "botón de arrepentimiento".
  */
 export const ARREPENTIMIENTO_LANGUAGES = {
-  en: "https://savloapp.com/arrepentimiento",
-  es: "https://savloapp.com/es/arrepentimiento",
-  "pt-BR": "https://savloapp.com/pt/arrepentimiento",
-  "de-DE": "https://savloapp.com/de/arrepentimiento",
-  "fr-FR": "https://savloapp.com/fr/arrepentimiento",
-  "x-default": "https://savloapp.com/es/arrepentimiento",
+  en: "https://www.savloapp.com/arrepentimiento",
+  es: "https://www.savloapp.com/es/arrepentimiento",
+  "pt-BR": "https://www.savloapp.com/pt/arrepentimiento",
+  "de-DE": "https://www.savloapp.com/de/arrepentimiento",
+  "fr-FR": "https://www.savloapp.com/fr/arrepentimiento",
+  "x-default": "https://www.savloapp.com/es/arrepentimiento",
 }

@@ -5,12 +5,20 @@ import { FaqSection } from "@/components/savlo/faq/faq-section"
 import { faqStructuredData } from "@/components/savlo/faq/faq-copy"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, shareImages, siteConfig } from "@/lib/site"
+
+// Marca primero, una categoría y < 60 caracteres; el mismo título en
+// og:title (si difieren, Google elige o reescribe: mostraba "Control y manejo
+// diario de finanzas en minutos | Savlo"); descripción de ~150 caracteres.
+const title = "Savlo | App de finanzas personales con IA"
+const description =
+  "Conoce Savlo, la app de finanzas personales con IA. Dicta o escribe un gasto en segundos y mira en qué se va tu dinero: cuentas, presupuesto y fondos."
+const images = shareImages("es")
+const imageAlt = "La app Savlo: patrimonio, presupuesto por categoría y un fondo de ahorro"
 
 export const metadata: Metadata = {
-  title: { absolute: "Savlo Budgeting App | Registra, ahorra y planifica" },
-  description:
-    "Savlo es una app para el control y manejo diario de tus finanzas en minutos. Registra movimientos por voz o texto rápido, organiza tu dinero en cuentas independientes y optimiza tus gastos sin esfuerzo.",
+  title: { absolute: title },
+  description,
   keywords: [
     "app de finanzas",
     "control de gastos",
@@ -21,26 +29,22 @@ export const metadata: Metadata = {
   ],
   alternates: metadataAlternates("/es"),
   openGraph: {
-    title: "Savlo | Control y manejo diario de finanzas en minutos",
-    description:
-      "Una app diseñada para darte el control activo y diario de tu dinero en minutos.",
+    title,
+    description,
     url: "/es",
     siteName: siteConfig.name,
     locale: "es_ES",
     type: "website",
     images: [
-      {
-        url: absoluteUrl(siteConfig.ogImage),
-        alt: "Vista previa de la app de control financiero Savlo",
-      },
+      { ...images.card, alt: imageAlt },
+      { ...images.square, alt: imageAlt },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Control y manejo diario de finanzas en minutos",
-    description:
-      "Registra movimientos por voz o texto, organiza tu dinero en cuentas independientes y optimiza tus gastos diariamente.",
-    images: [absoluteUrl(siteConfig.ogImage)],
+    title,
+    description,
+    images: [images.card.url],
   },
 }
 
@@ -70,11 +74,8 @@ export default function SpanishHomePage() {
       url: absoluteUrl("/es"),
       description:
         "Savlo es una app para el control y manejo diario de finanzas en minutos, con registros por voz y texto rápido, cuentas independientes, Sinking Funds, importaciones de planillas y exportación de datos.",
-      image: absoluteUrl(siteConfig.ogImage),
-      screenshot: [
-        absoluteUrl("/app_screen_today.png"),
-        absoluteUrl("/app_screen_funds.png"),
-      ],
+      image: [images.square.url, images.card.url],
+      screenshot: [images.square.url],
       inLanguage: "es",
       offers: {
         "@type": "Offer",

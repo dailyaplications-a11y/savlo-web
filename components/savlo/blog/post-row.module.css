@@ -1,0 +1,105 @@
+/* A post in a list (post-row.tsx). */
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 0;
+  border-radius: 8px;
+  color: var(--foreground);
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.row:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
+
+.text {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 4px;
+  /* the press lets go slower than it lands, like a key coming back up */
+  transition: opacity 240ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.012em;
+  text-wrap: pretty;
+}
+
+.date {
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--muted-foreground);
+  transition: color 240ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* The press: the words dim under the finger or the click, no box, no wash. */
+.row:active .text {
+  opacity: 0.6;
+  transition-duration: 60ms;
+}
+
+/* A desktop hint only: a phone has nothing to hover, so no arrow there. */
+.arrow {
+  display: none;
+  flex-shrink: 0;
+  margin-top: 5px;
+  color: var(--muted-foreground);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition:
+    opacity 300ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    transform 300ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    color 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (min-width: 640px) {
+  .arrow {
+    display: block;
+  }
+}
+
+.row:focus-visible .arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .row:hover .arrow {
+    opacity: 1;
+    transform: translateX(0);
+    color: var(--foreground);
+  }
+
+  .row:hover .date {
+    color: color-mix(in oklab, var(--foreground) 72%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .text,
+  .date,
+  .arrow {
+    transition: none;
+  }
+
+  .arrow,
+  .row:focus-visible .arrow {
+    transform: none;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .row:hover .arrow {
+      transform: none;
+    }
+  }
+}

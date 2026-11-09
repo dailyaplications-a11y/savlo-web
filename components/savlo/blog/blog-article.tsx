@@ -2,7 +2,6 @@ import Link from "next/link"
 import { Fragment, type ReactNode } from "react"
 import {
   formatBlogDate,
-  formatBlogDateShort,
   getRecommendedPosts,
   getRelatedPosts,
   type BlogPost,
@@ -15,6 +14,7 @@ import { getSpanishPostBySlug } from "@/lib/blog/spanish-posts"
 import { blogCategoryLabel } from "@/lib/blog/category-labels"
 import type { Locale } from "@/lib/i18n"
 import { absoluteUrl, siteConfig } from "@/lib/site"
+import { KeepReading } from "./keep-reading"
 
 type ArticlePost = Omit<BlogPost, "content" | "stats"> & {
   stats?: BlogPost["stats"]
@@ -40,10 +40,8 @@ const labels = {
     shareX: "Share on X",
     shareLinkedIn: "Share on LinkedIn",
     stats: ["Words", "Characters", "Sentences", "Paragraphs"],
-    relatedGuides: "Related guides",
-    backToBlog: "Back to blog",
     keepReading: "Keep reading",
-    moreIn: "More articles in",
+    allGuides: "All guides",
     homeHref: "/",
     blogHref: "/blog",
     blogPath: "/blog",
@@ -61,10 +59,8 @@ const labels = {
     shareX: "Compartir en X",
     shareLinkedIn: "Compartir en LinkedIn",
     stats: ["Palabras", "Caracteres", "Frases", "Párrafos"],
-    relatedGuides: "Guías relacionadas",
-    backToBlog: "Volver al blog",
-    keepReading: "Seguir leyendo",
-    moreIn: "Más artículos en",
+    keepReading: "Sigue leyendo",
+    allGuides: "Todas las guías",
     homeHref: "/es",
     blogHref: "/es/blog",
     blogPath: "/es/blog",
@@ -82,10 +78,8 @@ const labels = {
     shareX: "Compartilhar no X",
     shareLinkedIn: "Compartilhar no LinkedIn",
     stats: ["Palavras", "Caracteres", "Frases", "Parágrafos"],
-    relatedGuides: "Guias relacionados",
-    backToBlog: "Voltar ao blog",
-    keepReading: "Continuar lendo",
-    moreIn: "Mais artigos em",
+    keepReading: "Continue lendo",
+    allGuides: "Todos os guias",
     homeHref: "/pt",
     blogHref: "/pt/blog",
     blogPath: "/pt/blog",
@@ -103,10 +97,8 @@ const labels = {
     shareX: "Auf X teilen",
     shareLinkedIn: "Auf LinkedIn teilen",
     stats: ["Wörter", "Zeichen", "Sätze", "Absätze"],
-    relatedGuides: "Verwandte Leitfäden",
-    backToBlog: "Zurück zum Blog",
     keepReading: "Weiterlesen",
-    moreIn: "Mehr Artikel in",
+    allGuides: "Alle Leitfäden",
     homeHref: "/de",
     blogHref: "/de/blog",
     blogPath: "/de/blog",
@@ -124,10 +116,8 @@ const labels = {
     shareX: "Partager sur X",
     shareLinkedIn: "Partager sur LinkedIn",
     stats: ["Mots", "Caractères", "Phrases", "Paragraphes"],
-    relatedGuides: "Guides associés",
-    backToBlog: "Retour au blog",
     keepReading: "Continuer la lecture",
-    moreIn: "Plus d'articles dans",
+    allGuides: "Tous les guides",
     homeHref: "/fr",
     blogHref: "/fr/blog",
     blogPath: "/fr/blog",
@@ -143,12 +133,13 @@ export function BlogArticle({
   locale?: Locale
 }) {
   const text = labels[locale]
-  const recommended = localizePosts(getRecommendedPosts(post.slug, 3), locale)
-  const related = localizePosts(getRelatedPosts(post.slug, 3), locale).filter(
-    (relatedPost) =>
-      !recommended.some(
-        (recommendedPost) => recommendedPost.slug === relatedPost.slug,
-      ),
+  // What to read next: the hand-picked guides first, then the same category
+  // fills the list up to three, never a post twice
+  const readNext = localizePosts(
+    [...getRecommendedPosts(post.slug, 3), ...getRelatedPosts(post.slug, 3)]
+      .filter((p, i, all) => all.findIndex((q) => q.slug === p.slug) === i)
+      .slice(0, 3),
+    locale,
   )
   const Content = post.content
   const stats = getArticleStats(post)
@@ -276,106 +267,19 @@ export function BlogArticle({
         )}
       </div>
 
-      {recommended.length > 0 && (
-        <section
-          aria-labelledby="recommended-heading"
-          className="mt-16 border-y border-border/60 py-8"
-        >
-          <h2
-            id="recommended-heading"
-            className="font-serif text-2xl font-medium tracking-tight text-foreground"
-          >
-            {text.relatedGuides}
-          </h2>
-          <ol className="mt-5 grid gap-4 sm:grid-cols-3">
-            {recommended.map((recommendedPost) => (
-              <li key={recommendedPost.slug}>
-                <Link
-                  href={`${text.blogPath}/${recommendedPost.slug}`}
-                  className="group block h-full"
-                >
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-primary/80">
-                    {blogCategoryLabel(locale, recommendedPost.category)}
-                  </p>
-                  <h3 className="mt-2 text-balance text-sm font-semibold leading-snug text-foreground transition-colors group-hover:text-primary">
-                    {recommendedPost.title}
-                  </h3>
-                </Link>
-              </li>
-            ))}
-          </ol>
-        </section>
-      )}
-
-      <footer className="mt-20 border-t border-border/60 pt-8">
-        <div className="flex items-center justify-between gap-4 text-[13px]">
-          <Link
-            href={text.blogHref}
-            className="inline-flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground"
-          >
-            <svg
-              viewBox="0 0 24 24"
-              className="h-4 w-4"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.6"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden
-            >
-              <path d="M19 12H5M12 19l-7-7 7-7" />
-            </svg>
-            {text.backToBlog}
-          </Link>
-          <time
-            dateTime={post.dateModified}
-            className="text-muted-foreground tabular-nums"
-          >
-            {text.updated}{" "}
-            {formatBlogDateShort(post.dateModified, text.dateLocale)}
-          </time>
-        </div>
-      </footer>
-
-      {related.length > 0 && (
-        <section
-          aria-labelledby="related-heading"
-          className="mt-20 border-t border-border/60 pt-12"
-        >
-          <h2
-            id="related-heading"
-            className="text-center font-serif text-2xl font-medium tracking-tight text-foreground"
-          >
-            {text.keepReading}
-          </h2>
-          <p className="mt-2 text-center text-[13px] text-muted-foreground">
-            {text.moreIn}{" "}
-            <span className="text-foreground/80">
-              {blogCategoryLabel(locale, post.category)}
-            </span>
-          </p>
-          <ol className="mt-10 flex flex-col gap-8">
-            {related.map((relatedPost) => (
-              <li key={relatedPost.slug} className="text-center">
-                <Link
-                  href={`${text.blogPath}/${relatedPost.slug}`}
-                  className="group inline-block"
-                >
-                  <h3 className="text-balance text-lg font-semibold text-foreground transition-colors group-hover:text-primary">
-                    {relatedPost.title}
-                  </h3>
-                  <time
-                    dateTime={relatedPost.date}
-                    className="mt-1 block text-[12px] font-medium text-primary/80"
-                  >
-                    {formatBlogDateShort(relatedPost.date, text.dateLocale)}
-                  </time>
-                </Link>
-              </li>
-            ))}
-          </ol>
-        </section>
-      )}
+      <KeepReading
+        locale={locale}
+        heading={text.keepReading}
+        allGuidesLabel={text.allGuides}
+        allGuidesHref={text.blogHref}
+        posts={readNext.map((nextPost) => ({
+          href: `${text.blogPath}/${nextPost.slug}`,
+          title: nextPost.title,
+          date: nextPost.date,
+        }))}
+        updatedLabel={text.updated}
+        updatedDate={post.dateModified}
+      />
     </article>
   )
 }

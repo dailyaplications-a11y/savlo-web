@@ -5,42 +5,44 @@ import { FaqSection } from "@/components/savlo/faq/faq-section"
 import { faqStructuredData } from "@/components/savlo/faq/faq-copy"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import { metadataAlternates } from "@/lib/i18n"
-import { absoluteUrl, siteConfig } from "@/lib/site"
+import { absoluteUrl, shareImages, siteConfig } from "@/lib/site"
 
+// Brand first, one category, < 60 characters; the same title in og:title;
+// a ~150-character description (see app/page.tsx).
+const title = "Savlo | Haushaltsbuch & Budget-App mit KI"
 const description =
-  "Savlo ist eine App für die tägliche Finanzkontrolle und -verwaltung in Minuten. Erfasse Ausgaben per Sprache oder Text, organisiere dein Geld auf unabhängigen Konten und optimiere dein Budget mühelos."
+  "Lerne Savlo kennen, die Finanz-App mit KI. Sprich oder tippe eine Ausgabe in Sekunden ein und sieh, wohin dein Geld geht: Konten, Budget und Fonds."
+const images = shareImages("de")
+const imageAlt = "Die Savlo-App: Vermögen, Budget nach Kategorie und ein Sparfonds"
 
 export const metadata: Metadata = {
-  title: { absolute: "Savlo Budgeting App | Erfasse, spare und plane dein Geld" },
+  title: { absolute: title },
   description,
   keywords: [
     "Budget App",
+    "Haushaltsbuch App",
     "persönliche Finanzen",
-    "finanzielle Angst",
     "Ausgaben per Sprache",
     "Sinking Funds",
-    "Verhaltensfinanzen",
   ],
   alternates: metadataAlternates("/de"),
   openGraph: {
-    title: "Savlo | Tägliche Finanzkontrolle in Minuten",
+    title,
     description,
     url: "/de",
     siteName: siteConfig.name,
     locale: "de_DE",
     type: "website",
     images: [
-      {
-        url: absoluteUrl(siteConfig.ogImage),
-        alt: "Savlo Budget-App Vorschau",
-      },
+      { ...images.card, alt: imageAlt },
+      { ...images.square, alt: imageAlt },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Tägliche Finanzkontrolle in Minuten",
+    title,
     description,
-    images: [absoluteUrl(siteConfig.ogImage)],
+    images: [images.card.url],
   },
 }
 
@@ -87,11 +89,8 @@ export default function GermanHomePage() {
       url: absoluteUrl("/de"),
       description:
         "Savlo ist eine App für die tägliche Finanzkontrolle und -verwaltung in Minuten mit Sprach- und Texteingabe, unabhängigen Konten, Sinking Funds, Tabellenimport und Datenexport.",
-      image: absoluteUrl(siteConfig.ogImage),
-      screenshot: [
-        absoluteUrl("/app_screen_today.png"),
-        absoluteUrl("/app_screen_funds.png"),
-      ],
+      image: [images.square.url, images.card.url],
+      screenshot: [images.square.url],
       offers: {
         "@type": "Offer",
         price: "0",

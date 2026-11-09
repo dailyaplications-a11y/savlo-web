@@ -1,11 +1,10 @@
 "use client"
 
-import Link from "next/link"
 import { useMemo, useState, type FormEvent } from "react"
 import { posts as englishPosts, type BlogCategory } from "@/lib/blog/posts"
 import type { Locale } from "@/lib/i18n"
-import { blogDateLocale } from "@/lib/i18n"
 import { buildMailto } from "@/lib/site"
+import { BlogPostRow } from "./post-row"
 
 /*
  * Blog index: one quiet column, the way the best product blogs do it.
@@ -121,34 +120,6 @@ const copy = {
   },
 } as const
 
-/** "7 jun 2026", "Jun 7, 2026", "7. Juni 2026": the month in words reads faster than 7/6/2026. */
-function formatListDate(iso: string, locale: Locale) {
-  return new Intl.DateTimeFormat(blogDateLocale(locale), {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  }).format(new Date(`${iso}T00:00:00`))
-}
-
-function ArrowRight({ className }: { className?: string }) {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden
-      className={className}
-    >
-      <path d="M3 8h10M9 4l4 4-4 4" />
-    </svg>
-  )
-}
-
 export function BlogIndex({
   locale = "en",
   posts: blogPosts = englishPosts,
@@ -195,23 +166,12 @@ export function BlogIndex({
       <ol aria-label={text.postsLabel} className="mt-10 flex flex-col sm:mt-16">
         {sorted.map((post) => (
           <li key={post.slug}>
-            <Link
+            <BlogPostRow
               href={`${prefix}/blog/${post.slug}`}
-              className="group flex items-start justify-between gap-6 rounded-lg py-4 outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
-            >
-              <span className="flex min-w-0 flex-col gap-1">
-                <span className="text-pretty text-[19px] font-semibold leading-[1.35] tracking-[-0.012em] text-foreground">
-                  {post.title}
-                </span>
-                <time
-                  dateTime={post.date}
-                  className="text-sm leading-[1.4] text-muted-foreground"
-                >
-                  {formatListDate(post.date, locale)}
-                </time>
-              </span>
-              <ArrowRight className="mt-[5px] hidden shrink-0 -translate-x-1.5 text-muted-foreground opacity-0 transition-[opacity,transform] duration-300 ease-[cubic-bezier(0.2,0.8,0.2,1)] group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100 motion-reduce:transition-none sm:block" />
-            </Link>
+              title={post.title}
+              date={post.date}
+              locale={locale}
+            />
           </li>
         ))}
       </ol>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { notInSearch } from "@/lib/site"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import LegalPage from "@/components/savlo/legal-page"
 import arrepentimientoData from "@/lib/legal/arrepentimiento-es.json"
@@ -13,7 +14,9 @@ import { ARREPENTIMIENTO_LANGUAGES } from "@/lib/legal/arrepentimiento"
 // ARREPENTIMIENTO" queda literal en todas. El pie la enlaza desde los cinco
 // idiomas, porque la norma pide que sea alcanzable "a simple vista y en el
 // primer acceso".
+// reachable (footer, app, Google Play), but not a search result: lib/site.ts
 export const metadata: Metadata = {
+  robots: notInSearch,
   title: arrepentimientoData.title,
   description: arrepentimientoData.description,
   alternates: {

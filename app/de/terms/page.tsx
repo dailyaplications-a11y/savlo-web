@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/de/terms",
     languages: {
-      en: "https://savloapp.com/terms",
-      es: "https://savloapp.com/es/terms",
-      "pt-BR": "https://savloapp.com/pt/terms",
-      "de-DE": "https://savloapp.com/de/terms",
-      "fr-FR": "https://savloapp.com/fr/terms",
-      "x-default": "https://savloapp.com/terms",
+      en: "https://www.savloapp.com/terms",
+      es: "https://www.savloapp.com/es/terms",
+      "pt-BR": "https://www.savloapp.com/pt/terms",
+      "de-DE": "https://www.savloapp.com/de/terms",
+      "fr-FR": "https://www.savloapp.com/fr/terms",
+      "x-default": "https://www.savloapp.com/terms",
     },
   },
 }

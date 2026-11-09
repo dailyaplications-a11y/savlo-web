@@ -45,7 +45,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Savlo | Budgeting app and expense tracker",
+    default: "Savlo | AI Budgeting App & Expense Tracker",
     template: "%s | Savlo",
   },
   description: siteConfig.description,
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: "/",
     siteName: siteConfig.name,
-    title: "Savlo | Budgeting app and expense tracker",
+    title: "Savlo | AI Budgeting App & Expense Tracker",
     description: siteConfig.description,
     images: [
       {
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Savlo | Budgeting app and expense tracker",
+    title: "Savlo | AI Budgeting App & Expense Tracker",
     description: siteConfig.description,
     images: [absoluteUrl(siteConfig.ogImage)],
   },

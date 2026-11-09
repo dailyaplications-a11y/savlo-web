@@ -45,7 +45,6 @@ const COLUMNS: Record<Locale, Column[]> = {
         },
         { label: "Financial anxiety", href: "/blog/financial-anxiety" },
         { label: "Money dysmorphia", href: "/blog/money-dysmorphia" },
-        { label: "Philosophy", href: "/#philosophy" },
       ],
     },
     {
@@ -112,7 +111,6 @@ const COLUMNS: Record<Locale, Column[]> = {
         },
         { label: "Ansiedad financiera", href: "/es/blog/financial-anxiety" },
         { label: "Dismorfia monetaria", href: "/es/blog/money-dysmorphia" },
-        { label: "Filosofía", href: "/es#philosophy" },
       ],
     },
     {
@@ -175,7 +173,6 @@ const COLUMNS: Record<Locale, Column[]> = {
         },
         { label: "Ansiedade financeira", href: "/pt/blog/financial-anxiety" },
         { label: "Dismorfia monetária", href: "/pt/blog/money-dysmorphia" },
-        { label: "Filosofia", href: "/pt#philosophy" },
       ],
     },
     {
@@ -238,7 +235,6 @@ const COLUMNS: Record<Locale, Column[]> = {
         },
         { label: "Finanzielle Angst", href: "/de/blog/financial-anxiety" },
         { label: "Money Dysmorphia", href: "/de/blog/money-dysmorphia" },
-        { label: "Philosophie", href: "/de#philosophy" },
       ],
     },
     {
@@ -301,7 +297,6 @@ const COLUMNS: Record<Locale, Column[]> = {
         },
         { label: "Anxiété financière", href: "/fr/blog/financial-anxiety" },
         { label: "Dysmorphie financière", href: "/fr/blog/money-dysmorphia" },
-        { label: "Philosophie", href: "/fr#philosophy" },
       ],
     },
     {

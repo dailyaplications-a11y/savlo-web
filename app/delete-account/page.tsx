@@ -1,20 +1,23 @@
 import type { Metadata } from "next"
+import { notInSearch } from "@/lib/site"
 import { SiteFooter } from "@/components/savlo/site-footer"
 import LegalPage from "@/components/savlo/legal-page"
 import deleteAccountData from "@/lib/legal/delete-account-en.json"
 
+// reachable (footer, app, Google Play), but not a search result: lib/site.ts
 export const metadata: Metadata = {
+  robots: notInSearch,
   title: deleteAccountData.title,
   description: deleteAccountData.description,
   alternates: {
     canonical: "/delete-account",
     languages: {
-      en: "https://savloapp.com/delete-account",
-      es: "https://savloapp.com/es/delete-account",
-      "pt-BR": "https://savloapp.com/pt/delete-account",
-      "de-DE": "https://savloapp.com/de/delete-account",
-      "fr-FR": "https://savloapp.com/fr/delete-account",
-      "x-default": "https://savloapp.com/delete-account",
+      en: "https://www.savloapp.com/delete-account",
+      es: "https://www.savloapp.com/es/delete-account",
+      "pt-BR": "https://www.savloapp.com/pt/delete-account",
+      "de-DE": "https://www.savloapp.com/de/delete-account",
+      "fr-FR": "https://www.savloapp.com/fr/delete-account",
+      "x-default": "https://www.savloapp.com/delete-account",
     },
   },
 }
