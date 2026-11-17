@@ -15,7 +15,8 @@ export const siteConfig = {
   // Composed from the storyboard's own phones (2026-11-09): the share card
   // and the image Google may show beside the result. The old one was a raw,
   // tall 2023 capture of the app, cropped to a slice by every preview.
-  ogImage: "/og/og-en.jpg",
+  // 2026-11-17: the v2 card (Figma page 03, "v2 / Social / EN").
+  ogImage: "/og/og-en-v2.jpg",
   supportEmail: "support@savloapp.com",
   playStoreUrl: "https://play.google.com/store/apps/details?id=com.savlo.app",
   lastUpdated: "2026-06-02",
@@ -43,11 +44,18 @@ export const siteConfig = {
  * (1200×1200, the phones alone) in each language: the phones speak the
  * page's language. Google picks a result's thumbnail from the page's own
  * images, so the home names both in og:image and in its schema.
+ *
+ * 2026-11-17: the card of es/en is the v2 design (logo and headline on the
+ * left, the real Today screen on the right, the voice transcript and the saved
+ * toast over it; Figma page 03, "v2 / Social"). A new design gets a NEW file
+ * name: WhatsApp, Facebook and LinkedIn cache a preview by its URL.
  */
+const cardVersion: Partial<Record<Locale, string>> = { es: "-v2", en: "-v2" }
+
 export function shareImages(locale: Locale) {
   return {
     card: {
-      url: absoluteUrl(`/og/og-${locale}.jpg`),
+      url: absoluteUrl(`/og/og-${locale}${cardVersion[locale] ?? ""}.jpg`),
       width: 1200,
       height: 630,
     },
