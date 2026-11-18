@@ -13,7 +13,7 @@ const title = "Savlo | Haushaltsbuch & Budget-App mit KI"
 const description =
   "Lerne Savlo kennen, die Finanz-App mit KI. Sprich oder tippe eine Ausgabe in Sekunden ein und sieh, wohin dein Geld geht: Konten, Budget und Fonds."
 const images = shareImages("de")
-const imageAlt = "Die Savlo-App: Vermögen, Budget nach Kategorie und ein Sparfonds"
+const imageAlt = "Die Savlo-App: dein Vermögen auf dem Heute-Bildschirm und eine Ausgabe, laut gesagt und in Sekunden gespeichert"
 
 export const metadata: Metadata = {
   title: { absolute: title },

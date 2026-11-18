@@ -13,7 +13,7 @@ const title = "Savlo | App de finanças pessoais com IA"
 const description =
   "Conheça o Savlo, o app de finanças pessoais com IA. Fale ou digite um gasto em segundos e veja para onde vai seu dinheiro: contas, orçamento e fundos."
 const images = shareImages("pt")
-const imageAlt = "O app Savlo: patrimônio, orçamento por categoria e um fundo de poupança"
+const imageAlt = "O app Savlo: o patrimônio na tela Hoje e um gasto dito em voz alta, salvo em segundos"
 
 export const metadata: Metadata = {
   title: { absolute: title },

@@ -15,8 +15,8 @@ export const siteConfig = {
   // Composed from the storyboard's own phones (2026-11-09): the share card
   // and the image Google may show beside the result. The old one was a raw,
   // tall 2023 capture of the app, cropped to a slice by every preview.
-  // 2026-11-17: the v2 card (Figma page 03, "v2 / Social / EN").
-  ogImage: "/og/og-en-v2.jpg",
+  // 2026-11-18: the card of shareImages("en"), see below.
+  ogImage: "/og/og-en-v3.jpg",
   supportEmail: "support@savloapp.com",
   playStoreUrl: "https://play.google.com/store/apps/details?id=com.savlo.app",
   lastUpdated: "2026-06-02",
@@ -40,33 +40,34 @@ export const siteConfig = {
 } as const
 
 /**
- * The share card (1200×630, the hero copy beside three phones) and the square
- * (1200×1200, the phones alone) in each language: the phones speak the
- * page's language. Google picks a result's thumbnail from the page's own
- * images, so the home names both in its schema; og:image names ONLY the card
- * (2026-11-18): Discord drew the two side by side, each one cropped.
+ * The share images of each language, from Figma page 03 ("v2 / Social" and
+ * "v2 / Square"): logo and headline on the left, the real Today screen on the
+ * right, the voice transcript and the saved toast over it. The phone speaks
+ * the page's language and shows the site's own amounts ($6,829), not a
+ * fortune (owner, 2026-11-18).
  *
- * 2026-11-17: the card of es/en is the v2 design (logo and headline on the
- * left, the real Today screen on the right, the voice transcript and the saved
- * toast over it; Figma page 03, "v2 / Social"). A new design gets a NEW file
- * name: WhatsApp, Facebook and LinkedIn cache a preview by its URL.
- *
- * 2026-11-18: the square of es/en too ("v2 / Square"). WhatsApp Web picks the
- * SQUARE for its thumbnail, so the old one kept showing until it changed.
+ * - og:image names ONLY the card: Discord drew the two side by side, each one
+ *   cropped. The square lives in the schema, where Google picks a result's
+ *   thumbnail from.
+ * - Exported at 2x (2400 px) as JPEG q92 without chroma subsampling, so lines
+ *   and small type stay sharp on dense screens; the card stays under the
+ *   ~300 KB WhatsApp handles.
+ * - A new design gets a NEW file name (-v3): WhatsApp, Facebook and LinkedIn
+ *   cache a preview by its URL.
  */
-const cardVersion: Partial<Record<Locale, string>> = { es: "-v2", en: "-v2" }
+const SHARE_VERSION = "-v3"
 
 export function shareImages(locale: Locale) {
   return {
     card: {
-      url: absoluteUrl(`/og/og-${locale}${cardVersion[locale] ?? ""}.jpg`),
-      width: 1200,
-      height: 630,
+      url: absoluteUrl(`/og/og-${locale}${SHARE_VERSION}.jpg`),
+      width: 2400,
+      height: 1260,
     },
     square: {
-      url: absoluteUrl(`/og/og-${locale}-square${cardVersion[locale] ?? ""}.jpg`),
-      width: 1200,
-      height: 1200,
+      url: absoluteUrl(`/og/og-${locale}-square${SHARE_VERSION}.jpg`),
+      width: 2400,
+      height: 2400,
     },
   }
 }
