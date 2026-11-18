@@ -15,7 +15,7 @@ const title = "Savlo | AI Budgeting App & Expense Tracker"
 const description =
   "Meet Savlo, the AI-powered personal finance app. Say or type an expense in seconds and see where your money goes across accounts, budgets and funds."
 const images = shareImages("en")
-const imageAlt = "Savlo app: net worth, budget by category and a savings fund"
+const imageAlt = "Savlo app: net worth on the Today screen, and an expense said out loud and saved in seconds"
 
 export const metadata: Metadata = {
   title: { absolute: title },

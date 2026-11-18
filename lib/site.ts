@@ -49,6 +49,9 @@ export const siteConfig = {
  * left, the real Today screen on the right, the voice transcript and the saved
  * toast over it; Figma page 03, "v2 / Social"). A new design gets a NEW file
  * name: WhatsApp, Facebook and LinkedIn cache a preview by its URL.
+ *
+ * 2026-11-18: the square of es/en too ("v2 / Square"). WhatsApp Web picks the
+ * SQUARE for its thumbnail, so the old one kept showing until it changed.
  */
 const cardVersion: Partial<Record<Locale, string>> = { es: "-v2", en: "-v2" }
 
@@ -60,7 +63,7 @@ export function shareImages(locale: Locale) {
       height: 630,
     },
     square: {
-      url: absoluteUrl(`/og/og-${locale}-square.jpg`),
+      url: absoluteUrl(`/og/og-${locale}-square${cardVersion[locale] ?? ""}.jpg`),
       width: 1200,
       height: 1200,
     },
