@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       { ...images.card, alt: imageAlt },
-      { ...images.square, alt: imageAlt },
     ],
   },
   twitter: {

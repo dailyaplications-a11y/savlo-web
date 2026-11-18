@@ -43,7 +43,8 @@ export const siteConfig = {
  * The share card (1200×630, the hero copy beside three phones) and the square
  * (1200×1200, the phones alone) in each language: the phones speak the
  * page's language. Google picks a result's thumbnail from the page's own
- * images, so the home names both in og:image and in its schema.
+ * images, so the home names both in its schema; og:image names ONLY the card
+ * (2026-11-18): Discord drew the two side by side, each one cropped.
  *
  * 2026-11-17: the card of es/en is the v2 design (logo and headline on the
  * left, the real Today screen on the right, the voice transcript and the saved
